@@ -1790,19 +1790,89 @@ function viewHead(em, title, stamp, sub){
 const ETF_PESOS = {dy_vs_historico:35, drawdown:25, balance_cagr:15, momentum:10, dgr:15};
 
 /* =================== ETFs USA =================== */
-function renderETFs(){
+function renderETFs(param){
+  if(param) return renderETFsDetail(param);
   const e = VS.data.etfs;
+  const g = VS.data.sp_nq;
   const news = VS.data.n_etfs;
   if(VS.status.etfs==="error" && !e) return viewHead("📊","ETFs USA","")+errBox("etfs",VS.FILES.etfs);
   if(!e||!e.etfs) return viewHead("📊","ETFs USA","")+skeletonCards(2);
 
-  const etfs = Object.values(e.etfs);
-  const main = growthSection() + etfs.map(etfPanel).join("");
-  const sidebar = newsSidebar(news, "n_etfs", "Macro USA");
+  const divEtfs = Object.values(e.etfs);
+  // Growth ETFs (CFISPETF/CFINASDAQ) vienen de sp_nq
+  const growthOrder = ["CFISPETF","CFINASDAQ"];
+  const growthEtfs = (g && g.etfs) ? growthOrder.filter(t=>g.etfs[t]).map(t=>g.etfs[t]) : [];
 
+  const sidebar = `<div><div class="sidebar-news">
+    <div class="hd">📰 Noticias · Macro USA${eduIconStatic('news')} ${news?`<span class="hint" style="margin-left:auto">${fmt.ago(VS.updated.n_etfs)}</span>`:""}</div>
+    ${VS.status.n_etfs==="error"?errBox("n_etfs","noticias"):""}
+    ${news?execSummary(news):""}
+    <div class="hint" style="margin-top:14px;line-height:1.5">Toca <b>Ver detalle</b> en un ETF para desplegar su score completo, componentes, gráfico y noticias relevantes con interpretación de impacto.</div>
+  </div></div>`;
+
+  let main = "";
+  if(growthEtfs.length){
+    main += `<div class="section-title" style="margin-top:0">Growth ETFs · Racional
+      <span class="hint" style="text-transform:none;letter-spacing:0;font-weight:400">score sobre el índice subyacente · CAPE Shiller</span>
+      <span class="rule"></span></div>
+      <div class="grid rows2">${growthEtfs.map(x=>etfRow(x,"growth")).join("")}</div>`;
+  }
+  main += `<div class="section-title">Dividend ETFs
+    <span class="hint" style="text-transform:none;letter-spacing:0;font-weight:400">SCHD · JEPQ — score de timing para DCA</span>
+    <span class="rule"></span></div>
+    <div class="grid rows2">${divEtfs.map(x=>etfRow(x,"div")).join("")}</div>`;
+
+  const allTk = [...growthEtfs,...divEtfs].map(x=>x.ticker).join(" · ");
   return viewHead("📊","ETFs USA", srcStamp("etfs"),
-    "Dividend ETFs · score de timing para DCA · "+etfs.map(x=>x.ticker).join(" · ")) +
+    "ETFs · score de timing para DCA · "+allTk) +
     `<div class="layout-split"><div>${main}</div>${sidebar}</div>`;
+}
+
+/* Fila compacta de ETF (mismo patron que clRow/usRow) */
+function etfRow(x, kind){
+  const buy = isBuyZone(x.zona);
+  const color = zoneColorVar(x.zona);
+  const precio = kind==="growth"
+    ? (x.precio_etf_clp!=null?fmt.clp(x.precio_etf_clp):"—")
+    : fmt.usd(x.precio_usd);
+  const sub = kind==="growth"
+    ? `${esc(x.indice||"")} · Growth ETF`
+    : `${esc(x.long_name||x.name||"")}`;
+  const aporte = x.aporte_sugerido_usd!=null
+    ? `aporte ${kind==="growth"?fmt.usd(x.aporte_sugerido_usd,0):fmt.usd(x.aporte_sugerido_usd,0)} · x${x.multiplicador}`
+    : "";
+  return `<div class="cl-row ${buy?'opp':''}" onclick="go('etfs','${esc(x.ticker)}')">
+    <div class="cl-id"><div class="t">${esc(x.ticker)}</div><div class="s">${sub}</div>
+      <div class="s" style="margin-top:2px;color:var(--tx-3)">${precio}</div></div>
+    <div class="cl-dy"><div class="v" style="color:${color}">${fmt.score(x.score)}</div><div class="l">score${eduIconStatic('score')}</div></div>
+    <div class="cl-bm">
+      <div>${zoneBadge(x.zona)} <span class="dim" style="margin-left:6px">${esc(aporte)}</span></div>
+      <div class="bar">${scoreBar(x.score, x.zona)}</div>
+      ${newsMiniLine(VS.data.n_etfs, ETF_NEWS_CATS[x.ticker])}
+    </div>
+    <div class="right"><span class="pill-link">Ver detalle ›</span></div>
+  </div>`;
+}
+
+/* Detalle de un ETF: reusa el panel completo (etfPanel o growthPanel) */
+function renderETFsDetail(ticker){
+  const e = VS.data.etfs;
+  const g = VS.data.sp_nq;
+  const news = VS.data.n_etfs;
+  let x = null, kind = null;
+  if(g && g.etfs && g.etfs[ticker]){ x = g.etfs[ticker]; kind = "growth"; }
+  else if(e && e.etfs){
+    const found = Object.values(e.etfs).find(v=>v.ticker===ticker);
+    if(found){ x = found; kind = "div"; }
+  }
+  if(!x) return viewHead("📊",ticker,"")+`<div class="hint">ETF no encontrado en el watchlist.</div>`;
+
+  const back = `<div style="margin-bottom:14px"><span class="pill-link" onclick="go('etfs')" style="cursor:pointer">‹ Volver a ETFs</span></div>`;
+  const panel = kind==="growth" ? growthPanel(x) : etfPanel(x);
+  const sidebar = newsSidebar(news, "n_etfs", x.ticker, {zona:x.zona, label:x.ticker});
+  return viewHead("📊", x.ticker, srcStamp("etfs"),
+    (kind==="growth"?`${esc(x.indice||"")} · Growth ETF`:esc(x.long_name||x.name||"")) ) +
+    `<div class="layout-split"><div>${back}${panel}</div>${sidebar}</div>`;
 }
 
 function etfPanel(x){
@@ -2617,7 +2687,7 @@ function flag(code){ return FLAGS[code]||""; }
 
 const ROUTES = {
   home:    {label:"Oportunidades", ico:"🎯", render:renderHome},
-  etfs:    {label:"ETFs USA",      ico:"📊", render:renderETFs},
+  etfs:    {label:"ETFs USA",      ico:"📊", render:p=>renderETFs(p)},
   chile:   {label:"Chile",         ico:FLAGS.cl, render:p=>renderChile(p)},
   usa:     {label:"Acciones USA",  ico:FLAGS.us, render:p=>renderUSA(p)},
   oro:     {label:"Oro",           ico:"🥇", render:()=>renderAsset("oro")},
@@ -2709,7 +2779,7 @@ function init(){
   // refresh "ago" labels every 30s
   setInterval(updateHeader, 30000);
 }
-const VS_BUILD = "v2026-06-13.5";
+const VS_BUILD = "v2026-06-13.6";
 document.addEventListener("DOMContentLoaded", ()=>{
   const e=document.getElementById("vsBuild"); if(e) e.textContent = VS_BUILD;
   console.log("Value Signal", VS_BUILD);
