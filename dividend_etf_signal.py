@@ -67,6 +67,46 @@ DIVIDEND_ETFS = {
         "yahoo_ticker": "JEPQ",
         "min_history_years": 1,  # JEPQ solo tiene ~4 años
     },
+    "VNQ": {
+        "name": "VNQ",
+        "long_name": "Vanguard Real Estate ETF",
+        "description": (
+            "REIT-ETF que replica el MSCI US Investable Market Real Estate 25/50 "
+            "Index. ~160 REITs de EE.UU.: centros comerciales, bodegas/logistica, "
+            "oficinas, data centers, torres de telecom, residencial. El mas grande "
+            "y liquido del sector. Por ley los REITs reparten ~90% de utilidades: "
+            "el retorno va por el DIVIDENDO, no por apreciacion (CAGR de precio "
+            "bajo es normal). Sensible a tasas de interes. OJO: parte del yield es "
+            "retorno de capital por depreciacion contable. Expense ratio 0.13%. "
+            "Pago trimestral."
+        ),
+        "type": "REIT - Real Estate USA",
+        "inception": "2004-09-23",
+        "expense_ratio": 0.0013,
+        "frequency": "Trimestral",
+        "yahoo_ticker": "VNQ",
+        "min_history_years": 3,
+    },
+    "VNQI": {
+        "name": "VNQI",
+        "long_name": "Vanguard Global ex-US Real Estate ETF",
+        "description": (
+            "REIT-ETF internacional: replica el S&P Global ex-US Property Index. "
+            ">700 REITs y empresas inmobiliarias fuera de EE.UU. (Asia-Pacifico, "
+            "Europa, mercados emergentes). Mayor yield y valoracion mas barata "
+            "(P/B ~0.9x) que los REITs USA. NO correlacionado con VNQ: aporta "
+            "diversificacion real, no duplica posicion. Mismo criterio de REIT: se "
+            "juzga por yield sostenible y crecimiento del dividendo, no por precio. "
+            "Sensible a tasas y a tipo de cambio. Expense ratio 0.12%. "
+            "Frecuencia variable (trimestral/semestral segun distribuciones)."
+        ),
+        "type": "REIT - Real Estate Internacional",
+        "inception": "2010-11-01",
+        "expense_ratio": 0.0012,
+        "frequency": "Variable",
+        "yahoo_ticker": "VNQI",
+        "min_history_years": 3,
+    },
 }
 
 # ============================================================================
@@ -215,31 +255,46 @@ def calcular_cagr_precio(df: pd.DataFrame, years: int = 3) -> Optional[float]:
     return float(cagr)
 
 
-def calcular_dividend_growth_rate(df: pd.DataFrame, years: int = 3) -> Optional[float]:
+def calcular_dividend_growth_rate(df: pd.DataFrame, years: int = 3) -> tuple:
     """
-    Dividend Growth Rate (DGR) anualizado.
-    Compara dividendos pagados en el año más reciente vs hace N años.
+    Dividend Growth Rate (DGR) anualizado. Devuelve (dgr, confiable).
+    Compara dividendos del anio mas reciente vs hace N anios.
+
+    Guard: marca confiable=False cuando el dato no es comparable (ETFs con
+    distribuciones irregulares, ej. VNQI): si el numero de pagos difiere entre
+    la ventana reciente y la antigua, o si el DGR sale de un rango sano.
     """
     if df is None or df.empty:
-        return None
+        return None, False
 
     end_date = df.index[-1]
     start_recent = end_date - timedelta(days=365)
     start_old = end_date - timedelta(days=365 * (years + 1))
     end_old = end_date - timedelta(days=365 * years)
 
-    divs_recent = df.loc[start_recent:end_date, 'Dividends'].sum()
-    divs_old = df.loc[start_old:end_old, 'Dividends'].sum()
+    serie_recent = df.loc[start_recent:end_date, 'Dividends']
+    serie_old = df.loc[start_old:end_old, 'Dividends']
+    divs_recent = serie_recent.sum()
+    divs_old = serie_old.sum()
 
     if divs_old <= 0:
-        return None
+        return None, False
 
     growth_total = divs_recent / divs_old
     if growth_total <= 0:
-        return None
+        return None, False
 
-    dgr_annual = growth_total ** (1 / years) - 1
-    return float(dgr_annual)
+    dgr_annual = float(growth_total ** (1 / years) - 1)
+
+    # --- Guard de confiabilidad ---
+    n_pagos_recent = int((serie_recent > 0).sum())
+    n_pagos_old = int((serie_old > 0).sum())
+    confiable = True
+    if n_pagos_recent != n_pagos_old:
+        confiable = False          # distinto numero de pagos -> no comparable
+    if dgr_annual < -0.30 or dgr_annual > 0.40:
+        confiable = False          # fuera de rango sano para un ETF de dividendos
+    return dgr_annual, confiable
 
 
 def calcular_momentum(df: pd.DataFrame) -> Optional[float]:
@@ -364,8 +419,13 @@ def score_dgr(dgr: float) -> float:
         return 0.0
 
 
-def calcular_score_total(componentes: dict) -> float:
-    """Combina los 5 componentes con sus pesos."""
+def calcular_score_total(componentes: dict, excluir: list = None) -> float:
+    """Combina los 5 componentes con sus pesos.
+
+    Si 'excluir' trae componentes no confiables (ej. dgr irregular), se quitan
+    del calculo y su peso se REDISTRIBUYE proporcionalmente entre los demas
+    (renormalizacion), en vez de inyectar un valor neutro que diluye el score.
+    """
     pesos = {
         "dy_vs_historico": 0.35,
         "drawdown": 0.25,
@@ -373,12 +433,15 @@ def calcular_score_total(componentes: dict) -> float:
         "momentum": 0.10,
         "dgr": 0.15,
     }
-
-    score_total = 0
-    for k, peso in pesos.items():
+    excluir = set(excluir or [])
+    pesos_activos = {k: p for k, p in pesos.items() if k not in excluir}
+    total_peso = sum(pesos_activos.values())
+    if total_peso <= 0:
+        return 50.0
+    score_total = 0.0
+    for k, peso in pesos_activos.items():
         valor = componentes.get(k, 50.0)
-        score_total += valor * peso
-
+        score_total += valor * (peso / total_peso)
     return round(score_total, 1)
 
 
@@ -446,7 +509,7 @@ def analyze_dividend_etf(ticker: str, aporte_base_usd: float = 100, usd_clp: flo
     drawdown = calcular_drawdown(df, days=252)
     cagr_precio_3y = calcular_cagr_precio(df, years=3)
     cagr_precio_5y = calcular_cagr_precio(df, years=5)
-    dgr = calcular_dividend_growth_rate(df, years=3)
+    dgr, dgr_confiable = calcular_dividend_growth_rate(df, years=3)
     momentum = calcular_momentum(df)
 
     # Calcular scores por componente
@@ -455,11 +518,12 @@ def analyze_dividend_etf(ticker: str, aporte_base_usd: float = 100, usd_clp: flo
         "drawdown": score_drawdown(drawdown),
         "balance_cagr": score_balance_cagr(cagr_precio_3y, dy_actual),
         "momentum": score_momentum(momentum),
-        "dgr": score_dgr(dgr),
+        "dgr": score_dgr(dgr if dgr_confiable else None),
     }
 
     # Score total y zona
-    score_total = calcular_score_total(componentes)
+    _excluir = [] if dgr_confiable else ['dgr']
+    score_total = calcular_score_total(componentes, excluir=_excluir)
     zona, multiplicador, emoji = determinar_zona(score_total)
 
     # Precio actual
@@ -490,7 +554,8 @@ def analyze_dividend_etf(ticker: str, aporte_base_usd: float = 100, usd_clp: flo
         "drawdown_pct": round(drawdown * 100, 2) if drawdown is not None else None,
         "cagr_precio_3y_pct": round(cagr_precio_3y * 100, 2) if cagr_precio_3y else None,
         "cagr_precio_5y_pct": round(cagr_precio_5y * 100, 2) if cagr_precio_5y else None,
-        "dgr_3y_pct": round(dgr * 100, 2) if dgr else None,
+        "dgr_3y_pct": round(dgr * 100, 2) if dgr is not None else None,
+        "dgr_confiable": bool(dgr_confiable),
         "momentum_pct": round(momentum * 100, 2) if momentum else None,
 
         # Score

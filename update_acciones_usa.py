@@ -27,6 +27,7 @@ import json
 import subprocess
 import sys
 import math
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -58,6 +59,56 @@ WATCHLIST = {
             "Blackwell/Rubin), con ecosistema de software CUDA como foso competitivo. "
             "Paga un dividendo simbolico (payout ~1%): reinvierte casi todo. Empresa de "
             "Crecimiento: ROE altisimo, valoracion exigente, tesis de ganancia por capital."
+        ),
+    },
+    "AMZN": {
+        "nombre": "Amazon.com Inc",
+        "sector": "E-commerce / Cloud",
+        "descripcion": (
+            "Gigante del comercio electronico y lider en nube con AWS (su motor de margen "
+            "y caja). No paga dividendos: reinvierte en logistica, IA y datacenters. "
+            "Empresa de Crecimiento con foso amplio; la tesis es ganancia por capital "
+            "apalancada en el margen creciente de AWS y publicidad."
+        ),
+    },
+    "MSFT": {
+        "nombre": "Microsoft Corp",
+        "sector": "Software / Cloud",
+        "descripcion": (
+            "Software empresarial (Office, Windows), nube Azure e IA (participacion en "
+            "OpenAI, Copilot). ROE alto y margenes muy estables. Paga dividendo creciente "
+            "hace dos decadas con payout moderado: perfil DGI de calidad, aunque suele "
+            "cotizar con multiplos exigentes por su consistencia."
+        ),
+    },
+    "GOOGL": {
+        "nombre": "Alphabet Inc (Class A)",
+        "sector": "Publicidad / Cloud / IA",
+        "descripcion": (
+            "Matriz de Google: buscador, YouTube, Android, nube (GCP) e IA (Gemini, "
+            "DeepMind). Foso en busqueda y publicidad con ROE alto y caja enorme. "
+            "Inicio dividendo en 2024 (payout bajo): aun perfil de Crecimiento, con "
+            "valoracion historicamente mas razonable que sus pares de megacap."
+        ),
+    },
+    "META": {
+        "nombre": "Meta Platforms Inc",
+        "sector": "Publicidad / Redes sociales",
+        "descripcion": (
+            "Dueno de Facebook, Instagram y WhatsApp; lider en publicidad digital con "
+            "ROE alto. Fuerte inversion en IA y Reality Labs (metaverso). Inicio dividendo "
+            "en 2024 con payout bajo: perfil de Crecimiento que empieza a repartir caja, "
+            "con multiplos mas contenidos que otras megacaps tech."
+        ),
+    },
+    "AAPL": {
+        "nombre": "Apple Inc",
+        "sector": "Hardware / Servicios",
+        "descripcion": (
+            "Fabricante del iPhone con ecosistema de servicios de alto margen y recurrentes. "
+            "ROE muy alto (apalancado por recompras agresivas) y caja masiva. Dividendo "
+            "creciente con payout bajo y recompras constantes: perfil DGI premium, "
+            "habitualmente con valoracion exigente por su calidad y previsibilidad."
         ),
     },
 }
@@ -150,6 +201,68 @@ def cagr(first, last, years):
         return None
 
 
+def roe_robusto(t, info):
+    """ROE en %. Primero info['returnOnEquity']; si viene None (info parcial de
+    Yahoo), lo calcula como Net Income / Stockholders Equity desde los estados
+    financieros. Devuelve (roe_pct, distorsionado).
+    Si el patrimonio es <=0 (recompras agresivas, ej. AAPL), el ROE contable no
+    es economico -> devuelve (None, True)."""
+    # 1) via info (rapido)
+    r = safe(info.get("returnOnEquity"))
+    if r is not None:
+        return round(r * 100, 2), False
+    # 2) calcular desde estados financieros
+    try:
+        fin = t.financials
+        bs = t.balance_sheet
+        if fin is None or fin.empty or bs is None or bs.empty:
+            return None, False
+        fcol = fin.columns[0]
+        bcol = bs.columns[0]
+        ni_key = next((k for k in ("Net Income", "Net Income Common Stockholders",
+                                   "Net Income From Continuing Operation Net Minority Interest")
+                       if k in fin.index), None)
+        eq_key = next((k for k in ("Stockholders Equity", "Total Stockholder Equity",
+                                   "Common Stock Equity") if k in bs.index), None)
+        if not ni_key or not eq_key:
+            return None, False
+        ni = safe(fin.loc[ni_key, fcol])
+        eq = safe(bs.loc[eq_key, bcol])
+        if ni is None or eq is None:
+            return None, False
+        if eq <= 0:
+            # patrimonio contable distorsionado (recompras) -> ROE no economico
+            return None, True
+        return round(ni / eq * 100, 2), False
+    except Exception as e:
+        log(f"  aviso roe {info.get('symbol','?')}: {e}")
+        return None, False
+
+
+def payout_robusto(t, info):
+    """Payout en %. Primero info['payoutRatio']; si None, lo calcula como
+    dividendos pagados / Net Income (ultimo ano). Devuelve float o 0.0."""
+    p = safe(info.get("payoutRatio"))
+    if p is not None:
+        return round(p * 100, 2)
+    try:
+        divs = t.dividends
+        fin = t.financials
+        if divs is None or len(divs) == 0 or fin is None or fin.empty:
+            return 0.0
+        ano = datetime.now().year - 1
+        dps = float(divs[divs.index.year == ano].sum())
+        if dps <= 0:
+            return 0.0
+        # dividendo por accion / EPS  ->  payout
+        eps = safe(info.get("trailingEps"))
+        if eps and eps > 0:
+            return round(dps / eps * 100, 2)
+    except Exception:
+        pass
+    return 0.0
+
+
 def procesar(ticker, meta):
     log(f"Procesando {ticker}...")
     t = yf.Ticker(ticker)
@@ -170,12 +283,10 @@ def procesar(ticker, meta):
     ]
 
     # ---- fundamentales ----
-    roe = safe(info.get("returnOnEquity"))
-    roe_pct = round(roe * 100, 2) if roe is not None else None
+    roe_pct, roe_distorsionado = roe_robusto(t, info)
     margen = safe(info.get("profitMargins"))
     margen_pct = round(margen * 100, 2) if margen is not None else None
-    payout = safe(info.get("payoutRatio"))
-    payout_pct = round(payout * 100, 2) if payout is not None else 0.0
+    payout_pct = payout_robusto(t, info)
     per = safe(info.get("trailingPE"))
     pb = safe(info.get("priceToBook"))
     razon_corriente = safe(info.get("currentRatio"))
@@ -256,6 +367,7 @@ def procesar(ticker, meta):
             "periodo": periodo,
             "moneda": "USD",
             "roe_pct": roe_pct,
+            "roe_distorsionado": roe_distorsionado,
             "margen_neto_pct": margen_pct,
             "razon_endeudamiento_pct": razon_endeud_pct,
             "razon_corriente": round(razon_corriente, 2) if razon_corriente is not None else None,
@@ -266,10 +378,16 @@ def procesar(ticker, meta):
     }
 
 
+# Pausa entre acciones para no gatillar el rate-limit de Yahoo Finance
+# (sin pausa, info llega parcial y ROE/payout salen vacios).
+PAUSA_YF = 4  # segundos
+
 def main():
     no_git = "--no-git" in sys.argv
     acciones, fallidos = [], []
-    for tk, meta in WATCHLIST.items():
+    for i, (tk, meta) in enumerate(WATCHLIST.items()):
+        if i > 0:
+            time.sleep(PAUSA_YF)
         try:
             acciones.append(procesar(tk, meta))
             log(f"  OK {tk}")

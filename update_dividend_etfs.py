@@ -33,7 +33,25 @@ OUTPUT_FILE = SCRIPT_DIR / "dividend_etfs_data.json"
 
 # Aportes base por defecto (solo para el calculo del aporte sugerido inicial -
 # el dashboard recalcula con el aporte real del usuario)
-APORTES_DEFAULT = {"SCHD": 140, "JEPQ": 60}
+APORTES_DEFAULT = {"SCHD": 140, "JEPQ": 60, "VNQ": 100, "VNQI": 80}
+
+# Config de ETFs: (ticker, categoria, nombre, descripcion).
+# categoria "dividend" -> SCHD/JEPQ ; categoria "reit" -> VNQ/VNQI (inmobiliario).
+# Los REITs usan el MISMO scoring que los dividend ETFs (DY vs historico,
+# drawdown, DGR, momentum): un REIT-ETF se evalua por flujo, no por crecimiento.
+ETFS_CONFIG = [
+    ("SCHD", "dividend", "Schwab US Dividend Equity",
+     "ETF de dividendos de calidad (~100 empresas USA con dividendos crecientes y solidos). Bajo costo."),
+    ("JEPQ", "dividend", "JPMorgan Nasdaq Equity Premium",
+     "Genera ingreso via covered calls sobre el Nasdaq. Yield alto pero menor potencial de apreciacion."),
+    ("VNQ",  "reit", "Vanguard Real Estate ETF",
+     "REITs de EE.UU. (centros comerciales, bodegas, oficinas, data centers). El mas grande y liquido del sector. "
+     "El beneficio va por el dividendo, no por apreciacion: por ley reparte ~90% de utilidades. Sensible a tasas. "
+     "OJO: parte del yield es retorno de capital por depreciacion contable."),
+    ("VNQI", "reit", "Vanguard Global ex-US Real Estate",
+     "REITs internacionales (>700, ex-EE.UU.): Asia-Pacifico, Europa. Mayor yield y valoracion mas barata (P/B ~0.9x). "
+     "No correlacionado con REITs USA: aporta diversificacion real. Mismo criterio: se juzga por yield sostenible, no por precio."),
+]
 
 
 def ejecutar_git(args, cwd=None):
@@ -107,8 +125,8 @@ def main():
     resultados = {}
     fallidos = []
 
-    for ticker in ["SCHD", "JEPQ"]:
-        log.info(f"\n--- Procesando {ticker} ---")
+    for ticker, categoria, nombre, descripcion in ETFS_CONFIG:
+        log.info(f"\n--- Procesando {ticker} ({categoria}) ---")
         try:
             result = analyze_dividend_etf(
                 ticker,
@@ -120,10 +138,16 @@ def main():
                 fallidos.append(ticker)
             else:
                 # Limpiamos los datos para JSON (no incluimos componentes_detalle que puede ser pesado)
-                resultados[ticker] = {
+                limpio = {
                     k: v for k, v in result.items()
                     if k != "componentes_detalle"
                 }
+                # Metadata propia: categoria (dividend/reit) + nombre + descripcion
+                limpio["categoria"] = categoria
+                limpio.setdefault("nombre", nombre)
+                limpio.setdefault("long_name", nombre)
+                limpio["descripcion"] = descripcion
+                resultados[ticker] = limpio
                 log.info(f"{ticker}: OK - precio={result.get('precio_usd')}, score={result.get('score')}, zona={result.get('zona')}")
         except Exception as e:
             log.error(f"{ticker}: excepcion - {e}")
