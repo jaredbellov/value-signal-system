@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-06-14T13:26:57.693544+00:00",
+  "updated_at_utc": "2026-06-14T15:26:58.680536+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "fed_tasas": {
@@ -118,6 +118,20 @@
     ],
     "tech_nasdaq": [
       {
+        "title": "Astera Labs Stock Hits All Time High As Nasdaq Adds It To Prestigious Tech Index",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOOVNnTVVFZ29yZVY3SHlmcEdYUUJMZ09lZ1RlQlpKMjkta2g5RHRIampDT0FRUzVvR2JIaVVLM1lVbVZvWU5iNXNxN1c0NzdIQVFtWUdFeXRTbkhOcEVjRHAwS2s5LXhLNkhpZ3BBTTdRazJLbDRNdEs3M09RYXdqQjFMODhQX2ZjeGhKSzBTU2NkSnU0UXo2VHc3QW9ydTlhWW44bnRYMFhYaGVOSTFTZTFBazA?oc=5",
+        "source": "TIKR.com",
+        "pubdate": "Sun, 14 Jun 2026 12:11:15 GMT",
+        "pubdate_iso": "2026-06-14T12:11:15+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🟢",
+          "razonamiento": "ATH: momentum fuerte (cuidado: tope)"
+        }
+      },
+      {
         "title": "Domo (DOMO) Q1 Earnings: What To Expect",
         "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcFJrc2owdmVxSGJVX1lBUDVheHpQV0QtLThNY3l3TWFYWjJXQ3h4MVRXbFZSRXVJSUdMcDU4SWx5STZtTGNEWVUybjAyNUIxRnp5TUF3dFU2UFJRaFZMeGViQkxBc3UyU0tLSjVGcjVUUkdwVmJaVS1lWWlhUTJPWUxISzFwMDEta2d6QUZOeVhRRmhDWm4zd3Nqck0?oc=5",
         "source": "TradingView",
@@ -172,20 +186,6 @@
           "emoji": "🟢",
           "razonamiento": "Rally accionario"
         }
-      },
-      {
-        "title": "SpaceX’s Historic IPO Will Trigger a Nasdaq Sell-Off? Says Analyst Michael Burry",
-        "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPTFpUMkhqTWVYcXlCNXhiUEhTcFpuODgxZERLZUdtVTFGMzdGdDFiSzBuMXB4VUhyZzhibTRwWTNGMzZmYWRnTzQzM0RLaHYyRkhYd3paWjVrcmRwOFFYeTM2bjJRR2RCakJYcEdyOTM1V0tkeWoydFh6VFkwZ2dBd1pOcUJkYXVPYVJSTUhUc3lraEtWMVJpbFdjeFVZWklFVEFORHpnbFotZjBNLXhoSUgwZndWU2Y1Uy1fd21kdmt3M2Jqa2xFeEo4bzZqVUJsRWJnbQ?oc=5",
-        "source": "TradingView",
-        "pubdate": "Fri, 12 Jun 2026 07:12:23 GMT",
-        "pubdate_iso": "2026-06-12T07:12:23+00:00",
-        "impacto": {
-          "direccion": "negativo",
-          "intensidad": 3,
-          "intensidad_label": "fuerte",
-          "emoji": "🔴🔴",
-          "razonamiento": "Selloff: presion vendedora"
-        }
       }
     ],
     "economia": [
@@ -211,20 +211,6 @@
         "source": "The Star",
         "pubdate": "Thu, 11 Jun 2026 23:04:15 GMT",
         "pubdate_iso": "2026-06-11T23:04:15+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Driven Brands Q1 Earnings Call Highlights",
-        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNU2ZEQ25IeHNBUHNacWE4ZHljWDlvTXVyOUtFYWNSRjdYemxxX1drbk92eDVadUprWXg4cGIzQXdib3h0cW9TX2VQNFpiSzF2dVhVbWpNLS1sNzllWU9YakN1UXE0Unc1ZjItOEFHTXNDSmtRLVFvY3BFdFl3R2VadWhEbkt3YURUOTdLUVZ4dVFOM0xMM1owdGFsbEtkTXpRaVhR?oc=5",
-        "source": "TradingView",
-        "pubdate": "Thu, 11 Jun 2026 14:05:52 GMT",
-        "pubdate_iso": "2026-06-11T14:05:52+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -266,24 +252,24 @@
     ]
   },
   "stats": {
-    "total_noticias": 16,
+    "total_noticias": 15,
     "por_categoria": {
       "fed_tasas": 1,
       "mercado": 5,
       "tech_nasdaq": 5,
       "economia": 1,
-      "earnings": 2,
+      "earnings": 1,
       "sentimiento": 2
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "neutral",
-    "score_neto": -1,
-    "n_positivas": 1,
-    "n_negativas": 1,
-    "n_neutrales": 14,
-    "narrativa": "El feed muestra 1 senales positivas y 1 negativas (neto -1). Factores dominantes: Selloff: presion vendedora; Rally accionario.",
+    "sentimiento": "alcista",
+    "score_neto": 4,
+    "n_positivas": 2,
+    "n_negativas": 0,
+    "n_neutrales": 13,
+    "narrativa": "El feed muestra 2 senales positivas y 0 negativas (neto +4). Factores dominantes: ATH: momentum fuerte (cuidado: tope); Rally accionario.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "NEUTRAL - sin sesgo dominante"
+    "veredicto": "ALCISTA a corto plazo"
   }
 }
