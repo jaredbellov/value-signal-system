@@ -1798,7 +1798,10 @@ function renderETFs(param){
   if(VS.status.etfs==="error" && !e) return viewHead("📊","ETFs USA","")+errBox("etfs",VS.FILES.etfs);
   if(!e||!e.etfs) return viewHead("📊","ETFs USA","")+skeletonCards(2);
 
-  const divEtfs = Object.values(e.etfs);
+  const allDiv = Object.values(e.etfs);
+  // separar por categoria: dividend (SCHD/JEPQ) vs reit (VNQ/VNQI)
+  const divEtfs = allDiv.filter(x=>(x.categoria||"dividend")!=="reit");
+  const reitEtfs = allDiv.filter(x=>x.categoria==="reit");
   // Growth ETFs (CFISPETF/CFINASDAQ) vienen de sp_nq
   const growthOrder = ["CFISPETF","CFINASDAQ"];
   const growthEtfs = (g && g.etfs) ? growthOrder.filter(t=>g.etfs[t]).map(t=>g.etfs[t]) : [];
@@ -1817,12 +1820,20 @@ function renderETFs(param){
       <span class="rule"></span></div>
       <div class="grid rows2">${growthEtfs.map(x=>etfRow(x,"growth")).join("")}</div>`;
   }
-  main += `<div class="section-title">Dividend ETFs
-    <span class="hint" style="text-transform:none;letter-spacing:0;font-weight:400">SCHD · JEPQ — score de timing para DCA</span>
-    <span class="rule"></span></div>
-    <div class="grid rows2">${divEtfs.map(x=>etfRow(x,"div")).join("")}</div>`;
+  if(divEtfs.length){
+    main += `<div class="section-title">Dividend ETFs
+      <span class="hint" style="text-transform:none;letter-spacing:0;font-weight:400">SCHD · JEPQ — score de timing para DCA</span>
+      <span class="rule"></span></div>
+      <div class="grid rows2">${divEtfs.map(x=>etfRow(x,"div")).join("")}</div>`;
+  }
+  if(reitEtfs.length){
+    main += `<div class="section-title">REITs · Inmobiliario
+      <span class="hint" style="text-transform:none;letter-spacing:0;font-weight:400">VNQ · VNQI — se juzgan por yield sostenible (parte es retorno de capital) · sensibles a tasas</span>
+      <span class="rule"></span></div>
+      <div class="grid rows2">${reitEtfs.map(x=>etfRow(x,"reit")).join("")}</div>`;
+  }
 
-  const allTk = [...growthEtfs,...divEtfs].map(x=>x.ticker).join(" · ");
+  const allTk = [...growthEtfs,...divEtfs,...reitEtfs].map(x=>x.ticker).join(" · ");
   return viewHead("📊","ETFs USA", srcStamp("etfs"),
     "ETFs · score de timing para DCA · "+allTk) +
     `<div class="layout-split"><div>${main}</div>${sidebar}</div>`;
@@ -2266,6 +2277,8 @@ const ETF_NEWS_CATS = {
   CFINASDAQ: ["tech_nasdaq","fed_tasas","economia","sentimiento"],
   SCHD:      ["mercado","fed_tasas","economia","earnings"],
   JEPQ:      ["tech_nasdaq","fed_tasas","sentimiento"],
+  VNQ:       ["fed_tasas","economia","mercado","sentimiento"],
+  VNQI:      ["fed_tasas","economia","sentimiento"],
 };
 function clCats(sector){
   const s = (sector||"").toLowerCase();
@@ -2779,7 +2792,7 @@ function init(){
   // refresh "ago" labels every 30s
   setInterval(updateHeader, 30000);
 }
-const VS_BUILD = "v2026-06-13.6";
+const VS_BUILD = "v2026-06-13.7";
 document.addEventListener("DOMContentLoaded", ()=>{
   const e=document.getElementById("vsBuild"); if(e) e.textContent = VS_BUILD;
   console.log("Value Signal", VS_BUILD);
