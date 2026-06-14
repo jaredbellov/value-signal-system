@@ -1181,7 +1181,9 @@ const EDU = {
 
   dgr: { t:"DGR — crecimiento del dividendo (15%)",
     mide:"A qué ritmo CRECE el dividendo año a año (promedio 3 años). Un dividendo creciente es señal de negocio sano y protege contra la inflación. Es el corazón de la estrategia DGI.",
-    leer(c){ const g=c.g, v=`<b>${fmt.signpct(g,1)}</b> anual — `;
+    leer(c){
+      if(c.conf===false) return {h:"<b>Dato no confiable.</b> Este ETF paga distribuciones irregulares (típico en REITs internacionales): el número de pagos varía entre años, así que el crecimiento del dividendo no es comparable y el porcentaje calculado no es real. Por eso se excluyó del score para no distorsionarlo.", c:"a"};
+      const g=c.g, v=`<b>${fmt.signpct(g,1)}</b> anual — `;
       if(g>8)  return {h:v+"Dividendo creciendo fuerte: cada año cobras más por las mismas cuotas.", c:"vi"};
       if(g>=4) return {h:v+"Crecimiento de dividendo saludable, sobre la inflación.", c:"v"};
       if(g>=0) return {h:v+"Dividendo casi plano: pierde poder de compra frente a la inflación.", c:"a"};
@@ -1895,7 +1897,7 @@ function etfPanel(x){
     drawdown: eduFor('drawdown52',{dd:x.drawdown_pct}),
     balance_cagr: eduFor('balance_cagr',{v:(x.cagr_precio_3y_pct||0)+(x.dy_actual_pct||0)}),
     momentum: eduFor('momentum',{m:x.momentum_pct, buy}),
-    dgr: eduFor('dgr',{g:x.dgr_3y_pct}),
+    dgr: eduFor('dgr',{g:x.dgr_3y_pct, conf:x.dgr_confiable}),
   };
   const er = x.expense_ratio!=null ? fmt.pct(x.expense_ratio*100,2) : "—";
   const dyDelta = (x.dy_actual_pct!=null && x.dy_historico_3y_pct!=null)
@@ -2794,7 +2796,7 @@ function init(){
   // refresh "ago" labels every 30s
   setInterval(updateHeader, 30000);
 }
-const VS_BUILD = "v2026-06-13.8";
+const VS_BUILD = "v2026-06-13.9";
 document.addEventListener("DOMContentLoaded", ()=>{
   const e=document.getElementById("vsBuild"); if(e) e.textContent = VS_BUILD;
   console.log("Value Signal", VS_BUILD);
