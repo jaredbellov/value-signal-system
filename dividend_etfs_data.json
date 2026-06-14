@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-06-14T00:18:50.990825+00:00",
+  "updated_at_utc": "2026-06-14T00:22:34.812829+00:00",
   "etfs": {
     "SCHD": {
       "ticker": "SCHD",
@@ -34,7 +34,7 @@
       "aporte_base_usd": 140,
       "aporte_sugerido_usd": 140.0,
       "aporte_sugerido_clp": null,
-      "fecha_analisis": "2026-06-13T20:18:50.767906",
+      "fecha_analisis": "2026-06-13T20:22:34.449003",
       "ultima_fecha_dato": "2026-06-12",
       "historico": [
         {
@@ -5137,7 +5137,10 @@
           "fecha": "2026-06-12",
           "close": 32.82
         }
-      ]
+      ],
+      "categoria": "dividend",
+      "nombre": "Schwab US Dividend Equity",
+      "descripcion": "ETF de dividendos de calidad (~100 empresas USA con dividendos crecientes y solidos). Bajo costo."
     },
     "JEPQ": {
       "ticker": "JEPQ",
@@ -5172,7 +5175,7 @@
       "aporte_base_usd": 60,
       "aporte_sugerido_usd": 60.0,
       "aporte_sugerido_clp": null,
-      "fecha_analisis": "2026-06-13T20:18:50.985305",
+      "fecha_analisis": "2026-06-13T20:22:34.805963",
       "ultima_fecha_dato": "2026-06-12",
       "historico": [
         {
@@ -9299,8 +9302,14 @@
           "fecha": "2026-06-12",
           "close": 59.86
         }
-      ]
+      ],
+      "categoria": "dividend",
+      "nombre": "JPMorgan Nasdaq Equity Premium",
+      "descripcion": "Genera ingreso via covered calls sobre el Nasdaq. Yield alto pero menor potencial de apreciacion."
     }
   },
-  "fallidos": []
+  "fallidos": [
+    "VNQ",
+    "VNQI"
+  ]
 }
