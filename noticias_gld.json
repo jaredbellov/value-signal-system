@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-06-14T10:39:35.613085+00:00",
+  "updated_at_utc": "2026-06-14T12:39:34.393002+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "precio": {
@@ -316,7 +316,22 @@
         }
       }
     ],
-    "geopolitica": [],
+    "geopolitica": [
+      {
+        "title": "Here’s what moved India’s inflation closer to RBI’s midpoint target in May",
+        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOWHJSTzJZUkhTRWN6dlJMV0trd2FPX2g3R09xTE5NZ1hLb1YwRi1RMzk0eDNtZ2xrMzV4UjVNa1ZTYkpQaFFiXzMxRm55OGdqVmFaS0ZkdEs2T0ZFWEwySEVtNUNyTjRWR1ZVODZDa1RvbG5BUW56RzgxWERqc0syaHJ1TEVTa3hVYmRmVlBfOW1LWkhrdU9FeGpnYk9Td1ZWSk8zZWFWal8xTXEzYmFNaFhFbnlaQUo1VGdRcnhxeUtVSk1zOEZodjFyRFhQVFE5bEE?oc=5",
+        "source": "TradingView",
+        "pubdate": "Fri, 12 Jun 2026 12:14:23 GMT",
+        "pubdate_iso": "2026-06-12T12:14:23+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
     "proyecciones": [
       {
         "title": "2026 World Cup: Each team’s chances - The Athletic",
@@ -391,13 +406,13 @@
     ]
   },
   "stats": {
-    "total_noticias": 25,
+    "total_noticias": 26,
     "por_categoria": {
       "precio": 5,
       "fed_macro": 5,
       "dolar": 5,
       "bancos_centrales": 5,
-      "geopolitica": 0,
+      "geopolitica": 1,
       "proyecciones": 5
     }
   },
@@ -406,7 +421,7 @@
     "score_neto": 6,
     "n_positivas": 3,
     "n_negativas": 0,
-    "n_neutrales": 22,
+    "n_neutrales": 23,
     "narrativa": "El feed muestra 3 senales positivas y 0 negativas (neto +6). Factores dominantes: Oro al alza; Tensiones geopoliticas: flujo a safe haven.",
     "narrativa_fuente": "plantilla",
     "veredicto": "ALCISTA a corto plazo"
