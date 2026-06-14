@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-06-14T15:03:27.926380+00:00",
+  "updated_at_utc": "2026-06-14T15:33:28.085160+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -85,20 +85,6 @@
         "source": "TradingView",
         "pubdate": "Fri, 12 Jun 2026 13:14:47 GMT",
         "pubdate_iso": "2026-06-12T13:14:47+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Nvidia Stock Fans Just Got Good News From China",
-        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWkxwTlhPVWJJYUtNMUUzZDBobm1nY2RqUVlsWElvbFdwRWVJRVFYS0FPVERHNzJadlJpN0NzVlltOFlOSExCOEhmRldoZkFPMEh5V1c3emM4M0x0aHpjZjliVWczS1EtLVVOaExzNl90YXRIVWVwRVpyRFpwbWVocFVzNkx1em83X2tUeHotQjVIS3JFbWhxWldGYTVvT1VUZ0VObGx2LTV1dw?oc=5",
-        "source": "TradingView",
-        "pubdate": "Fri, 12 Jun 2026 12:40:37 GMT",
-        "pubdate_iso": "2026-06-12T12:40:37+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -212,10 +198,10 @@
     ]
   },
   "stats": {
-    "total_noticias": 13,
+    "total_noticias": 12,
     "por_categoria": {
       "tesla": 3,
-      "nvidia": 3,
+      "nvidia": 2,
       "ia_semis": 2,
       "macro_tech": 5
     }
@@ -225,7 +211,7 @@
     "score_neto": 0,
     "n_positivas": 2,
     "n_negativas": 1,
-    "n_neutrales": 10,
+    "n_neutrales": 9,
     "narrativa": "El feed muestra 2 senales positivas y 1 negativas (neto +0). Factores dominantes: Selloff: presion vendedora; ATH: momentum fuerte (cuidado: tope).",
     "narrativa_fuente": "plantilla",
     "veredicto": "NEUTRAL - sin sesgo dominante"
