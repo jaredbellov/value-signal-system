@@ -641,6 +641,15 @@ footer a.src:hover{color:var(--teal-2)}
 .brand{flex-wrap:wrap}
 .brand .tag{display:block;flex-basis:100%;width:100%;margin-left:0;padding-left:0;border-left:none;margin-top:3px;white-space:nowrap}
 .sector-badge{display:inline-block;font-size:9px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;padding:1px 6px;margin-left:7px;border-radius:5px;background:var(--bg-3,#1c2433);color:var(--ac,#5e7);border:1px solid var(--bd,#2a3548);vertical-align:middle;white-space:nowrap}
+.he-wrap{margin-top:14px;margin-bottom:6px}
+.he-hd{font-size:11.5px;font-weight:600;letter-spacing:.03em;text-transform:uppercase;color:var(--tx-2);margin-bottom:8px}
+.he-card{background:var(--panel-2);border:1px solid var(--line);border-left:3px solid #d4a017;border-radius:var(--r-sm);padding:9px 11px;margin-bottom:8px}
+.he-top{display:flex;align-items:center;gap:8px;margin-bottom:5px}
+.he-badge{display:inline-block;font-size:9.5px;font-weight:700;letter-spacing:.04em;padding:1px 7px;border-radius:5px;background:rgba(212,160,23,.16);color:#e0b84a;border:1px solid rgba(212,160,23,.4);white-space:nowrap}
+.he-date{font-size:11px;color:var(--mut);font-family:var(--f-mono)}
+.he-materia{font-size:12.5px;color:var(--tx-1);line-height:1.45;margin-bottom:7px}
+.he-doc{display:inline-block;font-size:11.5px;font-weight:600;color:#e0b84a;text-decoration:none;border:1px solid rgba(212,160,23,.4);border-radius:5px;padding:3px 9px;transition:background .15s}
+.he-doc:hover{background:rgba(212,160,23,.12)}
 </style>
 </head>
 <body>
@@ -2297,6 +2306,30 @@ const ETF_NEWS_CATS = {
   NOBL:      ["mercado","fed_tasas","economia","earnings"],
   XLU:       ["fed_tasas","economia","mercado","sentimiento"],
 };
+function hechosEsencialesBlock(ticker){
+  const news = VS.data.n_chile;
+  const map = (news && news.hechos_esenciales_por_ticker) || {};
+  const hechos = map[ticker] || [];
+  if(!hechos.length) return "";
+  const cards = hechos.slice(0,6).map(h=>{
+    const materia = esc(h.materia_cmf || h.title || "Hecho esencial");
+    const fecha = esc(h.pubdate || "");
+    const link = h.link || "";
+    const boton = link
+      ? `<a class="he-doc" href="${esc(link)}" target="_blank" rel="noopener">Ver documento ›</a>`
+      : "";
+    return `<div class="he-card">
+      <div class="he-top"><span class="he-badge">📢 CMF</span>${fecha?`<span class="he-date">${fecha}</span>`:""}</div>
+      <div class="he-materia">${materia}</div>
+      ${boton}
+    </div>`;
+  }).join("");
+  return `<div class="he-wrap">
+    <div class="he-hd">📢 Hechos esenciales · CMF <span class="dim">(${hechos.length})</span></div>
+    ${cards}
+  </div>`;
+}
+
 function clCats(sector){
   const s = (sector||"").toLowerCase();
   if(s.includes("afp")) return ["pensiones_afp","bcch_tpm","ipsa","economia_chile","politica_regulacion"];
@@ -2692,6 +2725,7 @@ function renderChileDetail(ticker){
   const sidebarCl = `<div><div class="sidebar-news">
     <div class="hd">📰 Noticias · ${esc(a.sector)}${eduIconStatic('news')} ${newsCl?`<span class="hint" style="margin-left:auto">${fmt.ago(VS.updated.n_chile)}</span>`:""}</div>
     ${VS.status.n_chile==="error"?errBox("n_chile","noticias"):""}
+    ${hechosEsencialesBlock(a.ticker)}
     ${newsMiniLine(newsCl, cats)}
     ${newsCl?execSummary(newsCl):""}
     <div style="margin-top:14px">${newsCl?newsSection(newsFilteredObj(newsCl, cats)):`<div class="hint">Sin noticias disponibles.</div>`}</div>
@@ -2809,7 +2843,7 @@ function init(){
   // refresh "ago" labels every 30s
   setInterval(updateHeader, 30000);
 }
-const VS_BUILD = "v2026-06-14.2";
+const VS_BUILD = "v2026-06-14.3";
 document.addEventListener("DOMContentLoaded", ()=>{
   const e=document.getElementById("vsBuild"); if(e) e.textContent = VS_BUILD;
   console.log("Value Signal", VS_BUILD);
