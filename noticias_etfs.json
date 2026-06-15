@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-06-15T03:27:01.097302+00:00",
+  "updated_at_utc": "2026-06-15T05:26:55.613576+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "fed_tasas": {
@@ -174,6 +174,20 @@
         }
       },
       {
+        "title": "Booz Allen Falls Ahead of Q1 Announcement",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPM09aU0ZGX1hSNXdrZWFVVGpaYnNVZm5lRm1oSXd5QUczcnU5a0JUU2NWRUNCczItdEd3Z3A3clpjTUlaRFZDazBuVld3MGlweUhaX2lmVnEzaFpZemgxNmxpcUNSM1hJbG1SLWVXY1J0ME5vRkhVa2pqUjAzczNfS19ta2NDM2hhLWFEbFB2NVk1ODFEaVRMVi1IZnhKQlJNaEE?oc=5",
+        "source": "TradingView",
+        "pubdate": "Fri, 12 Jun 2026 13:42:06 GMT",
+        "pubdate_iso": "2026-06-12T13:42:06+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
         "title": "Space Stocks Rally as Adobe Slips",
         "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdmV2LWV4VkE1aDVGYVRQa0V6VWJHdTRxX09peGNQejBLVm9nUHI1SE9xOW01TUc1V2toQzhpdkxoSmtjOTJ3NERlbUpSTTR1YzVodGgxZlY3d0F3M0pBYjZ0bU1sc21KQzBpQ3RQS05jQ3RYRWY0cmVFcW1QbXgzdDZSZXFidmduLXNlRGxUZWU3SFNxUVF3?oc=5",
         "source": "TradingView",
@@ -185,20 +199,6 @@
           "intensidad_label": "moderado",
           "emoji": "🟢",
           "razonamiento": "Rally accionario"
-        }
-      },
-      {
-        "title": "SpaceX’s Historic IPO Will Trigger a Nasdaq Sell-Off? Says Analyst Michael Burry",
-        "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPTFpUMkhqTWVYcXlCNXhiUEhTcFpuODgxZERLZUdtVTFGMzdGdDFiSzBuMXB4VUhyZzhibTRwWTNGMzZmYWRnTzQzM0RLaHYyRkhYd3paWjVrcmRwOFFYeTM2bjJRR2RCakJYcEdyOTM1V0tkeWoydFh6VFkwZ2dBd1pOcUJkYXVPYVJSTUhUc3lraEtWMVJpbFdjeFVZWklFVEFORHpnbFotZjBNLXhoSUgwZndWU2Y1Uy1fd21kdmt3M2Jqa2xFeEo4bzZqVUJsRWJnbQ?oc=5",
-        "source": "TradingView",
-        "pubdate": "Fri, 12 Jun 2026 07:12:23 GMT",
-        "pubdate_iso": "2026-06-12T07:12:23+00:00",
-        "impacto": {
-          "direccion": "negativo",
-          "intensidad": 3,
-          "intensidad_label": "fuerte",
-          "emoji": "🔴🔴",
-          "razonamiento": "Selloff: presion vendedora"
         }
       }
     ],
@@ -218,28 +218,43 @@
         }
       }
     ],
-    "earnings": [],
+    "earnings": [
+      {
+        "title": "Australia go level with USMNT in Group D after surprise win against Turkey - The Athletic",
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMXcwel8tSjVSdXJZa1VoVDFwSFJzS0U4S2hkRnpER2EwUzZTS3o5VEdSWFBqWERZUmxYdHRSeU9TRDBoSGZiZl81bWJKZWlLQjhwcWtWWXgycjBURkZGdFJfOHVhLW9HeXE0ZUotTUk5N3NXcVhKblZwaDBpUGNnMzhQVVR3WWFTcl9DMjE3elhtSG1qZ3JjTXFld2h3M2M?oc=5",
+        "source": "The New York Times",
+        "pubdate": "Sun, 14 Jun 2026 22:05:00 GMT",
+        "pubdate_iso": "2026-06-14T22:05:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
     "sentimiento": []
   },
   "stats": {
-    "total_noticias": 13,
+    "total_noticias": 14,
     "por_categoria": {
       "fed_tasas": 2,
       "mercado": 5,
       "tech_nasdaq": 5,
       "economia": 1,
-      "earnings": 0,
+      "earnings": 1,
       "sentimiento": 0
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "neutral",
-    "score_neto": 1,
+    "sentimiento": "alcista",
+    "score_neto": 4,
     "n_positivas": 2,
-    "n_negativas": 1,
-    "n_neutrales": 10,
-    "narrativa": "El feed muestra 2 senales positivas y 1 negativas (neto +1). Factores dominantes: Selloff: presion vendedora; ATH: momentum fuerte (cuidado: tope).",
+    "n_negativas": 0,
+    "n_neutrales": 12,
+    "narrativa": "El feed muestra 2 senales positivas y 0 negativas (neto +4). Factores dominantes: ATH: momentum fuerte (cuidado: tope); Rally accionario.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "NEUTRAL - sin sesgo dominante"
+    "veredicto": "ALCISTA a corto plazo"
   }
 }
