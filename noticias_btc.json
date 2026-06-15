@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-06-15T06:39:33.321028+00:00",
+  "updated_at_utc": "2026-06-15T08:39:34.341255+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "precio": {
@@ -101,6 +101,20 @@
       }
     ],
     "etf_flows": [
+      {
+        "title": "Bitcoin spot ETFs saw net outflows of $316 million last week, marking five consecutive weeks of net outflows",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAzZ243aUdXS2ZXcm5NdEFmZmkyN01FczJEX3FRREk1UnVsOFJ4UEhITnB0blNTcVpSVVU3dTRGTW9hY3lZcmEtb1NVWk00eVFpNWw1Zm1aOWU3ZWtiS1NHQ1VKSzdwVlN2?oc=5",
+        "source": "Binance",
+        "pubdate": "Mon, 15 Jun 2026 03:58:06 GMT",
+        "pubdate_iso": "2026-06-15T03:58:06+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Salidas institucionales"
+        }
+      },
       {
         "title": "Los ETF de bitcoin pierden 2.100 millones de dólares en junio mientras se acentúan las salidas del IBIT",
         "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQNGhGTGdEOEIzaURrMTZIYjFoOUxzVzV2VHZnMFdtU1hoV1p5LU94S0FMejZ0RWZ6NUdiZ1otdEw5a3RaUTAwRF9SdWx5ZGtpTWVqeGJWZXYwdlJfUThBcG9VSXRuU19xLXhLdHFxQ1RTM1JCU19OVkplV29wMGlOZkxzUUlnd3VoR25uVjFwN2xGQjVmeVNCeWZvb0ZlVXhSQnpUZFQzT1M3U3hCendLWW9XNVFWVlE5TFB5SE5iaDd0YXQyX01LRE9hSnJTZVY5R2tURjg5SHNJam1EYTFDNWQ3cmLSAeoBQVVfeXFMTjJpdmhla3JWNmdWQW03U0hRUHpXcE1iaW9uaS1IamNEMUtvXy1kVjZZcFppUFVzb3Bqb1hWTFdwRGtIRG1MV3ZVS19DNktya1pld3AxRmFLWHFOTERrLXJ0LVd3TTI2RWhMTldRSHptOVZMTGtfUVNuV1MwZkpyUlVoSi0wbS13WHJWc1hRYXlCaWZ4NEdDRzR5bGpMMFRoMm5kWTlOS1BWbWt2U05ySzk3QkxZTy15OHoxMkhOY3N5MXYwa0ZMQnFFS1VNbmR3UW52aVRCVHFSVDR4TV9BQ3FsNlZkZTZ4U1h3?oc=5",
@@ -262,6 +276,20 @@
     ],
     "fed_macro": [
       {
+        "title": "Los operadores de Bitcoin tienen una razón para observar la decisión de tasa del BOJ del martes. Las posiciones cortas en yenes están en un máximo de nueve años",
+        "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPTmJMMDhVZkZjd0JiTEhVMldKRURNWDVSMDh4M0dYZGJ0akQyaS1BYktuTExJbE83NkVkdk81aDFwVXI3T1RNdER2dDdxOHI3T2dDVGdwZWRPd29MbklhNG9NVmc4TUp3MExROG8zMVYwMDVMcTlxWnhVNC1LSG13NGdnWFFxN055VlUzV0dDWm5SYVh3SXhXd1kyTWszdkNxbGc3bFh3MUl4Z2MxRmo1eVNzX0NoRnVGVlVwVDloeXdOQjVXSGFIRlhjNGNRV2FjU3BucG9WTkYxa2RPbTAtY3Rn?oc=5",
+        "source": "CoinDesk",
+        "pubdate": "Mon, 15 Jun 2026 06:48:12 GMT",
+        "pubdate_iso": "2026-06-15T06:48:12+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
         "title": "IPC sube a 4.2%, la Fed se mantiene firme en 3.50%-3.75% antes del FOMC",
         "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRlF6bENjTmxaeDZLeTM5WGtXSUtHZTFfcnU0UW1BX1RSdVpIeUVoSFctdEFQWXBfQnFlNjNIZFBFcm1peTNqdTBDbERVdU9JbGZzUEE1eVVrODd0Y3AwT0JXamxVaDlKcE1XaHpiZXB6TlA4UHotYWdNU2tnSVVrNDE1eE1ZM0o1cy1zeU9xNFQyc0h2MXZBcnJ6SU9EekRzaWJPbjlMSFJtM2pEM0NGRDNyRQ?oc=5",
         "source": "InteractiveCrypto",
@@ -294,24 +322,24 @@
     ]
   },
   "stats": {
-    "total_noticias": 18,
+    "total_noticias": 20,
     "por_categoria": {
       "precio": 5,
-      "etf_flows": 4,
+      "etf_flows": 5,
       "regulacion": 5,
       "adopcion": 2,
-      "fed_macro": 1,
+      "fed_macro": 2,
       "sentimiento_onchain": 1
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "neutral",
-    "score_neto": 0,
+    "sentimiento": "levemente bajista",
+    "score_neto": -2,
     "n_positivas": 0,
-    "n_negativas": 0,
-    "n_neutrales": 18,
-    "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
+    "n_negativas": 1,
+    "n_neutrales": 19,
+    "narrativa": "El feed muestra 0 senales positivas y 1 negativas (neto -2). Factores dominantes: Salidas institucionales.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "NEUTRAL - sin sesgo dominante"
+    "veredicto": "Levemente BAJISTA"
   }
 }
