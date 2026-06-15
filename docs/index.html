@@ -1806,7 +1806,7 @@ function renderETFs(param){
   const divEtfs = allDiv.filter(x=>(x.categoria||"dividend")!=="reit");
   const reitEtfs = allDiv.filter(x=>x.categoria==="reit");
   // Growth ETFs (CFISPETF/CFINASDAQ) vienen de sp_nq
-  const growthOrder = ["CFISPETF","CFINASDAQ","SOXX","AIQ","ICLN","QCLN"];
+  const growthOrder = ["CFISPETF","CFINASDAQ","SOXX","ICLN","QCLN"];
   const growthEtfs = (g && g.etfs) ? growthOrder.filter(t=>g.etfs[t]).map(t=>g.etfs[t]) : [];
 
   const sidebar = `<div><div class="sidebar-news">
@@ -2292,7 +2292,6 @@ const ETF_NEWS_CATS = {
   VNQ:       ["fed_tasas","economia","mercado","sentimiento"],
   VNQI:      ["fed_tasas","economia","sentimiento"],
   SOXX:      ["tech_nasdaq","earnings","mercado","sentimiento"],
-  AIQ:       ["tech_nasdaq","earnings","economia","sentimiento"],
   ICLN:      ["fed_tasas","economia","mercado","sentimiento"],
   QCLN:      ["fed_tasas","economia","tech_nasdaq","sentimiento"],
   NOBL:      ["mercado","fed_tasas","economia","earnings"],
@@ -2810,7 +2809,7 @@ function init(){
   // refresh "ago" labels every 30s
   setInterval(updateHeader, 30000);
 }
-const VS_BUILD = "v2026-06-14.1";
+const VS_BUILD = "v2026-06-14.2";
 document.addEventListener("DOMContentLoaded", ()=>{
   const e=document.getElementById("vsBuild"); if(e) e.textContent = VS_BUILD;
   console.log("Value Signal", VS_BUILD);
