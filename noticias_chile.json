@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-06-15T01:22:56.088199+00:00",
+  "updated_at_utc": "2026-06-15T01:33:54.573548+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "bcch_tpm": {
@@ -67,20 +67,6 @@
       }
     ],
     "ipsa": [
-      {
-        "title": "Bolsa de Santiago repunta: IPSA sube un 1,68% tras noticias de paz",
-        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSENrLV9WeGlocV9DM3NsUlk3Unp6bXpPX0JLdmxvSUltd2s4SWpmOXpLMzBET0lFeC1tSENaUTZVWDlNOUJ0X2NSaHp5VzQwWkJCZFFsVVYzejljUnA3UmV3c1hHcm5zU0FycjdjemxkRnlNRUEwRGNxcFBuSkxTcjJhRTJsUGhfNmxFN292OXNfSUVhLXF6ZHJPcUlkRktxS2c?oc=5",
-        "source": "El Reporte Diario",
-        "pubdate": "Sat, 13 Jun 2026 13:44:17 GMT",
-        "pubdate_iso": "2026-06-13T13:44:17+00:00",
-        "impacto": {
-          "direccion": "positivo",
-          "intensidad": 2,
-          "intensidad_label": "moderado",
-          "emoji": "🟢",
-          "razonamiento": "IPSA al alza"
-        }
-      },
       {
         "title": "Bolsa de Santiago se recupera y el IPSA logra ganancias semanales ante luces de acuerdo EEUU e Irán",
         "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOUnpXTlFDc2xnd05vZDhyeEZlU2s4cU44N09NWG5Va01iSGlvMGpCeUNCb2lZek56VnJaSUs3RVBVR1hpWnRqelhXUDliNGxjLURtbVFINERWWjl6aHFGLW43WE5hbk5Yb0k3Y1NBVS0wUWNCQ3czOFZQblpuR2xMakFDV09tQzdsdnFSYjI5X2ozZGZrSkxfVjQ5cG9ZTDVRODBIVDlmSHRwUUM1QjhHTm1sZ01ZdXJZRUJvdVprUG0tQTZQaFh6NDd2RFplQWxWWDdPcnVuWE5RZGptV3N4YTA2WFJVejFMSGdLWFBnNXJnZFdvYUl5VVFkLVd4S0pQUFRXbkhhZHV6Wmo1ZVNB?oc=5",
@@ -291,10 +277,10 @@
   },
   "hechos_esenciales_por_ticker": {},
   "stats": {
-    "total_noticias": 17,
+    "total_noticias": 16,
     "por_categoria": {
       "bcch_tpm": 2,
-      "ipsa": 2,
+      "ipsa": 1,
       "dolar_cobre": 5,
       "economia_chile": 5,
       "politica_regulacion": 1,
@@ -305,13 +291,13 @@
     "hechos_esenciales": 0
   },
   "resumen_ejecutivo": {
-    "sentimiento": "levemente alcista",
-    "score_neto": 2,
-    "n_positivas": 1,
+    "sentimiento": "neutral",
+    "score_neto": 0,
+    "n_positivas": 0,
     "n_negativas": 0,
     "n_neutrales": 16,
-    "narrativa": "El feed muestra 1 senales positivas y 0 negativas (neto +2). Factores dominantes: IPSA al alza.",
+    "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "Levemente ALCISTA"
+    "veredicto": "NEUTRAL - sin sesgo dominante"
   }
 }
