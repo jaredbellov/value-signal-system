@@ -650,6 +650,8 @@ footer a.src:hover{color:var(--teal-2)}
 .he-materia{font-size:12.5px;color:var(--tx-1);line-height:1.45;margin-bottom:7px}
 .he-doc{display:inline-block;font-size:11.5px;font-weight:600;color:#e0b84a;text-decoration:none;border:1px solid rgba(212,160,23,.4);border-radius:5px;padding:3px 9px;transition:background .15s}
 .he-doc:hover{background:rgba(212,160,23,.12)}
+.he-alert{display:inline-block;font-size:9.5px;font-weight:700;letter-spacing:.03em;text-transform:uppercase;padding:2px 8px;margin-left:9px;border-radius:6px;background:rgba(212,160,23,.18);color:#e8c054;border:1px solid rgba(212,160,23,.5);white-space:nowrap;vertical-align:middle;animation:hePulse 2.4s ease-in-out infinite}
+@keyframes hePulse{0%,100%{box-shadow:0 0 0 0 rgba(212,160,23,.35)}50%{box-shadow:0 0 0 4px rgba(212,160,23,0)}}
 </style>
 </head>
 <body>
@@ -1615,7 +1617,7 @@ function oppCardCL(a){
   const news = newsMiniLine(VS.data.n_chile, clCats(a.sector));
   return `<div class="mcard ${sobre?'opp':''}" onclick="go('chile','${esc(a.ticker)}')">
     <div class="mcard-top">
-      <div><div class="mc-tk">${esc(a.ticker)}</div><div class="mc-sub">${esc(a.sector)}</div></div>
+      <div><div class="mc-tk">${esc(a.ticker)}${alertaHechoBadge(a.ticker)}</div><div class="mc-sub">${esc(a.sector)}</div></div>
       <div class="mc-val"><div class="v" style="color:${dyCol}">${fmt.pct(a.dy?.dy_pct)}</div><div class="l">DY 3 años</div></div>
     </div>
     <div class="mc-bm">Benchmark <span class="num">${fmt.num(a.benchmark_min_pct,1)}–${fmt.num(a.benchmark_max_pct,1)}%</span>
@@ -1652,7 +1654,7 @@ function clRow(a){
   const edDy = eduFor('cl_dy',{dy:a.dy?.dy_pct, status:ev.status});
   const edBm = eduFor('cl_benchmark',{status:ev.status, pp:pp});
   return `<div class="cl-row ${sobre?'opp':''}" onclick="go('chile','${esc(a.ticker)}')">
-    <div class="cl-id"><div class="t">${esc(a.ticker)}</div><div class="s">${esc(a.nombre)} · ${esc(a.sector)}</div></div>
+    <div class="cl-id"><div class="t">${esc(a.ticker)}${alertaHechoBadge(a.ticker)}</div><div class="s">${esc(a.nombre)} · ${esc(a.sector)}</div></div>
     <div class="cl-dy"><div class="v" style="color:${sobre?'var(--z-opp)':'var(--tx)'}">${fmt.pct(a.dy?.dy_pct)}</div><div class="l">DY 3 años${edDy.icon}</div></div>
     <div class="cl-bm">
       <div>Benchmark ${esc(a.sector)}: <span class="num">${fmt.num(a.benchmark_min_pct,1)}–${fmt.num(a.benchmark_max_pct,1)}%</span>
@@ -2306,6 +2308,18 @@ const ETF_NEWS_CATS = {
   NOBL:      ["mercado","fed_tasas","economia","earnings"],
   XLU:       ["fed_tasas","economia","mercado","sentimiento"],
 };
+function countHechos(ticker){
+  const news = VS.data.n_chile;
+  const map = (news && news.hechos_esenciales_por_ticker) || {};
+  return (map[ticker] || []).length;
+}
+function alertaHechoBadge(ticker){
+  const n = countHechos(ticker);
+  if(!n) return "";
+  const txt = n===1 ? "Nuevo hecho esencial" : `${n} hechos esenciales`;
+  return `<span class="he-alert">📢 ${txt}</span>`;
+}
+
 function hechosEsencialesBlock(ticker){
   const news = VS.data.n_chile;
   const map = (news && news.hechos_esenciales_por_ticker) || {};
@@ -2843,7 +2857,7 @@ function init(){
   // refresh "ago" labels every 30s
   setInterval(updateHeader, 30000);
 }
-const VS_BUILD = "v2026-06-14.3";
+const VS_BUILD = "v2026-06-14.4";
 document.addEventListener("DOMContentLoaded", ()=>{
   const e=document.getElementById("vsBuild"); if(e) e.textContent = VS_BUILD;
   console.log("Value Signal", VS_BUILD);
