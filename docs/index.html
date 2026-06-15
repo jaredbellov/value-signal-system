@@ -640,6 +640,7 @@ footer a.src:hover{color:var(--teal-2)}
 /* tagline debajo del logo */
 .brand{flex-wrap:wrap}
 .brand .tag{display:block;flex-basis:100%;width:100%;margin-left:0;padding-left:0;border-left:none;margin-top:3px;white-space:nowrap}
+.sector-badge{display:inline-block;font-size:9px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;padding:1px 6px;margin-left:7px;border-radius:5px;background:var(--bg-3,#1c2433);color:var(--ac,#5e7);border:1px solid var(--bd,#2a3548);vertical-align:middle;white-space:nowrap}
 </style>
 </head>
 <body>
@@ -1805,7 +1806,7 @@ function renderETFs(param){
   const divEtfs = allDiv.filter(x=>(x.categoria||"dividend")!=="reit");
   const reitEtfs = allDiv.filter(x=>x.categoria==="reit");
   // Growth ETFs (CFISPETF/CFINASDAQ) vienen de sp_nq
-  const growthOrder = ["CFISPETF","CFINASDAQ"];
+  const growthOrder = ["CFISPETF","CFINASDAQ","SOXX","AIQ","ICLN","QCLN"];
   const growthEtfs = (g && g.etfs) ? growthOrder.filter(t=>g.etfs[t]).map(t=>g.etfs[t]) : [];
 
   const sidebar = `<div><div class="sidebar-news">
@@ -1818,7 +1819,7 @@ function renderETFs(param){
   let main = "";
   if(growthEtfs.length){
     main += `<div class="section-title" style="margin-top:0">Growth ETFs · Racional
-      <span class="hint" style="text-transform:none;letter-spacing:0;font-weight:400">score sobre el índice subyacente · CAPE Shiller</span>
+      <span class="hint" style="text-transform:none;letter-spacing:0;font-weight:400">índices (CLP, Racional) + temáticos IA y energía (USD) · crecimiento, se evalúan por valuación</span>
       <span class="rule"></span></div>
       <div class="grid rows2">${growthEtfs.map(x=>etfRow(x,"growth")).join("")}</div>`;
   }
@@ -1846,7 +1847,9 @@ function etfRow(x, kind){
   const buy = isBuyZone(x.zona);
   const color = zoneColorVar(x.zona);
   const precio = kind==="growth"
-    ? (x.precio_etf_clp!=null?fmt.clp(x.precio_etf_clp):"—")
+    ? (x.es_tematico
+        ? (x.precio_etf_usd!=null?fmt.usd(x.precio_etf_usd):"—")
+        : (x.precio_etf_clp!=null?fmt.clp(x.precio_etf_clp):"—"))
     : fmt.usd(x.precio_usd);
   const sub = kind==="growth"
     ? `${esc(x.indice||"")} · Growth ETF`
@@ -1855,7 +1858,7 @@ function etfRow(x, kind){
     ? `aporte ${kind==="growth"?fmt.usd(x.aporte_sugerido_usd,0):fmt.usd(x.aporte_sugerido_usd,0)} · x${x.multiplicador}`
     : "";
   return `<div class="cl-row ${buy?'opp':''}" onclick="go('etfs','${esc(x.ticker)}')">
-    <div class="cl-id"><div class="t">${esc(x.ticker)}</div><div class="s">${sub}</div>
+    <div class="cl-id"><div class="t">${esc(x.ticker)}${kind==="growth"&&x.sector&&x.sector!=="Indice"?` <span class="sector-badge">${esc(x.sector)}</span>`:""}</div><div class="s">${sub}</div>
       <div class="s" style="margin-top:2px;color:var(--tx-3)">${precio}</div></div>
     <div class="cl-dy"><div class="v" style="color:${color}">${fmt.score(x.score)}</div><div class="l">score${eduIconStatic('score')}</div></div>
     <div class="cl-bm">
@@ -1960,7 +1963,7 @@ function growthSection(){
   const order = ["CFISPETF","CFINASDAQ"];
   const panels = order.filter(t=>d.etfs[t]).map(t=>growthPanel(d.etfs[t])).join("");
   return `<div class="section-title" style="margin-top:0">Growth ETFs · Racional
-    <span class="hint" style="text-transform:none;letter-spacing:0;font-weight:400">score sobre el índice subyacente · CAPE Shiller</span>
+    <span class="hint" style="text-transform:none;letter-spacing:0;font-weight:400">índices (CLP, Racional) + temáticos IA y energía (USD) · crecimiento, se evalúan por valuación</span>
     <span class="rule"></span></div>${panels}
     <div class="section-title">Dividend ETFs
     <span class="hint" style="text-transform:none;letter-spacing:0;font-weight:400">SCHD · JEPQ — score de timing para DCA</span>
@@ -1971,13 +1974,18 @@ function growthPanel(x){
   const chId = "chart_growth_"+x.ticker;
   queueChart(chId, x.historico, "close", "#26a69a", "3Y");
   const r = x.rango_365_clp;
-  const pos = (r && x.precio_etf_clp!=null && r.max>r.min) ? (x.precio_etf_clp-r.min)/(r.max-r.min)*100 : null;
+  const _pxRango = x.es_tematico ? x.precio_etf_usd : x.precio_etf_clp;
+  const _fmtR = x.es_tematico ? (v=>fmt.usd(v)) : (v=>fmt.clp(v));
+  const _curR = x.es_tematico ? "USD" : "CLP";
+  const pos = (r && _pxRango!=null && r.max>r.min) ? (_pxRango-r.min)/(r.max-r.min)*100 : null;
   return `<div class="panel" style="margin-bottom:16px">
     <div class="card-top">
       <div class="tk">
         <div class="ticker" style="font-size:24px">${esc(x.ticker)}</div>
         <div class="name">${esc(x.indice)} · Growth ETF · ${esc(x.emisor||"")}</div>
-        <div class="price" style="margin-top:8px">${x.precio_etf_clp!=null?fmt.clp(x.precio_etf_clp):"—"} <span class="dim" style="font-size:11px">· CLP en Racional</span></div>
+        <div class="price" style="margin-top:8px">${x.es_tematico
+          ? (x.precio_etf_usd!=null?fmt.usd(x.precio_etf_usd):"—")+` <span class="dim" style="font-size:11px">· USD · ${esc(x.sector||"")}</span>`
+          : (x.precio_etf_clp!=null?fmt.clp(x.precio_etf_clp):"—")+` <span class="dim" style="font-size:11px">· CLP en Racional</span>`}</div>
       </div>
       <div class="score-wrap">
         <div class="gauge-wrap sm">
@@ -1999,7 +2007,7 @@ function growthPanel(x){
         <div class="kv"><span class="k">${x.cape_oficial?"CAPE (Shiller oficial)":"Valoración relativa (proxy NDX/SPX)"}</span><span class="v">${fmt.num(x.cape,1)}${x.cape_oficial?"":"x"}</span></div>
         <div class="kv"><span class="k">Drawdown vs máximo</span><span class="v">${fmt.signpct(x.drawdown_pct,1)}</span></div>
         <div class="kv"><span class="k">Cambio score vs mes anterior</span><span class="v">${fmt.signpct(x.delta_score,1).replace("%"," pts")}</span></div>
-        ${r?`<div class="kv"><span class="k">Rango ETF 1 año (CLP)</span><span class="v">${fmt.clp(r.min)} – ${fmt.clp(r.max)}${pos!=null?` <span class="dim">· ${fmt.num(pos,0)}%</span>`:""}</span></div>`:""}
+        ${r?`<div class="kv"><span class="k">Rango ETF 1 año (${_curR})</span><span class="v">${_fmtR(r.min)} – ${_fmtR(r.max)}${pos!=null?` <span class="dim">· ${fmt.num(pos,0)}%</span>`:""}</span></div>`:""}
         <div class="kv"><span class="k">Dato índice al</span><span class="v">${esc(x.fecha_dato_indice||"—")}</span></div>
       </div>
       <div>
@@ -2283,6 +2291,12 @@ const ETF_NEWS_CATS = {
   JEPQ:      ["tech_nasdaq","fed_tasas","sentimiento"],
   VNQ:       ["fed_tasas","economia","mercado","sentimiento"],
   VNQI:      ["fed_tasas","economia","sentimiento"],
+  SOXX:      ["tech_nasdaq","earnings","mercado","sentimiento"],
+  AIQ:       ["tech_nasdaq","earnings","economia","sentimiento"],
+  ICLN:      ["fed_tasas","economia","mercado","sentimiento"],
+  QCLN:      ["fed_tasas","economia","tech_nasdaq","sentimiento"],
+  NOBL:      ["mercado","fed_tasas","economia","earnings"],
+  XLU:       ["fed_tasas","economia","mercado","sentimiento"],
 };
 function clCats(sector){
   const s = (sector||"").toLowerCase();
@@ -2796,7 +2810,7 @@ function init(){
   // refresh "ago" labels every 30s
   setInterval(updateHeader, 30000);
 }
-const VS_BUILD = "v2026-06-13.9";
+const VS_BUILD = "v2026-06-14.1";
 document.addEventListener("DOMContentLoaded", ()=>{
   const e=document.getElementById("vsBuild"); if(e) e.textContent = VS_BUILD;
   console.log("Value Signal", VS_BUILD);
