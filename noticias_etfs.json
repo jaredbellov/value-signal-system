@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-06-17T21:56:44.231740+00:00",
+  "updated_at_utc": "2026-06-17T23:27:10.873705+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "fed_tasas": {
@@ -28,32 +28,360 @@
     }
   },
   "noticias_por_categoria": {
-    "fed_tasas": [],
-    "mercado": [],
-    "tech_nasdaq": [],
-    "economia": [],
-    "earnings": [],
-    "sentimiento": []
+    "fed_tasas": [
+      {
+        "title": "Mantiene la Fed tasas de interés sin cambios",
+        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZmg0SzhoLW9aWTVfbGR6Qks2bHJtUm9HQjJRQkRLRjY3TzYwcTM1bzBaMld0cXNlOXZWMGRkdkhNRm14ei1aZldsQnQyMGlfOWpPZXlsaDMtZjRsa2wyRk9BS0ppbGtlcF9zNENoM0hmLVF5Skl3WTNHdzl4eFZRal9KMEZkOU1UNTR6Nk1ad3J5dUHSAaABQVVfeXFMUDZhNjVnNTFqRGRiQVdTVHdrRDJDblZFS0ZnUVZ0c1NwR0FJQ0VucnZST2VHc0d3bk1kbEJrcE5DQ045U3dVeWNRemQ4eGNqM0RiekFaV2N4SmdGUkt1clVWSHRWOTJfeVFfaDhoYWlKX2YwbEdLUGtlaWl6dHFueExSQnZKQVE1TjdjRkNvZW5qZ3Jtd1hsdHJXQzNlb3JsRg?oc=5",
+        "source": "Vértigo Político",
+        "pubdate": "Wed, 17 Jun 2026 19:34:23 GMT",
+        "pubdate_iso": "2026-06-17T19:34:23+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "En el debut de Kevin Warsh, sucesor de Jerome Powell en la FED de Estados Unidos, se tomó la decisión con tasas de interés",
+        "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPRlVZby04SFYxcjRic1p6R1FXRVIzNHpJZ2dRSHQxX1pHMzFnN1F4Y2dKTHlYbVQ4S0R4Ui1qR3doT012RGlPLUJiSWhmZHhKVmx2by1rVWU3dkwzRmZxLXZvVnloZnlXYmtzZEc5bk1IcVhWNkFFOU9WYVVKTWVWQXFmMmNYRFFSbjR3SWUzQl8tV2JLSVZFZ05TLVVnZDlpNi1FX2NuVGZaOEdxckY3d1pLd1lwSUpJWFU2bXNGQ1BCbG1VU1NtSWxNYTUwaUxIdG9VQVo0bmtzVkdWTnBMcXkyak54RURQd3NDeXJGcEh3cE5YcGRPZncyb1FDMkxBX1ZnZDBMWGhJN0tkV3FZR9IBlgJBVV95cUxPMFVxRDU2U1k1dk5Hcm1pM3ZGRXZDV3BJVkRENTVCT3dJc0Jra3JUN3J3WXBZdWxxaHp5UWI5V3dxUE92M0NUVWo4dUE1ODl4dEo0bTIxTld1SE1RbEZZdzZzd0FmZkZVanpRUjgySWxoUW5yNHNmM19qYzZ6d0tWVGJBb2NSRUVfeGV4QUZXR2JVamlFZlZ3eXFaQ01PSXQzTHpEbWdCTlpwOVNkWFdwMXlFT1BxWVNRSUpTZy1YMWZzZFppS1l2ZldjZ2JYazBFUUxFRV9XSERQMWZadDBBYWwzeld1NTJLVjZ5VXFXRDU3cmZBMzZCa0NwbG9jTVlLZ08yUVpuYmpOVENwelpsNnJxR0RLUQ?oc=5",
+        "source": "Revista Semana",
+        "pubdate": "Wed, 17 Jun 2026 18:56:11 GMT",
+        "pubdate_iso": "2026-06-17T18:56:11+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Fed mantendría tasas en 3,50%-3,75%: qué esperar de la primera reunión de Kevin Warsh",
+        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQSE1Vdy1yUTdiR1BCdjB3WmQ5NkRoUVE3UzZraEhwc0lYbnRsMlJ5N0pLTFk3a1E5ZFl4bUg0LUhQRV8xd1JtUkotMmE2SXVGUGZyT2VXV1FPYnp3T0ZUbmtKUXFOWC0wWlR6OC12MXJJbUgzT05HTTVxZFNUT191UXRNN2gyRlRRSU96ZGlyMFRqeG9pd0UwVTB6ZTFaX1JhM0RXZXhWVG9za1hqVW9hWXlHTnNKQ3Z0b3A5YVFlV3ZHNnZURGN1VFlR?oc=5",
+        "source": "El Tiempo Latino",
+        "pubdate": "Wed, 17 Jun 2026 17:01:21 GMT",
+        "pubdate_iso": "2026-06-17T17:01:21+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Es probable que la Fed de Kevin Warsh mantenga las tasas estables, y podría subirlas este año",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQdUZhcFdhNTRsMmdEV1h6WWtYRk56dmlWS25UUkFyZFRSU3VqSGZVRGJNU3U0NmlUODZDSzlDQnVGNDRaYkx3a09TNWt0MDhQaFliUHlVekt0SENhQ2xJc1Z1UnQtOHRxdzZyeGJkQks0bjZ2STMxMnV0dUNfb29iUXZLMTBzdkNrRU5fMGlSTkdhWTlTQlJmZzhtRWVieUZVdE01ZmZMUmoxLXZoejdjdzNINzZMQQ?oc=5",
+        "source": "Forbes México",
+        "pubdate": "Wed, 17 Jun 2026 16:39:00 GMT",
+        "pubdate_iso": "2026-06-17T16:39:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Mortgages in 2026: What to Expect if the Fed Cuts Rates and How to Prepare Before Buying a Home",
+        "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPUVZ6M1kzVDNnbmdHX3hUVTE4MFUwVzNMX0pWVFJCdEZScHdadVZQU25ucnY5QzYyV0FtWEVtaDFNMTluYURzLVUzSmtzbmRRcndzb2J1Mlc0NmZHZGxDX0hfcFFqem5DUG5NSnhIbXM3WmtwTU41M0VwNzNiVVhjdlJGWUFxWXpHUEwxR2hBYXRCeXNPRjd5b3dFLUswdWZyT24zRXY5V184N3BlSERlZ25JakRvNHNIZEdQbC1RZ3d3VlVXZnlvY2RtY1RYTEo5WU45TXdWZnZGMVpyUTVJ?oc=5",
+        "source": "mibolsillo.co",
+        "pubdate": "Wed, 17 Jun 2026 15:41:00 GMT",
+        "pubdate_iso": "2026-06-17T15:41:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "mercado": [
+      {
+        "title": "Nasdaq, S&P 500 Futures Gain Ahead Of Kevin Warsh’s First Fed Meeting: Why SPCX, ASTS, INTC, MU, SOFI, SMCI Are In Focus",
+        "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQQjZqOE56VjJieVRfY0RXcTZkOWZPNFBCb2FkRDU1bEdiaTJ4WUFzWS1ocTF2UDA1M3ZwME1HdE5jUjl6dVl1ZVZIWVh4X0JKQ2JFa3piVGpBUUtfRXQtSDRROEFub29XRVNBdnhwM1V1a2F4V3pVeHBkdWtENEd2V01FTlRDUmpNbHdxV0R6Y1F3VkhlR3RLOS1GSTg3dkhSMUdBSHEwMG5pbnYydC1uZDFBS2lORmtEN2Z3UGxhTlhxbXFFbktIVFltRWJ5M0stOFJnN29NQVZnNU9VeTExc2Z6eklRNkt6OUYzeVcxNUNSclNoMTBtbzUwM3lVSGQ2b2Y4?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 17 Jun 2026 08:38:02 GMT",
+        "pubdate_iso": "2026-06-17T08:38:02+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "S&P 500, Nasdaq, Dow Futures Edge Higher Ahead Of Fed Rate Decision: INTC, SNAP, SOFI, RUM In Focus",
+        "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNbmU5QUI0WU4yR0hFYno1YVYxbGwtR3FwUzdfbzBiWGNsX3h4UjJfLXBkQ0lqQ2NIM01Obnk2S1ZsMXZrSHZseXlQWmN5N0ZxVEJQaDM4SDNfaGdaSXN2TFZUYTY0SHUwekIyaXJzRVFMdXBrbmVLYU1CY1V2Tmo0Z0JNU3doSUxqbENjZjhINFNmQnRueC1XUHFqakJKcnphUlpHaWZKampkUmhiV2xhS1d1b1VyMjNzU1RET1hMSm9hZTExZXB0WlJXUVplOWxRRGZfdWhhN3J2c3ZiU21FWWNpS21laFlO?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 17 Jun 2026 00:49:00 GMT",
+        "pubdate_iso": "2026-06-17T00:49:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "US asset managers file for first ETFs targeting Wall Street's new obsession, AI and the 'MANGOS'",
+        "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQZVVubkFubU5jY1pHQ2FSSm5BbU1qQ2VEOEFYSjM4cFd2bU1ycW5GZzZ6MjRFeTNIZUVfdko2eUxYdV94ZVZ2QUlDLU44dGx3NV9LTlRmNDdnWmNGTFE1Q1JKcnFvZmpCZy02a3lhQUYwQlhVT1A3VjZJWXJrRmlUMlNKbmlnc0tkZGZRUC02Q2Zzb1NRdXpLSElhODhqV1lTTE9TUFk0M3R3Nzh2UHpmcW1PMlRJX3puTVVlcmZ3X3FaYkUyQmZEYjlZeTVxSzlrNzBjSXRiZUZNc2JqMWhKaUx5TUROWm5yb2c?oc=5",
+        "source": "The Star",
+        "pubdate": "Wed, 17 Jun 2026 00:43:00 GMT",
+        "pubdate_iso": "2026-06-17T00:43:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Dow Hits Record High On Strong Banks And Industrial Stocks, Nasdaq And S&P 500 Slip On Tech Weakness — SPCX, YUM, HOOD, RIVN, AAPL, SNAP In Focus",
+        "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNRHQ4ZXEtSzRjbGVTUi0wSzFRbVRpbnhYeElIRmVwTmY4amVkMUdCZ3RuRjkzVUVucXAxRjJrTy1oN3VaMlhRRmw0X2xxanNjVFpTbHNuNHJYZGZmYkZUNDBqR3Y4LVZrT0dQbklrcVdzdmthbmphejlOYXdweVgwcFpIM05sZzlCd2VEbFgyZnluTkdtWUdVOWhENWN0S1JaMndjek9hQkV6OG9kRlItVEQtZy1uRDVNUVk5QlRVUFJCT2xVblhtcFpCZlRGY2psellKQnVOeXdDZ2tfLU15MGdyY3daX08xbXNHel80Y3o5V3lyOWxVOThTR3R5U1F6WThtUnBDaXFEaDBhWlkwZG9BQmtjLUIyeW1xUnVvWWV3OUU?oc=5",
+        "source": "TradingView",
+        "pubdate": "Tue, 16 Jun 2026 21:22:32 GMT",
+        "pubdate_iso": "2026-06-16T21:22:32+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🟢",
+          "razonamiento": "Maximos historicos"
+        }
+      },
+      {
+        "title": "Berkshire Hathaway B (BRK.B) Advances But Underperforms Market: Key Facts",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQTUFxU0RhbXFZRWk5SkRmcEFlUHhzMkFFS0ZreTNKa2pQMDQ1b2tCUU5DMHo1VTNkTTJpWnR1bVpJZ3VMRU1XZGhpaDVqd2kwVnhwcWpFMlVGSUwwOHVReDhvRXNsc2JFdDdfZlNyQWhDWE5lQVMwSG9SWUVzS3A2dg?oc=5",
+        "source": "Yahoo Finance Singapore",
+        "pubdate": "Mon, 15 Jun 2026 21:45:04 GMT",
+        "pubdate_iso": "2026-06-15T21:45:04+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "tech_nasdaq": [
+      {
+        "title": "South Korean Shares Pause Four-Day Rally",
+        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNGN1WVVqX3lHVzd1Z3pCSmVLOEE2U295ZFBCa2xwXzNzbklvQVZBalVGdmhPZm9Lem9zNnhQdnJaU29EcXphWWN4SEZ2cTNHVktibjVTWUp6ZDQ0Sk9EWnBlX2hiVi1xWkJ1QllFV3FiN1ItYkE4TjFTckw0dVFkeG1MVGY2M0E4TldiekRfSlVGd1ky?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 17 Jun 2026 01:38:00 GMT",
+        "pubdate_iso": "2026-06-17T01:38:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "S&P 500, Nasdaq, Dow Futures Edge Higher Ahead Of Fed Rate Decision: INTC, SNAP, SOFI, RUM In Focus",
+        "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNbmU5QUI0WU4yR0hFYno1YVYxbGwtR3FwUzdfbzBiWGNsX3h4UjJfLXBkQ0lqQ2NIM01Obnk2S1ZsMXZrSHZseXlQWmN5N0ZxVEJQaDM4SDNfaGdaSXN2TFZUYTY0SHUwekIyaXJzRVFMdXBrbmVLYU1CY1V2Tmo0Z0JNU3doSUxqbENjZjhINFNmQnRueC1XUHFqakJKcnphUlpHaWZKampkUmhiV2xhS1d1b1VyMjNzU1RET1hMSm9hZTExZXB0WlJXUVplOWxRRGZfdWhhN3J2c3ZiU21FWWNpS21laFlO?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 17 Jun 2026 00:49:00 GMT",
+        "pubdate_iso": "2026-06-17T00:49:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Dow Hits Record High On Strong Banks And Industrial Stocks, Nasdaq And S&P 500 Slip On Tech Weakness — SPCX, YUM, HOOD, RIVN, AAPL, SNAP In Focus",
+        "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNRHQ4ZXEtSzRjbGVTUi0wSzFRbVRpbnhYeElIRmVwTmY4amVkMUdCZ3RuRjkzVUVucXAxRjJrTy1oN3VaMlhRRmw0X2xxanNjVFpTbHNuNHJYZGZmYkZUNDBqR3Y4LVZrT0dQbklrcVdzdmthbmphejlOYXdweVgwcFpIM05sZzlCd2VEbFgyZnluTkdtWUdVOWhENWN0S1JaMndjek9hQkV6OG9kRlItVEQtZy1uRDVNUVk5QlRVUFJCT2xVblhtcFpCZlRGY2psellKQnVOeXdDZ2tfLU15MGdyY3daX08xbXNHel80Y3o5V3lyOWxVOThTR3R5U1F6WThtUnBDaXFEaDBhWlkwZG9BQmtjLUIyeW1xUnVvWWV3OUU?oc=5",
+        "source": "TradingView",
+        "pubdate": "Tue, 16 Jun 2026 21:22:32 GMT",
+        "pubdate_iso": "2026-06-16T21:22:32+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🟢",
+          "razonamiento": "Maximos historicos"
+        }
+      },
+      {
+        "title": "STMicro Launches $1.5 Billion Convertible Bond Sale After 200% Stock Rally",
+        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOamdOdW9aOHQ1T1dXRnNfcDBBNEJjanNHV0NlRjRRNlctdHFpTURMOTRoaWtkVXFmNWNwY0lYT3V4aWVoLUt1RHdTUjNxT3JCZ0UyTmdiMUgxMll5eGhCbS1fNUpmMmR3TVJMT1pmTVUyY2VNX3R0SVU0akoyMzNrYlZnMzlMVlZ6bHVXbC1DX0c3TXFlb1libDk0ZWRpVk91ZXUzeGE4YUN5MGh0WjhYUnRhMlNRXzRhcGROQXFwVklvczZhQ2xIelhDaw?oc=5",
+        "source": "TradingView",
+        "pubdate": "Tue, 16 Jun 2026 19:20:16 GMT",
+        "pubdate_iso": "2026-06-16T19:20:16+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Dow rises 380 points as investors await Fed decision, SpaceX extends rally",
+        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdXV6dU5TQXhKRjFHNXlDWlNnMjdiUTc0V0djRm9LQ1ZxWG1uMXFvQjhDbXBKRU9TVDI5YlVXc284Vmt4UzZWQk5xOWhZMkVTLTBwUHpsUkV2QXlVZTNQMnlNSV9xM3dhRTRJNU5rQXpnZHJwSGdRM1NQVWtkajZGLTVERGFMOENYYnVWYmtsb1RtNVFTRThXYnFVcWtBSTF5bk5XZlBvT1BBdjh6bWhCRmx4NUJOT0J5bjY0RzNXQ1RGbXYzQTNhOA?oc=5",
+        "source": "TradingView",
+        "pubdate": "Tue, 16 Jun 2026 13:46:31 GMT",
+        "pubdate_iso": "2026-06-16T13:46:31+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "economia": [
+      {
+        "title": "Why ServiceNow (NOW) Stock Is Up Today",
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOWDNNalQ4dnBxRFROTlZ2ZUFTWVJlV05Hb093RjA3dFk0N1ZNM0JYUDloYnRNY3FfUFV1QTc0cGRvQ1FMSkhhYzI5MHNyMGNnVlg4eVhKOGhTSmxtb3VkcHEwc09qbWx6MGswZ3NZUzBqWVBRNmJIN3c5Y1VKZW1tMHZDQS1zME93d0FXRTRCSjdpbDNvcVBkeDZod2c?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 15 Jun 2026 16:25:51 GMT",
+        "pubdate_iso": "2026-06-15T16:25:51+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "earnings": [
+      {
+        "title": "Dow Hits Record High On Strong Banks And Industrial Stocks, Nasdaq And S&P 500 Slip On Tech Weakness — SPCX, YUM, HOOD, RIVN, AAPL, SNAP In Focus",
+        "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNRHQ4ZXEtSzRjbGVTUi0wSzFRbVRpbnhYeElIRmVwTmY4amVkMUdCZ3RuRjkzVUVucXAxRjJrTy1oN3VaMlhRRmw0X2xxanNjVFpTbHNuNHJYZGZmYkZUNDBqR3Y4LVZrT0dQbklrcVdzdmthbmphejlOYXdweVgwcFpIM05sZzlCd2VEbFgyZnluTkdtWUdVOWhENWN0S1JaMndjek9hQkV6OG9kRlItVEQtZy1uRDVNUVk5QlRVUFJCT2xVblhtcFpCZlRGY2psellKQnVOeXdDZ2tfLU15MGdyY3daX08xbXNHel80Y3o5V3lyOWxVOThTR3R5U1F6WThtUnBDaXFEaDBhWlkwZG9BQmtjLUIyeW1xUnVvWWV3OUU?oc=5",
+        "source": "TradingView",
+        "pubdate": "Tue, 16 Jun 2026 21:22:32 GMT",
+        "pubdate_iso": "2026-06-16T21:22:32+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🟢",
+          "razonamiento": "Maximos historicos"
+        }
+      },
+      {
+        "title": "Is Jabil (JBL) a 'Buy' Ahead of Its Upcoming Earnings Announcement?",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOU3l4eXd0VEVEd3NEbnhIakpCRWlNUTJlVDVrREpmbHFBai1MeWlmbk56UmRLUVFpbDFoR1dxRHN3Sk9CM05XVl9PN09wUE5CajB2eFNuNC1TNEV3c09oelRiLXFZWVVRNkNFeEtmZmc3YTJKUXU4YVpxdUtRc3FUNHJrel9ONUFxekRWb2gwZ3VQSDVMd1F2M1dZVlB1cHphd2JIYXE5cEFHdVZyUkk5VWllUmVtSU5u?oc=5",
+        "source": "TradingView",
+        "pubdate": "Tue, 16 Jun 2026 14:59:00 GMT",
+        "pubdate_iso": "2026-06-16T14:59:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Software Development Stocks Q1 In Review: JFrog (NASDAQ:FROG) Vs Peers",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQcXZqZ2otVzRlVThoT0F3MkJxRXBvc1hmWWV4WXhpdTdlUHBXSXk3Slk5b0xyUzB0amU5NVA2OE9rMlZicUR3ZmZRX3VVell0RnlfczcwMzAtUWZvaUFGSDNsRTlFd29yMVNnZUhKMmhSZ3RBQzViT3NZeUIwUEpOVGRWaDFuT1JQajV3NXdoWWJidl8ySTZvSFlCZUV2aXFNb3pzaEt4WmxyaVBrR2RzQ2diTnd2dnVlTUJHdWRaZ1RnMGZlTlE?oc=5",
+        "source": "TradingView",
+        "pubdate": "Tue, 16 Jun 2026 03:38:00 GMT",
+        "pubdate_iso": "2026-06-16T03:38:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Winners And Losers Of Q1: H&R Block (NYSE:HRB) Vs The Rest Of The Consumer Discretionary - Specialized Consumer Services Stocks",
+        "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNSERpSjRjVG5sbjhxMHFzZEZ0V0dGRndOOE9zaVBIWGlMd2plUmUwRC1kMEhicmtHenp4VzRQeHFxVGd6TEpsTWlSc0RMRUxUNVJ1WjZ3bEpiNVg0MGtDVmFlbHpNT0pCRXZYTTMyc09LY0w2dUw2Sjd2WUM3eGltWl9TZUdtM3Vnb2ZEVk5qSGJYbUcybkUzYkh1NlFEN1VaTlh5eTJHSGI3WV9yVFlEdjRra0h6YWVGRUcyZTdFalJxcDM1Smg0cTRKdE1tRkxGOTI4Q0xGMmN0RmI5OWtoYVNTX0ZQRlk4UWcxWHZQZE56SC1EM18wYU5uU0FYQzA2cno5b1FKa2gzNWFPZVdR?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 15 Jun 2026 03:36:00 GMT",
+        "pubdate_iso": "2026-06-15T03:36:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "sentimiento": [
+      {
+        "title": "Fed Meeting Today: Will Bitcoin Price Break Above $67K Or Face Another Sell-Off?",
+        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOMzhpb0YteVVPeFZSY09IMU9YR2s5bmx5ZWdRQVJFSUhfNkJJR0liU25Bd1Z4eXFPU3ZSQlBTck1hazJ3X3dhR1dscWdYZkZ4eEJMdFBLa3R5T0ZJUmxXVEU1NkR4VWlramFSZmFWYmN3UEJEcWgwdndIeld3SThVQ1k3YXpQTkMwZXRqTnBfblI2QTdCVms3TnNyNjBSZTNWNklmQUE5LXp6SFRFajJ3c3lHSFZHRjRKOFBMRGN4TVRHRWRpZXg1YzkxcUNxTFRrU3c?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 17 Jun 2026 10:27:43 GMT",
+        "pubdate_iso": "2026-06-17T10:27:43+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 3,
+          "intensidad_label": "fuerte",
+          "emoji": "🔴🔴",
+          "razonamiento": "Selloff: presion vendedora"
+        }
+      },
+      {
+        "title": "Will the Future of Investing Depend More on AI Signals Than Human Instinct?",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZEp1NlFDYlJZd3RpN2diSVZlb2NkbHZIaUk3eGRCeWhjT3YtWGxaLUdFOWYta05Ccm84OExBY09qR1RtTXZJRF9CNmJVWFZyTTJWbnNCb0p5Mmg5RV9hZ1BrNzhqaUpia3VnVWtFdERVSDFGVl9MZ2FoUUhLUmFLaHU1Q2xROWQ4ajN2VWNlbzNfVjV2emdLNkFxUzd3UDU1blc4VElVbEpnOTB4ZUlrSVRoYWc2UdIBwwFBVV95cUxPaE00ZjQyWURIbGxKcGNaQXFIaXd0WmNxWVUxU2daWXRKOF9xUUpDakREcmNRdHJHcEhSV1VWYVJqZVF6OGYyUUNlTWpudlN1SlJBbUhnN3A5U0JDRGVOWllkY2NBN3FnMV9PQ3ZtNjBKTEhTTmJ1ejRCUXdOSkpaeE9tWGJuQk8tLVZrYmdoVnNoUkxRYWR2aUpPU2tnUWwwX0VnaldhbEdMTEhvaWE0eTQ0bzBiQ3VsZTdVeTlZWDY0VGs?oc=5",
+        "source": "Analytics Insight",
+        "pubdate": "Tue, 16 Jun 2026 04:00:00 GMT",
+        "pubdate_iso": "2026-06-16T04:00:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "EARLY WARNING REPORT ISSUED PURSUANT TO NATIONAL INSTRUMENT 62-103 - CHANGE IN OWNERSHIP OF SECURITIES OF HELIUM EVOLUTION INCORPORATED",
+        "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxPem9lQ0NoMFNHOXJNY1I0V2VZSUVPekRLcFF4SjAwVkF1YUJsTHF3enA1WmFkM3lsMlN1MDBRbzZmaDVnMmlJeHhPa2NDRlpGbjB4Z3U0cUNPY2tDdDlBcDdGaDhUcVJJOUxtdUVqbTE3VHF2NzlEVkwyS1o4cHA5MzZaRFZGcW9ISnM2cWdfbzc3ZFBHSUs3YWtzdF9kSHdJLWptSkM0V2FkMEFlVjNGNkVnNWRERXhWWU5mZFhGSW5qb251Q2tiWHdOZ0NlNmpwNnB1VkxzdzZaSWJoYlNRS1Zab1JKa1E5RmZWWlNUSXFEX2ZyNmQtM2FQcGZ4OEgzcmFxdkpCLUhIQjZIVGpCLWtSUUlJTXRvYWNPXzRn?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 15 Jun 2026 21:15:00 GMT",
+        "pubdate_iso": "2026-06-15T21:15:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ]
   },
   "stats": {
-    "total_noticias": 0,
+    "total_noticias": 23,
     "por_categoria": {
-      "fed_tasas": 0,
-      "mercado": 0,
-      "tech_nasdaq": 0,
-      "economia": 0,
-      "earnings": 0,
-      "sentimiento": 0
+      "fed_tasas": 5,
+      "mercado": 5,
+      "tech_nasdaq": 5,
+      "economia": 1,
+      "earnings": 4,
+      "sentimiento": 3
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "neutral",
-    "score_neto": 0,
-    "n_positivas": 0,
-    "n_negativas": 0,
-    "n_neutrales": 0,
-    "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
+    "sentimiento": "levemente alcista",
+    "score_neto": 3,
+    "n_positivas": 3,
+    "n_negativas": 1,
+    "n_neutrales": 19,
+    "narrativa": "El feed muestra 3 senales positivas y 1 negativas (neto +3). Factores dominantes: Selloff: presion vendedora; Maximos historicos.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "NEUTRAL - sin sesgo dominante"
+    "veredicto": "Levemente ALCISTA"
   }
 }
