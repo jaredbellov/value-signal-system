@@ -1,6 +1,6 @@
 {
-  "fecha_actualizacion": "2026-06-17T12:37:16.441869",
-  "duracion_segundos": 248.970399,
+  "fecha_actualizacion": "2026-06-17T13:07:26.709653",
+  "duracion_segundos": 261.069176,
   "n_acciones": 16,
   "acciones": [
     {
@@ -128,7 +128,7 @@
         }
       ],
       "error": null,
-      "_fecha_dato": "2026-06-17T12:37:16.441835"
+      "_fecha_dato": "2026-06-17T13:07:26.709600"
     },
     {
       "ticker": "ZOFRI",
@@ -255,7 +255,7 @@
         }
       ],
       "error": null,
-      "_fecha_dato": "2026-06-17T12:37:16.441835"
+      "_fecha_dato": "2026-06-17T13:07:26.709600"
     },
     {
       "ticker": "PEHUENCHE",
@@ -382,7 +382,7 @@
         }
       ],
       "error": null,
-      "_fecha_dato": "2026-06-17T12:37:16.441835"
+      "_fecha_dato": "2026-06-17T13:07:26.709600"
     },
     {
       "ticker": "TRICAHUE",
@@ -509,7 +509,7 @@
         }
       ],
       "error": null,
-      "_fecha_dato": "2026-06-17T12:37:16.441835"
+      "_fecha_dato": "2026-06-17T13:07:26.709600"
     },
     {
       "ticker": "COLBUN",
@@ -519,11 +519,11 @@
       "benchmark_min_pct": 8.0,
       "benchmark_max_pct": 9.0,
       "descripcion": "Segunda mayor generadora electrica de Chile. Diversificada en hidro, gas, eolica, solar. ROE 4%, payout 79%, G=1%.",
-      "precio_actual_clp": 127.52,
+      "precio_actual_clp": 128.79,
       "razon_social": "COLBUN S.A.",
-      "variacion_pct": -1.15,
+      "variacion_pct": -0.16,
       "dy": {
-        "dy_pct": 6.23,
+        "dy_pct": 6.17,
         "anos_usados": 3,
         "anos_detalle": {
           "2025": 5.54,
@@ -533,13 +533,13 @@
         "promedio_anual": 7.94,
         "advertencia": null
       },
-      "cagr_3y": 0.00940135026790756,
-      "cagr_5y": 0.03018713553726915,
-      "cagr_10y": -0.025485322895982043,
+      "cagr_3y": 0.012741237863596933,
+      "cagr_5y": 0.03223098211983699,
+      "cagr_10y": -0.024519104472197184,
       "evaluacion": {
         "status": "Bajo benchmark",
         "emoji": "🔴",
-        "vs_benchmark_pp": -2.27
+        "vs_benchmark_pp": -2.33
       },
       "cmf": {
         "periodo": "03/2026",
@@ -636,7 +636,7 @@
         }
       ],
       "error": null,
-      "_fecha_dato": "2026-06-17T12:37:16.441835"
+      "_fecha_dato": "2026-06-17T13:07:26.709600"
     },
     {
       "ticker": "ENELGXCH",
@@ -763,7 +763,7 @@
         }
       ],
       "error": null,
-      "_fecha_dato": "2026-06-17T12:37:16.441835"
+      "_fecha_dato": "2026-06-17T13:07:26.709600"
     },
     {
       "ticker": "LIPIGAS",
@@ -776,24 +776,11 @@
       "precio_actual_clp": 8189,
       "razon_social": "EMPRESAS LIPIGAS S.A.",
       "variacion_pct": -0.47,
-      "dy": {
-        "dy_pct": 4.26,
-        "anos_usados": 2,
-        "anos_detalle": {
-          "2025": 437.0,
-          "2024": 261.0
-        },
-        "promedio_anual": 349.0,
-        "advertencia": "Solo 2 anos disponibles (ideal: 3)"
-      },
+      "dy": null,
       "cagr_3y": 0.4583597901701151,
       "cagr_5y": 0.175372982517213,
       "cagr_10y": null,
-      "evaluacion": {
-        "status": "Bajo benchmark",
-        "emoji": "🔴",
-        "vs_benchmark_pp": -2.24
-      },
+      "evaluacion": null,
       "cmf": {
         "periodo": "03/2026",
         "tipo_balance": "CONSOLIDADO",
@@ -806,90 +793,9 @@
         "capital_trabajo": 101500777.0,
         "patrimonio_total": 267370984.0
       },
-      "dividendos_recientes": [
-        {
-          "fecha_pago": "2026-06-22",
-          "fecha_limite": "2026-06-16",
-          "monto_clp": 95.0,
-          "tipo": "PROVISORIO",
-          "moneda_origen": "CLP",
-          "descripcion": "DIVIDENDO PROV.  $ 95"
-        },
-        {
-          "fecha_pago": "2026-05-07",
-          "fecha_limite": "2026-04-30",
-          "monto_clp": 118.0,
-          "tipo": "ADICIONAL",
-          "moneda_origen": "CLP",
-          "descripcion": "DIVIDENDO ADIC $ 118"
-        },
-        {
-          "fecha_pago": "2026-03-31",
-          "fecha_limite": "2026-03-25",
-          "monto_clp": 95.0,
-          "tipo": "PROVISORIO",
-          "moneda_origen": "CLP",
-          "descripcion": "DIVIDENDO PROV.  $ 95"
-        },
-        {
-          "fecha_pago": "2025-12-26",
-          "fecha_limite": "2025-12-19",
-          "monto_clp": 153.0,
-          "tipo": "PROVISORIO",
-          "moneda_origen": "CLP",
-          "descripcion": "DIVIDENDO PROV.  $ 153"
-        },
-        {
-          "fecha_pago": "2025-09-25",
-          "fecha_limite": "2025-09-17",
-          "monto_clp": 122.0,
-          "tipo": "PROVISORIO",
-          "moneda_origen": "CLP",
-          "descripcion": "DIVIDENDO PROV.  $ 122"
-        },
-        {
-          "fecha_pago": "2025-06-25",
-          "fecha_limite": "2025-06-18",
-          "monto_clp": 81.0,
-          "tipo": "PROVISORIO",
-          "moneda_origen": "CLP",
-          "descripcion": "DIVIDENDO PROV.  $ 81"
-        },
-        {
-          "fecha_pago": "2025-05-02",
-          "fecha_limite": "2025-04-25",
-          "monto_clp": 65.0,
-          "tipo": "ADICIONAL",
-          "moneda_origen": "CLP",
-          "descripcion": "DIVIDENDO ADIC  $ 65"
-        },
-        {
-          "fecha_pago": "2025-03-31",
-          "fecha_limite": "2025-03-25",
-          "monto_clp": 81.0,
-          "tipo": "PROVISORIO",
-          "moneda_origen": "CLP",
-          "descripcion": "DIVIDENDO PROV $ 81"
-        },
-        {
-          "fecha_pago": "2024-12-27",
-          "fecha_limite": "2024-12-20",
-          "monto_clp": 164.0,
-          "tipo": "PROVISORIO",
-          "moneda_origen": "CLP",
-          "descripcion": "DIVIDENDO PROV $ 164"
-        },
-        {
-          "fecha_pago": "2024-09-30",
-          "fecha_limite": "2024-09-24",
-          "monto_clp": 97.0,
-          "tipo": "PROVISORIO",
-          "moneda_origen": "CLP",
-          "descripcion": "DIVIDENDO PROV.  $ 97"
-        }
-      ],
+      "dividendos_recientes": [],
       "error": null,
-      "_fecha_dato": "2026-06-17T12:37:16.441835"
+      "_fecha_dato": "2026-06-17T13:07:26.709600"
     },
     {
       "ticker": "NTGCLGAS",
@@ -913,8 +819,8 @@
         "promedio_anual": 40.33,
         "advertencia": null
       },
-      "cagr_3y": 0.5465392543786058,
-      "cagr_5y": 0.21639917165436695,
+      "cagr_3y": 0.5497440018825994,
+      "cagr_5y": 0.2179109230680334,
       "cagr_10y": null,
       "evaluacion": {
         "status": "Cerca",
@@ -1016,7 +922,7 @@
         }
       ],
       "error": null,
-      "_fecha_dato": "2026-06-17T12:37:16.441835"
+      "_fecha_dato": "2026-06-17T13:07:26.709600"
     },
     {
       "ticker": "SOQUICOM",
@@ -1143,7 +1049,7 @@
         }
       ],
       "error": null,
-      "_fecha_dato": "2026-06-17T12:37:16.441835"
+      "_fecha_dato": "2026-06-17T13:07:26.709600"
     },
     {
       "ticker": "QUINENCO",
@@ -1153,11 +1059,11 @@
       "benchmark_min_pct": 8.0,
       "benchmark_max_pct": 9.0,
       "descripcion": "Holding del grupo Luksic. Participaciones en CCU, Banco de Chile, Madeco, Enex, Vapores. ROE 10%, payout 73%, G=3%.",
-      "precio_actual_clp": 3850,
+      "precio_actual_clp": 3830.1,
       "razon_social": "QUINENCO S.A.",
-      "variacion_pct": -1.13,
+      "variacion_pct": -1.64,
       "dy": {
-        "dy_pct": 10.48,
+        "dy_pct": 10.54,
         "anos_usados": 3,
         "anos_detalle": {
           "2025": 300.7,
@@ -1167,13 +1073,13 @@
         "promedio_anual": 403.58,
         "advertencia": null
       },
-      "cagr_3y": 0.1255522361156367,
-      "cagr_5y": 0.21235184842949906,
-      "cagr_10y": 0.11593491242399101,
+      "cagr_3y": 0.12360962208648174,
+      "cagr_5y": 0.2110959607453604,
+      "cagr_10y": 0.11535675845947924,
       "evaluacion": {
         "status": "Sobre benchmark",
         "emoji": "🟢",
-        "vs_benchmark_pp": 1.98
+        "vs_benchmark_pp": 2.04
       },
       "cmf": {
         "periodo": "03/2026",
@@ -1270,7 +1176,7 @@
         }
       ],
       "error": null,
-      "_fecha_dato": "2026-06-17T12:37:16.441835"
+      "_fecha_dato": "2026-06-17T13:07:26.709600"
     },
     {
       "ticker": "CENCOMALLS",
@@ -1280,11 +1186,11 @@
       "benchmark_min_pct": 8.0,
       "benchmark_max_pct": 9.0,
       "descripcion": "Filial inmobiliaria de Cencosud. Operadora de centros comerciales en Chile, Peru y Colombia. ROE 11%, payout 46%, G=6%.",
-      "precio_actual_clp": 2349.1,
+      "precio_actual_clp": 2400,
       "razon_social": "CENCOSUD SHOPPING S.A.",
-      "variacion_pct": -3.33,
+      "variacion_pct": -1.23,
       "dy": {
-        "dy_pct": 4.33,
+        "dy_pct": 4.24,
         "anos_usados": 3,
         "anos_detalle": {
           "2025": 91.0,
@@ -1294,13 +1200,13 @@
         "promedio_anual": 101.67,
         "advertencia": null
       },
-      "cagr_3y": 0.19690673998070718,
-      "cagr_5y": 0.12475568936142944,
+      "cagr_3y": 0.20548985037429457,
+      "cagr_5y": 0.12958819750271444,
       "cagr_10y": null,
       "evaluacion": {
         "status": "Bajo benchmark",
         "emoji": "🔴",
-        "vs_benchmark_pp": -4.17
+        "vs_benchmark_pp": -4.26
       },
       "cmf": {
         "periodo": "03/2026",
@@ -1397,7 +1303,7 @@
         }
       ],
       "error": null,
-      "_fecha_dato": "2026-06-17T12:37:16.441835"
+      "_fecha_dato": "2026-06-17T13:07:26.709600"
     },
     {
       "ticker": "ENELAM",
@@ -1407,11 +1313,11 @@
       "benchmark_min_pct": 8.0,
       "benchmark_max_pct": 9.0,
       "descripcion": "Mayor electrica privada de Latam. Par regional de Enel Generacion Chile.",
-      "precio_actual_clp": 77.49,
+      "precio_actual_clp": 77.1,
       "razon_social": "ENEL AMERICAS S.A.",
-      "variacion_pct": -0.65,
+      "variacion_pct": -1.15,
       "dy": {
-        "dy_pct": 4.25,
+        "dy_pct": 4.27,
         "anos_usados": 3,
         "anos_detalle": {
           "2025": 6.99,
@@ -1421,13 +1327,13 @@
         "promedio_anual": 3.29,
         "advertencia": null
       },
-      "cagr_3y": -0.11289663349928891,
-      "cagr_5y": -0.04829351400387749,
-      "cagr_10y": -0.037852400125912844,
+      "cagr_3y": -0.11438737360966345,
+      "cagr_5y": -0.04925341853511689,
+      "cagr_10y": -0.038337740329710046,
       "evaluacion": {
         "status": "Bajo benchmark",
         "emoji": "🔴",
-        "vs_benchmark_pp": -4.25
+        "vs_benchmark_pp": -4.23
       },
       "cmf": {
         "periodo": "03/2026",
@@ -1516,7 +1422,7 @@
         }
       ],
       "error": null,
-      "_fecha_dato": "2026-06-17T12:37:16.441835"
+      "_fecha_dato": "2026-06-17T13:07:26.709600"
     },
     {
       "ticker": "AGUAS-A",
@@ -1526,9 +1432,9 @@
       "benchmark_min_pct": 8.0,
       "benchmark_max_pct": 9.0,
       "descripcion": "Mayor sanitaria de Chile. Negocio regulado y muy estable, dividendos altos y predecibles. Precio via Yahoo (.SN) por bloqueo captcha BCS.",
-      "precio_actual_clp": 334.65,
+      "precio_actual_clp": 335,
       "razon_social": "AGUAS ANDINAS S.A., SERIE A",
-      "variacion_pct": -0.7,
+      "variacion_pct": -0.59,
       "dy": {
         "dy_pct": 5.01,
         "anos_usados": 3,
@@ -1540,9 +1446,9 @@
         "promedio_anual": 16.77,
         "advertencia": null
       },
-      "cagr_3y": 0.062372933857718804,
-      "cagr_5y": 0.16927712787589977,
-      "cagr_10y": -0.013489295653165034,
+      "cagr_3y": 0.06274317238898597,
+      "cagr_5y": 0.16952160771731384,
+      "cagr_10y": -0.013386168101467755,
       "evaluacion": {
         "status": "Bajo benchmark",
         "emoji": "🔴",
@@ -1643,7 +1549,7 @@
         }
       ],
       "error": null,
-      "_fecha_dato": "2026-06-17T12:37:16.441835"
+      "_fecha_dato": "2026-06-17T13:07:26.709600"
     },
     {
       "ticker": "PARAUCO",
@@ -1653,9 +1559,9 @@
       "benchmark_min_pct": 8.0,
       "benchmark_max_pct": 9.0,
       "descripcion": "Operador de centros comerciales en Chile, Peru y Colombia. Dividendos estables. Precio via Yahoo (.SN) por bloqueo captcha BCS.",
-      "precio_actual_clp": 3756.1,
+      "precio_actual_clp": 3761.2,
       "razon_social": "PARQUE ARAUCO S.A.",
-      "variacion_pct": -2.18,
+      "variacion_pct": -2.05,
       "dy": {
         "dy_pct": 0.59,
         "anos_usados": 3,
@@ -1667,9 +1573,9 @@
         "promedio_anual": 22.19,
         "advertencia": null
       },
-      "cagr_3y": 0.45041749989803637,
-      "cagr_5y": 0.3136635061499271,
-      "cagr_10y": 0.11004533190891519,
+      "cagr_3y": 0.45107365777928865,
+      "cagr_5y": 0.31402004874111755,
+      "cagr_10y": 0.11019596088891004,
       "evaluacion": {
         "status": "Bajo benchmark",
         "emoji": "🔴",
@@ -1762,7 +1668,7 @@
         }
       ],
       "error": null,
-      "_fecha_dato": "2026-06-17T12:37:16.441835"
+      "_fecha_dato": "2026-06-17T13:07:26.709600"
     },
     {
       "ticker": "MALLPLAZA",
@@ -1772,11 +1678,11 @@
       "benchmark_min_pct": 8.0,
       "benchmark_max_pct": 9.0,
       "descripcion": "Operador de malls (grupo Falabella). Negocio inmobiliario de renta estable. Precio via Yahoo (.SN) por bloqueo captcha BCS.",
-      "precio_actual_clp": 3782.1,
+      "precio_actual_clp": 3797,
       "razon_social": "PLAZA S.A.",
-      "variacion_pct": -2.77,
+      "variacion_pct": -2.39,
       "dy": {
-        "dy_pct": 1.19,
+        "dy_pct": 1.18,
         "anos_usados": 3,
         "anos_detalle": {
           "2025": 49.53,
@@ -1786,13 +1692,13 @@
         "promedio_anual": 44.92,
         "advertencia": null
       },
-      "cagr_3y": 0.49359537901183437,
-      "cagr_5y": 0.27330050937426376,
+      "cagr_3y": 0.495554203488908,
+      "cagr_5y": 0.274302193669818,
       "cagr_10y": null,
       "evaluacion": {
         "status": "Bajo benchmark",
         "emoji": "🔴",
-        "vs_benchmark_pp": -7.31
+        "vs_benchmark_pp": -7.32
       },
       "cmf": {
         "periodo": "03/2026",
@@ -1881,7 +1787,7 @@
         }
       ],
       "error": null,
-      "_fecha_dato": "2026-06-17T12:37:16.441835"
+      "_fecha_dato": "2026-06-17T13:07:26.709600"
     },
     {
       "ticker": "CCU",
@@ -2008,7 +1914,7 @@
         }
       ],
       "error": null,
-      "_fecha_dato": "2026-06-17T12:37:16.441835"
+      "_fecha_dato": "2026-06-17T13:07:26.709600"
     }
   ]
 }
