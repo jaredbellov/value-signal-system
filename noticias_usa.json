@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-06-19T21:33:28.808313+00:00",
+  "updated_at_utc": "2026-06-19T22:03:27.587732+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -64,7 +64,36 @@
         }
       }
     ],
-    "nvidia": [],
+    "nvidia": [
+      {
+        "title": "IREN Stock Gets Fresh Bull Case: Jefferies Sees AI Pivot Unlocking $3.1B In Annual Revenue",
+        "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNcGEzTkRISWRxVjBmbW9ONWM0RXpCbEVLTWo5M2twb1RYR0tTU3dZYlNWYUp0cGZEajBiZlA2LV8taEZra0NveXhkcjVtck81enpOdVZHbmVOeTcxbWtiOGZHbmNRUkF3TzB6THRFQWlaWVF4YnU2QVc1WFJBLVpzMVNRTjdyaXR5MXFCcG5FRkFELXpKcGlGLUladkstZ05pR1pQQnB0MFluOXZSVlU5MkhTUTlyV3R1Sk9mOUxYdjB4ZGNXSGRXc09MREFBZU10R1YzQVdiLUlkQ0xselRPb19R?oc=5",
+        "source": "TradingView",
+        "pubdate": "Thu, 18 Jun 2026 12:51:56 GMT",
+        "pubdate_iso": "2026-06-18T12:51:56+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Why Is RUM Stock Surging Nearly 20% Higher In Overnight Trading?",
+        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOOWFuRV9PS2NialRjelprSzZUbTAtRENZTUM4VjNTaEhmbzRnTlcxal8wVXhxUHprYm5qM0RYTGROUGFud1dSNjR4UVdoMmF2UzdLdWU5WEQtSjg3UDZpekpWekEyMmlJRWluWk5HRnNodi1iMkYyTTJMenNlU184Y1RrWWQ3czY0UUdNazdNYXpqQTJweWktRlNXNkY1b3o4c3FKandTTHNrVmhPQXU5WEk1a19peVV0bXRSbGNVUQ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Thu, 18 Jun 2026 01:51:42 GMT",
+        "pubdate_iso": "2026-06-18T01:51:42+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
     "ia_semis": [
       {
         "title": "Marvell stock jumps as KeyBanc lifts target, chip shipments hit milestone",
@@ -183,10 +212,10 @@
     ]
   },
   "stats": {
-    "total_noticias": 11,
+    "total_noticias": 13,
     "por_categoria": {
       "tesla": 3,
-      "nvidia": 0,
+      "nvidia": 2,
       "ia_semis": 3,
       "macro_tech": 5
     }
@@ -196,7 +225,7 @@
     "score_neto": 1,
     "n_positivas": 1,
     "n_negativas": 0,
-    "n_neutrales": 10,
+    "n_neutrales": 12,
     "narrativa": "El feed muestra 1 senales positivas y 0 negativas (neto +1). Factores dominantes: Avances en Optimus: opcionalidad Tesla.",
     "narrativa_fuente": "plantilla",
     "veredicto": "NEUTRAL - sin sesgo dominante"
