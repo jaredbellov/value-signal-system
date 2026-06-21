@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-06-21T00:10:54.340769+00:00",
+  "updated_at_utc": "2026-06-21T00:33:27.630470+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -123,6 +123,20 @@
       }
     ],
     "ia_semis": [
+      {
+        "title": "ASML Faces Fresh China Export Scrutiny",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZEduTUpGY1FKYzVqUFJWM2pRVFVrZFBoOUpjV1dlVkx4Q2xHNDdEcmpMMWMwYnFHQW9RaU1EM0ZiYkhMZDN4bHlfM1pPNEEwazR4alFKTEppZWloSnFjWmxnTW9fVlJmQUQ2MlNRNDgtMFhHTmRyclFSUGIxVlFDMkgzX1k0SUtpUFk4aU5UTDRTU20tRGNEQmw1MkhFZw?oc=5",
+        "source": "TradingView",
+        "pubdate": "Fri, 19 Jun 2026 17:57:04 GMT",
+        "pubdate_iso": "2026-06-19T17:57:04+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
       {
         "title": "ASML Drops 2.7% as US Raises New China EUV Concerns",
         "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPWWVibVg5MEpJcGFva1IxNFEwU2hialNwMW1BMnBZa2J4SlpZOVVSaDdDS1hjOWk4WTBHMkNGOVE1eHVvREpSSmJqS1Y2SVVvcmZNSkhOSHhDSG9aTEhrU2wtaXVZTFRCbDBmdVYwdWZBUWR0OGJCdjZ1VmRQM2JSUjZtMEFUdDI5LXNDSXYyTjdwSTVDdnJDM29JZHc1N3lYQ3poYnF3dlF5dFR6MlE?oc=5",
@@ -254,11 +268,11 @@
     ]
   },
   "stats": {
-    "total_noticias": 16,
+    "total_noticias": 17,
     "por_categoria": {
       "tesla": 2,
       "nvidia": 5,
-      "ia_semis": 4,
+      "ia_semis": 5,
       "macro_tech": 5
     }
   },
@@ -267,7 +281,7 @@
     "score_neto": -5,
     "n_positivas": 0,
     "n_negativas": 2,
-    "n_neutrales": 14,
+    "n_neutrales": 15,
     "narrativa": "El feed muestra 0 senales positivas y 2 negativas (neto -5). Factores dominantes: Selloff: presion vendedora; Tono hawkish: presion.",
     "narrativa_fuente": "plantilla",
     "veredicto": "BAJISTA a corto plazo"
