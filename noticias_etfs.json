@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-06-22T13:27:00.561926+00:00",
+  "updated_at_utc": "2026-06-22T15:27:03.222318+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "fed_tasas": {
@@ -28,27 +28,12 @@
     }
   },
   "noticias_por_categoria": {
-    "fed_tasas": [
-      {
-        "title": "Market News: Gold Braces for a Data-Dependent Week — Core PCE Could Trigger a Test of $4,000",
-        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE55cTdTeUF0Q2R1WTl6R1cwOVVCZmNRRzZSU1hYTGdXbmNoeTVmSkczRlVnZ3NkbG1idThnWHRza1lmWndoY1hPRnp5RGRNclZpdWVlVXUtbzFESFdMU29VMWhpNU8?oc=5",
-        "source": "Binance",
-        "pubdate": "Mon, 22 Jun 2026 08:06:54 GMT",
-        "pubdate_iso": "2026-06-22T08:06:54+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      }
-    ],
+    "fed_tasas": [],
     "mercado": [
       {
         "title": "La bolsa hoy: avances entre Estados Unidos e Irán",
         "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNzQ5V3RkNlllTlBRS1g4Q3Q4eHlDX2JhZGFBZER1Uklyb29WVUJXTUIteVFLMUVfS2JybmpKRDh5M19zVHpVUWp6TnRqOVhPZUI3LVI4eWFtaDRlOS1GRDE2NGYyc09pTnNlUVBVQVc3QlpLLUFvZjQ4Q0hzY21COHhaNVFLWEVQaTNKeHJOdmN4WFBzSExma3pUTmdZYS1uNVRVT01wVHVmQVJ2VlJYT3V3WTE?oc=5",
-        "source": "XTB",
+        "source": "XTB.com",
         "pubdate": "Mon, 22 Jun 2026 10:47:26 GMT",
         "pubdate_iso": "2026-06-22T10:47:26+00:00",
         "impacto": {
@@ -107,7 +92,7 @@
     "economia": [],
     "earnings": [
       {
-        "title": "2026 World Cup: Each team’s chances",
+        "title": "2026 World Cup: Each team’s chances - The Athletic",
         "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdHJ0aEVaZkV1cm96c1RHYnJ2cml5M2FtLUpBNEdnR3ZsSGxuYW5Lay1PYlBkMERlS19tN0UzdDZ2bTl3a0tOTF9lRm5CeXdBcnlJNU56alZOT0l6cmU3UjkzcDY0UEhKbXNEWVEzMzMyWVYyUmUtZVZJbHFTMG5TbllVRE8tV0w1enNSaUZfSjN5STlNN3lJOGN2MmItX0VPYlYxem9nX3Y0OU5LY1lIWXQ3LUgydw?oc=5",
         "source": "The New York Times",
         "pubdate": "Mon, 22 Jun 2026 09:02:37 GMT",
@@ -167,9 +152,9 @@
     ]
   },
   "stats": {
-    "total_noticias": 9,
+    "total_noticias": 8,
     "por_categoria": {
-      "fed_tasas": 1,
+      "fed_tasas": 0,
       "mercado": 2,
       "tech_nasdaq": 2,
       "economia": 0,
@@ -182,7 +167,7 @@
     "score_neto": -2,
     "n_positivas": 0,
     "n_negativas": 1,
-    "n_neutrales": 8,
+    "n_neutrales": 7,
     "narrativa": "El feed muestra 0 senales positivas y 1 negativas (neto -2). Factores dominantes: Correccion en curso o anticipada.",
     "narrativa_fuente": "plantilla",
     "veredicto": "Levemente BAJISTA"
