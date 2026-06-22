@@ -2716,7 +2716,7 @@ function renderChileDetail(ticker){
         <h3>Dividendos por año <span class="dim" style="font-weight:400;text-transform:none">(CLP/acción)</span></h3>
         ${divbars}
         <div class="kv" style="margin-top:14px"><span class="k">Promedio anual</span><span class="v">${fmt.clp(dy.promedio_anual)}</span></div>
-        <div class="kv"><span class="k">CAGR 3y / 5y / 10y${edCagr.icon}</span><span class="v">${fmt.pct((a.cagr_3y||0)*100)} / ${fmt.pct((a.cagr_5y||0)*100)} / ${fmt.pct((a.cagr_10y||0)*100)}</span></div>
+        <div class="kv"><span class="k">CAGR precio 3y / 5y / 10y${edCagr.icon}</span><span class="v">${fmt.pct((a.cagr_3y||0)*100)} / ${fmt.pct((a.cagr_5y||0)*100)} / ${fmt.pct((a.cagr_10y||0)*100)}</span></div>
         ${edCagr.inline}
       </div>
       <div class="panel">
