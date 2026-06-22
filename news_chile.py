@@ -81,6 +81,28 @@ QUERIES = {
     ],
 }
 
+# ============================================================
+# HECHOS ESENCIALES CMF (via visfin.cl)
+# ============================================================
+# Mapeo ticker -> keywords de razon social (CMF/visfin usan mayusculas).
+# Matching por substring sobre texto normalizado (sin tildes, minusculas).
+WATCHLIST_HECHOS_ESENCIALES = {
+    "HABITAT":    ["afp habitat"],
+    "ZOFRI":      ["zona franca de iquique", "zofri"],
+    "PEHUENCHE":  ["pehuenche"],
+    "TRICAHUE":   ["fondo de inversion tricahue", "tricahue capital"],
+    "COLBUN":     ["colbun"],
+    "ENELGXCH":   ["enel generacion", "enel chile"],
+    "LIPIGAS":    ["empresas lipigas", "lipigas"],
+    "NTGCLGAS":   ["empresas gasco", "gasco sa", "gasco s a"],
+    "SOQUICOM":   ["sociedad quimica y minera"],
+    "QUINENCO":   ["quinenco"],
+    "CENCOMALLS": ["cencosud shopping"],
+    "OXIQUIM":    ["oxiquim"],
+}
+VISFIN_HECHOS_URL = "https://visfin.cl/hechos-esenciales"
+
+
 CATEGORIA_META = {
     "bcch_tpm":            {"emoji": "🏦", "label": "Banco Central / TPM"},
     "ipsa":                {"emoji": "📈", "label": "IPSA / Bolsa local"},
@@ -493,6 +515,108 @@ def git_sync_and_push():
     log.info("git push OK")
 
 
+
+# ============================================================
+# Hechos esenciales: scraping + filtrado por ticker
+# ============================================================
+def fetch_hechos_esenciales():
+    """Descarga la tabla de hechos esenciales de visfin.cl (CMF, ultimos dias).
+    Devuelve lista de dicts: fecha, empresa, materia, link, doc_id."""
+    log.info("Descargando hechos esenciales de visfin.cl...")
+    html = fetch_rss(VISFIN_HECHOS_URL, timeout=30)
+    if not html:
+        log.warning("  visfin no devolvio HTML")
+        return []
+
+    import html as _html_lib
+    hechos = []
+    row_pattern = re.compile(
+        r'<tr[^>]*>\s*'
+        r'<td[^>]*>(.*?)</td>\s*'      # fecha
+        r'<td[^>]*>(.*?)</td>\s*'      # empresa
+        r'<td[^>]*>(.*?)</td>\s*'      # materia
+        r'<td[^>]*>\s*<a[^>]*href="([^"]+)"[^>]*>([^<]+)</a>\s*</td>',
+        re.DOTALL | re.IGNORECASE,
+    )
+    for m in row_pattern.finditer(html):
+        fecha_str = re.sub(r"<[^>]+>", "", m.group(1)).strip()
+        empresa = re.sub(r"<[^>]+>", "", m.group(2)).strip()
+        materia = re.sub(r"<[^>]+>", "", m.group(3)).strip()
+        link = m.group(4).strip()
+        doc_id = m.group(5).strip()
+        if not empresa or not link or "cmfchile.cl" not in link:
+            continue
+        hechos.append({
+            "fecha": fecha_str,
+            "empresa": _html_lib.unescape(empresa),
+            "materia": _html_lib.unescape(materia),
+            "link": _html_lib.unescape(link),
+            "doc_id": _html_lib.unescape(doc_id),
+        })
+    log.info(f"Hechos esenciales descargados: {len(hechos)}")
+    return hechos
+
+
+def filtrar_hechos_por_ticker(hechos, keywords):
+    """Filtra hechos cuya razon social matchea alguna keyword del ticker."""
+    out = []
+    for h in hechos:
+        empresa_norm = normalizar(h["empresa"])
+        for kw in keywords:
+            if kw in empresa_norm:
+                out.append({
+                    "title": f"{h['empresa']}: {h['materia']}",
+                    "link": h["link"],
+                    "pubdate": h["fecha"],
+                    "source": "CMF (Hecho Esencial)",
+                    "es_hecho_esencial": True,
+                    "doc_id": h.get("doc_id", ""),
+                    "empresa_cmf": h["empresa"],
+                    "materia_cmf": h["materia"],
+                })
+                break  # un hecho cuenta una sola vez por ticker
+    return out
+
+
+def construir_hechos_por_ticker():
+    """Descarga hechos globales y los agrupa por ticker. Con robustez:
+    si visfin devuelve 0 (blip), reusa los del JSON anterior por doc_id."""
+    hechos = fetch_hechos_esenciales()
+
+    if not hechos and OUTPUT_FILE.exists():
+        log.warning("Visfin devolvio 0 hechos. Reusando hechos del JSON anterior.")
+        try:
+            with open(OUTPUT_FILE, "r", encoding="utf-8") as f:
+                prev = json.load(f)
+            vistos = set()
+            for lst in prev.get("hechos_esenciales_por_ticker", {}).values():
+                for n in lst:
+                    did = n.get("doc_id", "")
+                    if did and did not in vistos:
+                        vistos.add(did)
+                        hechos.append({
+                            "fecha": n.get("pubdate", ""),
+                            "empresa": n.get("empresa_cmf", ""),
+                            "materia": n.get("materia_cmf", ""),
+                            "link": n.get("link", ""),
+                            "doc_id": did,
+                        })
+            log.info(f"Hechos recuperados del JSON anterior: {len(hechos)}")
+        except Exception as e:
+            log.warning(f"No se pudo recuperar hechos anteriores: {e}")
+
+    por_ticker = {}
+    for tk, kws in WATCHLIST_HECHOS_ESENCIALES.items():
+        f = filtrar_hechos_por_ticker(hechos, kws)
+        if f:
+            # ordenar por fecha desc cuando sea parseable (formato dd-mm-aaaa o aaaa-mm-dd)
+            por_ticker[tk] = f
+    total = sum(len(v) for v in por_ticker.values())
+    log.info(f"Hechos esenciales asignados a watchlist: {total} en {len(por_ticker)} tickers")
+    return por_ticker
+
+
+
 def main():
     log.info("=" * 60)
     log.info("=== Update Noticias Chile ===")
@@ -504,15 +628,19 @@ def main():
         noticias = fetch_categoria(categoria, keywords, cutoff)
         noticias_por_categoria[categoria] = noticias
         total += len(noticias)
+    log.info("--- Cargando Hechos Esenciales CMF (visfin) ---")
+    hechos_esenciales_por_ticker = construir_hechos_por_ticker()
     resumen_ejecutivo = generar_resumen_ejecutivo(noticias_por_categoria)
     output = {
         "updated_at_utc": datetime.now(timezone.utc).isoformat(),
         "ventana_dias": VENTANA_DIAS,
         "categorias_meta": CATEGORIA_META,
         "noticias_por_categoria": noticias_por_categoria,
+        "hechos_esenciales_por_ticker": hechos_esenciales_por_ticker,
         "stats": {
             "total_noticias": total,
             "por_categoria": {k: len(v) for k, v in noticias_por_categoria.items()},
+            "hechos_esenciales": sum(len(v) for v in hechos_esenciales_por_ticker.values()),
         },
         "resumen_ejecutivo": resumen_ejecutivo,
     }

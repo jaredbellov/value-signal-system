@@ -211,6 +211,16 @@ WATCHLIST = [
         "benchmark_max": 0.07,
         "descripcion": "Mayor cervecera y embotelladora de Chile. Marcas lider, expansion regional. Precio via Yahoo (.SN) por bloqueo captcha BCS.",
     },
+    # Quimica / Materiales
+    {
+        "ticker": "OXIQUIM",
+        "nombre": "Oxiquim",
+        "sector": "Quimica",
+        "clasificacion": "DGI",
+        "benchmark_min": 0.06,
+        "benchmark_max": 0.07,
+        "descripcion": "Quimica industrial: resinas para tableros de madera y terminales maritimos de graneles liquidos. ROE 21%, margen neto 11%, endeudamiento 46% (desapalancandose). Dividendos irregulares. Baja liquidez bursatil.",
+    },
 ]
 
 # ============================================================================
