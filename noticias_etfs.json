@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-06-23T05:26:55.117577+00:00",
+  "updated_at_utc": "2026-06-23T07:26:56.320954+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "fed_tasas": {
@@ -28,22 +28,7 @@
     }
   },
   "noticias_por_categoria": {
-    "fed_tasas": [
-      {
-        "title": "Lastest Fed financial disclosures an exercise in contrasts",
-        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZV9tR3plT3dUYU1iU0VQSEs4SU5MZVRxSHlfcHBiTi0zMzlMQWFzWVgxTzBYR0JsZ3VGVEVCM0EyTnpDc29Bd1hyWFhPZUhrbFNDVUpDQUhRQVVuclRXRy03a0NCbnlRNUNmNmFJcUlHazNTaWVvS085aHMzQ1RSWTBuS3BTcnFoc055TndFZw?oc=5",
-        "source": "AOL.com",
-        "pubdate": "Mon, 22 Jun 2026 23:00:49 GMT",
-        "pubdate_iso": "2026-06-22T23:00:49+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      }
-    ],
+    "fed_tasas": [],
     "mercado": [
       {
         "title": "Wall Street cierra en terreno mixto mientras SpaceX se desploma un 16% - AlbertoNews",
@@ -90,6 +75,20 @@
     ],
     "tech_nasdaq": [
       {
+        "title": "Clear Blue Technologies International Inc. Reports Earnings Results for the Full Year Ended December 31, 2025",
+        "link": "https://news.google.com/rss/articles/CBMipwJBVV95cUxNUDNreFJsbmtMc2JyN1YteVNMNG56Y05jTlNGWWt3MVloVF9kRmhWeUdua3FZVTFPeElqRWdOek9DamluSmxLYWtYVmYwbEl0Nm5lVml4X2tqQU9WVWJmUUticVdyMEhreXdiWjJaRnNWd1lHNTd5U0pJZURzdUE2RHR0YU42b3dmLThYUTQySUx5WUkzS0FKQ2JsU2ZRUlVOTFdSc3RfZHIxM3czcDVydFdRYlpzeWdSRzRxeGM0WTloVGRjWWg5WXJMR3l5UmFQcE1UbFk0SjZQWmF5V044MUhtWjRmbzYtYWVpNGlReVFPN0tRWW5jUDJ2OWowSHhxcGpaVFFzbW1VYjJNclhJVUVQQUpOZ0hPd2RmQTdSXzNPbGNWQU9v?oc=5",
+        "source": "MarketScreener España",
+        "pubdate": "Tue, 23 Jun 2026 03:35:22 GMT",
+        "pubdate_iso": "2026-06-23T03:35:22+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
         "title": "AMD's Rally Has Wall Street Paying Attention",
         "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMGl6c2otdi1BZ0RnWkNFY0tGcmtDWHFWb29IUlcwUklaUVBxM1NkSzVhSDJwNWhvNHlXd1M1NUZRczlHYXZWZlRxaEZnVjNZRlFhZFVLT292d242eGt0d2xPTWhMU2JSSmthSWNLdDVNUnZBMHNieFcyNzdoZlVORDV6SVd0QXNvV1J4R2lJbml1Unh5LVd6b2RhZUxYVXh3V0pJcWxR?oc=5",
         "source": "TradingView",
@@ -132,8 +131,37 @@
         }
       }
     ],
-    "economia": [],
+    "economia": [
+      {
+        "title": "Goldman Sachs lowers 12-month US recession risk estimate to 15%",
+        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPXzlObGM1VjNiNDJTS2tQeThVSXRsSlJRNlVOZnc2NmJYUVFncnExS0tadFdial9lSGtZYnl3RWFqNzlpb2pRQlJQYTJhamcxRVJXanpxUTZ1ak1BY0kyV1JBaDZyZ1VZci1VelhfaGpJYnp3bmczeFhneldOUjB3WWNvYjBIYUttY0VCbm1tb1JTQVhaSENJV2V3UnVTam1DNnZHX2pPZ3lsZFoyblViVi1HMU1XSXF5WDdaZDNMVkY2N3A3SVZIZzhyQQ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 22 Jun 2026 12:46:15 GMT",
+        "pubdate_iso": "2026-06-22T12:46:15+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Riesgo de recesion: muy negativo"
+        }
+      }
+    ],
     "earnings": [
+      {
+        "title": "CoreCivic (CXW) Stock Is Up, What You Need To Know",
+        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONThqN2hrZ1ZFSDFMeFFUM0Y1MWtJTlpTTThwTmJ2aFFOTVUtU2tsY00xa0V6NjNScjFvX204NGNxbHBmeDl4R1RfYVlmeGliMGVwTndOdEdFTmpvQlJJQUI2dFhmQ0N5QlRjcTJjXzBRU3F4bmNEQTdMSkhraGlTUUdCVzUzbmNQNUpUNm44NW9yZjV2dDNqd1lOdXpQNWZsd0FMQ24zYjIxMGc?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 22 Jun 2026 16:25:42 GMT",
+        "pubdate_iso": "2026-06-22T16:25:42+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
       {
         "title": "Micron Q3 Earnings Preview: What to Expect From Upcoming Report",
         "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQNHRRUnRXN1diVll3WURIeEpQYXdhbnNEbXhsY0UxNk8zNHFLZXJrcjJQcGZ6RUtVdUE5SHVmcG5uV3RRSDhwOTlIRk9jQVl4azhCbVNrNTdGeWlZUWVadnBYN2J0YTRJbUxMRDJCSzRlRFFaNFVrWTVCLTZtWmVxY2t0M3FaVWw5N0Nia1FIdHZhN2I4ak4yWDVZclBpRUtqTTVLT0s5bnNPSzJYRDk5X09oZnhGSGQ5M2F5SzB3?oc=5",
@@ -165,6 +193,20 @@
     ],
     "sentimiento": [
       {
+        "title": "BCR raises Peru's economic growth forecast to 3.4% for 2026",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPV1ZaWEEzdWhadGtUYkFxWExJbVhERDBaVmtKZHpMR1NaYUZLTFR1cU9WaXVGczFhRmRxZDNnc19EQ1VyOVZIbklBYkFUYTZBVEEzaHlwMFl1VzhVMmFDUzRkeE9vdmh5RkRZZjFMbE52YjhwZnVGdlFFRWExSThXb0I0cktQR295UlpDVE1HeE9oY1dNUHhHWHc2bTNkNjVtR0Y4RFVR?oc=5",
+        "source": "Agencia Peruana de Noticias | ANDINA",
+        "pubdate": "Tue, 23 Jun 2026 06:18:15 GMT",
+        "pubdate_iso": "2026-06-23T06:18:15+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
         "title": "Citi Forecasts Yen Recovery as USDJPY Expected to Move Below ¥155",
         "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQUW9Ea0czT1ZIaDZ1QUhPQVV2amJzRUk3WGdzTGpsMVRsYzBveS1COFFNZ3VsbWVRbXBFT01NSFpFbFZxTkZQWC1PSVhuNU8xZWJmZ0VITlRQWEdObndnZXhPT3hZSGlTc2JqUEZPZjR0di1GbDJEeFhXZGxLbnd2R25OcFo3V3J0eXVHeXRKeTY0aWFzY0ZfOXpfZ1ZRNGlTTTZJbmJzaS13NTlIa2RDSkVuUjNIQjZsRk5lT2xaQW1vUQ?oc=5",
         "source": "mx.advfn.com",
@@ -195,24 +237,24 @@
     ]
   },
   "stats": {
-    "total_noticias": 11,
+    "total_noticias": 14,
     "por_categoria": {
-      "fed_tasas": 1,
+      "fed_tasas": 0,
       "mercado": 3,
-      "tech_nasdaq": 3,
-      "economia": 0,
-      "earnings": 2,
-      "sentimiento": 2
+      "tech_nasdaq": 4,
+      "economia": 1,
+      "earnings": 3,
+      "sentimiento": 3
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "levemente bajista",
-    "score_neto": -2,
+    "sentimiento": "bajista",
+    "score_neto": -4,
     "n_positivas": 0,
-    "n_negativas": 1,
-    "n_neutrales": 10,
-    "narrativa": "El feed muestra 0 senales positivas y 1 negativas (neto -2). Factores dominantes: Desplome: muy negativo.",
+    "n_negativas": 2,
+    "n_neutrales": 12,
+    "narrativa": "El feed muestra 0 senales positivas y 2 negativas (neto -4). Factores dominantes: Desplome: muy negativo; Riesgo de recesion: muy negativo.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "Levemente BAJISTA"
+    "veredicto": "BAJISTA a corto plazo"
   }
 }
