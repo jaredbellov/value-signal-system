@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-06-23T09:03:26.331936+00:00",
+  "updated_at_utc": "2026-06-23T09:33:25.386412+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -69,6 +69,20 @@
     "ia_semis": [],
     "macro_tech": [
       {
+        "title": "Nasdaq, S&P 500 Futures Dip After Megacap Tech Selloff: Why SPCX, INFQ, PLTR, QBTS, HIMS Are In Focus",
+        "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNcFB1dVgySDZFX2R3ZDdUUUJuOUNJTDdGN0IxZ3lrT2stcVV4YWxNY0VUWDc3aGNaVlRzLXFVc2lvWm5IX2xCU0FzNldiRC1zcjAzY1VmcDlNd2lrWlRVV1I3RERrSmFPOHRnMGk2bHdtYkEwWGdLbF9QY0g0Um9ILUg2bWh3aXZMYnUxUEUxQWJQWTdFRGFNUUFJME80X1kwWU1XZjNBWDhWRTI0LThRVGhJdkZZNng3X0xqVjJZcjZiQ2JCMEFKQk4ydE56YUdWamFiU2NsR0R6R255OG1HSFlSSnNNbGVZY2Nj?oc=5",
+        "source": "TradingView",
+        "pubdate": "Tue, 23 Jun 2026 02:09:00 GMT",
+        "pubdate_iso": "2026-06-23T02:09:00+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 3,
+          "intensidad_label": "fuerte",
+          "emoji": "🔴🔴",
+          "razonamiento": "Selloff: presion vendedora"
+        }
+      },
+      {
         "title": "Nebius, CoreWeave Join Nasdaq-100 Today: Which Neocloud Stock Has Better Upside On Wall Street?",
         "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQUy1fRFFxMTdoeE83cXlhZ3lNQWltbzl0U2xDakQzaDVKX25yNnVaWWhBVkwxdG54NkdZRnl4LUUxMHEwZEljazJJbTUtM0ZDdkUweGQyN2oxcXloQ2hrbXphc1JEdklwRDFaMzNxeVhYd2kxc0JmcjlRVnRRV25WNldMb3d3RlB2Smlja1R3SGdTa3R4cjFkd3FMeG9aenRIYzJwa2N4b0M2TC1fME1FT3NIYXkzZURZWHNPZnNsVFFLUmg3X2FpbFQ5M0lXYzI1Z3lraWhEd29vNlVRc0RsMzRGTHBXT3M?oc=5",
         "source": "TradingView",
@@ -99,22 +113,22 @@
     ]
   },
   "stats": {
-    "total_noticias": 5,
+    "total_noticias": 6,
     "por_categoria": {
       "tesla": 1,
       "nvidia": 2,
       "ia_semis": 0,
-      "macro_tech": 2
+      "macro_tech": 3
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "levemente alcista",
-    "score_neto": 2,
+    "sentimiento": "neutral",
+    "score_neto": -1,
     "n_positivas": 1,
-    "n_negativas": 0,
+    "n_negativas": 1,
     "n_neutrales": 4,
-    "narrativa": "El feed muestra 1 senales positivas y 0 negativas (neto +2). Factores dominantes: Proxima arquitectura Rubin: roadmap fuerte.",
+    "narrativa": "El feed muestra 1 senales positivas y 1 negativas (neto -1). Factores dominantes: Selloff: presion vendedora; Proxima arquitectura Rubin: roadmap fuerte.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "Levemente ALCISTA"
+    "veredicto": "NEUTRAL - sin sesgo dominante"
   }
 }
