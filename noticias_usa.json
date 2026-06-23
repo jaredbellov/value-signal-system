@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-06-23T07:33:26.430113+00:00",
+  "updated_at_utc": "2026-06-23T08:03:26.651550+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -20,7 +20,22 @@
     }
   },
   "noticias_por_categoria": {
-    "tesla": [],
+    "tesla": [
+      {
+        "title": "Nuevo rey del espacio vs. el gigante de los vehículos eléctricos: SpaceX y Tesla de Musk, ¿cuál es la mejor inversión?",
+        "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNZHZRekt3bFl3ZWlid3dHSWwxV1dDdmlIOFJ3YVFacF9ILW1qUUNqcGFRR2ZsN0ZOVWltY1RLRVplQVVtbmhUTTRBYnBnWmxDV2pJWUlwT0QtT2hNSFRxWTBjN1JsdE96WC1ydC1aUmZEcFN1RW1XbWZHR21wM2E5aDA2UXVqdE12VDl5cjNYT0lTa3Y2WlBwczJLSm56SkFfT0JyVTFZY1JUN2NsbkdFOV94VmhVODJmS1h2OGNrZnVLS2QxeTB4VXRiaGFKYm1kV0FMcGwtQnh5dkxreGowWWhWTVJvNm1sZTNSejlUWQ?oc=5",
+        "source": "TradingKey",
+        "pubdate": "Sat, 20 Jun 2026 15:39:42 GMT",
+        "pubdate_iso": "2026-06-20T15:39:42+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
     "nvidia": [
       {
         "title": "Nvidia Rubin: racks de 370 kW con refrigeración líquida",
@@ -84,9 +99,9 @@
     ]
   },
   "stats": {
-    "total_noticias": 4,
+    "total_noticias": 5,
     "por_categoria": {
-      "tesla": 0,
+      "tesla": 1,
       "nvidia": 2,
       "ia_semis": 0,
       "macro_tech": 2
@@ -97,7 +112,7 @@
     "score_neto": 2,
     "n_positivas": 1,
     "n_negativas": 0,
-    "n_neutrales": 3,
+    "n_neutrales": 4,
     "narrativa": "El feed muestra 1 senales positivas y 0 negativas (neto +2). Factores dominantes: Proxima arquitectura Rubin: roadmap fuerte.",
     "narrativa_fuente": "plantilla",
     "veredicto": "Levemente ALCISTA"
