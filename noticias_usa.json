@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-06-22T23:33:28.428181+00:00",
+  "updated_at_utc": "2026-06-23T00:03:28.561716+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -37,6 +37,20 @@
       }
     ],
     "nvidia": [
+      {
+        "title": "Nvidia Rubin: racks de 370 kW con refrigeración líquida",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxORE5jRU1XZXc4TmVZTEs4T21NcUxCcFgwRm5SMTNEVmFZWEFDN0s1N2YxbFdMTnNGSDliV1I1ZkRpRTZNQlpQV0tiTUEyRE00RE1Ddy16NmY4RWFsRlV6QzVnNElKeWpNNEhHWXRKMHhKTl82bG0yb0N2dk9QUDZVVHNfTGk3V0lXeTY0ZXRB?oc=5",
+        "source": "Ecosistema Startup",
+        "pubdate": "Mon, 22 Jun 2026 23:32:53 GMT",
+        "pubdate_iso": "2026-06-22T23:32:53+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🟢",
+          "razonamiento": "Proxima arquitectura Rubin: roadmap fuerte"
+        }
+      },
       {
         "title": "Predicción del Precio de NVIDIA: Acciones NVDA 2026–2030",
         "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9seWpOa1RMOGtnS3NnZEN0OU1XTFBOcHYtcGVhX0RvXzNHNFJYdG9VT2JVdXRJQ0RVVkl6am5TQ0ZOY3NWRHBNREFDT1BPUDVNSzhFUFQ2MEQ0ZDBGcFVTTmhsOA?oc=5",
@@ -85,22 +99,22 @@
     ]
   },
   "stats": {
-    "total_noticias": 4,
+    "total_noticias": 5,
     "por_categoria": {
       "tesla": 1,
-      "nvidia": 1,
+      "nvidia": 2,
       "ia_semis": 0,
       "macro_tech": 2
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "neutral",
-    "score_neto": 0,
-    "n_positivas": 0,
+    "sentimiento": "levemente alcista",
+    "score_neto": 2,
+    "n_positivas": 1,
     "n_negativas": 0,
     "n_neutrales": 4,
-    "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
+    "narrativa": "El feed muestra 1 senales positivas y 0 negativas (neto +2). Factores dominantes: Proxima arquitectura Rubin: roadmap fuerte.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "NEUTRAL - sin sesgo dominante"
+    "veredicto": "Levemente ALCISTA"
   }
 }
