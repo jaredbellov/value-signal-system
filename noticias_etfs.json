@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-06-23T01:26:59.329036+00:00",
+  "updated_at_utc": "2026-06-23T03:26:58.364564+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "fed_tasas": {
@@ -28,7 +28,22 @@
     }
   },
   "noticias_por_categoria": {
-    "fed_tasas": [],
+    "fed_tasas": [
+      {
+        "title": "Lastest Fed financial disclosures an exercise in contrasts",
+        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZV9tR3plT3dUYU1iU0VQSEs4SU5MZVRxSHlfcHBiTi0zMzlMQWFzWVgxTzBYR0JsZ3VGVEVCM0EyTnpDc29Bd1hyWFhPZUhrbFNDVUpDQUhRQVVuclRXRy03a0NCbnlRNUNmNmFJcUlHazNTaWVvS085aHMzQ1RSWTBuS3BTcnFoc055TndFZw?oc=5",
+        "source": "AOL.com",
+        "pubdate": "Mon, 22 Jun 2026 23:00:49 GMT",
+        "pubdate_iso": "2026-06-22T23:00:49+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
     "mercado": [
       {
         "title": "Wall Street cierra en terreno mixto mientras SpaceX se desploma un 16% - AlbertoNews",
@@ -117,7 +132,22 @@
         }
       }
     ],
-    "economia": [],
+    "economia": [
+      {
+        "title": "Goldman Sachs lowers 12-month US recession risk estimate to 15%",
+        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPXzlObGM1VjNiNDJTS2tQeThVSXRsSlJRNlVOZnc2NmJYUVFncnExS0tadFdial9lSGtZYnl3RWFqNzlpb2pRQlJQYTJhamcxRVJXanpxUTZ1ak1BY0kyV1JBaDZyZ1VZci1VelhfaGpJYnp3bmczeFhneldOUjB3WWNvYjBIYUttY0VCbm1tb1JTQVhaSENJV2V3UnVTam1DNnZHX2pPZ3lsZFoyblViVi1HMU1XSXF5WDdaZDNMVkY2N3A3SVZIZzhyQQ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 22 Jun 2026 12:46:15 GMT",
+        "pubdate_iso": "2026-06-22T12:46:15+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Riesgo de recesion: muy negativo"
+        }
+      }
+    ],
     "earnings": [
       {
         "title": "CoreCivic (CXW) Stock Is Up, What You Need To Know",
@@ -208,23 +238,23 @@
     ]
   },
   "stats": {
-    "total_noticias": 12,
+    "total_noticias": 14,
     "por_categoria": {
-      "fed_tasas": 0,
+      "fed_tasas": 1,
       "mercado": 3,
       "tech_nasdaq": 3,
-      "economia": 0,
+      "economia": 1,
       "earnings": 3,
       "sentimiento": 3
     }
   },
   "resumen_ejecutivo": {
     "sentimiento": "bajista",
-    "score_neto": -4,
+    "score_neto": -6,
     "n_positivas": 0,
-    "n_negativas": 2,
-    "n_neutrales": 10,
-    "narrativa": "El feed muestra 0 senales positivas y 2 negativas (neto -4). Factores dominantes: Desplome: muy negativo; Correccion en curso o anticipada.",
+    "n_negativas": 3,
+    "n_neutrales": 11,
+    "narrativa": "El feed muestra 0 senales positivas y 3 negativas (neto -6). Factores dominantes: Desplome: muy negativo; Riesgo de recesion: muy negativo.",
     "narrativa_fuente": "plantilla",
     "veredicto": "BAJISTA a corto plazo"
   }
