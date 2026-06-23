@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-06-23T17:03:26.818930+00:00",
+  "updated_at_utc": "2026-06-23T17:33:26.789685+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -53,6 +53,20 @@
     ],
     "ia_semis": [],
     "macro_tech": [
+      {
+        "title": "Nasdaq, S&P 500, Dow Futures Crack On Tech, SpaceX Selloff: Why SPCX, TSLA, INFQ, MU, HOOD, ADTX Are In Focus",
+        "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPdjFNTmZmS3RrLXVydG9paUk4ZzJ0RWRMUlhLRmIxdThGMFNSY2JKenl4WGJMVVpIcWd5V2dPMU5hVXVfTVhQTENyR1IxbXg1SGJtZW5tYXYyTU1WalR2Q1pnN0oyOGRiRnlRMGY5Q1Fhd0s4LTMzYW1iOEhHUHpScjFWQXc1cFZEVy1iRGI0SFBSWWJQS0pRbThTeVpBc0hYdUpGYzQ5NS04UmFsX1JQaDNFeDFlcFphWjU2bThkVTkzODhXcGhYWDRCMlVmdmZEb01sLTVtUld3ZW02TVdJdk85REpfcWctOXZBVVBFQlk5QQ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Tue, 23 Jun 2026 09:10:04 GMT",
+        "pubdate_iso": "2026-06-23T09:10:04+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 3,
+          "intensidad_label": "fuerte",
+          "emoji": "🔴🔴",
+          "razonamiento": "Selloff: presion vendedora"
+        }
+      },
       {
         "title": "MSFT Stock Enters Bear Market After 21% Drop From Peak: Retail Cautious But Analysts Stay Overwhelmingly Bullish",
         "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQTEcwRWFwTVBJeUc5YXh5RHJfWnZlMmR4MDN0U19LUnhVVmo2QXJCOEFHSWRUQXMtOGNpV3IyOEZONlVWSTZaaGZqRndFblBodkdrMjB3ck4yVXo5dHltQnhROERLT2k4QUh0cElPR0p6V01tT3ZKdFpUR0xzTmlCMHpxeU1jcjRNTEJIbjhJdnNmd09uMnA0MXFEanBielpyRkpDSzBFeHN0Wk9fSDNCOGN3eFV1VGd1dkhpXzJiMy00VFlhM2RsSXluMUQtZ2VjaXFpd0lxRjYzYlVoSEIxSTdHOFYzOUZDSWQxc3FoaktVYWF5TFBLd3BpMjdYcjg?oc=5",
@@ -108,20 +122,6 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
-      },
-      {
-        "title": "Nebius, CoreWeave Join Nasdaq-100 Today: Which Neocloud Stock Has Better Upside On Wall Street?",
-        "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQUy1fRFFxMTdoeE83cXlhZ3lNQWltbzl0U2xDakQzaDVKX25yNnVaWWhBVkwxdG54NkdZRnl4LUUxMHEwZEljazJJbTUtM0ZDdkUweGQyN2oxcXloQ2hrbXphc1JEdklwRDFaMzNxeVhYd2kxc0JmcjlRVnRRV25WNldMb3d3RlB2Smlja1R3SGdTa3R4cjFkd3FMeG9aenRIYzJwa2N4b0M2TC1fME1FT3NIYXkzZURZWHNPZnNsVFFLUmg3X2FpbFQ5M0lXYzI1Z3lraWhEd29vNlVRc0RsMzRGTHBXT3M?oc=5",
-        "source": "TradingView",
-        "pubdate": "Mon, 22 Jun 2026 07:25:50 GMT",
-        "pubdate_iso": "2026-06-22T07:25:50+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
       }
     ]
   },
@@ -135,13 +135,13 @@
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "neutral",
-    "score_neto": -1,
+    "sentimiento": "bajista",
+    "score_neto": -4,
     "n_positivas": 2,
-    "n_negativas": 2,
-    "n_neutrales": 3,
-    "narrativa": "El feed muestra 2 senales positivas y 2 negativas (neto -1). Factores dominantes: Selloff: presion vendedora; Proxima arquitectura Rubin: roadmap fuerte.",
+    "n_negativas": 3,
+    "n_neutrales": 2,
+    "narrativa": "El feed muestra 2 senales positivas y 3 negativas (neto -4). Factores dominantes: Selloff: presion vendedora; Selloff: presion vendedora.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "NEUTRAL - sin sesgo dominante"
+    "veredicto": "BAJISTA a corto plazo"
   }
 }
