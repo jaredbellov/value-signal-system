@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-06-23T14:33:26.405092+00:00",
+  "updated_at_utc": "2026-06-23T15:03:27.693904+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -22,6 +22,20 @@
   "noticias_por_categoria": {
     "tesla": [
       {
+        "title": "Acciones de Tesla bajo vigilancia: Jefferies eleva el precio objetivo pero mantiene cautela ante SpaceX",
+        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdnZjT3ptVE9jMmN5bjU1dlhFcmNhMWxWUUMzemVWM3g0dm16RUZtUExYM1lrVXVWM3hGWkFlVUtINEFMbnBtekFWb0lxZEU2WkZtS0o0X3Q2RU5nal9QNHRhZHA0Q05hdFNCeEdOT3hnNHN2VDNHYW1CbUdwYTE1Y3ZCLXgtUjRrdjRHUWlBVjRYcmFnajJmbUl3?oc=5",
+        "source": "Yahoo",
+        "pubdate": "Tue, 23 Jun 2026 09:53:23 GMT",
+        "pubdate_iso": "2026-06-23T09:53:23+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
         "title": "Nuevo rey del espacio vs. el gigante de los vehículos eléctricos: SpaceX y Tesla de Musk, ¿cuál es la mejor inversión?",
         "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNZHZRekt3bFl3ZWlid3dHSWwxV1dDdmlIOFJ3YVFacF9ILW1qUUNqcGFRR2ZsN0ZOVWltY1RLRVplQVVtbmhUTTRBYnBnWmxDV2pJWUlwT0QtT2hNSFRxWTBjN1JsdE96WC1ydC1aUmZEcFN1RW1XbWZHR21wM2E5aDA2UXVqdE12VDl5cjNYT0lTa3Y2WlBwczJLSm56SkFfT0JyVTFZY1JUN2NsbkdFOV94VmhVODJmS1h2OGNrZnVLS2QxeTB4VXRiaGFKYm1kV0FMcGwtQnh5dkxreGowWWhWTVJvNm1sZTNSejlUWQ?oc=5",
         "source": "TradingKey",
@@ -37,6 +51,20 @@
       }
     ],
     "nvidia": [
+      {
+        "title": "SMCI Stock Gains Most In Nearly 2 Months On New Vera Rubin Racks, Analyst Upgrade",
+        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQQW9RTE9FTWlPTkpzZmJ2Ul94UmxBWkZSU285SkliVmJmd0MzT19VZDhoWHlqcHI3ZVdDQ09lRFQtOGJUT1BHdHg3ZVZ3UEpBUHFOUWFwTXNmemxWNzJ1LXZ2QU1YaTFpQ1pOdndibEhXc0RPLUJOR3htbmNRd2wxSVF3SmdNY19fMzZpcmNOM2xKVTVMSDQ3TTJXZHZsRVprVjhmWU4xbTlTa09Bdm5uUVgzZGt6UHI0eE1SbzZsQXBHT1UzZXpEajVrbmU4TkFJUDB0R0tKTQ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Tue, 23 Jun 2026 03:13:00 GMT",
+        "pubdate_iso": "2026-06-23T03:13:00+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🟢",
+          "razonamiento": "Proxima arquitectura Rubin: roadmap fuerte"
+        }
+      },
       {
         "title": "Nvidia Rubin: racks de 370 kW con refrigeración líquida",
         "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxORE5jRU1XZXc4TmVZTEs4T21NcUxCcFgwRm5SMTNEVmFZWEFDN0s1N2YxbFdMTnNGSDliV1I1ZkRpRTZNQlpQV0tiTUEyRE00RE1Ddy16NmY4RWFsRlV6QzVnNElKeWpNNEhHWXRKMHhKTl82bG0yb0N2dk9QUDZVVHNfTGk3V0lXeTY0ZXRB?oc=5",
@@ -127,21 +155,21 @@
     ]
   },
   "stats": {
-    "total_noticias": 7,
+    "total_noticias": 9,
     "por_categoria": {
-      "tesla": 1,
-      "nvidia": 1,
+      "tesla": 2,
+      "nvidia": 2,
       "ia_semis": 0,
       "macro_tech": 5
     }
   },
   "resumen_ejecutivo": {
     "sentimiento": "neutral",
-    "score_neto": -1,
-    "n_positivas": 1,
+    "score_neto": 1,
+    "n_positivas": 2,
     "n_negativas": 1,
-    "n_neutrales": 5,
-    "narrativa": "El feed muestra 1 senales positivas y 1 negativas (neto -1). Factores dominantes: Selloff: presion vendedora; Proxima arquitectura Rubin: roadmap fuerte.",
+    "n_neutrales": 6,
+    "narrativa": "El feed muestra 2 senales positivas y 1 negativas (neto +1). Factores dominantes: Selloff: presion vendedora; Proxima arquitectura Rubin: roadmap fuerte.",
     "narrativa_fuente": "plantilla",
     "veredicto": "NEUTRAL - sin sesgo dominante"
   }
