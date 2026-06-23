@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-06-23T07:26:56.320954+00:00",
+  "updated_at_utc": "2026-06-23T09:26:55.146076+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "fed_tasas": {
@@ -28,8 +28,37 @@
     }
   },
   "noticias_por_categoria": {
-    "fed_tasas": [],
+    "fed_tasas": [
+      {
+        "title": "Dollar Gains on Euro Weakness and Higher T-note Yields",
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPN1V6RldXTlQzbWlCWUhOaUtSbDdZdEhLNEVCNS12MUFaVUNYX1F0TzZ2RFA5QzhsenNIVW1HUzJFbmFSV0NtUHBGSWRwSHRWbU5iV2RQOE5uMjZTVXBxeUVCVzlXTElFZ2RZUHlCOHgwamRJR25rUjlHOWRpSDVBT3J0US0wdm01V0lGc3lwWFBqMDZ5UWZKVDVXQ2kxRWhkMGNGbVhjd3p2cVFocE5abXJB?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 22 Jun 2026 19:36:33 GMT",
+        "pubdate_iso": "2026-06-22T19:36:33+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
     "mercado": [
+      {
+        "title": "Nasdaq, S&P 500 Futures Dip After Megacap Tech Selloff: Why SPCX, INFQ, PLTR, QBTS, HIMS Are In Focus",
+        "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNcFB1dVgySDZFX2R3ZDdUUUJuOUNJTDdGN0IxZ3lrT2stcVV4YWxNY0VUWDc3aGNaVlRzLXFVc2lvWm5IX2xCU0FzNldiRC1zcjAzY1VmcDlNd2lrWlRVV1I3RERrSmFPOHRnMGk2bHdtYkEwWGdLbF9QY0g0Um9ILUg2bWh3aXZMYnUxUEUxQWJQWTdFRGFNUUFJME80X1kwWU1XZjNBWDhWRTI0LThRVGhJdkZZNng3X0xqVjJZcjZiQ2JCMEFKQk4ydE56YUdWamFiU2NsR0R6R255OG1HSFlSSnNNbGVZY2Nj?oc=5",
+        "source": "TradingView",
+        "pubdate": "Tue, 23 Jun 2026 02:09:00 GMT",
+        "pubdate_iso": "2026-06-23T02:09:00+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 3,
+          "intensidad_label": "fuerte",
+          "emoji": "🔴🔴",
+          "razonamiento": "Selloff: presion vendedora"
+        }
+      },
       {
         "title": "Wall Street cierra en terreno mixto mientras SpaceX se desploma un 16% - AlbertoNews",
         "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNaVduLXlTRWl6aUdNMFJCWnJOblc3WVZ2dS1QVEk5YmQxMGJ6Mmp6cGo3cXYtQ1dRM2lIVXFtQlB6N3BtSEw1N1lKQzJmZDNiTUlJbi1rdmxaNGlNVVZkekhsRTltTnpZUDRFR21qemROeDdSWTJ4NUVSblFoRGJYMEdCaVZHSDFhS2E4cVpIRnRzSHY2SEEwY1ZUVDhoWFNDMTVSa0hBWGl6OVhuMUZ3?oc=5",
@@ -86,6 +115,20 @@
           "intensidad_label": "neutral",
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Nasdaq, S&P 500 Futures Dip After Megacap Tech Selloff: Why SPCX, INFQ, PLTR, QBTS, HIMS Are In Focus",
+        "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNcFB1dVgySDZFX2R3ZDdUUUJuOUNJTDdGN0IxZ3lrT2stcVV4YWxNY0VUWDc3aGNaVlRzLXFVc2lvWm5IX2xCU0FzNldiRC1zcjAzY1VmcDlNd2lrWlRVV1I3RERrSmFPOHRnMGk2bHdtYkEwWGdLbF9QY0g0Um9ILUg2bWh3aXZMYnUxUEUxQWJQWTdFRGFNUUFJME80X1kwWU1XZjNBWDhWRTI0LThRVGhJdkZZNng3X0xqVjJZcjZiQ2JCMEFKQk4ydE56YUdWamFiU2NsR0R6R255OG1HSFlSSnNNbGVZY2Nj?oc=5",
+        "source": "TradingView",
+        "pubdate": "Tue, 23 Jun 2026 02:09:00 GMT",
+        "pubdate_iso": "2026-06-23T02:09:00+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 3,
+          "intensidad_label": "fuerte",
+          "emoji": "🔴🔴",
+          "razonamiento": "Selloff: presion vendedora"
         }
       },
       {
@@ -148,6 +191,20 @@
       }
     ],
     "earnings": [
+      {
+        "title": "Methode Electronics (MEI) Q1 Earnings: What To Expect",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPeC1WV19EazlmcWJaT1J3Ty03MHlGU0FaNTFwVFZHZzRYWnNVMkhySzlYQTdmNFA2aFJZaHdscm1FMXZOVWRxRjdGVVBIdy0tQWdBZzJiLTBaNUlhczUxUUJwdDNyMDl1Wl9TaGM0LUxSY25kaWZMU3ZWVC1mVHQzd0E5SEFEclVuVFRZRjVmSm9wWF9Nbl9oaF9iRUhiRlRoNTd6cUxKY3RpZENpd1lz?oc=5",
+        "source": "TradingView",
+        "pubdate": "Tue, 23 Jun 2026 03:01:00 GMT",
+        "pubdate_iso": "2026-06-23T03:01:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
       {
         "title": "CoreCivic (CXW) Stock Is Up, What You Need To Know",
         "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONThqN2hrZ1ZFSDFMeFFUM0Y1MWtJTlpTTThwTmJ2aFFOTVUtU2tsY00xa0V6NjNScjFvX204NGNxbHBmeDl4R1RfYVlmeGliMGVwTndOdEdFTmpvQlJJQUI2dFhmQ0N5QlRjcTJjXzBRU3F4bmNEQTdMSkhraGlTUUdCVzUzbmNQNUpUNm44NW9yZjV2dDNqd1lOdXpQNWZsd0FMQ24zYjIxMGc?oc=5",
@@ -237,23 +294,23 @@
     ]
   },
   "stats": {
-    "total_noticias": 14,
+    "total_noticias": 18,
     "por_categoria": {
-      "fed_tasas": 0,
-      "mercado": 3,
-      "tech_nasdaq": 4,
+      "fed_tasas": 1,
+      "mercado": 4,
+      "tech_nasdaq": 5,
       "economia": 1,
-      "earnings": 3,
+      "earnings": 4,
       "sentimiento": 3
     }
   },
   "resumen_ejecutivo": {
     "sentimiento": "bajista",
-    "score_neto": -4,
+    "score_neto": -10,
     "n_positivas": 0,
-    "n_negativas": 2,
-    "n_neutrales": 12,
-    "narrativa": "El feed muestra 0 senales positivas y 2 negativas (neto -4). Factores dominantes: Desplome: muy negativo; Riesgo de recesion: muy negativo.",
+    "n_negativas": 4,
+    "n_neutrales": 14,
+    "narrativa": "El feed muestra 0 senales positivas y 4 negativas (neto -10). Factores dominantes: Selloff: presion vendedora; Selloff: presion vendedora.",
     "narrativa_fuente": "plantilla",
     "veredicto": "BAJISTA a corto plazo"
   }
