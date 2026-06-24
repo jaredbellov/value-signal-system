@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-06-24T23:03:28.206846+00:00",
+  "updated_at_utc": "2026-06-24T23:33:28.314577+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -93,36 +93,7 @@
         }
       }
     ],
-    "ia_semis": [
-      {
-        "title": "Micron's AI Memory Boom Faces Key Test",
-        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdTFvX2wwZ1VOVjFrSUhnUW5JeUtoRGk1eTZaV0xEWEtBNG1hM1k4QmZNbk5sTEpOMHBXRzByQXoyRk9UOVNrbGZ1eExIaVRVNVhFdWJTblpWZ2NDdW9Qb19SM3FzMlBKLUNCM21mX21HR0NyVlkzUXhYYUV2SDRReHNrdHRZdVA3eHEwSHgzbjBGRS1XRm91NXpfNkpFZw?oc=5",
-        "source": "TradingView",
-        "pubdate": "Tue, 23 Jun 2026 19:03:58 GMT",
-        "pubdate_iso": "2026-06-23T19:03:58+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Micron Stock Sinks as Global Chip Selloff Sparks AI Demand Panic",
-        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZ1cxU1ptTjRzSWotc29uWXNaSGdSV25hbGRwMXk5ZG9mem5LQk9SeVhhN0VHQk9QeXZ5RGw2ck9WQWJTZ0lzdkFzMERyRnp1ZmVGLVIxa3lpbG5iSWliSEFjOTBJdVptZU5mNGY4WHV2U1VVM1I4bUZUaDFFM0JsWDl4YVhySGZ6RzlBdkw3RGZ4QmVGSTMzazBFN3J1RHZtNktlYTJjR2w1WldNUmJiLTh2cU1XZzlTQlZ6MnNDSzc?oc=5",
-        "source": "TradingView",
-        "pubdate": "Tue, 23 Jun 2026 12:35:16 GMT",
-        "pubdate_iso": "2026-06-23T12:35:16+00:00",
-        "impacto": {
-          "direccion": "negativo",
-          "intensidad": 3,
-          "intensidad_label": "fuerte",
-          "emoji": "🔴🔴",
-          "razonamiento": "Selloff: presion vendedora"
-        }
-      }
-    ],
+    "ia_semis": [],
     "macro_tech": [
       {
         "title": "SPCX Stock Sees Record Retail Frenzy — SpaceX Logs Over $400M Inflows In First Week Post-IPO, Says Vanda Research",
@@ -197,22 +168,22 @@
     ]
   },
   "stats": {
-    "total_noticias": 12,
+    "total_noticias": 10,
     "por_categoria": {
       "tesla": 0,
       "nvidia": 5,
-      "ia_semis": 2,
+      "ia_semis": 0,
       "macro_tech": 5
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "levemente alcista",
-    "score_neto": 3,
+    "sentimiento": "alcista",
+    "score_neto": 6,
     "n_positivas": 3,
-    "n_negativas": 1,
-    "n_neutrales": 8,
-    "narrativa": "El feed muestra 3 senales positivas y 1 negativas (neto +3). Factores dominantes: Selloff: presion vendedora; Proxima arquitectura Rubin: roadmap fuerte.",
+    "n_negativas": 0,
+    "n_neutrales": 7,
+    "narrativa": "El feed muestra 3 senales positivas y 0 negativas (neto +6). Factores dominantes: Proxima arquitectura Rubin: roadmap fuerte; Proxima arquitectura Rubin: roadmap fuerte.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "Levemente ALCISTA"
+    "veredicto": "ALCISTA a corto plazo"
   }
 }
