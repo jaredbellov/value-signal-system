@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-06-24T07:33:26.351802+00:00",
+  "updated_at_utc": "2026-06-24T08:03:27.773373+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -64,37 +64,9 @@
           "emoji": "🟢",
           "razonamiento": "Proxima arquitectura Rubin: roadmap fuerte"
         }
-      },
-      {
-        "title": "Nvidia stock dips as robotics push and partner stocks rally",
-        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbE1sRWtFMHB1SkxCa0JKZGQ1WG1CZjQwamhBRldRWW5ZeHA4RFVZXzJ2bE5hNU1iVUZTZThOeGg2V2tQTm9XTHZieEY2Z0lWRDhNSEVoX082REZLOEtzWU9RRUNRQWVSYnhCV0w1VXR4QjdFRVdXbUtDTjFqbUVMMDhoV25sLWhlYjRKNFcxOGRPWHZZSmk4ZHJqSVEyejlEX0pGZjlRMU9zNm91ZXg0VGI5aGtGUQ?oc=5",
-        "source": "TradingView",
-        "pubdate": "Mon, 22 Jun 2026 17:51:30 GMT",
-        "pubdate_iso": "2026-06-22T17:51:30+00:00",
-        "impacto": {
-          "direccion": "positivo",
-          "intensidad": 2,
-          "intensidad_label": "moderado",
-          "emoji": "🟢",
-          "razonamiento": "Rally accionario"
-        }
       }
     ],
     "ia_semis": [
-      {
-        "title": "Micron's AI Memory Boom Faces Key Test",
-        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdTFvX2wwZ1VOVjFrSUhnUW5JeUtoRGk1eTZaV0xEWEtBNG1hM1k4QmZNbk5sTEpOMHBXRzByQXoyRk9UOVNrbGZ1eExIaVRVNVhFdWJTblpWZ2NDdW9Qb19SM3FzMlBKLUNCM21mX21HR0NyVlkzUXhYYUV2SDRReHNrdHRZdVA3eHEwSHgzbjBGRS1XRm91NXpfNkpFZw?oc=5",
-        "source": "TradingView",
-        "pubdate": "Tue, 23 Jun 2026 19:03:58 GMT",
-        "pubdate_iso": "2026-06-23T19:03:58+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
       {
         "title": "Micron Stock Sinks as Global Chip Selloff Sparks AI Demand Panic",
         "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZ1cxU1ptTjRzSWotc29uWXNaSGdSV25hbGRwMXk5ZG9mem5LQk9SeVhhN0VHQk9QeXZ5RGw2ck9WQWJTZ0lzdkFzMERyRnp1ZmVGLVIxa3lpbG5iSWliSEFjOTBJdVptZU5mNGY4WHV2U1VVM1I4bUZUaDFFM0JsWDl4YVhySGZ6RzlBdkw3RGZ4QmVGSTMzazBFN3J1RHZtNktlYTJjR2w1WldNUmJiLTh2cU1XZzlTQlZ6MnNDSzc?oc=5",
@@ -184,22 +156,22 @@
     ]
   },
   "stats": {
-    "total_noticias": 11,
+    "total_noticias": 9,
     "por_categoria": {
       "tesla": 1,
-      "nvidia": 3,
-      "ia_semis": 2,
+      "nvidia": 2,
+      "ia_semis": 1,
       "macro_tech": 5
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "levemente bajista",
-    "score_neto": -2,
-    "n_positivas": 3,
+    "sentimiento": "bajista",
+    "score_neto": -4,
+    "n_positivas": 2,
     "n_negativas": 3,
-    "n_neutrales": 5,
-    "narrativa": "El feed muestra 3 senales positivas y 3 negativas (neto -2). Factores dominantes: Selloff: presion vendedora; Selloff: presion vendedora.",
+    "n_neutrales": 4,
+    "narrativa": "El feed muestra 2 senales positivas y 3 negativas (neto -4). Factores dominantes: Selloff: presion vendedora; Selloff: presion vendedora.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "Levemente BAJISTA"
+    "veredicto": "BAJISTA a corto plazo"
   }
 }
