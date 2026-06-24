@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-06-24T18:03:27.492122+00:00",
+  "updated_at_utc": "2026-06-24T18:33:27.704009+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -62,6 +62,20 @@
           "intensidad_label": "moderado",
           "emoji": "🟢",
           "razonamiento": "Proxima arquitectura Rubin: roadmap fuerte"
+        }
+      },
+      {
+        "title": "Nvidia stock dips as robotics push and partner stocks rally",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbE1sRWtFMHB1SkxCa0JKZGQ1WG1CZjQwamhBRldRWW5ZeHA4RFVZXzJ2bE5hNU1iVUZTZThOeGg2V2tQTm9XTHZieEY2Z0lWRDhNSEVoX082REZLOEtzWU9RRUNRQWVSYnhCV0w1VXR4QjdFRVdXbUtDTjFqbUVMMDhoV25sLWhlYjRKNFcxOGRPWHZZSmk4ZHJqSVEyejlEX0pGZjlRMU9zNm91ZXg0VGI5aGtGUQ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 22 Jun 2026 17:51:30 GMT",
+        "pubdate_iso": "2026-06-22T17:51:30+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🟢",
+          "razonamiento": "Rally accionario"
         }
       },
       {
@@ -183,22 +197,22 @@
     ]
   },
   "stats": {
-    "total_noticias": 11,
+    "total_noticias": 12,
     "por_categoria": {
       "tesla": 0,
-      "nvidia": 4,
+      "nvidia": 5,
       "ia_semis": 2,
       "macro_tech": 5
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "neutral",
-    "score_neto": 1,
-    "n_positivas": 2,
+    "sentimiento": "levemente alcista",
+    "score_neto": 3,
+    "n_positivas": 3,
     "n_negativas": 1,
     "n_neutrales": 8,
-    "narrativa": "El feed muestra 2 senales positivas y 1 negativas (neto +1). Factores dominantes: Selloff: presion vendedora; Proxima arquitectura Rubin: roadmap fuerte.",
+    "narrativa": "El feed muestra 3 senales positivas y 1 negativas (neto +3). Factores dominantes: Selloff: presion vendedora; Proxima arquitectura Rubin: roadmap fuerte.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "NEUTRAL - sin sesgo dominante"
+    "veredicto": "Levemente ALCISTA"
   }
 }
