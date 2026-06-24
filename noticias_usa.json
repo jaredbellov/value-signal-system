@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-06-24T05:33:24.817177+00:00",
+  "updated_at_utc": "2026-06-24T06:03:26.188038+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -63,6 +63,20 @@
           "intensidad_label": "moderado",
           "emoji": "🟢",
           "razonamiento": "Proxima arquitectura Rubin: roadmap fuerte"
+        }
+      },
+      {
+        "title": "Nvidia stock dips as robotics push and partner stocks rally",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbE1sRWtFMHB1SkxCa0JKZGQ1WG1CZjQwamhBRldRWW5ZeHA4RFVZXzJ2bE5hNU1iVUZTZThOeGg2V2tQTm9XTHZieEY2Z0lWRDhNSEVoX082REZLOEtzWU9RRUNRQWVSYnhCV0w1VXR4QjdFRVdXbUtDTjFqbUVMMDhoV25sLWhlYjRKNFcxOGRPWHZZSmk4ZHJqSVEyejlEX0pGZjlRMU9zNm91ZXg0VGI5aGtGUQ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 22 Jun 2026 17:51:30 GMT",
+        "pubdate_iso": "2026-06-22T17:51:30+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🟢",
+          "razonamiento": "Rally accionario"
         }
       }
     ],
@@ -156,21 +170,21 @@
     ]
   },
   "stats": {
-    "total_noticias": 9,
+    "total_noticias": 10,
     "por_categoria": {
       "tesla": 1,
-      "nvidia": 2,
+      "nvidia": 3,
       "ia_semis": 1,
       "macro_tech": 5
     }
   },
   "resumen_ejecutivo": {
     "sentimiento": "bajista",
-    "score_neto": -9,
-    "n_positivas": 2,
+    "score_neto": -7,
+    "n_positivas": 3,
     "n_negativas": 5,
     "n_neutrales": 2,
-    "narrativa": "El feed muestra 2 senales positivas y 5 negativas (neto -9). Factores dominantes: Selloff: presion vendedora; Selloff: presion vendedora.",
+    "narrativa": "El feed muestra 3 senales positivas y 5 negativas (neto -7). Factores dominantes: Selloff: presion vendedora; Selloff: presion vendedora.",
     "narrativa_fuente": "plantilla",
     "veredicto": "BAJISTA a corto plazo"
   }
