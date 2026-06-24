@@ -54,6 +54,9 @@ ETFS_CONFIG = [
 ]
 
 
+from git_lock import git_lock  # serializa acceso a git entre tareas
+
+
 def ejecutar_git(args, cwd=None):
     """Ejecuta un comando git y devuelve (exit_code, stdout, stderr)."""
     cwd = cwd or SCRIPT_DIR
@@ -167,7 +170,9 @@ def main():
     if fallidos:
         log.warning(f"  Fallidos: {fallidos}")
 
-    git_sync_and_push()
+    # push con lock compartido para evitar choques entre tareas
+    with git_lock():
+        git_sync_and_push()
 
     log.info(f"=== FIN ({datetime.now().strftime('%H:%M:%S')}) ===")
     return 0

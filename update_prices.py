@@ -64,6 +64,9 @@ def precio_cambió_significativamente(precio_anterior, precio_nuevo):
     return cambio_pct >= UMBRAL_CAMBIO_PCT
 
 
+from git_lock import git_lock  # serializa acceso a git entre tareas
+
+
 def ejecutar_git(args, cwd=None):
     """Ejecuta un comando git y devuelve (exit_code, stdout, stderr)."""
     cwd = cwd or SCRIPT_DIR
@@ -89,13 +92,6 @@ async def main():
     log.info("=== Update Prices LOCAL ===")
     log.info(f"Hora: {datetime.now().isoformat()}")
 
-    # 1. Git pull primero para evitar conflictos
-    log.info("--- Git pull ---")
-    code, out, err = ejecutar_git(['pull', '--rebase', '--autostash'])
-    if code != 0:
-        log.warning(f"git pull devolvió código {code}: {err}")
-    else:
-        log.info("git pull OK")
 
     # 2. Cargar precios previos
     previous_data = {}
@@ -166,24 +162,26 @@ async def main():
     # 6. Si hubo cambios significativos, commit + push
     if hubo_cambios:
         log.info("--- Hay cambios significativos: committing ---")
-        code, out, err = ejecutar_git(['add', 'prices.json'])
-        if code != 0:
-            log.error(f"git add falló: {err}")
-            return 1
-
-        ts = datetime.now().strftime("%Y-%m-%d %H:%M")
-        code, out, err = ejecutar_git(['commit', '-m', f"chore: update BCS prices {ts} [skip ci]"])
-        if code != 0:
-            # Puede ser "nothing to commit" si solo cambió el timestamp
-            log.warning(f"git commit dijo: {out or err}")
-        else:
-            log.info("git commit OK")
-
-        code, out, err = ejecutar_git(['push'])
-        if code != 0:
-            log.error(f"git push falló: {err}")
-            return 1
-        log.info("git push OK")
+        # push con lock compartido para evitar choques entre tareas
+        with git_lock():
+            code, out, err = ejecutar_git(['add', 'prices.json'])
+            if code != 0:
+                log.error(f"git add falló: {err}")
+                return 1
+    
+            ts = datetime.now().strftime("%Y-%m-%d %H:%M")
+            code, out, err = ejecutar_git(['commit', '-m', f"chore: update BCS prices {ts} [skip ci]"])
+            if code != 0:
+                # Puede ser "nothing to commit" si solo cambió el timestamp
+                log.warning(f"git commit dijo: {out or err}")
+            else:
+                log.info("git commit OK")
+    
+            code, out, err = ejecutar_git(['push'])
+            if code != 0:
+                log.error(f"git push falló: {err}")
+                return 1
+            log.info("git push OK")
     else:
         log.info("Sin cambios significativos, no commiteo")
 

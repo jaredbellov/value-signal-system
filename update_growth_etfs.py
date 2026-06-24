@@ -18,6 +18,7 @@ Uso:
 
 import json
 import subprocess
+from git_lock import git_lock  # serializa acceso a git entre tareas
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -169,20 +170,22 @@ def main():
 
     if no_git:
         return
-    try:
-        subprocess.run(["git", "pull", "--no-rebase", "--no-edit"], cwd=REPO,
-                       check=False, capture_output=True)
-        subprocess.run(["git", "add", OUT.name], cwd=REPO, check=True, capture_output=True)
-        r = subprocess.run(["git", "commit", "-m", "data: growth ETFs (SP500/Nasdaq)"],
-                           cwd=REPO, capture_output=True, text=True)
-        if r.returncode == 0:
-            subprocess.run(["git", "push"], cwd=REPO, check=True, capture_output=True)
-            log("Push OK")
-        else:
-            log("Sin cambios para commitear")
-    except subprocess.CalledProcessError as e:
-        log(f"Error git: {e}")
-        sys.exit(1)
+    # push con lock compartido para evitar choques entre tareas
+    with git_lock():
+        try:
+            subprocess.run(["git", "pull", "--no-rebase", "--no-edit"], cwd=REPO,
+                           check=False, capture_output=True)
+            subprocess.run(["git", "add", OUT.name], cwd=REPO, check=True, capture_output=True)
+            r = subprocess.run(["git", "commit", "-m", "data: growth ETFs (SP500/Nasdaq)"],
+                               cwd=REPO, capture_output=True, text=True)
+            if r.returncode == 0:
+                subprocess.run(["git", "push"], cwd=REPO, check=True, capture_output=True)
+                log("Push OK")
+            else:
+                log("Sin cambios para commitear")
+        except subprocess.CalledProcessError as e:
+            log(f"Error git: {e}")
+            sys.exit(1)
 
 
 if __name__ == "__main__":

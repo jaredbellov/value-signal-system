@@ -36,6 +36,8 @@ logging.basicConfig(
 )
 log = logging.getLogger("update-acciones")
 
+from git_lock import git_lock  # serializa acceso a git entre tareas
+
 
 # ============================================================================
 # HELPERS GIT
@@ -124,8 +126,6 @@ def main():
     log.info(f"UPDATE ACCIONES CHILENAS - {inicio.strftime('%Y-%m-%d %H:%M:%S')}")
     log.info("=" * 70)
 
-    # 1. Git pull primero (evita conflictos con tarea de CFISPETF)
-    git_pull()
 
     # 2. Ejecutar el scraper (genera acciones_chilenas.json)
     log.info("Ejecutando acciones_chilenas.py...")
@@ -157,10 +157,11 @@ def main():
         log.error(f"No se generó {json_path}")
         return 1
 
-    # 4. Commit + push (siempre, según preferencia del usuario)
-    if not git_commit_and_push():
-        log.error("Git push falló")
-        return 1
+    # 4. Commit + push (con lock compartido para evitar choques entre tareas)
+    with git_lock():
+        if not git_commit_and_push():
+            log.error("Git push fallo")
+            return 1
 
     duracion = (datetime.now() - inicio).total_seconds()
     log.info(f"OK: completado en {duracion:.1f}s")
