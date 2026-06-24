@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-06-23T20:33:28.932310+00:00",
+  "updated_at_utc": "2026-06-24T05:03:26.251522+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -20,7 +20,22 @@
     }
   },
   "noticias_por_categoria": {
-    "tesla": [],
+    "tesla": [
+      {
+        "title": "Acciones de Tesla bajo vigilancia: Jefferies eleva el precio objetivo pero mantiene cautela ante SpaceX",
+        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdnZjT3ptVE9jMmN5bjU1dlhFcmNhMWxWUUMzemVWM3g0dm16RUZtUExYM1lrVXVWM3hGWkFlVUtINEFMbnBtekFWb0lxZEU2WkZtS0o0X3Q2RU5nal9QNHRhZHA0Q05hdFNCeEdOT3hnNHN2VDNHYW1CbUdwYTE1Y3ZCLXgtUjRrdjRHUWlBVjRYcmFnajJmbUl3?oc=5",
+        "source": "Yahoo",
+        "pubdate": "Tue, 23 Jun 2026 09:53:23 GMT",
+        "pubdate_iso": "2026-06-23T09:53:23+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
     "nvidia": [
       {
         "title": "SMCI Stock Gains Most In Nearly 2 Months On New Vera Rubin Racks, Analyst Upgrade",
@@ -51,8 +66,65 @@
         }
       }
     ],
-    "ia_semis": [],
+    "ia_semis": [
+      {
+        "title": "Micron Stock Sinks as Global Chip Selloff Sparks AI Demand Panic",
+        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZ1cxU1ptTjRzSWotc29uWXNaSGdSV25hbGRwMXk5ZG9mem5LQk9SeVhhN0VHQk9QeXZ5RGw2ck9WQWJTZ0lzdkFzMERyRnp1ZmVGLVIxa3lpbG5iSWliSEFjOTBJdVptZU5mNGY4WHV2U1VVM1I4bUZUaDFFM0JsWDl4YVhySGZ6RzlBdkw3RGZ4QmVGSTMzazBFN3J1RHZtNktlYTJjR2w1WldNUmJiLTh2cU1XZzlTQlZ6MnNDSzc?oc=5",
+        "source": "TradingView",
+        "pubdate": "Tue, 23 Jun 2026 12:35:16 GMT",
+        "pubdate_iso": "2026-06-23T12:35:16+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 3,
+          "intensidad_label": "fuerte",
+          "emoji": "🔴🔴",
+          "razonamiento": "Selloff: presion vendedora"
+        }
+      }
+    ],
     "macro_tech": [
+      {
+        "title": "SpaceX Slides 23% in Three Days as $20 Billion Bond Sale Looms",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZTZ6UEM5Y0ZXd3VmYkZZOEtoSFB4WVF5LURWSE5jY09YYWxldTlheEZXdFdoWGZtbnFTU01rU0FYTE9aSUQtdXZwMFZCWTRCWjRiN2x6cHFtY1htQWlORXlIQnNFeWNjRE1ZUDR0VnF6WmtJUjBJcU9vSVZ5eW5QeV9MelB1ZHhwTkNnYjBKWjRKNHliRENUWkJaeGswSl92U09LclluSHJMSFhvZHJUSEQ1RlFtcTA3WVdJ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Tue, 23 Jun 2026 16:30:04 GMT",
+        "pubdate_iso": "2026-06-23T16:30:04+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Dow falls 320 points as Nasdaq slides 2.2% in AI tech selloff",
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUDFaMDBidWYwY0NpMGVwWURpbU1rLWtYdTdEbHRSTUtNTlhiZXhORU1rbU1BenVITUx1N19iNmxrT2hZd3U5Y3Y0VkI5NlBvYzgyVEVFMW9vbEdMcjc1VVBIZk5PZDhDc25wZG5qYUFFX2Znblh1a3RWckVVOVFhOHk0Q05vQXg3SlFwbEl2M2xlbDRRZjV3X1RmQ1A2Sm0zLWVTVThNaVItZnZrTUJqME1ydURTSlk?oc=5",
+        "source": "TradingView",
+        "pubdate": "Tue, 23 Jun 2026 13:39:12 GMT",
+        "pubdate_iso": "2026-06-23T13:39:12+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 3,
+          "intensidad_label": "fuerte",
+          "emoji": "🔴🔴",
+          "razonamiento": "Selloff: presion vendedora"
+        }
+      },
+      {
+        "title": "Stocks drop as Fed rate bets hit tech royalty; dollar gains",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOWUFiOWNtcTBpQlU3LVpZaDloZlAxSTNaOG5qQ2NzUmZaVkEyV1ZheTh0N3o0c0s3MXd3Nk9yNkhNSHVJNkEtUEt2LW5Rek1IN01sUHMzbWJwRGRGQ0JlaXNtNS1YQ3pzUWphZzRGWlhGajJhR0RrOFR3a1RDcEpPcUMyTFBucDhSUkhvQ1hHRlhQT2NVRTFqb21xZWdDZDZvTzd4Z3pTQUVXZ2liOEpqa1YzS1JHajZhcG1JX3Y5ZmliSHJ3MUE?oc=5",
+        "source": "TradingView",
+        "pubdate": "Tue, 23 Jun 2026 12:22:49 GMT",
+        "pubdate_iso": "2026-06-23T12:22:49+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Acciones caen"
+        }
+      },
       {
         "title": "Nasdaq, S&P 500, Dow Futures Crack On Tech, SpaceX Selloff: Why SPCX, TSLA, INFQ, MU, HOOD, ADTX Are In Focus",
         "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPdjFNTmZmS3RrLXVydG9paUk4ZzJ0RWRMUlhLRmIxdThGMFNSY2JKenl4WGJMVVpIcWd5V2dPMU5hVXVfTVhQTENyR1IxbXg1SGJtZW5tYXYyTU1WalR2Q1pnN0oyOGRiRnlRMGY5Q1Fhd0s4LTMzYW1iOEhHUHpScjFWQXc1cFZEVy1iRGI0SFBSWWJQS0pRbThTeVpBc0hYdUpGYzQ5NS04UmFsX1JQaDNFeDFlcFphWjU2bThkVTkzODhXcGhYWDRCMlVmdmZEb01sLTVtUld3ZW02TVdJdk85REpfcWctOXZBVVBFQlk5QQ?oc=5",
@@ -80,67 +152,25 @@
           "emoji": "🔴",
           "razonamiento": "Bear market"
         }
-      },
-      {
-        "title": "Tesla Stock Heads For Red June — Jefferies Warns It Could Become a SpaceX Proxy As Merger Talk Builds",
-        "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNWDVKbmR4TXhKS29UZEs2V3BnUEtCeXJmZVhfT1hKTmhKX191RkNpeHdaamRKRGl0YzRjY3lMUjVNV3ZUcV9fMVNWZjVyM3N1QVA3aXlQc01mY1EyQWNVVzlucmVXeHRodVNuYnNHSEg1U0lfb3Jtam9kWjkwb0IzelBObzczRWZZakpsZWhSY3FXMEhaaWsyLTJMcVo4WXA1RnpqSzcxektCZTgwS2ttNmtrSzZYZ2tvLWt1RE1IWERpWTBIbUk2R05rcHF6c0xYcXhOYkJOYzRjamQ1NmVQTDRxbG55NDg3c0R2d0hYeS0?oc=5",
-        "source": "TradingView",
-        "pubdate": "Tue, 23 Jun 2026 04:27:00 GMT",
-        "pubdate_iso": "2026-06-23T04:27:00+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Nasdaq, S&P 500 Futures Dip After Megacap Tech Selloff: Why SPCX, INFQ, PLTR, QBTS, HIMS Are In Focus",
-        "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNcFB1dVgySDZFX2R3ZDdUUUJuOUNJTDdGN0IxZ3lrT2stcVV4YWxNY0VUWDc3aGNaVlRzLXFVc2lvWm5IX2xCU0FzNldiRC1zcjAzY1VmcDlNd2lrWlRVV1I3RERrSmFPOHRnMGk2bHdtYkEwWGdLbF9QY0g0Um9ILUg2bWh3aXZMYnUxUEUxQWJQWTdFRGFNUUFJME80X1kwWU1XZjNBWDhWRTI0LThRVGhJdkZZNng3X0xqVjJZcjZiQ2JCMEFKQk4ydE56YUdWamFiU2NsR0R6R255OG1HSFlSSnNNbGVZY2Nj?oc=5",
-        "source": "TradingView",
-        "pubdate": "Tue, 23 Jun 2026 02:09:00 GMT",
-        "pubdate_iso": "2026-06-23T02:09:00+00:00",
-        "impacto": {
-          "direccion": "negativo",
-          "intensidad": 3,
-          "intensidad_label": "fuerte",
-          "emoji": "🔴🔴",
-          "razonamiento": "Selloff: presion vendedora"
-        }
-      },
-      {
-        "title": "Dow rises 140 points as S&P 500 falls on tech losses, Iran talks and PCE watch",
-        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOdG5TbmxPTFozM3hOY0lrQ2MySUtVVDA5dmU0UkdWYVlJTTUyVlZIdVQwSVA1OFQ1eERKMi1ST2Jsb0NKX3o3emd3N3RNQWxJaVJQeE41WmZQY0JlRGxKT1lGcWs3SDlTQ2luRVZfZW5pVURiVVBuUUVXQkJtLUhncHI1NmJnLUJpSjZpQ3pJM1YxTF9BOHRJbDd4Q05NUDBydVZ3WjRfZXVrdjFEQnRDS2FPZmppZW5ZMHFURmxvQ0hwUW4wT3RSUmVrSWlCdw?oc=5",
-        "source": "TradingView",
-        "pubdate": "Mon, 22 Jun 2026 20:26:09 GMT",
-        "pubdate_iso": "2026-06-22T20:26:09+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
       }
     ]
   },
   "stats": {
-    "total_noticias": 7,
+    "total_noticias": 9,
     "por_categoria": {
-      "tesla": 0,
+      "tesla": 1,
       "nvidia": 2,
-      "ia_semis": 0,
+      "ia_semis": 1,
       "macro_tech": 5
     }
   },
   "resumen_ejecutivo": {
     "sentimiento": "bajista",
-    "score_neto": -4,
+    "score_neto": -9,
     "n_positivas": 2,
-    "n_negativas": 3,
+    "n_negativas": 5,
     "n_neutrales": 2,
-    "narrativa": "El feed muestra 2 senales positivas y 3 negativas (neto -4). Factores dominantes: Selloff: presion vendedora; Selloff: presion vendedora.",
+    "narrativa": "El feed muestra 2 senales positivas y 5 negativas (neto -9). Factores dominantes: Selloff: presion vendedora; Selloff: presion vendedora.",
     "narrativa_fuente": "plantilla",
     "veredicto": "BAJISTA a corto plazo"
   }
