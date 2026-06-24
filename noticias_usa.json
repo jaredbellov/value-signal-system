@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-06-24T15:34:24.650952+00:00",
+  "updated_at_utc": "2026-06-24T16:03:25.621257+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -20,22 +20,7 @@
     }
   },
   "noticias_por_categoria": {
-    "tesla": [
-      {
-        "title": "Acciones de Tesla bajo vigilancia: Jefferies eleva el precio objetivo pero mantiene cautela ante SpaceX",
-        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdnZjT3ptVE9jMmN5bjU1dlhFcmNhMWxWUUMzemVWM3g0dm16RUZtUExYM1lrVXVWM3hGWkFlVUtINEFMbnBtekFWb0lxZEU2WkZtS0o0X3Q2RU5nal9QNHRhZHA0Q05hdFNCeEdOT3hnNHN2VDNHYW1CbUdwYTE1Y3ZCLXgtUjRrdjRHUWlBVjRYcmFnajJmbUl3?oc=5",
-        "source": "Yahoo",
-        "pubdate": "Tue, 23 Jun 2026 09:53:23 GMT",
-        "pubdate_iso": "2026-06-23T09:53:23+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      }
-    ],
+    "tesla": [],
     "nvidia": [
       {
         "title": "Chips NVIDIA se venden al doble de precio en el « mercado negro » de China",
@@ -198,9 +183,9 @@
     ]
   },
   "stats": {
-    "total_noticias": 12,
+    "total_noticias": 11,
     "por_categoria": {
-      "tesla": 1,
+      "tesla": 0,
       "nvidia": 4,
       "ia_semis": 2,
       "macro_tech": 5
@@ -211,7 +196,7 @@
     "score_neto": -2,
     "n_positivas": 2,
     "n_negativas": 2,
-    "n_neutrales": 8,
+    "n_neutrales": 7,
     "narrativa": "El feed muestra 2 senales positivas y 2 negativas (neto -2). Factores dominantes: Selloff: presion vendedora; Selloff: presion vendedora.",
     "narrativa_fuente": "plantilla",
     "veredicto": "Levemente BAJISTA"
