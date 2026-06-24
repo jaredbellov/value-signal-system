@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-06-24T18:33:27.704009+00:00",
+  "updated_at_utc": "2026-06-24T19:03:27.489158+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -139,20 +139,6 @@
         }
       },
       {
-        "title": "Nasdaq Tumbles as Micron, Chip Giants Lead Brutal Tech Rout",
-        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdW9oYXZRRkdUT0dPSldEamNZNDFxWG9Jd0VxcTVfNWg0Nmp4MnZVX0Z1S2M3OWpqRDJSQ1hNVXlpMkRCblBnMmRxSndFWVhwemg4RUlZTWhhVmZpOFp2MnQtb0hEUW5xUG05SkhXbi1WWXBJOGFWUzZiTUUtWXZLV3VaSG4ydFhkVkY5MU1MYzU0QzVvem5xV0djRTctOUhDS0RPZ0ppeWoxdzRVYjJ2M09EN2xrSFpM?oc=5",
-        "source": "TradingView",
-        "pubdate": "Tue, 23 Jun 2026 17:00:22 GMT",
-        "pubdate_iso": "2026-06-23T17:00:22+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
         "title": "SpaceX Slides 23% in Three Days as $20 Billion Bond Sale Looms",
         "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZTZ6UEM5Y0ZXd3VmYkZZOEtoSFB4WVF5LURWSE5jY09YYWxldTlheEZXdFdoWGZtbnFTU01rU0FYTE9aSUQtdXZwMFZCWTRCWjRiN2x6cHFtY1htQWlORXlIQnNFeWNjRE1ZUDR0VnF6WmtJUjBJcU9vSVZ5eW5QeV9MelB1ZHhwTkNnYjBKWjRKNHliRENUWkJaeGswSl92U09LclluSHJMSFhvZHJUSEQ1RlFtcTA3WVdJ?oc=5",
         "source": "TradingView",
@@ -193,6 +179,20 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
+      },
+      {
+        "title": "Dow falls 320 points as Nasdaq slides 2.2% in AI tech selloff",
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUDFaMDBidWYwY0NpMGVwWURpbU1rLWtYdTdEbHRSTUtNTlhiZXhORU1rbU1BenVITUx1N19iNmxrT2hZd3U5Y3Y0VkI5NlBvYzgyVEVFMW9vbEdMcjc1VVBIZk5PZDhDc25wZG5qYUFFX2Znblh1a3RWckVVOVFhOHk0Q05vQXg3SlFwbEl2M2xlbDRRZjV3X1RmQ1A2Sm0zLWVTVThNaVItZnZrTUJqME1ydURTSlk?oc=5",
+        "source": "TradingView",
+        "pubdate": "Tue, 23 Jun 2026 13:39:12 GMT",
+        "pubdate_iso": "2026-06-23T13:39:12+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 3,
+          "intensidad_label": "fuerte",
+          "emoji": "🔴🔴",
+          "razonamiento": "Selloff: presion vendedora"
+        }
       }
     ]
   },
@@ -206,13 +206,13 @@
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "levemente alcista",
-    "score_neto": 3,
+    "sentimiento": "neutral",
+    "score_neto": 0,
     "n_positivas": 3,
-    "n_negativas": 1,
-    "n_neutrales": 8,
-    "narrativa": "El feed muestra 3 senales positivas y 1 negativas (neto +3). Factores dominantes: Selloff: presion vendedora; Proxima arquitectura Rubin: roadmap fuerte.",
+    "n_negativas": 2,
+    "n_neutrales": 7,
+    "narrativa": "El feed muestra 3 senales positivas y 2 negativas (neto +0). Factores dominantes: Selloff: presion vendedora; Selloff: presion vendedora.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "Levemente ALCISTA"
+    "veredicto": "NEUTRAL - sin sesgo dominante"
   }
 }
