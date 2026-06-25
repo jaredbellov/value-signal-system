@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-06-25T11:33:26.943053+00:00",
+  "updated_at_utc": "2026-06-25T12:03:26.238539+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -121,6 +121,20 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
+      },
+      {
+        "title": "Google Backs $3.2B AI Chip Push Against Nvidia",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOZ2pqYjZsRS1fRFQwRGVDV1NGaXJuaXo0UDAzdnRkT2ptZF9kXzlkcG1YcEN4Um11YktJak8zLTRYWGxyX2VvSDJxSDZUeGFkQlpLN3F0eEwtS081TlhhUkU5a2hZamZGbS16ejZ3TlRDVkotcE5kMS10aFBqRXh2SDFHNkQyLTZuem1ITTRoZlhja2kwbEpDTUQ4XzdFUEhWekM3Z29xaw?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 22 Jun 2026 13:29:10 GMT",
+        "pubdate_iso": "2026-06-22T13:29:10+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
       }
     ],
     "macro_tech": [
@@ -130,6 +144,20 @@
         "source": "TradingView",
         "pubdate": "Wed, 24 Jun 2026 15:35:57 GMT",
         "pubdate_iso": "2026-06-24T15:35:57+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Alphabet stock gains after Dow Jones inclusion announcement",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPcEVMVG5wazdiY2p0dUtFNUZWclZBM3VOZnFJbko4YllteUVoa3J6N1pMU3NNTVUxckpGWlNqakV4emdmMnZVRVplVEpZMThwR0ZCRG9VTGZxR0dTcVZBLW84SFhiRGdGUlZCSkc2UFFheUZteTNMOFNpYmI2VVIzRWx0QkcwZ3pyMDlEVHVFME0xeDlXOEEwS1lRWlZXVGNvSkkxaEtqWklLVzZSQXE4RTRuRzFBUQ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 24 Jun 2026 15:05:24 GMT",
+        "pubdate_iso": "2026-06-24T15:05:24+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -179,40 +207,26 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
-      },
-      {
-        "title": "TSX Slips on Global Tech Selloff",
-        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPc0w4MTFNNkNSMW1oc2tyLWlMUWhxek1UVlJROUs3SFFYZ0lNVG5DcUc3YXd0NmpDY01BRkxTLVQ5TEF4eTRVVkt0cjJqTHVOSVliMzV1VkJVb1BpVjFIWGNGQUI5YUtXazY3ak9PcWUxNVU5RjVlYjQteFRNMUhUNUI4UkpJc1BERGc?oc=5",
-        "source": "TradingView",
-        "pubdate": "Tue, 23 Jun 2026 20:15:13 GMT",
-        "pubdate_iso": "2026-06-23T20:15:13+00:00",
-        "impacto": {
-          "direccion": "negativo",
-          "intensidad": 3,
-          "intensidad_label": "fuerte",
-          "emoji": "🔴🔴",
-          "razonamiento": "Selloff: presion vendedora"
-        }
       }
     ]
   },
   "stats": {
-    "total_noticias": 12,
+    "total_noticias": 13,
     "por_categoria": {
       "tesla": 0,
       "nvidia": 5,
-      "ia_semis": 2,
+      "ia_semis": 3,
       "macro_tech": 5
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "levemente alcista",
-    "score_neto": 2,
+    "sentimiento": "alcista",
+    "score_neto": 5,
     "n_positivas": 4,
-    "n_negativas": 2,
-    "n_neutrales": 6,
-    "narrativa": "El feed muestra 4 senales positivas y 2 negativas (neto +2). Factores dominantes: Selloff: presion vendedora; Selloff: presion vendedora.",
+    "n_negativas": 1,
+    "n_neutrales": 8,
+    "narrativa": "El feed muestra 4 senales positivas y 1 negativas (neto +5). Factores dominantes: Selloff: presion vendedora; Proxima arquitectura Rubin: roadmap fuerte.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "Levemente ALCISTA"
+    "veredicto": "ALCISTA a corto plazo"
   }
 }
