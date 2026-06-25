@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-06-25T22:03:29.250276+00:00",
+  "updated_at_utc": "2026-06-25T22:33:27.924513+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -22,6 +22,20 @@
   "noticias_por_categoria": {
     "tesla": [],
     "nvidia": [
+      {
+        "title": "NVDA Who? Micron Blows Doors Off Q3 Earnings, Revs",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORG5WakRQdmRsSkFyMnV6LWJfUl9vVS12YmxBNUcwVHFxV1VlSHdlZ1doM01tX3c1Vkd0V1F0RGlyX184VU5QQ18yTWVZU3BzUXpaVnR5SDVSWjFoRDhmY183LTEzaVRfTFZ4X3VWMENxaFlYUkRCbXdsOWh6VU1ZQ2pWcEJNUGdzcy1HQ2ZMSG5PZTVjY0J1WmUySFNhQU5nVWxYVEN3?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 24 Jun 2026 21:56:00 GMT",
+        "pubdate_iso": "2026-06-24T21:56:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
       {
         "title": "Chips NVIDIA se venden al doble de precio en el « mercado negro » de China",
         "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPeDN4MGtscWx0X0hOeVJqSWMydno0RHFJQlMxT0czRFBwb0xCXzY0Mk9nWV9rRFBWLWxucUtaSmo4TzdMdDQyUkszVDRJV0paU0MxMjdPRmZkLWJZNXlYS3lnYjNESjgtdm42VEZwQ2J5cWNMYnRtZU90bkU3NjZncnFNQ2F6LWlQSXVZNUFmRUZMQnJSQUgwUVE1Y2pnT3lMR2hiQk9VVFZMemdMRjNlTTVpbw?oc=5",
@@ -181,38 +195,38 @@
         }
       },
       {
-        "title": "AI Selloff Erases $1.3 Trillion Before Tech Futures Rebound",
-        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMHZvZzZ6VzN0d2todk9ERlVnWnpTOHZhRTJMVnJpVTdGWkh0Mk9qT00tQ0pDdVczTC1Pa1BKMWZTMmtra01FNnVJV2dkNTZKVFFydXU1QjF6SVB6RFhQYy1BU3pkT0VtWFd0dWNxQUc5R0x2NTFfQ2NjZkNNd3VNcXpITHRsdVFycVNmVUVkTV9rYmVoZG1CZlFfUU43d2Y4eVJVZHRYMy0yWG5DclN3bGlWSkktanFq?oc=5",
-        "source": "TradingView",
-        "pubdate": "Wed, 24 Jun 2026 13:58:58 GMT",
-        "pubdate_iso": "2026-06-24T13:58:58+00:00",
+        "title": "Nasdaq, S&P end lower as tech stocks fall",
+        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1kY3daemdCTmlheGpUdHZQMU5icjNKdGJIaE12YXRlSzBrbndMQW13Sy1fS0RzWF9LYjBZbEVrenhzVHJuYWNENUJnVWc2NDRXWm0wdnQ3WGFHYml4Q2drZ0JWSGl3QmMxYU93M0pGQ0FyQ1Y2RGhrUQ?oc=5",
+        "source": "AOL.com",
+        "pubdate": "Wed, 24 Jun 2026 09:35:29 GMT",
+        "pubdate_iso": "2026-06-24T09:35:29+00:00",
         "impacto": {
           "direccion": "negativo",
-          "intensidad": 3,
-          "intensidad_label": "fuerte",
-          "emoji": "🔴🔴",
-          "razonamiento": "Selloff: presion vendedora"
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Acciones a la baja"
         }
       }
     ]
   },
   "stats": {
-    "total_noticias": 12,
+    "total_noticias": 13,
     "por_categoria": {
       "tesla": 0,
-      "nvidia": 3,
+      "nvidia": 4,
       "ia_semis": 4,
       "macro_tech": 5
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "levemente alcista",
-    "score_neto": 3,
+    "sentimiento": "alcista",
+    "score_neto": 4,
     "n_positivas": 4,
     "n_negativas": 2,
-    "n_neutrales": 6,
-    "narrativa": "El feed muestra 4 senales positivas y 2 negativas (neto +3). Factores dominantes: Selloff: presion vendedora; Proxima arquitectura Rubin: roadmap fuerte.",
+    "n_neutrales": 7,
+    "narrativa": "El feed muestra 4 senales positivas y 2 negativas (neto +4). Factores dominantes: Proxima arquitectura Rubin: roadmap fuerte; Proxima arquitectura Rubin: roadmap fuerte.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "Levemente ALCISTA"
+    "veredicto": "ALCISTA a corto plazo"
   }
 }
