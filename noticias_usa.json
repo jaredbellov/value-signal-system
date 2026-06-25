@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-06-25T21:03:27.466049+00:00",
+  "updated_at_utc": "2026-06-25T21:33:28.992116+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -78,6 +78,20 @@
           "intensidad_label": "moderado",
           "emoji": "🟢",
           "razonamiento": "Demanda de chips: soporte tech"
+        }
+      },
+      {
+        "title": "ASML Faces New China Risk as 19% Sales Market Comes Under Pressure",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOcHo4ekZLdlVJZnNTMVUtLTJGY21mVlNlRGtHTzVMdUZOcGczblloM0xCLVY1NEctUk5NNWlZUDRDUWpGQmktd0ZLWkRBSDdEUU9VYzFtd2NZQ0VKX3VCMEN2cVBldFJWbWF3ODc1elhLb3NpSHM5RG8wMF90YjlrbU9EX2NONHVvRFNvTkJQU3RkZGVhYjVuR1lzcEpXMHNpMkw1S1JrS1hrald4S25qWl81U0YybGtYSlVqZkJYYmEtdw?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 24 Jun 2026 17:32:29 GMT",
+        "pubdate_iso": "2026-06-24T17:32:29+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
         }
       },
       {
@@ -197,11 +211,11 @@
     ]
   },
   "stats": {
-    "total_noticias": 12,
+    "total_noticias": 13,
     "por_categoria": {
       "tesla": 0,
       "nvidia": 3,
-      "ia_semis": 4,
+      "ia_semis": 5,
       "macro_tech": 5
     }
   },
@@ -210,7 +224,7 @@
     "score_neto": 3,
     "n_positivas": 4,
     "n_negativas": 2,
-    "n_neutrales": 6,
+    "n_neutrales": 7,
     "narrativa": "El feed muestra 4 senales positivas y 2 negativas (neto +3). Factores dominantes: Selloff: presion vendedora; Proxima arquitectura Rubin: roadmap fuerte.",
     "narrativa_fuente": "plantilla",
     "veredicto": "Levemente ALCISTA"
