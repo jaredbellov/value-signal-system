@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-06-25T13:03:26.804531+00:00",
+  "updated_at_utc": "2026-06-25T13:33:26.550420+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -77,20 +77,6 @@
           "emoji": "🟢",
           "razonamiento": "Rally accionario"
         }
-      },
-      {
-        "title": "AMD's Rally Has Wall Street Paying Attention",
-        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMGl6c2otdi1BZ0RnWkNFY0tGcmtDWHFWb29IUlcwUklaUVBxM1NkSzVhSDJwNWhvNHlXd1M1NUZRczlHYXZWZlRxaEZnVjNZRlFhZFVLT292d242eGt0d2xPTWhMU2JSSmthSWNLdDVNUnZBMHNieFcyNzdoZlVORDV6SVd0QXNvV1J4R2lJbml1Unh5LVd6b2RhZUxYVXh3V0pJcWxR?oc=5",
-        "source": "TradingView",
-        "pubdate": "Mon, 22 Jun 2026 13:24:20 GMT",
-        "pubdate_iso": "2026-06-22T13:24:20+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
       }
     ],
     "ia_semis": [
@@ -100,6 +86,20 @@
         "source": "TradingView",
         "pubdate": "Wed, 24 Jun 2026 19:27:11 GMT",
         "pubdate_iso": "2026-06-24T19:27:11+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🟢",
+          "razonamiento": "Demanda de chips: soporte tech"
+        }
+      },
+      {
+        "title": "Nvidia steadies above $200 as valuation, China chip demand draws focus",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdXJUZXhjRXVvR2trWjB0eE44SGd3Tmp3MmJqRVFmcmZDcDhvMFVKWkJqcEd5bEJlOGRiRnN4cnNMYjF6eFkwdTN1ZTVvWndLdUtHMXFReUtOWlZOYVBjM0szRWhjSkt5S1B3eW85Q0t1LVp1OS00UTA4Rlo4MDZ2cWRzV1RCTEtTVGZjV2g4TnNCZmFYcXZPeDBNVTkxUmQtVlVaUWpoYkhDWTVTUHQyNWhXRWlhSnVpR1RWVG1tQ2Z1Zw?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 24 Jun 2026 15:56:34 GMT",
+        "pubdate_iso": "2026-06-24T15:56:34+00:00",
         "impacto": {
           "direccion": "positivo",
           "intensidad": 2,
@@ -214,18 +214,18 @@
     "total_noticias": 13,
     "por_categoria": {
       "tesla": 0,
-      "nvidia": 5,
-      "ia_semis": 3,
+      "nvidia": 4,
+      "ia_semis": 4,
       "macro_tech": 5
     }
   },
   "resumen_ejecutivo": {
     "sentimiento": "alcista",
-    "score_neto": 5,
-    "n_positivas": 4,
+    "score_neto": 7,
+    "n_positivas": 5,
     "n_negativas": 1,
-    "n_neutrales": 8,
-    "narrativa": "El feed muestra 4 senales positivas y 1 negativas (neto +5). Factores dominantes: Selloff: presion vendedora; Proxima arquitectura Rubin: roadmap fuerte.",
+    "n_neutrales": 7,
+    "narrativa": "El feed muestra 5 senales positivas y 1 negativas (neto +7). Factores dominantes: Selloff: presion vendedora; Proxima arquitectura Rubin: roadmap fuerte.",
     "narrativa_fuente": "plantilla",
     "veredicto": "ALCISTA a corto plazo"
   }
