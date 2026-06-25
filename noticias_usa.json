@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-06-25T04:33:26.366126+00:00",
+  "updated_at_utc": "2026-06-25T05:03:26.730437+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -125,17 +125,17 @@
     ],
     "macro_tech": [
       {
-        "title": "Futuros de Wall Street mixtos hoy: 5 claves antes de la apertura",
-        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0zUEw2S2dTd1ZmaXVqSWhGY0d2UFVlNWx1WkluTzVUZTJMNWJaX3JaUDNqY1ZvR2FBM05fWkpoUUFsMUxwTzdmWTA0azRrWF81WG1COUlfNGt4WnZVSWxSYkVCOWdsZw?oc=5",
+        "title": "Dow, S&P 500, Nasdaq Futures Rise After Chip Stock Selloff: Why CBRS, PLTR, BLZE, MU, FDX Are Trending",
+        "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNc3lBbHNvS2UtNXJPQUJDU25SM2hHR2pMbFJGYWczd0U1N29xaEJ5bkR5VXBRbmtxNnU1WWFqMGlDclZZbUdNUWZaNF9weXo0cDF3VVp5RVpwZDdoVzQxcDNFVC1QbF9yRmNLYl9nVUNnbkVvZFNFcmpidHBRNDdMNkxpV1M0OWhnTFd6WU9Uek41NnVfSjQ3cE1CalZaa2Vuc21KYlJzRjJGQThDRGFEOENNdHRPV1VkT0I5bFEyTS1rcTNrSm56UFVpSXZ2ajdGaUdCMzI2NE9JZHpHR3BTSWRFb3c1WmdWQ2Zr?oc=5",
         "source": "TradingView",
-        "pubdate": "Wed, 24 Jun 2026 10:16:47 GMT",
-        "pubdate_iso": "2026-06-24T10:16:47+00:00",
+        "pubdate": "Wed, 24 Jun 2026 01:22:01 GMT",
+        "pubdate_iso": "2026-06-24T01:22:01+00:00",
         "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
+          "direccion": "negativo",
+          "intensidad": 3,
+          "intensidad_label": "fuerte",
+          "emoji": "🔴🔴",
+          "razonamiento": "Selloff: presion vendedora"
         }
       },
       {
@@ -206,13 +206,13 @@
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "neutral",
-    "score_neto": 0,
+    "sentimiento": "levemente bajista",
+    "score_neto": -3,
     "n_positivas": 3,
-    "n_negativas": 2,
-    "n_neutrales": 7,
-    "narrativa": "El feed muestra 3 senales positivas y 2 negativas (neto +0). Factores dominantes: Selloff: presion vendedora; Selloff: presion vendedora.",
+    "n_negativas": 3,
+    "n_neutrales": 6,
+    "narrativa": "El feed muestra 3 senales positivas y 3 negativas (neto -3). Factores dominantes: Selloff: presion vendedora; Selloff: presion vendedora.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "NEUTRAL - sin sesgo dominante"
+    "veredicto": "Levemente BAJISTA"
   }
 }
