@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-06-26T02:58:56.498804+00:00",
+  "updated_at_utc": "2026-06-26T03:03:26.173203+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -22,6 +22,20 @@
   "noticias_por_categoria": {
     "tesla": [],
     "nvidia": [
+      {
+        "title": "Enterprise value to revenue forward de NVIDIA Corporation – BCS:NVDA",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdlFHbmdHUG5PR3pMWWtUMGhZNG8xOXd5YTJLVk5Cb1pVS25YN0xYeGV1Y0dYNEpheV9rOVAtMXZoMzZiejV4a3REc0o4UTN0aGthMmdycWZMMW5rSG1DYnpVYVpUUXAtZ2pNeVZKTXlIMGg1RGQwbDJ0NmIyOTRfODctUGNKYzdwbXJSWjl2UU9MVURKRVFtaEpocUpXb1JLVk5jNmlrMA?oc=5",
+        "source": "TradingView",
+        "pubdate": "Thu, 25 Jun 2026 22:14:04 GMT",
+        "pubdate_iso": "2026-06-25T22:14:04+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
       {
         "title": "NVDA Who? Micron Blows Doors Off Q3 Earnings, Revs",
         "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORG5WakRQdmRsSkFyMnV6LWJfUl9vVS12YmxBNUcwVHFxV1VlSHdlZ1doM01tX3c1Vkd0V1F0RGlyX184VU5QQ18yTWVZU3BzUXpaVnR5SDVSWjFoRDhmY183LTEzaVRfTFZ4X3VWMENxaFlYUkRCbXdsOWh6VU1ZQ2pWcEJNUGdzcy1HQ2ZMSG5PZTVjY0J1WmUySFNhQU5nVWxYVEN3?oc=5",
@@ -211,10 +225,10 @@
     ]
   },
   "stats": {
-    "total_noticias": 13,
+    "total_noticias": 14,
     "por_categoria": {
       "tesla": 0,
-      "nvidia": 3,
+      "nvidia": 4,
       "ia_semis": 5,
       "macro_tech": 5
     }
@@ -224,7 +238,7 @@
     "score_neto": 4,
     "n_positivas": 3,
     "n_negativas": 1,
-    "n_neutrales": 9,
+    "n_neutrales": 10,
     "narrativa": "El feed muestra 3 senales positivas y 1 negativas (neto +4). Factores dominantes: Proxima arquitectura Rubin: roadmap fuerte; Demanda de chips: soporte tech.",
     "narrativa_fuente": "plantilla",
     "veredicto": "ALCISTA a corto plazo"
