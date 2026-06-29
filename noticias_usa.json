@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-06-26T05:03:27.450499+00:00",
+  "updated_at_utc": "2026-06-29T17:02:00.225462+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -20,14 +20,29 @@
     }
   },
   "noticias_por_categoria": {
-    "tesla": [],
+    "tesla": [
+      {
+        "title": "Tesla (TSLA) - Precio hoy y Trading con CFDs - FOREX.com Español",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBtbHBiSWZHc1l4Tl9yTDhwYTZDUXo4TXExOGZUdXJ5dldJeWJrVTlRY2NHeTVmMVdPU004NzFENGltZU02Mzd4MDJ1TlRNVXM5Mjg1UWQ1VTBXeURzNXRDandB?oc=5",
+        "source": "FOREX.com",
+        "pubdate": "Fri, 26 Jun 2026 19:00:00 GMT",
+        "pubdate_iso": "2026-06-26T19:00:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
     "nvidia": [
       {
-        "title": "Enterprise value to revenue forward de NVIDIA Corporation – BCS:NVDA",
-        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdlFHbmdHUG5PR3pMWWtUMGhZNG8xOXd5YTJLVk5Cb1pVS25YN0xYeGV1Y0dYNEpheV9rOVAtMXZoMzZiejV4a3REc0o4UTN0aGthMmdycWZMMW5rSG1DYnpVYVpUUXAtZ2pNeVZKTXlIMGg1RGQwbDJ0NmIyOTRfODctUGNKYzdwbXJSWjl2UU9MVURKRVFtaEpocUpXb1JLVk5jNmlrMA?oc=5",
-        "source": "TradingView",
-        "pubdate": "Thu, 25 Jun 2026 22:14:04 GMT",
-        "pubdate_iso": "2026-06-25T22:14:04+00:00",
+        "title": "Nvidia y Firmus: 170.000 GPUs en Indonesia para startups de IA",
+        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPRGMyNm9qaC1ZV0JmbXo5TDBMSWlLVy1XOWZnOVpXR0JoWTZqelI1MVFlenBpZ2pJTzU4bXhmY2o0cWhXcV81eERybnp1cnZiVVAzbjY1ZGYwbVlFanY3aUhFbmlSVF9CRFJTWWZYLWJGNWRacXd4TXRNVE9iUjUwaVhrNGNJWFhwOHNJemhoMGhqRFdQOVl3?oc=5",
+        "source": "Ecosistema Startup",
+        "pubdate": "Mon, 29 Jun 2026 16:11:34 GMT",
+        "pubdate_iso": "2026-06-29T16:11:34+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -37,25 +52,11 @@
         }
       },
       {
-        "title": "NVDA Who? Micron Blows Doors Off Q3 Earnings, Revs",
-        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORG5WakRQdmRsSkFyMnV6LWJfUl9vVS12YmxBNUcwVHFxV1VlSHdlZ1doM01tX3c1Vkd0V1F0RGlyX184VU5QQ18yTWVZU3BzUXpaVnR5SDVSWjFoRDhmY183LTEzaVRfTFZ4X3VWMENxaFlYUkRCbXdsOWh6VU1ZQ2pWcEJNUGdzcy1HQ2ZMSG5PZTVjY0J1WmUySFNhQU5nVWxYVEN3?oc=5",
+        "title": "Price to earnings forward de NVIDIA Corporation – BCS:NVDA",
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOSkJ2ZmxjX3ZRSjk0YnJMMURCcWI3VUVxNmdOVUdhZ0ZSNnhjeXRZYXdKSWkzVTRJZngyM0VuWmkwZm5GM3lpanQzME9OSXZ5T3F6Sm1wQmcxWThBRVJUejBYOE1PcGJBelE2MmVlRktpbjdlUHY4bmxKR2hBalFqSzEyNmpiRFBlQmkza1FjdExEaVJvN05hM25fYkU?oc=5",
         "source": "TradingView",
-        "pubdate": "Wed, 24 Jun 2026 21:56:00 GMT",
-        "pubdate_iso": "2026-06-24T21:56:00+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Chips NVIDIA se venden al doble de precio en el « mercado negro » de China",
-        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPeDN4MGtscWx0X0hOeVJqSWMydno0RHFJQlMxT0czRFBwb0xCXzY0Mk9nWV9rRFBWLWxucUtaSmo4TzdMdDQyUkszVDRJV0paU0MxMjdPRmZkLWJZNXlYS3lnYjNESjgtdm42VEZwQ2J5cWNMYnRtZU90bkU3NjZncnFNQ2F6LWlQSXVZNUFmRUZMQnJSQUgwUVE1Y2pnT3lMR2hiQk9VVFZMemdMRjNlTTVpbw?oc=5",
-        "source": "Zamin.uz",
-        "pubdate": "Wed, 24 Jun 2026 11:28:37 GMT",
-        "pubdate_iso": "2026-06-24T11:28:37+00:00",
+        "pubdate": "Fri, 26 Jun 2026 22:34:51 GMT",
+        "pubdate_iso": "2026-06-26T22:34:51+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -67,67 +68,11 @@
     ],
     "ia_semis": [
       {
-        "title": "Kioxia Stock Surges 700% as AI Chip Demand Drives Profit Growth",
-        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQLTM3aHcxYzhSdUgzVzl6OGpRdk5FUW1vSUJaT2JYUTJuenVxTXFNeUpVUTVyZXlfYlprMEpRcDBUaDRqS0ptWk5vSzNBZjVaVmNySnQxV1BrdFlPR2ZhRHEwbDBnX25FVXVpaDRreDllRFE4OF84YWdkSmI5WEtIdW5vYXlFM2kyd1gyMzRwaEFibDZ6TEpfU1VsOTdGWVRfXzZVbnBNMHE0QmVtc1E3a2Ftc2NiVkE0OU9LS1ln?oc=5",
+        "title": "Two revealing macro quotes from the FedEx earnings call",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUUt0WmY3eG4tTkVaMHg3cU1mX1UzVFhNOXJfcG1UZVl1dHFjMDYwWDN0cHpNQ3Q0TjFTWnIwblpZd29Ic2RPeGtobFZpOGhDZGNTXzloTjZzZGZJTXF2N3FXU0FtajJwaFc0WUlWZVBHclJFbGZ3NjFRc0I2LVkwWHBwWmRDd3N3V0R1cGJuR19oTGNvRXFmMDhfMUd4UFh2bFFYVXlYNkFPX3NqSnRveW5pMzk?oc=5",
         "source": "TradingView",
-        "pubdate": "Wed, 24 Jun 2026 19:27:11 GMT",
-        "pubdate_iso": "2026-06-24T19:27:11+00:00",
-        "impacto": {
-          "direccion": "positivo",
-          "intensidad": 2,
-          "intensidad_label": "moderado",
-          "emoji": "🟢",
-          "razonamiento": "Demanda de chips: soporte tech"
-        }
-      },
-      {
-        "title": "ASML Faces New China Risk as 19% Sales Market Comes Under Pressure",
-        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOcHo4ekZLdlVJZnNTMVUtLTJGY21mVlNlRGtHTzVMdUZOcGczblloM0xCLVY1NEctUk5NNWlZUDRDUWpGQmktd0ZLWkRBSDdEUU9VYzFtd2NZQ0VKX3VCMEN2cVBldFJWbWF3ODc1elhLb3NpSHM5RG8wMF90YjlrbU9EX2NONHVvRFNvTkJQU3RkZGVhYjVuR1lzcEpXMHNpMkw1S1JrS1hrald4S25qWl81U0YybGtYSlVqZkJYYmEtdw?oc=5",
-        "source": "TradingView",
-        "pubdate": "Wed, 24 Jun 2026 17:32:29 GMT",
-        "pubdate_iso": "2026-06-24T17:32:29+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Nvidia steadies above $200 as valuation, China chip demand draws focus",
-        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdXJUZXhjRXVvR2trWjB0eE44SGd3Tmp3MmJqRVFmcmZDcDhvMFVKWkJqcEd5bEJlOGRiRnN4cnNMYjF6eFkwdTN1ZTVvWndLdUtHMXFReUtOWlZOYVBjM0szRWhjSkt5S1B3eW85Q0t1LVp1OS00UTA4Rlo4MDZ2cWRzV1RCTEtTVGZjV2g4TnNCZmFYcXZPeDBNVTkxUmQtVlVaUWpoYkhDWTVTUHQyNWhXRWlhSnVpR1RWVG1tQ2Z1Zw?oc=5",
-        "source": "TradingView",
-        "pubdate": "Wed, 24 Jun 2026 15:56:34 GMT",
-        "pubdate_iso": "2026-06-24T15:56:34+00:00",
-        "impacto": {
-          "direccion": "positivo",
-          "intensidad": 2,
-          "intensidad_label": "moderado",
-          "emoji": "🟢",
-          "razonamiento": "Demanda de chips: soporte tech"
-        }
-      },
-      {
-        "title": "Qualcomm Stock Climbs After Report Reveals Potential ByteDance AI Chip Deal",
-        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQbXhtYlRXXzd6eXR3ZVlqQmZOcEtPZzViLVFXQ01JSENMV1RpbjRZNVZkUW9BT0FlNElPblJMRE9NN2lteE1TZ0dTeC04RXR0b2ptcWVoZ3VSSU9MUjJsZ3VIbHpqM1VPUmtFOTNjWm40UzhONUU3dnBxZVZmOXptWTRQMmhBbk5raENEWEt4T3g5ekdsMnJzcWRrOFpic01SbExnSkVKNllFSnhNMmRSajBrMnJ1UlpmOFBYME9iOEJ1TnlKRl9IOUlRU3drcTg?oc=5",
-        "source": "TradingView",
-        "pubdate": "Wed, 24 Jun 2026 13:55:29 GMT",
-        "pubdate_iso": "2026-06-24T13:55:29+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Micron's AI Memory Boom Faces Key Test",
-        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdTFvX2wwZ1VOVjFrSUhnUW5JeUtoRGk1eTZaV0xEWEtBNG1hM1k4QmZNbk5sTEpOMHBXRzByQXoyRk9UOVNrbGZ1eExIaVRVNVhFdWJTblpWZ2NDdW9Qb19SM3FzMlBKLUNCM21mX21HR0NyVlkzUXhYYUV2SDRReHNrdHRZdVA3eHEwSHgzbjBGRS1XRm91NXpfNkpFZw?oc=5",
-        "source": "TradingView",
-        "pubdate": "Tue, 23 Jun 2026 19:03:58 GMT",
-        "pubdate_iso": "2026-06-23T19:03:58+00:00",
+        "pubdate": "Sat, 27 Jun 2026 12:09:00 GMT",
+        "pubdate_iso": "2026-06-27T12:09:00+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -139,11 +84,11 @@
     ],
     "macro_tech": [
       {
-        "title": "Stock market spoiler: Apple's price hikes erase Micron's post-earnings tech rally",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOQmVzS3JiSnlGTFJpRTdPT3B5VG1USkZxdzRxZURoNk5mVUV3ZDJ0a1J0WXMxOG9DaTNpV3hpbThFNWhOdXc0MVoyS3hRcUpodXNQZlJ0SjBlVjZ0dHlEc3VwRlRCNExwaWJOcWx3QUVzSkRVSjIyRjFyVE41UE9sZ1Q2NA?oc=5",
-        "source": "AOL.com",
-        "pubdate": "Thu, 25 Jun 2026 15:41:51 GMT",
-        "pubdate_iso": "2026-06-25T15:41:51+00:00",
+        "title": "Wall Street Ends Lower as Major Indices Post Modest Declines",
+        "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5pRFFfeC1SRERRa2lSTDd6UDlFRWFSS0thNzM2REVCN2UwcDduOEtRWG03amVwM0ZRcnFlYlV3SWxDMUhVVS1BOW9yWW51alJZMFNuenJKUUFiSHJmNUlwM1FFX29KQ083RmpGbmhFNGVoazF3ak1Oay03MlM0QQ?oc=5",
+        "source": "CryptoRank",
+        "pubdate": "Sat, 27 Jun 2026 06:32:55 GMT",
+        "pubdate_iso": "2026-06-27T06:32:55+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -153,53 +98,25 @@
         }
       },
       {
-        "title": "Nasdaq, S&P dip, trading choppy as tech stocks fall",
-        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPcU16YjRvb3pYMEZrT1M2Z0JzSGtjWUFNWGNNeXRqZF9hWXYtdWtFSHBaSUhrM1VjR2Y4emRZeXYxd25pQ1VKcHdzMVlxRDNUZFNjVHN1T2QweThXUERZUUM2S2p1VnJlYTY5SXN0S0xua3R5RmtFZXh5VVVZTHhXdk1wUFVycnVmWWQxejMwdFlwUHJTeFdwU2VvaEw4bC03YlJ3cDFTOE5VZHFTaWlOOWphdDJHVndqcUE?oc=5",
+        "title": "Dow ends lower as AI selloff drags Nasdaq, defensive stocks gain",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUGh6Mzh3SzBmWi1XbFBPOTRQWHJuenlzZ3hpemJ4ZHIzVVl0d0wyNjdfNzNiNFNEaGhXTEdJZjdwcF92akp0aE5GZzFaanU0bmVTMmlMLUJDNXR3Y0lHb1F2b2g3MVpPYkRCTlk5dVVwTmFQMGZXaEpuVGloUmJrSE1EaUlVbGNWT1pNSjZtZ2hkaV84MlkzVXVvRmhBVmZOMkRvVVRGRXM4WUhHbzExT3V6OGhpdktRNUhR?oc=5",
         "source": "TradingView",
-        "pubdate": "Wed, 24 Jun 2026 18:33:38 GMT",
-        "pubdate_iso": "2026-06-24T18:33:38+00:00",
+        "pubdate": "Fri, 26 Jun 2026 20:28:38 GMT",
+        "pubdate_iso": "2026-06-26T20:28:38+00:00",
         "impacto": {
           "direccion": "negativo",
-          "intensidad": 2,
-          "intensidad_label": "moderado",
-          "emoji": "🔴",
-          "razonamiento": "Acciones a la baja"
+          "intensidad": 3,
+          "intensidad_label": "fuerte",
+          "emoji": "🔴🔴",
+          "razonamiento": "Selloff: presion vendedora"
         }
       },
       {
-        "title": "Why SoFi (SOFI) Stock Is Trading Up Today",
-        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPclhsSi1ha1NITHR3RllqX3pzZGlMMEx1VWh2cm9JdnZkd1RuS0pVNGF4a1htSWdLSXFPbV90blVZNlk1dmE1UDNITEZmNXFaWVhHRlJOcWhQaklCckMxYllvWmJ5anV0QzBNdnc3b2lwUG03MGE1MmQwOUpna2FHWnlrdm1DU211bEl4SGlXOTB0WjVrUVlMUlRuSHFEYTIx?oc=5",
+        "title": "AI Stocks Reel After Kospi's 10% Drop Shakes Global Tech Rally",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQb19mblc5Z0hUR2VOb1FHZHhlakpyWnVaMktBOVRQdmlxZFdMak8zRE8yTlN4RzY1WEJ3Zmh3MVREblZveWd0TUEtb21rWUtJR0o2RGhsYzBrNlI4UnMyMTNSTzJvbVNHejBkakVNaHpnVGJvdTB4MWUzM1JCbzFjd0ZlZHhDYWxNUE15VFhiNGFTTlVYa05aVUtXeG00ZmdHNWMtcVlRRm1Vdmp0ank5RTZSc2kyTUJrOXZhNQ?oc=5",
         "source": "TradingView",
-        "pubdate": "Wed, 24 Jun 2026 15:35:57 GMT",
-        "pubdate_iso": "2026-06-24T15:35:57+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Alphabet stock gains after Dow Jones inclusion announcement",
-        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPcEVMVG5wazdiY2p0dUtFNUZWclZBM3VOZnFJbko4YllteUVoa3J6N1pMU3NNTVUxckpGWlNqakV4emdmMnZVRVplVEpZMThwR0ZCRG9VTGZxR0dTcVZBLW84SFhiRGdGUlZCSkc2UFFheUZteTNMOFNpYmI2VVIzRWx0QkcwZ3pyMDlEVHVFME0xeDlXOEEwS1lRWlZXVGNvSkkxaEtqWklLVzZSQXE4RTRuRzFBUQ?oc=5",
-        "source": "TradingView",
-        "pubdate": "Wed, 24 Jun 2026 15:05:24 GMT",
-        "pubdate_iso": "2026-06-24T15:05:24+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Trend Confirm Buy Sell: indicador de EddyP7",
-        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE43RGpwdW90THh1MjBab3VrYkl3My1NbklmLXZuSDhBZnR0ZTlhODJfaFQ0SjZQNE1qdjYtQWpnUzFkOGdSMmZEVmNKdlI0MHZzX2FkMWdiS1UwT0lPWFFDZGtnajlPV0R4Ym1hU25sSURUaE96?oc=5",
-        "source": "TradingView",
-        "pubdate": "Wed, 24 Jun 2026 11:56:54 GMT",
-        "pubdate_iso": "2026-06-24T11:56:54+00:00",
+        "pubdate": "Fri, 26 Jun 2026 17:40:59 GMT",
+        "pubdate_iso": "2026-06-26T17:40:59+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -211,22 +128,22 @@
     ]
   },
   "stats": {
-    "total_noticias": 13,
+    "total_noticias": 7,
     "por_categoria": {
-      "tesla": 0,
-      "nvidia": 3,
-      "ia_semis": 5,
-      "macro_tech": 5
+      "tesla": 1,
+      "nvidia": 2,
+      "ia_semis": 1,
+      "macro_tech": 3
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "levemente alcista",
-    "score_neto": 2,
-    "n_positivas": 2,
+    "sentimiento": "levemente bajista",
+    "score_neto": -3,
+    "n_positivas": 0,
     "n_negativas": 1,
-    "n_neutrales": 10,
-    "narrativa": "El feed muestra 2 senales positivas y 1 negativas (neto +2). Factores dominantes: Demanda de chips: soporte tech; Demanda de chips: soporte tech.",
+    "n_neutrales": 6,
+    "narrativa": "El feed muestra 0 senales positivas y 1 negativas (neto -3). Factores dominantes: Selloff: presion vendedora.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "Levemente ALCISTA"
+    "veredicto": "Levemente BAJISTA"
   }
 }
