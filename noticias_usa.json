@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-06-29T18:03:27.727077+00:00",
+  "updated_at_utc": "2026-06-29T18:33:26.473983+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -21,6 +21,20 @@
   },
   "noticias_por_categoria": {
     "tesla": [
+      {
+        "title": "Por qué las acciones de Tesla suben más del 4% el lunes",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNY2NGUGEtY1BReDlFaGlhRXBsazkzRU9OV3Z0aExpa1ZXTjRpazJfMmh6M1l0N3p0MnlhSjBTVmp2WHN5UElFZGR0Um5GOUlpVFVCOG5wa3FpZUxRemd0dDhsZUxmaHZ1ZHVMR19XQVVRdXk2MVpJWi1INmY4UUlZZWFRZl95eEphTjZ5ejc4TDFtblZZVTlKdDl4Zkp1M2RqTFVYNnJfWQ?oc=5",
+        "source": "Invezz",
+        "pubdate": "Mon, 29 Jun 2026 15:05:58 GMT",
+        "pubdate_iso": "2026-06-29T15:05:58+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
       {
         "title": "Tesla (TSLA) - Precio hoy y Trading con CFDs - FOREX.com Español",
         "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBtbHBiSWZHc1l4Tl9yTDhwYTZDUXo4TXExOGZUdXJ5dldJeWJrVTlRY2NHeTVmMVdPU004NzFENGltZU02Mzd4MDJ1TlRNVXM5Mjg1UWQ1VTBXeURzNXRDandB?oc=5",
@@ -114,9 +128,9 @@
     ]
   },
   "stats": {
-    "total_noticias": 6,
+    "total_noticias": 7,
     "por_categoria": {
-      "tesla": 1,
+      "tesla": 2,
       "nvidia": 2,
       "ia_semis": 1,
       "macro_tech": 2
@@ -127,7 +141,7 @@
     "score_neto": -3,
     "n_positivas": 0,
     "n_negativas": 1,
-    "n_neutrales": 5,
+    "n_neutrales": 6,
     "narrativa": "El feed muestra 0 senales positivas y 1 negativas (neto -3). Factores dominantes: Selloff: presion vendedora.",
     "narrativa_fuente": "plantilla",
     "veredicto": "Levemente BAJISTA"
