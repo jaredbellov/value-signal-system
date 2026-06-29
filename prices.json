@@ -1,19 +1,11 @@
 {
-<<<<<<< Updated upstream
-  "updated_at_utc": "2026-06-29T21:01:29.473102+00:00",
-  "updated_at_local": "2026-06-29T21:01:29.473116",
-=======
-  "updated_at_utc": "2026-06-29T21:03:31.073801+00:00",
-  "updated_at_local": "2026-06-29T17:03:31.073818",
->>>>>>> Stashed changes
+  "updated_at_utc": "2026-06-29T21:33:29.257619+00:00",
+  "updated_at_local": "2026-06-29T17:33:29.257643",
   "tickers_solicitados": [
     "CFISPETF",
     "CFINASDAQ"
   ],
-  "errores": [
-    "CFISPETF: sin precio",
-    "CFINASDAQ: sin precio"
-  ],
+  "errores": [],
   "prices": {
     "CFISPETF": {
       "ticker": "CFISPETF",
@@ -25,8 +17,7 @@
       "monto_transado": null,
       "fecha_dato": null,
       "fuente": "BCS",
-      "error": null,
-      "stale": true
+      "error": null
     },
     "CFINASDAQ": {
       "ticker": "CFINASDAQ",
@@ -38,8 +29,7 @@
       "monto_transado": null,
       "fecha_dato": null,
       "fuente": "BCS",
-      "error": null,
-      "stale": true
+      "error": null
     }
   }
 }
