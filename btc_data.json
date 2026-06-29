@@ -1,46 +1,46 @@
 {
-  "updated_at_utc": "2026-06-26T04:45:13.165304+00:00",
-  "precio_btc": 59881.83,
-  "precio_ibit": 33.52,
-  "score_final": 76.3,
+  "updated_at_utc": "2026-06-29T17:08:07.093427+00:00",
+  "precio_btc": 60059.27,
+  "precio_ibit": 34.07,
+  "score_final": 76.5,
   "zona": "OPORTUNIDAD",
   "multiplicador": 2.5,
   "peso_aplicado_pct": 100,
   "sub_scores": {
-    "drawdown": 86.7,
-    "fear_greed": 87,
+    "drawdown": 86.4,
+    "fear_greed": 88,
     "pi_cycle": 100,
     "halving_cycle": 65,
-    "momentum": 31.8,
-    "mvrv": 86.0
+    "momentum": 31.7,
+    "mvrv": 86.4
   },
   "sub_detalles": {
     "drawdown": {
-      "drawdown_pct": -52.0,
+      "drawdown_pct": -51.86,
       "ath": 124752.53,
-      "precio_actual": 59881.83
+      "precio_actual": 60059.27
     },
     "fear_greed": {
-      "fg_value": 13,
+      "fg_value": 12,
       "classification": "Extreme Fear"
     },
     "pi_cycle": {
-      "ma_111": 71718.95,
-      "ma_350_x2": 181287.48,
-      "ratio": 0.396
+      "ma_111": 71429.0,
+      "ma_350_x2": 179947.31,
+      "ratio": 0.397
     },
     "halving_cycle": {
-      "meses_desde_halving": 26.2,
+      "meses_desde_halving": 26.3,
       "last_halving": "2024-04-19",
       "next_halving_aprox": "2028-04-01",
       "fase": "Bear market medio"
     },
     "momentum": {
-      "ret_12_1_pct": -42.78
+      "ret_12_1_pct": -43.17
     },
     "mvrv": {
-      "z_score": 0.268,
-      "fecha": "2026-06-25"
+      "z_score": 0.24,
+      "fecha": "2026-06-28"
     }
   },
   "pesos": {
@@ -52,18 +52,6 @@
     "mvrv": 15
   },
   "historico_btc": [
-    {
-      "fecha": "2021-06-26",
-      "precio": 32186.28
-    },
-    {
-      "fecha": "2021-06-27",
-      "precio": 34649.64
-    },
-    {
-      "fecha": "2021-06-28",
-      "precio": 34434.34
-    },
     {
       "fecha": "2021-06-29",
       "precio": 35867.78
@@ -7353,8 +7341,24 @@
       "precio": 60995.13
     },
     {
+      "fecha": "2026-06-25",
+      "precio": 59721.68
+    },
+    {
       "fecha": "2026-06-26",
-      "precio": 59881.83
+      "precio": 60016.43
+    },
+    {
+      "fecha": "2026-06-27",
+      "precio": 59940.1
+    },
+    {
+      "fecha": "2026-06-28",
+      "precio": 59532.34
+    },
+    {
+      "fecha": "2026-06-29",
+      "precio": 60059.27
     }
   ]
 }
