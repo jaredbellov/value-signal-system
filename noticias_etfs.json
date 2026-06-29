@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-06-29T21:27:03.212267+00:00",
+  "updated_at_utc": "2026-06-29T23:36:05.535435+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "fed_tasas": {
@@ -56,35 +56,21 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
-      },
+      }
+    ],
+    "mercado": [
       {
-        "title": "July 2026 Fed Combo: Rate and Dissents",
-        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1pLWtXMmM5clliWC1jUjFEU3drYWVYNnlQekdiaUdudndHOXJpdTFsMUg3Yl9sdzNsYXNNYmo5TXZ3NzNZMUxhbTJSeTdLZFl6RUVZdktTLUwwMDNNaDBmM2VqOEZONmFTSnktNDMzaHdlTVk?oc=5",
-        "source": "Coinbase",
-        "pubdate": "Fri, 26 Jun 2026 23:27:50 GMT",
-        "pubdate_iso": "2026-06-26T23:27:50+00:00",
+        "title": "Wall Street se beneficia por la tecnología: ¿Cómo cierran los índices accionarios HOY?",
+        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdE1HNXVJVnNsTU1Xd0hKdjMtVXRJUHJYSnpTWXdZWV84SmlXRGRPWTFXbjFSQUdKd1V5eHNPaEFJVDRSU21FNlR0Z1lrcUxCbWN6NEU0M1gwb1VZTkw3TXk1QTRlcGFydWdpcEN2cS1UaTJrMWVZSmhLa1hSRFJSM2Y0MEZYLTF2Wi1NZk9oSzdTdWFQOHhR?oc=5",
+        "source": "El Financiero",
+        "pubdate": "Mon, 29 Jun 2026 21:33:00 GMT",
+        "pubdate_iso": "2026-06-29T21:33:00+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
           "intensidad_label": "neutral",
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      }
-    ],
-    "mercado": [
-      {
-        "title": "‘La volatilidad seguirá’: Wall Street amanece al alza gracias al ‘rebote’ del sector tecnológico",
-        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdE1HNXVJVnNsTU1Xd0hKdjMtVXRJUHJYSnpTWXdZWV84SmlXRGRPWTFXbjFSQUdKd1V5eHNPaEFJVDRSU21FNlR0Z1lrcUxCbWN6NEU0M1gwb1VZTkw3TXk1QTRlcGFydWdpcEN2cS1UaTJrMWVZSmhLa1hSRFJSM2Y0MEZYLTF2Wi1NZk9oSzdTdWFQOHhR?oc=5",
-        "source": "El Financiero",
-        "pubdate": "Mon, 29 Jun 2026 14:57:26 GMT",
-        "pubdate_iso": "2026-06-29T14:57:26+00:00",
-        "impacto": {
-          "direccion": "positivo",
-          "intensidad": 1,
-          "intensidad_label": "leve",
-          "emoji": "🟢",
-          "razonamiento": "Rebote del mercado"
         }
       },
       {
@@ -252,9 +238,9 @@
     ]
   },
   "stats": {
-    "total_noticias": 15,
+    "total_noticias": 14,
     "por_categoria": {
-      "fed_tasas": 3,
+      "fed_tasas": 2,
       "mercado": 2,
       "tech_nasdaq": 2,
       "economia": 2,
@@ -264,11 +250,11 @@
   },
   "resumen_ejecutivo": {
     "sentimiento": "bajista",
-    "score_neto": -4,
-    "n_positivas": 1,
+    "score_neto": -5,
+    "n_positivas": 0,
     "n_negativas": 2,
     "n_neutrales": 12,
-    "narrativa": "El feed muestra 1 senales positivas y 2 negativas (neto -4). Factores dominantes: Selloff: presion vendedora; Correccion en curso o anticipada.",
+    "narrativa": "El feed muestra 0 senales positivas y 2 negativas (neto -5). Factores dominantes: Selloff: presion vendedora; Correccion en curso o anticipada.",
     "narrativa_fuente": "plantilla",
     "veredicto": "BAJISTA a corto plazo"
   }
