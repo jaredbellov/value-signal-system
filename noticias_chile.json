@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-06-30T01:33:58.747910+00:00",
+  "updated_at_utc": "2026-06-30T03:33:57.099581+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "bcch_tpm": {
@@ -52,22 +52,7 @@
         }
       }
     ],
-    "ipsa": [
-      {
-        "title": "Previsión de ENELCHILE: precio objetivo 2027, TV",
-        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE50Y013UjdrQUREbmlRaHYzR192WDYyblp0MHZxYThuQXBpWHpyOTk5UkIyNnVhNWdfcnJ3eEVFb1AxeTRrNllaQ0JSa0JOVE02eXE1Sy1DSl8wdDVzSUNBR3QwVDJkc2hOMTFaWDZJWUdHOUFySlIzcTludw?oc=5",
-        "source": "TradingView",
-        "pubdate": "Sun, 28 Jun 2026 14:36:41 GMT",
-        "pubdate_iso": "2026-06-28T14:36:41+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      }
-    ],
+    "ipsa": [],
     "dolar_cobre": [
       {
         "title": "Dólar hoy en Chile: cotización de cierre del 29 de junio",
@@ -114,6 +99,20 @@
     ],
     "economia_chile": [
       {
+        "title": "Crecer no es desarrollarse",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA4YWhtZDNjb0VhTERnYUtnUVVqM3JPSnhzZnZGYkUyRzRaQnNUM1NISEJodmxSMHhQbGRqbjFsVlZvY0sxTTNoRHNpMnh4VXRFM0VLUjh4eHFkS2ZWMlBKeEFkcmZURVdsemVsdkUtTQ?oc=5",
+        "source": "El Clarin de Chile",
+        "pubdate": "Tue, 30 Jun 2026 03:18:24 GMT",
+        "pubdate_iso": "2026-06-30T03:18:24+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
         "title": "Chile centro financiero regional: la próxima gran reforma",
         "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOYkhWVVNKb1Bvdm00NjVOdXdYRlhiLWtJVEo0NDZVM3k2a3ZpQ1R6VmdnQ09DWFUyc09rdF9SRWU1SWhfdHJuQ2xPR1NpY2FuQkNDRmg3SmhYeTlibUt6cnJJaWlOSnhMWTctNWNEQWpDMnZHNkRKWlE0clloSTZPUjFzbTltMjRZbXBVUVJyLUo4bzA3d1c4dkRuaU02S1Fy0gHCAUFVX3lxTE5EaERpMnlfRU0xY2xoeEV2cUQ5b3NHaFdFSnZxMUg3UV9QYmRJdUY1MThSZkx4c2hYSk01Q1JwUEl4VTZoZ0lscnVpcjZBU2NBMGhKVDFOMXZvS3I2dFBJRzFrVFJiZzJLa21RVTMyaFhRdFVfYVA5Y1gwMjJIMVdfUXZGbzlCRHNSUE8xQnlSU0pEbkJKTFhsWUZrUTRPVm1rZV94Qkp3TDZNLTViNGdKc2JhWDlGYmVRbThmMUFUS1lB?oc=5",
         "source": "La Tercera",
@@ -152,7 +151,7 @@
     "LIPIGAS": [
       {
         "title": "EMPRESAS LIPIGAS S.A.: Otros",
-        "link": "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=f6f4a49f685636dce986cc05ac00ac2eVFdwQmVVNXFRVEpOUkZGNVRVUkJNVTlCUFQwPQ==&secuencia=-1&t=1782782401",
+        "link": "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=f6f4a49f685636dce986cc05ac00ac2eVFdwQmVVNXFRVEpOUkZGNVRVUkJNVTlCUFQwPQ==&secuencia=-1&t=1782790141",
         "pubdate": "24 jun 2026 18:09",
         "source": "CMF (Hecho Esencial)",
         "es_hecho_esencial": true,
@@ -166,9 +165,9 @@
     "total_noticias": 7,
     "por_categoria": {
       "bcch_tpm": 1,
-      "ipsa": 1,
+      "ipsa": 0,
       "dolar_cobre": 3,
-      "economia_chile": 1,
+      "economia_chile": 2,
       "politica_regulacion": 0,
       "pensiones_afp": 0,
       "energia_tarifas": 0,
