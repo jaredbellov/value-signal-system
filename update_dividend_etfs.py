@@ -82,7 +82,7 @@ def git_sync_and_push():
         log.info("Sin cambios en dividend_etfs_data.json, nada que commitear")
         return
 
-    code, out, err = ejecutar_git(["pull", "--rebase", "--autostash"])
+    code, out, err = ejecutar_git(["pull", "--no-rebase", "--autostash"])
     if code != 0:
         log.warning(f"git pull devolvio codigo {code}: {err}")
     else:
@@ -103,8 +103,8 @@ def git_sync_and_push():
     code, out, err = ejecutar_git(["push"])
     if code != 0:
         log.warning(f"git push fallo (intento 1): {err}")
-        log.info("Reintentando: pull --rebase + push...")
-        code_pull, _, err_pull = ejecutar_git(["pull", "--rebase", "--autostash"])
+        log.info("Reintentando: pull --no-rebase + push...")
+        code_pull, _, err_pull = ejecutar_git(["pull", "--no-rebase", "--autostash"])
         if code_pull != 0:
             log.error(f"git pull en retry fallo: {err_pull}")
             return
