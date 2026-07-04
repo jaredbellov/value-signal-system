@@ -1,45 +1,45 @@
 {
-  "updated_at_utc": "2026-06-30T03:57:05.592354+00:00",
-  "precio_gld": 368.58,
-  "score_final": 68.3,
+  "updated_at_utc": "2026-07-04T01:27:06.735490+00:00",
+  "precio_gld": 378.13,
+  "score_final": 66.3,
   "zona": "ATRACTIVO",
   "multiplicador": 1.5,
   "peso_aplicado_pct": 100,
   "sub_scores": {
     "drawdown": 100,
     "momentum": 100,
-    "ratio_sp500": 55.2,
-    "ratio_silver": 73.2,
-    "dxy": 63.7,
-    "real_yield": 45.5,
-    "vix": 13.2
+    "ratio_sp500": 51.7,
+    "ratio_silver": 75.4,
+    "dxy": 60.5,
+    "real_yield": 43.8,
+    "vix": 4.1
   },
   "sub_detalles": {
     "drawdown": {
-      "drawdown_pct": -25.67,
+      "drawdown_pct": -23.75,
       "max_52w": 495.9,
-      "precio_actual": 368.58
+      "precio_actual": 378.13
     },
     "momentum": {
-      "ret_12_1_pct": 38.48
+      "ret_12_1_pct": 31.89
     },
     "ratio_sp500": {
-      "ratio_actual": 0.0495,
-      "percentil_2y": 44.8
+      "ratio_actual": 0.0505,
+      "percentil_2y": 48.3
     },
     "ratio_silver": {
-      "ratio_actual": 6.39,
-      "percentil_2y": 26.8
+      "ratio_actual": 6.02,
+      "percentil_2y": 24.6
     },
     "dxy": {
-      "dxy_actual": 101.33,
-      "percentil_2y": 63.7
+      "dxy_actual": 100.86,
+      "percentil_2y": 60.5
     },
     "real_yield": {
-      "real_yield_pct": 2.18
+      "real_yield_pct": 2.25
     },
     "vix": {
-      "vix_actual": 17.65
+      "vix_actual": 15.81
     }
   },
   "pesos": {
@@ -52,18 +52,6 @@
     "vix": 10
   },
   "historico_gld": [
-    {
-      "fecha": "2021-06-30",
-      "precio": 165.63
-    },
-    {
-      "fecha": "2021-07-01",
-      "precio": 166.2
-    },
-    {
-      "fecha": "2021-07-02",
-      "precio": 167.29
-    },
     {
       "fecha": "2021-07-06",
       "precio": 168.12
@@ -5067,6 +5055,18 @@
     {
       "fecha": "2026-06-29",
       "precio": 368.58
+    },
+    {
+      "fecha": "2026-06-30",
+      "precio": 368.38
+    },
+    {
+      "fecha": "2026-07-01",
+      "precio": 370.6
+    },
+    {
+      "fecha": "2026-07-02",
+      "precio": 378.13
     }
   ]
 }
