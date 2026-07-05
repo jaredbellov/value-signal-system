@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-05T09:26:55.541192+00:00",
+  "updated_at_utc": "2026-07-05T11:26:55.679086+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "fed_tasas": {
@@ -41,6 +41,20 @@
           "intensidad_label": "neutral",
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Weekly Mortgage Rates Dip; Fed Rate Hike Unlikely After Jobs Data",
+        "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOSTdrVkp3RjJBRlA3VkthaTNUa3pOWmFWb1hnTDdINUVQaGpaRFhJNzNXVHBZcXlpdkQ0UmItOVUtdzU5eDlUV2pHMjlWUDMwNWs0T09KNllmT2I1Y2JxQjB6QjltTnRkX25Cc2FPS1UtY2NkSXk1eHMtMDBWRzRodUs4aXcxTnJNdTQ3UHFzNmpBM0hZWEFMRlVxa1d2WU82M25yYjNaVUwyQmlfNTlYTGtIbHhxQjlFbjR4TGZaOFd6QkdOaUdDdURsTVcyaXJ4UWtNb1BNMklyNEZaQU9TMnByaTdSSFZEZFJENms1VQ?oc=5",
+        "source": "Jambalaya News Louisiana",
+        "pubdate": "Thu, 02 Jul 2026 21:38:29 GMT",
+        "pubdate_iso": "2026-07-02T21:38:29+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Fed hawkish: rate hike presiona equities"
         }
       },
       {
@@ -171,20 +185,6 @@
           "intensidad_label": "moderado",
           "emoji": "🔴",
           "razonamiento": "Alerta de burbuja"
-        }
-      },
-      {
-        "title": "Intel stock crashes over 5% today: is there any upside left after 200% rally?",
-        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQM0plbHMyc3ZQVmdRek9FSEJBWUctMHl3YkpYZTMwMnBFcG5WbS1feW9uR3hCS18zWEtDX0U0RG1pXzBWR2FMdVJZTkJGaFNRR0NDUmg0SDJQaXVOZTVGNUs0dUhqcUtXQTBVMFdpalBmZC1tMjA5eENDbndSb0gyemJ5b0VmNzdfdExyOXlIRXVEOWZvelRnQlR6UE4xb0JVMWs4R01SbDBZQmVvbHpYT3EzUHc5Mm41REplVGFIN1RrVzRfZEhxYw?oc=5",
-        "source": "TradingView",
-        "pubdate": "Thu, 02 Jul 2026 17:02:49 GMT",
-        "pubdate_iso": "2026-07-02T17:02:49+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
         }
       }
     ],
@@ -380,22 +380,22 @@
   "stats": {
     "total_noticias": 24,
     "por_categoria": {
-      "fed_tasas": 2,
+      "fed_tasas": 3,
       "mercado": 4,
-      "tech_nasdaq": 5,
+      "tech_nasdaq": 4,
       "economia": 5,
       "earnings": 5,
       "sentimiento": 3
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "levemente bajista",
-    "score_neto": -2,
+    "sentimiento": "bajista",
+    "score_neto": -4,
     "n_positivas": 1,
-    "n_negativas": 2,
-    "n_neutrales": 21,
-    "narrativa": "El feed muestra 1 senales positivas y 2 negativas (neto -2). Factores dominantes: Rally de IA: impulso Nasdaq; Alerta de burbuja.",
+    "n_negativas": 3,
+    "n_neutrales": 20,
+    "narrativa": "El feed muestra 1 senales positivas y 3 negativas (neto -4). Factores dominantes: Fed hawkish: rate hike presiona equities; Rally de IA: impulso Nasdaq.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "Levemente BAJISTA"
+    "veredicto": "BAJISTA a corto plazo"
   }
 }
