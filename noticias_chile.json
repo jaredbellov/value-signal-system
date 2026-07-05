@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-05T11:33:55.133644+00:00",
+  "updated_at_utc": "2026-07-05T13:33:58.652169+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "bcch_tpm": {
@@ -79,6 +79,20 @@
           "intensidad_label": "neutral",
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Bolsa salta 3,3%, anota su mejor sesión en más de un año y rompe larga racha de pérdidas",
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMnI4ZGhWNUNiWVpjYlB3SG1fRVhncFRxS3E4MWViSnZTbWdqSkVjREhyNFQweG1jdmt5emdUa1RzVi1uWW5oRjJzY3BNekVpdTVZRi1YeWE0V2lYX2JNYm85UU51VXZsSnVOV3Y1WVUxMlI0Z3F5NnVtR1B2bFVsaTFCajNyeUxYZGNqQjBQWXZ1WHFvVmJPQ2h0RU5lRmpxZk5LTmNaem9iOUZPQVVqeXBn?oc=5",
+        "source": "urgente.cl",
+        "pubdate": "Thu, 02 Jul 2026 22:08:45 GMT",
+        "pubdate_iso": "2026-07-02T22:08:45+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Perdidas reportadas"
         }
       },
       {
@@ -170,6 +184,20 @@
     ],
     "economia_chile": [
       {
+        "title": "Actividad económica en alerta: Experto advierte que Chile “no está lejos” de una recesión",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNDhhMFI0RXU1VUJYcEdHU1dpc0hlSjVqYWN1QTF2ZGVTd1V6OGEwdGMyY1pDb1R2Q012U190OGpDLTJDTGRINWhrSWZVY1hQNU9QSEZxXzNwLXVXVHdPNHZReG93Y1p5OTVfM21hZHVZSWJENkFLbTdobjBqLWNyc3ZPMlBMTk1KbTNaX0pXVXM5clA1U0daTkVkb3hVZ01UV3NoOGhVaDY5LURaNW91UURvUEQyQVBXQ3RwRg?oc=5",
+        "source": "El Reportero de Iquique",
+        "pubdate": "Sun, 05 Jul 2026 11:27:15 GMT",
+        "pubdate_iso": "2026-07-05T11:27:15+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Riesgo de recesion: muy negativo"
+        }
+      },
+      {
         "title": "Chile en emergencia económica",
         "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE04UjJycDdVaFp3Y056bTJBanVNTFhzLTNiUTBkcVIzQXpYLVdzTE9zOG02Ykc5bFpwSFl0MGZHekNZR0FXak5DekhWdlhKUVpjTGFfZUVwUXFVWGc5VXlJSTc3NkdGWWxjQklXT3I0bjhVcTBKaUdaMWxB?oc=5",
         "source": "El Líbero",
@@ -217,20 +245,6 @@
         "source": "XTB.com",
         "pubdate": "Fri, 03 Jul 2026 18:19:40 GMT",
         "pubdate_iso": "2026-07-03T18:19:40+00:00",
-        "impacto": {
-          "direccion": "negativo",
-          "intensidad": 2,
-          "intensidad_label": "moderado",
-          "emoji": "🔴",
-          "razonamiento": "Riesgo de recesion: muy negativo"
-        }
-      },
-      {
-        "title": "Actividad económica en Chile cae por quinto mes seguido: ¿Es posible una recesión técnica en el país?",
-        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQQnZaVy1jd09OZnJsSW12YTkxc3E3dWZ1dzB6WjZjeUZ6cWJkZHo3ZWVLaEFPNHRpNXBmSjNERmhnSjhEUGZpcXBTNTc2Uzd3VUQ1dXhfbWxTNGNnX2NINmIxZmtIcjNpd0JUTV9pQkhfZzU1dHJFOUJOWWxaaGhva1lOeEVZWnVQTjdBbWp3Y2FteHpsb3VkQkNLSkphSE5TRXJrbjEycGw5S2Q2VFRKdFU1MXliWmNIU1Jtdmo5NWhtOUhJT0xJVA?oc=5",
-        "source": "elobservatodo.cl",
-        "pubdate": "Fri, 03 Jul 2026 17:49:17 GMT",
-        "pubdate_iso": "2026-07-03T17:49:17+00:00",
         "impacto": {
           "direccion": "negativo",
           "intensidad": 2,
@@ -319,10 +333,10 @@
   },
   "hechos_esenciales_por_ticker": {},
   "stats": {
-    "total_noticias": 19,
+    "total_noticias": 20,
     "por_categoria": {
       "bcch_tpm": 2,
-      "ipsa": 2,
+      "ipsa": 3,
       "dolar_cobre": 5,
       "economia_chile": 5,
       "politica_regulacion": 1,
@@ -334,11 +348,11 @@
   },
   "resumen_ejecutivo": {
     "sentimiento": "bajista",
-    "score_neto": -8,
+    "score_neto": -10,
     "n_positivas": 0,
-    "n_negativas": 4,
+    "n_negativas": 5,
     "n_neutrales": 15,
-    "narrativa": "El feed muestra 0 senales positivas y 4 negativas (neto -8). Factores dominantes: Contraccion economica; Riesgo de recesion: muy negativo.",
+    "narrativa": "El feed muestra 0 senales positivas y 5 negativas (neto -10). Factores dominantes: Perdidas reportadas; Riesgo de recesion: muy negativo.",
     "narrativa_fuente": "plantilla",
     "veredicto": "BAJISTA a corto plazo"
   }
