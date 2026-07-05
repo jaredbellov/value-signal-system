@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-05T12:33:26.898687+00:00",
+  "updated_at_utc": "2026-07-05T13:03:26.292958+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -66,6 +66,20 @@
     ],
     "nvidia": [
       {
+        "title": "Nvidia offers AI startups GPU access for revenue share: here’s what it means",
+        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOMVY2V1BCTmN2d3VTSkxWWUo0aU1lS0FqQ2U2MkxZWVBnY3FGVV9sT0kzWDBJYTlNTHdHUDBkR29WQW1tRlBDMUVpSVpZbUswdkxPOGNsdVphVVlnZkdFajI2NFVYcnVoTHo0TkxrbXRGYVhpb3BIX2JNWGQ3WlZ1eE9JTmptVXFXcEs0YjI1eHFJZTNMbnBrb2JTbkhTUmtHZDd2WDlQcjBMaE95T3A3R1dYcW9FMGV4cmVzY2I1Ml84SzRLUkpEMThCQQ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Fri, 03 Jul 2026 08:21:30 GMT",
+        "pubdate_iso": "2026-07-03T08:21:30+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
         "title": "Nvidia Launches Game-Changing AI Revenue Model With Cloud Partners",
         "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMm9lSFZHS3lUMVFfU0JsTjl5dTRqaDE1REhiUHBTTTlCWlItcnFYcF9TTkFxTktBeVN6bDNoQ3Ytb3hIdnFyeVBzQllOcmFNY0dqRGYyMWJBU3FqLTRmYTlIdE50VDczUzJGMkQxY2V1eGtUQTh5d3VXajZzVEJvTFptbG9ValFGcHZ5UnVTOXZKSmgxckZiOFVIa1ZIQWFhOGdqb0l0bFRMbXhnUk5pQ1lEc2k2RzRrelBPYUVIMktBdU0?oc=5",
         "source": "TradingView",
@@ -81,20 +95,6 @@
       }
     ],
     "ia_semis": [
-      {
-        "title": "SanDisk stock slides 14% as AI chip selloff overshadows bullish calls",
-        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVFN3MmJCcUU2elBWUWpWN2xfRnNjcjRqVjRkZHd1TXBvM0xyYzVEcEowSUJ2MmxzSVRMN2tIckFrZ0NnbVR2Rl9WTHJyVlM4dnM0V3VwWkFScmJzSnhPUTdxc0Yya2dXaTNxekVTQzBNeXRDaE9IbjVWVFZyaENRZFlWQ2RiSE15SktDamZuakJubVQyS3FobzlZWU5aTW9vSUNlRmdKRnVNU1hCM2dzQWJQRTJ4TG4xVHc4ZDR2bHJHUQ?oc=5",
-        "source": "TradingView",
-        "pubdate": "Thu, 02 Jul 2026 18:55:14 GMT",
-        "pubdate_iso": "2026-07-02T18:55:14+00:00",
-        "impacto": {
-          "direccion": "negativo",
-          "intensidad": 3,
-          "intensidad_label": "fuerte",
-          "emoji": "🔴🔴",
-          "razonamiento": "Selloff: presion vendedora"
-        }
-      },
       {
         "title": "NVT Is Emerging as an AI Infrastructure Winner Beyond Liquid Cooling",
         "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMnV5UEIzZGZvTDk3N1d6Q2U3b3o2SEE5cTlsdmFBczB5bmdmalV6YnVXRE1yMHpobVo5bGRiZUlSZGVzaEw4WFhWdThqUDJldVZfNC02czdrWTdNaXd5R0YwMFZFUGtaejhsQkJ6Y01vQVFUMGNfbmZFaDBybVplLUwxb3d6LXVyTi1OTnBZV1BQZVhtVlFpWHA3WUpIUXpScnMzbUM2MjgwaTBBMzdvN3J0dk5JOFppRzFOYnY2WkU?oc=5",
@@ -131,19 +131,19 @@
     "total_noticias": 7,
     "por_categoria": {
       "tesla": 3,
-      "nvidia": 1,
-      "ia_semis": 2,
+      "nvidia": 2,
+      "ia_semis": 1,
       "macro_tech": 1
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "levemente bajista",
-    "score_neto": -3,
+    "sentimiento": "neutral",
+    "score_neto": 0,
     "n_positivas": 0,
-    "n_negativas": 1,
-    "n_neutrales": 6,
-    "narrativa": "El feed muestra 0 senales positivas y 1 negativas (neto -3). Factores dominantes: Selloff: presion vendedora.",
+    "n_negativas": 0,
+    "n_neutrales": 7,
+    "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "Levemente BAJISTA"
+    "veredicto": "NEUTRAL - sin sesgo dominante"
   }
 }
