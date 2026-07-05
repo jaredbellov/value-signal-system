@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-05T15:33:26.400303+00:00",
+  "updated_at_utc": "2026-07-05T16:03:28.409893+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -48,20 +48,6 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
-      },
-      {
-        "title": "Good News For Tesla Stock Investors",
-        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOajVEXzUzUWRRRkZZdHNLekJ5bDJwdm1rNE5YRndvMUNyUmRZMXdmZ3ZnS0V0OGk3dzU4V3F6YTdNb3dncG9aMmJLd1hhbWlrTElVd3JlQlU1YkZBX1lrN2pJQUV4WVRSY0tscUcwd21WOGpwNXBpMHpLUERIaVByVy1RZFNaN3N4QTJ1WlVneUFOLVZXd0xFYTZ3?oc=5",
-        "source": "TradingView",
-        "pubdate": "Thu, 02 Jul 2026 16:02:36 GMT",
-        "pubdate_iso": "2026-07-02T16:02:36+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
       }
     ],
     "nvidia": [
@@ -80,22 +66,7 @@
         }
       }
     ],
-    "ia_semis": [
-      {
-        "title": "SanDisk stock slides 14% as AI chip selloff overshadows bullish calls",
-        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVFN3MmJCcUU2elBWUWpWN2xfRnNjcjRqVjRkZHd1TXBvM0xyYzVEcEowSUJ2MmxzSVRMN2tIckFrZ0NnbVR2Rl9WTHJyVlM4dnM0V3VwWkFScmJzSnhPUTdxc0Yya2dXaTNxekVTQzBNeXRDaE9IbjVWVFZyaENRZFlWQ2RiSE15SktDamZuakJubVQyS3FobzlZWU5aTW9vSUNlRmdKRnVNU1hCM2dzQWJQRTJ4TG4xVHc4ZDR2bHJHUQ?oc=5",
-        "source": "TradingView",
-        "pubdate": "Thu, 02 Jul 2026 18:55:14 GMT",
-        "pubdate_iso": "2026-07-02T18:55:14+00:00",
-        "impacto": {
-          "direccion": "negativo",
-          "intensidad": 3,
-          "intensidad_label": "fuerte",
-          "emoji": "🔴🔴",
-          "razonamiento": "Selloff: presion vendedora"
-        }
-      }
-    ],
+    "ia_semis": [],
     "macro_tech": [
       {
         "title": "DJI: Dow Jones Pops to New Record After June Jobs Data Lands at Just 57,000",
@@ -114,22 +85,22 @@
     ]
   },
   "stats": {
-    "total_noticias": 6,
+    "total_noticias": 4,
     "por_categoria": {
-      "tesla": 3,
+      "tesla": 2,
       "nvidia": 1,
-      "ia_semis": 1,
+      "ia_semis": 0,
       "macro_tech": 1
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "levemente bajista",
-    "score_neto": -3,
+    "sentimiento": "neutral",
+    "score_neto": 0,
     "n_positivas": 0,
-    "n_negativas": 1,
-    "n_neutrales": 5,
-    "narrativa": "El feed muestra 0 senales positivas y 1 negativas (neto -3). Factores dominantes: Selloff: presion vendedora.",
+    "n_negativas": 0,
+    "n_neutrales": 4,
+    "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "Levemente BAJISTA"
+    "veredicto": "NEUTRAL - sin sesgo dominante"
   }
 }
