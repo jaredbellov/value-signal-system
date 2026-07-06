@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-06T23:03:26.950993+00:00",
+  "updated_at_utc": "2026-07-06T23:33:28.849304+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -22,6 +22,20 @@
   "noticias_por_categoria": {
     "tesla": [],
     "nvidia": [
+      {
+        "title": "Enterprise value to revenue forward de NVIDIA Corporation – NASDAQ:NVDA",
+        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNYS1OR3VjVXl4UmpEZmI5UUwwUXJRVjVHYU42SVZ3TzJ2RzlMdzBUSmlGSVkwMjZYV1ljN3A1ZXQzQUU4VkFtYXFXV2w1d3hPT3dBVWxIN1dTUXpTVWlMTlVFX0ZSNEdGWkVfTVh6c2NMa0lVb004SVpsSWdpVlN5TEYxMmNhTTFkZV8wMDJ3WktmTGRuMGZXVG93Y0pJdWpuMFlDdFg3VmxSVGc?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 06 Jul 2026 17:59:51 GMT",
+        "pubdate_iso": "2026-07-06T17:59:51+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
       {
         "title": "Nvidia: la electricidad sustituye a los chips como nuevo campo de batalla",
         "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOYmd1c1pNZUVtWEEyRl9zb3d4NUZRTGdLb0x4UFBzdVZINzBJQlRRRXU2bXJjSlV3NWN0eG5DdlhtOElCWE94dk1rSWppTmE1LVFKWUNHY0lndTZwbzN0ZlVObElWb3pTbXZDUlhwd1VmMUxmLWI5aGhIdjBLMlhZd3pZa2E5SHZsdVJKUWNGb08zSVBRWWQzcmdROW9lT0gzcUU4QmhzdVN4UWtZMGhXbUdaSUxDM0RKemI4UXRhbG9hNnBnWm9iVVdoMA?oc=5",
@@ -56,10 +70,10 @@
     ]
   },
   "stats": {
-    "total_noticias": 2,
+    "total_noticias": 3,
     "por_categoria": {
       "tesla": 0,
-      "nvidia": 1,
+      "nvidia": 2,
       "ia_semis": 0,
       "macro_tech": 1
     }
@@ -69,7 +83,7 @@
     "score_neto": 2,
     "n_positivas": 1,
     "n_negativas": 0,
-    "n_neutrales": 1,
+    "n_neutrales": 2,
     "narrativa": "El feed muestra 1 senales positivas y 0 negativas (neto +2). Factores dominantes: Rally de IA: impulso Nasdaq.",
     "narrativa_fuente": "plantilla",
     "veredicto": "Levemente ALCISTA"
