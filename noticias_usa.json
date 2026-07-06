@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-06T13:33:28.361948+00:00",
+  "updated_at_utc": "2026-07-06T14:03:27.325441+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -38,54 +38,25 @@
       }
     ],
     "ia_semis": [],
-    "macro_tech": [
-      {
-        "title": "Pronóstico del precio de las acciones de Microsoft: desplome de más del 20% en el primer semestre de 2026, ¿seguirá cayendo en el segundo semestre?",
-        "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQV0hIYmliTTFBUDhEWWVMQmdZUWNjN2M1VEQ4RzhhUUFLSzlIQkNlbE16aEl0TFFMZW1ueW5FUkdiU0JLWnd6YnFlWEpEd1p0WThGQm5jdTNicnlhVnZKOWJNWnlUczJoeUFJYUJUVmc2d3prS3JPUzh2WXVndGgyRWVZSVRaSGtJRVNNZ0lDVFI1SUotVzNEbUQzTzEtTmtZb1RKWEFmcG9zWHVmOWNvazM5VDRqcE5EcWhnQ0xhejQ1UkMzSXpXOVNfdnBPNzRNX2Q2R25hZHFqeVBaUDgyb1NOdw?oc=5",
-        "source": "TradingKey",
-        "pubdate": "Sun, 05 Jul 2026 15:26:29 GMT",
-        "pubdate_iso": "2026-07-05T15:26:29+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "ByteTree Warns AI Rally Is A 1999 Rerun, Groups Bitcoin With Inflation-Era Hard Assets",
-        "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPYmxGSUlvd00zUzRaUTZFSGczc1lWWnJjUWJYUVlrU0g1dlhVOXkzY0p1SG5BSUJxVklMY1JrUHVUejJyWUJxcDRiSjJReno1bkQ0ZVE2RkFxeHFvdG5PeDVNSFRwYW5CRXF1a2Zxa2wtM3Q2REhUTm5LQkE5MnlpQzR4X2E5bk84WVlLcE5xYzU5a2VoWmc2bm5TbDVkUGs2NTM0ZVFhdm9xVmtRVXYyZ0ZsQ1pSTG5MNFRUeVBydGNLX192cV9naFpYdHBlb2NWVjdBVGR1SWFqNTY5T2c?oc=5",
-        "source": "TradingView",
-        "pubdate": "Sun, 05 Jul 2026 13:11:55 GMT",
-        "pubdate_iso": "2026-07-05T13:11:55+00:00",
-        "impacto": {
-          "direccion": "positivo",
-          "intensidad": 2,
-          "intensidad_label": "moderado",
-          "emoji": "🟢",
-          "razonamiento": "Rally de IA: impulso Nasdaq"
-        }
-      }
-    ]
+    "macro_tech": []
   },
   "stats": {
-    "total_noticias": 3,
+    "total_noticias": 1,
     "por_categoria": {
       "tesla": 0,
       "nvidia": 1,
       "ia_semis": 0,
-      "macro_tech": 2
+      "macro_tech": 0
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "levemente alcista",
-    "score_neto": 2,
-    "n_positivas": 1,
+    "sentimiento": "neutral",
+    "score_neto": 0,
+    "n_positivas": 0,
     "n_negativas": 0,
-    "n_neutrales": 2,
-    "narrativa": "El feed muestra 1 senales positivas y 0 negativas (neto +2). Factores dominantes: Rally de IA: impulso Nasdaq.",
+    "n_neutrales": 1,
+    "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "Levemente ALCISTA"
+    "veredicto": "NEUTRAL - sin sesgo dominante"
   }
 }
