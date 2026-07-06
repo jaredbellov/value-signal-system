@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-06T15:26:59.348114+00:00",
+  "updated_at_utc": "2026-07-06T17:27:00.473865+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "fed_tasas": {
@@ -118,34 +118,6 @@
           "emoji": "🔴",
           "razonamiento": "Fed hawkish: rate hike presiona equities"
         }
-      },
-      {
-        "title": "Bitcoin ETFs see biggest inflow since May after weak US jobs report sparks BTC price rebound",
-        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQVmtObXRxQjJzZnlNS3hrZ1VHclpCNENWdnBGRTVlMkUxOENQS3hVZTVzdEZBV1lkY3ZUUEhKRDFJZmNmc01WQzZDbXRMS2dmb1VxVVpVbUswQks0bnlEcWtHZWJpMEh6QkhiUXBmT2xVZlhrcHhkR0xQa3pQTVdoU00xN29QeXo1VnJXMXo1YjBwUGJvQVhhV05JLVkyU3lQY29JM1VGRll6MF82YU1hajFPdjF6N3kzX2h1dmZmbFFmaUlqMkJzU3g4dEV4Zw?oc=5",
-        "source": "CryptoRank",
-        "pubdate": "Fri, 03 Jul 2026 16:58:53 GMT",
-        "pubdate_iso": "2026-07-03T16:58:53+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Pound Holds at Two-Week High",
-        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNaHB6X000VVdKSWVqejQtSDViN21ZSFEtb3VDMFNyYnZqWVp3WTdGMF9yUjFwcVp1SWE0dGhxMWxfcGpVenpUYVZFNW9qaTRYTjFsSFBWQlp1UWpINjhsMzBUYWdmY1NxTXJfS1ZhTDdWYlpacUNPOGFKalpVNEdfc3BuelQ?oc=5",
-        "source": "TradingView",
-        "pubdate": "Fri, 03 Jul 2026 15:30:02 GMT",
-        "pubdate_iso": "2026-07-03T15:30:02+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
       }
     ],
     "earnings": [
@@ -220,32 +192,17 @@
         }
       }
     ],
-    "sentimiento": [
-      {
-        "title": "Inside the Prediction Markets: Europe Closes Ranks as Wall Street Builds New Products",
-        "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQRWNScjdfSU8tWG1tbG9VdDFNUUUzcWJCLWNwbjM1VWJHalMxN3Y4NUxzdWpNUEJjMzA4NXZTZ2k4dm1VLTF6RVdvMHRDeUFrQXVQX1N2MU9EbWUyc1RRWm53cUhrbGdEMktZYzZOVmtaeVRLV0lRYlBhMmtrZVlxWkY2QWhDWUNSVnk1Mm1jNkRyNUxtUGlrQ1h1Q3BXQ1JMRUtTeUplY2RnZXhfWFVUb1hBcldJcjFhMm1jMm8xQzRmSDE0VWVWczVSWlFsOWc3T255WFU3bW5FR3JwLS16YWFlbw?oc=5",
-        "source": "TradingView",
-        "pubdate": "Fri, 03 Jul 2026 16:40:00 GMT",
-        "pubdate_iso": "2026-07-03T16:40:00+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      }
-    ]
+    "sentimiento": []
   },
   "stats": {
-    "total_noticias": 14,
+    "total_noticias": 11,
     "por_categoria": {
       "fed_tasas": 2,
       "mercado": 1,
       "tech_nasdaq": 1,
-      "economia": 4,
+      "economia": 2,
       "earnings": 5,
-      "sentimiento": 1
+      "sentimiento": 0
     }
   },
   "resumen_ejecutivo": {
@@ -253,7 +210,7 @@
     "score_neto": -2,
     "n_positivas": 0,
     "n_negativas": 1,
-    "n_neutrales": 13,
+    "n_neutrales": 10,
     "narrativa": "El feed muestra 0 senales positivas y 1 negativas (neto -2). Factores dominantes: Fed hawkish: rate hike presiona equities.",
     "narrativa_fuente": "plantilla",
     "veredicto": "Levemente BAJISTA"
