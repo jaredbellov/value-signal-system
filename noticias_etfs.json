@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-05T23:27:00.367169+00:00",
+  "updated_at_utc": "2026-07-06T01:27:06.512361+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "fed_tasas": {
@@ -44,7 +44,22 @@
         }
       }
     ],
-    "mercado": [],
+    "mercado": [
+      {
+        "title": "Wall Street bombs, media stocks follow",
+        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1lbWp2RjdobG9BbXZKQ0djYVA2ODJRamM1V3VXcXI4U05pa1Nxa1hYYXJ6U0RYNk90SDZQS0NIejF6eEpnVk5MaDBKSjR4QjNa?oc=5",
+        "source": "IMDb",
+        "pubdate": "Sat, 04 Jul 2026 03:38:43 GMT",
+        "pubdate_iso": "2026-07-04T03:38:43+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
     "tech_nasdaq": [
       {
         "title": "BlackSky Q1 2026 slides: guidance raised on Gen-3 growth, stock falls",
@@ -87,23 +102,23 @@
           "emoji": "🟢",
           "razonamiento": "Rally de IA: impulso Nasdaq"
         }
-      },
-      {
-        "title": "Michael Burry Just ‘Shorted Micron’ — Why He Says AI-Fueled Rally Has Pushed MU Into Bubble Territory",
-        "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQNXI4QURSb0psekVsMC1DVHZxMnJBXzlGUno1cDVXYWxiX2loSkhVemtpaW1NLThFSFA4VmE5d1JuSHJnWENHY1dNWndod2dIVWpZWkRrcVd1Q2hyQXktLVNfMTk4R2NNbnZKQkI1Q0dMYU8wUVNyYkxLNV9LMEo3eUxUR1M3YmRsQVJpbzBfbXl0V3p0a2FhLTJLc0s3WlFBSVJ5dmhaVktHUXNhaTNRODcwd1ZOWUdOS2xRS3RnYlZGcGhZejVUV0dYM3pJclM1bFhDSUhNOHdHUlJtdmNXRHFzbjhpdDZ1Z1dPRTNB?oc=5",
-        "source": "TradingView",
-        "pubdate": "Fri, 03 Jul 2026 00:48:00 GMT",
-        "pubdate_iso": "2026-07-03T00:48:00+00:00",
-        "impacto": {
-          "direccion": "negativo",
-          "intensidad": 2,
-          "intensidad_label": "moderado",
-          "emoji": "🔴",
-          "razonamiento": "Alerta de burbuja"
-        }
       }
     ],
     "economia": [
+      {
+        "title": "Bitcoin’s weekend rally faces a $66k trap as traders still hedge for another drop",
+        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONXZGa0xIZWphMGZiYW5meUVja3JCSHZJbUpwOTdLUEdCOXA0X2JBcFh6Zmh3NTVpVDNkaTNKVjhNVENqOU9GbXBXX2ZwNFVUaVk0czBnUmQxbEF6cnRmNXNiMmhhZUxKUTZQVDhpZjJ0RjZ5RzNZNVZmaFEzamxGTDYxUkNJVVJQbHR5M0s5M3YyZ2ltWFpmMWlmZi1adGJsX3A1Z2Y5T2taUFhUTnRXLXpyd2hDMjZaWEdNYnN3UQ?oc=5",
+        "source": "CryptoRank",
+        "pubdate": "Sun, 05 Jul 2026 01:28:21 GMT",
+        "pubdate_iso": "2026-07-05T01:28:21+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
       {
         "title": "Gold climbs over 1% as weak US jobs data dims Fed rate hike expectations",
         "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOQUxpMkJHSlpsV0doODk5cW9LclpEamNpcXZSTDZ0Q0pOZ2E2SGVGOU5Zc1VwbVBDeFFxbnI4bXJVc1NVbWlKcG0wY0NHS2o1Z0J4Q0NBUDJhV3hNVWo1Tm9DcUpNam1ISy1nallFZHRtUGNGZjlIOWVjc3Rqay0tci1ENWk4TFZWVTdCb056VXhkX1FLNHVqSGZpMWxEX1dKTVFvczA0d1c3SjV6V2YxTFlZX1ROZHZJV2d1MzhzVnBjNkJNZkE?oc=5",
@@ -152,20 +167,6 @@
         "source": "TradingView",
         "pubdate": "Fri, 03 Jul 2026 04:48:00 GMT",
         "pubdate_iso": "2026-07-03T04:48:00+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Nikkei 225 lifts Asian markets as weak US jobs data cools Fed hike fears",
-        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQWlc1Rmd5QmF4bGR4dzZ3MFU0c2VsTjdidUl2NWZZRWNidEtJdVMyaTJoUGV6MGVLblJnTEZ0dWdtT2hlZEhjeHRoeTJtOTZJcU5sX0FuMzY1eDJwQlcwUVdJRUpibXFOUEp5ZFoydnlrd3FzRGRnbXlKY2hEblUzUWhtb1hzRkpnZXFmVzA4dlBQUnJ6b1p4dDl4QklWMGFXZmZyX3lOUUgxTDNEV254SEJGR25wMUFPd2NMMHZDaWtZV1hRVTNV?oc=5",
-        "source": "TradingView",
-        "pubdate": "Fri, 03 Jul 2026 04:26:00 GMT",
-        "pubdate_iso": "2026-07-03T04:26:00+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -254,21 +255,21 @@
     "total_noticias": 15,
     "por_categoria": {
       "fed_tasas": 1,
-      "mercado": 0,
-      "tech_nasdaq": 4,
+      "mercado": 1,
+      "tech_nasdaq": 3,
       "economia": 5,
       "earnings": 3,
       "sentimiento": 2
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "levemente bajista",
-    "score_neto": -2,
+    "sentimiento": "neutral",
+    "score_neto": 0,
     "n_positivas": 1,
-    "n_negativas": 2,
-    "n_neutrales": 12,
-    "narrativa": "El feed muestra 1 senales positivas y 2 negativas (neto -2). Factores dominantes: Rally de IA: impulso Nasdaq; Alerta de burbuja.",
+    "n_negativas": 1,
+    "n_neutrales": 13,
+    "narrativa": "El feed muestra 1 senales positivas y 1 negativas (neto +0). Factores dominantes: Rally de IA: impulso Nasdaq; Fed hawkish: rate hike presiona equities.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "Levemente BAJISTA"
+    "veredicto": "NEUTRAL - sin sesgo dominante"
   }
 }
