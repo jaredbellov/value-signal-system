@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-06T09:03:25.848835+00:00",
+  "updated_at_utc": "2026-07-06T09:33:27.827577+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -20,22 +20,7 @@
     }
   },
   "noticias_por_categoria": {
-    "tesla": [
-      {
-        "title": "Pese a que Elon Musk es una de las personas más odiadas del planeta, Tesla vuelve a aumentar sus ventas",
-        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxONUV3Ujd5MzhVU0tPVE5IRkc4dERuWGZ5THRYcXBhQlNvVVZ6dmMtZnhjZEc1cUNTblFsNzJ1TVUtc19CSmUyWGlZbDRxSTRkWS0tdVNORlM1Y3Fzd050LVpGNFotN3RSQUMybGFDcFJxT2phRWt0eE5FNzVWRmpYMFVhdVdSSXdJSm9UNnNIcWVpWWZPX0pOSUNrZXEyQzdXNlZJTnNRNVJjZTY5eTNsbEtKQ003Q0wwV2FuYWtQMk13enRLTlRXbTVSSUowNWhjTkVZ?oc=5",
-        "source": "Softonic",
-        "pubdate": "Fri, 03 Jul 2026 09:04:08 GMT",
-        "pubdate_iso": "2026-07-03T09:04:08+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      }
-    ],
+    "tesla": [],
     "nvidia": [
       {
         "title": "Nvidia: la electricidad sustituye a los chips como nuevo campo de batalla",
@@ -53,30 +38,15 @@
       }
     ],
     "ia_semis": [],
-    "macro_tech": [
-      {
-        "title": "Pronóstico del precio de las acciones de Microsoft: desplome de más del 20% en el primer semestre de 2026, ¿seguirá cayendo en el segundo semestre?",
-        "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQV0hIYmliTTFBUDhEWWVMQmdZUWNjN2M1VEQ4RzhhUUFLSzlIQkNlbE16aEl0TFFMZW1ueW5FUkdiU0JLWnd6YnFlWEpEd1p0WThGQm5jdTNicnlhVnZKOWJNWnlUczJoeUFJYUJUVmc2d3prS3JPUzh2WXVndGgyRWVZSVRaSGtJRVNNZ0lDVFI1SUotVzNEbUQzTzEtTmtZb1RKWEFmcG9zWHVmOWNvazM5VDRqcE5EcWhnQ0xhejQ1UkMzSXpXOVNfdnBPNzRNX2Q2R25hZHFqeVBaUDgyb1NOdw?oc=5",
-        "source": "TradingKey",
-        "pubdate": "Sun, 05 Jul 2026 15:26:29 GMT",
-        "pubdate_iso": "2026-07-05T15:26:29+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      }
-    ]
+    "macro_tech": []
   },
   "stats": {
-    "total_noticias": 3,
+    "total_noticias": 1,
     "por_categoria": {
-      "tesla": 1,
+      "tesla": 0,
       "nvidia": 1,
       "ia_semis": 0,
-      "macro_tech": 1
+      "macro_tech": 0
     }
   },
   "resumen_ejecutivo": {
@@ -84,7 +54,7 @@
     "score_neto": 0,
     "n_positivas": 0,
     "n_negativas": 0,
-    "n_neutrales": 3,
+    "n_neutrales": 1,
     "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
     "narrativa_fuente": "plantilla",
     "veredicto": "NEUTRAL - sin sesgo dominante"
