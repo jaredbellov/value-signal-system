@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-06T11:03:28.302001+00:00",
+  "updated_at_utc": "2026-07-06T11:33:27.420733+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -21,7 +21,22 @@
   },
   "noticias_por_categoria": {
     "tesla": [],
-    "nvidia": [],
+    "nvidia": [
+      {
+        "title": "Nvidia: la electricidad sustituye a los chips como nuevo campo de batalla",
+        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOYmd1c1pNZUVtWEEyRl9zb3d4NUZRTGdLb0x4UFBzdVZINzBJQlRRRXU2bXJjSlV3NWN0eG5DdlhtOElCWE94dk1rSWppTmE1LVFKWUNHY0lndTZwbzN0ZlVObElWb3pTbXZDUlhwd1VmMUxmLWI5aGhIdjBLMlhZd3pZa2E5SHZsdVJKUWNGb08zSVBRWWQzcmdROW9lT0gzcUU4QmhzdVN4UWtZMGhXbUdaSUxDM0RKemI4UXRhbG9hNnBnWm9iVVdoMA?oc=5",
+        "source": "AD HOC NEWS",
+        "pubdate": "Mon, 06 Jul 2026 03:43:46 GMT",
+        "pubdate_iso": "2026-07-06T03:43:46+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
     "ia_semis": [],
     "macro_tech": [
       {
@@ -41,10 +56,10 @@
     ]
   },
   "stats": {
-    "total_noticias": 1,
+    "total_noticias": 2,
     "por_categoria": {
       "tesla": 0,
-      "nvidia": 0,
+      "nvidia": 1,
       "ia_semis": 0,
       "macro_tech": 1
     }
@@ -54,7 +69,7 @@
     "score_neto": 0,
     "n_positivas": 0,
     "n_negativas": 0,
-    "n_neutrales": 1,
+    "n_neutrales": 2,
     "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
     "narrativa_fuente": "plantilla",
     "veredicto": "NEUTRAL - sin sesgo dominante"
