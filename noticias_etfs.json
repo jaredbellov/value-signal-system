@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-06T07:26:57.509732+00:00",
+  "updated_at_utc": "2026-07-06T09:26:58.285990+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "fed_tasas": {
@@ -101,20 +101,6 @@
           "intensidad_label": "neutral",
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "South Korea shares log second weekly loss on AI rally concerns",
-        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNTDU2d3NUV0pYWUZZYU5kc1BXUElTbzZFOEFWQTJPVjlJSDk1VUUwMEU1bDlNRWJpbXRmWGl6ZHQwR0tQWndoeWVjLWg1NDBrTXR5VEJ2TFhqNG9OSS1aNjlPdk5KU0Z0ZVplUERCNm50RGhiNkpMQ0pWUmJPSnJDaXM3Z2NnYlk5c0lPZUVEbEZfM19TUVZucF9XV0JZWjdwdm92TXlNYmRRNnI3WW1uaEhBMW1CN256NUdkX2VfWGhNZFU3VWgxaExNRQ?oc=5",
-        "source": "TradingView",
-        "pubdate": "Fri, 03 Jul 2026 07:49:04 GMT",
-        "pubdate_iso": "2026-07-03T07:49:04+00:00",
-        "impacto": {
-          "direccion": "positivo",
-          "intensidad": 2,
-          "intensidad_label": "moderado",
-          "emoji": "🟢",
-          "razonamiento": "Rally de IA: impulso Nasdaq"
         }
       }
     ],
@@ -234,42 +220,28 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
-      },
-      {
-        "title": "Wakanda Inu Price Today | Live WKD Price, Chart & Market Data",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9oWWZuMUd4MGh1b0VaS3ZkNXhHX3lnTVpBM1hCeEZ3cGFWU1ZDUkhKR2JSZGtXYUlRSi1oaGtOSEJiU3JkeXYxc3dBeXkyNHB4bGN3RjZBcXhTU2c?oc=5",
-        "source": "Binance",
-        "pubdate": "Fri, 03 Jul 2026 09:06:00 GMT",
-        "pubdate_iso": "2026-07-03T09:06:00+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
       }
     ]
   },
   "stats": {
-    "total_noticias": 15,
+    "total_noticias": 13,
     "por_categoria": {
       "fed_tasas": 1,
       "mercado": 1,
-      "tech_nasdaq": 4,
+      "tech_nasdaq": 3,
       "economia": 4,
       "earnings": 3,
-      "sentimiento": 2
+      "sentimiento": 1
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "neutral",
-    "score_neto": 0,
-    "n_positivas": 1,
+    "sentimiento": "levemente bajista",
+    "score_neto": -2,
+    "n_positivas": 0,
     "n_negativas": 1,
-    "n_neutrales": 13,
-    "narrativa": "El feed muestra 1 senales positivas y 1 negativas (neto +0). Factores dominantes: Rally de IA: impulso Nasdaq; Fed hawkish: rate hike presiona equities.",
+    "n_neutrales": 12,
+    "narrativa": "El feed muestra 0 senales positivas y 1 negativas (neto -2). Factores dominantes: Fed hawkish: rate hike presiona equities.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "NEUTRAL - sin sesgo dominante"
+    "veredicto": "Levemente BAJISTA"
   }
 }
