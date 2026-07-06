@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-06T18:03:26.522267+00:00",
+  "updated_at_utc": "2026-07-06T18:33:30.597305+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -38,25 +38,40 @@
       }
     ],
     "ia_semis": [],
-    "macro_tech": []
+    "macro_tech": [
+      {
+        "title": "ByteTree Warns AI Rally Is A 1999 Rerun, Groups Bitcoin With Inflation-Era Hard Assets",
+        "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPYmxGSUlvd00zUzRaUTZFSGczc1lWWnJjUWJYUVlrU0g1dlhVOXkzY0p1SG5BSUJxVklMY1JrUHVUejJyWUJxcDRiSjJReno1bkQ0ZVE2RkFxeHFvdG5PeDVNSFRwYW5CRXF1a2Zxa2wtM3Q2REhUTm5LQkE5MnlpQzR4X2E5bk84WVlLcE5xYzU5a2VoWmc2bm5TbDVkUGs2NTM0ZVFhdm9xVmtRVXYyZ0ZsQ1pSTG5MNFRUeVBydGNLX192cV9naFpYdHBlb2NWVjdBVGR1SWFqNTY5T2c?oc=5",
+        "source": "TradingView",
+        "pubdate": "Sun, 05 Jul 2026 13:11:55 GMT",
+        "pubdate_iso": "2026-07-05T13:11:55+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🟢",
+          "razonamiento": "Rally de IA: impulso Nasdaq"
+        }
+      }
+    ]
   },
   "stats": {
-    "total_noticias": 1,
+    "total_noticias": 2,
     "por_categoria": {
       "tesla": 0,
       "nvidia": 1,
       "ia_semis": 0,
-      "macro_tech": 0
+      "macro_tech": 1
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "neutral",
-    "score_neto": 0,
-    "n_positivas": 0,
+    "sentimiento": "levemente alcista",
+    "score_neto": 2,
+    "n_positivas": 1,
     "n_negativas": 0,
     "n_neutrales": 1,
-    "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
+    "narrativa": "El feed muestra 1 senales positivas y 0 negativas (neto +2). Factores dominantes: Rally de IA: impulso Nasdaq.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "NEUTRAL - sin sesgo dominante"
+    "veredicto": "Levemente ALCISTA"
   }
 }
