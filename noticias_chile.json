@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-06T03:34:01.779428+00:00",
+  "updated_at_utc": "2026-07-06T05:34:16.689603+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "bcch_tpm": {
@@ -75,20 +75,6 @@
         "source": "Clarin.com",
         "pubdate": "Sat, 04 Jul 2026 09:01:36 GMT",
         "pubdate_iso": "2026-07-04T09:01:36+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Dólar hoy en Chile: cotización de cierre del 3 de julio",
-        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcERKcS1ZdFhVVW9RTjczM0pwY3VIdjdqYVlBSUVZWHdKWHpyejBjdGdyWFVzT3kzUFhqckF6VFRXbGJNZVV3RDBPOFp0RUJHYmlWUktTQllmdUswcDAtTmNsc21JWlI2dUZTTUFjcjRnN0RvUzc3QUZtbk5BeWlNWkJkbW5qODYwMmVkaHhxbkd2M3ZQVnNnNnh4UU82QmZf0gG7AUFVX3lxTE1Xa2tMQnVJbVZpeXVLdWFFYy1LeXR4LVFIdUpMVUFaaFRQNVc5M2d3VDJOX3VzSlQweU4zN2ppa2dKd0xITlJFWUgtRFN4TXEwanRRUmt4UXA5eWF3RFVvZEU3c1NmLUU4UFlRZEJRS25hTFJVeGdIdndqQzNKUHhaeW9GcVpySzljX1pvdnZGTHRDcDBFY0RZeHVzWEhLU0dDUVJOMlAzZWRjbHN1aHVmamRzQWJnSzdkUXc?oc=5",
-        "source": "Infobae",
-        "pubdate": "Fri, 03 Jul 2026 18:37:11 GMT",
-        "pubdate_iso": "2026-07-03T18:37:11+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -200,20 +186,6 @@
     ],
     "politica_regulacion": [
       {
-        "title": "FA amenaza con oposición dura a reforma tributaria si gobierno no cede en puntos clave",
-        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRW9qSkoxLUM5Vk8tZy0wZ3liaFNsd21qTVBKMDQzRTZrVnN3c1lYOXpzUy1WcXI4QU90T1g1dGVKQkMzLXpKVG80RzNJWVFObk5zN1JsN2xYQXQzSnRJenZGc2loeUNDclN4OWM4eV9hb3BjM2VJZzJmNDM1c3lvSUpGTFg4a3NuWkpUTTZyVnJjaVQzSVZCTDhLck9UdWxMbDB6dDc2WU10TjZqeVE?oc=5",
-        "source": "Publimicro",
-        "pubdate": "Sun, 05 Jul 2026 16:00:43 GMT",
-        "pubdate_iso": "2026-07-05T16:00:43+00:00",
-        "impacto": {
-          "direccion": "negativo",
-          "intensidad": 2,
-          "intensidad_label": "moderado",
-          "emoji": "🔴",
-          "razonamiento": "Reforma tributaria: incertidumbre impositiva"
-        }
-      },
-      {
         "title": "Oposición denuncia “reforma tributaria disfrazada de ley” en paquete de reconstrucción impulsado por el Gobierno",
         "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPOUVHYWlVTDdhMUlfY3FrRks0aXRsY1FvSnM5bWdhUWEwVDgzZWFycjk0ZWxScW96UHZSbjJtRnNuYkw0V05LVEtpYmRoUzg4RzVvX201dWlMVUw1eGEzUUM5M0daOXBtRTRLaVZtSUtaOVFxai0wV2ppUi01NkVieXdjem5HczVFSTFaeVZ4cXZJdw?oc=5",
         "source": "CNN Chile",
@@ -263,13 +235,13 @@
   },
   "hechos_esenciales_por_ticker": {},
   "stats": {
-    "total_noticias": 15,
+    "total_noticias": 13,
     "por_categoria": {
       "bcch_tpm": 1,
       "ipsa": 1,
-      "dolar_cobre": 4,
+      "dolar_cobre": 3,
       "economia_chile": 5,
-      "politica_regulacion": 2,
+      "politica_regulacion": 1,
       "pensiones_afp": 0,
       "energia_tarifas": 0,
       "sectores_watchlist": 2
@@ -278,11 +250,11 @@
   },
   "resumen_ejecutivo": {
     "sentimiento": "bajista",
-    "score_neto": -8,
+    "score_neto": -6,
     "n_positivas": 0,
-    "n_negativas": 4,
-    "n_neutrales": 11,
-    "narrativa": "El feed muestra 0 senales positivas y 4 negativas (neto -8). Factores dominantes: Riesgo de recesion: muy negativo; Riesgo de recesion: muy negativo.",
+    "n_negativas": 3,
+    "n_neutrales": 10,
+    "narrativa": "El feed muestra 0 senales positivas y 3 negativas (neto -6). Factores dominantes: Riesgo de recesion: muy negativo; Riesgo de recesion: muy negativo.",
     "narrativa_fuente": "plantilla",
     "veredicto": "BAJISTA a corto plazo"
   }
