@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-06T09:26:58.285990+00:00",
+  "updated_at_utc": "2026-07-06T11:26:58.134963+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "fed_tasas": {
@@ -29,6 +29,20 @@
   },
   "noticias_por_categoria": {
     "fed_tasas": [
+      {
+        "title": "Bitcoin nears $63.5K into weekly close as trader warns of 'terrible' Monday",
+        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOdTk3VGRfYTZjekU1OHpzaHRmeDR2VjJKcDRmMDN2QmFXOFVwdzFHRlRsZWZtRUtyaWEzNkVwa0JnZXhsdktSdnJNSE1aYjRVRl9SdTFBVnY2QUstSl9lZ3pOdzUtR2toLUZvU2NqQVo2VHF0QU5zQTFjME5FTWs1TWZ1SFE2ZG9ZbXc1LXlXYURSSDFtYl83c0ctN0tLVnQtSmJJeDA1a0s1OGNwZy1vVnhoUjhzeGt6alFXTmF4SW9aazR2ZVlhQlI4endJQjF2?oc=5",
+        "source": "TradingView",
+        "pubdate": "Sun, 05 Jul 2026 16:06:20 GMT",
+        "pubdate_iso": "2026-07-05T16:06:20+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
       {
         "title": "Fed’s Credibility Tested as Inflation Pressures Persist, Commerzbank Warns",
         "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPclpNZ3E0U2tnSzliVTd0OXg5Sk55QlAwUVJfYm1zS2lFYXl0bXRlMkFXbXZKN1E4ajdmaHJkNFoxOVphVWNVQ2l5U2xOZWV1YzBFamVWeHgtRlBiZllJVGtOWU9WRk5ET2Z1aUUxYVh0SS1LLV9CUUNFTmhyQ2RGa3RaOFNITkcya2hINkF3?oc=5",
@@ -224,9 +238,9 @@
     ]
   },
   "stats": {
-    "total_noticias": 13,
+    "total_noticias": 14,
     "por_categoria": {
-      "fed_tasas": 1,
+      "fed_tasas": 2,
       "mercado": 1,
       "tech_nasdaq": 3,
       "economia": 4,
@@ -239,7 +253,7 @@
     "score_neto": -2,
     "n_positivas": 0,
     "n_negativas": 1,
-    "n_neutrales": 12,
+    "n_neutrales": 13,
     "narrativa": "El feed muestra 0 senales positivas y 1 negativas (neto -2). Factores dominantes: Fed hawkish: rate hike presiona equities.",
     "narrativa_fuente": "plantilla",
     "veredicto": "Levemente BAJISTA"
