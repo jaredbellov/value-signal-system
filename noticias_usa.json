@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-07T03:33:28.165061+00:00",
+  "updated_at_utc": "2026-07-07T04:03:27.103141+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -20,7 +20,22 @@
     }
   },
   "noticias_por_categoria": {
-    "tesla": [],
+    "tesla": [
+      {
+        "title": "Tesla (TSLA) Shares Skyrocket, What You Need To Know",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPNDFlbUZqRHJ5Wnk2RG5vdUNGREJoN3M3MUJhSVNVYXozMEdIWkVtRW5IQnFlRUJfQ1EyVGRjQUJES2MtV1dPUDJZelU1aEVfcmZWN2p5RU1UZUdTYm1wLWVKbnpyVDl2MWxnWUdMWHRHRGk3MS1xVzZiVDdCYUUxV3A4Wmx1SF9FbWV0aVJ6QXZsQm8tMVJaaVhvYW9QQ1lscjhQUG80LWtsOEwxdXc?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 06 Jul 2026 19:41:11 GMT",
+        "pubdate_iso": "2026-07-06T19:41:11+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
     "nvidia": [
       {
         "title": "Nvidia: la electricidad sustituye a los chips como nuevo campo de batalla",
@@ -70,9 +85,9 @@
     ]
   },
   "stats": {
-    "total_noticias": 3,
+    "total_noticias": 4,
     "por_categoria": {
-      "tesla": 0,
+      "tesla": 1,
       "nvidia": 1,
       "ia_semis": 0,
       "macro_tech": 2
@@ -83,7 +98,7 @@
     "score_neto": 2,
     "n_positivas": 1,
     "n_negativas": 0,
-    "n_neutrales": 2,
+    "n_neutrales": 3,
     "narrativa": "El feed muestra 1 senales positivas y 0 negativas (neto +2). Factores dominantes: Rally de IA: impulso Nasdaq.",
     "narrativa_fuente": "plantilla",
     "veredicto": "Levemente ALCISTA"
