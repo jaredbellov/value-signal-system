@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-07T07:26:56.599398+00:00",
+  "updated_at_utc": "2026-07-07T09:26:57.116070+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "fed_tasas": {
@@ -84,10 +84,38 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
+      },
+      {
+        "title": "Bank of Mexico rate decision in August",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxONWNnTFZNVElZX2pyMldKX0ZEcW1oanptdzhfY1ZpY1VwWERHMGU4OVdPTXZoeHJyVFpjd3VBcTVVOWptckdFMkRLOGNkcXdTaEtnMW4tSElBbzBMbXJYNE4xdWhaWGlQYW1LcXBDTkUyLVBKSlpSbW8wQ280RTA2Xw?oc=5",
+        "source": "Coinbase",
+        "pubdate": "Sun, 05 Jul 2026 10:27:24 GMT",
+        "pubdate_iso": "2026-07-05T10:27:24+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
       }
     ],
     "mercado": [],
     "tech_nasdaq": [
+      {
+        "title": "Asian stocks fall on tech weakness, Samsung slides",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOczdkXzJOVHVhQ1lyMm9QOHhYUkNPazh6LWtvZ2dVakYyX2xjQXBkODAzVVhjVXA2M2dvX21nUTRyTXhTRS1wYzdBbG5COWtXWDg0ZVRiYlh6TXc0U1pYR0VIOEVmc29CcjZqYWplSWVqQ3d6SDlaWERTckRtQkZoQTZybmJmbWgwd09kS0h5aG0zSzY0dkdSaUl2dlF1bFctU0twOUU4WUFvOU8xdmpaQg?oc=5",
+        "source": "TradingView",
+        "pubdate": "Tue, 07 Jul 2026 01:10:00 GMT",
+        "pubdate_iso": "2026-07-07T01:10:00+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Acciones a la baja"
+        }
+      },
       {
         "title": "S&P 500, Nasdaq End Higher On Support From Strong Tech Gains Led By Nvidia, Dow Hits Record Highs — MSFT, NVDA, LMT, AVGO, SPCX In Focus",
         "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNOWdoMnlLUzVHTFc0RTNpck9YaUV2V3QydGFfQVNsV3pGc2ZrcjY2bmRGMWFqUU1Hemg0bDktMVlFLVJYRW9mbHdGUjBtbk0tMWNBSVc0eHRjSkJQWnFsTkxZMEZhSjY2azRwLV9DQm1BMHQ0TEVHVnJPY3NLcU4yaGx1LVZ5NC15U2VCeE1MdjRhQzdCemgwVWJ4X3hROGRlbjJXdkFSeXowTnZLMG84UDJ2cVFzckJWb2wwTy1GN1NqTTA4VXJmRGlxZzhuS0ZqbjNZdlQyc2RteVZKSUU1SU0zdFlwYkNLV25fVW4wcG1CbTI3ODFCZDRjUktERTVZZ3E1OUxrNEljUE5tTXh6VFdHMHJ5ZVE?oc=5",
@@ -136,20 +164,6 @@
         "source": "TradingView",
         "pubdate": "Mon, 06 Jul 2026 04:50:00 GMT",
         "pubdate_iso": "2026-07-06T04:50:00+00:00",
-        "impacto": {
-          "direccion": "positivo",
-          "intensidad": 2,
-          "intensidad_label": "moderado",
-          "emoji": "🟢",
-          "razonamiento": "Rally de IA: impulso Nasdaq"
-        }
-      },
-      {
-        "title": "ByteTree Warns AI Rally Is A 1999 Rerun, Groups Bitcoin With Inflation-Era Hard Assets",
-        "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPYmxGSUlvd00zUzRaUTZFSGczc1lWWnJjUWJYUVlrU0g1dlhVOXkzY0p1SG5BSUJxVklMY1JrUHVUejJyWUJxcDRiSjJReno1bkQ0ZVE2RkFxeHFvdG5PeDVNSFRwYW5CRXF1a2Zxa2wtM3Q2REhUTm5LQkE5MnlpQzR4X2E5bk84WVlLcE5xYzU5a2VoWmc2bm5TbDVkUGs2NTM0ZVFhdm9xVmtRVXYyZ0ZsQ1pSTG5MNFRUeVBydGNLX192cV9naFpYdHBlb2NWVjdBVGR1SWFqNTY5T2c?oc=5",
-        "source": "TradingView",
-        "pubdate": "Sun, 05 Jul 2026 13:11:55 GMT",
-        "pubdate_iso": "2026-07-05T13:11:55+00:00",
         "impacto": {
           "direccion": "positivo",
           "intensidad": 2,
@@ -265,9 +279,9 @@
     ]
   },
   "stats": {
-    "total_noticias": 16,
+    "total_noticias": 17,
     "por_categoria": {
-      "fed_tasas": 4,
+      "fed_tasas": 5,
       "mercado": 0,
       "tech_nasdaq": 5,
       "economia": 1,
@@ -277,11 +291,11 @@
   },
   "resumen_ejecutivo": {
     "sentimiento": "alcista",
-    "score_neto": 10,
-    "n_positivas": 5,
-    "n_negativas": 0,
-    "n_neutrales": 11,
-    "narrativa": "El feed muestra 5 senales positivas y 0 negativas (neto +10). Factores dominantes: Maximos historicos; Acciones al alza.",
+    "score_neto": 6,
+    "n_positivas": 4,
+    "n_negativas": 1,
+    "n_neutrales": 12,
+    "narrativa": "El feed muestra 4 senales positivas y 1 negativas (neto +6). Factores dominantes: Acciones a la baja; Maximos historicos.",
     "narrativa_fuente": "plantilla",
     "veredicto": "ALCISTA a corto plazo"
   }
