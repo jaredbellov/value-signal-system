@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-07T11:26:56.578536+00:00",
+  "updated_at_utc": "2026-07-07T13:27:00.144088+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "fed_tasas": {
@@ -86,11 +86,11 @@
         }
       },
       {
-        "title": "Bank of Mexico rate decision in August",
-        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxONWNnTFZNVElZX2pyMldKX0ZEcW1oanptdzhfY1ZpY1VwWERHMGU4OVdPTXZoeHJyVFpjd3VBcTVVOWptckdFMkRLOGNkcXdTaEtnMW4tSElBbzBMbXJYNE4xdWhaWGlQYW1LcXBDTkUyLVBKSlpSbW8wQ280RTA2Xw?oc=5",
+        "title": "Bank of Russia rate decision in July",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQd1hLVDg0S3pILTBiZ0cwOGV5anlveXdqZlRtNnZMUHhoNTVscWxoT3AyQWk2TmUxLTNBTEQxaGtzbExVTE9qV0JPSmR2SUNHVGExZ0hGRnVnX2JWUFZ2MTNBWUdNZzZkWnlSQzRRWHV2cmR2dk1CazE1MEc3M29odA?oc=5",
         "source": "Coinbase",
-        "pubdate": "Sun, 05 Jul 2026 10:27:24 GMT",
-        "pubdate_iso": "2026-07-05T10:27:24+00:00",
+        "pubdate": "Sun, 05 Jul 2026 08:25:48 GMT",
+        "pubdate_iso": "2026-07-05T08:25:48+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -102,6 +102,20 @@
     ],
     "mercado": [],
     "tech_nasdaq": [
+      {
+        "title": "IT shares surge up to 4% ahead of TCS Q1 results; Infosys, Tech Mahindra, LTM lead gains",
+        "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNZkdtaFpUZVJOUjJoUlg3eWp2VGxTYWhVWVppUGdrYzVEUllTanllQ1hlbE16NVplbnZIYzBvSVBNNjRvR1lxRW9MaVV6czBTOXBWc1BzQXNCWkJ2X1BOSUxDNU9HNThzSFp2NHZ1VlN1NkJTbEp6QXlLbFE0NTQ0Tk41YlA2al9JZ0tsbzNLbXl2VHlkemhCQUNpa2RRajBiUGVvT3Y0cmZiSVdkMTAzbkZjOUI5TUV2ei1ud3hTSW5WcXJ4T05xTXRGZk05bWlzV1gtM3RZSHo3b1lNalJB?oc=5",
+        "source": "TradingView",
+        "pubdate": "Tue, 07 Jul 2026 07:37:25 GMT",
+        "pubdate_iso": "2026-07-07T07:37:25+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
       {
         "title": "Asian stocks fall on tech weakness, Samsung slides",
         "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOczdkXzJOVHVhQ1lyMm9QOHhYUkNPazh6LWtvZ2dVakYyX2xjQXBkODAzVVhjVXA2M2dvX21nUTRyTXhTRS1wYzdBbG5COWtXWDg0ZVRiYlh6TXc0U1pYR0VIOEVmc29CcjZqYWplSWVqQ3d6SDlaWERTckRtQkZoQTZybmJmbWgwd09kS0h5aG0zSzY0dkdSaUl2dlF1bFctU0twOUU4WUFvOU8xdmpaQg?oc=5",
@@ -156,20 +170,6 @@
           "intensidad_label": "moderado",
           "emoji": "🟢",
           "razonamiento": "Maximos historicos"
-        }
-      },
-      {
-        "title": "AI rally faces reality check as Asian stocks slip before Samsung earnings",
-        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQcXBfMHNkU3V5M1k2RElKWGFFNGlrd1BCX3k3RFp1Wjh0NkY5ME14TDFueU0tUzIzZ0NuT2JZblFsYVk5d1NuWjdwSEtPbi1WcmhiRjJMc3JOOENHMVFXaDZ1UUNfdEZkVU9FaVhZYjl3bk5DbVk2MWpmSEIzNVBLRWpabHhyV183d3ZaMkh2WmR5b3dfQ3oxQmNHRXlSSEtWcmRLdjhVNmNUZnREUEU2SEJGUFl5T3p1aUNOY0x2T2xJVnRabWVGcw?oc=5",
-        "source": "TradingView",
-        "pubdate": "Mon, 06 Jul 2026 04:50:00 GMT",
-        "pubdate_iso": "2026-07-06T04:50:00+00:00",
-        "impacto": {
-          "direccion": "positivo",
-          "intensidad": 2,
-          "intensidad_label": "moderado",
-          "emoji": "🟢",
-          "razonamiento": "Rally de IA: impulso Nasdaq"
         }
       }
     ],
@@ -291,11 +291,11 @@
   },
   "resumen_ejecutivo": {
     "sentimiento": "alcista",
-    "score_neto": 6,
-    "n_positivas": 4,
+    "score_neto": 4,
+    "n_positivas": 3,
     "n_negativas": 1,
-    "n_neutrales": 12,
-    "narrativa": "El feed muestra 4 senales positivas y 1 negativas (neto +6). Factores dominantes: Acciones a la baja; Maximos historicos.",
+    "n_neutrales": 13,
+    "narrativa": "El feed muestra 3 senales positivas y 1 negativas (neto +4). Factores dominantes: Acciones a la baja; Maximos historicos.",
     "narrativa_fuente": "plantilla",
     "veredicto": "ALCISTA a corto plazo"
   }
