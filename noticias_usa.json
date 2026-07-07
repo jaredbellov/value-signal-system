@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-07T04:03:27.103141+00:00",
+  "updated_at_utc": "2026-07-07T04:33:30.550279+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -52,7 +52,36 @@
         }
       }
     ],
-    "ia_semis": [],
+    "ia_semis": [
+      {
+        "title": "Why FormFactor (FORM) Stock Is Up Today",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQNFV0TTFQNkxfbnFMY0lvaHJCVXFiemVQWkt1cTA5dEVvN1o3YkJJY25kcXc2WUhCb0Q5dmQ2LWRxZmwyQUZmbjJGUk9jM1Z6M2FmM2RkcWZFckpTQ2pTSjlKV3Fqa3lERzVvTk1NY3JFWG5tZHJoczBJM1VaV0JkSEdXeHhTU3lxcG1PTjdBdEFIdVkzcU0yajhRTmtVZw?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 06 Jul 2026 15:46:06 GMT",
+        "pubdate_iso": "2026-07-06T15:46:06+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Why Dell (DELL) Stock Is Up Today",
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWUNtbGpvdjVMVktEWTI0ZGFieVpwM25hZ0RvcUIxemxKUmUyTUJGdDdpTk1aLVdLYUY1dmJPVmRiN0kxSGY5aEZ5MnRBTVBMd2ZYbVpDRks3cmZPc3JkVUhKaVR5SHNNQm1DN1VyUXIwd2l6ZnBVeVZPMk50UWx0T3RBM3VoUGNDZEJWSXlBc0tNakhUN1E?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 06 Jul 2026 15:45:43 GMT",
+        "pubdate_iso": "2026-07-06T15:45:43+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
     "macro_tech": [
       {
         "title": "Las bolsas, problema de ricos: así se pierden 3,5 billones de euros",
@@ -85,11 +114,11 @@
     ]
   },
   "stats": {
-    "total_noticias": 4,
+    "total_noticias": 6,
     "por_categoria": {
       "tesla": 1,
       "nvidia": 1,
-      "ia_semis": 0,
+      "ia_semis": 2,
       "macro_tech": 2
     }
   },
@@ -98,7 +127,7 @@
     "score_neto": 2,
     "n_positivas": 1,
     "n_negativas": 0,
-    "n_neutrales": 3,
+    "n_neutrales": 5,
     "narrativa": "El feed muestra 1 senales positivas y 0 negativas (neto +2). Factores dominantes: Rally de IA: impulso Nasdaq.",
     "narrativa_fuente": "plantilla",
     "veredicto": "Levemente ALCISTA"
