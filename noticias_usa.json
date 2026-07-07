@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-07T09:33:26.214135+00:00",
+  "updated_at_utc": "2026-07-07T10:03:25.761659+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -27,6 +27,20 @@
         "source": "TradingView",
         "pubdate": "Mon, 06 Jul 2026 19:41:11 GMT",
         "pubdate_iso": "2026-07-06T19:41:11+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "A Closer Look at Rivian and Lucid's Q2 Delivery Results",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQlBGS0kyVmR4V3RzTVlsWXJNaWVLRFFvTVdFTTNvS19JY3lyMXFEaVpsWUNjZUNlSm8xLTVqc0J1Z1pzN3N3UDF1UGpUNGdNVHVzR0RDUmg3bnI1ZWtmU2xHWmJjUXBmS1JMUWFueHYyRkNDOFhiUFVPRk16SF85bURFZG95UllKeFN0T3JBbklhREJyZkpZSmNtTERPTERyN3pPQUxhYWNLNXZRemtv?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 06 Jul 2026 15:45:00 GMT",
+        "pubdate_iso": "2026-07-06T15:45:00+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -170,9 +184,9 @@
     ]
   },
   "stats": {
-    "total_noticias": 10,
+    "total_noticias": 11,
     "por_categoria": {
-      "tesla": 1,
+      "tesla": 2,
       "nvidia": 3,
       "ia_semis": 3,
       "macro_tech": 3
@@ -183,7 +197,7 @@
     "score_neto": 4,
     "n_positivas": 2,
     "n_negativas": 0,
-    "n_neutrales": 8,
+    "n_neutrales": 9,
     "narrativa": "El feed muestra 2 senales positivas y 0 negativas (neto +4). Factores dominantes: Maximos historicos; Rally de IA: impulso Nasdaq.",
     "narrativa_fuente": "plantilla",
     "veredicto": "ALCISTA a corto plazo"
