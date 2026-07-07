@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-06T23:27:01.152065+00:00",
+  "updated_at_utc": "2026-07-07T01:27:02.531836+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "fed_tasas": {
@@ -29,6 +29,20 @@
   },
   "noticias_por_categoria": {
     "fed_tasas": [
+      {
+        "title": "US 10Y Yield Eases Ahead of FOMC Minutes",
+        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQeHI5MW9aU0g0cHFjT3hmUE16aEZTU091VDNWVWZZb1JSTFl0cEFoWjBuSzI3RC0zXzkxdmpLVExSODdDY3FOS184RFhpVjIwbmt0M2Y3NHBsV0FJdm04ejNwZURNTGxZbEtrMU1xdmxTOTF2MG82RWVKeDNWU2xfTFB0WEZqM3RFay0yWk13MXNfUXJI?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 06 Jul 2026 02:29:00 GMT",
+        "pubdate_iso": "2026-07-06T02:29:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
       {
         "title": "Bitcoin nears $63.5K into weekly close as trader warns of 'terrible' Monday",
         "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOdTk3VGRfYTZjekU1OHpzaHRmeDR2VjJKcDRmMDN2QmFXOFVwdzFHRlRsZWZtRUtyaWEzNkVwa0JnZXhsdktSdnJNSE1aYjRVRl9SdTFBVnY2QUstSl9lZ3pOdzUtR2toLUZvU2NqQVo2VHF0QU5zQTFjME5FTWs1TWZ1SFE2ZG9ZbXc1LXlXYURSSDFtYl83c0ctN0tLVnQtSmJJeDA1a0s1OGNwZy1vVnhoUjhzeGt6alFXTmF4SW9aazR2ZVlhQlI4endJQjF2?oc=5",
@@ -181,9 +195,9 @@
     "sentimiento": []
   },
   "stats": {
-    "total_noticias": 10,
+    "total_noticias": 11,
     "por_categoria": {
-      "fed_tasas": 1,
+      "fed_tasas": 2,
       "mercado": 1,
       "tech_nasdaq": 2,
       "economia": 1,
@@ -196,7 +210,7 @@
     "score_neto": 2,
     "n_positivas": 1,
     "n_negativas": 0,
-    "n_neutrales": 9,
+    "n_neutrales": 10,
     "narrativa": "El feed muestra 1 senales positivas y 0 negativas (neto +2). Factores dominantes: Rally de IA: impulso Nasdaq.",
     "narrativa_fuente": "plantilla",
     "veredicto": "Levemente ALCISTA"
