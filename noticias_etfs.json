@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-07T15:26:57.829268+00:00",
+  "updated_at_utc": "2026-07-07T17:27:00.417890+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "fed_tasas": {
@@ -86,11 +86,11 @@
         }
       },
       {
-        "title": "Bank of Mexico rate decision in August",
-        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxONWNnTFZNVElZX2pyMldKX0ZEcW1oanptdzhfY1ZpY1VwWERHMGU4OVdPTXZoeHJyVFpjd3VBcTVVOWptckdFMkRLOGNkcXdTaEtnMW4tSElBbzBMbXJYNE4xdWhaWGlQYW1LcXBDTkUyLVBKSlpSbW8wQ280RTA2Xw?oc=5",
+        "title": "Bank of Russia rate decision in July",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQd1hLVDg0S3pILTBiZ0cwOGV5anlveXdqZlRtNnZMUHhoNTVscWxoT3AyQWk2TmUxLTNBTEQxaGtzbExVTE9qV0JPSmR2SUNHVGExZ0hGRnVnX2JWUFZ2MTNBWUdNZzZkWnlSQzRRWHV2cmR2dk1CazE1MEc3M29odA?oc=5",
         "source": "Coinbase",
-        "pubdate": "Sun, 05 Jul 2026 10:27:24 GMT",
-        "pubdate_iso": "2026-07-05T10:27:24+00:00",
+        "pubdate": "Sun, 05 Jul 2026 08:25:48 GMT",
+        "pubdate_iso": "2026-07-05T08:25:48+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -100,7 +100,22 @@
         }
       }
     ],
-    "mercado": [],
+    "mercado": [
+      {
+        "title": "El mercado bursátil estadounidense hoy: suben los futuros del S&P 500 a medida que disminuyen las preocupaciones por la inflación",
+        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQNmdXSHhpZm5fTi11bFpmS1ZFME1odkJQVG5JQmM3WDdZVmR5aVNxb0NMZ28tckpfWFJmbW5lZ3o5VXh1Z2Z5OGNZR3lZSmtxOE02S0F0NkdrV1c4d194VEZkbS1RMy1PdEY4VHVCMTBhMC1PQndrNXRsTEtDWFk5R1FETXJtcW94NUhxclFTRGpneXVnN3hQX2tNVzY2OUdtN2hhelZaWkQ0VXUxWXRwYmMwbDJncG1MRF8ySUVGaXJXNDhHSnFrZXlFc9IB0wFBVV95cUxQakJIZS1VLW5talRUYU1TNnplX3ctT1NKQ2FFQ2NaYkR4d2R5R3c4aHJTbHZ1UVNYcTlrblVETW1xMUQ3TTNoQUdRUV9QdFhUcklvVmhMa3R3eDZKU1dTVnZCck1Qb1dqVnY5WjB4NFpwZTJOX1BvajFLa1ZxdlhSMTEyRzZYNDZkR3Q1ZEZSQXdXdzdSMjAyT010eWJHSlZjekhJOFpMbVVMN1AxamlQeXFnOVJtT0FTa2FhZnRwVFFsTkFTUGJvUFV5VW5lOFI5VFJ3?oc=5",
+        "source": "simplywall.st",
+        "pubdate": "Tue, 07 Jul 2026 14:01:42 GMT",
+        "pubdate_iso": "2026-07-07T14:01:42+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
     "tech_nasdaq": [
       {
         "title": "IT shares surge up to 4% ahead of TCS Q1 results; Infosys, Tech Mahindra, LTM lead gains",
@@ -279,10 +294,10 @@
     ]
   },
   "stats": {
-    "total_noticias": 17,
+    "total_noticias": 18,
     "por_categoria": {
       "fed_tasas": 5,
-      "mercado": 0,
+      "mercado": 1,
       "tech_nasdaq": 5,
       "economia": 1,
       "earnings": 5,
@@ -294,7 +309,7 @@
     "score_neto": 0,
     "n_positivas": 2,
     "n_negativas": 2,
-    "n_neutrales": 13,
+    "n_neutrales": 14,
     "narrativa": "El feed muestra 2 senales positivas y 2 negativas (neto +0). Factores dominantes: Acciones a la baja; Maximos historicos.",
     "narrativa_fuente": "plantilla",
     "veredicto": "NEUTRAL - sin sesgo dominante"
