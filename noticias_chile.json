@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-08T23:34:06.638702+00:00",
+  "updated_at_utc": "2026-07-09T01:33:57.379465+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "bcch_tpm": {
@@ -37,6 +37,20 @@
   },
   "noticias_por_categoria": {
     "bcch_tpm": [
+      {
+        "title": "El Banco Central mantiene la tasa de interés en 5,75%",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRzd5dk5wLU1YTXd6RmYxRGJXb1VTODdiQ0JCdzNlUUVZS1NzNUNsaDVWU3paUkppWE5uVHpCOUxqUW1iNUFDODl6Q2xXbS1OeXV4WGlWOVlCbGRZN2pNNjV6eTE0QXc2Nk9aVEpJMUtTZ2xWcDJGTVNieDF2YXJRTC1XOVJrYl9aZ001U25B?oc=5",
+        "source": "Caras y Caretas",
+        "pubdate": "Wed, 08 Jul 2026 21:19:00 GMT",
+        "pubdate_iso": "2026-07-08T21:19:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
       {
         "title": "Reportaje Banco Central IPoM junio 2026 Chile",
         "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE12SVR3dzQ4RFB1aFdEVWxUQ0tWZWViN1Raa2ZlcjVfc01sSk9mNm9KRkhwc2oyRko3QUFPdG00ZVRYYUczaTA3dGN3ZE1QT2FKRHN2ZmMxcFk1RUNPSkV2YVFFTklqWVNadW9jTWZjM3NJX2drM1Jz?oc=5",
@@ -142,11 +156,25 @@
     ],
     "economia_chile": [
       {
+        "title": "IPC de junio rompe expectativas: alimentos suben y la inflación anual llega a 4,3%",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNTDZCQUR0X3hRUll0a2lHTU1WeFlyODRUcUxmUXBLT0JuUmZSUnE4elFxVHJIMnNLZ2RmbmZRMFhOaGVRZFpGZno3ZXoyNkJqZi04SUljczBXVjdyMVF0dXl0dEF6Z19YRG1zWE1ZWEd5c3lqVks2TEVndkJvaHVJUEtDQkF1dFhHOTRPZjYwckhJMTY3V19ZNm9rUlhTdXh4T0t3X0lFbGZGOFI4cl9YYzg1Z1VOenh0MkxUbnVR?oc=5",
+        "source": "elmartutino.cl",
+        "pubdate": "Wed, 08 Jul 2026 23:48:34 GMT",
+        "pubdate_iso": "2026-07-08T23:48:34+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
         "title": "Qué esperar de los próximos datos de inflación en Chile tras el IPC de junio en 0% mensual",
-        "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNRTNna212aVFXV1JKa3ZmVUZQX2FXOUdjQWtmYjhRV3lJYjN4b0gtVlo4bjF2bDVVdEVKaUlaYmF6OTNpV2k3SGJ4eGNyT3ZpV1U1TkxucUU1R0NoTDNXd25STXZickloZGtBZEo2MmF5WXNNMFNQS1ZzemNRVk1DMEJHcmdrdFhkeVE0YXoyRHVaR19YYnBQQllwSEpsS2ZJZG5jbVJ6RDRoXzgwTURHUEZ0ai1xa0xQUWM1bDdMZXBuem9fZEt5WFJidnMwRHRNcGNWSjlOYTLSAewBQVVfeXFMTlY3V1R0WXkyNGVmYkpfaVd1MnNmTGlWcTU2dHVDdTdEdmNfWC1aS2hmRnZIeklWNHZwWkNyTlJYQ0VpN3ZkWnBXRTlqTGNvUXhTSkc2SWJRZEt5YVBxUEFNTTNlMWYtc1RpcnpTZk9JRW1wbXJYVkp6eGNSWkFVMXp1MG05UzRZYlRBZUYtUWJBeGNIOGtLTVg3S09zRGJ1YkRtUGRyTDl3V1NkSkIyNVBLU0NrM09rT19LU1ViX1lIZnoydG15bnByZm5EdG04SVZNb1N4QzZYaEt6S0JvNERUNlFfNTRmUGZudmo?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOVjdXVHRZeTI0ZWZiSl9pV3Uyc2ZMaVZxNTZ0dUN1N0R2Y19YLVpLaGZGdkh6SVY0dnBaQ3JOUlhDRWk3dmRacFdFOWpMY29ReFNKRzZJYlFkS3lhUHFQQU1NM2UxZi1zVGlyelNmT0lFbXBtclhWSnp4Y1JaQVUxenUwbTlTNFliVEFlRi1RYkF4Y0g4a0tNWDdLT3NEYnViRG1QZHJMOXdXU2RKQjI1UEtTQ2szT2tPX0tTVWJfWUhmejJ0bXlucHJmbkR0bThJVk1vU3hDNlhoS3pLQm80RFQ2UV81NGZQZm52atIB7AFBVV95cUxOVjdXVHRZeTI0ZWZiSl9pV3Uyc2ZMaVZxNTZ0dUN1N0R2Y19YLVpLaGZGdkh6SVY0dnBaQ3JOUlhDRWk3dmRacFdFOWpMY29ReFNKRzZJYlFkS3lhUHFQQU1NM2UxZi1zVGlyelNmT0lFbXBtclhWSnp4Y1JaQVUxenUwbTlTNFliVEFlRi1RYkF4Y0g4a0tNWDdLT3NEYnViRG1QZHJMOXdXU2RKQjI1UEtTQ2szT2tPX0tTVWJfWUhmejJ0bXlucHJmbkR0bThJVk1vU3hDNlhoS3pLQm80RFQ2UV81NGZQZm52ag?oc=5",
         "source": "Bloomberg Línea",
-        "pubdate": "Wed, 08 Jul 2026 21:18:08 GMT",
-        "pubdate_iso": "2026-07-08T21:18:08+00:00",
+        "pubdate": "Wed, 08 Jul 2026 21:28:08 GMT",
+        "pubdate_iso": "2026-07-08T21:28:08+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -171,7 +199,7 @@
       },
       {
         "title": "El IPC de junio en Chile no registra variación mensual, mientras que la inflación se acelera a 4,3%",
-        "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQMzF6c2J3M1czcVF2MDZlbUNKWG4wdUFEVGZMcGZQY3pUZ1VBNUU5Nmp1SlNnNmdhZ2dUeFN6eHlqS1Nlak1DTEtSbXVaekNXa0pyQTZncVJMMmFwa3JYM1BVZmVUZllmZ2xuY0lxcGN5aGNDYVZnM2RFWXRqbEtNX1lHeW9ONWVUdFZNc3lGS3JPUmMxNVJsRjFrcVdSbUxXOHptMFVtRFVFbjVJUkV5d09NaHFvZG1GX1F5aHJmNTNSaTVEemtubUtqMEg4NlZhaVplWkxWSlhUUjlJblpV0gHfAUFVX3lxTFB4NU9oUTVCQkZMOVdSbDY2UW9pV1piamhRSWR2WFlwVGx4REVZTGN4bXoxZU94MWVSaUloNXJfRGozcHlONGFuVEc4UGdDSkpjbnFyQ3JOcFVGajNOUjdob2RMYW5wNkZoRjZjWXZnZDRVZTRYcXBQZHdIbDAwY3lpRDlEVlFIT3gzTzRDbkdRZWVONU9qLTZ2cFhTX3lUU05Jdko2NlpFaFdHNmY3dEV2Q1NOR0ZlYkNjYTQxSjlUX1NjVHlyT29IRzNmSkJhdlFfZTNTaGZNU0NHVDZFbEk?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQeDVPaFE1QkJGTDlXUmw2NlFvaVdaYmpoUUlkdlhZcFRseERFWUxjeG16MWVPeDFlUmlJaDVyX0RqM3B5TjRhblRHOFBnQ0pKY25xckNyTnBVRmozTlI3aG9kTGFucDZGaEY2Y1l2Z2Q0VWU0WHFwUGR3SGwwMGN5aUQ5RFZRSE94M080Q25HUWVlTjVPai02dnBYU195VFNOSXZKNjZaRWhXRzZmN3RFdkNTTkdGZWJDY2E0MUo5VF9TY1R5ck9vSEczZkpCYXZRX2UzU2hmTVNDR1Q2RWxJ0gHfAUFVX3lxTFB4NU9oUTVCQkZMOVdSbDY2UW9pV1piamhRSWR2WFlwVGx4REVZTGN4bXoxZU94MWVSaUloNXJfRGozcHlONGFuVEc4UGdDSkpjbnFyQ3JOcFVGajNOUjdob2RMYW5wNkZoRjZjWXZnZDRVZTRYcXBQZHdIbDAwY3lpRDlEVlFIT3gzTzRDbkdRZWVONU9qLTZ2cFhTX3lUU05Jdko2NlpFaFdHNmY3dEV2Q1NOR0ZlYkNjYTQxSjlUX1NjVHlyT29IRzNmSkJhdlFfZTNTaGZNU0NHVDZFbEk?oc=5",
         "source": "LaRepublica.co",
         "pubdate": "Wed, 08 Jul 2026 15:01:14 GMT",
         "pubdate_iso": "2026-07-08T15:01:14+00:00",
@@ -189,20 +217,6 @@
         "source": "MiradaSurTV",
         "pubdate": "Wed, 08 Jul 2026 14:39:54 GMT",
         "pubdate_iso": "2026-07-08T14:39:54+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "IPC de junio 2026: Inflación registra nula variación mensual y se sitúa en 4,3%",
-        "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBXdVByVno0cm1mQkpJdkNudGEwMXVXVGFGMHhSdjYyZHhYc1ltWDhhN1lzM3M5ZjBtQnRyRTJkem1vNl9UdVZjSW9ndjhZOVJWZXdBLUVJSEZrMXlZZ3piRmI2OGVRdFg0SThPVWxxMEx2anFDcFRYNjdTQ1hZdw?oc=5",
-        "source": "Paislobo Prensa",
-        "pubdate": "Wed, 08 Jul 2026 13:08:00 GMT",
-        "pubdate_iso": "2026-07-08T13:08:00+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -320,9 +334,9 @@
   },
   "hechos_esenciales_por_ticker": {},
   "stats": {
-    "total_noticias": 19,
+    "total_noticias": 20,
     "por_categoria": {
-      "bcch_tpm": 1,
+      "bcch_tpm": 2,
       "ipsa": 1,
       "dolar_cobre": 5,
       "economia_chile": 5,
@@ -338,7 +352,7 @@
     "score_neto": -4,
     "n_positivas": 0,
     "n_negativas": 2,
-    "n_neutrales": 17,
+    "n_neutrales": 18,
     "narrativa": "El feed muestra 0 senales positivas y 2 negativas (neto -4). Factores dominantes: Dolar disparado: estres cambiario; Reforma tributaria: incertidumbre impositiva.",
     "narrativa_fuente": "plantilla",
     "veredicto": "BAJISTA a corto plazo"
