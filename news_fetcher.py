@@ -307,13 +307,7 @@ def main():
     log.info(f"Medios: {[s['name'] for s in SITIOS]}")
     log.info(f"Watchlist: {list(WATCHLIST_KEYWORDS.keys())}")
 
-    # Git pull para evitar conflictos con otras tareas (acciones, prices)
-    log.info("--- Git pull ---")
-    code, out, err = ejecutar_git(["pull", "--rebase", "--autostash"])
-    if code != 0:
-        log.warning(f"git pull devolvio codigo {code}: {err}")
-    else:
-        log.info("git pull OK")
+    # [PLAN-B] git neutralizado: publicar.py se encarga del push
 
     # Cargar IDs estables del JSON anterior para detectar cambios reales
     # - Hechos esenciales: doc_id (estable, no incluye token t=)

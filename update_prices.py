@@ -163,7 +163,7 @@ async def main():
     if hubo_cambios:
         log.info("--- Hay cambios significativos: committing ---")
         # push con lock compartido para evitar choques entre tareas
-        with git_lock():
+        if False:  # [PLAN-B] git neutralizado: publicar.py se encarga del push
             code, out, err = ejecutar_git(['add', 'prices.json'])
             if code != 0:
                 log.error(f"git add falló: {err}")

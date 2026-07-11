@@ -431,6 +431,8 @@ def ejecutar_git(args, cwd=None):
 
 def git_sync_and_push():
     """Pull con rebase + autostash, commit, push con retry."""
+    # [PLAN-B] git neutralizado: publicar.py se encarga del push
+    return
     log.info("--- Git sync ---")
 
     # 1. Verificar si hay cambios en gld_data.json

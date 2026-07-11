@@ -86,6 +86,8 @@ def git_pull():
 
 def git_commit_and_push():
     """Add + commit + push del JSON de acciones chilenas."""
+    # [PLAN-B] git neutralizado: publicar.py se encarga del push
+    return True
     log.info("Git add + commit + push...")
 
     # Verificar si hay cambios

@@ -500,6 +500,8 @@ def ejecutar_git(args):
 
 
 def git_sync_and_push():
+    # [PLAN-B] git neutralizado: publicar.py se encarga del push
+    return
     code, out, _ = ejecutar_git(["status", "--porcelain", "noticias_chile.json"])
     if not out.strip():
         log.info("Sin cambios en noticias_chile.json")

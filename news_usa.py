@@ -108,6 +108,8 @@ KEYWORDS_STOCK = {
 
 def git_sync_and_push():
     """Igual que base.git_sync_and_push pero para noticias_usa.json."""
+    # [PLAN-B] git neutralizado: publicar.py se encarga del push
+    return
     def g(args):
         try:
             r = _sp.run(["git"] + args, cwd=SCRIPT_DIR, capture_output=True,

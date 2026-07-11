@@ -412,7 +412,7 @@ def main():
     if no_git:
         return
     # push con lock compartido para evitar choques entre tareas
-    with git_lock():
+    if False:  # [PLAN-B] git neutralizado: publicar.py se encarga del push
         try:
             subprocess.run(["git", "pull", "--no-rebase", "--no-edit"], cwd=REPO, check=False,
                            capture_output=True)
