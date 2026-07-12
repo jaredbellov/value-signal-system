@@ -23,13 +23,13 @@ from pathlib import Path
 REPO = Path(r"C:\value-signal-local\repo")
 LOG_PATH = REPO / "publicar.log"
 
+_handlers = [logging.FileHandler(LOG_PATH, encoding="utf-8")]
+if sys.stdout is not None:  # con pythonw no hay consola
+    _handlers.append(logging.StreamHandler(sys.stdout))
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s | %(levelname)s | %(message)s",
-    handlers=[
-        logging.FileHandler(LOG_PATH, encoding="utf-8"),
-        logging.StreamHandler(sys.stdout),
-    ],
+    handlers=_handlers,
 )
 log = logging.getLogger("publicar")
 
