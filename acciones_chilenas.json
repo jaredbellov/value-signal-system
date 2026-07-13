@@ -1,6 +1,6 @@
 {
-  "fecha_actualizacion": "2026-07-13T16:12:54.043505",
-  "duracion_segundos": 365.430989,
+  "fecha_actualizacion": "2026-07-13T16:22:11.711434",
+  "duracion_segundos": 338.01033,
   "n_acciones": 17,
   "acciones": [
     {
@@ -432,7 +432,7 @@
           "unidad": "Miles"
         }
       ],
-      "_fecha_dato": "2026-07-13T16:12:54.043468"
+      "_fecha_dato": "2026-07-13T16:22:11.711388"
     },
     {
       "ticker": "ZOFRI",
@@ -863,7 +863,7 @@
           "unidad": "Miles"
         }
       ],
-      "_fecha_dato": "2026-07-13T16:12:54.043468"
+      "_fecha_dato": "2026-07-13T16:22:11.711388"
     },
     {
       "ticker": "PEHUENCHE",
@@ -1290,7 +1290,7 @@
           "unidad": "Miles"
         }
       ],
-      "_fecha_dato": "2026-07-13T16:12:54.043468"
+      "_fecha_dato": "2026-07-13T16:22:11.711388"
     },
     {
       "ticker": "TRICAHUE",
@@ -1717,7 +1717,7 @@
           "unidad": "Miles"
         }
       ],
-      "_fecha_dato": "2026-07-13T16:12:54.043468"
+      "_fecha_dato": "2026-07-13T16:22:11.711388"
     },
     {
       "ticker": "COLBUN",
@@ -2148,7 +2148,7 @@
           "unidad": "Miles"
         }
       ],
-      "_fecha_dato": "2026-07-13T16:12:54.043468"
+      "_fecha_dato": "2026-07-13T16:22:11.711388"
     },
     {
       "ticker": "ENELGXCH",
@@ -2579,7 +2579,7 @@
           "unidad": "Miles"
         }
       ],
-      "_fecha_dato": "2026-07-13T16:12:54.043468"
+      "_fecha_dato": "2026-07-13T16:22:11.711388"
     },
     {
       "ticker": "LIPIGAS",
@@ -3009,7 +3009,7 @@
           "unidad": "Miles"
         }
       ],
-      "_fecha_dato": "2026-07-13T16:12:54.043468"
+      "_fecha_dato": "2026-07-13T16:22:11.711388"
     },
     {
       "ticker": "NTGCLGAS",
@@ -3440,7 +3440,7 @@
           "unidad": "Miles"
         }
       ],
-      "_fecha_dato": "2026-07-13T16:12:54.043468"
+      "_fecha_dato": "2026-07-13T16:22:11.711388"
     },
     {
       "ticker": "SOQUICOM",
@@ -3871,7 +3871,7 @@
           "unidad": "Miles"
         }
       ],
-      "_fecha_dato": "2026-07-13T16:12:54.043468"
+      "_fecha_dato": "2026-07-13T16:22:11.711388"
     },
     {
       "ticker": "QUINENCO",
@@ -4302,7 +4302,7 @@
           "unidad": "Miles"
         }
       ],
-      "_fecha_dato": "2026-07-13T16:12:54.043468"
+      "_fecha_dato": "2026-07-13T16:22:11.711388"
     },
     {
       "ticker": "CENCOMALLS",
@@ -4733,7 +4733,7 @@
           "unidad": "Miles"
         }
       ],
-      "_fecha_dato": "2026-07-13T16:12:54.043468"
+      "_fecha_dato": "2026-07-13T16:22:11.711388"
     },
     {
       "ticker": "ENELAM",
@@ -4746,11 +4746,25 @@
       "precio_actual_clp": 84.2,
       "razon_social": "ENEL AMERICAS S.A.",
       "variacion_pct": -1.41,
-      "dy": null,
+      "dy": {
+        "dy_pct": 3.91,
+        "anos_usados": 3,
+        "anos_detalle": {
+          "2025": 6.99,
+          "2024": 2.2,
+          "2022": 0.7
+        },
+        "promedio_anual": 3.29,
+        "advertencia": null
+      },
       "cagr_3y": -0.08796939252083102,
       "cagr_5y": -0.04856819054258521,
       "cagr_10y": -0.03261866061164387,
-      "evaluacion": null,
+      "evaluacion": {
+        "status": "Bajo benchmark",
+        "emoji": "🔴",
+        "vs_benchmark_pp": -4.59
+      },
       "cmf": {
         "periodo": "03/2026",
         "tipo_balance": "CONSOLIDADO",
@@ -4765,7 +4779,80 @@
         "capital_trabajo": -1086725.0,
         "patrimonio_total": 19869062.0
       },
-      "dividendos_recientes": [],
+      "dividendos_recientes": [
+        {
+          "fecha_pago": "2026-05-20",
+          "fecha_limite": "2026-05-14",
+          "monto_clp": 1.676005588,
+          "tipo": "DEFINITIVO",
+          "moneda_origen": "USD",
+          "descripcion": "DIVIDENDO DEF. 111 US$ 0,001862414673039"
+        },
+        {
+          "fecha_pago": "2026-01-23",
+          "fecha_limite": "2026-01-17",
+          "monto_clp": 0.82637543,
+          "tipo": "PROVISORIO",
+          "moneda_origen": "USD",
+          "descripcion": "DIVIDENDO PROV. 110 US$0,000934211459635"
+        },
+        {
+          "fecha_pago": "2025-05-29",
+          "fecha_limite": "2025-05-23",
+          "monto_clp": 3.573752433,
+          "tipo": "DEFINITIVO",
+          "moneda_origen": "USD",
+          "descripcion": "DIVIDENDO DEF. 109 US$ 0,003792946830629"
+        },
+        {
+          "fecha_pago": "2025-01-31",
+          "fecha_limite": "2025-01-25",
+          "monto_clp": 3.412305356,
+          "tipo": "PROVISORIO",
+          "moneda_origen": "USD",
+          "descripcion": "DIVIDENDO PROV 108 US$ 0,003447365058742"
+        },
+        {
+          "fecha_pago": "2024-05-30",
+          "fecha_limite": "2024-05-24",
+          "monto_clp": 1.196361531,
+          "tipo": "DEFINITIVO",
+          "moneda_origen": "USD",
+          "descripcion": "DIVIDENDO DEF. 107 US$ 0,001322428654947"
+        },
+        {
+          "fecha_pago": "2024-01-26",
+          "fecha_limite": "2024-01-20",
+          "monto_clp": 1.005368143,
+          "tipo": "PROVISORIO",
+          "moneda_origen": "USD",
+          "descripcion": "DIVIDENDO PROV US$ 0,001094433109639"
+        },
+        {
+          "fecha_pago": "2022-05-31",
+          "fecha_limite": "2022-05-25",
+          "monto_clp": 0.997077198,
+          "tipo": "OTRO",
+          "moneda_origen": "USD",
+          "descripcion": "DIVIDENDO D. 105 US$ 0,00120189131965822"
+        },
+        {
+          "fecha_pago": "2022-01-28",
+          "fecha_limite": "2022-01-22",
+          "monto_clp": 0.695222434,
+          "tipo": "PROVISORIO",
+          "moneda_origen": "USD",
+          "descripcion": "DIVID. PROV 104 US$ 0,00086986528797556"
+        },
+        {
+          "fecha_pago": "2021-05-28",
+          "fecha_limite": "2021-05-22",
+          "monto_clp": 1.163963405,
+          "tipo": "DEFINITIVO",
+          "moneda_origen": "USD",
+          "descripcion": "DIVID. DEF 103 US$ 0,00162721534077627"
+        }
+      ],
       "error": null,
       "serie_precio": [
         {
@@ -5069,7 +5156,7 @@
           "unidad": "Miles"
         }
       ],
-      "_fecha_dato": "2026-07-13T16:12:54.043468"
+      "_fecha_dato": "2026-07-13T16:22:11.711388"
     },
     {
       "ticker": "AGUAS-A",
@@ -5082,11 +5169,25 @@
       "precio_actual_clp": 337.27,
       "razon_social": "AGUAS ANDINAS S.A., SERIE A",
       "variacion_pct": -0.51,
-      "dy": null,
+      "dy": {
+        "dy_pct": 4.97,
+        "anos_usados": 3,
+        "anos_detalle": {
+          "2025": 21.09,
+          "2024": 14.47,
+          "2023": 14.75
+        },
+        "promedio_anual": 16.77,
+        "advertencia": null
+      },
       "cagr_3y": 0.06034759346796981,
       "cagr_5y": 0.19743356913491628,
       "cagr_10y": -0.016291909743663235,
-      "evaluacion": null,
+      "evaluacion": {
+        "status": "Bajo benchmark",
+        "emoji": "🔴",
+        "vs_benchmark_pp": -3.53
+      },
       "cmf": {
         "periodo": "03/2026",
         "tipo_balance": "CONSOLIDADO",
@@ -5101,7 +5202,88 @@
         "capital_trabajo": 126997971.0,
         "patrimonio_total": 1383865704.0
       },
-      "dividendos_recientes": [],
+      "dividendos_recientes": [
+        {
+          "fecha_pago": "2026-04-30",
+          "fecha_limite": "2026-04-24",
+          "monto_clp": 10.27238,
+          "tipo": "DEFINITIVO",
+          "moneda_origen": "CLP",
+          "descripcion": "DIVIDENDO DEF 81 $ 10,27238"
+        },
+        {
+          "fecha_pago": "2025-12-02",
+          "fecha_limite": "2025-11-26",
+          "monto_clp": 6.86391,
+          "tipo": "PROVISORIO",
+          "moneda_origen": "CLP",
+          "descripcion": "DIVIDENDO PROV. 80 $ 6,86391"
+        },
+        {
+          "fecha_pago": "2025-04-28",
+          "fecha_limite": "2025-04-22",
+          "monto_clp": 7.92426,
+          "tipo": "DEFINITIVO",
+          "moneda_origen": "CLP",
+          "descripcion": "DIVIDENDO DEF 79 $ 7,92426"
+        },
+        {
+          "fecha_pago": "2025-01-10",
+          "fecha_limite": "2025-01-04",
+          "monto_clp": 6.3,
+          "tipo": "PROVISORIO",
+          "moneda_origen": "CLP",
+          "descripcion": "DIVIDENDO PROV. 78 $ 6,3"
+        },
+        {
+          "fecha_pago": "2024-05-17",
+          "fecha_limite": "2024-05-11",
+          "monto_clp": 14.46954,
+          "tipo": "DEFINITIVO",
+          "moneda_origen": "CLP",
+          "descripcion": "DIVIDENDO DEF. 77 $ 14,46954"
+        },
+        {
+          "fecha_pago": "2023-12-15",
+          "fecha_limite": "2023-12-09",
+          "monto_clp": 6.53705,
+          "tipo": "PROVISORIO",
+          "moneda_origen": "CLP",
+          "descripcion": "DIVIDENDO PROV 76 $ 6,53705"
+        },
+        {
+          "fecha_pago": "2023-04-28",
+          "fecha_limite": "2023-04-22",
+          "monto_clp": 8.21196,
+          "tipo": "DEFINITIVO",
+          "moneda_origen": "CLP",
+          "descripcion": "DIVIDENDO DEF 75 $ 8,21196"
+        },
+        {
+          "fecha_pago": "2022-12-16",
+          "fecha_limite": "2022-12-10",
+          "monto_clp": 5.71993,
+          "tipo": "PROVISORIO",
+          "moneda_origen": "CLP",
+          "descripcion": "DIVIDENDO PROV  $ 5,71993"
+        },
+        {
+          "fecha_pago": "2022-03-29",
+          "fecha_limite": "2022-03-23",
+          "monto_clp": 7.02734,
+          "tipo": "ADICIONAL",
+          "moneda_origen": "CLP",
+          "descripcion": "DIVIDENDO ADIC 73 $ 7,02734"
+        },
+        {
+          "fecha_pago": "2021-11-08",
+          "fecha_limite": "2021-11-02",
+          "monto_clp": 6.5371,
+          "tipo": "PROVISORIO",
+          "moneda_origen": "CLP",
+          "descripcion": "DIVIDENDO PROV 72 $ 6,5371"
+        }
+      ],
       "error": null,
       "serie_precio": [
         {
@@ -5405,7 +5587,7 @@
           "unidad": "Miles"
         }
       ],
-      "_fecha_dato": "2026-07-13T16:12:54.043468"
+      "_fecha_dato": "2026-07-13T16:22:11.711388"
     },
     {
       "ticker": "PARAUCO",
@@ -5828,7 +6010,7 @@
           "unidad": "Miles"
         }
       ],
-      "_fecha_dato": "2026-07-13T16:12:54.043468"
+      "_fecha_dato": "2026-07-13T16:22:11.711388"
     },
     {
       "ticker": "MALLPLAZA",
@@ -6251,7 +6433,7 @@
           "unidad": "Miles"
         }
       ],
-      "_fecha_dato": "2026-07-13T16:12:54.043468"
+      "_fecha_dato": "2026-07-13T16:22:11.711388"
     },
     {
       "ticker": "CCU",
@@ -6682,7 +6864,7 @@
           "unidad": "Miles"
         }
       ],
-      "_fecha_dato": "2026-07-13T16:12:54.043468"
+      "_fecha_dato": "2026-07-13T16:22:11.711388"
     },
     {
       "ticker": "OXIQUIM",
@@ -7105,7 +7287,7 @@
           "unidad": "Miles"
         }
       ],
-      "_fecha_dato": "2026-07-13T16:12:54.043468"
+      "_fecha_dato": "2026-07-13T16:22:11.711388"
     }
   ]
 }

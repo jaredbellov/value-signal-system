@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-13T20:03:26.743940+00:00",
+  "updated_at_utc": "2026-07-13T20:33:27.709180+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -37,15 +37,30 @@
         }
       }
     ],
-    "ia_semis": [],
+    "ia_semis": [
+      {
+        "title": "China adds 10 US firms, including rare-earth miner, to export control list",
+        "link": "https://news.google.com/rss/articles/CBMi2gJBVV95cUxORmdQbnhmNFNLQXJpdHNkQnJWR3lXTnVzd1hrR0JMU2w2SzV4SGIxY2htaVNuOTFHdm5PSS02ZW1CaWU3UzhwcVlPQ1pHeExvWUloSVZxVVdFTUh3TUp4SldnbXFTdy1TZ25YS19SQlN0WUxMOVFsbDIzV1FVeHdYQVMxWnBiOUpvNTJXcVdfN2lqTFQ5WnhUejdwS3dNZ2oyZkhTN3pFUGp3bjJRekdkSGFQWC1sS09PQnhrWWNGT09FM1dmd0VGNmRoRmFlaEdIRmx0UkpJZ0VDWm1vZUxqYXg2RzlzNTlmblFJOGg5WWM5NVNZVVhVcVZHNGlNaTZoN3ZsQTVIcUJMM0tVMG1TRTNMT1dtUkUyVWRXUTloUmlIbWZKUmx4emh3N2NPdGJvVmRacmNyeVEzT3VUYTVXRktua1BjbTZEZWlPeFlRVGRHQ2dOMHpNSkh3?oc=5",
+        "source": "MSN",
+        "pubdate": "Mon, 13 Jul 2026 08:21:53 GMT",
+        "pubdate_iso": "2026-07-13T08:21:53+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
     "macro_tech": []
   },
   "stats": {
-    "total_noticias": 1,
+    "total_noticias": 2,
     "por_categoria": {
       "tesla": 0,
       "nvidia": 1,
-      "ia_semis": 0,
+      "ia_semis": 1,
       "macro_tech": 0
     }
   },
@@ -54,7 +69,7 @@
     "score_neto": 0,
     "n_positivas": 0,
     "n_negativas": 0,
-    "n_neutrales": 1,
+    "n_neutrales": 2,
     "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
     "narrativa_fuente": "plantilla",
     "veredicto": "NEUTRAL - sin sesgo dominante"
