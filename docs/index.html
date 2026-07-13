@@ -2077,13 +2077,18 @@ function evalSaludChile(a){
 
   if(c.roe_pct!=null){
     const v=c.roe_pct;
-    const vJ = facAnual ? v*facAnual : v;           // se juzga el anualizado
+    const roePer=c.roe_periodo||null;               // backend nuevo: ROE ya ANUAL
+    const yaAnual=!!roePer;
+    const vJ = (!yaAnual && facAnual) ? v*facAnual : v;  // solo anualiza JSON antiguo
     const cls=vJ>=15?"ok":vJ>=8?"mid":"bad";
-    const label = facAnual
-      ? `ROE ${fmt.pct(v)} (parcial) ≈ ${fmt.pct(vJ)} anualizado`
-      : `ROE ${fmt.pct(v)}`;
+    const aprox = yaAnual && /aprox/i.test(roePer);
+    const label = yaAnual
+      ? `ROE ${fmt.pct(v)}${aprox?" (anualizado aprox.)":""}`
+      : (facAnual ? `ROE ${fmt.pct(v)} (parcial) ≈ ${fmt.pct(vJ)} anualizado` : `ROE ${fmt.pct(v)}`);
     const txt = (vJ>=15?"alto valor al accionista (≥15%).":vJ>=8?"rentabilidad media sobre patrimonio.":"rentabilidad baja en el período reportado.")
-      + (facAnual?" Anualización lineal aproximada: confirma con el promedio de 5 años.":"");
+      + (yaAnual
+          ? ` Fuente: CMF ${esc(roePer)} — utilidad de 12 meses ÷ patrimonio. Confirma con el promedio de 5 años.`
+          : (facAnual?" Anualización lineal aproximada: confirma con el promedio de 5 años.":""));
     rows.push([cls,label,txt]);
   }
   if(c.margen_neto_pct!=null){
@@ -2115,7 +2120,13 @@ function evalSaludChile(a){
   const periodo=c.periodo||"";
   const parcial=/^(03|06|09)\//.test(periodo);
   const fuente = a.cmf ? "CMF" : (c.fuente||"estados financieros");
-  const note = `Datos ${esc(fuente)} ${esc(periodo)}${parcial&&a.cmf?" (período parcial: el ROE y márgenes no están anualizados — para el filtro de compra usa el promedio de 5 años)":""}. La foto de un período no reemplaza la tendencia de 5 años.`;
+  const roeSrc = (a.cmf && c.roe_periodo) ? ` · ROE: cierre anual CMF ${esc(c.roe_periodo)}` : "";
+  const aviso = (parcial && a.cmf)
+    ? (c.roe_periodo
+        ? " (balance, liquidez y márgenes del trimestre; el ROE viene del cierre anual)"
+        : " (período parcial: el ROE y márgenes no están anualizados — para el filtro de compra usa el promedio de 5 años)")
+    : "";
+  const note = `Datos ${esc(fuente)} ${esc(periodo)}${roeSrc}${aviso}. La foto de un período no reemplaza la tendencia de 5 años.`;
   return {rows,concl,note};
 }
 
