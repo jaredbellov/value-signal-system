@@ -2093,7 +2093,9 @@ function evalSaludChile(a){
   }
   if(c.margen_neto_pct!=null){
     const v=c.margen_neto_pct, cls=v>=20?"ok":v>=10?"mid":"bad";
-    rows.push([cls,`Margen neto ${fmt.pct(v)}`, v>=20?"muy bueno (≥20%): negocio de alta rentabilidad.":v>=10?"margen razonable.":"margen bajo: probablemente negocio de volumen."]);
+    const mPer=c.margen_periodo||null;
+    rows.push([cls,`Margen neto ${fmt.pct(v)}`, (v>=20?"muy bueno (≥20%): negocio de alta rentabilidad.":v>=10?"margen razonable.":"margen bajo: probablemente negocio de volumen.")
+      + (mPer?` Fuente: CMF ${esc(mPer)} — utilidad ÷ ingresos.`:"")]);
   }
   if(c.razon_endeudamiento_pct!=null){
     const v=c.razon_endeudamiento_pct;
@@ -2123,7 +2125,7 @@ function evalSaludChile(a){
   const roeSrc = (a.cmf && c.roe_periodo) ? ` · ROE: cierre anual CMF ${esc(c.roe_periodo)}` : "";
   const aviso = (parcial && a.cmf)
     ? (c.roe_periodo
-        ? " (balance, liquidez y márgenes del trimestre; el ROE viene del cierre anual)"
+        ? " (balance y liquidez del trimestre; ROE y margen del cierre anual)"
         : " (período parcial: el ROE y márgenes no están anualizados — para el filtro de compra usa el promedio de 5 años)")
     : "";
   const note = `Datos ${esc(fuente)} ${esc(periodo)}${roeSrc}${aviso}. La foto de un período no reemplaza la tendencia de 5 años.`;

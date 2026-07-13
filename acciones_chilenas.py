@@ -428,11 +428,15 @@ async def analizar_ticker(ticker_config, bcs_client):
             # meses) -> subestima ~4x. Aca lo recalculamos con el cierre anual.
             roe_anual_pct = None
             roe_periodo = None
+            margen_anual_pct = None
+            margen_periodo = None
             try:
                 _mm, _aa = cmf_ef.periodo.split("/")
                 if _mm == "12":
                     roe_anual_pct = roe_pct
                     roe_periodo = cmf_ef.periodo
+                    margen_anual_pct = margen_neto_pct
+                    margen_periodo = cmf_ef.periodo
                 else:
                     _aa_cierre = int(_aa) - 1
                     cmf_anual = obtener_estados_financieros(ticker, mm=12, aa=_aa_cierre)
@@ -448,11 +452,18 @@ async def analizar_ticker(ticker_config, bcs_client):
                         if _util_a and _patr_a and _patr_a > 0:
                             roe_anual_pct = (_util_a / _patr_a) * 100
                             roe_periodo = f"12/{_aa_cierre}"
+                        _ing_a = _valor_mas_reciente(_eerr_a.get("ingresos_ordinarios"))
+                        if _util_a and _ing_a and _ing_a != 0:
+                            margen_anual_pct = (_util_a / _ing_a) * 100
+                            margen_periodo = f"12/{_aa_cierre}"
                 if roe_anual_pct is None and roe_pct is not None:
                     _meses = int(_mm)
                     if 1 <= _meses <= 12:
                         roe_anual_pct = roe_pct * (12 / _meses)
                         roe_periodo = f"{cmf_ef.periodo} anualizado (aprox)"
+                if margen_anual_pct is None and margen_neto_pct is not None:
+                    margen_anual_pct = margen_neto_pct
+                    margen_periodo = cmf_ef.periodo
             except Exception as _e_roe:
                 log.warning(f"  ROE anual fallo para {ticker}: {_e_roe}")
                 if roe_anual_pct is None:
@@ -466,7 +477,8 @@ async def analizar_ticker(ticker_config, bcs_client):
                 "unidad": cmf_ef.unidad,
                 "roe_pct": round(roe_anual_pct, 2) if roe_anual_pct else None,
                 "roe_periodo": roe_periodo,
-                "margen_neto_pct": round(margen_neto_pct, 2) if margen_neto_pct else None,
+                "margen_neto_pct": round(margen_anual_pct, 2) if margen_anual_pct is not None else (round(margen_neto_pct, 2) if margen_neto_pct else None),
+                "margen_periodo": margen_periodo,
                 "razon_endeudamiento_pct": round(indicadores.get("razon_endeudamiento_pct", 0), 2)
                     if "razon_endeudamiento_pct" in indicadores else None,
                 "razon_corriente": round(indicadores.get("razon_corriente", 0), 2)
