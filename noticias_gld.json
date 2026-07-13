@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-13T16:39:35.303468+00:00",
+  "updated_at_utc": "2026-07-13T18:39:36.182805+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "precio": {
@@ -100,7 +100,36 @@
         }
       }
     ],
-    "fed_macro": [],
+    "fed_macro": [
+      {
+        "title": "Crece probabilidad de que Fed suba tasa en reunión de julio",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxObzUzSWNxZDBfcHBfTHVHcnItdVV0NWdWNGR3bHREcEhlSGpCcE5RVEhLZUk5bk5uZWpLWFNQM1o1NllRMHZuUkhuVHdIQXRGeE5DUXRGbmVXcjZjNmtlNGZ4M1VaX2ROMVZSeXM1d2JqMGUzLXNOUUViY1VyME92VDYxXy1la1BQM0NCZEMxdElxZ3FPNUMwbQ?oc=5",
+        "source": "Reforma",
+        "pubdate": "Mon, 13 Jul 2026 17:58:05 GMT",
+        "pubdate_iso": "2026-07-13T17:58:05+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Waller advierte que la Fed podría subir las tasas si la inflación no cede",
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPYk1XLTUtYXBLTjVpVzJqWXZiMDVMYnh6QVEwVGRvcDRxWnA2aG5Xbi1PS1hzeGpmTTJVUXlPS05KcnlwMTZCYWFoZVZZa0hob25tMDNrQlB0MzVMdlQ1Z1c3VWE2Snl1MTdSaVVVbjJaajltcEFQUVJIcHdwX2NQemw2dEVUSnZYdmpIWXprUFF1Zw?oc=5",
+        "source": "Yahoo Finanzas",
+        "pubdate": "Mon, 13 Jul 2026 17:05:37 GMT",
+        "pubdate_iso": "2026-07-13T17:05:37+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
     "dolar": [
       {
         "title": "Índice del Dólar: El rango se mantiene mientras los mercados esperan a Warsh y el IPC – DBS",
@@ -203,6 +232,20 @@
         }
       },
       {
+        "title": "Bancos centrales aumentan reservas de oro ante incertidumbre global",
+        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOaGN3bnRGU19LTFlGUDgxZm8ycDJacWxnMlo3WUxnd3JLVHYzS0ZyR2w0bzN4Y1owZk5FZE9JakktTTMyUkFxbjRkcWNLekdERG1wRnZTeG9lUjdPWDdaLVc1djkxZ042a2gzOTBzRzNvQ05lYkZzY1BSYnd5VF9xNkx2dzV6RWRuMkRIV1hVTDRfcC1sd01VdDBWSjBPSC1pTGtQeHJVMmdORERk0gGgAUFVX3lxTE02Ry1ndTNreVl6Q3RfUU9NWGVhWVphNFdaVC1HMm9YcVB0clcxN2ROcUNyc1h6clhQSzRrekNIODJPWHRnYlVwcUdhSjdhb3kxT3VsQ0lLajYwX1lMRGVqdkdhSEV3dG0wQzJVMHRGblRqMVRnS0hCRDl5eHRGRGRvSkxvV3BmT0dndEZ1blJOSWhuY1BwSDYyVlNBMTByY18?oc=5",
+        "source": "eltiempomx.com",
+        "pubdate": "Mon, 13 Jul 2026 04:00:58 GMT",
+        "pubdate_iso": "2026-07-13T04:00:58+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🟢",
+          "razonamiento": "Acumulacion de reservas de oro"
+        }
+      },
+      {
         "title": "Bancos centrales acumulan 1,000 toneladas de oro en sus reservas",
         "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOX0IwTG1OQ1NFcG1wQ0J4dzNNYmM5emNFMVZGcWEyN0NEYzVGTzJwLXEtNlNOR3pWWFFWZEw5N2JqcXQtUGxFeHNiY2w1WENDR2dvU1lfel9qeEVYWkVvak5kbHRsamhrcTlEd2h2djdEbTRQaVJRTUVnNGktWDZCcFpXd2szQjJHMU1hcFZqaXdvZTlwcGZhRDRtcno2YzE0Y0J2WldycGw4amhGY09ZdkxfRlhFaDTSAbwBQVVfeXFMUDRsVzdlcGxVX3JDOXVBVi1BWTlhMURyQWZudUY3N2ROWFhvU19kaTZYbk5DNkw2T2FDR25ld1VudDNkSHVHTUpxQ0VTVEhoSmpGUjhxREhaMzVobmhSdHk1bERyd1lBb05NZTZHTzYxaWd0Umt4a3QwX3lYQ2MwcHQtZ2lOcW9FOGtMU0JZMm1xblZvQ0JNaVBZR01HU1RUbVFWVHVoWVE2bEhPMUhjTUptaDk1VUNFdnBXc0M?oc=5",
         "source": "El Economista",
@@ -222,20 +265,6 @@
         "source": "ad-hoc-news.de",
         "pubdate": "Sun, 12 Jul 2026 10:52:52 GMT",
         "pubdate_iso": "2026-07-12T10:52:52+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Oro: el 45% de los bancos centrales planea engordar sus reservas mientras el precio se desploma un 2 - ad-hoc-news.de",
-        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNOThoZGRFQmpaYXpBTHRwRUd0WkpPcGtvNjltcTNoeE5QaW9WTEszdThkbHJQQ1FoYW1kMnBub0NqOU5mN0tCaVBGYjdoeTlDS3B1OGlwVXg1czhVa2FNSXdFanY4MXBqVThtY1lqVm9DVjM3SVdDY1JJM0Y1c3cwUHY5SWNVUC1LZnhYSUdCVVdieGJpN094ZkVTM2hWdWZXVmp4Q2lGc180dG4tU3ZDRFNOT2VaVkNTNzRMSFVVTjJORjQ4bG4waw?oc=5",
-        "source": "ad-hoc-news.de",
-        "pubdate": "Sat, 11 Jul 2026 03:43:53 GMT",
-        "pubdate_iso": "2026-07-11T03:43:53+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -307,10 +336,10 @@
     ]
   },
   "stats": {
-    "total_noticias": 19,
+    "total_noticias": 21,
     "por_categoria": {
       "precio": 5,
-      "fed_macro": 0,
+      "fed_macro": 2,
       "dolar": 5,
       "bancos_centrales": 5,
       "geopolitica": 1,
@@ -318,13 +347,13 @@
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "levemente alcista",
-    "score_neto": 2,
-    "n_positivas": 2,
+    "sentimiento": "alcista",
+    "score_neto": 4,
+    "n_positivas": 3,
     "n_negativas": 1,
-    "n_neutrales": 16,
-    "narrativa": "El feed muestra 2 senales positivas y 1 negativas (neto +2). Factores dominantes: Tensiones geopoliticas: flujo a safe haven; Tension geopolitica: flujo a safe haven.",
+    "n_neutrales": 17,
+    "narrativa": "El feed muestra 3 senales positivas y 1 negativas (neto +4). Factores dominantes: Tensiones geopoliticas: flujo a safe haven; Tension geopolitica: flujo a safe haven.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "Levemente ALCISTA"
+    "veredicto": "ALCISTA a corto plazo"
   }
 }
