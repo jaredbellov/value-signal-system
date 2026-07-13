@@ -423,13 +423,49 @@ async def analizar_ticker(ticker_config, bcs_client):
                 roe_pct = (utilidad / patrimonio) * 100
             if utilidad and ingresos and ingresos != 0:
                 margen_neto_pct = (utilidad / ingresos) * 100
+            # --- ROE ANUAL (fix): utilidad de 12 meses / patrimonio ---
+            # El roe_pct de arriba usa la utilidad del periodo (ej. Q1 = 3
+            # meses) -> subestima ~4x. Aca lo recalculamos con el cierre anual.
+            roe_anual_pct = None
+            roe_periodo = None
+            try:
+                _mm, _aa = cmf_ef.periodo.split("/")
+                if _mm == "12":
+                    roe_anual_pct = roe_pct
+                    roe_periodo = cmf_ef.periodo
+                else:
+                    _aa_cierre = int(_aa) - 1
+                    cmf_anual = obtener_estados_financieros(ticker, mm=12, aa=_aa_cierre)
+                    if cmf_anual:
+                        _cta = extraer_cuentas_clave(cmf_anual)
+                        _eerr_a = _cta.get("eerr", {})
+                        _bal_a = _cta.get("balance", {})
+                        _util_a = (
+                            _valor_mas_reciente(_eerr_a.get("ganancia_perdida_atribuible_controladora"))
+                            or _valor_mas_reciente(_eerr_a.get("ganancia_perdida"))
+                        )
+                        _patr_a = _valor_mas_reciente(_bal_a.get("patrimonio_total"))
+                        if _util_a and _patr_a and _patr_a > 0:
+                            roe_anual_pct = (_util_a / _patr_a) * 100
+                            roe_periodo = f"12/{_aa_cierre}"
+                if roe_anual_pct is None and roe_pct is not None:
+                    _meses = int(_mm)
+                    if 1 <= _meses <= 12:
+                        roe_anual_pct = roe_pct * (12 / _meses)
+                        roe_periodo = f"{cmf_ef.periodo} anualizado (aprox)"
+            except Exception as _e_roe:
+                log.warning(f"  ROE anual fallo para {ticker}: {_e_roe}")
+                if roe_anual_pct is None:
+                    roe_anual_pct = roe_pct
+                    roe_periodo = cmf_ef.periodo
 
             resultado["cmf"] = {
                 "periodo": cmf_ef.periodo,
                 "tipo_balance": cmf_ef.tipo_balance,
                 "moneda": cmf_ef.moneda,
                 "unidad": cmf_ef.unidad,
-                "roe_pct": round(roe_pct, 2) if roe_pct else None,
+                "roe_pct": round(roe_anual_pct, 2) if roe_anual_pct else None,
+                "roe_periodo": roe_periodo,
                 "margen_neto_pct": round(margen_neto_pct, 2) if margen_neto_pct else None,
                 "razon_endeudamiento_pct": round(indicadores.get("razon_endeudamiento_pct", 0), 2)
                     if "razon_endeudamiento_pct" in indicadores else None,
