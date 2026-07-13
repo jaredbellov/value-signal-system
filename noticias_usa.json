@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-13T10:03:25.709282+00:00",
+  "updated_at_utc": "2026-07-13T10:33:27.025574+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -22,22 +22,7 @@
   "noticias_por_categoria": {
     "tesla": [],
     "nvidia": [],
-    "ia_semis": [
-      {
-        "title": "OpenAI and Google AI model access for Chinese firms sparks policy debate",
-        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSlRoQmRiYy0zcXFLZ2hjMkMzaUJPamRFTE9TTXRlbWtybmZmOVRLNWFSbUpSRHFtcnJRWFpLemJqbUJ6bkpKRlpLRTdkQjVaanRDR2ZuMXhrODlHa005RTBweUNSNVZMOTVKZUdTVUVOM0NHZl9MdERJRHU2NER1OGxUV1ZsMGUydDBIMGVOR0JCanMwbDlNSHkyM21sR2UyWXp3eVVPeFphU2ZFalBwd292Z21jVC1NcW9mbkwyQktRRGlRanRJ?oc=5",
-        "source": "TradingView",
-        "pubdate": "Fri, 10 Jul 2026 10:16:38 GMT",
-        "pubdate_iso": "2026-07-10T10:16:38+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      }
-    ],
+    "ia_semis": [],
     "macro_tech": [
       {
         "title": "HSBC Sees Strongest US Q2 Earnings Growth Since Post-Pandemic Era — Energy, Tech And Materials Sectors To Shine",
@@ -70,11 +55,11 @@
     ]
   },
   "stats": {
-    "total_noticias": 3,
+    "total_noticias": 2,
     "por_categoria": {
       "tesla": 0,
       "nvidia": 0,
-      "ia_semis": 1,
+      "ia_semis": 0,
       "macro_tech": 2
     }
   },
@@ -83,7 +68,7 @@
     "score_neto": 0,
     "n_positivas": 0,
     "n_negativas": 0,
-    "n_neutrales": 3,
+    "n_neutrales": 2,
     "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
     "narrativa_fuente": "plantilla",
     "veredicto": "NEUTRAL - sin sesgo dominante"
