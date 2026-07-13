@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-13T17:26:57.396093+00:00",
+  "updated_at_utc": "2026-07-13T19:26:56.891985+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "fed_tasas": {
@@ -51,6 +51,20 @@
         "source": "TradingView",
         "pubdate": "Mon, 13 Jul 2026 06:58:00 GMT",
         "pubdate_iso": "2026-07-13T06:58:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "La bolsa hoy: ¿Cerrado el estrecho de Ormuz?",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWUd0M1ZRSVRGZkNXbWppaDRJMUo5N3o0cU5KVWZBQ1liZkdEOVViRlZfazdqOGFmbW9HZGVCX1h5SVNiaDJMWTZiR2JKU3lSWDB0VUR5RG1YRDVuY3l0ZldiM1hMcWViVk1QNnJIOVlSX1FlX1duOF9sV3dpZVRmNHg4ckFpTC1lRHk5M1dGQnZsTUpZQlF0bGtYSThLa3FUSl9jNllrcw?oc=5",
+        "source": "XTB.com",
+        "pubdate": "Mon, 13 Jul 2026 06:49:17 GMT",
+        "pubdate_iso": "2026-07-13T06:49:17+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -238,10 +252,10 @@
     ]
   },
   "stats": {
-    "total_noticias": 14,
+    "total_noticias": 15,
     "por_categoria": {
       "fed_tasas": 1,
-      "mercado": 2,
+      "mercado": 3,
       "tech_nasdaq": 2,
       "economia": 2,
       "earnings": 5,
@@ -253,7 +267,7 @@
     "score_neto": 0,
     "n_positivas": 0,
     "n_negativas": 0,
-    "n_neutrales": 14,
+    "n_neutrales": 15,
     "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
     "narrativa_fuente": "plantilla",
     "veredicto": "NEUTRAL - sin sesgo dominante"
