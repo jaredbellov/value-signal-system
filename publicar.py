@@ -1,18 +1,20 @@
 # -*- coding: utf-8 -*-
 """
-publicar.py - PUBLICADOR UNICO de Value Signal.
+publicar.py v2 - PUBLICADOR UNICO de Value Signal.
 
 El UNICO script que toca git. Las tareas de datos solo generan JSONs; este
-script corre cada 15 min (tarea programada) y publica todo lo que cambio:
+script corre cada 15 min y publica todo lo que cambio.
 
-    git pull --no-rebase  ->  git add (JSONs)  ->  commit  ->  push
+v2 corrige el orden de operaciones (bug del loop de conflicto):
+    v1: pull -> add -> commit -> push   (git rechaza pull con archivos sucios)
+    v2: add -> COMMIT -> pull -X ours -> push
 
-Al ser el unico proceso que usa git, la concurrencia es imposible: no hay
-con quien chocar. Usa git_lock por defensa en profundidad (por si alguien
-corre un update a mano con la version vieja).
+Con los cambios ya commiteados, el pull puede mergear. Si el remoto toco el
+mismo JSON, gana la version local (-X ours): es la mas fresca porque las
+tareas la acaban de generar. Si el pull falla por otra causa, aborta el merge
+limpio y reintenta al proximo ciclo (el repo NUNCA queda a medias).
 
-Uso:
-    python publicar.py
+Compatible con pythonw.exe (sin consola): loguea solo a publicar.log.
 """
 import subprocess
 import logging
@@ -37,14 +39,12 @@ sys.path.insert(0, str(REPO))
 try:
     from git_lock import git_lock
 except ImportError:
-    # fallback: sin lock (somos el unico que hace git de todos modos)
     from contextlib import contextmanager
     @contextmanager
     def git_lock():
         yield True
 
 def git(args, timeout=120):
-    """Ejecuta git y devuelve (code, stdout, stderr)."""
     try:
         r = subprocess.run(
             ["git"] + args, cwd=REPO, capture_output=True,
@@ -56,59 +56,65 @@ def git(args, timeout=120):
     except Exception as e:
         return -1, "", str(e)
 
+def hay_commits_sin_pushear():
+    code, out, _ = git(["rev-list", "--count", "origin/main..HEAD"])
+    try:
+        return code == 0 and int(out) > 0
+    except ValueError:
+        return False
+
 def main():
     log.info("=" * 60)
-    log.info(f"PUBLICAR - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    log.info(f"PUBLICAR v2 - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
 
     # 0. Sanity: el repo no debe estar en rebase/merge a medias
     code, out, _ = git(["status"])
-    if "rebase in progress" in out or "MERGE_HEAD" in out:
+    if "rebase in progress" in out or "MERGE_HEAD" in out or "all conflicts fixed" in out:
         log.error("Repo en estado inconsistente (rebase/merge a medias). Abortando.")
-        log.error("Ejecuta: git rebase --abort / git merge --abort y reintenta.")
         return 1
 
-    # 1. Ver si hay cambios que publicar
+    # 1. Detectar cambios locales
     code, out, _ = git(["status", "--porcelain"])
     cambios = [l for l in out.split("\n") if l.strip()]
-    if not cambios:
-        log.info("Sin cambios que publicar.")
+    pendientes = hay_commits_sin_pushear()
+
+    if not cambios and not pendientes:
+        log.info("Sin cambios ni commits pendientes.")
         return 0
-    log.info(f"Cambios detectados: {len(cambios)} archivo(s)")
-    for c in cambios[:15]:
-        log.info(f"  {c}")
 
     with git_lock():
-        # 2. Traer lo remoto primero (merge, nunca rebase)
-        code, out, err = git(["pull", "--no-rebase", "--no-edit"])
+        # 2. COMMIT PRIMERO (asegura los cambios locales antes de mergear)
+        if cambios:
+            log.info(f"Cambios detectados: {len(cambios)} archivo(s)")
+            for c in cambios[:15]:
+                log.info(f"  {c}")
+            code, _, err = git(["add", "-A"])
+            if code != 0:
+                log.error(f"git add fallo: {err[:300]}")
+                return 1
+            ts = datetime.now().strftime("%Y-%m-%d %H:%M")
+            code, out, err = git(["commit", "-m", f"data: publicacion consolidada {ts} [skip ci]"])
+            if code != 0:
+                log.info(f"git commit: {(out or err)[:200]}")
+            else:
+                log.info("git commit OK")
+        elif pendientes:
+            log.info("Sin cambios nuevos, pero hay commits sin pushear. Publicando...")
+
+        # 3. PULL con merge; en conflictos de contenido gana lo local (-X ours)
+        code, out, err = git(["pull", "--no-rebase", "--no-edit", "-X", "ours"])
         if code != 0:
-            log.warning(f"git pull devolvio {code}: {err[:300]}")
-            # Si el pull fallo por conflicto, abortar el merge para no dejar
-            # el repo a medias, y salir. El proximo ciclo reintenta.
+            log.warning(f"git pull devolvio {code}: {(err or out)[:300]}")
             git(["merge", "--abort"])
-            log.error("Pull con conflicto: merge abortado. Reintento en el proximo ciclo.")
+            log.error("Pull fallo: merge abortado. Reintento en el proximo ciclo.")
             return 1
         log.info("git pull OK")
 
-        # 3. Add de todo lo modificado (JSONs de datos)
-        code, _, err = git(["add", "-A"])
-        if code != 0:
-            log.error(f"git add fallo: {err[:300]}")
-            return 1
-
-        # 4. Commit
-        ts = datetime.now().strftime("%Y-%m-%d %H:%M")
-        code, out, err = git(["commit", "-m", f"data: publicacion consolidada {ts} [skip ci]"])
-        if code != 0:
-            # "nothing to commit" si el pull ya trajo lo mismo — no es error
-            log.info(f"git commit: {out or err}".strip()[:200])
-            return 0
-        log.info("git commit OK")
-
-        # 5. Push (con un retry)
+        # 4. PUSH (con un retry)
         code, _, err = git(["push"])
         if code != 0:
             log.warning(f"git push fallo (intento 1): {err[:300]}")
-            code, _, err = git(["pull", "--no-rebase", "--no-edit"])
+            code, _, err = git(["pull", "--no-rebase", "--no-edit", "-X", "ours"])
             if code != 0:
                 git(["merge", "--abort"])
                 log.error("Pull en retry fallo. Reintento en el proximo ciclo.")
