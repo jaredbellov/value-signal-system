@@ -2166,6 +2166,48 @@ function evalValorChile(a){
   return {rows,concl};
 }
 
+/* ---------- Detector La Polar: Utilidad vs FCF (CMF, cierres anuales) ---------- */
+function fcfChart(a){
+  try{
+    const regs=(a.flujos_5y||[]).filter(r=>r&&r.utilidad!=null&&r.fcf!=null);
+    if(regs.length<2) return "";
+    const anos=regs.map(r=>r.ano);
+    const U=regs.map(r=>r.utilidad/1e6), F=regs.map(r=>r.fcf/1e6); /* miles de MM CLP */
+    const all=U.concat(F).concat([0]);
+    const mn=Math.min(...all), mx=Math.max(...all);
+    const W=520,H=170,padL=14,padR=14,padT=16,padB=24;
+    const X=i=>padL+(W-padL-padR)*(regs.length===1?0.5:i/(regs.length-1));
+    const Y=v=>padT+(H-padT-padB)*(1-(v-mn)/((mx-mn)||1));
+    const line=vs=>vs.map((v,i)=>`${X(i).toFixed(1)},${Y(v).toFixed(1)}`).join(" ");
+    const dots=(vs,c)=>vs.map((v,i)=>`<circle cx="${X(i).toFixed(1)}" cy="${Y(v).toFixed(1)}" r="3" fill="${c}"/>`).join("");
+    const xl=anos.map((an,i)=>`<text x="${X(i).toFixed(1)}" y="${H-6}" font-size="10" fill="#7c8aa0" text-anchor="middle">${an}</text>`).join("");
+    const y0=Y(0);
+    const fN=v=>Math.abs(v)>=100?v.toFixed(0):v.toFixed(1);
+    const pares=regs.filter(r=>r.utilidad>0);
+    const ratios=pares.map(r=>r.fcf/r.utilidad);
+    const prom=ratios.length?ratios.reduce((s,x)=>s+x,0)/ratios.length:null;
+    const negs=regs.filter(r=>r.fcf<0&&r.utilidad>0).length;
+    let cls="ok",ver;
+    if(prom==null){cls="mid";ver="Sin utilidades positivas en la ventana: el ratio FCF/Utilidad no aplica.";}
+    else if(prom>=0.7&&negs===0){ver=`\u2705 <b>La caja libre respalda la utilidad</b> (FCF/Utilidad promedio ${prom.toFixed(2)}). La contabilidad es coherente con caja real.`;}
+    else if(prom>=0.3&&negs<=1){cls="mid";ver=`\u26a0\ufe0f <b>FCF por debajo de la utilidad</b> (promedio ${prom.toFixed(2)}): parte de la utilidad no se convierte en caja libre (CAPEX alto o capital de trabajo). Revisar el An\u00e1lisis Razonado.`;}
+    else{cls="bad";ver=`\ud83d\udea9 <b>Patr\u00f3n La Polar</b>: utilidades contables sin caja libre que las respalde (FCF/Utilidad promedio ${prom.toFixed(2)}${negs?`, ${negs} a\u00f1o(s) con FCF negativo`:""}). Revisar el An\u00e1lisis Razonado antes de aportar.`;}
+    return `<div style="margin-top:14px">
+      <h4 style="margin:0 0 6px">\ud83d\udd75\ufe0f Utilidad vs FCF \u00b7 coherencia contable (5 a\u00f1os)</h4>
+      <svg viewBox="0 0 ${W} ${H}" style="width:100%;max-width:560px;display:block">
+        <line x1="${padL}" y1="${y0.toFixed(1)}" x2="${W-padR}" y2="${y0.toFixed(1)}" stroke="#3a4556" stroke-dasharray="4 4"/>
+        <polyline points="${line(U)}" fill="none" stroke="#5eead4" stroke-width="2"/>
+        <polyline points="${line(F)}" fill="none" stroke="#eab308" stroke-width="2"/>
+        ${dots(U,"#5eead4")}${dots(F,"#eab308")}
+        ${xl}
+      </svg>
+      <div class="hint" style="margin-top:2px"><span style="color:#5eead4">\u25cf</span> Utilidad neta (\u00falt.: ${fN(U[U.length-1])}) \u00a0 <span style="color:#eab308">\u25cf</span> FCF aprox (\u00falt.: ${fN(F[F.length-1])}) \u00b7 miles de millones CLP</div>
+      ${evRow(cls,"FCF vs Utilidad (5 a\u00f1os)",ver)}
+      <div class="hint">Fuente: CMF, cierres anuales ${anos[0]}\u2013${anos[anos.length-1]}. FCF \u2248 flujo operaci\u00f3n + flujo inversi\u00f3n (aprox. conservadora: la CMF no desglosa la l\u00ednea de CAPEX). Referencia: La Polar mostraba utilidades "de papel" sin caja que las respaldara.</div>
+    </div>`;
+  }catch(e){ console.warn("fcfChart",e); return ""; }
+}
+
 function evalChilePanel(a){
   try{
     const sal=evalSaludChile(a), val=evalValorChile(a);
@@ -2176,6 +2218,7 @@ function evalChilePanel(a){
         <div class="ev-col"><h4>Salud financiera</h4>${sal.rows.map(r=>evRow(...r)).join("")}${evConcl(sal.concl[0],sal.concl[1])}</div>
         <div class="ev-col"><h4>Valoración</h4>${val.rows.map(r=>evRow(...r)).join("")}${evConcl(val.concl[0],val.concl[1])}</div>
       </div>
+      ${fcfChart(a)}
       <div class="ev-note">${sal.note} Valoración por múltiplos y dividendo — sin flujo de caja descontado (muy sensible a supuestos para el inversionista minoritario).</div>
     </div>`;
   }catch(e){ console.warn("evalChilePanel",e); return ""; }

@@ -53,6 +53,12 @@ log = logging.getLogger("acciones-chilenas")
 # Carpeta del repo (donde se guarda el JSON y se hace git push)
 REPO_PATH = Path(r"C:\value-signal-local\repo")
 JSON_PATH = REPO_PATH / "acciones_chilenas.json"
+FLUJOS_PATH = REPO_PATH / "flujos_historicos.json"
+try:
+    with open(FLUJOS_PATH, encoding="utf-8") as _f:
+        _FLUJOS_CACHE = json.load(_f)
+except Exception:
+    _FLUJOS_CACHE = {}
 
 # ============================================================================
 # WATCHLIST - 11 acciones chilenas dividenderas
@@ -400,6 +406,8 @@ async def analizar_ticker(ticker_config, bcs_client):
         log.warning(f"CAGR BCS fallo para {ticker}: {e}")
         log.warning(f"  Error BCS para {ticker}: {e}")
 
+    # Flujos historicos (detector La Polar): cache CMF de cierres anuales
+    resultado["flujos_5y"] = _FLUJOS_CACHE.get(ticker, [])
     # 2. Obtener datos CMF (indicadores)
     try:
         cmf_ef = obtener_estados_financieros(ticker)
