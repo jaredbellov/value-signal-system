@@ -17,6 +17,9 @@ limpio y reintenta al proximo ciclo (el repo NUNCA queda a medias).
 Compatible con pythonw.exe (sin consola): loguea solo a publicar.log.
 """
 import subprocess
+
+# En Windows, evita que git abra una ventana de consola
+_NO_WINDOW = 0x08000000  # CREATE_NO_WINDOW
 import logging
 import sys
 from datetime import datetime
@@ -48,7 +51,7 @@ def git(args, timeout=120):
     try:
         r = subprocess.run(
             ["git"] + args, cwd=REPO, capture_output=True,
-            text=True, timeout=timeout,
+            text=True, timeout=timeout, creationflags=_NO_WINDOW,
         )
         return r.returncode, r.stdout.strip(), r.stderr.strip()
     except subprocess.TimeoutExpired:
