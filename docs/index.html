@@ -652,7 +652,7 @@ footer a.src:hover{color:var(--teal-2)}
 .he-doc:hover{background:rgba(212,160,23,.12)}
 .he-alert{display:inline-block;font-size:9.5px;font-weight:700;letter-spacing:.03em;text-transform:uppercase;padding:2px 8px;margin-left:9px;border-radius:6px;background:rgba(212,160,23,.18);color:#e8c054;border:1px solid rgba(212,160,23,.5);white-space:nowrap;vertical-align:middle;animation:hePulse 2.4s ease-in-out infinite}
 @keyframes hePulse{0%,100%{box-shadow:0 0 0 0 rgba(212,160,23,.35)}50%{box-shadow:0 0 0 4px rgba(212,160,23,0)}}
-</style>
+.pc-btn{background:#1c2634;border:1px solid #33415a;color:#9fb0c8;border-radius:6px;padding:2px 8px;font-size:11px;cursor:pointer}.pc-btn.pc-on{background:#0e7490;border-color:#0e7490;color:#fff}</style>
 </head>
 <body>
 <header class="top">
@@ -2203,10 +2203,61 @@ function fcfChart(a){
       </svg>
       <div class="hint" style="margin-top:2px"><span style="color:#5eead4">\u25cf</span> Utilidad neta (\u00falt.: ${fN(U[U.length-1])}) \u00a0 <span style="color:#eab308">\u25cf</span> FCF aprox (\u00falt.: ${fN(F[F.length-1])}) \u00b7 miles de millones CLP</div>
       ${evRow(cls,"FCF vs Utilidad (5 a\u00f1os)",ver)}
-      <div class="hint">Fuente: CMF, cierres anuales ${anos[0]}\u2013${anos[anos.length-1]}. FCF \u2248 flujo operaci\u00f3n + flujo inversi\u00f3n (aprox. conservadora: la CMF no desglosa la l\u00ednea de CAPEX). Referencia: La Polar mostraba utilidades "de papel" sin caja que las respaldara.</div>
+      <details style="margin-top:6px"><summary class="hint" style="cursor:pointer">\u2139\ufe0f C\u00f3mo se calcula el FCF y por qu\u00e9 debe seguir a la utilidad</summary><div class="hint" style="margin-top:4px">El <b>Free Cash Flow</b> (caja libre) \u2248 Flujo de Operaci\u00f3n + Flujo de Inversi\u00f3n: la plata que el negocio genera de verdad despu\u00e9s de mantenerse funcionando. Si la contabilidad es sana, <b>cada peso de utilidad deber\u00eda convertirse en un peso de caja libre</b>, as\u00ed que las dos l\u00edneas van juntas. Cuando la utilidad sube pero el FCF se queda atr\u00e1s, las ganancias son "de papel" (revalorizaciones, ventas a cr\u00e9dito no cobradas, devengos) y no efectivo. Ese divorcio entre utilidad y caja fue lo que ocult\u00f3 <b>La Polar</b>.</div></details><div class="hint">Fuente: CMF, cierres anuales ${anos[0]}\u2013${anos[anos.length-1]}. FCF \u2248 flujo operaci\u00f3n + flujo inversi\u00f3n (aprox. conservadora: la CMF no desglosa la l\u00ednea de CAPEX). Referencia: La Polar mostraba utilidades "de papel" sin caja que las respaldara.</div>
     </div>`;
   }catch(e){ console.warn("fcfChart",e); return ""; }
 }
+
+/* ---------- Grafico de precio con selector 1y/3y/5y ---------- */
+function priceChart(a){
+  try{
+    const serie=(a.serie_precio||[]).filter(x=>x&&x.p!=null);
+    if(serie.length<3) return "";
+    const id="pc_"+a.ticker.replace(/[^a-z0-9]/gi,"");
+    const dataJson=JSON.stringify(serie).replace(/"/g,"&quot;");
+    // render inicial 5y (todo)
+    setTimeout(()=>{ if(window.__drawPC) window.__drawPC(id,5); },0);
+    return `<div style="margin-top:16px">
+      <div style="display:flex;align-items:center;gap:8px;margin-bottom:6px">
+        <h4 style="margin:0">\ud83d\udcc8 Precio ${esc(a.ticker)}</h4>
+        <div style="margin-left:auto;display:flex;gap:4px" id="${id}_btns">
+          <button class="pc-btn" data-y="1" onclick="__drawPC('${id}',1)">1A</button>
+          <button class="pc-btn" data-y="3" onclick="__drawPC('${id}',3)">3A</button>
+          <button class="pc-btn pc-on" data-y="5" onclick="__drawPC('${id}',5)">5A</button>
+        </div>
+      </div>
+      <div id="${id}" data-serie="${dataJson}"></div>
+    </div>`;
+  }catch(e){ console.warn("priceChart",e); return ""; }
+}
+window.__drawPC=function(id,anios){
+  try{
+    const cont=document.getElementById(id); if(!cont) return;
+    const serie=JSON.parse(cont.getAttribute("data-serie"));
+    const n=Math.min(serie.length, anios*12);
+    const data=serie.slice(-n);
+    if(data.length<2){ cont.innerHTML='<div class="hint">Sin datos suficientes.</div>'; return; }
+    const ps=data.map(d=>d.p), mn=Math.min(...ps), mx=Math.max(...ps);
+    const W=520,H=150,pL=6,pR=6,pT=12,pB=22;
+    const X=i=>pL+(W-pL-pR)*(i/(data.length-1));
+    const Y=v=>pT+(H-pT-pB)*(1-(v-mn)/((mx-mn)||1));
+    const pts=data.map((d,i)=>`${X(i).toFixed(1)},${Y(d.p).toFixed(1)}`).join(" ");
+    const up=data[data.length-1].p>=data[0].p;
+    const col=up?"#5eead4":"#f87171";
+    const area=`${pL},${(H-pB).toFixed(1)} `+pts+` ${(W-pR)},${(H-pB).toFixed(1)}`;
+    const xl=[0,Math.floor((data.length-1)/2),data.length-1].map(i=>
+      `<text x="${X(i).toFixed(1)}" y="${H-6}" font-size="9" fill="#7c8aa0" text-anchor="${i===0?"start":i===data.length-1?"end":"middle"}">${data[i].f}</text>`).join("");
+    cont.innerHTML=`<svg viewBox="0 0 ${W} ${H}" style="width:100%;max-width:560px;display:block">
+      <polygon points="${area}" fill="${col}" opacity="0.08"/>
+      <polyline points="${pts}" fill="none" stroke="${col}" stroke-width="2"/>
+      ${xl}
+      <text x="${pL}" y="10" font-size="9" fill="#7c8aa0">${mx.toLocaleString("es-CL")}</text>
+      <text x="${pL}" y="${(H-pB).toFixed(1)}" font-size="9" fill="#7c8aa0">${mn.toLocaleString("es-CL")}</text>
+    </svg>`;
+    const bts=document.getElementById(id+"_btns");
+    if(bts){ bts.querySelectorAll(".pc-btn").forEach(b=>b.classList.toggle("pc-on", +b.dataset.y===anios)); }
+  }catch(e){ console.warn("__drawPC",e); }
+};
 
 function evalChilePanel(a){
   try{
@@ -2785,6 +2836,9 @@ function renderChileDetail(ticker){
       </div>
     </div>
 
+    <div class="panel" style="margin-top:16px">
+      ${priceChart(a)}
+    </div>
     <div class="panel" style="margin-top:16px">
       <h3>Dividendos recientes</h3>
       ${divTable||'<div class="hint">Sin registros recientes.</div>'}

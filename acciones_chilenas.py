@@ -38,7 +38,7 @@ from cmf import (
     extraer_cuentas_clave,
     calcular_indicadores_balance,
 )
-from precio_historico_bcs import obtener_cagr_multi
+from precio_historico_bcs import obtener_cagr_multi, obtener_serie_mensual
 
 # ============================================================================
 # CONFIGURACIÃ“N
@@ -400,6 +400,11 @@ async def analizar_ticker(ticker_config, bcs_client):
     try:
         cagrs = obtener_cagr_multi(ticker)
         resultado["cagr_3y"] = cagrs["cagr_3y"]
+        try:
+            resultado["serie_precio"] = obtener_serie_mensual(ticker, 5)
+        except Exception as _e_sp:
+            log.warning(f"serie precio {ticker}: {_e_sp}")
+            resultado["serie_precio"] = []
         resultado["cagr_5y"] = cagrs["cagr_5y"]
         resultado["cagr_10y"] = cagrs["cagr_10y"]
     except Exception as e:

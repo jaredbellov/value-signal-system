@@ -1,4 +1,4 @@
-﻿"""PRECIO HISTORICO BCS - CAGR oficial desde Bolsa de Santiago"""
+"""PRECIO HISTORICO BCS - CAGR oficial desde Bolsa de Santiago"""
 import logging
 from datetime import datetime, timedelta
 import requests
@@ -84,6 +84,32 @@ def obtener_cagr(ticker, anios=3):
     cagr = (precio_final / precio_inicial) ** (1 / anios) - 1
     log.info(f"CAGR {ticker} {anios}y: {cagr*100:.2f}% ({precio_inicial:,.0f} -> {precio_final:,.0f})")
     return cagr
+
+
+def obtener_serie_mensual(ticker, anios=5):
+    """Devuelve la serie de precios submuestreada a 1 punto por mes (ultimos
+    'anios' anos): lista de {\"f\": \"YYYY-MM\", \"p\": precio}. Reutiliza el
+    historico ya cacheado (mismo que usa el CAGR). Sin descargas extra."""
+    historico = _fetch_historico_bcs(ticker)
+    if not historico:
+        return []
+    hoy = datetime.now()
+    desde = hoy - timedelta(days=anios * 365 + 15)
+    por_mes = {}
+    for punto in historico:
+        f = _parse_fecha(punto.get("DATE", ""))
+        if f is None or f < desde:
+            continue
+        close = punto.get("CLOSE") or punto.get("ADJ_CLOSE")
+        if not close or close <= 0:
+            continue
+        clave = f.strftime("%Y-%m")
+        # nos quedamos con el ultimo dato de cada mes (cierre de mes)
+        if clave not in por_mes or f >= por_mes[clave][0]:
+            por_mes[clave] = (f, close)
+    serie = [{"f": k, "p": round(v[1], 2)} for k, v in sorted(por_mes.items())]
+    log.info(f"Serie mensual {ticker}: {len(serie)} puntos ({anios}y)")
+    return serie
 
 
 def obtener_cagr_multi(ticker):
