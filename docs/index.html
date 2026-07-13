@@ -2251,8 +2251,10 @@ window.__drawPC=function(id,anios){
       <polygon points="${area}" fill="${col}" opacity="0.08"/>
       <polyline points="${pts}" fill="none" stroke="${col}" stroke-width="2"/>
       ${xl}
-      <text x="${pL}" y="10" font-size="9" fill="#7c8aa0">${mx.toLocaleString("es-CL")}</text>
-      <text x="${pL}" y="${(H-pB).toFixed(1)}" font-size="9" fill="#7c8aa0">${mn.toLocaleString("es-CL")}</text>
+      <text x="${pL}" y="10" font-size="9" fill="#7c8aa0">${mx.toLocaleString("es-CL")} máx</text>
+      <text x="${pL}" y="${(H-pB).toFixed(1)}" font-size="9" fill="#7c8aa0">${mn.toLocaleString("es-CL")} mín</text>
+      <circle class="pc-last" cx="${X(data.length-1).toFixed(1)}" cy="${Y(data[data.length-1].p).toFixed(1)}" r="3.5" fill="${col}" stroke="#0f1622" stroke-width="1.5"/>
+      <text x="${(W-pR).toFixed(1)}" y="${(Y(data[data.length-1].p)+(Y(data[data.length-1].p)<28?14:-8)).toFixed(1)}" font-size="10" font-weight="bold" fill="${col}" text-anchor="end">${data[data.length-1].p.toLocaleString("es-CL")}</text>
     </svg>`;
     const bts=document.getElementById(id+"_btns");
     if(bts){ bts.querySelectorAll(".pc-btn").forEach(b=>b.classList.toggle("pc-on", +b.dataset.y===anios)); }
