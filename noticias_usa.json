@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-13T15:03:26.956848+00:00",
+  "updated_at_utc": "2026-07-13T15:33:27.566941+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -22,6 +22,20 @@
   "noticias_por_categoria": {
     "tesla": [],
     "nvidia": [
+      {
+        "title": "Nvidia stock may be strong, but Taiwan just exposed its biggest risk",
+        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSDAzVzNra0U4TzQtSWttVmN6c0F1RHZXdThraTlOS3BUbTN3Si11dUFwU2luZE82aXEwNFJMdF9BOFpvNXprZkdkNXF1YVhHUm1yelhZUC1xU182UTF5ajltWm1ZTjlEX1phalpiYk9YZnphZ20zQTJlLXV0NmQzaTIyZkJlZUhtQXhaVllHTHhlV2JZOUNOWTM1WFRzUk1XQ3FFZC1aalk2dnNYR2t5emtUMTJMUWlqR0E5cFZzV2c?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 13 Jul 2026 10:15:45 GMT",
+        "pubdate_iso": "2026-07-13T10:15:45+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
       {
         "title": "INTC, AMD, NVDA, AVGO: Chip Stocks Slide As Fresh US-Iran Strikes Test Peace Deal",
         "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQMEp5WS1ENTdJeERfSm5SOXY0a0pvSjB1UlJxcUwzS3ZzOVgxVHFSd2ZyTjgzczJwNm93VU5VSjVyclFsUG40c0xEUHBFaGtraGplWVhEclh6MmVLY2dzTWZYM3BPM3hyMGVIeGxwRFN3ekVlbWVBbW52b2ZfV0FBVTQ0Q3R4MmtEY0p2NjRrT0NVQldDR0lnSy1SVk1jSUxxOVRFLXF3OHV2QzJUQW1DX3VZNEFmNWRFX3BDeTFSaUt4dl9QQUxialUwT1RsNjlZTmlF?oc=5",
@@ -56,10 +70,10 @@
     ]
   },
   "stats": {
-    "total_noticias": 2,
+    "total_noticias": 3,
     "por_categoria": {
       "tesla": 0,
-      "nvidia": 1,
+      "nvidia": 2,
       "ia_semis": 0,
       "macro_tech": 1
     }
@@ -69,7 +83,7 @@
     "score_neto": 0,
     "n_positivas": 0,
     "n_negativas": 0,
-    "n_neutrales": 2,
+    "n_neutrales": 3,
     "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
     "narrativa_fuente": "plantilla",
     "veredicto": "NEUTRAL - sin sesgo dominante"
