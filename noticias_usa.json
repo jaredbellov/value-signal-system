@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-13T11:03:27.587002+00:00",
+  "updated_at_utc": "2026-07-13T11:33:27.076903+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -21,7 +21,22 @@
   },
   "noticias_por_categoria": {
     "tesla": [],
-    "nvidia": [],
+    "nvidia": [
+      {
+        "title": "INTC, AMD, NVDA, AVGO: Chip Stocks Slide As Fresh US-Iran Strikes Test Peace Deal",
+        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQMEp5WS1ENTdJeERfSm5SOXY0a0pvSjB1UlJxcUwzS3ZzOVgxVHFSd2ZyTjgzczJwNm93VU5VSjVyclFsUG40c0xEUHBFaGtraGplWVhEclh6MmVLY2dzTWZYM3BPM3hyMGVIeGxwRFN3ekVlbWVBbW52b2ZfV0FBVTQ0Q3R4MmtEY0p2NjRrT0NVQldDR0lnSy1SVk1jSUxxOVRFLXF3OHV2QzJUQW1DX3VZNEFmNWRFX3BDeTFSaUt4dl9QQUxialUwT1RsNjlZTmlF?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 13 Jul 2026 04:58:00 GMT",
+        "pubdate_iso": "2026-07-13T04:58:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
     "ia_semis": [],
     "macro_tech": [
       {
@@ -55,10 +70,10 @@
     ]
   },
   "stats": {
-    "total_noticias": 2,
+    "total_noticias": 3,
     "por_categoria": {
       "tesla": 0,
-      "nvidia": 0,
+      "nvidia": 1,
       "ia_semis": 0,
       "macro_tech": 2
     }
@@ -68,7 +83,7 @@
     "score_neto": 0,
     "n_positivas": 0,
     "n_negativas": 0,
-    "n_neutrales": 2,
+    "n_neutrales": 3,
     "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
     "narrativa_fuente": "plantilla",
     "veredicto": "NEUTRAL - sin sesgo dominante"
