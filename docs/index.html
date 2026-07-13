@@ -2219,7 +2219,7 @@ function priceChart(a){
     setTimeout(()=>{ if(window.__drawPC) window.__drawPC(id,5); },0);
     return `<div style="margin-top:16px">
       <div style="display:flex;align-items:center;gap:8px;margin-bottom:6px">
-        <h4 style="margin:0">\ud83d\udcc8 Precio ${esc(a.ticker)}</h4>
+        <h4 style="margin:0">\ud83d\udcc8 Precio ${esc(a.ticker)}${a.precio_actual_clp!=null?` \u00b7 <span class="pc-precio-hd" style="color:#5eead4">$${Math.round(a.precio_actual_clp).toLocaleString("es-CL")}</span>`:""}</h4>
         <div style="margin-left:auto;display:flex;gap:4px" id="${id}_btns">
           <button class="pc-btn" data-y="1" onclick="__drawPC('${id}',1)">1A</button>
           <button class="pc-btn" data-y="3" onclick="__drawPC('${id}',3)">3A</button>
