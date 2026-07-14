@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-14T11:33:25.295840+00:00",
+  "updated_at_utc": "2026-07-14T12:03:25.448074+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -138,30 +138,15 @@
         }
       }
     ],
-    "macro_tech": [
-      {
-        "title": "Apple Adds $600 Billion as Investors Rotate Away From AI Spending Concerns",
-        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOaktqU3ptTFRyTGx3MXN4OG9KU1ZUR1pWWDNERnlCN3N5TkwzQnl2Q0ZkQ1dGY2VSZlk0c1FsX01BeU5ITndLUjNWVVpUeTZpMWdkN2tBYmVvSlRHVlQyanU3ZF9hTHVUMGJKazBGUDNtUUZYdl91VWZLeWYwd3JNSktTYjdpcVdza0hkQ29LVC1OcVBXRTM2OG81LWJQQ25zLXNrTHYycGdENjVYVzFqVGZkTnk1ZnIwTTdxTmFpbEYtcDdkcWtRbkNVSEQ?oc=5",
-        "source": "TradingView",
-        "pubdate": "Mon, 13 Jul 2026 12:26:52 GMT",
-        "pubdate_iso": "2026-07-13T12:26:52+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      }
-    ]
+    "macro_tech": []
   },
   "stats": {
-    "total_noticias": 9,
+    "total_noticias": 8,
     "por_categoria": {
       "tesla": 1,
       "nvidia": 4,
       "ia_semis": 3,
-      "macro_tech": 1
+      "macro_tech": 0
     }
   },
   "resumen_ejecutivo": {
@@ -169,7 +154,7 @@
     "score_neto": 2,
     "n_positivas": 1,
     "n_negativas": 0,
-    "n_neutrales": 8,
+    "n_neutrales": 7,
     "narrativa": "El feed muestra 1 senales positivas y 0 negativas (neto +2). Factores dominantes: Demanda de chips: soporte tech.",
     "narrativa_fuente": "plantilla",
     "veredicto": "Levemente ALCISTA"
