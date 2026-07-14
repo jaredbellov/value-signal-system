@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-14T09:03:26.864991+00:00",
+  "updated_at_utc": "2026-07-14T09:33:26.793250+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -20,7 +20,22 @@
     }
   },
   "noticias_por_categoria": {
-    "tesla": [],
+    "tesla": [
+      {
+        "title": "TSLA Stock Back To $400? Jefferies Lays Out Bull Case, Says ​​SpaceX Merger Could Hand Shareholders A Premium",
+        "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQTTZBcDNKcjNrd1h4b1RrMjBIN0J5UEo1TEk0VmtSS2ZFNlFDZ3dvaHk1dHRSMDNKNXB0ajlfU180SENPbC1WMzlIcW5TNzkwZE5Kb0tsYTlSZWxTdTgxUmhhNk9SSk1Oa2ctcjZnU0U3al90N09lbmU5ckNpUV9lb29uSmQ3MW1XdkkwLVZIV1I2dkFzYUVIdTA1UmRUNU5VZGpsb0pTaDNVbVpvLUdTLWNiOFZPSzBBNHRhbVVRNktHWjlGNEpyRl9kLWIzMmFJVUpiNkJsaUttUTJOMWRMT0JuTS1Xb2NGcW05SmNtdHU0dGZjanRF?oc=5",
+        "source": "TradingView",
+        "pubdate": "Tue, 14 Jul 2026 01:38:00 GMT",
+        "pubdate_iso": "2026-07-14T01:38:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
     "nvidia": [
       {
         "title": "Esta microcap se dispara 159% tras acuerdos de IA con NVIDIA, pero el big money está vendiendo",
@@ -42,6 +57,20 @@
         "source": "TradingView",
         "pubdate": "Mon, 13 Jul 2026 13:34:20 GMT",
         "pubdate_iso": "2026-07-13T13:34:20+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Nvidia stock may be strong, but Taiwan just exposed its biggest risk",
+        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSDAzVzNra0U4TzQtSWttVmN6c0F1RHZXdThraTlOS3BUbTN3Si11dUFwU2luZE82aXEwNFJMdF9BOFpvNXprZkdkNXF1YVhHUm1yelhZUC1xU182UTF5ajltWm1ZTjlEX1phalpiYk9YZnphZ20zQTJlLXV0NmQzaTIyZkJlZUhtQXhaVllHTHhlV2JZOUNOWTM1WFRzUk1XQ3FFZC1aalk2dnNYR2t5emtUMTJMUWlqR0E5cFZzV2c?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 13 Jul 2026 10:15:45 GMT",
+        "pubdate_iso": "2026-07-13T10:15:45+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -109,30 +138,15 @@
         }
       }
     ],
-    "macro_tech": [
-      {
-        "title": "Apple Adds $600 Billion as Investors Rotate Away From AI Spending Concerns",
-        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOaktqU3ptTFRyTGx3MXN4OG9KU1ZUR1pWWDNERnlCN3N5TkwzQnl2Q0ZkQ1dGY2VSZlk0c1FsX01BeU5ITndLUjNWVVpUeTZpMWdkN2tBYmVvSlRHVlQyanU3ZF9hTHVUMGJKazBGUDNtUUZYdl91VWZLeWYwd3JNSktTYjdpcVdza0hkQ29LVC1OcVBXRTM2OG81LWJQQ25zLXNrTHYycGdENjVYVzFqVGZkTnk1ZnIwTTdxTmFpbEYtcDdkcWtRbkNVSEQ?oc=5",
-        "source": "TradingView",
-        "pubdate": "Mon, 13 Jul 2026 12:26:52 GMT",
-        "pubdate_iso": "2026-07-13T12:26:52+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      }
-    ]
+    "macro_tech": []
   },
   "stats": {
-    "total_noticias": 7,
+    "total_noticias": 8,
     "por_categoria": {
-      "tesla": 0,
-      "nvidia": 3,
+      "tesla": 1,
+      "nvidia": 4,
       "ia_semis": 3,
-      "macro_tech": 1
+      "macro_tech": 0
     }
   },
   "resumen_ejecutivo": {
@@ -140,7 +154,7 @@
     "score_neto": 2,
     "n_positivas": 1,
     "n_negativas": 0,
-    "n_neutrales": 6,
+    "n_neutrales": 7,
     "narrativa": "El feed muestra 1 senales positivas y 0 negativas (neto +2). Factores dominantes: Demanda de chips: soporte tech.",
     "narrativa_fuente": "plantilla",
     "veredicto": "Levemente ALCISTA"
