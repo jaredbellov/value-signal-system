@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-14T18:03:33.756068+00:00",
+  "updated_at_utc": "2026-07-14T18:33:30.297294+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -210,6 +210,20 @@
         }
       },
       {
+        "title": "Wall Street Ends Lower as Tech Sell-Off Weighs on Markets",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxONkc5eEtYb3JCSWpaNEgzdExHbUNxczMtRDdIR01ZcWc4OG1XZlpUaFVVRHY5dm9US19TZlBBX0FubDhnVXVRaUxPZzRJVU8zOXUwZi1GR2Z1WUtKWHRGeDVRbDNaODg0bEtvcTdOZ19TWWF6QTRSYXNsMDBVeWVPMW9B?oc=5",
+        "source": "CryptoRank",
+        "pubdate": "Tue, 14 Jul 2026 03:19:45 GMT",
+        "pubdate_iso": "2026-07-14T03:19:45+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 3,
+          "intensidad_label": "fuerte",
+          "emoji": "🔴🔴",
+          "razonamiento": "Selloff: presion vendedora"
+        }
+      },
+      {
         "title": "MSFT Stock Holds Up Amid US-Iran Geopolitical Jitters: Retail Calls It ‘Safest Earnings Play’",
         "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPU2x4OU1aNWxncXdCS0p2MmhDams1d2p6OXZtOEdvV3ZVQ2tDYndUSklYZDNDbUpodVA0am1nVS1mcmRfaUVULUN0VG1DalhnZU1WczMyNDRqRHpvRE1yazV2akEtOFNYOWJXa29rdlRqNlYyRGppTlFWWXJ0V0xfcXI5UXhtNW9hZ1NCVWxzTDNpcE9SOU1iTHl6a0VFWTVwdlhVbUkzNXdZZFMyTGp1bkdNWEtvUTdCNXc4Y3BmV3dHZ01uOTBncVo3RFplTkx1SlVUcVcyTXZRMF9OVjQ4dl9mNHc?oc=5",
         "source": "TradingView",
@@ -226,22 +240,22 @@
     ]
   },
   "stats": {
-    "total_noticias": 14,
+    "total_noticias": 15,
     "por_categoria": {
       "tesla": 2,
       "nvidia": 5,
       "ia_semis": 5,
-      "macro_tech": 2
+      "macro_tech": 3
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "alcista",
-    "score_neto": 6,
+    "sentimiento": "levemente alcista",
+    "score_neto": 3,
     "n_positivas": 3,
-    "n_negativas": 0,
+    "n_negativas": 1,
     "n_neutrales": 11,
-    "narrativa": "El feed muestra 3 senales positivas y 0 negativas (neto +6). Factores dominantes: Proxima arquitectura Rubin: roadmap fuerte; Proxima arquitectura Rubin: roadmap fuerte.",
+    "narrativa": "El feed muestra 3 senales positivas y 1 negativas (neto +3). Factores dominantes: Selloff: presion vendedora; Proxima arquitectura Rubin: roadmap fuerte.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "ALCISTA a corto plazo"
+    "veredicto": "Levemente ALCISTA"
   }
 }
