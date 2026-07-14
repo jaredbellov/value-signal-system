@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-14T21:33:57.531128+00:00",
+  "updated_at_utc": "2026-07-14T23:34:10.967365+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "bcch_tpm": {
@@ -53,6 +53,20 @@
       }
     ],
     "ipsa": [
+      {
+        "title": "SP IPSA: La Bolsa de Santiago este martes cerró al alza con variación de 0,90%",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQdzlsanhLanc1MHpOaDVBcFRuWVVWV2xFRmI1aVpBR2ZPaTA1ZUxqTlNZNmhMN3c4V29tYjduUUNQa3UxVFhzckxyUTJ1TndSOFllZlVRN2RXRjA5OGdFaUNsSTVfVlo2NFlYV24wNlg5VGdySkZLdklwYklydjNMdmxJWnYxdjJZXzhIVUEzdEc0dk9LYlhTTHBlZGtnZTNvREhLNHV3MjM1QXpyLUhSQ2lkTVUyUQ?oc=5",
+        "source": "diarioestrategia.cl",
+        "pubdate": "Tue, 14 Jul 2026 21:38:13 GMT",
+        "pubdate_iso": "2026-07-14T21:38:13+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
       {
         "title": "SP IPSA: La Bolsa de Santiago este lunes cae 1,16%",
         "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOU0MtZTVHZDJ3NnJZb3piSFhPUDdTc2hibThYeUo3RU9EenlsOVp4QkNkd1VNdV9jbEd2WUpxaGlLZFh1eDZwbHlrMGlMZXkxN2RkVkZ3UjY1cXM4S2ZUS3ZHMnhnZkFWdHF2bm04bVpsQWs1eGZtVDEyNUwtYlhJdmtFRUJPQlU2N3E1YUxNNHhGUk81aEo2b2pmQzU5dw?oc=5",
@@ -170,6 +184,20 @@
         }
       },
       {
+        "title": "¿Crecimiento económico en Chile? Sí, No, Depende",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNSWxXSFZHMEM3RWtNb3g0NTNTY2h4OEl5OHZ4MkdpSjJ4Z3g1TnRfYlRnV1NDaDVINUpWNm9qMUZzNFlGYTY4d1VCLVBpU0d0NnR5RW9WXzNGcGZ1LW10N3oyeTlybWtpT0lURmRybHExb3FDWWY3d3RNSDRXS1ItVnV3?oc=5",
+        "source": "La Patria 3.0",
+        "pubdate": "Mon, 13 Jul 2026 23:06:34 GMT",
+        "pubdate_iso": "2026-07-13T23:06:34+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 1,
+          "intensidad_label": "leve",
+          "emoji": "🟢",
+          "razonamiento": "Crecimiento: soporte macro"
+        }
+      },
+      {
         "title": "Bank of America prevé más crecimiento para Chile si se aprueba la megarreforma",
         "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSWNYbUlHTkhDZXJsRDJUNjhrOW54UmVaN2tUdGxVQzQyVUxtOFVRT0ZYdm53RnF0S2Y5VndHOERON2ppLV9wNFRhZmpLNzdZZzdIeTEzRG01Nkd4U2dsbEJwWENHdFpGR21iWTlyNXd6UzNhdXVkYV9pS0cycEF6eV9HSXY3RWUyMF9MdHdRUnN6bzJWVk1faXB2MlVMa1ZnVlhPamY0eVA?oc=5",
         "source": "Nuevo Poder",
@@ -195,20 +223,6 @@
           "intensidad_label": "neutral",
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "¿Crecimiento económico en Chile? Sí, No, Depende…",
-        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcWVHMDJZMHhvdUtIUGpVM3l5ek84RDN4U2E2c2M3ZXJtTnh4cDhqOVN0UkxHTWN6bW5OVDhmal9aT2NpblI3RmlTaFlYNERzeHYyV2JMWHBSTWwxUDNBakhvUy1uVXRHLThwVkJ6S3BHeUhad2dJS2J2OU1ULXVDMDFnd3Mydw?oc=5",
-        "source": "Interferencia |",
-        "pubdate": "Sun, 12 Jul 2026 10:00:00 GMT",
-        "pubdate_iso": "2026-07-12T10:00:00+00:00",
-        "impacto": {
-          "direccion": "positivo",
-          "intensidad": 1,
-          "intensidad_label": "leve",
-          "emoji": "🟢",
-          "razonamiento": "Crecimiento: soporte macro"
         }
       }
     ],
@@ -305,10 +319,10 @@
   },
   "hechos_esenciales_por_ticker": {},
   "stats": {
-    "total_noticias": 18,
+    "total_noticias": 19,
     "por_categoria": {
       "bcch_tpm": 1,
-      "ipsa": 1,
+      "ipsa": 2,
       "dolar_cobre": 5,
       "economia_chile": 5,
       "politica_regulacion": 3,
@@ -323,7 +337,7 @@
     "score_neto": -5,
     "n_positivas": 1,
     "n_negativas": 3,
-    "n_neutrales": 14,
+    "n_neutrales": 15,
     "narrativa": "El feed muestra 1 senales positivas y 3 negativas (neto -5). Factores dominantes: Reforma tributaria: incertidumbre impositiva; Reforma tributaria: incertidumbre impositiva.",
     "narrativa_fuente": "plantilla",
     "veredicto": "BAJISTA a corto plazo"
