@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-14T15:33:54.627658+00:00",
+  "updated_at_utc": "2026-07-14T17:34:02.433565+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "bcch_tpm": {
@@ -214,6 +214,20 @@
     ],
     "politica_regulacion": [
       {
+        "title": "(VIDEO) Análisis crítico de la reforma tributaria de José Antonio Kast y su impacto socioeconómico en Chile",
+        "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQWlpWcC1SdkFhdDhsVTh1VmJvTGs5QTRLbzE2RTViMVEzNm8wYjIyQWRjN3hlWU9BbjBUeWVQZWROaFM1RzlFNDItMFQxWkFfZUljMC1sYl9NZ0NQZWpvNUNQNGZSb1JFbDFIVk9sd2t0V0dmUVY1cUU3dXItc3JQNjJNMGR1WWYyNE9paU93dlU0TUdvVVhwMGpkMHAzVVhzVXVzSUEtTXhfLThDcWR6c25DS3pBYW8yaF9sZ1VFVktJYmRvVmNUaEZfcFpDcUtpV2I1eEE4dDVtM2hzZ2NJ?oc=5",
+        "source": "elciudadano.com",
+        "pubdate": "Tue, 14 Jul 2026 15:30:08 GMT",
+        "pubdate_iso": "2026-07-14T15:30:08+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Reforma tributaria: incertidumbre impositiva"
+        }
+      },
+      {
         "title": "Jaime Bassa pide a Kast retirar urgencia de reforma tributaria y advierte recurso al TC - soy-chile.cl",
         "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPQkI1TVNwX09vb2g2QV9aSEx4SDVzUFc3ak1vbW9UUmthcHlCTHVTQXlldUc4S2F4RXFPQlYxODY0bkxZeVRyZGpidGdtUG1lUHF0MkcwdVJVbnRtaERtclRVUnJoVTB4blFYdHhhQlRIZGxzNGhEYTBRZFl3TGI1djkzbnBqSngtbHlWWjI5OHNhaXdFQ2Rfckt4S3BDUVBX?oc=5",
         "source": "soy-chile.cl",
@@ -291,13 +305,13 @@
   },
   "hechos_esenciales_por_ticker": {},
   "stats": {
-    "total_noticias": 17,
+    "total_noticias": 18,
     "por_categoria": {
       "bcch_tpm": 1,
       "ipsa": 1,
       "dolar_cobre": 5,
       "economia_chile": 5,
-      "politica_regulacion": 2,
+      "politica_regulacion": 3,
       "pensiones_afp": 0,
       "energia_tarifas": 0,
       "sectores_watchlist": 3
@@ -305,13 +319,13 @@
     "hechos_esenciales": 0
   },
   "resumen_ejecutivo": {
-    "sentimiento": "levemente bajista",
-    "score_neto": -3,
+    "sentimiento": "bajista",
+    "score_neto": -5,
     "n_positivas": 1,
-    "n_negativas": 2,
+    "n_negativas": 3,
     "n_neutrales": 14,
-    "narrativa": "El feed muestra 1 senales positivas y 2 negativas (neto -3). Factores dominantes: Reforma tributaria: incertidumbre impositiva; Reforma tributaria: incertidumbre impositiva.",
+    "narrativa": "El feed muestra 1 senales positivas y 3 negativas (neto -5). Factores dominantes: Reforma tributaria: incertidumbre impositiva; Reforma tributaria: incertidumbre impositiva.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "Levemente BAJISTA"
+    "veredicto": "BAJISTA a corto plazo"
   }
 }

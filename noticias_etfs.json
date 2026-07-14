@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-14T15:26:58.888642+00:00",
+  "updated_at_utc": "2026-07-14T17:27:03.216899+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "fed_tasas": {
@@ -101,6 +101,20 @@
       }
     ],
     "mercado": [
+      {
+        "title": "Wall Street Ends Lower as Tech Sell-Off Weighs on Markets",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxONkc5eEtYb3JCSWpaNEgzdExHbUNxczMtRDdIR01ZcWc4OG1XZlpUaFVVRHY5dm9US19TZlBBX0FubDhnVXVRaUxPZzRJVU8zOXUwZi1GR2Z1WUtKWHRGeDVRbDNaODg0bEtvcTdOZ19TWWF6QTRSYXNsMDBVeWVPMW9B?oc=5",
+        "source": "CryptoRank",
+        "pubdate": "Tue, 14 Jul 2026 03:19:45 GMT",
+        "pubdate_iso": "2026-07-14T03:19:45+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 3,
+          "intensidad_label": "fuerte",
+          "emoji": "🔴🔴",
+          "razonamiento": "Selloff: presion vendedora"
+        }
+      },
       {
         "title": "SK Hynix Stock Hits One-Month Low in Korean Trading After Strong Wall Street Debut",
         "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOQ0o0TDFkQUdWTWRNVV9UdUNRWm5HY2dmaTJvSm1qVDIySFpXeVlESlREcmtSaHNwWjY2eE1UM002eWJWa2d2YXdaVlFrNWp6aTFXMXJIZVBEVTZLbWo2WGhxSGs0eno0QTE5eW56Rm91U0daWWxPUFZGMDJGUXV3WGotX0htMW5DSmVpb2ktNF9uRlZkWE1EUEZ3T21jZml0YTVPOFhxeEN2cmRQT3JZVkVHLXFJNmtVdXBMb1RFdm1CS1NNb2l3UmlrS1VLQVNSaEtRaHBpWHBxLVU?oc=5",
@@ -280,10 +294,10 @@
     ]
   },
   "stats": {
-    "total_noticias": 17,
+    "total_noticias": 18,
     "por_categoria": {
       "fed_tasas": 5,
-      "mercado": 2,
+      "mercado": 3,
       "tech_nasdaq": 1,
       "economia": 3,
       "earnings": 5,
@@ -291,13 +305,13 @@
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "neutral",
-    "score_neto": 0,
+    "sentimiento": "levemente bajista",
+    "score_neto": -3,
     "n_positivas": 0,
-    "n_negativas": 0,
+    "n_negativas": 1,
     "n_neutrales": 17,
-    "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
+    "narrativa": "El feed muestra 0 senales positivas y 1 negativas (neto -3). Factores dominantes: Selloff: presion vendedora.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "NEUTRAL - sin sesgo dominante"
+    "veredicto": "Levemente BAJISTA"
   }
 }
