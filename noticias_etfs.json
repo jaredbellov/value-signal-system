@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-14T11:26:57.562184+00:00",
+  "updated_at_utc": "2026-07-14T13:26:56.821048+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "fed_tasas": {
@@ -88,17 +88,17 @@
     ],
     "mercado": [
       {
-        "title": "El Ibex-35 baja el 0,81% pendiente de las decisiones e indicadores de Estados Unidos",
-        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZE1mNG5OVHRkZHlBVEUydDNibWdCMlhIM2pYT0tIcGxoWHY0WTl1UWpSS0JKUTlRNEpjTVZ6YWxhWjJITTN4ai1VeFozZ0RyY3VNTi1sR2VmSzU5SHoyR1VEbDM4djMtT2lBMGhKN2M5WXYxUWdObmxWeXN1T2c5Vld4TmRYOWEzMzczQzFxTkpnM181ajhXMWdCZllhZmxEbkx6Vm5oWE1tWENVTzlvM0tiX3B5V0RWU0k2VHItM18zMGRRMUY5NWFRcw?oc=5",
-        "source": "El Nacional.cat",
-        "pubdate": "Tue, 14 Jul 2026 07:49:03 GMT",
-        "pubdate_iso": "2026-07-14T07:49:03+00:00",
+        "title": "Wall Street Ends Lower as Tech Sell-Off Weighs on Markets",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxONkc5eEtYb3JCSWpaNEgzdExHbUNxczMtRDdIR01ZcWc4OG1XZlpUaFVVRHY5dm9US19TZlBBX0FubDhnVXVRaUxPZzRJVU8zOXUwZi1GR2Z1WUtKWHRGeDVRbDNaODg0bEtvcTdOZ19TWWF6QTRSYXNsMDBVeWVPMW9B?oc=5",
+        "source": "CryptoRank",
+        "pubdate": "Tue, 14 Jul 2026 03:19:45 GMT",
+        "pubdate_iso": "2026-07-14T03:19:45+00:00",
         "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
+          "direccion": "negativo",
+          "intensidad": 3,
+          "intensidad_label": "fuerte",
+          "emoji": "🔴🔴",
+          "razonamiento": "Selloff: presion vendedora"
         }
       },
       {
@@ -130,7 +130,36 @@
         }
       }
     ],
-    "tech_nasdaq": [],
+    "tech_nasdaq": [
+      {
+        "title": "This Microcap Stock Jumped 159% on NVIDIA AI Deals, But Big Money Is Selling",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQd0pjVkk2WWQtVlZCQ2JlcTA1dXVvV1hKSWVndXJrTjZMdmZfS1hidlFLTThRZWRsNEdRRDJDRTlrMFZEeGdxR2s4aHhFb1JGOWRlYURWbEYtSk9mWTViNUpOeVYxaU5hUzJzWlN6U3lPUTgwY2FWUURiYVJrOHdRRw?oc=5",
+        "source": "CryptoRank",
+        "pubdate": "Mon, 13 Jul 2026 19:56:14 GMT",
+        "pubdate_iso": "2026-07-13T19:56:14+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "TSMC stock rises after Q2 revenue beat: can earnings keep the rally alive?",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcURqSGc4bEswc3d6Rmx0TlhLc2dLMWZlSkdieGxUUEFnN1JkRWxYaGFERG5sRVp2NHppemFxcjVHamtfejY1TEJ2NFNkcWZuMFZ2MmZXOXpEU3VpWG9DY2dOV3JuV3BqeU9UOVF1U09pT1JhbFFjWEM5eGVsM1NqTG5QdTdISWNDU211MUp5R3NDTTFKblAxdjZoVndpT1hqRFF6SGhOczZNZ2oxRlR6U3pLUVhCWDU5Y21QaHZBd0NaNGpFX3hR?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 13 Jul 2026 06:13:00 GMT",
+        "pubdate_iso": "2026-07-13T06:13:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
     "economia": [
       {
         "title": "Indicadores del 13 al 17 de julio: Consumo privado, manufactura e inflación en EU",
@@ -233,27 +262,42 @@
         }
       }
     ],
-    "sentimiento": []
+    "sentimiento": [
+      {
+        "title": "Progyny (PGNY) Stock Is Up, What You Need To Know",
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdUNMYXhVWUpoTnM2eUFEU29zWkg0Z0hPRFNRa2I0VEo3ODBlRlFfcDZrSTlsbW1CMDVNSjUtS3QzVEpoRUI4SFdKT0NaenRZSzBicFo5S1ZQMV9sbmozZXhtemJuNFBXa2sxSlV0YU1abzZVMGhucG9NYmQ2ZU8zeE1lZWN0N1U4UEY3SzFReGcySUIxVkFod05udkxjTTYtTFppaEppSGcwQQ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 13 Jul 2026 19:35:48 GMT",
+        "pubdate_iso": "2026-07-13T19:35:48+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ]
   },
   "stats": {
-    "total_noticias": 14,
+    "total_noticias": 17,
     "por_categoria": {
       "fed_tasas": 4,
       "mercado": 3,
-      "tech_nasdaq": 0,
+      "tech_nasdaq": 2,
       "economia": 2,
       "earnings": 5,
-      "sentimiento": 0
+      "sentimiento": 1
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "neutral",
-    "score_neto": 0,
+    "sentimiento": "levemente bajista",
+    "score_neto": -3,
     "n_positivas": 0,
-    "n_negativas": 0,
-    "n_neutrales": 14,
-    "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
+    "n_negativas": 1,
+    "n_neutrales": 16,
+    "narrativa": "El feed muestra 0 senales positivas y 1 negativas (neto -3). Factores dominantes: Selloff: presion vendedora.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "NEUTRAL - sin sesgo dominante"
+    "veredicto": "Levemente BAJISTA"
   }
 }
