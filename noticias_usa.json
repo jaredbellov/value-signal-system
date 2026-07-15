@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-15T00:03:32.588250+00:00",
+  "updated_at_utc": "2026-07-15T00:33:31.838736+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -52,6 +52,20 @@
     ],
     "nvidia": [
       {
+        "title": "NVDA, AMD Stocks Climb After 3 Chinese Firms Reportedly Get US Approval To Purchase Advanced Chips",
+        "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQd3Jrckw2QVMyN0JZdVlaQnJ3NDI3YUM3MzJWOWtUSHVXd20tbl96UEUwcHhLUkF2bTROTm02UzVvYzhBdlY3SlBQeUdsQ1pyZTI5bktSOVBxSHFkRWJ6RG1NLWV1TkxaYjJ1Tm1jRkVRSnJyTW9UWjhBM2ViNjNkZHFZM05vSUhleEQ5VlRSWFFCdVc5T0dzMFpWVFAtWHB5akUzWFphcnBHSWN3NjBoZjQ4N0ZtVG4yQVBmUXYtX1VwWllRMTNZZE5xX0tUWUg1bzY4V0pZMFNoaV9jLTVIYWZPYk5DaWktdTg0OGJR?oc=5",
+        "source": "TradingView",
+        "pubdate": "Tue, 14 Jul 2026 17:43:37 GMT",
+        "pubdate_iso": "2026-07-14T17:43:37+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🟢",
+          "razonamiento": "Acciones al alza"
+        }
+      },
+      {
         "title": "Nvidia: el pulso entre la tubería de un billón de dólares y los plazos de Rubin - Ad-hoc-news.de",
         "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOU0pFVGxyS0RzaEw4ZmRTbElmY0NEekhLdGVTSzhNbTdHUFg0Y0lWSEtfWkdtYlpLVEd6dWlZNzVyazU2R1FvRGxsVi05U0xxdWlVX0dsNTBwQmZRVWJQRUdIbHFqS3lFMVRWVklZRUtGU3RNaWlQV1VQR19xZmVaV1JjZTFCdVV2NzFsWTUwT2g5Vlo0ZDhQVVZIOGFSUFNOWW1GUVo4bFFSbjd0S3dhSExUS3F0UVctbi0xUDhBeFdodmRNUVFB?oc=5",
         "source": "Ad-hoc-news.de",
@@ -99,20 +113,6 @@
         "source": "CryptoRank",
         "pubdate": "Mon, 13 Jul 2026 19:56:14 GMT",
         "pubdate_iso": "2026-07-13T19:56:14+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Esta microcap se dispara 159% tras acuerdos de IA con NVIDIA, pero el big money está vendiendo",
-        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNWFDcWdKNWhMWmxxaklIR2RpZldoa2dCQV8zSHlTVVhYUW1QekJHdHcyUzN3NE1SS05XT3BQSTE0WUZrb0Y1RGd0MFFFNkdwR2NzSi1RQnJfV3B1T1VpdE15S3hfb2VDeFhKd0RIYWxiTXRBb3Q5UHFieHpxYWNWMm95eTc5RjM2MUczZUZaVHRMbTQ?oc=5",
-        "source": "CryptoRank",
-        "pubdate": "Mon, 13 Jul 2026 17:15:17 GMT",
-        "pubdate_iso": "2026-07-13T17:15:17+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -277,13 +277,13 @@
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "levemente alcista",
-    "score_neto": 3,
-    "n_positivas": 3,
+    "sentimiento": "alcista",
+    "score_neto": 5,
+    "n_positivas": 4,
     "n_negativas": 1,
-    "n_neutrales": 13,
-    "narrativa": "El feed muestra 3 senales positivas y 1 negativas (neto +3). Factores dominantes: Selloff: presion vendedora; Proxima arquitectura Rubin: roadmap fuerte.",
+    "n_neutrales": 12,
+    "narrativa": "El feed muestra 4 senales positivas y 1 negativas (neto +5). Factores dominantes: Selloff: presion vendedora; Acciones al alza.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "Levemente ALCISTA"
+    "veredicto": "ALCISTA a corto plazo"
   }
 }
