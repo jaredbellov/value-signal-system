@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-15T05:26:57.625074+00:00",
+  "updated_at_utc": "2026-07-15T07:26:57.241746+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "fed_tasas": {
@@ -390,6 +390,20 @@
     ],
     "sentimiento": [
       {
+        "title": "Bitcoin Price Crash to $48K? Analyst Warns 200-Week EMA Breakdown Could Trigger Deeper Selloff",
+        "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOSUJuRzBNbTFhNnNLYWNhVWxldk5McmN6RDNZdFN0Mnc2NVVYNDF6aGhfMllKVWhaaDJGTFBjalVoWW50eXRsc2hIcWd5NFpuT3luSXlCc1NhQW03RUxSR0paNDV0bkxSbmhTSGxPUEkzRjZKeS1WdWkybVdaMUpwTy1RNmJPTFdXX0NyWE5acTFFQkxGSm9INTJmSl9oczlleHdtbllPdTNZMUVseGFmSmc4dWRDVEhUMktZVDU0WUg2S2YwaVdjaUctQUVmOURKR1JjMUxGNEQ2bXBIR2pSNmVTTF9vdw?oc=5",
+        "source": "TradingView",
+        "pubdate": "Tue, 14 Jul 2026 16:28:38 GMT",
+        "pubdate_iso": "2026-07-14T16:28:38+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 3,
+          "intensidad_label": "fuerte",
+          "emoji": "🔴🔴",
+          "razonamiento": "Selloff: presion vendedora"
+        }
+      },
+      {
         "title": "Progyny (PGNY) Stock Is Up, What You Need To Know",
         "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdUNMYXhVWUpoTnM2eUFEU29zWkg0Z0hPRFNRa2I0VEo3ODBlRlFfcDZrSTlsbW1CMDVNSjUtS3QzVEpoRUI4SFdKT0NaenRZSzBicFo5S1ZQMV9sbmozZXhtemJuNFBXa2sxSlV0YU1abzZVMGhucG9NYmQ2ZU8zeE1lZWN0N1U4UEY3SzFReGcySUIxVkFod05udkxjTTYtTFppaEppSGcwQQ?oc=5",
         "source": "TradingView",
@@ -406,24 +420,24 @@
     ]
   },
   "stats": {
-    "total_noticias": 26,
+    "total_noticias": 27,
     "por_categoria": {
       "fed_tasas": 5,
       "mercado": 5,
       "tech_nasdaq": 5,
       "economia": 5,
       "earnings": 5,
-      "sentimiento": 1
+      "sentimiento": 2
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "levemente bajista",
-    "score_neto": -3,
+    "sentimiento": "bajista",
+    "score_neto": -6,
     "n_positivas": 0,
-    "n_negativas": 1,
+    "n_negativas": 2,
     "n_neutrales": 25,
-    "narrativa": "El feed muestra 0 senales positivas y 1 negativas (neto -3). Factores dominantes: Selloff: presion vendedora.",
+    "narrativa": "El feed muestra 0 senales positivas y 2 negativas (neto -6). Factores dominantes: Selloff: presion vendedora; Selloff: presion vendedora.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "Levemente BAJISTA"
+    "veredicto": "BAJISTA a corto plazo"
   }
 }
