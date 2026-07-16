@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-16T09:26:56.759429+00:00",
+  "updated_at_utc": "2026-07-16T11:26:55.967693+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "fed_tasas": {
@@ -418,6 +418,20 @@
         }
       },
       {
+        "title": "Bitcoin Price Crash to $48K? Analyst Warns 200-Week EMA Breakdown Could Trigger Deeper Selloff",
+        "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOSUJuRzBNbTFhNnNLYWNhVWxldk5McmN6RDNZdFN0Mnc2NVVYNDF6aGhfMllKVWhaaDJGTFBjalVoWW50eXRsc2hIcWd5NFpuT3luSXlCc1NhQW03RUxSR0paNDV0bkxSbmhTSGxPUEkzRjZKeS1WdWkybVdaMUpwTy1RNmJPTFdXX0NyWE5acTFFQkxGSm9INTJmSl9oczlleHdtbllPdTNZMUVseGFmSmc4dWRDVEhUMktZVDU0WUg2S2YwaVdjaUctQUVmOURKR1JjMUxGNEQ2bXBIR2pSNmVTTF9vdw?oc=5",
+        "source": "TradingView",
+        "pubdate": "Tue, 14 Jul 2026 16:28:38 GMT",
+        "pubdate_iso": "2026-07-14T16:28:38+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 3,
+          "intensidad_label": "fuerte",
+          "emoji": "🔴🔴",
+          "razonamiento": "Selloff: presion vendedora"
+        }
+      },
+      {
         "title": "Why HCA Healthcare (HCA) Stock Is Trading Lower Today",
         "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONE8xeWVJdkZCMWNVSXRTclQ1R1VxMFEtNlkxQzBfVzNQTUZNNVVBSGg4c3FEYk5WdEVGckx0MVhHX2FicjVjckhIeEY1eUYzMWNOOGsxcUw0bTFOeFNLcm1CaVJOV092LXc2a3NoVU5TYlAwVTB2TV9HU3pNa0lzUk1rMHJ3cmxPOHF5RExYeHU4MUJDZmk1VE5FQXdYeHBFaXFMeGxzdndvUG1IQk84Uw?oc=5",
         "source": "TradingView",
@@ -448,24 +462,24 @@
     ]
   },
   "stats": {
-    "total_noticias": 29,
+    "total_noticias": 30,
     "por_categoria": {
       "fed_tasas": 5,
       "mercado": 5,
       "tech_nasdaq": 5,
       "economia": 5,
       "earnings": 5,
-      "sentimiento": 4
+      "sentimiento": 5
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "neutral",
-    "score_neto": -1,
+    "sentimiento": "bajista",
+    "score_neto": -4,
     "n_positivas": 1,
-    "n_negativas": 1,
+    "n_negativas": 2,
     "n_neutrales": 27,
-    "narrativa": "El feed muestra 1 senales positivas y 1 negativas (neto -1). Factores dominantes: Selloff: presion vendedora; Rally accionario.",
+    "narrativa": "El feed muestra 1 senales positivas y 2 negativas (neto -4). Factores dominantes: Selloff: presion vendedora; Selloff: presion vendedora.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "NEUTRAL - sin sesgo dominante"
+    "veredicto": "BAJISTA a corto plazo"
   }
 }
