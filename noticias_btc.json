@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-16T14:39:34.997692+00:00",
+  "updated_at_utc": "2026-07-16T16:39:36.527279+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "precio": {
@@ -29,6 +29,20 @@
   },
   "noticias_por_categoria": {
     "precio": [
+      {
+        "title": "¿Qué pasó con el precio de bitcoin hoy? Una especialista responde",
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZzBiUXNCUTVVVVFZNlFPNVBWVDhJTFk3cG5ZM0tjU3drVXJXRmoyejFfRVBtUU1NbkF2NHhBLVVNSm1RR0NVQjJKZkRJS2ZnT2NMazV3SkxJcjVsWTMyOWE4aS1hdUNaYTN3QXJVd3NqNElmSWFSbEJIaTRLbnJJSnhCeEhpeFRnYTB0WmFXdXY2eWI5bmlPU1VRXy1iWUtXMHN0ME9hVWJVSkRzS0xmdWJhc0pFR1E?oc=5",
+        "source": "Cripto247",
+        "pubdate": "Thu, 16 Jul 2026 16:23:12 GMT",
+        "pubdate_iso": "2026-07-16T16:23:12+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
       {
         "title": "¿Tiempo de cambiar divisas? Así quedó el precio del dólar hoy 16 de julio 2026",
         "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOU0EwbVllcHk0enhTTDBydGlYQ1VUemx6ZExGZWRoQmtVSUR4b01GWnRDMmdyNG5FRm9GNmplU3hjMDNIUEFMcG9KU1FMU3RLOEN1ajV1Z0hzQ1NZVjZkMTl5ZWNkZTVWVjViZGhiNnVhOWFtQUNZVzcwWHNKMHJlTE1kdTdFcFdMb20ycmxZUTZVcWs4YzRaSGpn0gGnAUFVX3lxTE1VRUwxOVhwRmViOGF1RXJyTE5ibXJIMnBCdHNnYnRxVllUQ1l4OFk1WDRXMjl0dW16c0RYcGp5MDgtUjJPMWItaVBrR0tfZVNkQi1pRWdoYUhZZkRmcnllZDhGZDFMZVNCNHFKN0dYZmdnQkk1c2l3ckQtOXZxZ1BlRElLeXFDaWlYVHFfXy1mVVZPV19JOW1LaEMzQ1ZWbDVOYjJmc3Qw?oc=5",
@@ -84,13 +98,15 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
-      },
+      }
+    ],
+    "etf_flows": [
       {
-        "title": "ETH hoy: flujos ETF positivos y niveles clave para el precio",
-        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFAzY3dWbTROaWEzZTE2alRDX2lwdjVFYUlLQ1hQbmE2RENIcEFEM0E0R3VhQmw2ZFNYa2xBaVl4ZFpNemJHVVJpWkNUQmJkaGVUY3BHVlZ3Zl9HVFdFMG9zYzBZc010NS1OOEdZT1ZWWU82T21jTGhFdA?oc=5",
-        "source": "Phemex",
-        "pubdate": "Thu, 16 Jul 2026 04:43:15 GMT",
-        "pubdate_iso": "2026-07-16T04:43:15+00:00",
+        "title": "BlackRock Hits $15 Trillion Record While Its Crypto Arm Shrinks 20%",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPbWxVNWF6djcxaFRxakV1VlRJZVBXUjEyYlM2OGNzSDNYem42RTQxSlpPVVRfYzhlTmNqcE83SmFQT3E1N01xNklXQnZpQV9OWTloaHNkSnY4ZkZ6RHdKVWN5NGphUTBZdlBPT19XVXE5LXZqRnRtQjJvbi1DQV9WMHp3?oc=5",
+        "source": "CryptoRank",
+        "pubdate": "Wed, 15 Jul 2026 18:49:38 GMT",
+        "pubdate_iso": "2026-07-15T18:49:38+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -98,9 +114,7 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
-      }
-    ],
-    "etf_flows": [
+      },
       {
         "title": "BlackRock descarga USD $186 millones en medio de salidas entre los ETF Bitcoin",
         "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxORERxS1luQll6TnRGMWpxQ21Kb05uRTNkVW5ndUh5bFZrRF8tanUxb29zSGtqd0tHWHJmMFRhRExNY05Ia2pDc3NIVjhCOXZGNEZwYjdkazR4bjBjQkNZY1RTdmx1NHRUM2V5OGFHdTlsa3Q2c2xSUzU0ZmlhZ3lfWkIwNlRHUmNVYVVNbERNZWF6UDhfX2Z5ZWQ0Y2RZcUZvM2lwN1pBX0VIMUc3dHEwYVlBTVZsOERpOXRQanFGVGpLU3N2MzhmMm9Bdw?oc=5",
@@ -174,6 +188,20 @@
         }
       },
       {
+        "title": "South Korea Moves to Treat Crypto as National Wealth Under New Law",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPYjNlSWVFQWdKVUM2ZWlZWmI4cGJWRjdNMkJGZ0I4dzZtTlVOanRpZ202VmtodV9lRlR3YzJZQzJvSWpaME9Telp2Sy1pZWI4dENLTjJtU0xHelh6QWpnOWN3RzZpT0RhdUd3NlZMZDhzTENhVWJoOGhxcUIxRmgxeEVWUHc?oc=5",
+        "source": "CryptoRank",
+        "pubdate": "Wed, 15 Jul 2026 21:23:33 GMT",
+        "pubdate_iso": "2026-07-15T21:23:33+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
         "title": "¿Es legal comprar acciones tokenizadas? Riesgos y regulación por País (2026)",
         "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQcm5VWWFGRjZJVndOdE81eHczbU5Fb01qM1NMYnNnNmZFWGxfOWNyM2VBbm5yaXZSZVBqcjAzckpOelRPMUdFRUxrR19jQ0ZfLThRWmN2dW9vUVhpVmZDN3M4REZ4VnA5NTBmTzF2Z3A0QWpQeE1KQ2dGZlVOUTh6RUxrSkxwSGhobU5v?oc=5",
         "source": "Criptoinforme",
@@ -200,13 +228,15 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
-      },
+      }
+    ],
+    "adopcion": [
       {
-        "title": "Morgan Stanley busca licencia bancaria para custodiar cripto, ofrecer staking y préstamos",
-        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQT1Q1TmI4U2UzczJlVmpDT0lBOGFkZ2VhMUUzdm5jV2drQW1Xdmt3VjRUbWc3MUtkN2MySEtTTlFEaFBJSmZ5WjU3M3BhaVdpQk10YnVja0lfZ1JyTE94SkRVOE96NUNINm1falI2NWR1MDQtUjZ5Q2poU21JbjFfQ01oekl0WnVQeXlYOEdzRmQ1eHNBbjROYTUyUXpNUjI5bGlsSUlrRWxkNU8xMVFzNlhOYWFnRjJqQW0zSUJNLUxHT3ZIV1pfRXhQNDZmZw?oc=5",
-        "source": "Criptotendencias",
-        "pubdate": "Wed, 15 Jul 2026 19:01:53 GMT",
-        "pubdate_iso": "2026-07-15T19:01:53+00:00",
+        "title": "Strategy: Un buen pivote para superar el invierno de Bitcoin",
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPdlV4dUY2ZmdoQ3RTZE5rMm4xOEtDdDNyaHV0TUY2Y1VUck9VMElFRFhpdmVSY0gtVEp4RkszSFRKdEJidlB0ZDdhRHZfU2ZDYmN4dGo1MUJHc1poaXl2dnJPdUtCc081alAtZU9FaW5JMll4UWpvZjNHVm1wVThoemEyaHJKY3llMVN4QzRxV3N2Zw?oc=5",
+        "source": "CryptoRank",
+        "pubdate": "Wed, 15 Jul 2026 22:49:05 GMT",
+        "pubdate_iso": "2026-07-15T22:49:05+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -214,9 +244,7 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
-      }
-    ],
-    "adopcion": [
+      },
       {
         "title": "Strategy mantiene la calma: solo entraría en pánico si Bitcoin cae a US$10.000, dice su CEO",
         "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQQ0YzS1V5TlpnOWxqUHdnUDNPTmFJZU5LWG90UU1ZbnhoMkIxSGQ2bjliUXBLbGRDMGwtTndPRGJNTVppRXpwcDhfQU1OLWV4V3RBOS0yWlUyY2lBeHlMSzRGNFU3cmRCSGtYMUtBZDJJVTZkRTlMWjJ6UWgxWFRSTzRqNFBHOHpHSkV3RVZvYTc5SzlPX0g4VlU5ZFJUdkdocTJLN0NCTXFEaTZOcDNPTGZVeFFjNEFZYTRINVhzVTE5aEtDX1RELWp3?oc=5",
@@ -271,20 +299,6 @@
           "intensidad_label": "moderado",
           "emoji": "🔴",
           "razonamiento": "Prohibicion: muy negativo"
-        }
-      },
-      {
-        "title": "Las acciones de MSTR caen tras suspender la estrategia de compra de bitcoins y recaudar 450 millones de dólares",
-        "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOVGs5MkFJc1lwWlhxcldHMllScENrcWVvaWZNSUZWeExwSzBlOEt3cHR4YzNwalN5amhOSklHcUZmeFR6UkFBMmFjeEYwVEV1U2JzQXBRU3kzdTRrY1VWOS1SX1dqY1NtcFBiLUdMTkRDNmNlbGNPTVNVU2VzSnJsYlpyajNsdERiRUhEc3lPcWVCaW9iZ0hjdjgwVVFLaW4yM29NWWY1bXA3aGtmSmpJNXY1bzZma21oc19lWEJhdkZnTkVmNUNMVWtzRFQ0Z0VBSXNzT2N1UTR5SDJpdW5wbTZzeUMtSzVOMlcyRXdSRdIB9AFBVV95cUxQa1kwOG1LX09HS2Y3QXVRVmh3M1NmWWJwOVpnWWhGcmhBejllQ2V3OVdlRFVGaVdOUmlhcGx3SmJoVk9nblpMUElIQVVRRVZIQk02Z0o3TjgyNlZoTXJBcXdzYlBSWERsSE5tbm5TT0ozcm9TVlNWcWdKUUcza24td1RVWVk4LVdVRmw3aVlGam9xaEMyRGoxb3p3clkyVjViaHliNnV1cW1zYlVEWTg3MTZJTG0zcGpfNHc2YTBXalBwM0xqV05lQnd6R0N4dDc3UlRBeEMwOUg1ZElLS0Fnbk1aMXdUTEhCSGdPWGZLYUR3T1di?oc=5",
-        "source": "The Coin Republic",
-        "pubdate": "Mon, 13 Jul 2026 23:30:00 GMT",
-        "pubdate_iso": "2026-07-13T23:30:00+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
         }
       }
     ],
@@ -346,11 +360,11 @@
         }
       },
       {
-        "title": "El rally de Bitcoin se enfría mientras los inversores digieren los datos de inflación, el petróleo nubla las perspectivas",
-        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZ2FYbUZ2amRMYmFPc3NBcG9OZVY3SjNreG5uM3E2ekJYazAtWFZKRGRsOElKX2NRbzVyaEszX0w2SndDdmZENXdtRmdhZlhpd0o2Q2pzQnB4cFp4YTFPU2RGTTJtSklqQzFQeWM5cVZkR3hHMlVoZ0xsVnpPSDFCZUwyZVRUaUltejNRU01SdUtlRDFiZFk0ekVBTEx6NVYzZkMxSGRBUTdBUnFrQ21rOWQ2UkVQWVc5NUZvdVIzcEQ?oc=5",
-        "source": "CoinDesk",
-        "pubdate": "Wed, 15 Jul 2026 11:50:51 GMT",
-        "pubdate_iso": "2026-07-15T11:50:51+00:00",
+        "title": "No inflation!",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9mRUZ4Vkk0ZkczZndtVUxBSDRwRFVrWkVVZFE2S05FYzZZdVhfb281QVpMSDlzeEVHejVyQVoxOHhsS1ZoN0dBclNJeFJkVkktMm01ZmtWRkdKTk05ZGVhVnJjampmRUxlZFlhaUo0NmxuX3VF?oc=5",
+        "source": "KuCoin",
+        "pubdate": "Wed, 15 Jul 2026 14:15:06 GMT",
+        "pubdate_iso": "2026-07-15T14:15:06+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -392,10 +406,10 @@
     ]
   },
   "stats": {
-    "total_noticias": 25,
+    "total_noticias": 26,
     "por_categoria": {
       "precio": 5,
-      "etf_flows": 3,
+      "etf_flows": 4,
       "regulacion": 5,
       "adopcion": 5,
       "fed_macro": 5,
@@ -407,7 +421,7 @@
     "score_neto": 4,
     "n_positivas": 3,
     "n_negativas": 1,
-    "n_neutrales": 21,
+    "n_neutrales": 22,
     "narrativa": "El feed muestra 3 senales positivas y 1 negativas (neto +4). Factores dominantes: Flujos institucionales hacia BTC; ETF spot mencionado: positivo institucional.",
     "narrativa_fuente": "plantilla",
     "veredicto": "ALCISTA a corto plazo"
