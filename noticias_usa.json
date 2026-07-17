@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-17T06:33:27.343602+00:00",
+  "updated_at_utc": "2026-07-17T07:03:25.222048+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -182,6 +182,20 @@
     ],
     "macro_tech": [
       {
+        "title": "Nasdaq, Dow, S&P 500 Futures Slip As Chip Selloff Overshadows Strong Earnings Season: NFLX, SNDK, SPCX, MRVL Stocks In Focus",
+        "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNdmlaXzdIX2lxNmpEN3FXTS1tOEtjV1lMcnBUVlBiak5WUWRISmllUlRhTHRUM2I0M3V5Mk5VczlSMjIzYTNZU0p5cU0wV1U2MjNuaHpvMk41UnNsdmRMSVNjNzhGN0QtSkwxckhoTktLcFU1elNHLXFwWlZUWU1aaW5SSnZEQ0FvVUN5OGlnSWZyR2RqVktUQ0JacFBuQk12Rk10OVBJb21DaUZpb0dPNHdUS0dtWDdCR3pIU1NDOVNISE1MRWpWV1A1ZG95TDRsOVpfT3ptdGUzeGFrTXlvX0tEQ3BvNlcwYXZVOWs0WDBtUUlrNEdpSlhvQWZBbEVYeDlRY1VzUExwZw?oc=5",
+        "source": "TradingView",
+        "pubdate": "Fri, 17 Jul 2026 01:36:00 GMT",
+        "pubdate_iso": "2026-07-17T01:36:00+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 1,
+          "intensidad_label": "leve",
+          "emoji": "🔴",
+          "razonamiento": "Selloff: presion vendedora"
+        }
+      },
+      {
         "title": "Perfil del ETF 5MAG: dividendos y rentabilidad (XETR:5MAG)",
         "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5iZmRCUFdjNEUyYmFlSVJ2Z1hINlZsVHlaT3Bub1VFb0JKejBwVm9jQjVvaEFDZ1pmd25JYjByMWFzeDVFVURaVFVDd3JXemx2YzFNX25JeDBfbEUxNkh2Z283dw?oc=5",
         "source": "TradingView",
@@ -236,20 +250,6 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
-      },
-      {
-        "title": "Dow edges higher as Nasdaq rallies on cooler CPI, chip stocks rebound",
-        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOYjZfc182NHBrQWFQRFctdnNQcFRuMUFwcFdWaWFyNDZHZVhUUGFDVmhod0FudmxkWTZRRTU3TWhZYWZDaDkwM3pfcGppb2w2a3l1Q1cwV3M0Mzc3TlRXMHlsdDRsVFd2ejBLZ1ZBSkltbnhhbXItTklUempkeWRzMGFyTkhiNEQ3aXIzRloyMWlzZFZlNkhIRTVrSkdIWkJnOG1IcnZnS01USzVLc0VybS1zQWQyR0tqTXQ2WnRPblhKdw?oc=5",
-        "source": "TradingView",
-        "pubdate": "Tue, 14 Jul 2026 20:14:36 GMT",
-        "pubdate_iso": "2026-07-14T20:14:36+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
       }
     ]
   },
@@ -264,11 +264,11 @@
   },
   "resumen_ejecutivo": {
     "sentimiento": "alcista",
-    "score_neto": 6,
+    "score_neto": 5,
     "n_positivas": 4,
-    "n_negativas": 1,
-    "n_neutrales": 11,
-    "narrativa": "El feed muestra 4 senales positivas y 1 negativas (neto +6). Factores dominantes: Proxima arquitectura Rubin: roadmap fuerte; Proxima arquitectura Rubin: roadmap fuerte.",
+    "n_negativas": 2,
+    "n_neutrales": 10,
+    "narrativa": "El feed muestra 4 senales positivas y 2 negativas (neto +5). Factores dominantes: Proxima arquitectura Rubin: roadmap fuerte; Proxima arquitectura Rubin: roadmap fuerte.",
     "narrativa_fuente": "plantilla",
     "veredicto": "ALCISTA a corto plazo"
   }
