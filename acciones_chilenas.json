@@ -1,6 +1,6 @@
 {
-  "fecha_actualizacion": "2026-07-17T10:05:42.254026",
-  "duracion_segundos": 158.601899,
+  "fecha_actualizacion": "2026-07-17T10:35:45.513151",
+  "duracion_segundos": 161.946127,
   "n_acciones": 17,
   "acciones": [
     {
@@ -11,11 +11,11 @@
       "benchmark_min_pct": 6.0,
       "benchmark_max_pct": 7.000000000000001,
       "descripcion": "Administradora de Fondos de Pensiones. Top 1 por AUM en Chile. ROE consistentemente alto (~45%), G=20% (tecnicamente Crecimiento pero paga dividendos altos).",
-      "precio_actual_clp": 1251,
+      "precio_actual_clp": 1279,
       "razon_social": "A.F.P. HABITAT S.A.",
-      "variacion_pct": -1.19,
+      "variacion_pct": 1.02,
       "dy": {
-        "dy_pct": 7.94,
+        "dy_pct": 7.77,
         "anos_usados": 3,
         "anos_detalle": {
           "2025": 110.0,
@@ -25,13 +25,13 @@
         "promedio_anual": 99.33,
         "advertencia": null
       },
-      "cagr_3y": 0.20555316059185613,
-      "cagr_5y": 0.398616144072637,
-      "cagr_10y": 0.10239631167394503,
+      "cagr_3y": 0.21448114740573887,
+      "cagr_5y": 0.4048216250509926,
+      "cagr_10y": 0.10483920070744879,
       "evaluacion": {
         "status": "Sobre benchmark",
         "emoji": "🟢",
-        "vs_benchmark_pp": 1.44
+        "vs_benchmark_pp": 1.27
       },
       "cmf": {
         "periodo": "03/2026",
@@ -373,7 +373,7 @@
         },
         {
           "f": "2026-07",
-          "p": 1251
+          "p": 1279
         }
       ],
       "flujos_5y": [
@@ -428,7 +428,7 @@
           "unidad": "Miles"
         }
       ],
-      "_fecha_dato": "2026-07-17T10:05:42.253993"
+      "_fecha_dato": "2026-07-17T10:35:45.513118"
     },
     {
       "ticker": "ZOFRI",
@@ -855,7 +855,7 @@
           "unidad": "Miles"
         }
       ],
-      "_fecha_dato": "2026-07-17T10:05:42.253993"
+      "_fecha_dato": "2026-07-17T10:35:45.513118"
     },
     {
       "ticker": "PEHUENCHE",
@@ -1282,7 +1282,7 @@
           "unidad": "Miles"
         }
       ],
-      "_fecha_dato": "2026-07-17T10:05:42.253993"
+      "_fecha_dato": "2026-07-17T10:35:45.513118"
     },
     {
       "ticker": "TRICAHUE",
@@ -1705,7 +1705,7 @@
           "unidad": "Miles"
         }
       ],
-      "_fecha_dato": "2026-07-17T10:05:42.253993"
+      "_fecha_dato": "2026-07-17T10:35:45.513118"
     },
     {
       "ticker": "COLBUN",
@@ -1715,11 +1715,11 @@
       "benchmark_min_pct": 8.0,
       "benchmark_max_pct": 9.0,
       "descripcion": "Segunda mayor generadora electrica de Chile. Diversificada en hidro, gas, eolica, solar. ROE 4%, payout 79%, G=1%.",
-      "precio_actual_clp": 134.55,
+      "precio_actual_clp": 135.43,
       "razon_social": "COLBUN S.A.",
-      "variacion_pct": -0.77,
+      "variacion_pct": -0.13,
       "dy": {
-        "dy_pct": 5.9,
+        "dy_pct": 5.87,
         "anos_usados": 3,
         "anos_detalle": {
           "2025": 5.54,
@@ -1729,13 +1729,13 @@
         "promedio_anual": 7.94,
         "advertencia": null
       },
-      "cagr_3y": 0.019998579054126164,
-      "cagr_5y": 0.05906122087319354,
-      "cagr_10y": -0.020075424475847425,
+      "cagr_3y": 0.022217454238308676,
+      "cagr_5y": 0.06044293062541484,
+      "cagr_10y": -0.019436400976938994,
       "evaluacion": {
         "status": "Bajo benchmark",
         "emoji": "🔴",
-        "vs_benchmark_pp": -2.6
+        "vs_benchmark_pp": -2.63
       },
       "cmf": {
         "periodo": "03/2026",
@@ -2077,7 +2077,7 @@
         },
         {
           "f": "2026-07",
-          "p": 134.55
+          "p": 135.43
         }
       ],
       "flujos_5y": [
@@ -2132,7 +2132,7 @@
           "unidad": "Miles"
         }
       ],
-      "_fecha_dato": "2026-07-17T10:05:42.253993"
+      "_fecha_dato": "2026-07-17T10:35:45.513118"
     },
     {
       "ticker": "ENELGXCH",
@@ -2142,11 +2142,11 @@
       "benchmark_min_pct": 8.0,
       "benchmark_max_pct": 9.0,
       "descripcion": "Filial chilena de Enel. Principal generadora hidroelectrica del pais. ROE 19%, payout 62%, G=7%.",
-      "precio_actual_clp": 555,
+      "precio_actual_clp": 554,
       "razon_social": "ENEL GENERACION CHILE S.A.",
-      "variacion_pct": 0.31,
+      "variacion_pct": 0.13,
       "dy": {
-        "dy_pct": 6.05,
+        "dy_pct": 6.06,
         "anos_usados": 3,
         "anos_detalle": {
           "2025": 41.9,
@@ -2156,13 +2156,13 @@
         "promedio_anual": 33.59,
         "advertencia": null
       },
-      "cagr_3y": 0.26540155866873927,
-      "cagr_5y": 0.2296592099258581,
-      "cagr_10y": -0.005523895873396634,
+      "cagr_3y": 0.26464110081811976,
+      "cagr_5y": 0.22921576977807212,
+      "cagr_10y": -0.00570322620807151,
       "evaluacion": {
         "status": "Bajo benchmark",
         "emoji": "🔴",
-        "vs_benchmark_pp": -2.45
+        "vs_benchmark_pp": -2.44
       },
       "cmf": {
         "periodo": "03/2026",
@@ -2504,7 +2504,7 @@
         },
         {
           "f": "2026-07",
-          "p": 555
+          "p": 554
         }
       ],
       "flujos_5y": [
@@ -2559,7 +2559,7 @@
           "unidad": "Miles"
         }
       ],
-      "_fecha_dato": "2026-07-17T10:05:42.253993"
+      "_fecha_dato": "2026-07-17T10:35:45.513118"
     },
     {
       "ticker": "LIPIGAS",
@@ -2985,7 +2985,7 @@
           "unidad": "Miles"
         }
       ],
-      "_fecha_dato": "2026-07-17T10:05:42.253993"
+      "_fecha_dato": "2026-07-17T10:35:45.513118"
     },
     {
       "ticker": "NTGCLGAS",
@@ -2995,9 +2995,9 @@
       "benchmark_min_pct": 8.0,
       "benchmark_max_pct": 9.0,
       "descripcion": "Distribucion de gas natural por redes en Chile. Negocio regulado, payout alto. ROE 13%, payout 68%, G=4%.",
-      "precio_actual_clp": 625.11,
+      "precio_actual_clp": 625.2,
       "razon_social": "NATURGY CHILE GAS NATURAL S.A.",
-      "variacion_pct": 0,
+      "variacion_pct": 0.01,
       "dy": {
         "dy_pct": 6.45,
         "anos_usados": 3,
@@ -3009,8 +3009,8 @@
         "promedio_anual": 40.33,
         "advertencia": null
       },
-      "cagr_3y": 0.6304983232677788,
-      "cagr_5y": 0.1810577181013926,
+      "cagr_3y": 0.6305765696602239,
+      "cagr_5y": 0.1810917246198076,
       "cagr_10y": null,
       "evaluacion": {
         "status": "Cerca",
@@ -3357,7 +3357,7 @@
         },
         {
           "f": "2026-07",
-          "p": 625.11
+          "p": 625.2
         }
       ],
       "flujos_5y": [
@@ -3412,7 +3412,7 @@
           "unidad": "Miles"
         }
       ],
-      "_fecha_dato": "2026-07-17T10:05:42.253993"
+      "_fecha_dato": "2026-07-17T10:35:45.513118"
     },
     {
       "ticker": "SOQUICOM",
@@ -3839,7 +3839,7 @@
           "unidad": "Miles"
         }
       ],
-      "_fecha_dato": "2026-07-17T10:05:42.253993"
+      "_fecha_dato": "2026-07-17T10:35:45.513118"
     },
     {
       "ticker": "QUINENCO",
@@ -3849,11 +3849,11 @@
       "benchmark_min_pct": 8.0,
       "benchmark_max_pct": 9.0,
       "descripcion": "Holding del grupo Luksic. Participaciones en CCU, Banco de Chile, Madeco, Enex, Vapores. ROE 10%, payout 73%, G=3%.",
-      "precio_actual_clp": 4243.7,
+      "precio_actual_clp": 4263.1,
       "razon_social": "QUINENCO S.A.",
-      "variacion_pct": -0.85,
+      "variacion_pct": -0.39,
       "dy": {
-        "dy_pct": 9.51,
+        "dy_pct": 9.47,
         "anos_usados": 3,
         "anos_detalle": {
           "2025": 300.7,
@@ -3863,13 +3863,13 @@
         "promedio_anual": 403.58,
         "advertencia": null
       },
-      "cagr_3y": 0.1596814517056684,
-      "cagr_5y": 0.23958220917359574,
-      "cagr_10y": 0.12694068102345257,
+      "cagr_3y": 0.16144592014677084,
+      "cagr_5y": 0.24071348807064674,
+      "cagr_10y": 0.12745480322517455,
       "evaluacion": {
         "status": "Sobre benchmark",
         "emoji": "🟢",
-        "vs_benchmark_pp": 1.01
+        "vs_benchmark_pp": 0.97
       },
       "cmf": {
         "periodo": "03/2026",
@@ -4211,7 +4211,7 @@
         },
         {
           "f": "2026-07",
-          "p": 4243.7
+          "p": 4263.1
         }
       ],
       "flujos_5y": [
@@ -4266,7 +4266,7 @@
           "unidad": "Miles"
         }
       ],
-      "_fecha_dato": "2026-07-17T10:05:42.253993"
+      "_fecha_dato": "2026-07-17T10:35:45.513118"
     },
     {
       "ticker": "CENCOMALLS",
@@ -4276,11 +4276,11 @@
       "benchmark_min_pct": 8.0,
       "benchmark_max_pct": 9.0,
       "descripcion": "Filial inmobiliaria de Cencosud. Operadora de centros comerciales en Chile, Peru y Colombia. ROE 11%, payout 46%, G=6%.",
-      "precio_actual_clp": 2245,
+      "precio_actual_clp": 2206.1,
       "razon_social": "CENCOSUD SHOPPING S.A.",
-      "variacion_pct": -0.22,
+      "variacion_pct": -1.95,
       "dy": {
-        "dy_pct": 4.53,
+        "dy_pct": 4.61,
         "anos_usados": 3,
         "anos_detalle": {
           "2025": 91.0,
@@ -4290,13 +4290,13 @@
         "promedio_anual": 101.67,
         "advertencia": null
       },
-      "cagr_3y": 0.1370837054783376,
-      "cagr_5y": 0.14456806022434088,
+      "cagr_3y": 0.1304778372453681,
+      "cagr_5y": 0.14057380302209666,
       "cagr_10y": null,
       "evaluacion": {
         "status": "Bajo benchmark",
         "emoji": "🔴",
-        "vs_benchmark_pp": -3.97
+        "vs_benchmark_pp": -3.89
       },
       "cmf": {
         "periodo": "03/2026",
@@ -4638,7 +4638,7 @@
         },
         {
           "f": "2026-07",
-          "p": 2245
+          "p": 2206.1
         }
       ],
       "flujos_5y": [
@@ -4693,7 +4693,7 @@
           "unidad": "Miles"
         }
       ],
-      "_fecha_dato": "2026-07-17T10:05:42.253993"
+      "_fecha_dato": "2026-07-17T10:35:45.513118"
     },
     {
       "ticker": "ENELAM",
@@ -4703,9 +4703,9 @@
       "benchmark_min_pct": 8.0,
       "benchmark_max_pct": 9.0,
       "descripcion": "Mayor electrica privada de Latam. Par regional de Enel Generacion Chile.",
-      "precio_actual_clp": 84.5,
+      "precio_actual_clp": 84.48,
       "razon_social": "ENEL AMERICAS S.A.",
-      "variacion_pct": -0.35,
+      "variacion_pct": -0.38,
       "dy": {
         "dy_pct": 3.9,
         "anos_usados": 3,
@@ -4717,9 +4717,9 @@
         "promedio_anual": 3.29,
         "advertencia": null
       },
-      "cagr_3y": -0.08609084183517912,
-      "cagr_5y": -0.04753814956711733,
-      "cagr_10y": -0.033005679688806855,
+      "cagr_3y": -0.08616295081118974,
+      "cagr_5y": -0.04758324078781051,
+      "cagr_10y": -0.03302856956642175,
       "evaluacion": {
         "status": "Bajo benchmark",
         "emoji": "🔴",
@@ -5057,7 +5057,7 @@
         },
         {
           "f": "2026-07",
-          "p": 84.5
+          "p": 84.48
         }
       ],
       "flujos_5y": [
@@ -5112,7 +5112,7 @@
           "unidad": "Miles"
         }
       ],
-      "_fecha_dato": "2026-07-17T10:05:42.253993"
+      "_fecha_dato": "2026-07-17T10:35:45.513118"
     },
     {
       "ticker": "AGUAS-A",
@@ -5122,11 +5122,11 @@
       "benchmark_min_pct": 8.0,
       "benchmark_max_pct": 9.0,
       "descripcion": "Mayor sanitaria de Chile. Negocio regulado y muy estable, dividendos altos y predecibles. Precio via Yahoo (.SN) por bloqueo captcha BCS.",
-      "precio_actual_clp": 334.51,
+      "precio_actual_clp": 334,
       "razon_social": "AGUAS ANDINAS S.A., SERIE A",
-      "variacion_pct": -0.28,
+      "variacion_pct": -0.44,
       "dy": {
-        "dy_pct": 5.01,
+        "dy_pct": 5.02,
         "anos_usados": 3,
         "anos_detalle": {
           "2025": 21.09,
@@ -5136,13 +5136,13 @@
         "promedio_anual": 16.77,
         "advertencia": null
       },
-      "cagr_3y": 0.056080252176211376,
-      "cagr_5y": 0.1946139961871729,
-      "cagr_10y": -0.018695367565667143,
+      "cagr_3y": 0.055543272832364377,
+      "cagr_5y": 0.19424950781334416,
+      "cagr_10y": -0.018845081790294094,
       "evaluacion": {
         "status": "Bajo benchmark",
         "emoji": "🔴",
-        "vs_benchmark_pp": -3.49
+        "vs_benchmark_pp": -3.48
       },
       "cmf": {
         "periodo": "03/2026",
@@ -5484,7 +5484,7 @@
         },
         {
           "f": "2026-07",
-          "p": 334.51
+          "p": 334
         }
       ],
       "flujos_5y": [
@@ -5539,7 +5539,7 @@
           "unidad": "Miles"
         }
       ],
-      "_fecha_dato": "2026-07-17T10:05:42.253993"
+      "_fecha_dato": "2026-07-17T10:35:45.513118"
     },
     {
       "ticker": "PARAUCO",
@@ -5549,11 +5549,11 @@
       "benchmark_min_pct": 8.0,
       "benchmark_max_pct": 9.0,
       "descripcion": "Operador de centros comerciales en Chile, Peru y Colombia. Dividendos estables. Precio via Yahoo (.SN) por bloqueo captcha BCS.",
-      "precio_actual_clp": 3935.5,
+      "precio_actual_clp": 3999.1,
       "razon_social": "PARQUE ARAUCO S.A.",
-      "variacion_pct": -0.82,
+      "variacion_pct": 0.78,
       "dy": {
-        "dy_pct": 0.56,
+        "dy_pct": 0.55,
         "anos_usados": 3,
         "anos_detalle": {
           "2025": 36.17,
@@ -5563,13 +5563,13 @@
         "promedio_anual": 22.19,
         "advertencia": null
       },
-      "cagr_3y": 0.4113486139070164,
-      "cagr_5y": 0.31867129590350785,
-      "cagr_10y": 0.11060420794531378,
+      "cagr_3y": 0.4189107646257435,
+      "cagr_5y": 0.322906109939217,
+      "cagr_10y": 0.11238608958561724,
       "evaluacion": {
         "status": "Bajo benchmark",
         "emoji": "🔴",
-        "vs_benchmark_pp": -7.94
+        "vs_benchmark_pp": -7.95
       },
       "cmf": {
         "periodo": "03/2026",
@@ -5903,7 +5903,7 @@
         },
         {
           "f": "2026-07",
-          "p": 3935.5
+          "p": 3999.1
         }
       ],
       "flujos_5y": [
@@ -5958,7 +5958,7 @@
           "unidad": "Miles"
         }
       ],
-      "_fecha_dato": "2026-07-17T10:05:42.253993"
+      "_fecha_dato": "2026-07-17T10:35:45.513118"
     },
     {
       "ticker": "MALLPLAZA",
@@ -5968,11 +5968,11 @@
       "benchmark_min_pct": 8.0,
       "benchmark_max_pct": 9.0,
       "descripcion": "Operador de malls (grupo Falabella). Negocio inmobiliario de renta estable. Precio via Yahoo (.SN) por bloqueo captcha BCS.",
-      "precio_actual_clp": 3912,
+      "precio_actual_clp": 3939.4,
       "razon_social": "PLAZA S.A.",
-      "variacion_pct": 0.18,
+      "variacion_pct": 0.88,
       "dy": {
-        "dy_pct": 1.15,
+        "dy_pct": 1.14,
         "anos_usados": 3,
         "anos_detalle": {
           "2025": 49.53,
@@ -5982,13 +5982,13 @@
         "promedio_anual": 44.92,
         "advertencia": null
       },
-      "cagr_3y": 0.4153062042756399,
-      "cagr_5y": 0.29346539726514553,
+      "cagr_3y": 0.4179423278600265,
+      "cagr_5y": 0.2949103703246423,
       "cagr_10y": null,
       "evaluacion": {
         "status": "Bajo benchmark",
         "emoji": "🔴",
-        "vs_benchmark_pp": -7.35
+        "vs_benchmark_pp": -7.36
       },
       "cmf": {
         "periodo": "03/2026",
@@ -6322,7 +6322,7 @@
         },
         {
           "f": "2026-07",
-          "p": 3912
+          "p": 3933.9
         }
       ],
       "flujos_5y": [
@@ -6377,7 +6377,7 @@
           "unidad": "Miles"
         }
       ],
-      "_fecha_dato": "2026-07-17T10:05:42.253993"
+      "_fecha_dato": "2026-07-17T10:35:45.513118"
     },
     {
       "ticker": "CCU",
@@ -6804,7 +6804,7 @@
           "unidad": "Miles"
         }
       ],
-      "_fecha_dato": "2026-07-17T10:05:42.253993"
+      "_fecha_dato": "2026-07-17T10:35:45.513118"
     },
     {
       "ticker": "OXIQUIM",
@@ -7227,7 +7227,7 @@
           "unidad": "Miles"
         }
       ],
-      "_fecha_dato": "2026-07-17T10:05:42.253993"
+      "_fecha_dato": "2026-07-17T10:35:45.513118"
     }
   ]
 }
