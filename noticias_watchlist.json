@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-17T20:33:02.023210+00:00",
+  "updated_at_utc": "2026-07-17T22:33:02.112612+00:00",
   "ventana_dias": 7,
   "medios": [
     "Diario Financiero",
@@ -36,22 +36,7 @@
         "matched_keyword": "Colbun"
       }
     ],
-    "ENELGXCH": [
-      {
-        "title": "IPSA modera pérdidas al mediodía y se mantiene en torno a los 10.800 puntos tras el feriado",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0zUlpickl6aDNiSVJOUXhKdTdSSUJCSjlXODVhVDFYc2lNM3p6VlI1NldoTWxVMXNRRHE5YW42a2ROSDNpSEhLQnNEMy14ei1lc3Vjd1ZFcmNHRVR4eTZGeVgtMGNuLUhU?oc=5",
-        "pubdate": "Fri, 17 Jul 2026 14:54:00 GMT",
-        "source": "Diario Financiero",
-        "matched_keyword": "Enel Chile"
-      },
-      {
-        "title": "\"El Niño\" llega a la bolsa: las acciones eléctricas que podrían beneficiarse con la llegada de las lluvias",
-        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQeXYwY1RXV1FsMUJ1dmxPNmE4RVp2cUpiN3lKX3Atbm5yaXN6aU9HaVV5dTVuUXY3OXlJNWs2QXdFN2QzNkdxajQweVhlMHZ2ZW0taE5xZWZIc3QxTGlRTTB4Z3ltZkpaeGhSVXY0bEJFMWVqQ0ZPYkEzSGJXOC1xZGxJR1p2bGYwU3dYMEc0Q3BZb09EUm91R294TXl2ZG9CSmhF?oc=5",
-        "pubdate": "Wed, 15 Jul 2026 20:30:00 GMT",
-        "source": "Diario Financiero",
-        "matched_keyword": "Enel Chile"
-      }
-    ],
+    "ENELGXCH": [],
     "LIPIGAS": [],
     "NTGCLGAS": [],
     "SOQUICOM": [
@@ -106,14 +91,22 @@
       }
     ],
     "QUINENCO": [],
-    "CENCOMALLS": []
+    "CENCOMALLS": [
+      {
+        "title": "IPSA cierra sesión del viernes con pérdidas y se mantiene bajo los 10.900 puntos",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0zUlpickl6aDNiSVJOUXhKdTdSSUJCSjlXODVhVDFYc2lNM3p6VlI1NldoTWxVMXNRRHE5YW42a2ROSDNpSEhLQnNEMy14ei1lc3Vjd1ZFcmNHRVR4eTZGeVgtMGNuLUhU?oc=5",
+        "pubdate": "Fri, 17 Jul 2026 20:39:00 GMT",
+        "source": "Diario Financiero",
+        "matched_keyword": "Cencomalls"
+      }
+    ]
   },
   "stats": {
     "total_queries": 51,
     "queries_exitosas": 51,
     "queries_falladas": 0,
-    "total_noticias_brutas": 2083,
-    "total_noticias_filtradas": 12,
+    "total_noticias_brutas": 2082,
+    "total_noticias_filtradas": 11,
     "total_hechos_esenciales_brutos": 66
   }
 }
