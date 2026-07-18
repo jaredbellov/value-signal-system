@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-18T04:07:18.152056+00:00",
+  "updated_at_utc": "2026-07-18T05:33:58.113125+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "bcch_tpm": {
@@ -36,38 +36,353 @@
     }
   },
   "noticias_por_categoria": {
-    "bcch_tpm": [],
-    "ipsa": [],
-    "dolar_cobre": [],
-    "economia_chile": [],
-    "politica_regulacion": [],
-    "pensiones_afp": [],
+    "bcch_tpm": [
+      {
+        "title": "El Dólar canadiense muestra poca reacción a la decisión sobre tipos de interés del Banco de Canadá",
+        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOQ1pYRm9VYU1ZTDhjbm9yNllhZnhxWjNzaXZSYTBpWmlyR2JpMjNJNy1Icks0TUhTLVlkNndtQXp4MUFkQnFheGJ1UnB4ZGtaRVlhcHBWN2NoUl8tQ19TYnBrM2NDYmJBZzR2OUZkZHNkeC1yMnJXYW1zZDl3a3dVelptcGNTMTlRdnhucHR6dks0WTNzY2IzOUg2eVBmdnlIODNYZEtHaGlhaXFPcDNpay04NGNhRnpXQmRCVzBNNzktSzJhZ2pFRjJiR192d3hnRUdKMm50d9IB3AFBVV95cUxNcE9NRHpDZ2ZxeEFfWjRZOUx5UUlaX0paUTRZTGdqSWJsa0RHTzBLYV81TWpfS0tJQjFVSXQxTmdpang2eFJBSjkteFg4WkV2UW9ZU2YtYThQMHRPMm1oX0lmMzJodDI5STVCNndLLW8zYlZZUDdCZnlaY21vRlNuYmswaUpudmxmV3U2cUE5emlNTHFzUzd1b1ZsSGtLblcxWm9ZQ1ZEeTh2N0tKNmIyTkthdHZuN3E5QTVlanNWQlZyN3c4Y0tycS16ZjhtYklyUUx6cVhENDhrTEhx?oc=5",
+        "source": "FXStreet",
+        "pubdate": "Wed, 15 Jul 2026 14:34:00 GMT",
+        "pubdate_iso": "2026-07-15T14:34:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "ipsa": [
+      {
+        "title": "SP IPSA: La Bolsa de Santiago este viernes cae 0,56% y en la semana varió -1,54%",
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPb0pvVTZsR2Q4eGV1UnluNkpNdUd3czdZcFVoYzFDYV96d3hvRzdKakhpVk9pNWU2Q25CdGZLMjhtVVdOcEhNWnR6M19TaGRkRVVJQWxSNTdSTEdvMzJlbzN4NV9EeUpHNUM5YU41WURDOEFidVVRdWxzZmlDUHBfaVlrVzdTY3Q3MUZ4ekUwT0UxRnhfMm1LcjhaZnVGcm1XTkhyTDFxbmpyRno5bEtMVHVsU3pFZFE?oc=5",
+        "source": "diarioestrategia.cl",
+        "pubdate": "Sat, 18 Jul 2026 00:20:51 GMT",
+        "pubdate_iso": "2026-07-18T00:20:51+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Southern Copper distribuirá dividendos en efectivo y acciones a sus accionistas en agosto de 2026",
+        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZUd4WGE0WXVaZUFvLVowUGc0eWVCUmpxOTNEMDN0ZnVXSHdvUnNoX2hDMVQ4NUxBMEFaVVFMdXctYzFpc19sUU85MjlScU9yZExRN3VlWTEwd05kTUNuUjJvamJkWGpGTlpRMmYxWUN4eEZqRXNkWlhKUGlmRGI4Z0g1ZXhWOUg1REhLTFZuQ3NpUlRlNndYRmtaRDN3dVhvS3YyZ2RKYzVTRFZ1ejlLdkN6WThqMDhtUnNUWjVHR1M?oc=5",
+        "source": "Revista ProActivo",
+        "pubdate": "Fri, 17 Jul 2026 13:49:14 GMT",
+        "pubdate_iso": "2026-07-17T13:49:14+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "SP IPSA: La Bolsa de Santiago este miércoles cierra a la baja con variación de 0,68%",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQakpnWjNCNzJUeEFLdi1tYzJTeVRtX011RmFOcld5cHZCd3M4MjJ4OVJKeDVkYmlQWE9pR3lVUjNMRzEtS3hGcDdwWkRGanVRM3N6STlUcHFxY3IwRDdlRjU3SFlnZ0NJV3dOam41d3M0cFV1enc5QWQ3VEZTY3E2cXA0M1RabURXWWxGR2c5R0tZdFZvQ1U3c09oR3lfMkVmRHdYS196N3NuaFlOQ2wwaFhDTEZwd01ES2FJ?oc=5",
+        "source": "diarioestrategia.cl",
+        "pubdate": "Wed, 15 Jul 2026 23:42:30 GMT",
+        "pubdate_iso": "2026-07-15T23:42:30+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "dolar_cobre": [
+      {
+        "title": "El “momento del cobre” y la oportunidad Argentina-Chile-Canadá",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUzlZQ2dNaW1iS05iQVA0NDRJZzYxbFctTWcwbzZKQ0MtOVVFQXVreVpoaFM2aDN6M2VFWlItZFdoUE0tNVdKeW9PbVEwcy1IQUNMOHdxZnpfcmNObEdRRS05YUhvS0ZqY0tMOWlUUEVmN2FlOWx4azhMOFRfaTJHU2I1NjNrdWxNOGpXanJtTm5ZWWZhOVJyQUFmeGRIRTNCa0RZUnZ0QdIBwgFBVV95cUxNZG9hU0VUYnhkQmNoV1dkLXdzS09rRm8xSF9DcUZFbkZzNzIzaEU4RU5zR010UEF5aXdXelJmRU1wV2FIOHNZV3d4TlJwc0tpWkRheExNQndETUktMFhPNHNyUUZ2Y1NCMFdCQndlamoxSER2dFpOT2pCVmdqalhlZjY2SWQxSWt6a1gxR0c4eFRNVS1fWjZ1LThWaDVTeDloTzY2cWRfYVhRM21JV3pNWUpqRmQzZ2h0LXR1SmQwUnZwdw?oc=5",
+        "source": "Infobae",
+        "pubdate": "Sat, 18 Jul 2026 05:11:47 GMT",
+        "pubdate_iso": "2026-07-18T05:11:47+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Dólar hoy en Chile: cotización de cierre del 17 de julio",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUnpLVFp2WDRVUjg4UDVjUnEzX3RZMUk0aktTT2dhbXF5OEppX29uc3hiUUhNbFYyTHg3WFByLTFzalRKRjc1aUpRX29uMkFiSDNaamFpWDctOUZDME1WZUgxMVZfNmF3UVZlTkVLaF9oc081V3NPSzZSYjhEVWJfcUNRQmdxVWpBYmRZbVlRWFRwc0tESll3d0RNbTZBcllmU1HSAbwBQVVfeXFMUEVfY29XQWFYRHJUVnlISEJOSEVPaW94STNWdFNVd0FSaDZ3VGppMjZ6di1zS0Y3MTZ2QlVYTjRudFBwVC0tUUNXLTFOVnVHa0VVUlB2M29EeGN0RGVoMHB1WXl3SlRoWEw4ZkpobWVKUW1iUlhBSGhSRDFMWXVyRWpMMWszTXZzbUFxTzI0VkxZel9zWHdSemd0aDhaZFN0YjVCNkV1cW9VaFhyMVZMeWhiWUZSd0NaaHlwM2s?oc=5",
+        "source": "Infobae",
+        "pubdate": "Fri, 17 Jul 2026 18:31:48 GMT",
+        "pubdate_iso": "2026-07-17T18:31:48+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Dólar en Chile cierra con fuerte alza por ajuste post feriado, menor cobre y mayor aversión al riesgo",
+        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPMHFtem92eTlvd0haNENyS2lSbTdXMTJ2Qk9DOHk3M0pZU1l1cXdYcVM4LVJCUERPMlljdTBOVGxTVWFGYWthb1pjckswdWl3QldSRGV3eGU2TlJWWFk1ZDFMbVpUX1UwQTliTzRjMjdibEpuMmlPczdneV85bkNsOG1JUWg2TGI5QUY1ZnVRY185eVpucDFQUGZLUkV3dkhRNU02aUFGWlRoNDk4OVk5MWwwdHJsMHpHdlhQVEdGeEExMS1CSGd4OGFaSWFBbnAwWmY0?oc=5",
+        "source": "El Periodista",
+        "pubdate": "Fri, 17 Jul 2026 18:26:10 GMT",
+        "pubdate_iso": "2026-07-17T18:26:10+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Peso chileno hoy, 17 de julio de 2026: cuánto rinde el peso argentino para hacer compras en Chile estas vacaciones de invierno",
+        "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQRWFxTl9tdTZoVXhIbXk5cTI1TXpwZ2NUamFrUUhiV3B0NVRlUm13UGpmMTdZZGhuaXBSWXpLZWlqdnRpRG5PZWd3Mm5QYXU5d1NfM2l3QXd6UGI0MHgydzlTaUxtQWx1VVJZU1p4a2JrZjFrV3JrZVJEcGp0SUVjZXFDMFlFNnctYzdTUEctNjltRHFqa2dFYVkxUEdPMHZhZlFYRjNFOWt1MHp0XzlCdjN4NUFWVnZtVVlHeVdHbFZhbkdFcjZMd1NOelpZRm5YSjhrLXdoS0xvbnVQbjJXRnZGa1p3bGdVYWl0RnZHRHpiLXBQUi05MmdKMGFURDjSAYcCQVVfeXFMTnZqTmpwY2NTU0gxMlpCNldMSm1pY3ExSXBnX2VxLTM3XzhwX3dkMGFJOWtsc0R2WkIwMjVnR0J3OTRlcm5WU19EODZGQXo5QVpWVENybGU3dmxkUzd4ek1TQmZqcm02aUh6SUstb29pZHRtSl84YkRRbGtUeFEtd3lOSURZdUhaMmd3NzlWeG1jWVlKOEtVck0wWndiNUctQmp4SXBRaWo0cWo1LWtmdE9SNUlJcWRZYlZwUGNFWGsySEtYVlcyeWZvNloxak1IQ3VMbHA3OUJWT1dxaU9qOEFIbVg2NzEtSloyaEQtZ19PU18tUndOUzBOUnNIQS1wNHZ4Z21DNEE?oc=5",
+        "source": "Diario Río Negro",
+        "pubdate": "Fri, 17 Jul 2026 14:51:43 GMT",
+        "pubdate_iso": "2026-07-17T14:51:43+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Precio del Dólar en Chile hoy: El Peso chileno se desliza a mínimos de más de una semana",
+        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbElLSEFXTmNhTVhuRHROT0FXNjV2cTVuUkhQbTd5ekxCMmRqb0t2cm0tbklmbWptNThqNTUweWtSSUdKbjhPY0JpUGh6M3JrcWJieWVsTXhoa0lidlZMYTJkUWFfSzg0eHJZNTRZV251clVrMHF5dV95djkyOGcwOU5Fam0yUXlhS3JueXVMc0RqTUlzcGFCTUl1NFlhRFFzbHZITnJ5YWxlMnFtRkhtMlFGUkpWRmZOcjBUcHFqdkx4eUZzREVfN9IBzgFBVV95cUxNa0tlbkdseXNjc0ljbDZHY0NKdV9DZFF2dFpLSlVyc2FvdmJPRmFxdnRnQlpHeVFMenFSMlp5U3ZMNk9ZbmNKaVJweEZ2bHhkNS1ockpsS0NyN0doaDQzcEl0NVNybUh5d0EzZnBGSUpSMjExazd5OENGMk91aHdiSl9zWEk4S1hlWWZOT0ZRZ0RSLXJVTE1sODNyUV9BMWNJdTdIeW9pTkE5amtVXy1YdzM1a0ZRV2JGOW15VS1DbU1yMDA3MENfdE50bXc1QQ?oc=5",
+        "source": "FXStreet",
+        "pubdate": "Fri, 17 Jul 2026 14:09:10 GMT",
+        "pubdate_iso": "2026-07-17T14:09:10+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "economia_chile": [
+      {
+        "title": "Sergio Lehmann y aprobación del plan Quiroz: “La economía puede crecer hasta 3,5% y está fiscalmente balanceada” - Ex-Ante",
+        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOVFJDcFdDMHFqV0taLV9uaUt0T0pqSnJOdFEtem9SX2dUaElqaDBoYXZZUXY0T3M2Q3FsdWd5ZE1nY0hLLUFFejZEVmZlbjR5VGowZWtTanhCaWE1WXBkdkJ3Y3kweDMwVVZQY0x1WVVKSXFxQ2QzYmNPZzVMWFBWSFRxeXJMVnJuY1ZRbFA0OHpWYmNDVUo0TlBaX2pKVXIzU3FnUHR0ZnNDU2pNeWtLRzlLT1lpd3oyQ3pzd201NzQzU1lIYjVxVTdyNA?oc=5",
+        "source": "Ex-Ante",
+        "pubdate": "Fri, 17 Jul 2026 17:57:45 GMT",
+        "pubdate_iso": "2026-07-17T17:57:45+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Senado de Chile aprueba polémica megarreforma económica de Antonio Kast",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdmFTTTNSRUF2VjNzNzRKNUEtZENxOUVfT2ZCVkZTLXVFQi1KenRBRGtPSEpuYmFob2hxdlpnek10ZEEwSGMzTjk5X05mVVd4TkJQWHJGOEVtX2hkOF9GRGpSa2Y0NVNjY0RUM3VPcmU2Q3VQZ0lwaXpQWTZaemc2WHdicWVVY1Vqa1Fnei1waDRuaEZQT3lCSkxPNWNJV1NwbGF4bEpOVVhLN0V2ZzNtWDhLOW9BUWt20gG-AUFVX3lxTE1vVnFqOWZXUE5YSDllT2Q5YWpGUXJtRk1iM29naXgwWHd6NDFmTXk4c2t3QmdqOUNzOU54eEFXaDF4NkJXcktXT1EtclZxZWxBOU5jbUpqaHRxbTg1RTNwZ0hDc2F4cWV0aHk2cXYtckMwbmxiM0lFRDBDejJVZWdwNHpnMDNWaEEzV0Q5Y3dPMFdMZDQzdmJnUXFrTFltMTZmWmFqSDVodFJzUS05M2hLenRlLTRLUGZXeHI4Qmc?oc=5",
+        "source": "El Economista",
+        "pubdate": "Thu, 16 Jul 2026 20:16:19 GMT",
+        "pubdate_iso": "2026-07-16T20:16:19+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Chile rebaja crecimiento a 1.8% para 2026 y eleva previsión de cobre a $5.90",
+        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMDFRdFo1NFdQc1ctY0x2b2dSV2JoVlJSdlpCcmxXeGJVOE1TTjJGa09xRlhSN2hEbGMwc2NYaVphTGRfdlBtMmxmRjBlTXJTSzlNZm44VlN3T2F5eGNsNXM4b0l5WF9pTXk3VFR6M1RUZHlrelNLaUtXSFhxV0dPdnB2TGR1UFhDUmNwbXRnOURkUmhXSmZDVDVpTnRva3BFb3o3TA?oc=5",
+        "source": "Editorial RN",
+        "pubdate": "Thu, 16 Jul 2026 11:17:33 GMT",
+        "pubdate_iso": "2026-07-16T11:17:33+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Pese al negativo Imacec entre enero y mayo, Clapes UC ve caer la probabilidad de recesión en junio",
+        "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPRXhyVU5QVnFlbm9rV0EtbDdub0Qwc1pFRTQ5bFNrakRpNWxuUkQ2MFVjNlFPdmNvNEs5ZGNxbURZaUF3N1F5OF9GQzZ5Q255ME54MjJlRTdRblFGV3dmekpzYU1xV3V1TWlHMWw0Ni1hdFJSREMyaEpBOGtmU3ByVFR6T2hMeWNLZ2poUVVQQ2VKaWM3bmlqdzZwMENha2ZDeVNJcWgtM0ZCZGU5Ulg1OFhld3hRTkFIN3IxVVQxb2RESTk3TUhSZkVsTEI3TzlaTS1acdIB9gFBVV95cUxPQWo1M1NFb3MwTW04ZzVBdk1qQXM1eF8xVm84X1ZWWHZVQWNfWlBGbHhxVGlwdDdBUmE4R2J1a3BhNTF2LUlYdkttdHR0S0FqM1BJcDlhU1JULU1PczRnYTRUZUFjOU9mVWZjQmI0REJuTVFsYmowaUhNcDE3R1hCa1lrTFVFT3JERTFqNE9aYjl3N3ZvQkpoN3FoeVBPOWc1dDlSVUxMNTJyWk5uN0p1LXRtR2NWY3B2cXk5dVFic1V4amxsUW1SLThFcWRyTXRzUGJTY0ZxYmlkanJlTXI2cFRfYlI2WUFxSWN2Y3ZqNjNxcjdNRmc?oc=5",
+        "source": "La Tercera",
+        "pubdate": "Wed, 15 Jul 2026 22:15:26 GMT",
+        "pubdate_iso": "2026-07-15T22:15:26+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Riesgo de recesion: muy negativo"
+        }
+      },
+      {
+        "title": "Nicolás Grau cuestiona la megarreforma y advierte sobre sus efectos en el crecimiento y el gasto social",
+        "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOSW9UVGlRSlBaN3d0MXBkTHl5TGtEakt4SWJNc181ZWhkSTVkazdlRkFWUDBaVWJadmJ6U1F5TUdXMjJxdTFlOFZqVXV0MDZkVXJXWkRQSTFUdURaMlJqdGE0NkJnbWVBam5qLVlJeU56WEp1ODkyYlY3eVRXV3hoZnVEMDJRcEstbFRBbHFlc2VxUHY5dENPWjk1TmdoT0dBOWFGLVFRZXpkZjdhNmxZWWlrN2RKWVlnMkpDejJMMTVuLUdVbHZGWDZMRnVIdDNEcTFZSGU4NWNMZFExM1d2bnVjUGlPUQ?oc=5",
+        "source": "Radio Pauta 100.5",
+        "pubdate": "Wed, 15 Jul 2026 17:49:08 GMT",
+        "pubdate_iso": "2026-07-15T17:49:08+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "politica_regulacion": [
+      {
+        "title": "Chile: sindicatos se movilizaron contra la Megareforma tributaria impulsada por el Gobierno de Kast",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNWlZtWEp1S2hkNXlTenJQMHBPWHVnZ0g3bndQa3FoTEJnVWpCbHVMdzBvV0RhdnpKZy1rdF9jWHRhN3RsdVc4cE5PWjVGODVLSFZ4RUotMzE2YUI1a1lkQ18xX1RDcWk4SXZxeFhxc3d2SjdRaWxnWDBwai1KSl9WS2d2SDlUTG5QQlBHS3RLUllCNVVleUNva1pCaV9Vdm1ickxzdm5XcUxycTBBM3czMW1KWDFCX21CN3E3eXRGaEVCdw?oc=5",
+        "source": "Latam Gremial",
+        "pubdate": "Fri, 17 Jul 2026 15:54:56 GMT",
+        "pubdate_iso": "2026-07-17T15:54:56+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Reforma tributaria: incertidumbre impositiva"
+        }
+      },
+      {
+        "title": "Senado de Chile avala reforma fiscal de Kast; oposición acusa beneficios para los \"súperricos\"",
+        "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQc0dWSXdQdUJpY0lJTEJFenFxUE00SWZUc3B6NktKZGNxZ0lsTl8xZ2ZUZmpHVkQxbE1ycXl4WTByWWt2dnVvYXBTdlF1YmV5YnlQWE5URGJqOXktYmdmNElnN1lLOHAwQzZ1Mnh5d0RLM3p3XzBUQVcwTGJZYUNxd2RsZ2gyZnp4bHBOUmZpaGw5bzhTUjJLRHkyOXlwaWg4YnYxb0dpeTNrWTEzczN2djhxdG5FZUJJRERyNDJmeVQySmxYWm1qckdTUU5rdV9RVUI0WUhCRzl5Z29OUDQ4?oc=5",
+        "source": "La Jornada",
+        "pubdate": "Fri, 17 Jul 2026 00:56:00 GMT",
+        "pubdate_iso": "2026-07-17T00:56:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "CHILE: Senado aprueba la mega reforma tributaria de José Kast",
+        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPaUZ5MVo5WnZWTmNNTjB6RHBSc3loZXkxeGZCZGRscnJ2M053SHNBenFWdUJUV0NwcFM2aVotLWhQTER3NWlDYmVyOEhOTDR2XzZLVmZkZ3dkbDNfVGhKcUZ1Y0dMTlpxUHVmQ3lzWHFaZHlHcEV1eUtyMXNwYzBKOVREeE40d0tQV2Vj?oc=5",
+        "source": "AlMomento.net",
+        "pubdate": "Thu, 16 Jul 2026 23:25:21 GMT",
+        "pubdate_iso": "2026-07-16T23:25:21+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Reforma tributaria: incertidumbre impositiva"
+        }
+      },
+      {
+        "title": "Chile aprobó la mega reforma económica y tributaria de Antonio Kast",
+        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdWR2ckpzZmtFd3VOZGJtWmlZdExiWHpCMFdzekc1MmpySzhiaUstd1lZY0ppLVRYVjNqYm9RcGI3d1podmF5UHdxTWdyd2d3YUZ2THhHQXRiUWR4eWN6cU93ZmxpT0c0bl9rcktEd2hMUWQ4RVlPb0kxbktBMEtfOS1LZ1RCRVNHV1NYeU9VZy1QS0JrcG1fQm0zRkVoeHk3ZlZnadIBqgFBVV95cUxNd0NaanpHZE5QQi1sOUNXNWxwdUZYcHJfT283VFBjZktSSXAtbmt5SFgwcWs2SS1GOWc0cm9vdjN3dDBGQjZrZjJrUXZhQVBNWVdiVjg1MVBmb3ktYTNQUHh1QlVEdVVrQ0FsLUN4MEVKZTlYM1JkRXZ2ZklCQ1VqV0hFU0RoSnJDTUlmdlF1cGFaaERUMkcybTc5MzU5ellJQXZMOGY4OTFMZw?oc=5",
+        "source": "Ambito",
+        "pubdate": "Thu, 16 Jul 2026 17:33:00 GMT",
+        "pubdate_iso": "2026-07-16T17:33:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "El Senado de Chile aprueba con cambios la mega reforma económica y tributaria de Kast",
+        "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPbVRrXzFtZTdhMVV4Tmkxc3BoUzNtTDg0aTloT2NJXzJNSjY5alM3R3pzZGpBV1VmNFdiWjdnb1pWLUNUbE9uRmpDMWZUWnIyeWlDWEpsQXVMZ2FMclBSanZpSnJ3bUJQdVFNdkplbXFoY3pNdDlUQTZOWkdUY3VRQzVoRlJsWExWZWkxdmp6amxQZTdzV3JpVk1WUkxseTBmclBUZVB0N3FKbUpYdERKcjdlU3hDUE1yMVNoSkh0SjdRX0xRREZrbHhtRVJ2XzgyYTdKRmZfbllUb3JkN2tBdFRmN05PV2t2Nm9OY2dJOA?oc=5",
+        "source": "Independent en Español",
+        "pubdate": "Thu, 16 Jul 2026 14:36:00 GMT",
+        "pubdate_iso": "2026-07-16T14:36:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "pensiones_afp": [
+      {
+        "title": "Aprueban en Chile retiro de pensiones reforma fondos retiro pandemia coronavirus covid-19",
+        "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNNThNT1pFdllJNkJ5Q0Y1VUFYb0NmeWlrcDZhejJoaC11TGoyWG5vQUo2LW94c1RmY25PYjN0Q3hMMWhpWW1nd0ZGUVZrLTNiTmdYZk05WlhRajVXWWV1b19KX3FKVV9UdEVKUnItNUZqZFpMaks2VHVUeG1GaFk4SkNReEI5ckZuSnYyZndEdUpIR25kbFctQW9mZDA4NzRHMXRqa2xBVW9rUmFqLXlrRVZpbGFyTzFvM0dndHdrdHRhNjI5QzhGUFlzNnEzcERucnZ0UlpGcUQ4dnZnV2ttbjc1MU01dw?oc=5",
+        "source": "El Sol de México",
+        "pubdate": "Thu, 16 Jul 2026 03:03:35 GMT",
+        "pubdate_iso": "2026-07-16T03:03:35+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
     "energia_tarifas": [],
-    "sectores_watchlist": []
+    "sectores_watchlist": [
+      {
+        "title": "INTERMEX inaugura nuevo showroom de más de 7.000 m² en ZOFRI y fortalece su proyección comercial entre Chile y Bolivia",
+        "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNbkZGRklucm0tYXdURVo5YTc0REZYaHpSdVZCR0pzMXN2Yy1vcW5ZN1ZITzMxQzM2MkhMMWFaRFN4bHQ1cHZnODg4aHRlRVJIME8zRDI5czhXeDV4dnlUWVJNVlU1ZmZIOW02NktBT3B5RlkzY2RpSzh1NXMxTVJnUVZtNzk0d2NjM0dJMGMtN0FYbEk1ZjNUYU9vRW1tVzQwRlduRFZHSU9SWjZNZUxZRWFaUmNyLW1ieVlVOHEySXJqYTZYUHE0VWZkREhNR0xKdkpZdU5hZVVLaW42MmlTRUYzdw?oc=5",
+        "source": "Diario El Longino",
+        "pubdate": "Fri, 17 Jul 2026 06:40:59 GMT",
+        "pubdate_iso": "2026-07-17T06:40:59+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "¿Abren los malls este 16 de julio? Así funcionarán los centros comerciales durante el feriado",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNQjNwVU40UkdFTkhiYnFBNjkyYWdvRFYwT2tvMmo4WWgwVGNYczU4UW9sVjN1M1ZhUG5VSEt6VV9Jb3NnMlpGRXpPVkU5UGh0bjNJWlMxQjJlVGNfZHF5cUd5azNnckUyOTZZQkNEVDZqbk9ROWp5SkNCRVJ5NGtEeFg2eXJGUm9EOHhnakFkaXpNM2xqZFdKWXB1OGJVaENsWWVFcWJWUlBHdnN6OE9TQVUtTFVhb3YzdnNYWE9zOFc1MndYSEVpeGVxcUzSAdIBQVVfeXFMT1JMZkhpa2R2cU1WQVp5Z3JJQVhtRkl2NlV6ejdKZE96a0ZfQldqZUFkRFgtcDVlY3lHS1AtSVd3UHpnNmJ4V0ZncVBEUVAwMkVQZThDTVN1ZVVUMklfV2lzSTRGMWpYeDdqbTZMTGVlb1N3ekZfRndkRG9CTnRuc3lPT0dQQWZJSEdDb1M2MUl0bkRuYk5uRnhLQ1BsdHhKWXNkWGlkTVBlaWZ4dEo5NWttLWtaUEJ6alFjdk9ISXFMc1lwSEg2TVdTTnF4MkNhQTh3?oc=5",
+        "source": "Meganoticias",
+        "pubdate": "Thu, 16 Jul 2026 13:00:00 GMT",
+        "pubdate_iso": "2026-07-16T13:00:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ]
   },
   "hechos_esenciales_por_ticker": {},
   "stats": {
-    "total_noticias": 0,
+    "total_noticias": 22,
     "por_categoria": {
-      "bcch_tpm": 0,
-      "ipsa": 0,
-      "dolar_cobre": 0,
-      "economia_chile": 0,
-      "politica_regulacion": 0,
-      "pensiones_afp": 0,
+      "bcch_tpm": 1,
+      "ipsa": 3,
+      "dolar_cobre": 5,
+      "economia_chile": 5,
+      "politica_regulacion": 5,
+      "pensiones_afp": 1,
       "energia_tarifas": 0,
-      "sectores_watchlist": 0
+      "sectores_watchlist": 2
     },
     "hechos_esenciales": 0
   },
   "resumen_ejecutivo": {
-    "sentimiento": "neutral",
-    "score_neto": 0,
+    "sentimiento": "bajista",
+    "score_neto": -6,
     "n_positivas": 0,
-    "n_negativas": 0,
-    "n_neutrales": 0,
-    "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
+    "n_negativas": 3,
+    "n_neutrales": 19,
+    "narrativa": "El feed muestra 0 senales positivas y 3 negativas (neto -6). Factores dominantes: Riesgo de recesion: muy negativo; Reforma tributaria: incertidumbre impositiva.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "NEUTRAL - sin sesgo dominante"
+    "veredicto": "BAJISTA a corto plazo"
   }
 }

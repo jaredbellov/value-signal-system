@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-18T04:07:26.711206+00:00",
+  "updated_at_utc": "2026-07-18T05:26:59.657116+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "fed_tasas": {
@@ -28,32 +28,430 @@
     }
   },
   "noticias_por_categoria": {
-    "fed_tasas": [],
-    "mercado": [],
-    "tech_nasdaq": [],
-    "economia": [],
-    "earnings": [],
-    "sentimiento": []
+    "fed_tasas": [
+      {
+        "title": "Hombre de Florida acusado en un esquema de malware en videojuegos que robó criptomonedas",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPMzBhRkYtWnYzUWFwNDNUQzN6OHdLN29GVXJ0U2otN1VWdFFDbXM5LVQxVndORy04UnNZUGJTVnNtS19XcmlpOWhIN0ZzdjlXNGRLNXRnRHZMYThUdTdzQXFjZ3hNdXdJQ09USDdaZzdMaHN3bmJVcVl1RmFOYUM0MTcxOG01MmdCcktoOFAxMHVIc3BVR2xsaTg0N1FwbmI5a04zYk9iVmVrMWFjVFE2Z0pkTy1XMDZZZjNiREQ1eVZQTTMy?oc=5",
+        "source": "CryptoRank",
+        "pubdate": "Fri, 17 Jul 2026 22:52:33 GMT",
+        "pubdate_iso": "2026-07-17T22:52:33+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Bitcoin recupera los $65,000 tras resultados del IPP de EEUU",
+        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSnpEMnhqbTd0b1lGT0NVWms0ZUJQZGJua3lBelNlSFViYU1fYmFoM2xyQjNveWNMY0dqT3RTby1XLXk1SmtRWklOQVNJVzJjbmlWNGJhY3JZb00yWkF0R1NsTVB4dFliNjlKbk9hcXJSWFFTbW5lZ0pKcVVkUjRra1pVYjlJdkY3aDFFN29BRWY1aUJp?oc=5",
+        "source": "CryptoRank",
+        "pubdate": "Wed, 15 Jul 2026 17:57:04 GMT",
+        "pubdate_iso": "2026-07-15T17:57:04+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "PayPal recibe oferta de adquisición de $53 mil millones de Stripe y Advent",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNV1lpb2gyQXh3NEhmVk05NDFYSUtPbU0wRGpJeDNiU2FhQ0k1WTYydmF0Qkx2eGxseHNLR0lWZmtFdjA2RVFPQUE2R3F5ZGNpZ3hhMzJKNnFGLThKbVpibmRkbWxmc3lCQlhfTDZlcGtRZHMzbFV0T0ZLdkxwam43WHl3?oc=5",
+        "source": "CryptoRank",
+        "pubdate": "Wed, 15 Jul 2026 17:07:47 GMT",
+        "pubdate_iso": "2026-07-15T17:07:47+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Bitcoin hits $65.5K as more surprise US inflation data sparks three-week BTC price high",
+        "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOU0tSa3EtOEFKaDNoSnp2a1Q1a1VWajNVdGtCcE15YWNYYzM5WDZuVVl6OXdsTi1IQXViYmt1ZzZQb2xmNUNaMnEweGdseGZ1UnU3eHRkbU1RQXRObkN6LWJKZTdBY01yY0lrd1RBRGVwbW9lTlYtVDY3MGRzU1VTTHNGZEc0enRSSTdiallkQjhuMm0xOFR6LWt5ZVhyWDF4VEZqbTRNRk1JUnkyUG1HWmRsUU81OVBIdEppWnRhZWdwem1zM1J3RHd5ak5OaTRmWDVYSmc3YmZ4amh4anFnUjVRZw?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 15 Jul 2026 14:45:28 GMT",
+        "pubdate_iso": "2026-07-15T14:45:28+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Dollar remains under pressure as traders focus on US PPI, BoC policy",
+        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdGhSRDJpc0RkS2dDeXhHZDQ3bmdXWlphbFpfMGdyUzUtcE1ZQ0tFTGhzdDhHRGZrRmFHQlpaRmc5NmVfMjdEdDVlemVWTFktZ0RxWDFBVkF0cllRZVUxeVV6MHlzT2NBTlBVQV80Tk8zcUZQR1RYMmFHSkVXb0p4dzlpVk9OX0UwbmpJOGVoczBlWm84czNBLXZDX29lTURGVnkwdDRBd3kxREVhR0lQcmpFeHBJOVdoUHFzaGhybWE?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 15 Jul 2026 08:42:53 GMT",
+        "pubdate_iso": "2026-07-15T08:42:53+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "mercado": [
+      {
+        "title": "Why Abbott Laboratories Stock Is Suddenly Winning Back Wall Street",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVFg0WFJMRzNXak85UW1nZ0lLUTI0LWpsOGJ4Z21IWWotVFRMMEdHNTA4bnVpMTZQNkxUVnRMY1o5MUZodUcwUFVlVU5YT2ttWjBmSUhHLUl4TlpUclRCX3hjQ2xEUnpacUlMV2hOMG0zRW41RlFWSy0zUWF2eXZ4ckJnUjNEUzd6NlpvOHhtS3BTazVSUkE5OWtkU1VVUVdxVGZrSXYxNGM0NnZLYzJvVzl4cVZ4SVk1c0lSbGwxMEJGdHpq?oc=5",
+        "source": "TradingView",
+        "pubdate": "Thu, 16 Jul 2026 17:45:00 GMT",
+        "pubdate_iso": "2026-07-16T17:45:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Why UnitedHealth (UNH) Stock Is Trading Up Today",
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPcmZoRW55eGZjLWxsRS01TXRsTnZSYWRGdnJzdUowOFc3UjI2WXBGY0wweVZrRkVEOTN0LVpSU2J2d2hWZGhYSjhJRWtzUEV4ZWJZVTczS3V5Rjh2RFlEMTR5WUpvYlptR1R0YkpzX1pyXzhtUThZcUpIUmV1WUxrVGRVMGFzYWJvYnRFWE1VNFhBM2dCQjBPekV4T2NablJvblQ5YVp1Vm1zQQ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Thu, 16 Jul 2026 16:06:08 GMT",
+        "pubdate_iso": "2026-07-16T16:06:08+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Dow futures surge 130 points today: 5 things to know before markets opens",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOM1FZMHMtTF95dTNVM1dGTUFwZTlHOTdqU1NIMlFoTGVQcTZsU0xsaXdzV0hqcmstSS1iWUF0eUdWVVV3aGNJRk5kTVpSUFA0SFpsRHIxZ3NWSjk2ZTY5eFhtMVpHbkVfaXQwM09uc000OUpJWWVoNGc4Zm9md0xwa3dqSEZwN0U4NkppNkNBeHBwdEpJM25ZLXYwWmg3UzlnNi1SU0dHcFdmNFNGSGtqVDZ5djgtcl92N0M2bVdCb3lRa0NQTHdV?oc=5",
+        "source": "TradingView",
+        "pubdate": "Thu, 16 Jul 2026 10:27:38 GMT",
+        "pubdate_iso": "2026-07-16T10:27:38+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Nasdaq, S&P 500 Futures Slip As Iran Tensions, Chip Weakness Keep Investors On Edge: Why TSM, NVDA, NFLX, ATAI, ASTS Are In Focus",
+        "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQSkJkaTFkYmlOUG52UDY1VHlvOG1JX0w0S0JNSDVudnlHNUU0ZkgwRUUxS0NDWG9FOU5JdTJBU1p2OERCS1VVV0hUSXJxb0ZrQlhSdGo0RFo1TGpoaC1zcUdVMlB0MVAzd0hVanQwZEJyQ3M3VFBYX19XeXc3eUt5T0h3eVlLVjZrc25tdVd2YmxkNXpwNzhhNTBQRld1Y0pBNEc2THJjTGpQNk5mclFSc0JvY0ZheHA1emxjUDFOZC1WdGxweVJibXh2M0VwbE01UWRXM3dvMVEwc0RUTnJGeUdhLVRXUjFhTWtuaGRVcEpUQmNmclprWkxBMUt6elIyRkZVNGVxdU41ZWlhWVBJ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Thu, 16 Jul 2026 08:36:13 GMT",
+        "pubdate_iso": "2026-07-16T08:36:13+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "US stocks give up gains and now down on the day",
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSmlaNnJYTEVCRXdvZzhIQ3VnUmxzMWExQktRNW9BQlRfX3I0U1RDWjRVTkpMYmlFbUNIUkZTZEFHN1RvSlJSS0tLVkJVakk0Wk5YaC1qZklGQ3VhMGpaejBscUxPTmVNeGdrWnM4T2dHc293OGJtT1dMN2VPY0hreUFXQVBlV3ZpV25NNnZuVmdrdXppTHRMMWR2YVV3SVA3eXpHTmFwSDJIdw?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 15 Jul 2026 17:18:01 GMT",
+        "pubdate_iso": "2026-07-15T17:18:01+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "tech_nasdaq": [
+      {
+        "title": "IXIC: Nasdaq Composite Drops 1.5% as Tech Rout Continues, Chip Selloff Intensifies",
+        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPNGVTMG9fUlZqd0NGSlllVW01RFhkVFRySWJPT1VCV3prTXd4TFhsWWxlWkVuZDdKMGdWV2NHLUNXZXV1NnQ1V3pPZmtHOW5CV0J1VXgzNEV1QXowaGFJQUo1V2hXRExSQktzblE5Y09WUmxEYTVGeFNmbm9aSkFTcVZncnBIRUFnMUoyQ3hQaEM4dnBjaHNOWHVSbnBuN092cUpPRGpzWUpGT18xOHN6QVpRZ2d1OUFHZjJHYXBEejUxdXJSZWdYemNTeUhMc2c1UDNaa2FCOA?oc=5",
+        "source": "TradingView",
+        "pubdate": "Fri, 17 Jul 2026 07:40:48 GMT",
+        "pubdate_iso": "2026-07-17T07:40:48+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 3,
+          "intensidad_label": "fuerte",
+          "emoji": "🔴🔴",
+          "razonamiento": "Selloff: presion vendedora"
+        }
+      },
+      {
+        "title": "What’s Fueling UNH Stock’s Rally? A Bigger Buyback, Higher Guidance – And CEO Says Turnaround Is ‘Returning To Form’",
+        "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOT19tcnVScXlsazk5YzhCVDczZnE0ajVNcjVUUzFORjZ2cVZhaHdGb3VXX1dmWFQ3QkNlRlFqajJWUXduNElUaC1OcHR4X1pEcUtHZV9rTG1KNHNhSy1QTlJFTlUyeTdRZksyem1hTEdiNWRhc2R1LTN3a19hV09ZcXdCMHl0c2c4UlkzTjA2WkVmUnJDNU9JUVhoWkNPbU83cGEweHZTNEFhSjRFcmNVMUhYczFzbEZBZklmUEthelNDVGY5SGt0UVk5SDVnbXE1UjJFOVp4Um5WVW1xLV9RdVpWeXBCZWFSWUlIenM1WVM2aU43QmlxbE1XbkpKZzA?oc=5",
+        "source": "TradingView",
+        "pubdate": "Fri, 17 Jul 2026 06:22:00 GMT",
+        "pubdate_iso": "2026-07-17T06:22:00+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 3,
+          "intensidad_label": "fuerte",
+          "emoji": "🟢🟢",
+          "razonamiento": "Recompras: soporte para el precio"
+        }
+      },
+      {
+        "title": "This Semiconductor Stock Is Up 4X This Year – And Analysts Think The Rally Has More Room",
+        "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNQm5sR05fS0NWbTRNTl9PWEJGZDI1T3YwTEVtbHBWd0ZDNVgwMjBBcEhmSHBsU1ZITS1kbERzNGpkQXhna1BkbkxLTnN5MW44SXNSUkRMZHZGVzktWnlzS0EyWm5EMVRuajBaV2hPV2R5d0NzQTVTeDhSZEJkM2hZUXV1NUVwcXBORWJLREdRRnVVTlJYLThRVll1SVJHclpMeU4wQ0NxM2x3Vl9pdTV4aFhQWkhvSFlRQ2VtRGw1cHp5RGxrYlEwVzF2dEw2cWYzR09Ma25sQWZwWTRxdUVR?oc=5",
+        "source": "TradingView",
+        "pubdate": "Fri, 17 Jul 2026 05:49:00 GMT",
+        "pubdate_iso": "2026-07-17T05:49:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "NOK Stock Faces Worst Week In 5 Years – But Retail Traders Are Not Giving Up On Nokia’s 'AI RAN Technology' Push",
+        "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNcjByM09BWUVPQ0dmSmlZNjJ1MXFtWFk4MHM1LVYxa01KV01OYVA1NnN0cDVFanJuWlMyWHZJdlN1QzU1bVVZandWMmRFdjRqcFpRdVQ5cVVMY2oxRW1LYmxENlpYT0ZVR2dwald4MVV1aUQ0dGR6QVlZcDRIS1JWTVZjVGFZZ2R4U0VLZXRhbGUtZkVMdFVnYXdSTVMwN3I5ZlYzbzBCNFlQYjR0aFdTcjBpN3A5cm5xSkl4UnB4b2VnWDhUZlNCR21YS0tobWphOW1qZTc4U3poWmt4WkMybGpyc2FqN1Qtd3dUcS1Mc1lSR2pjRF8yLTZBNV8?oc=5",
+        "source": "TradingView",
+        "pubdate": "Fri, 17 Jul 2026 04:34:00 GMT",
+        "pubdate_iso": "2026-07-17T04:34:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Nasdaq, Dow, S&P 500 Futures Slip As Chip Selloff Overshadows Strong Earnings Season: NFLX, SNDK, SPCX, MRVL Stocks In Focus",
+        "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNdmlaXzdIX2lxNmpEN3FXTS1tOEtjV1lMcnBUVlBiak5WUWRISmllUlRhTHRUM2I0M3V5Mk5VczlSMjIzYTNZU0p5cU0wV1U2MjNuaHpvMk41UnNsdmRMSVNjNzhGN0QtSkwxckhoTktLcFU1elNHLXFwWlZUWU1aaW5SSnZEQ0FvVUN5OGlnSWZyR2RqVktUQ0JacFBuQk12Rk10OVBJb21DaUZpb0dPNHdUS0dtWDdCR3pIU1NDOVNISE1MRWpWV1A1ZG95TDRsOVpfT3ptdGUzeGFrTXlvX0tEQ3BvNlcwYXZVOWs0WDBtUUlrNEdpSlhvQWZBbEVYeDlRY1VzUExwZw?oc=5",
+        "source": "TradingView",
+        "pubdate": "Fri, 17 Jul 2026 01:36:00 GMT",
+        "pubdate_iso": "2026-07-17T01:36:00+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 1,
+          "intensidad_label": "leve",
+          "emoji": "🔴",
+          "razonamiento": "Selloff: presion vendedora"
+        }
+      }
+    ],
+    "economia": [
+      {
+        "title": "Resumen semanal de TradFi del 13 al 17 de julio",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTWxIaGEyVHBMTFNTLWxTOEJFRnFmU0VqdUcxTVhBTXl0SXRnMUd6SWlWR0haZHpjZXRwLUduVnI0aUs0dU9jVlpSSzV3MzRmczFoX3NMeU9FaEZTXzNhdjVCMWp2dksxc2JfaU5ZVDVDWlJvNnJpZXp4VER0d2REOXhKd9IBgwFBVV95cUxQTWxIaGEyVHBMTFNTLWxTOEJFRnFmU0VqdUcxTVhBTXl0SXRnMUd6SWlWR0haZHpjZXRwLUduVnI0aUs0dU9jVlpSSzV3MzRmczFoX3NMeU9FaEZTXzNhdjVCMWp2dksxc2JfaU5ZVDVDWlJvNnJpZXp4VER0d2REOXhKdw?oc=5",
+        "source": "Bitget",
+        "pubdate": "Fri, 17 Jul 2026 07:07:15 GMT",
+        "pubdate_iso": "2026-07-17T07:07:15+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Fed: El IPC de junio es coherente con el progreso en la inflación – John Williams",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNU9TRmk2cVBudmtidVBkZTdkVzRJWUJzTmNXU2VDc19MZWFQekF0WEI4OTVHNWZGVzc1MVZKaVZvb2xQTkVGVnJUZEVPQmxpQi0xUWRTeDNiUzZCVzBKa2RlNnNZOVZnV0E3WUdvSnNINVI1R3ZIVnMtMXZaWWtvQkdoTk1tMTVYOGpiWkktQzlkaHpITjM2aWxmMEMxY2lLZ3ZGOUZZcF9meWtoeGt3cktQQkVSUdIBuwFBVV95cUxPVW1NSl9jSEo3QXUxM1R5elltN0Rwa2ZYVUxQMnJ5OFJzbG4yZlloVUhQc3Y2ekVoeWR2Ui1oaEh6cXdHalZEYW55UVpRcDE0Y1poMld2VG0zbUs5YW5BQWk0aFgxRkZaVy1GMG9YVmZvX2hjUk1FaURNWE5tOWNvNjlubWxBLXBKbkdVVnZEMV95MVB5dlFxWEdMM2ZzTWJEUUZhRnYtdWVnUWxzdjlmS0Z4ZE5EYy1uR2FR?oc=5",
+        "source": "FXStreet",
+        "pubdate": "Wed, 15 Jul 2026 14:30:44 GMT",
+        "pubdate_iso": "2026-07-15T14:30:44+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Grupos de derechos demandan al gobierno de Trump por las sanciones a la Corte Penal Internacional",
+        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQNklSUkZxTVgybkh6blhnSnliVzJWZHBoWS0wYnF0RlNhTnBiWGhYU2tYRGkta2o4enhKYjdfRlRlcjJBekhLcjJzdWI5OWFLU0wwQ3B6MWlMVUU0Rm5zVFhfdnpMMXppZDVXSmFNU21ZQy1ab0tTRmNuOHl1T1R1X0h1RGx3UDlVNUpwMWdpTm5ZTmpUcXBNRjFrN1J5aGc4MjNPUzFrM2dEVFdiTHFlWE82NlpJaml6ZExlWkloY9IBxAFBVV95cUxQN3FnYzhtb1dHLXBwYmdhaWZGbnd1Y0thRjBGbWNjeFlDaDhuODRuUGxLdTZaQWJlalc0OWNYZkRDQnRJNGliUXZpbFhobFZUb2dEVVRfNGFIdFloM203WkxCdGxHTUF4cXF0TmZKRTVMUFNVRW1iMGJieG9XOFBzbnpBcTluQUFBeldncjduWDh0QklQU3F1TEtMSHNfRE5SRGhUTDczTGtGYVBoR1pLbUMyU2xxQXdZM2hWLXYwRENFaGNn?oc=5",
+        "source": "América TeVé",
+        "pubdate": "Wed, 15 Jul 2026 10:26:00 GMT",
+        "pubdate_iso": "2026-07-15T10:26:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "earnings": [
+      {
+        "title": "S&P 500, Nasdaq Slide Sharply As Netflix Guidance Disappoints And Chip Stocks Extend Losses — NFLX, GE, META, AAPL, SPCX In Focus",
+        "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOTFBiQWxNa1NEYlg0VHlLeWFKUzJMVVNYZkRIaDZtY3BDeGs2bUhNc1lFMDhNOEFQbUNheG9UTTFRUlVEcUJCYldfS3lKMmVnLUZ0V2RTTVNLVE5Pa05yWWduY2lIN3NYUGt1OFoyLXhWYms1M2JWZFhoTXRDWFQ0UWczQkxxSDNWMUs0Z2p5ajlINXctY3FSUjdUeEp0NjFLNGhZVThZTTA1dWxpenZkeEszT1pGbllMZnRzYVRhV21Ebk1wOFQwMWFyNjkwMlF0YU5BZU9VRk9ObXlwcnpUUUgwZkcwRVM0TWxXN0FjM1U3bTJDUGltRlhaU0MxMWRoQ0hvbDYzUHl4VXlNZ0pJ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Fri, 17 Jul 2026 21:53:42 GMT",
+        "pubdate_iso": "2026-07-17T21:53:42+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "IXIC: Nasdaq Composite Drops 1.5% as Tech Rout Continues, Chip Selloff Intensifies",
+        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPNGVTMG9fUlZqd0NGSlllVW01RFhkVFRySWJPT1VCV3prTXd4TFhsWWxlWkVuZDdKMGdWV2NHLUNXZXV1NnQ1V3pPZmtHOW5CV0J1VXgzNEV1QXowaGFJQUo1V2hXRExSQktzblE5Y09WUmxEYTVGeFNmbm9aSkFTcVZncnBIRUFnMUoyQ3hQaEM4dnBjaHNOWHVSbnBuN092cUpPRGpzWUpGT18xOHN6QVpRZ2d1OUFHZjJHYXBEejUxdXJSZWdYemNTeUhMc2c1UDNaa2FCOA?oc=5",
+        "source": "TradingView",
+        "pubdate": "Fri, 17 Jul 2026 07:40:48 GMT",
+        "pubdate_iso": "2026-07-17T07:40:48+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 3,
+          "intensidad_label": "fuerte",
+          "emoji": "🔴🔴",
+          "razonamiento": "Selloff: presion vendedora"
+        }
+      },
+      {
+        "title": "The Oracle Paradox: Record AI Demand, Mounting Debt, And A Stock Wall Street Still Loves",
+        "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOSDR1ZzI5dVIzTDJGSUdlcjl0NEp4NlVEZjlzZ3dUVnZabll2TVJHZDJIMDE5akRublpqRlBJazhreTVmQkhiTTgtZGVxUlF0akVTZlM5UENrTXl2cFdpcHo5RnBZbnQ5UjZRRWVlaUFkeXl0bjlYa2xiYjNYVGJHaTRjeFhrOUF4ZEJnWXhaa2Z4MzhrYUc3UllmM25ZTDVXZTdTZExvNnFDRmZ4bmFiMTk1bThTaXZDbC1LcVBtZk83UzFzUERZU2RhTUkxMmo1NjlnaHVFOTRYT3JuQlE?oc=5",
+        "source": "TradingView",
+        "pubdate": "Fri, 17 Jul 2026 07:38:14 GMT",
+        "pubdate_iso": "2026-07-17T07:38:14+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "What’s Fueling UNH Stock’s Rally? A Bigger Buyback, Higher Guidance – And CEO Says Turnaround Is ‘Returning To Form’",
+        "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOT19tcnVScXlsazk5YzhCVDczZnE0ajVNcjVUUzFORjZ2cVZhaHdGb3VXX1dmWFQ3QkNlRlFqajJWUXduNElUaC1OcHR4X1pEcUtHZV9rTG1KNHNhSy1QTlJFTlUyeTdRZksyem1hTEdiNWRhc2R1LTN3a19hV09ZcXdCMHl0c2c4UlkzTjA2WkVmUnJDNU9JUVhoWkNPbU83cGEweHZTNEFhSjRFcmNVMUhYczFzbEZBZklmUEthelNDVGY5SGt0UVk5SDVnbXE1UjJFOVp4Um5WVW1xLV9RdVpWeXBCZWFSWUlIenM1WVM2aU43QmlxbE1XbkpKZzA?oc=5",
+        "source": "TradingView",
+        "pubdate": "Fri, 17 Jul 2026 06:22:00 GMT",
+        "pubdate_iso": "2026-07-17T06:22:00+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 3,
+          "intensidad_label": "fuerte",
+          "emoji": "🟢🟢",
+          "razonamiento": "Recompras: soporte para el precio"
+        }
+      },
+      {
+        "title": "Nasdaq, Dow, S&P 500 Futures Slip As Chip Selloff Overshadows Strong Earnings Season: NFLX, SNDK, SPCX, MRVL Stocks In Focus",
+        "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNdmlaXzdIX2lxNmpEN3FXTS1tOEtjV1lMcnBUVlBiak5WUWRISmllUlRhTHRUM2I0M3V5Mk5VczlSMjIzYTNZU0p5cU0wV1U2MjNuaHpvMk41UnNsdmRMSVNjNzhGN0QtSkwxckhoTktLcFU1elNHLXFwWlZUWU1aaW5SSnZEQ0FvVUN5OGlnSWZyR2RqVktUQ0JacFBuQk12Rk10OVBJb21DaUZpb0dPNHdUS0dtWDdCR3pIU1NDOVNISE1MRWpWV1A1ZG95TDRsOVpfT3ptdGUzeGFrTXlvX0tEQ3BvNlcwYXZVOWs0WDBtUUlrNEdpSlhvQWZBbEVYeDlRY1VzUExwZw?oc=5",
+        "source": "TradingView",
+        "pubdate": "Fri, 17 Jul 2026 01:36:00 GMT",
+        "pubdate_iso": "2026-07-17T01:36:00+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 1,
+          "intensidad_label": "leve",
+          "emoji": "🔴",
+          "razonamiento": "Selloff: presion vendedora"
+        }
+      }
+    ],
+    "sentimiento": [
+      {
+        "title": "Crypto Market Today: BTC, ETH and XRP Prices Dip As CLARITY Act Hearing Begins",
+        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOVkt4SVMzWnZGaHozYlFpZ2ZwLURYMUFRbWUtSHpfVl9ORjk2anBDZXlvdTFEMTZtQ1Q2YjJCNk9yempYTC1fbldtN25QMjJGcjFfaUh4SC1CTUJLNk9VWFhwcmlPMUY5SExCb1RFVU15SjIyaE45MjlPYlFKdnh6NldHVGZEdGx3Qmk2VXJxTlMzWVg3S3RwRGxMcHZQZ0M1YVIyeHEtQUNCYW1POFEzLUJyOXpJa2FucUVjNjk2STRUVW5FRk1XZVcxRWJYNVpq?oc=5",
+        "source": "TradingView",
+        "pubdate": "Fri, 17 Jul 2026 16:21:54 GMT",
+        "pubdate_iso": "2026-07-17T16:21:54+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "OKLO, XE, SMR, NNE, UEC Stocks Tumble On Thursday: AI Made Nuclear Stocks Market Darlings – Now Investors Want Proof",
+        "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOWlZrVE5UZHAxZUpHVnlZRlFxZFRLTGRuU0tPSHZ4OUZqVjFuRVJzQnh2aTNJRDN4bXdWaDdOdjZja0RPbGxUUnRJdjBiYmx3c1ZraTFkNVN6TmpXMkpPaUc3X3B0cWcwM1hvSG01UFdGYzJFanY3ZHVpVTNJWGZRdjlfZ1RKY3NiUi0yU1RjdElvVEZ6VHZoZnBHOHZfd3pmY2tUSzU1akF5TG14TXd3NmlMb3c4STRIVEZZLTdCQ04tZUZKNk5tbnE2aklEVDBFb0FhNmVQWnNSb09MLVF0OW4wZ2g1Skhtck45WWFZNTlXbTNHYjh0U0tNcWdUQQ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Fri, 17 Jul 2026 05:40:00 GMT",
+        "pubdate_iso": "2026-07-17T05:40:00+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Acciones caen fuerte"
+        }
+      },
+      {
+        "title": "Bitcoin, Ethereum and XRP Prices Fall After Trump’s Speech Today",
+        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPWThkWjVPYmZWLUtYQVhxVU5kM0t6aThxN0k3MXNmWTRFXzNuRUV2eHdqVG5OUUFpZ1oxVGFsNXgzY0h3NDkxRXNXUEkyOHZ3RFR2UXNMd1ZFdHNpMlh1UWZDUlNNNGFXUTMtODNUbnpzRkI1ZG1QVFd6SWl6NE4ySEh6UkJVd3MxZFhXRHo1emRKMlhoTFBFWHNPUGNOSnU2djVYcmNQZWJvRkNXNk9QTkdiUVJ3ZlRvR05pTGdMZw?oc=5",
+        "source": "TradingView",
+        "pubdate": "Fri, 17 Jul 2026 02:00:00 GMT",
+        "pubdate_iso": "2026-07-17T02:00:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "GE Stock In Spotlight After Improved 2026 Outlook — GE Aerospace Expects Impact Of Supply Chain Constraints, Inflation To Continue",
+        "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPS014cWNlWmxDeDR6Rlp1NkhOVktpejltaklWR0ZVa0ZTMjVISE54MC15TEtfN3pJZ3Z0OHpXbm5LUlRWNm9RV3RVSjBJQ1ZuQTJkbkRpQklnRkg4MVB3OXdCTURXZ0FFZGtvanlNV3lrMVNLcU9mdkpJYnBPOGdSUDh1Vk5jOXZONERIdkxOeDJ0NzF4MmtPRmtwZ2paOHFudWdJUHFBa2xTZzV4VHBnWkE1VUN0NGs2X1V5SmNKdnp6eUtSaEZpdFlTTm1aYVZRSjhFMkdQWUN5bTA5UWdkcHprQTRhTGhuTWctS1pDeHBlSDhrTk1ob1Rrem0zZDV1a3RLT3ZyZkw2SHk5YW9TUS1hN3dDdw?oc=5",
+        "source": "TradingView",
+        "pubdate": "Thu, 16 Jul 2026 12:16:47 GMT",
+        "pubdate_iso": "2026-07-16T12:16:47+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Bitcoin Price Forecast (JULY): Experts Split Between $70K Rally and Deeper Correction",
+        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPZGNzQWMybUowRXZELTZWRzlWczh2YXhzM0FJLW1KMjIxLWRkV0EzVDVrRmJyREcxa3cyT2loSVlJdDBaem5oZ1UyUVNEeXZGZzFDOTRYanUtM3gyX3BqZnRSQTgzV1BvUzlZTEhQWGNJLWRPYk94UzRfcWVzdVhkQXpVUl9xaTJmTS1ocWVhZFdYQ1VOOVlRT2gybXE5MUR3NEVlZFBpOTFWNHBkUl84NmJwX1pHVUdSUWRFaTBuNVRRcTJlNmNWdnhEZGlURFhEcHk2NGpnaw?oc=5",
+        "source": "TradingView",
+        "pubdate": "Thu, 16 Jul 2026 01:51:00 GMT",
+        "pubdate_iso": "2026-07-16T01:51:00+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Correccion en curso o anticipada"
+        }
+      }
+    ]
   },
   "stats": {
-    "total_noticias": 0,
+    "total_noticias": 28,
     "por_categoria": {
-      "fed_tasas": 0,
-      "mercado": 0,
-      "tech_nasdaq": 0,
-      "economia": 0,
-      "earnings": 0,
-      "sentimiento": 0
+      "fed_tasas": 5,
+      "mercado": 5,
+      "tech_nasdaq": 5,
+      "economia": 3,
+      "earnings": 5,
+      "sentimiento": 5
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "neutral",
-    "score_neto": 0,
-    "n_positivas": 0,
-    "n_negativas": 0,
-    "n_neutrales": 0,
-    "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
+    "sentimiento": "bajista",
+    "score_neto": -6,
+    "n_positivas": 2,
+    "n_negativas": 6,
+    "n_neutrales": 20,
+    "narrativa": "El feed muestra 2 senales positivas y 6 negativas (neto -6). Factores dominantes: Selloff: presion vendedora; Recompras: soporte para el precio.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "NEUTRAL - sin sesgo dominante"
+    "veredicto": "BAJISTA a corto plazo"
   }
 }
