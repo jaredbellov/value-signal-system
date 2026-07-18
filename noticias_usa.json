@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-18T09:03:25.700907+00:00",
+  "updated_at_utc": "2026-07-18T09:33:27.315622+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -27,6 +27,20 @@
         "source": "TradingView",
         "pubdate": "Thu, 16 Jul 2026 19:37:42 GMT",
         "pubdate_iso": "2026-07-16T19:37:42+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Tesla’s Delivery Surprise Was Big—Earnings Need to Be Bigger",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPamR1cl9BeVBXRkpla0ZsNExGSUNYLTFBZzJiSy1jaVRqb1hBNmJMRXZIN2ltZ1FvSWdWYXZwT2xmUE9YWExZUmpvSXV2dVRIQ2FDbWtXdFExSVp1ZFhWZmxIaUNRd3VmMGNtaFZNMUx4WENRMUx5S1VZbGNUVWMxX1dNVnpSUjhjUDVaM0tqRWhfdW11RTZkb2FsQjltYUlXTjBvZXBreE81a19vT2h4Sll3akhSdzRXNmZ3dg?oc=5",
+        "source": "TradingView",
+        "pubdate": "Thu, 16 Jul 2026 11:20:00 GMT",
+        "pubdate_iso": "2026-07-16T11:20:00+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -268,9 +282,9 @@
     ]
   },
   "stats": {
-    "total_noticias": 17,
+    "total_noticias": 18,
     "por_categoria": {
-      "tesla": 2,
+      "tesla": 3,
       "nvidia": 5,
       "ia_semis": 5,
       "macro_tech": 5
@@ -281,7 +295,7 @@
     "score_neto": 2,
     "n_positivas": 3,
     "n_negativas": 2,
-    "n_neutrales": 12,
+    "n_neutrales": 13,
     "narrativa": "El feed muestra 3 senales positivas y 2 negativas (neto +2). Factores dominantes: Selloff: presion vendedora; Proxima arquitectura Rubin: roadmap fuerte.",
     "narrativa_fuente": "plantilla",
     "veredicto": "Levemente ALCISTA"
