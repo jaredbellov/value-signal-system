@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-19T21:33:53.493027+00:00",
+  "updated_at_utc": "2026-07-19T23:33:54.018228+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "bcch_tpm": {
@@ -240,20 +240,6 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
-      },
-      {
-        "title": "CHILE: Senado aprueba la mega reforma tributaria de José Kast",
-        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPaUZ5MVo5WnZWTmNNTjB6RHBSc3loZXkxeGZCZGRscnJ2M053SHNBenFWdUJUV0NwcFM2aVotLWhQTER3NWlDYmVyOEhOTDR2XzZLVmZkZ3dkbDNfVGhKcUZ1Y0dMTlpxUHVmQ3lzWHFaZHlHcEV1eUtyMXNwYzBKOVREeE40d0tQV2Vj?oc=5",
-        "source": "AlMomento.net",
-        "pubdate": "Thu, 16 Jul 2026 23:25:21 GMT",
-        "pubdate_iso": "2026-07-16T23:25:21+00:00",
-        "impacto": {
-          "direccion": "negativo",
-          "intensidad": 2,
-          "intensidad_label": "moderado",
-          "emoji": "🔴",
-          "razonamiento": "Reforma tributaria: incertidumbre impositiva"
-        }
       }
     ],
     "pensiones_afp": [],
@@ -277,13 +263,13 @@
   },
   "hechos_esenciales_por_ticker": {},
   "stats": {
-    "total_noticias": 16,
+    "total_noticias": 15,
     "por_categoria": {
       "bcch_tpm": 2,
       "ipsa": 1,
       "dolar_cobre": 5,
       "economia_chile": 2,
-      "politica_regulacion": 5,
+      "politica_regulacion": 4,
       "pensiones_afp": 0,
       "energia_tarifas": 0,
       "sectores_watchlist": 1
@@ -291,13 +277,13 @@
     "hechos_esenciales": 0
   },
   "resumen_ejecutivo": {
-    "sentimiento": "levemente bajista",
-    "score_neto": -3,
+    "sentimiento": "neutral",
+    "score_neto": -1,
     "n_positivas": 1,
-    "n_negativas": 2,
+    "n_negativas": 1,
     "n_neutrales": 13,
-    "narrativa": "El feed muestra 1 senales positivas y 2 negativas (neto -3). Factores dominantes: Reforma tributaria: incertidumbre impositiva; Reforma tributaria: incertidumbre impositiva.",
+    "narrativa": "El feed muestra 1 senales positivas y 1 negativas (neto -1). Factores dominantes: Reforma tributaria: incertidumbre impositiva; Crecimiento: soporte macro.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "Levemente BAJISTA"
+    "veredicto": "NEUTRAL - sin sesgo dominante"
   }
 }
