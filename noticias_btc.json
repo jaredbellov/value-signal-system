@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-19T20:39:32.320596+00:00",
+  "updated_at_utc": "2026-07-19T22:39:32.340431+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "precio": {
@@ -258,6 +258,20 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
+      },
+      {
+        "title": "Bitcoin treasury troubles reach London as company votes to sell its entire BTC stack and delist",
+        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQSlRJN0ZuNzRtSC1vMVNmaEpCS1p4MVhHdHpzUGNSZ2NSLXlmMGVTZ1JQZTVYajJrdE51c0Z5TkNuSW5JYUFndXdyWnJDYVNBMGc3eGVSX1lMX1RXakY1MzJTUWNNcTI3UFNwc2luYUJwTmFKMFpVLUVZN1dwdWZrOUZvN0w3eXJWM3NrSkNROVJZaTRteFBRREdmNW1uVzBBV01RV2E0ODdRWXFHTGVqdm1XMk01RDhXSWhsOEhxaVBsRjl4b294SDk0VTg4MjBiZTNpbFBLNA?oc=5",
+        "source": "CryptoRank",
+        "pubdate": "Fri, 17 Jul 2026 03:47:02 GMT",
+        "pubdate_iso": "2026-07-17T03:47:02+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🟢",
+          "razonamiento": "Tesoreria corporativa en BTC: tendencia bullish"
+        }
       }
     ],
     "fed_macro": [
@@ -332,26 +346,41 @@
         }
       }
     ],
-    "sentimiento_onchain": []
+    "sentimiento_onchain": [
+      {
+        "title": "TRON (TRX) Price Outlook 2026–2030: Realistic Targets Based on Network Growth and Market Cycles",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNOUZNS1FMb240TGM0WWtfQWNKSWh0aEYtZm1fMDNmc3k2ZmhGVmFVUHpCdEwtWkxKM05SZ28zSDctY1dNTGIzY3VCNkp5SFRvN0hKM0I0a2FENWJvTFZLTnVlSGFvUy1mNmxTNXFqd1NFZF9tRi13a3kxUTN6NUdubUhR?oc=5",
+        "source": "CryptoRank",
+        "pubdate": "Fri, 17 Jul 2026 16:12:15 GMT",
+        "pubdate_iso": "2026-07-17T16:12:15+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ]
   },
   "stats": {
-    "total_noticias": 21,
+    "total_noticias": 23,
     "por_categoria": {
       "precio": 5,
       "etf_flows": 3,
       "regulacion": 5,
-      "adopcion": 3,
+      "adopcion": 4,
       "fed_macro": 5,
-      "sentimiento_onchain": 0
+      "sentimiento_onchain": 1
     }
   },
   "resumen_ejecutivo": {
     "sentimiento": "neutral",
-    "score_neto": -1,
-    "n_positivas": 1,
+    "score_neto": 1,
+    "n_positivas": 2,
     "n_negativas": 1,
-    "n_neutrales": 19,
-    "narrativa": "El feed muestra 1 senales positivas y 1 negativas (neto -1). Factores dominantes: Salidas de ETF: muy negativo institucional; Tesoreria corporativa en BTC: tendencia bullish.",
+    "n_neutrales": 20,
+    "narrativa": "El feed muestra 2 senales positivas y 1 negativas (neto +1). Factores dominantes: Salidas de ETF: muy negativo institucional; Tesoreria corporativa en BTC: tendencia bullish.",
     "narrativa_fuente": "plantilla",
     "veredicto": "NEUTRAL - sin sesgo dominante"
   }
