@@ -1,33 +1,33 @@
 {
-  "updated_at_utc": "2026-07-18T09:45:06.958449+00:00",
-  "precio_btc": 63928.91,
+  "updated_at_utc": "2026-07-19T11:31:23.127991+00:00",
+  "precio_btc": 64510.39,
   "precio_ibit": 36.35,
-  "score_final": 72.7,
+  "score_final": 71.9,
   "zona": "ATRACTIVO",
   "multiplicador": 1.5,
   "peso_aplicado_pct": 100,
   "sub_scores": {
-    "drawdown": 81.3,
-    "fear_greed": 75,
+    "drawdown": 80.5,
+    "fear_greed": 72,
     "pi_cycle": 100,
     "halving_cycle": 65,
     "momentum": 31.7,
-    "mvrv": 84.3
+    "mvrv": 84.2
   },
   "sub_detalles": {
     "drawdown": {
-      "drawdown_pct": -48.76,
+      "drawdown_pct": -48.29,
       "ath": 124752.53,
-      "precio_actual": 63928.91
+      "precio_actual": 64510.39
     },
     "fear_greed": {
-      "fg_value": 25,
-      "classification": "Extreme Fear"
+      "fg_value": 28,
+      "classification": "Fear"
     },
     "pi_cycle": {
-      "ma_111": 70207.6,
-      "ma_350_x2": 174023.55,
-      "ratio": 0.403
+      "ma_111": 70195.76,
+      "ma_350_x2": 173744.46,
+      "ratio": 0.404
     },
     "halving_cycle": {
       "meses_desde_halving": 27.0,
@@ -36,11 +36,11 @@
       "fase": "Bear market medio"
     },
     "momentum": {
-      "ret_12_1_pct": -43.15
+      "ret_12_1_pct": -43.26
     },
     "mvrv": {
-      "z_score": 0.38,
-      "fecha": "2026-07-17"
+      "z_score": 0.385,
+      "fecha": "2026-07-18"
     }
   },
   "pesos": {
@@ -52,10 +52,6 @@
     "mvrv": 15
   },
   "historico_btc": [
-    {
-      "fecha": "2021-07-18",
-      "precio": 31796.81
-    },
     {
       "fecha": "2021-07-19",
       "precio": 30817.83
@@ -7358,7 +7354,11 @@
     },
     {
       "fecha": "2026-07-18",
-      "precio": 63928.91
+      "precio": 64796.6
+    },
+    {
+      "fecha": "2026-07-19",
+      "precio": 64510.39
     }
   ]
 }
