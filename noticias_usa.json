@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-19T17:03:24.572042+00:00",
+  "updated_at_utc": "2026-07-19T17:33:26.057222+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -78,22 +78,7 @@
         }
       }
     ],
-    "nvidia": [
-      {
-        "title": "Why Nvidia stock is down around 2.5% on Thursday",
-        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQOHNia3JKZmF1ZldmZnBreExFcXJWWno3cXdETm1ySUNZUGswZVVkdjNRcnBOb2lBVEUwazlMc3kyWGRHVE9jc19XVTZYWWFuQ1RHZzZsUy1HOFVId2p6T1hRVUVEY0N6RGFiazZGTm5xUDFlU0IzczVfcXhhUEdYNVM2QUJ3bGlGdGtMZ3lUQmFtY2ZxMFA0S2ZBQ2FkdjlMazVJS05B?oc=5",
-        "source": "TradingView",
-        "pubdate": "Thu, 16 Jul 2026 17:03:31 GMT",
-        "pubdate_iso": "2026-07-16T17:03:31+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      }
-    ],
+    "nvidia": [],
     "ia_semis": [
       {
         "title": "Why Meta (META) Shares Are Trading Lower Today",
@@ -240,10 +225,10 @@
     ]
   },
   "stats": {
-    "total_noticias": 15,
+    "total_noticias": 14,
     "por_categoria": {
       "tesla": 4,
-      "nvidia": 1,
+      "nvidia": 0,
       "ia_semis": 5,
       "macro_tech": 5
     }
@@ -253,7 +238,7 @@
     "score_neto": 4,
     "n_positivas": 2,
     "n_negativas": 0,
-    "n_neutrales": 13,
+    "n_neutrales": 12,
     "narrativa": "El feed muestra 2 senales positivas y 0 negativas (neto +4). Factores dominantes: Capex en IA: demanda estructural de GPUs; Demanda de chips: soporte tech.",
     "narrativa_fuente": "plantilla",
     "veredicto": "ALCISTA a corto plazo"

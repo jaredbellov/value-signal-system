@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-19T15:26:55.861518+00:00",
+  "updated_at_utc": "2026-07-19T17:26:55.745550+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "fed_tasas": {
@@ -29,20 +29,6 @@
   },
   "noticias_por_categoria": {
     "fed_tasas": [
-      {
-        "title": "ESPN prueba IA que detecta posibles faroles en póker: ¿Cómo funciona?",
-        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZk5PSEM5WVUtTVQwZ2J4NGNva3YzOTRVd1RXWlczcExubmF4UzBrbEU4RnJPUHZNZFB2S29NczQySG1SaFlnTUx4N3Q2ZkFqb2w2anVJaEd6XzZiNmxQZGVNc0VTU3pHcEhpdFdkN1pPcEhOTWUydjVBenl2R0F1RmFCczhiWjgxbXdFc2txNA?oc=5",
-        "source": "CryptoRank",
-        "pubdate": "Sat, 18 Jul 2026 19:17:41 GMT",
-        "pubdate_iso": "2026-07-18T19:17:41+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
       {
         "title": "Hombre de Florida acusado en un esquema de malware en videojuegos que robó criptomonedas",
         "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPMzBhRkYtWnYzUWFwNDNUQzN6OHdLN29GVXJ0U2otN1VWdFFDbXM5LVQxVndORy04UnNZUGJTVnNtS19XcmlpOWhIN0ZzdjlXNGRLNXRnRHZMYThUdTdzQXFjZ3hNdXdJQ09USDdaZzdMaHN3bmJVcVl1RmFOYUM0MTcxOG01MmdCcktoOFAxMHVIc3BVR2xsaTg0N1FwbmI5a04zYk9iVmVrMWFjVFE2Z0pkTy1XMDZZZjNiREQ1eVZQTTMy?oc=5",
@@ -230,20 +216,6 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
-      },
-      {
-        "title": "Jim Rogers’ Warning: Is a Global Stock Market Bubble Forming?",
-        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQbzkwV0c2TlNVeEhzSFcwQVVFclhNcm1vZU0zZW5YeHlFY1Z1alFhLThLcDU2a3V3d2JZeXpyelZUUHhTMTFXVC1jYWpqOFN3WnhaZlBmSVh5VnRfOUVHMWkxUWhYbzNtYVlGVWlBYjhqMzJ1ZXltemNBa29RbUloS09LQ2d0RjlX?oc=5",
-        "source": "Discovery Alert",
-        "pubdate": "Thu, 16 Jul 2026 19:59:23 GMT",
-        "pubdate_iso": "2026-07-16T19:59:23+00:00",
-        "impacto": {
-          "direccion": "negativo",
-          "intensidad": 2,
-          "intensidad_label": "moderado",
-          "emoji": "🔴",
-          "razonamiento": "Alerta de burbuja"
-        }
       }
     ],
     "earnings": [
@@ -392,23 +364,23 @@
     ]
   },
   "stats": {
-    "total_noticias": 25,
+    "total_noticias": 23,
     "por_categoria": {
-      "fed_tasas": 2,
+      "fed_tasas": 1,
       "mercado": 5,
       "tech_nasdaq": 5,
-      "economia": 3,
+      "economia": 2,
       "earnings": 5,
       "sentimiento": 5
     }
   },
   "resumen_ejecutivo": {
     "sentimiento": "bajista",
-    "score_neto": -10,
+    "score_neto": -8,
     "n_positivas": 2,
-    "n_negativas": 6,
-    "n_neutrales": 17,
-    "narrativa": "El feed muestra 2 senales positivas y 6 negativas (neto -10). Factores dominantes: Selloff: presion vendedora; Selloff: presion vendedora.",
+    "n_negativas": 5,
+    "n_neutrales": 16,
+    "narrativa": "El feed muestra 2 senales positivas y 5 negativas (neto -8). Factores dominantes: Selloff: presion vendedora; Selloff: presion vendedora.",
     "narrativa_fuente": "plantilla",
     "veredicto": "BAJISTA a corto plazo"
   }
