@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-19T16:39:33.549705+00:00",
+  "updated_at_utc": "2026-07-19T18:39:33.510015+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "precio": {
@@ -101,20 +101,6 @@
       }
     ],
     "etf_flows": [
-      {
-        "title": "Bitcoin holds firm at $64,000 while Ethereum, XRP, Dogecoin drop 1% on macro risk-off sentiment",
-        "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNSzltY0lxcVNtWldIY2NNWW9lRWNUdHdNMkRxWlpTUFM5SXMtWlZGZkRTTjNTUUNodzFIc1pjRUR2SkV4V3RBVVRnUEdQNlp2eGVrRmN5d2FhWW82aDMwUi1FLXNmYl9sTTdOV1ZHSHJxSkx4Q2p2RnpGT2FYSlNoUGs0VHA4SVlRQ2lyVXVrdk9QVWdsMjZJUzhPVFBiOXp1RUZHQkhBX2hXWURtZlBySThTbzRMdHBhQUFjMzNRRWE0dHYwVTVDbk5feGNXdVB4MkUtTnRTcHlJaDNT?oc=5",
-        "source": "MSN",
-        "pubdate": "Sun, 19 Jul 2026 08:38:48 GMT",
-        "pubdate_iso": "2026-07-19T08:38:48+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
       {
         "title": "Noticias sobre Bitcoin: Los ETF de Bitcoin registran el cuarto día consecutivo de entradas — IBIT lidera con 136 millones mientras el total semanal alcanza 75,5 millones",
         "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxPM01Tc3ZKVHhIRmh1c0xwN29XalJjWi1lMTQ4M2MwSFBTczdQTG9WZlotd29VVVViUHRyUXZzb016Vk15ckhNc1ZjQnF2UEg4WUdYZlRIeGtZZUxwdGQwTEt5UUpQYTcwM2tCcmVONG9PWXRfMGlaNk9qdVZlOFp3NUFsTUNqS3pfYVN0ZExaOUdMSXNqTFl1c2JyNTdGN2RSNVVwYnQ3WFlYb0gtUWpHR1hPMGpNQVNsaWlLSlRHb0xCa19ISnM2eHMxRTdTaWtON1Jwd0pUQkVPaTR6dEhGT055RGR4VVhjYUdVQVFmd3Q3ZWU1d2wwclFuSVpoQjk3RW81SWRkM214UHNmcWtuNDJYYXZZOGVIaGtfa010ejA?oc=5",
@@ -363,10 +349,10 @@
     "sentimiento_onchain": []
   },
   "stats": {
-    "total_noticias": 23,
+    "total_noticias": 22,
     "por_categoria": {
       "precio": 5,
-      "etf_flows": 5,
+      "etf_flows": 4,
       "regulacion": 5,
       "adopcion": 3,
       "fed_macro": 5,
@@ -378,7 +364,7 @@
     "score_neto": 0,
     "n_positivas": 2,
     "n_negativas": 1,
-    "n_neutrales": 20,
+    "n_neutrales": 19,
     "narrativa": "El feed muestra 2 senales positivas y 1 negativas (neto +0). Factores dominantes: Salidas de ETF: muy negativo institucional; Tesoreria corporativa en BTC: tendencia bullish.",
     "narrativa_fuente": "plantilla",
     "veredicto": "NEUTRAL - sin sesgo dominante"
