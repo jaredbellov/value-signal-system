@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-19T20:33:25.979889+00:00",
+  "updated_at_utc": "2026-07-19T21:03:24.984332+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -67,6 +67,20 @@
     "nvidia": [],
     "ia_semis": [
       {
+        "title": "Apple unseats Nvidia to become world's most valuable company as AI bets shift",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPT3lWcVBDcTV3cEJaVUo1aTZkR0JEZDBLZ01FcUxFOV9RN1J5VjJENng4d1hWME0wUlplMDhxRVFDSnJySWFpNUpWb0lkSER6STFGaTNfWFhUb1lWclQ5djN5N0xkTDFBQlZmeUtaZzZ0dXBKSUtLdm9YQlpWZF9VTQ?oc=5",
+        "source": "AOL.com",
+        "pubdate": "Sun, 19 Jul 2026 17:46:04 GMT",
+        "pubdate_iso": "2026-07-19T17:46:04+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
         "title": "Why Meta (META) Shares Are Trading Lower Today",
         "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNM1I3UnVpSC1meWdfNzVlMXU1RjBzbzNQekc2QjRuSXpfSThSYnlpeW92ZkhNSXJpMTJucmZoWFc5UGNEekhzcWtRSkdIcGhUMEFnNlhIaTFGTlVfczVkcW95R0RvNzNULTB1TC1MNDlYblluWmZ6TWQ5ZnRJZEo4SUpyWGpuSDZsU0QtRlpJVUllRThPZjJicjU3ZnQ3MnlPaGxNcnVBTQ?oc=5",
         "source": "TradingView",
@@ -120,20 +134,6 @@
           "intensidad_label": "moderado",
           "emoji": "🟢",
           "razonamiento": "Capex en IA: demanda estructural de GPUs"
-        }
-      },
-      {
-        "title": "TSMC Raised Its 2026 Revenue Guidance: What It Means for AI Chip Demand",
-        "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9CV1I5N3RmN3EwT0Q3c0JnN2JvcEZLdkd3am1qQ1hHb29lcEMxb1lKUzRvX0RlMDYycHQ1b0FodHN4Yk1ONjBKMU8ycHU1WEczTUJtMUF1azFKS2hwOGRFb0tEaWcxN1hEVjllRmxqQXN0bVRCdXRjNFVwT3FLUQ?oc=5",
-        "source": "CryptoRank",
-        "pubdate": "Fri, 17 Jul 2026 03:33:08 GMT",
-        "pubdate_iso": "2026-07-17T03:33:08+00:00",
-        "impacto": {
-          "direccion": "positivo",
-          "intensidad": 2,
-          "intensidad_label": "moderado",
-          "emoji": "🟢",
-          "razonamiento": "Demanda de chips: soporte tech"
         }
       }
     ],
@@ -220,13 +220,13 @@
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "alcista",
-    "score_neto": 4,
-    "n_positivas": 2,
+    "sentimiento": "levemente alcista",
+    "score_neto": 2,
+    "n_positivas": 1,
     "n_negativas": 0,
-    "n_neutrales": 11,
-    "narrativa": "El feed muestra 2 senales positivas y 0 negativas (neto +4). Factores dominantes: Capex en IA: demanda estructural de GPUs; Demanda de chips: soporte tech.",
+    "n_neutrales": 12,
+    "narrativa": "El feed muestra 1 senales positivas y 0 negativas (neto +2). Factores dominantes: Capex en IA: demanda estructural de GPUs.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "ALCISTA a corto plazo"
+    "veredicto": "Levemente ALCISTA"
   }
 }
