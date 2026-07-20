@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-20T16:33:27.912187+00:00",
+  "updated_at_utc": "2026-07-20T17:03:26.624878+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -92,7 +92,22 @@
         }
       }
     ],
-    "nvidia": [],
+    "nvidia": [
+      {
+        "title": "Big tech earnings outlook: Wall Street demands receipts on $700B AI spree",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMWlfZ25VUjN0R0tEUmpDQm9FQWo3Z3JqRDJwb3lKQkFHd1hEMjlWamR2OUoxZndQU0U4MVh4TWwwdWZpQmF1XzN2N1hBbkpQM3g0Nl9LMFhZeVU5aGtJWmZmc054UFdPTG4yYXp0Sl85MDVWVE0wUXNRSzlkMWJyekhvclRzbVFyMWVTS1dIMExoeGlOLTZMZ05aYWVwWlluVGpXMG5KMXhKQzZZVldIcHh1aTRBNHU3QnFFVGRaVm9Za09rVmc?oc=5",
+        "source": "TradingView",
+        "pubdate": "Sat, 18 Jul 2026 12:00:00 GMT",
+        "pubdate_iso": "2026-07-18T12:00:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
     "ia_semis": [
       {
         "title": "Earnings To Watch: Valmont (VMI) Reports Q2 Results Tomorrow",
@@ -114,6 +129,20 @@
         "source": "AOL.com",
         "pubdate": "Sun, 19 Jul 2026 17:46:04 GMT",
         "pubdate_iso": "2026-07-19T17:46:04+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Big tech earnings outlook: Wall Street demands receipts on $700B AI spree",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMWlfZ25VUjN0R0tEUmpDQm9FQWo3Z3JqRDJwb3lKQkFHd1hEMjlWamR2OUoxZndQU0U4MVh4TWwwdWZpQmF1XzN2N1hBbkpQM3g0Nl9LMFhZeVU5aGtJWmZmc054UFdPTG4yYXp0Sl85MDVWVE0wUXNRSzlkMWJyekhvclRzbVFyMWVTS1dIMExoeGlOLTZMZ05aYWVwWlluVGpXMG5KMXhKQzZZVldIcHh1aTRBNHU3QnFFVGRaVm9Za09rVmc?oc=5",
+        "source": "TradingView",
+        "pubdate": "Sat, 18 Jul 2026 12:00:00 GMT",
+        "pubdate_iso": "2026-07-18T12:00:00+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -197,11 +226,11 @@
     ]
   },
   "stats": {
-    "total_noticias": 12,
+    "total_noticias": 14,
     "por_categoria": {
       "tesla": 5,
-      "nvidia": 0,
-      "ia_semis": 3,
+      "nvidia": 1,
+      "ia_semis": 4,
       "macro_tech": 4
     }
   },
@@ -210,7 +239,7 @@
     "score_neto": 0,
     "n_positivas": 0,
     "n_negativas": 0,
-    "n_neutrales": 12,
+    "n_neutrales": 14,
     "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
     "narrativa_fuente": "plantilla",
     "veredicto": "NEUTRAL - sin sesgo dominante"
