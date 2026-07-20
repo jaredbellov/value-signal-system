@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-20T07:03:24.996884+00:00",
+  "updated_at_utc": "2026-07-20T07:33:25.363101+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -121,20 +121,6 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
-      },
-      {
-        "title": "Key facts: Oracle 52‑wk low, S&P BBB-; AI capex risk; In $16B data hub",
-        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYk9kOWpiSHhnTko4bHA2MG1hSFYtVFFfY0xwZjhXLUVhSkQ3dVRWSWFpdUppRmtiaGJoOGZqQzczWjI2SlFGNkZ5Y1Z2cWdmaDgzN1JlLXVzeFJuLVRxUENhcmNoaElfOEh3cXc0ZmJLSjhEREUtNU1kOHBoMUtBY0JQTDNIbXVGQTFJSHlnVWtwWkFkakQ0UUpPNXNfaGw4QWI0MDN2OTZsV1l2emY3RmhLV204TTJQWEJuZjc4aktaZVE?oc=5",
-        "source": "TradingView",
-        "pubdate": "Fri, 17 Jul 2026 07:14:12 GMT",
-        "pubdate_iso": "2026-07-17T07:14:12+00:00",
-        "impacto": {
-          "direccion": "positivo",
-          "intensidad": 2,
-          "intensidad_label": "moderado",
-          "emoji": "🟢",
-          "razonamiento": "Capex en IA: demanda estructural de GPUs"
-        }
       }
     ],
     "macro_tech": [
@@ -211,22 +197,22 @@
     ]
   },
   "stats": {
-    "total_noticias": 13,
+    "total_noticias": 12,
     "por_categoria": {
       "tesla": 3,
       "nvidia": 0,
-      "ia_semis": 5,
+      "ia_semis": 4,
       "macro_tech": 5
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "levemente alcista",
-    "score_neto": 2,
-    "n_positivas": 1,
+    "sentimiento": "neutral",
+    "score_neto": 0,
+    "n_positivas": 0,
     "n_negativas": 0,
     "n_neutrales": 12,
-    "narrativa": "El feed muestra 1 senales positivas y 0 negativas (neto +2). Factores dominantes: Capex en IA: demanda estructural de GPUs.",
+    "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "Levemente ALCISTA"
+    "veredicto": "NEUTRAL - sin sesgo dominante"
   }
 }
