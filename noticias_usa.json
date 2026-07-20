@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-20T13:03:25.701835+00:00",
+  "updated_at_utc": "2026-07-20T13:33:26.679233+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -27,6 +27,20 @@
         "source": "TradingKey",
         "pubdate": "Mon, 20 Jul 2026 08:13:15 GMT",
         "pubdate_iso": "2026-07-20T08:13:15+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "TSLA: Tesla Stock Steady Ahead of Q2 Earnings Report. What to Watch for.",
+        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOXzRzR1NlOW1iazNQVWRBRDM0X1hFRnRIOW16dzBhcXNmV2M2QmhpeVd1UVFZQWVvRi0wcEltTkNLN2VVZkh3eVN1N2F6UjB6RldZRl9ReWpPRlB5eE54WnVaSHpNYWNoMk0zSHMtdTRTc3EtUXY2TENmdThWc2FqSXhUR2s1OUJGSjl1a2x0em80RFZTeVk1NjBHQ0NYeG5mOTBmaVpjZ1ItbHJBSEYzVDJseUtLWF8wQ2hxUmdLYl8tSVJKSVFpNUlB?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 20 Jul 2026 07:38:40 GMT",
+        "pubdate_iso": "2026-07-20T07:38:40+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -211,9 +225,9 @@
     ]
   },
   "stats": {
-    "total_noticias": 13,
+    "total_noticias": 14,
     "por_categoria": {
-      "tesla": 4,
+      "tesla": 5,
       "nvidia": 0,
       "ia_semis": 4,
       "macro_tech": 5
@@ -224,7 +238,7 @@
     "score_neto": 0,
     "n_positivas": 0,
     "n_negativas": 0,
-    "n_neutrales": 13,
+    "n_neutrales": 14,
     "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
     "narrativa_fuente": "plantilla",
     "veredicto": "NEUTRAL - sin sesgo dominante"
