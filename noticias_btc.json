@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-20T16:39:36.158476+00:00",
+  "updated_at_utc": "2026-07-20T18:39:34.226939+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "precio": {
@@ -102,6 +102,20 @@
     ],
     "etf_flows": [
       {
+        "title": "Bitcoin ETF inflows extend to second week, but recovery lacks momentum",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPS3JQcE1Rb2F0LS01bV9aaDl4MFpab05pRXhKUld4V29fdkJ3LWhZY0lJc25Uak80aER6Q1FfZFZNVlZWTTBxbE1xUFZwY0NYdThQMVVFVGdXTzA3Vl9GeWcxeDFOdUZYbmZBRzN5OG1jMEw4Z18tVURhYm8wUk83Mk1Ca2ZTTHFjVnpMVnBjMFFPel9CMlg2NTRQTXNCSUVDdi15MGFNaEpHY0JWMkdCZ3p1VW8yVW1rRWhfTXN5V1pVb01pMTVGT2ZCRmc?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 20 Jul 2026 09:33:19 GMT",
+        "pubdate_iso": "2026-07-20T09:33:19+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 3,
+          "intensidad_label": "fuerte",
+          "emoji": "🟢🟢",
+          "razonamiento": "Flujos institucionales hacia ETF: muy positivo"
+        }
+      },
+      {
         "title": "Los ETF de BTC atraen 273 millones de dólares en dos semanas. Eso es una bagatela en comparación con el éxodo reciente",
         "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxORnhScmpJMDhETFo1TEVWaGtIZElRcE41by1NMjdubDNYMF9FVzdWamJKbllMRXFVbmlmOEVVUGZEcm9XVG1rZVBEVnBmQlhOMWN4ZjN2ZFZVVjVlZ1hYTC1QT3FIVS01S0t1dUJtQ0w3ZlI1cEIxajRRYy1VVE1wdUtHZjk1S0RFdUstNFpJMVpkSFNXUUFrZk5STnFKUjBDZmpIUjV4ZEprcW9LVnJ2dUJ2UGpxbGtRT3B2WW51OUh3OWJ4NmZpaDN4cFA2VzhaM2c?oc=5",
         "source": "CoinDesk",
@@ -155,20 +169,6 @@
           "intensidad_label": "neutral",
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Bitcoin Clears $65,000 as Institutional ETF Inflows Drive Rally",
-        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNUMxTnJNTUppdllENTRHWFJTZVJNYjBBSmVVU0tpSWFCeWR6cThVTDhQMG1nNU1RQkx6MUZrczl5eENJdE9xbVlBbTM3ckhxNmlOQkhKVVZoRVZsaEZUSEs4dEU4OEZjWW9yTzlROXVDdDloVXdnQ0xxN3dtVXhIZEMzMlZpUGlZQzNGQjJuQVNxT3NpS1ktUWRBQk1sbE83ZnpVUw?oc=5",
-        "source": "CryptoRank",
-        "pubdate": "Sat, 18 Jul 2026 03:01:45 GMT",
-        "pubdate_iso": "2026-07-18T03:01:45+00:00",
-        "impacto": {
-          "direccion": "positivo",
-          "intensidad": 3,
-          "intensidad_label": "fuerte",
-          "emoji": "🟢🟢",
-          "razonamiento": "Flujos institucionales hacia ETF: muy positivo"
         }
       }
     ],
@@ -407,7 +407,7 @@
     "n_positivas": 2,
     "n_negativas": 1,
     "n_neutrales": 22,
-    "narrativa": "El feed muestra 2 senales positivas y 1 negativas (neto +1). Factores dominantes: Salidas de ETF: muy negativo institucional; Flujos institucionales hacia ETF: muy positivo.",
+    "narrativa": "El feed muestra 2 senales positivas y 1 negativas (neto +1). Factores dominantes: Flujos institucionales hacia ETF: muy positivo; Salidas de ETF: muy negativo institucional.",
     "narrativa_fuente": "plantilla",
     "veredicto": "NEUTRAL - sin sesgo dominante"
   }
