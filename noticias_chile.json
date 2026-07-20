@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-20T09:33:52.292455+00:00",
+  "updated_at_utc": "2026-07-20T11:33:53.343313+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "bcch_tpm": {
@@ -212,20 +212,6 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
-      },
-      {
-        "title": "Chile: sindicatos se movilizaron contra la Megareforma tributaria impulsada por el Gobierno de Kast",
-        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNWlZtWEp1S2hkNXlTenJQMHBPWHVnZ0g3bndQa3FoTEJnVWpCbHVMdzBvV0RhdnpKZy1rdF9jWHRhN3RsdVc4cE5PWjVGODVLSFZ4RUotMzE2YUI1a1lkQ18xX1RDcWk4SXZxeFhxc3d2SjdRaWxnWDBwai1KSl9WS2d2SDlUTG5QQlBHS3RLUllCNVVleUNva1pCaV9Vdm1ickxzdm5XcUxycTBBM3czMW1KWDFCX21CN3E3eXRGaEVCdw?oc=5",
-        "source": "Latam Gremial",
-        "pubdate": "Fri, 17 Jul 2026 15:54:56 GMT",
-        "pubdate_iso": "2026-07-17T15:54:56+00:00",
-        "impacto": {
-          "direccion": "negativo",
-          "intensidad": 2,
-          "intensidad_label": "moderado",
-          "emoji": "🔴",
-          "razonamiento": "Reforma tributaria: incertidumbre impositiva"
-        }
       }
     ],
     "pensiones_afp": [],
@@ -234,13 +220,13 @@
   },
   "hechos_esenciales_por_ticker": {},
   "stats": {
-    "total_noticias": 13,
+    "total_noticias": 12,
     "por_categoria": {
       "bcch_tpm": 2,
       "ipsa": 1,
       "dolar_cobre": 4,
       "economia_chile": 3,
-      "politica_regulacion": 3,
+      "politica_regulacion": 2,
       "pensiones_afp": 0,
       "energia_tarifas": 0,
       "sectores_watchlist": 0
@@ -249,11 +235,11 @@
   },
   "resumen_ejecutivo": {
     "sentimiento": "neutral",
-    "score_neto": -1,
+    "score_neto": 1,
     "n_positivas": 1,
-    "n_negativas": 1,
+    "n_negativas": 0,
     "n_neutrales": 11,
-    "narrativa": "El feed muestra 1 senales positivas y 1 negativas (neto -1). Factores dominantes: Reforma tributaria: incertidumbre impositiva; Crecimiento: soporte macro.",
+    "narrativa": "El feed muestra 1 senales positivas y 0 negativas (neto +1). Factores dominantes: Crecimiento: soporte macro.",
     "narrativa_fuente": "plantilla",
     "veredicto": "NEUTRAL - sin sesgo dominante"
   }
