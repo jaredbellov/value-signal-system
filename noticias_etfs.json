@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-20T19:26:57.578050+00:00",
+  "updated_at_utc": "2026-07-20T21:26:58.224224+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "fed_tasas": {
@@ -247,42 +247,28 @@
           "emoji": "🔴🔴",
           "razonamiento": "Selloff: presion vendedora"
         }
-      },
-      {
-        "title": "Netflix Drops 9.5% After Forecast Misses Expectations",
-        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZjdfdElrUzJPMldONVlPMGhqSGJoN05TZ21UbUlMVU9uekhHeWNiQjhiMGlhZldKcl82S2NhdXhNVUROQWUwbmtLOW11WjFUUmR4MjZOMlczbE5PazZzRWk4ekd5cGxpcEZHWTFQZll2bTJ0enYwUUNIU25Zc1VaOFEyWXlIN0VPVXdyVE5uWG8wUHZpY1BXek91dHVkT3JySEtDZ05hVy1NYWY4aENpMg?oc=5",
-        "source": "TradingView",
-        "pubdate": "Fri, 17 Jul 2026 20:01:31 GMT",
-        "pubdate_iso": "2026-07-17T20:01:31+00:00",
-        "impacto": {
-          "direccion": "negativo",
-          "intensidad": 2,
-          "intensidad_label": "moderado",
-          "emoji": "🔴",
-          "razonamiento": "Resultados bajo lo esperado"
-        }
       }
     ]
   },
   "stats": {
-    "total_noticias": 16,
+    "total_noticias": 15,
     "por_categoria": {
       "fed_tasas": 2,
       "mercado": 1,
       "tech_nasdaq": 5,
       "economia": 0,
       "earnings": 5,
-      "sentimiento": 3
+      "sentimiento": 2
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "levemente bajista",
-    "score_neto": -3,
+    "sentimiento": "neutral",
+    "score_neto": -1,
     "n_positivas": 1,
-    "n_negativas": 2,
+    "n_negativas": 1,
     "n_neutrales": 13,
-    "narrativa": "El feed muestra 1 senales positivas y 2 negativas (neto -3). Factores dominantes: Selloff: presion vendedora; Earnings sobre lo esperado.",
+    "narrativa": "El feed muestra 1 senales positivas y 1 negativas (neto -1). Factores dominantes: Selloff: presion vendedora; Earnings sobre lo esperado.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "Levemente BAJISTA"
+    "veredicto": "NEUTRAL - sin sesgo dominante"
   }
 }
