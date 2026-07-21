@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-21T15:33:55.579781+00:00",
+  "updated_at_utc": "2026-07-21T17:33:54.254204+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "bcch_tpm": {
@@ -97,6 +97,20 @@
       }
     ],
     "dolar_cobre": [
+      {
+        "title": "Cobre: mercado global entra en déficit en 2026 y el precio vuelve a subir a u$s13.800 la tonelada en Londres",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMHlGam1JWkVQNTBSUldoVkFTckY5U1BUNTF0ZjNlVERCZ3U3U0hwOGpPN1BhckM2VXRSTVdqRmdBWFNsd2hmR0R5M2RtbTJEN0prOTRoTXNxTlRkLVRwNnNJVkpjV2Y1bHdrX2ZPMFhUcERPWVYxMHM5NmdDYmJYbWtnNkxpOFZadkE0STQ0aFpaaGlYbk9MWTlQMG8ybmZLYk9Ucnp0UW1GU1JPZnphYm9uX2Y1dFc2dkVVUk0zR2tyNUxXejJ3NmV0aEo?oc=5",
+        "source": "Ambito",
+        "pubdate": "Tue, 21 Jul 2026 16:36:00 GMT",
+        "pubdate_iso": "2026-07-21T16:36:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
       {
         "title": "Precio del Dólar en Chile hoy: El Peso chileno opera con ganancias favorecido por el repunte en el precio del cobre",
         "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPS0RPUXE5aE03ejlrejhwQmFINkhMOXRSalFIcHFxSGFwWExGbDM2eTRqRmZMdlN1ejE3Sm5RMXI2RVpCRFFPS3c3eDhkZE02SmhxWGQtQVo2VU1EUld4MTFnYm5WaUx2a2dUdG84R3NXaVktdnM4Sno3RWo4U3dZRkFRT1hJZlQ0THF1QzRuS2xCbWRwVzFEbDRFUnVJdU9KSGZqZkd6dnlEaEtieml3WVpXc0VpdGEtRlNTd3BQeEluQ1lSOGhMUXFmM0Z0c0RkWTdEYW5vRDk2MVN0enhYTFBDMTB2Y2VPSHZGOdIB8gFBVV95cUxOd1dXcVFIUmhZcmNQbXRZeHBlZmJSNjNlQjNoV0NWZ29DcjdSS3dJMUJPV1RiTkptQ3V4aWJ4RU9XT3JHYUJ3Rlh5WVdpbEtKZlpJY29nRVZWYU5HS3g2N0NscE9XVS1ROGNRT19MQnlBbnotejVRNHhBQ1h5RWhCSm96XzVFd0JEWkRXamhYZDdYeW5WT3NkbWtYdzdTQmN3cFhYaVNRcEVfUEN2VTgzdVBIRm9WT09WZEN1YVl3cFE5Z0p1RkNjYnZ3Ni1WdXpYZ3lhZFZNLVRFOU4zM0dVVDVZcXZXUzFydGNER1N5T3JUdw?oc=5",
@@ -210,20 +224,6 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
-      },
-      {
-        "title": "¿Crecimiento económico en Chile? Sí, No, Depende...",
-        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPXzNmbHN5amtIZktfX3ZTbG1qeVZZdGxXZEtOS0JiVS1MeUNDTmh0MUhHaG8teG50Z19STmlkZEhUTVpwUllTT2tJUUw2VHJCc3Q1OVBaRDFBdmNNZUozcV9zcDBkZzdpdEpXVlduLVlCOHZZaUdYQkZNMnk4S19Bc1NMUm9sUW1Ib0huQw?oc=5",
-        "source": "El Desconcierto",
-        "pubdate": "Sat, 18 Jul 2026 15:45:00 GMT",
-        "pubdate_iso": "2026-07-18T15:45:00+00:00",
-        "impacto": {
-          "direccion": "positivo",
-          "intensidad": 1,
-          "intensidad_label": "leve",
-          "emoji": "🟢",
-          "razonamiento": "Crecimiento: soporte macro"
-        }
       }
     ],
     "politica_regulacion": [
@@ -267,8 +267,8 @@
     "por_categoria": {
       "bcch_tpm": 3,
       "ipsa": 1,
-      "dolar_cobre": 4,
-      "economia_chile": 5,
+      "dolar_cobre": 5,
+      "economia_chile": 4,
       "politica_regulacion": 1,
       "pensiones_afp": 0,
       "energia_tarifas": 0,
@@ -277,13 +277,13 @@
     "hechos_esenciales": 0
   },
   "resumen_ejecutivo": {
-    "sentimiento": "neutral",
-    "score_neto": -1,
-    "n_positivas": 2,
+    "sentimiento": "levemente bajista",
+    "score_neto": -2,
+    "n_positivas": 1,
     "n_negativas": 2,
-    "n_neutrales": 11,
-    "narrativa": "El feed muestra 2 senales positivas y 2 negativas (neto -1). Factores dominantes: Cobre al alza: soporte para economia y CLP; Perdidas reportadas.",
+    "n_neutrales": 12,
+    "narrativa": "El feed muestra 1 senales positivas y 2 negativas (neto -2). Factores dominantes: Cobre al alza: soporte para economia y CLP; Perdidas reportadas.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "NEUTRAL - sin sesgo dominante"
+    "veredicto": "Levemente BAJISTA"
   }
 }
