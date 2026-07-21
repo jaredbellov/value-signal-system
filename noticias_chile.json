@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-21T07:33:52.628708+00:00",
+  "updated_at_utc": "2026-07-21T09:33:52.825192+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "bcch_tpm": {
@@ -124,20 +124,6 @@
           "emoji": "🔴",
           "razonamiento": "Perdidas reportadas"
         }
-      },
-      {
-        "title": "Peso chileno hoy: a cuánto cotiza este sábado 20 de junio",
-        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNYlN2ZjB0X1l2UVV0TGRBSDEtVThmRk43NGdjV1Rqei04MGxaRVk4bm1NdDYtUzZOdDdZXzgyNHN5U243UWk1X3hZTXktNmJGdzIzWDkzdEhmTjgzc011VVhtZEFBSzFZX2hOR2VaVGhNbHNTSUdKMTYtZERFd1gtNWJ6QnNqRjB3WGlydDNmSjl4akw5azFva0FpUmNLQzR5RnotbXZrQXlUdw?oc=5",
-        "source": "Diario Nuevo Día",
-        "pubdate": "Sat, 18 Jul 2026 13:56:05 GMT",
-        "pubdate_iso": "2026-07-18T13:56:05+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
       }
     ],
     "economia_chile": [
@@ -249,11 +235,11 @@
   },
   "hechos_esenciales_por_ticker": {},
   "stats": {
-    "total_noticias": 14,
+    "total_noticias": 13,
     "por_categoria": {
       "bcch_tpm": 3,
       "ipsa": 1,
-      "dolar_cobre": 3,
+      "dolar_cobre": 2,
       "economia_chile": 5,
       "politica_regulacion": 1,
       "pensiones_afp": 0,
@@ -267,7 +253,7 @@
     "score_neto": -3,
     "n_positivas": 1,
     "n_negativas": 2,
-    "n_neutrales": 11,
+    "n_neutrales": 10,
     "narrativa": "El feed muestra 1 senales positivas y 2 negativas (neto -3). Factores dominantes: Perdidas reportadas; Reforma tributaria: incertidumbre impositiva.",
     "narrativa_fuente": "plantilla",
     "veredicto": "Levemente BAJISTA"
