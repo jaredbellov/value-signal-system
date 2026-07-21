@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-21T07:03:25.995796+00:00",
+  "updated_at_utc": "2026-07-21T07:33:28.261583+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -93,6 +93,20 @@
       }
     ],
     "nvidia": [
+      {
+        "title": "Apple stock: has Wall Street found its post-Nvidia AI trade?",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSjFWZkFBOUJ4VzJTRzROWElFMXJ5TTFmTGRfbGhvRmRiLUJJUEtKNFFEQ3puYUc3YlYxZC02OTkyd192UWdmWktXX0UwaWZtTFBObGZldjd3dnN0ODF5Ylc1WEZuQm5RTzM5b2pmQWI5RFlDbHpBMEhWSVJxOWpRcWpRU3ROSFZsRklKVm8xbzRCT2xmTnVVVlh5QjlheXRFMXBqT2FKa0VRM3NPZkIzdVczMW8?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 20 Jul 2026 04:19:00 GMT",
+        "pubdate_iso": "2026-07-20T04:19:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
       {
         "title": "Big tech earnings outlook: Wall Street demands receipts on $700B AI spree",
         "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMWlfZ25VUjN0R0tEUmpDQm9FQWo3Z3JqRDJwb3lKQkFHd1hEMjlWamR2OUoxZndQU0U4MVh4TWwwdWZpQmF1XzN2N1hBbkpQM3g0Nl9LMFhZeVU5aGtJWmZmc054UFdPTG4yYXp0Sl85MDVWVE0wUXNRSzlkMWJyekhvclRzbVFyMWVTS1dIMExoeGlOLTZMZ05aYWVwWlluVGpXMG5KMXhKQzZZVldIcHh1aTRBNHU3QnFFVGRaVm9Za09rVmc?oc=5",
@@ -226,10 +240,10 @@
     ]
   },
   "stats": {
-    "total_noticias": 14,
+    "total_noticias": 15,
     "por_categoria": {
       "tesla": 5,
-      "nvidia": 1,
+      "nvidia": 2,
       "ia_semis": 4,
       "macro_tech": 4
     }
@@ -239,7 +253,7 @@
     "score_neto": 0,
     "n_positivas": 0,
     "n_negativas": 0,
-    "n_neutrales": 14,
+    "n_neutrales": 15,
     "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
     "narrativa_fuente": "plantilla",
     "veredicto": "NEUTRAL - sin sesgo dominante"
