@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-21T11:33:53.958279+00:00",
+  "updated_at_utc": "2026-07-21T13:33:52.764193+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "bcch_tpm": {
@@ -109,6 +109,20 @@
           "intensidad_label": "neutral",
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Cobre sube a US$13.633 por tonelada ante mayor demanda china y caída de producción en Chile",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUzktUVRpN09JamV3eXFweG9SU0Z4QlZOQzRWN0RHcFhvT1hlVkltU2t1Nm5ZNGlySDRkS1NoV3JXWUs2eUR2T0NPVlFpelBBR1U1dFE2alpwRXh5VnNMVGdrRC0xR3hMNkFZaTNpOG9QVUcwZE52Z2d2MUljMy00aXhWQkNCZHF3dGQxOU5rRHMtajVBdGdMRmxOQzc2eklBbDZET2FjVXVlOHRyUkd5UmtNSkc?oc=5",
+        "source": "Revista Digital Minera REDIMIN",
+        "pubdate": "Tue, 21 Jul 2026 00:23:34 GMT",
+        "pubdate_iso": "2026-07-21T00:23:34+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🟢",
+          "razonamiento": "Cobre al alza: soporte para economia y CLP"
         }
       },
       {
@@ -235,11 +249,11 @@
   },
   "hechos_esenciales_por_ticker": {},
   "stats": {
-    "total_noticias": 13,
+    "total_noticias": 14,
     "por_categoria": {
       "bcch_tpm": 3,
       "ipsa": 1,
-      "dolar_cobre": 2,
+      "dolar_cobre": 3,
       "economia_chile": 5,
       "politica_regulacion": 1,
       "pensiones_afp": 0,
@@ -249,13 +263,13 @@
     "hechos_esenciales": 0
   },
   "resumen_ejecutivo": {
-    "sentimiento": "levemente bajista",
-    "score_neto": -3,
-    "n_positivas": 1,
+    "sentimiento": "neutral",
+    "score_neto": -1,
+    "n_positivas": 2,
     "n_negativas": 2,
     "n_neutrales": 10,
-    "narrativa": "El feed muestra 1 senales positivas y 2 negativas (neto -3). Factores dominantes: Perdidas reportadas; Reforma tributaria: incertidumbre impositiva.",
+    "narrativa": "El feed muestra 2 senales positivas y 2 negativas (neto -1). Factores dominantes: Cobre al alza: soporte para economia y CLP; Perdidas reportadas.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "Levemente BAJISTA"
+    "veredicto": "NEUTRAL - sin sesgo dominante"
   }
 }
