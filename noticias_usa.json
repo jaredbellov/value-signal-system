@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-23T00:03:26.355779+00:00",
+  "updated_at_utc": "2026-07-23T00:33:26.617203+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -113,6 +113,20 @@
         "source": "TradingView",
         "pubdate": "Mon, 20 Jul 2026 20:00:50 GMT",
         "pubdate_iso": "2026-07-20T20:00:50+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Las acciones de AMD suben más de un 3%: El primer sistema de IA a escala de rack Helios está listo para su entrega, Nvidia enfrenta a su primer rival sólido en años",
+        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNd3kxSU5CTXlwd1RzS0gycnhmTGZLbHMxUHloUDVlbTFOUVJaaXFLdUtUb3NjS2pmbUdrWkZETnhYM0d3UTVXSUluREFVUXZnZ00tSnZZcjhKMFRkWjJ0RTVQVjhsQzRNSWswUzB2QzdMRVRoN0VoaWZvNHNPa0lJZFBodlloS19Lc0NiVGxWSXBzLU93c1ZacVJpUWdGWm1qd3ZNSVZkQzN0M1FVa0licDlIWTZxd01aRHFPVGcySG9WbVZsNHZ0YnZn?oc=5",
+        "source": "TradingKey",
+        "pubdate": "Mon, 20 Jul 2026 16:07:38 GMT",
+        "pubdate_iso": "2026-07-20T16:07:38+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -254,10 +268,10 @@
     ]
   },
   "stats": {
-    "total_noticias": 16,
+    "total_noticias": 17,
     "por_categoria": {
       "tesla": 5,
-      "nvidia": 3,
+      "nvidia": 4,
       "ia_semis": 3,
       "macro_tech": 5
     }
@@ -267,7 +281,7 @@
     "score_neto": 2,
     "n_positivas": 1,
     "n_negativas": 0,
-    "n_neutrales": 15,
+    "n_neutrales": 16,
     "narrativa": "El feed muestra 1 senales positivas y 0 negativas (neto +2). Factores dominantes: Proxima arquitectura Rubin: roadmap fuerte.",
     "narrativa_fuente": "plantilla",
     "veredicto": "Levemente ALCISTA"
