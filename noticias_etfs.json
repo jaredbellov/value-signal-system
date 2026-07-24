@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-24T07:26:45.768794+00:00",
+  "updated_at_utc": "2026-07-24T09:26:59.958320+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "fed_tasas": {
@@ -28,32 +28,416 @@
     }
   },
   "noticias_por_categoria": {
-    "fed_tasas": [],
-    "mercado": [],
-    "tech_nasdaq": [],
-    "economia": [],
-    "earnings": [],
-    "sentimiento": []
+    "fed_tasas": [
+      {
+        "title": "Bitcoin slides below $65K as Iran conflict fuels $100 oil and bond-yield surge",
+        "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOaUFHYVdfbHgxNE42NmNKeEk3UkhqQnJiNTJ0LURpaUptUXBuVUFZWTNfai1Pd21VaDdnaEJvUmlyM0gxMEV3LUZMeDZSUEhJX1p0Qlp3M2s3bk1tZE5ZQ2tGeVFGdnY0WlVIUEZSc0psMnpVeVRvb2ZpQXZ2X3VpOEh6TllRTmNPb1lyRzJnaU9EUVY2Uy1lVVNmZmgxSTY2d3c4cVVuZEtxSWI5Y2Y2TnhETGdCTmRReHEyNU1lSHp0bkJnc1BfOWI0Tk5LelBUTnRwbHFn?oc=5",
+        "source": "TradingView",
+        "pubdate": "Thu, 23 Jul 2026 20:32:22 GMT",
+        "pubdate_iso": "2026-07-23T20:32:22+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Bitcoin Price Drops as Surging Oil Prices Reignite Inflation Worries",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBiUzJNS1VFck9GWm42c2Y5YzFRbmpfRU9tR1NaNUtWR29faWo1Tk9TdlN6bzBJT3I5S2tRWEFrbG15QU9WUVRyZTNsUE02WWN5OTNxU0RoYzlRSVlCd2FIa2dSU2ZwZlN1MjFOWENJZ2Q4Y3RTY1lmWkxqSzVqLUk?oc=5",
+        "source": "CryptoRank",
+        "pubdate": "Thu, 23 Jul 2026 11:20:22 GMT",
+        "pubdate_iso": "2026-07-23T11:20:22+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Dollar Eases on Euro and Yen Strength",
+        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQMDZqVFJzQ3VtUFp5X2NBcUN4a1NFMGQydmVWWmFFLUplbGk2czA5bHhwYU14RFdZOEVubXVxUDMya2R4REptOGZweXZ5V3pjcVllVmlKTlp4dEFxdFZJX0tORFl3dDdwbUdMVGtKNEVybjg3Ni1TdDQ0SXQzc0w4ZW54ZjI4TVJISXhqOUVuUFVqelN3eTBiRHU2OA?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 22 Jul 2026 19:35:34 GMT",
+        "pubdate_iso": "2026-07-22T19:35:34+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Dollar Slightly Lower as the Yen Recovers",
+        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPeWgwd045bF9PRTEtLTZsWXpCTDhoT0NvaEc2cWVBRUROLTNkd3g5eGhFVDhSazZKZW1yNmxYT2ZOS0t5NEJoTDRzV3BDTl9RdlZhQ3pPUDZFY2U2TE5iaFFQV3R5YUpITFpQVUprTmQ5UWV5Wm9wM3BvSUZRb3BOZnBWZUhlSHF4dFZEYjc0cEh6ejFnZVctNzhsOU1SenM1?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 22 Jul 2026 14:33:40 GMT",
+        "pubdate_iso": "2026-07-22T14:33:40+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Dollar Edges Higher as Crude Oil Prices and Bond Yields Climb",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQR0pSaXRFZ3JZX2ZDeDg1OVVCSUgyUUdmRmppQnlTWkRvZEg1MDBnVTdGQmpiOUVfZ1BNZTBzWG5yZnFGYjhXUWpkanlwbC01N1Z6cC1zWWJKSVBPNEo3NG8tQ2IwdUFrZ0p0UVdmN0lvRnUxZFlGRDd4dGo4R1liaFJfTlVPU3BYZzE3UF9zeTE5MGVRWVQwWEU0Vms3aWNWNy1nTVZqRVBfQzRyNmZPaGR2UXlnNWFKTjdj?oc=5",
+        "source": "TradingView",
+        "pubdate": "Tue, 21 Jul 2026 19:34:04 GMT",
+        "pubdate_iso": "2026-07-21T19:34:04+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "mercado": [
+      {
+        "title": "Why Is Oceaneering (OII) Stock Rocketing Higher Today",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQm94a0lSV0RDX1VCalJrTUxFcVBIU1Z5UUowbk9aR1MzSGhDbllvOVZEUDZpLTZFZEtkZ3NRN1U3RG9OMkhOYnRJaTJBVzRLbGNyWUFxSHF5Sk5JZTBmOUprV2pLMjVNdUN5dkV3YVRFbFFEN181N21rLVZJRTEtVmVicXprYV9oYlNaMnk0bTRRTk5DQ1o3a05KdHdjcFpxV2o4NkV0VmpteGZwOEZPeg?oc=5",
+        "source": "TradingView",
+        "pubdate": "Thu, 23 Jul 2026 21:15:52 GMT",
+        "pubdate_iso": "2026-07-23T21:15:52+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "S&P 500 heads toward worst day in a month as oil soars over $100",
+        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPbmVMUW43aUhjeERVSEhyTnNwMnctVHpjRDVUbTVuTDE5VEg2b0lvS0wzcVhUVzFBSS02Q2xfanVVLWxlYllyX0F6VjMzaHhNRkx4VmQ4YWlxRlJDMGdUaHQ1VjloaVB3UnVsM2pvM2UzaUZRMWJ5c202eGFmMExBbkJDWVVYclYyQ3dhTDJCYWxiMGNTelRXZnBYWXdRTU1qb0lFeVY3c1V0U2pwRDhiZm9aUTFPSFBNYlZPWWZ4b21fOEU?oc=5",
+        "source": "TradingView",
+        "pubdate": "Thu, 23 Jul 2026 18:22:43 GMT",
+        "pubdate_iso": "2026-07-23T18:22:43+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Why First Merchants (FRME) Shares Are Falling Today",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOQmQ1dl9FLVBvRHpnSURhMnY1bWJHb2tZM0RzRHpTQmk0N1ZCUE05T0hFaVc2ZWhQSk50ZVE3ZlYweV9JMi1fWHVmOVl6OU14cjBvcjVyaFR0UzJqMDZWc0xueWVhb2N2eF9xNHpZcUlyUU44NGg3LWtlM3FmWF9Wa1o1NDk1dF9IV0xiUnQ4V3Z2WVRNNHJfT19Bd1pvUThVcUlGRnlPMWdKNGlMWkE?oc=5",
+        "source": "TradingView",
+        "pubdate": "Thu, 23 Jul 2026 17:00:46 GMT",
+        "pubdate_iso": "2026-07-23T17:00:46+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Why Alphabet (GOOGL) Shares Are Getting Obliterated Today",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPb3UzbVdYUENBR0ZEMGRQbjlWNW5CTjFXdEpyUTZURXF1OVNMeFhOcnJNaUtmWmo1M3NkcGdyOG5LTXhnY0pBOWVpTEJFZVBDZUViS0RWRHpWR0lnUlY5bkU5TWI5c3BoR3E1ZGhIMG5TV0RlYzlKc1NuS25JejAwNHNmX2lZS2pKdGx3ek81VGtpemJyVDJia0VGQXBZLV9SNTNPTTY4S2poQTJMSERrb09tYWhhZw?oc=5",
+        "source": "TradingView",
+        "pubdate": "Thu, 23 Jul 2026 17:00:40 GMT",
+        "pubdate_iso": "2026-07-23T17:00:40+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Stocks Fall Sharply as Crude Oil Prices Soar and Alphabet Sparks AI Spending Concerns",
+        "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxObWNHS1pGVHc0MThneGtjWmJzUUxOZEZVOEZVR19fTVdqTGdSY090bWhqcFQ2N1FrWWFLXy1Jb3dBaWNxTk9US185YWVRNHFKczZCaUE2VDBrREhYVHRsaF92S3JUbjJoRlRDOW16akxWdjVKZmJHNlZpRnRvRTU3XzBhMXJQMUhtbFFJTFRjdmgwUjlsc0VYUm03dkNHb2dDOVYzbERnUFBsWXFQajJxTnQxNldrM0hEMjltZTZiNU5TQU9FMC0zekRCaEktSlFnQnBUMlpTbC1vR0U?oc=5",
+        "source": "TradingView",
+        "pubdate": "Thu, 23 Jul 2026 15:32:30 GMT",
+        "pubdate_iso": "2026-07-23T15:32:30+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Acciones a la baja"
+        }
+      }
+    ],
+    "tech_nasdaq": [
+      {
+        "title": "Tiny to Announce Financial Results and Host Investor Call for Q2 2026",
+        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPREVpbFdJaHhreW5rd1ltbXUxdkdsT0RURG9yWXBkQkx5blRIcVA5dkprV3I5TkJ6Nk0yclRHbzZxdW9FWG1xUWxLbnBHMXlLMXRsaC0wMjJMcnhYbldZV25rT0pRNVNvVnV3di1CQkhmeDItZGJJQXRGU01GeEFuYWkxbG1DdjZxeWtwNHNIemFEUlpIaVdvNWN3dmw4cEJtZjQ3TG1jZWRsN1BqaG80OUkyQ3lkNzlzdmJuYlFhQ25NMzdLbmhQSWd5Zw?oc=5",
+        "source": "TradingView",
+        "pubdate": "Thu, 23 Jul 2026 21:49:00 GMT",
+        "pubdate_iso": "2026-07-23T21:49:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "SoFi Technologies (NASDAQ:SOFI) cotiza a 28 veces sus ganancias antes del informe del segundo trimestre",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPak9mM29FU0hUQ19IN0ZLUU9TM0lnc3BoMWgxbnRxQ19Pc0VtNmI3LV9henltYUhCcHJWaUNmWHRfQmhUbXFoUkVFVG8wNHJBX0YxbFY1c3Y5LW1mTVJIQnlGbVZ5Z3BlODJ1M1Y1MVUtQi1sRDZleDJYQ0xKd0psd2NmRDl1MGJVbjJTVE8yYnBSZXBqWVZrRzhKenlJNHJKS002SkpKRWY2cG5oNTRCZlFDcmQ5T2lwMjU2QmRB?oc=5",
+        "source": "TechStock²",
+        "pubdate": "Thu, 23 Jul 2026 21:39:59 GMT",
+        "pubdate_iso": "2026-07-23T21:39:59+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Stocks Fall as Crude Oil Prices Soar and Alphabet Sparks AI Spending Concerns",
+        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOMmdGdkczTUR3OFVRaGFUNHJ4UWxWdXNfdmNaLTVYT21mLVc5QXJfbllMbEt4UVR2akE4MWJpcFFKZENSQm04aVEwd0J1dngycWh1WlZvUlBmM2VmSE85MWJPTzZYZGEtOFo2aW5oM3d4SnVpMVRFZzZNaEoxelhjeGVxa1ktR0R0NlpLVUd5MGJteTVmR0dkWEx6SDRrM2tlVzF2VFNtX1BIMXNOS09FV3RQbjM1el9QVFBpTTlPUUNzQUY5VlRFR0JuNjdmR0lW?oc=5",
+        "source": "TradingView",
+        "pubdate": "Thu, 23 Jul 2026 14:05:02 GMT",
+        "pubdate_iso": "2026-07-23T14:05:02+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Acciones a la baja"
+        }
+      },
+      {
+        "title": "US Stocks Slip After Tech Earnings",
+        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQLW5NcFpKMVFYeS10Z2E0R3E3anFBU1d0WmZCbVd4MUo2ZGJaLXBqLXFNdkEzdjVFYW94SlRwSUZ1MGhNbnV5Z0ZVSlpRMVJvUmJyd19TUHZmajZib0NCTkNWenYtUU10LWg3ZThCR0E3bXFadnoyWEFpaE96cWNTYk92UFBldnRrTm1qZA?oc=5",
+        "source": "TradingView",
+        "pubdate": "Thu, 23 Jul 2026 13:39:04 GMT",
+        "pubdate_iso": "2026-07-23T13:39:04+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "COHR, AAOI, LITE, POET: Photonic Stocks Join Google Capex-Fueled AI Rally",
+        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQb2lHSXk4M0xyQjEyQjAta3NveHhkZEJIcGVNam9uX09rQUhOOEFtd0hVN2NuRXp5NlF6Y0VqeThnSWFrNEVPeUtBZEpWM0Nka0FIeElUV3IxUWw5WUZVS3dYTHNiUHp2SzBPcU5qWlI0NWIyMTA5RXUyRzhYNkVDeGRMaUFUVDRNQjhnYTFjRWFBMGU4RWNSQWZ1YTZXeWlCVkhjWE5DRHJLWDF0T1k4LW5paW1TQ3RLbWo2RW1FNmVsajVJaTRSaw?oc=5",
+        "source": "TradingView",
+        "pubdate": "Thu, 23 Jul 2026 04:08:00 GMT",
+        "pubdate_iso": "2026-07-23T04:08:00+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🟢",
+          "razonamiento": "Rally de IA: impulso Nasdaq"
+        }
+      }
+    ],
+    "economia": [
+      {
+        "title": "Australia jobs blow past expectations in June, cements bets of another rate rise",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQQnBNUzd5R0tSSzA1aG4wMEZvdlAzcUpHSDlBWnl2UmpGYWhiYkNud1FHck9KR21Gc2NnSi1lU24zMzJKMFdhYUJpZ0Z4cTY2VDBnbnE2TVhQaVN5NzRlZjR5Zy1QZzRRS1V2V1VCQWFpLVdJQi11c0NBbzlydU94Q1NmRXlZeVJKaUZkeVV0QWJQd0wxQkt6Uk5YR2N6dUJ0SEpWdWJGcjdUdWFfbEJfYjVSTW96S080Qlpr?oc=5",
+        "source": "Reuters",
+        "pubdate": "Thu, 23 Jul 2026 01:45:00 GMT",
+        "pubdate_iso": "2026-07-23T01:45:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "investingLive European FX news wrap: UK jobs beat, focus stays on Middle East",
+        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOWDBWM3RleHp3aUw3VXdXMjRmeEVmT0lqci04VFlBb2hQUnNyVVBDaElwcFZBTDU3MmZXOXZGUjdvVGdLX2hwVGtVYm5ERTZOQ2VEQ19Vend3MWVTYlY2SGRlMnZpUGYwamdFeXBuWDVxX3BTTGQzWnV3cXVHSG1LcDVPamhTM2RmTjY1V3ExeEJfVkRTa092ZlByRUZySFFqSjBfcTRwdERUQ3cxWTNyLTNHSG1iMmM2RUhKLXhSQmZaYldoOFM0bG5IUWJKbGc?oc=5",
+        "source": "TradingView",
+        "pubdate": "Tue, 21 Jul 2026 11:35:20 GMT",
+        "pubdate_iso": "2026-07-21T11:35:20+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "earnings": [
+      {
+        "title": "Intel Earnings: AI Driven Demand Leads to Decade High Sales Growth",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSjQ3UXFRamZKTlJxSGswWlk2RlJUeUFRSHpqVkxiQWNIcVdvNlhveXlRbFppOFJLM1lwcDNwTm1Qc08tUWVJOTNKZlpDUDBCQnQzNEwtQVNZMkJRUGpESkVrNFdQcTIzZVNaVjFobmg0UU1EUGRLUXFPWWNGZHY3Nnd0NWtvYzlqRmhaSjFoYjlYbW5HbHVtUWtIWDFoNERoT3JTcUFTN1YtSzZtbVV6R0lqdXMxM3FPWHVnYw?oc=5",
+        "source": "TradingView",
+        "pubdate": "Thu, 23 Jul 2026 23:09:00 GMT",
+        "pubdate_iso": "2026-07-23T23:09:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "RRL: FY26 gold output hit guidance highs, cash and bullion soared, and FY27 outlook is robust",
+        "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNT3pxUWh0U1NiSnZud2JxcHoxc08xbk51RElIODBOZzlsVXBfVmwwT2JKNGl3dkFOUVlrSjFRVFo2ZldreDlMV2lldDNXRFdoT19zUnQ0OVRpTVRRV1k4VDdTSlRRVGxwenpTSXBleGE2dU1kOU96N05ZMFNhaFhrMG14cF9VSGgyS3BwZnlUMklXWXBXS1p5Z3kzQjJjb3p4U1BDV3JyS3kxR0FUeWRNamRPUWZtelZGMklabnR2TFlnUFFVcUR2OGF1aHQxcUlvRm1fTkFHNUJ5WWgwZmNnbjBKTG84NFdQbzZEeU5odjl1cFVEZ2NPSFg3UlNMUmsweUE?oc=5",
+        "source": "TradingView",
+        "pubdate": "Thu, 23 Jul 2026 22:44:18 GMT",
+        "pubdate_iso": "2026-07-23T22:44:18+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Why Is RTX (RTX) Stock Soaring Today",
+        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOakVlb18ySUphMTF0cVU4LXVRdjJSMUlWNVlsUkpOVWhnRzdLbFZpSnMwT1V3cnVNWG1HallXeC1hQVVuRFBpUWcwem5QeWEwbHUwQmZlRXpNT1pjQTlnc0oyYjBFclVYZDVNNUR6Q1ROZG5lNW9GNnJxVGNhakJkQk8xbWRCWEVGOGV2Vi1GUUd6NFNiWjNlUkxR?oc=5",
+        "source": "TradingView",
+        "pubdate": "Thu, 23 Jul 2026 21:15:39 GMT",
+        "pubdate_iso": "2026-07-23T21:15:39+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Intel stock forecast after boosting its guidance: time to buy?",
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRHlFYjc1UzJjWjN5QVZUd2hrV2VZR2MwY2VxOFNPX3NzSnVzRTZzbTZDUVh6Q2F5TWxfY19EZENad0NaU0tKWTNqX2ZOVHpJNWctbDlOWXhRQWJyay13ZjhsU1RQZm1mRmxrb2FMQzdoNEhMNEhKMHZkTkVFVlNhbWV4SEg3SDlUOHNVb0NLYy1vX0VRQXNwLUxrblRlU2lvZWFvTEYwZkE3d19jajNmNWQwME50VlE?oc=5",
+        "source": "TradingView",
+        "pubdate": "Thu, 23 Jul 2026 20:37:24 GMT",
+        "pubdate_iso": "2026-07-23T20:37:24+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "T-Mobile Falls 5.7% Despite EPS Beat and 8% Revenue Growth",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWWw3Z0FxbWRCSUFTelFITXRkUzZ0cUs0U1JpeF9UMV9qMFNBckpWNFJWVXVmbC1NVkFPbkppQnJydGFBbkNwZ0I3X3BPd3N6YmlFNVJQdXNSaUpLQlVhX2llOXdncWJhMUkzbFdzNnZMNXkwLUdnMU42Wkc0WExValYxRnFBX1c5YnJqc0pjWkxFM0xrbXdRYWlBQk01MmQxdmtJVVpHNEJKM21fMDA4NjkzbVZGdw?oc=5",
+        "source": "TradingView",
+        "pubdate": "Thu, 23 Jul 2026 20:25:41 GMT",
+        "pubdate_iso": "2026-07-23T20:25:41+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "sentimiento": [
+      {
+        "title": "symbol__ Stock Quote Price and Forecast",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9nVVBOcVNmajc0dWJjZTNXT1pQMzRzUEN1ZF95V2pYMmg0QVU3VnBxSTQ1dGhQU1F2NVpJTGVtMWpnQzJpMU0xNFRIVmdrMGc?oc=5",
+        "source": "CNN",
+        "pubdate": "Wed, 22 Jul 2026 22:15:39 GMT",
+        "pubdate_iso": "2026-07-22T22:15:39+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Dürr Aktiengesellschaft: Improvement of efficiency at BBS Automation, preliminary figures Q2 2026",
+        "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQT2Ftby16YVlhaGljakFlSkZUQzUtY2pUVVJkZy03R2RZc2lRNlJKMXpSbUt1TmNBUkZDeGZSTzNlNlZvbk50RGVDekgtMzNPcncxT3lYRDRBMVVtVW90R256a214a3YyTzJIeDdKNlhKSmF5UXRnc0hmNlhraTYtblIzRzJWTTVPVnlpTUtTOXNPMXlHeEZRZmpkTUNMM2pDVVdqWk1BcDhKVVlFSWV2UHlSM29JaFhSa0t0U0hJbmI5T3VNakFOVUNta0p2OS1DdVhHRnUzTFdpSmp1TGVtV2NR?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 22 Jul 2026 16:28:44 GMT",
+        "pubdate_iso": "2026-07-22T16:28:44+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Robinhood Prediction Markets Could Hit $1.7 Billion by 2028, Bernstein Says",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPaHRpSEM4Z3JQRzV1ZVRJME1CTDJ2T2hPUzQtSk1nNzJkZGloMGx0WmNRN3oxNkNLYVZMRmIxQkNDVGhYZG9uYkwxRThWX095SU5zZ21UcFROUUp0cFFCUGdSaWFDbmVTNWtWYnhKcmRtck9fOTM0TnZweTFra1RkaGw4SzItdHFLWEJaVmg1bTZVRnZ1RUY0NVp5amwxQjNfdlZQZ3g5TUg0YTg5cmF3MnBKNmdkREpCR3FnY3dVUzVhVThTOGhmbUphRjE?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 22 Jul 2026 12:41:08 GMT",
+        "pubdate_iso": "2026-07-22T12:41:08+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "PTA-Adhoc: Hoenle AG: Forecast adjustment: Weakness in mechanical engineering weighs on Hoenle Group",
+        "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNNGVwWDdPUDB0SWl4ZXJ2aThjWWx0VG82N0xPcW85NmZRSmdmcktzdmNibW5ybTBCeThySmstS25MRHhtdm1hMlF6LXRab0JvTDQzanh6bWRBSmNNdnlXdV9kXzNLd1h1S1VTUDRMdVVWLXRhTk0xZU9GZHJJSWx4NkhvNk9nZXRZYUt6bEJNNTJVamNXbU14dzgxLXpTTDJzdHdjU1phb2dXeExUenhZTXFTb0F3d2V1YlRwa2p1aXI1UVN6c3dURE9CNVU4QnhKVW5YVF9TcTRtMGlDdERWUHJJQWFJckw4YnhUTHNvWTlKb3M4a0R4OTd6VEk4OWFlUEE?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 22 Jul 2026 08:45:53 GMT",
+        "pubdate_iso": "2026-07-22T08:45:53+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "The explosive growth of CMBC Capital (01141.HK)'s sponsorship business defines a new value paradigm",
+        "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQRmtSYU81ZTV3NzNpN0ZuVDA4dmthTHNCZzNnQ29vSGcxdVRjc19YbnE3RWdTNUR5Zjd6NXZkRnVIUFh3SG1wdkI4NnR5ZVFKcWJVbFZ4QUJvNjc0enkyZWhMSlQ1SnkzUExxbDRSRGZkdDJFM0lRbjN3RzBKOF9lZ1hpYVlhRFN2clpjdk5La1hHZzB3RzVFdnRIMVQyLXBneUxrZ19TbHJfOEZIQnBXYWN5bFNSSzVoa0NFYzFRbnJFNmJSOTR4YjV0a2hvUEZMalk1a1pIZHpQUzVwVFI0WnZUdnpuaUdvdnN4QUV2TURCNEpRcUo4TnFxTlhVRzhhbEE?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 22 Jul 2026 04:09:00 GMT",
+        "pubdate_iso": "2026-07-22T04:09:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ]
   },
   "stats": {
-    "total_noticias": 0,
+    "total_noticias": 27,
     "por_categoria": {
-      "fed_tasas": 0,
-      "mercado": 0,
-      "tech_nasdaq": 0,
-      "economia": 0,
-      "earnings": 0,
-      "sentimiento": 0
+      "fed_tasas": 5,
+      "mercado": 5,
+      "tech_nasdaq": 5,
+      "economia": 2,
+      "earnings": 5,
+      "sentimiento": 5
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "neutral",
-    "score_neto": 0,
-    "n_positivas": 0,
-    "n_negativas": 0,
-    "n_neutrales": 0,
-    "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
+    "sentimiento": "levemente bajista",
+    "score_neto": -2,
+    "n_positivas": 1,
+    "n_negativas": 2,
+    "n_neutrales": 24,
+    "narrativa": "El feed muestra 1 senales positivas y 2 negativas (neto -2). Factores dominantes: Acciones a la baja; Acciones a la baja.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "NEUTRAL - sin sesgo dominante"
+    "veredicto": "Levemente BAJISTA"
   }
 }

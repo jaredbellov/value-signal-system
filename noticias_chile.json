@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-24T07:33:36.762210+00:00",
+  "updated_at_utc": "2026-07-24T09:34:16.024453+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "bcch_tpm": {
@@ -36,37 +36,366 @@
     }
   },
   "noticias_por_categoria": {
-    "bcch_tpm": [],
-    "ipsa": [],
-    "dolar_cobre": [],
-    "economia_chile": [],
-    "politica_regulacion": [],
+    "bcch_tpm": [
+      {
+        "title": "El rand de Sudáfrica cae tras decisión del banco central de mantener tasas",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQS3djNW95RUhoSGZXeGpjM1poWTVmampmLV9feDFJR21pandhb2xnZ1c5cXRMRDI3Z0tOWkphYmFYS241MTc5ODh4Qzl1TzJjZUlGaXhPOE04anhyYThzdXY1WTJLVU54ejlvQ1BVY05Wa1FzV0JkRlFnaW0yc3ZnY1FfWmRnSG1ORWdLUWloSzRYQ0tqMTFVdjdUYW50ZGhUVlFyRzJYNzFWX3piMGFxaU1McDBvVmRLcjQtSXdrbjVaX053b2RB?oc=5",
+        "source": "Investing.com México",
+        "pubdate": "Thu, 23 Jul 2026 14:39:29 GMT",
+        "pubdate_iso": "2026-07-23T14:39:29+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Inflación en México vuelve a desacelerarse tras decisión del Banco Central de mantener tasas",
+        "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNQjg1RVFpVF84OGlRZWlfYWRTQV9sRXdaMjNYWk5tZkYycGM0dk00SWJQQU9YWlZMblk5bDJVdmU4WUp1ZDhMRHVFZDN4bGlWRHFMOHMtM2MyTnNsTkZHaU9fVWJMOGZzUkc1M3FzSHoxbEh0RnRjNTRlQTNaaFlUWnEwVlNQVExmZWJFeEpReG5fT2M1M0RvWTBPWUFaUWtMdEp5bFBrRFRrbXZGZkRIZ3N3OEhDVlZGbk1QbnRnX3hzMTMwVnRHT1dYeHFzMkV5NDQ5RHZEQVVab0Y3R0HSAd4BQVVfeXFMTjZQRDZHSU1wR3lpQnpjM1RycERaTW5mTW90YnhGdkpKTUh5M3RPUlh4Z1FzYkdxLXU3Z0NSeTI0bDIwZ1hyakxJUDViVUc4a0lpek8zQzBfM1Z0MzJjX0U2bHB1emZhU2xYSVdFNWpXVVhxT3RUb3lMb29Pa2MtUUhkRnVOclVRd2VPSGQ1Z01YUVZBci1nTlRGaDZ6NWswOVRJbDI0bDdBS3dzcGJSQkFpaHRqTHdCN1NPM1c3WW5wMjlpeVRoT29SbmlKOEpjeVk4RTNCRF9uY0Y0TVpn?oc=5",
+        "source": "LaRepublica.co",
+        "pubdate": "Thu, 23 Jul 2026 12:49:17 GMT",
+        "pubdate_iso": "2026-07-23T12:49:17+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "El Banco Central Europeo se dispone a mantener las tasas de interés sin cambios, Lagarde podría ofrecer pistas sobre una subida en septiembre",
+        "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOUU1oZENsNkFUclhVdTIxY3NvOTl6ejBzbDZrdklQWVA4dEJGbWF3TnNobnB1RHh5dVFVZ1Q4bDROaXFHNzEtcG9xNVFleVZFRFlvQkVubFpEbERud2hTc1ZaMFFpOV95bHZjMEtOcXJrOUdnTXFXZndDX29xMjB1LXFVb2I0WkJpeFoyY1VqRGV5dzZSOGlCUV9yU05TWGhmUndmZEtrVndRMmJLWExKX3F5ZzJQVzFaRExzbnZsQ1lvMEV3OTJaMjZyLTdUbWFuSlhKZXJ3RjJwNVd0RGRVemdaS01ZRk55d1QtOF9SRll6NGlaR0VsaEVwWnhncmtZbHfSAYcCQVVfeXFMTVFkY0lLemZBcUYwLW1Lc1NvX2h0YVQwR0Z0cmxDdVBSdy1tZlF6N2Rob0NQblJDYy1wMnduaFpVZk15U3FoYzRkaFBoaWQyRXlVWDYzWXppRnZNSU1RVEVZb2lSakgwM25RM2Q0OTRqZFB6dEVkYWRPamdZckNTZExZWDJiYks0Rk94R3lVcVNSbUR1NzBRV1kyczNJY2tVMUhEX1EzUVhhZnc5YlpmUjJodlI4YURoQlFqOU44anJ2S2tRTGxOaDNZeWg5cy1tVlhIQ3ZpcHhOMjZ3TnVGbVNzWUp1cGJkXzcwYVdCaDNPRmRWLVlqOVloek5ZSk9RMDVWaGxLQmM?oc=5",
+        "source": "FXStreet",
+        "pubdate": "Thu, 23 Jul 2026 10:00:33 GMT",
+        "pubdate_iso": "2026-07-23T10:00:33+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "El Euro avanza antes de la decisión de política monetaria del BCE",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNaGUxcEl5V1lGc1o0UnJ2REdzblFvb0lPLVVZc2xJeGJxWnc3OVdaZW1iVlZSRWN2alczM1hrZUJjX1FPdnVUcEt0V2ZXMzl1NTczYWVZelhxVUJmcnZpa2xsUy1vd2JFN0psWDJwd1laMk1vT2JqRldEMmI3QU1ZWmw1cFU5YS1UaUkxZ0xEeWlka2NwMU9uendLWWtRd2hTSFNlb0tkMNIBrAFBVV95cUxPZ2NuT2NXVE1teTlXVERpTzRfbUsyMHZtbkI0RVRqU3VJN0VRSVFTbk1VdWJIdXRJYUVHWWJtUm9QbjE4MlJUbTA0NVNBMzZrVy1PRHpINmZ6TjRsWEFpRlRzc09fU3BLUGxLZXkwcEpkeFZJd2NkTEJLeTVKMGNpd1BaMkFfVWhzWGhsYUVVVHZZQkl4Q3lna2RHV1lZekdidGpHbjJGaHJSeTg2?oc=5",
+        "source": "FXStreet",
+        "pubdate": "Thu, 23 Jul 2026 03:01:32 GMT",
+        "pubdate_iso": "2026-07-23T03:01:32+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Así subirían los intereses de los créditos y préstamos a partir de julio debido a nueva decisión que debe tomar el Banco de la República",
+        "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPYzVlNzZwVXFqZ2dJQVdCbGMyTUk1UDdPWktPN2JvSGxCSFFsajlBeDBwak9wZjFrWURNNFdnYWZiTmJiak8yZXVSVDhmR1RiVjhqQTZSSTVaaUV2UmI4U0xFLVowa1l3dk9lbGdwTkMyMWwtaFJNZ2liUC1GS0lqaUZzYVpGbjNacHUzeGlwclQxUWRjeWNSY1djd1dBWW5OMEJTWFhNY1Qyc0VKbnNXOXdiOXo1LXp2azRPOXZ2Z2ZWLTN3Q1J1SHB4MHY5S3pjOEY4azJFcEY5cnhaUU80T2U2MDFaeHpXZmc2Xy1PLVdSYUtvaG9Jdng2dFMzVElOMXVydHNCTzI2SGZHZmfSAagCQVVfeXFMUE43UC04S2pYdjlaemVJenNnbW50OW5RMk12NVFYZmdXeUl1ZHBScGFJUUdaSTJ4aEJVbFV3dlU1UG1MZXY3WGFPbVNpWjhoTC05WHhBUmQwWm1pbDFvZ0kyMjNGVGQ2SkRXUFRRWlUyT1dzaWlKc0YyMGNhZG13SEhKbW5IVmdmcmMwUEw1UUxvNl96Nmd6bXhBd29SLW1vaTJwSmNaekdsQzVjcHg5R2poQkRUOVpyQVhqSVZlb3pzM21hajZCTFdOWnZXYmZvS3lZa2ZmRmhUSXdXU3FfdEJ1UFdnRU0yR25rNjhhOTZKOWlJLXp4ZEUtQzZuLWxXVjBBSWg5WkVuSTR6bFd6eDY4SkRDQjRPdHBleTNPaEtLTFNPdFkyUzg?oc=5",
+        "source": "Infobae",
+        "pubdate": "Wed, 22 Jul 2026 02:13:00 GMT",
+        "pubdate_iso": "2026-07-22T02:13:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "ipsa": [
+      {
+        "title": "SP IPSA: La Bolsa de Santiago este jueves cerró a la baja con variación 0,87%",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPM2ktbUZSUVJxM01ORElRMFhKblpxZUg0QWVwX1psU3ZrYjNjWVp5dm9yWGdKZjJWZjFRUGxreUpIUzNQVTZCUlNyeFZlTjB6bFRvcHlLdVhSV0RrR3dxMkJ5WHBvVVVMTkIzM21HcWVMZmM3REdtSEdCZVhNcGJFZE5tNUVjc3pZRnZPV1Z5dUpmRkhMWVNyWUstN0RyQ3RlajJGaUhtMFM0QVRYUjNLVThUb2R1UQ?oc=5",
+        "source": "diarioestrategia.cl",
+        "pubdate": "Thu, 23 Jul 2026 21:55:38 GMT",
+        "pubdate_iso": "2026-07-23T21:55:38+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Los dividendos mundiales aumentan un 10,1%: el ranking de las empresas con mejores rendimientos",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSmZiLXBKeEg3RF90S1lkRzl1WXFXbGFaNUVrdVpuNVFQMndtZ182aE1HSGpsb1hhMkJhMlREd1ZmRUx4NUx2UnlMd19zc0FHeWxRY3V5eEx5enVEYVhtdHFtWnNTSHl6T0swdVhFQWZ5MWNmbEU2R0syVnY0SG1mdzNWY0V6bE1FcVl0SjFDZnVOTTZCc1RxeFhBUVQ1c0t4UWFTZkVaYkFjTTRTUGI4YXlGNk1ON0dn?oc=5",
+        "source": "economis.com.ar",
+        "pubdate": "Tue, 21 Jul 2026 20:35:03 GMT",
+        "pubdate_iso": "2026-07-21T20:35:03+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "dolar_cobre": [
+      {
+        "title": "Dólar hoy en Chile: cotización de cierre del 23 de julio",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUHBKQWJVRWtrWmV4Vnowa0RuVUVqeWhDWkRkSWdpRnpjbkgxSmZ0YXpmZnNfeVVsOEU2SzBTcjg5V2I5YWlqSnJJdlkxR3l0TkxyV3lmcW8wUTFvTXJrZWFPV2NQLUFkT0FEODN4a1k1M3JqOEVYd3dUYnY1bE96cEFTTnFac3k2ODNSQUVpNDB5blk0bDhjNlhOZVBKT0hHQUHSAbwBQVVfeXFMT1NPakhSRDBNY3ZwSEdoQ0Z1VjJpMWhTV2F1ek90ZVB2YWh5QnpQcVZHeG42cUdfS2k1UXAzQUxvNEJUVjFUaDU5Y1ZWNXpIM2Y1c3dLTGV0QXZhdEt2Vm00LWdBci1LRndFb2dzVE1VZGswaVdZd0VIZDRPTC1JMTNQRnI0NTZUckc3TV9Nd2tiS0JSdXJvd3pLYzRiSFlpWlM3bERXNXAyOTFzR3hLb2p1bDdHVjNCemMxWVU?oc=5",
+        "source": "Infobae",
+        "pubdate": "Thu, 23 Jul 2026 18:35:37 GMT",
+        "pubdate_iso": "2026-07-23T18:35:37+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Dólar en Chile sube con fuerza y supera los $946 por caída del cobre y tensión internacional",
+        "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPUXk1anEzZnJXaWhhOXZ5UlpUOW5DRU5rQTBWaUZqZHhuUkZ3RVgzT2hOZDJCM0RCUjQyQWc4dnZQRHN3M2tKRkcwajFDMzFOMEdZTDZQajdscGFJbzZKZnM3ZTZDOTV0OVdJLVo5WWV0VWU0clVtMmE3U3B6bThlSnNqUmFJOGVrUmpNd1pLLXVJenFVME50dm8yU3hKcmFaMTFUaUdCSWo1eUNEUmRXekFPTTJNYXNDQ1c3N1c4ZzBNQU9nZDcwSUJfSE9mbFdtRW02Z0pEVFlIMktnb0hzNV9mZmM0Zw?oc=5",
+        "source": "Radio Agricultura",
+        "pubdate": "Thu, 23 Jul 2026 17:35:19 GMT",
+        "pubdate_iso": "2026-07-23T17:35:19+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Dólar en Chile abre con fuerte alza por caída del cobre y mayor demanda global por dólares",
+        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOY3A1NGlTc1U2V0l1MTF0Nlh6aEx3dEczMld3RjFiSHhiaTYzQVhEZzU2a292bF8zOFN1V1BDS3FrbF80SUpKcnZrcUUzczR1S1hlVU84Z3o4djZNWWRfamM2VkVfZDVBWVA0OC1YdlJlOEtfZ2NNSnB0dHBod1FGa0wyRi1wUTg4OWFQSVI0dUVQbEhJdzFJSEhtNXBsa2lIbDFTLXVDWGIyV21BS2NGdTNhSG9ObXYyN0Vod0J2X2FMT3hpNm9iMw?oc=5",
+        "source": "elobservatodo.cl",
+        "pubdate": "Thu, 23 Jul 2026 17:24:14 GMT",
+        "pubdate_iso": "2026-07-23T17:24:14+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Precio del Dólar en Chile hoy: El Peso chileno se desploma a mínimos de casi ocho meses",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZmk0MUtyS0JBOFdsZ2xoN05lMXFMeGd6cV9jRUZuSi15Q2JJQWI5RFpsUmdxcF9uMlQ2NjJ3UFNpMEhyUTh4RkJfVTdpZjBkYVpMbHUzeUFTS29pZ21EbGtDSnJRbUEwTkRnaEZ1REVOdVdSdTBSUDdmcXZRTWNpbmRDQi1QUVZjMVFpNXhfMTNKalFyRVBqRlJfdE5JbWJQSThXWDB6WHE0MzlsRHJqbGJlWVc0X2dldHZFVi01aU1RNU40S3Aw0gHMAUFVX3lxTE13djg1SXJ3N1lmc0JabVdWYVI5cGdCcjN2Q1U4RllwUENYNk94RzdsVlg4Z3ZqeFNSdjZSdXRvS21Cd2VSTEY4M2VVMDdhZmRqSWk3cEZlaDdyNW5JU3M1QUM5WUo4Q25iemlmZ0s0ZUlkRnh4VnJTUEVNY2V4Qkt3dlIyZ2xvWk55c3JPbFlCTEpCQVltT3NheG9lZjZTeTBSTnFKclRLNWF4Z203aEJRNzdvT0pqWWJlY00tVWNIVXZHbDQ1OVhGTG9RRw?oc=5",
+        "source": "FXStreet",
+        "pubdate": "Thu, 23 Jul 2026 14:51:05 GMT",
+        "pubdate_iso": "2026-07-23T14:51:05+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Dólar hoy en Chile: cotización de cierre del 22 de julio",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQjlhcHdydWEyeDFfVnNfTUVBS21IWTR5eXlyalUxT3NOZUhaYUQwNmZLSVoyOEZpZGlrMDNsUlVDZlphU2RLcVBZdUZfQWJzN0lsTW1Td1pTZXRaQjN0SjhvT05nZXV3ckt2NGJNbjhfMWsxSVVXYUVRemNSUE5TMGNtcFZxc1NYSDdnNnd2azJPblpiUzdBVGFRY1o0MFk0dWfSAbwBQVVfeXFMTldVdDFDQU11cFRkQ1YwcVJPYnNyQVp0dG1hekpVOHJ3VWF0WFVmUDA1aUtVVTFmZm1RZl9JbUxKNDlPMmEyZjUwcjFxRXBxT04xaHRJYmJrY280X1ZXNXFQa2c2bDg4aXJpM1V1U1RwRlRqaXMyTHFiWXlHOXhRbFQ0aEpaX3lRV0NjRW5Hdmlwb0JxYUpCSVJ0UzhjeGFfUGoxbFFPN0dXaEd3Wkg2V2NxSko5NUNUNFdFdmI?oc=5",
+        "source": "Infobae",
+        "pubdate": "Wed, 22 Jul 2026 19:15:00 GMT",
+        "pubdate_iso": "2026-07-22T19:15:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "economia_chile": [
+      {
+        "title": "El temporal le pasa factura a la economía chilena: estiman pérdidas por US$400 millones y advierten impacto en el crecimiento",
+        "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNZXc1dlNZQVo4N202T0dlaDZ2Yy1CcjFXTDV3dnFVazFJNDdmS085QTlUVXA5eHYzYzVTbnlOZC1lUzBUd2ZIdGdrRHk5cnhQNDFXNk1KcllTSWc4V2xCOUl4Y2kyMks2ZVdxZHk4T1BnTXNVWHNocnoxWkk5dVVqN2o1QVpiX1gzWEFQSl9pWEY3LWlGN2VWdl9BSC1FTXY2SHcxNFhuWjRJV2hES2FGWmt6TGFaaFhVUnUtc3d6NkcteUg1NGNpRU9XZm9xT0lTd0Y0RWZLRlJGdDR5ZUc3TTVSV3VCeEgtMWtnbGFBbzV1NXhSR2pIdVd1eDJSbGVVeUVv?oc=5",
+        "source": "Tiempo de San Juan",
+        "pubdate": "Wed, 22 Jul 2026 14:03:00 GMT",
+        "pubdate_iso": "2026-07-22T14:03:00+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Perdidas reportadas"
+        }
+      },
+      {
+        "title": "Congreso chileno aprueba reforma económica impulsada por José Antonio Kast",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdjFhdDE5WkNvN0hnRFRLeFFxVjVpWHJUbGNrTVlFM19WMjlJd0pOSnBuUF9rMUlaRlpQTllKdXJfcXVZaGprOHdCVXJZYms5WmRyTUJSN0hyMzNvTWthNlRHNTI1cWVUMHRTbTJibkFwTS0xc2lzMjNNY1JuV2pfTFBXcVptcHpGQjlTN3NMT3I5YTl0TURuc1lMV0J0ZkNYbkZESWhPSXpPMWZValE4?oc=5",
+        "source": "El Nacional",
+        "pubdate": "Wed, 22 Jul 2026 01:05:32 GMT",
+        "pubdate_iso": "2026-07-22T01:05:32+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Biministro Mas por megarreforma: \"Felicito a los que estuvieron del lado del crecimiento económico\"",
+        "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOanBEcEY4SXh1XzJtZUd5YTJKXy1nNFg3dHE2ZW9sa2pfd3g3eUxNTWVpV2NmVzZxTUh3bHhLLW9obC14em5YcWZQTUdISG1QMlk2SlUxaWtfdmZyOW1XYURDWWFXRVRVbEJOc2t3RHc4X21lODk3QjVHUDV3Z0hCU21xcEhxWXk4V0t5RHVybmJxVjd3eHJCNzluTUFLSFBPM2RQQl92Nlp0Q0NrZVVpSmF5MlFZNGQ4UURIMWt6dkRNdmhYNE5sYThBSkxoTU1XdHItbG5JS1FtZWlWN3BRRWxKNU9rX3RUcUFvWjBZQXk2N1JvYWhRQVU1a3lrUmRUS2xUTDAwMnAtSUU?oc=5",
+        "source": "BioBioChile",
+        "pubdate": "Tue, 21 Jul 2026 22:46:39 GMT",
+        "pubdate_iso": "2026-07-21T22:46:39+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 1,
+          "intensidad_label": "leve",
+          "emoji": "🟢",
+          "razonamiento": "Crecimiento: soporte macro"
+        }
+      }
+    ],
+    "politica_regulacion": [
+      {
+        "title": "Por amplia mayoría, el Congreso despacha a Ley proyecto “Ordenemos la Cuenta”",
+        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNTzVQRXo0Smg0T3g4dl8xSk5UYTd1T2x6Ujg5a0thYWxmNElUR3RQM3hEcTF3LW5EWnRHaGFLYnlZTUp0OWp6ZVNvdldHTmJmUUlCbXpZYjF2SllFVjl3bzJVT3owQW9hQTJFZGVjb0dHdW1vZXRlMHZKV3o2aTcyNFB6SkdJWTFqQTA1RXBuQTFEY3R3Y0lIS3JtR2RhbnltTVpUU0oyNVZ4REtW?oc=5",
+        "source": "G5noticias",
+        "pubdate": "Thu, 23 Jul 2026 19:06:07 GMT",
+        "pubdate_iso": "2026-07-23T19:06:07+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Protección tarifaria eléctrica queda lista para convertirse en ley tras aprobación del Congreso chileno",
+        "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPR3c2ZmFZT2RlSzNVWVdjQnVkem5VYkd0SW03T0syRzZwM3JPeW15UUN1bklya2hJdjBGcFRGX0lJQ1dSdmtLMTlpeHZnUWVrTkVENDN3RUthYlNGR0hsWTdFSEZsMTYyallFcXVjazRxcFZBMi1ncElFQm9xWFpmZ2t5bkhIUk9SX1FELUNhV2VRaTcyTjZDb00xaWJ6SmFmNFNleldxVmdDRjRWNHVxQlk0OVI2VURZYVVPMl9aM2ZYU0U4WTY2Ql9DUzNGNG16VEhBTGxYcGkwZFlCRDdIb1JOSQ?oc=5",
+        "source": "prime.tirant.com",
+        "pubdate": "Thu, 23 Jul 2026 16:07:46 GMT",
+        "pubdate_iso": "2026-07-23T16:07:46+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Dauno Tótoro: \"La megarreforma viene a beneficiar a los dueños de Chile\"",
+        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTzJqSl9iSVZrdGZRcnlaY1JsRC1TQmlsWDdMSFFIVjV0M0hhMkVUY3FwWk5ScDVUVUgwaGt5aUUtTEd3clNGNWRrRThrNnFUQ3Q4UFFfdTdPb0J5c2hqYXdlcm9MNkdwam1CM2pJalI0alZKZmdsak10anVJYjhQb3FremEtbWZpMDJuN2RwSVA2OUdaR29yUFgyYXlIY0hXRUF5cdIBrAFBVV95cUxNbWNxT1VFOU5QLWhSMEhvQjJvVWFhVGh0Szg4ZFhGVkRiV1lMZnc5SllkSUgzT0phdjNrSXhURWdKbktOS09rTmVRc1pDcGxmekRzeHdtQU9yZUMyUkcyV0N1MkllMzNRN3BxU3VZRkMwWU9tMXctTVVuZzFLTVdfX01ETHhXWDBuR2wxcUFzREdHQ3ZvcHFhVmh4Y2V1TldZSmJnWnZxaFVoQTE0?oc=5",
+        "source": "La Izquierda Diario Chile",
+        "pubdate": "Thu, 23 Jul 2026 10:51:52 GMT",
+        "pubdate_iso": "2026-07-23T10:51:52+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "La soledad del poder",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE50WW1nRUg5TklTamRsaDN4eUlWMGFnYUZwS040WGZBc0JrWnhXR0NuTHd5dk5KX0pZUTBsQXhWZGwtQkRqVE9nVjZXZ1JlSXczZVZIbTNSWFo5eG5yQVZhQ0RSMjJCNlNjLUlCUVJn0gGCAUFVX3lxTE1Razhnc200VG1DZjBmT2ltbjVmQUpjbko5cnd6d2JmVTU3V19mcGFuVUlFZDNTQ0xEdTV3Sm9XV0M5cW1YaDBsVThtWlQ4UEhfdkdPU2wwNDFfM2tiWDZwMGZkWE1tZTBGNnFvcVdEdWxxVGg2dkJETm5XT2t3MzNONUE?oc=5",
+        "source": "EL PAÍS",
+        "pubdate": "Thu, 23 Jul 2026 04:00:00 GMT",
+        "pubdate_iso": "2026-07-23T04:00:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Chile le baja los impuestos a las empresas",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMFBNb0lEcnF4Q3lHUEc0NG1Wb2NIVmE5X096OGlydzdnZ2JDOXZ5TTIxUUUzMnRNaTNIREJyXzgxLTVLM1Z4SWQwaXRjeXlka1dzZk40alBLek56N1BDTTZFU3ZlenM4RjBjbFdhNWFib3VGdllQYXBuaXRNSnByQ0t1R2w?oc=5",
+        "source": "Il Globo",
+        "pubdate": "Wed, 22 Jul 2026 22:01:54 GMT",
+        "pubdate_iso": "2026-07-22T22:01:54+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
     "pensiones_afp": [],
-    "energia_tarifas": [],
-    "sectores_watchlist": []
+    "energia_tarifas": [
+      {
+        "title": "Nieve acumulada supera con creces el promedio histórico y proyecta mejor escenario para riego y generación en el verano",
+        "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPa1N2Sk5OcEM1RWxDc2lOZ2pNUXZ0aEo5bkczLWE0TEtVV1RVaDJhbXR3Z0FoY1JKMUlYZ0dqU0kwUFZlY1lUYVZuTkpnejYyTTl4OGZXVTI1NlpoVmRiVEZtSzBicmF5WjdDYkNvQnhnRHdOSXlrOUJQNFN3UmRrSGFxRHoxcG90cEozcUN2VUFGMXBQVDBzSGRULVVESzNpenV5QmZvT0RRTzhieFpqQ2kzaVVGOThZWVhVLTVHZmNTMGN1ejJHRmk1eTczZ281NW1ycTA3dllzTjA3TTF1ZFdWQVZMa2hFdXNvdWdXQnNYd9IBkwJBVV95cUxQeURMc0ZPX1ZwWmE4OUh2bnEwWGI0THV3d29sUkxMUUExZ3VGX2Z4R0JRT3YzLU1oakNFcWNJdk9MTVJuUzhCVVVHZFZSenZIRkY1MmhUYkFEZkhzNTNIcjFFS3B1S25QN0hMODFSYUlESHlHZ01fX0dyVENZdk5VbmtFeGtIVXZTdE0wTml1Wl80dDZHVDFENmRMd1E5NTFXQVM2OFVfa1hhTEFaMGtJZVZ5RW9CdW9qRHlQNUZnelc0cmRMN3Z3UkxaYnh2N2QxZlY2TU1GcDFFOE85OHFkZkx3blhYUG5XXzJsdDNKUkNUVDR3ZV8xOHZNemlPZ0ZoUU80MmZMeTVqR19IR2RtXzFxcw?oc=5",
+        "source": "La Tercera",
+        "pubdate": "Wed, 22 Jul 2026 16:34:17 GMT",
+        "pubdate_iso": "2026-07-22T16:34:17+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Las proyecciones del Instituto Internacional de Investigación para el Clima y la Sociedad advierten un escenario de altas temperaturas y reducción de lluvias, con posibles impactos sobre los embalses, la agricultura, la generación hidroeléctrica y el abasteci",
+        "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPaXA2SDNsclZMY0s1MDJPUk40bFFYbmk4bXlkZVBoeUREc255ejZNcDI1SzM5QVg4R0U2UWNGM0toZTBvZVRmR2ttVU9HQUxFWmd5Z1NMdC1JaUVzbnBuMDJDVEpCU0pLemE3VElENG8ydUtsX1dBM21wcXZ1YXVaYlh2MVdvcW1rdmxxSG9XdWQzTXUzeHRoXzZqRHZXeXFlRmVyM1dCMjhqaDNPZTJCZm1EZEo4Vi00YnU3YlluUnVyYWtvSy1Vd19ldjVfOE4zX2NYN0prVktmb1kteWFRTnQ4WVE?oc=5",
+        "source": "facebook.com",
+        "pubdate": "Tue, 21 Jul 2026 23:40:51 GMT",
+        "pubdate_iso": "2026-07-21T23:40:51+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "sectores_watchlist": [
+      {
+        "title": "Gráfico y cotización de ZOFRI0: BCS:ZOFRI0",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE15NnRGVll2U0wwT0cwQi0yeDNmNDRQb1plYTlaZUVMTnNmTExjd1VRS3d3Z2N4b3NwaksyR2pOTXFZNWpxYnljSzc4dkFiN0RGbkduc3FyZjVhQQ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Tue, 21 Jul 2026 14:24:21 GMT",
+        "pubdate_iso": "2026-07-21T14:24:21+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ]
   },
   "hechos_esenciales_por_ticker": {},
   "stats": {
-    "total_noticias": 0,
+    "total_noticias": 23,
     "por_categoria": {
-      "bcch_tpm": 0,
-      "ipsa": 0,
-      "dolar_cobre": 0,
-      "economia_chile": 0,
-      "politica_regulacion": 0,
+      "bcch_tpm": 5,
+      "ipsa": 2,
+      "dolar_cobre": 5,
+      "economia_chile": 3,
+      "politica_regulacion": 5,
       "pensiones_afp": 0,
-      "energia_tarifas": 0,
-      "sectores_watchlist": 0
+      "energia_tarifas": 2,
+      "sectores_watchlist": 1
     },
     "hechos_esenciales": 0
   },
   "resumen_ejecutivo": {
     "sentimiento": "neutral",
-    "score_neto": 0,
-    "n_positivas": 0,
-    "n_negativas": 0,
-    "n_neutrales": 0,
-    "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
+    "score_neto": -1,
+    "n_positivas": 1,
+    "n_negativas": 1,
+    "n_neutrales": 21,
+    "narrativa": "El feed muestra 1 senales positivas y 1 negativas (neto -1). Factores dominantes: Perdidas reportadas; Crecimiento: soporte macro.",
     "narrativa_fuente": "plantilla",
     "veredicto": "NEUTRAL - sin sesgo dominante"
   }
