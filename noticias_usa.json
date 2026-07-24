@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-24T10:33:25.419894+00:00",
+  "updated_at_utc": "2026-07-24T11:33:24.920747+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -36,6 +36,20 @@
         }
       },
       {
+        "title": "Acciones de Tesla se desplomaron un 14,5% al ​​caer el beneficio operativo un 57%",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTnBWTkZ1Nl9CbDBMOUE0RVplZjF5cDQ0ZjBkZVV1NFVIcks0QWlLSWhXZEhDYl9JU3l4X21MbDI3b3gxaDRXMXZ4LW8zRHRVNHBNcDFKV1hDTWlmMnFQM1Z6MmtaaXlFUnAwajNNdDB4WnpmRElXUTVmUUtaY3FnQnZtcnR1WmxINkdKYkhaSmhYQl9wU05OQnVwbjh4RnBUdlE?oc=5",
+        "source": "EBC Financial Group",
+        "pubdate": "Fri, 24 Jul 2026 03:48:00 GMT",
+        "pubdate_iso": "2026-07-24T03:48:00+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Desplome: muy negativo"
+        }
+      },
+      {
         "title": "Tesla (TSLA) Stock Trades Down, Here Is Why",
         "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZnFPS2dnSVNIOW8xanlwMW5uSHhNYlBtbU5XYzczRUNGQnczbzZFa2Q4RnpKbEY1bzZ5VGdvN1BSdGs2dmExRUkxX1RiRWFCMjBkdXpzVVZCNmN1MHV2djVtXzZfOXhCdWRMYzZ6dlZVZUlPanRENUxnRGRpcWg0TDJkR0NlZ3F2S2E0S3lfQnFyTDVOVDNLaEJJWko5VDUtSlE?oc=5",
         "source": "TradingView",
@@ -69,20 +83,6 @@
         "source": "Somos Eléctricos",
         "pubdate": "Thu, 23 Jul 2026 07:55:25 GMT",
         "pubdate_iso": "2026-07-23T07:55:25+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "TSLA: Tesla Stock Dumps as Earnings Show 20% Slide, Revenue Tops Estimates",
-        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPUkF5a0hGS0l0NnY0cmVHaVd4VVVKUTdybDhkMjdYdnBZbTNaZWtrcEpHaC1hcmppeEpxUVlfd3BDbXY5V2huX3h0QURsN3pqNmZZbnI5bmxnVE5yRFpBYlUybmZnQUR4WFY3b2hRZ1hEQ2pHcHFSMExqNGxaQ3FtNVN3SE1BdFhqUFRJOTFTWWVZSHNTSmRCcGZ0V2c5NVFuQlRNZTIxR2Y0cFZ2ZUxLVjZzdmo1SFQyZVlRbjFCbkp4a3hnUXVYbV9hRzg?oc=5",
-        "source": "TradingView",
-        "pubdate": "Thu, 23 Jul 2026 07:07:01 GMT",
-        "pubdate_iso": "2026-07-23T07:07:01+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -320,11 +320,11 @@
   },
   "resumen_ejecutivo": {
     "sentimiento": "bajista",
-    "score_neto": -4,
+    "score_neto": -6,
     "n_positivas": 0,
-    "n_negativas": 2,
-    "n_neutrales": 18,
-    "narrativa": "El feed muestra 0 senales positivas y 2 negativas (neto -4). Factores dominantes: Acciones a la baja; Acciones a la baja.",
+    "n_negativas": 3,
+    "n_neutrales": 17,
+    "narrativa": "El feed muestra 0 senales positivas y 3 negativas (neto -6). Factores dominantes: Desplome: muy negativo; Acciones a la baja.",
     "narrativa_fuente": "plantilla",
     "veredicto": "BAJISTA a corto plazo"
   }
