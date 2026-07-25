@@ -54,6 +54,12 @@ log = logging.getLogger("acciones-chilenas")
 REPO_PATH = Path(r"C:\value-signal-local\repo")
 JSON_PATH = REPO_PATH / "acciones_chilenas.json"
 FLUJOS_PATH = REPO_PATH / "flujos_historicos.json"
+ACCIONES_EMITIDAS_PATH = REPO_PATH / "acciones_emitidas.json"
+try:
+    with open(ACCIONES_EMITIDAS_PATH, encoding="utf-8") as _f:
+        _ACCIONES_EMITIDAS = json.load(_f)
+except Exception:
+    _ACCIONES_EMITIDAS = {}
 try:
     with open(FLUJOS_PATH, encoding="utf-8") as _f:
         _FLUJOS_CACHE = json.load(_f)
@@ -413,6 +419,14 @@ async def analizar_ticker(ticker_config, bcs_client):
 
     # Flujos historicos (detector La Polar): cache CMF de cierres anuales
     resultado["flujos_5y"] = _FLUJOS_CACHE.get(ticker, [])
+    # BPA 5 anos: utilidad anual CMF (miles CLP normalizados) / n acciones
+    _ae = _ACCIONES_EMITIDAS.get(ticker) or {}
+    _n_acc = _ae.get("n_acciones") if _ae.get("valida") else None
+    resultado["n_acciones"] = _n_acc
+    resultado["bpa_5y"] = ([
+        {"ano": _r["ano"], "bpa": round(_r["utilidad"] * 1000.0 / _n_acc, 2)}
+        for _r in resultado["flujos_5y"] if _r.get("utilidad") is not None
+    ] if _n_acc else [])
     # 2. Obtener datos CMF (indicadores)
     try:
         cmf_ef = obtener_estados_financieros(ticker)

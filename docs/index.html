@@ -2261,6 +2261,49 @@ window.__drawPC=function(id,anios){
   }catch(e){ console.warn("__drawPC",e); }
 };
 
+/* ---------- BPA 5 anos: utilidad por accion (CMF) ---------- */
+function bpaChart(a){
+  try{
+    const regs=(a.bpa_5y||[]).filter(r=>r&&r.bpa!=null);
+    if(regs.length<2) return "";
+    const anos=regs.map(r=>r.ano), V=regs.map(r=>r.bpa);
+    const W=520,H=150,padL=14,padR=14,padT=18,padB=24;
+    const mn=Math.min(0,...V), mx=Math.max(0,...V);
+    const Y=v=>padT+(H-padT-padB)*(1-(v-mn)/((mx-mn)||1));
+    const bw=(W-padL-padR)/regs.length*0.55;
+    const XC=i=>padL+(W-padL-padR)*((i+0.5)/regs.length);
+    const y0=Y(0);
+    const barras=V.map((v,i)=>{
+      const y=Y(v), alto=Math.abs(y0-y)||1;
+      const col=v>=0?"#5eead4":"#f87171";
+      return `<rect x="${(XC(i)-bw/2).toFixed(1)}" y="${Math.min(y,y0).toFixed(1)}" width="${bw.toFixed(1)}" height="${alto.toFixed(1)}" fill="${col}" opacity="0.85" rx="2"/>
+        <text x="${XC(i).toFixed(1)}" y="${(Math.min(y,y0)-4).toFixed(1)}" font-size="9" fill="#c7d3e4" text-anchor="middle">$${v.toLocaleString("es-CL")}</text>`;
+    }).join("");
+    const xl=anos.map((an,i)=>`<text x="${XC(i).toFixed(1)}" y="${H-6}" font-size="10" fill="#7c8aa0" text-anchor="middle">${an}</text>`).join("");
+    /* veredicto: creciente si sube del primero al ultimo y la mayoria de pasos son al alza */
+    let subidas=0;
+    for(let i=1;i<V.length;i++){ if(V[i]>=V[i-1]*0.98) subidas++; }
+    const total=V.length-1;
+    let cls,ver;
+    if(V[V.length-1]>V[0]*1.05 && subidas>=Math.ceil(total*0.6)){
+      cls="ok"; ver=`\u2705 <b>BPA creciente</b>: la utilidad por acci\u00f3n sube en la ventana \u2014 sello de empresa excelente seg\u00fan tu metodolog\u00eda.`;
+    } else if(V[V.length-1]<V[0]*0.85){
+      cls="bad"; ver=`\ud83d\udea9 <b>BPA decreciente</b>: la utilidad por acci\u00f3n cae \u2014 revisar la causa (m\u00e1rgenes, ciclo, dilluci\u00f3n) antes de aportar.`;
+    } else {
+      cls="mid"; ver=`\u2796 <b>BPA estable</b>: sin tendencia clara en la ventana.`;
+    }
+    return `<div style="margin-top:14px">
+      <h4 style="margin:0 0 6px">\ud83d\udcca BPA \u00b7 utilidad por acci\u00f3n (5 a\u00f1os)</h4>
+      <svg viewBox="0 0 ${W} ${H}" style="width:100%;max-width:560px;display:block">
+        <line x1="${padL}" y1="${y0.toFixed(1)}" x2="${W-padR}" y2="${y0.toFixed(1)}" stroke="#3a4556" stroke-dasharray="4 4"/>
+        ${barras}${xl}
+      </svg>
+      ${evRow(cls,"Tendencia del BPA",ver)}
+      <div class="hint">BPA = utilidad neta anual (CMF, normalizada a CLP) \u00f7 ${(a.n_acciones||0).toLocaleString("es-CL")} acciones. N\u00famero de acciones actual: asume sin variaciones de capital en la ventana \u2014 si hubo aumentos, los BPA antiguos var\u00edan.</div>
+    </div>`;
+  }catch(e){ console.warn("bpaChart",e); return ""; }
+}
+
 function evalChilePanel(a){
   try{
     const sal=evalSaludChile(a), val=evalValorChile(a);
@@ -2272,6 +2315,7 @@ function evalChilePanel(a){
         <div class="ev-col"><h4>Valoración</h4>${val.rows.map(r=>evRow(...r)).join("")}${evConcl(val.concl[0],val.concl[1])}</div>
       </div>
       ${fcfChart(a)}
+      ${bpaChart(a)}
       <div class="ev-note">${sal.note} Valoración por múltiplos y dividendo — sin flujo de caja descontado (muy sensible a supuestos para el inversionista minoritario).</div>
     </div>`;
   }catch(e){ console.warn("evalChilePanel",e); return ""; }
