@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-25T15:26:56.898939+00:00",
+  "updated_at_utc": "2026-07-25T17:26:56.107695+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "fed_tasas": {
@@ -246,6 +246,20 @@
     ],
     "economia": [
       {
+        "title": "British Pound: BoE Holds Rates Steady as Energy Risks Resurface, Rabobank Warns",
+        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOems3aktVX0paMjFDRFNjVG55akZZQkNrTHdOOTFTbGxqSDlJTVcxSlNDbTBDTE0tdUZKMjFGOXE5cms2Rm1paldKTWNSR1ZJZkJpUklKdDFZMzlWWVR1aGFwV3hRVGl2Sm9LU2lpM21fNFVBQjdYZVRlN250YWpXTzhGSmRqU2VQeGlSbF8ySQ?oc=5",
+        "source": "CryptoRank",
+        "pubdate": "Fri, 24 Jul 2026 07:00:00 GMT",
+        "pubdate_iso": "2026-07-24T07:00:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
         "title": "Australian Dollar Holds Above 0.7000 After Resilient Labor Data",
         "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPcU00blkzVzJIQkdYTHl4V3Z3Z2tJZW9RY2d4a2NhZzZfaUZuX2pkTVVwN1JWMm16Ny1BYnQwaUlueGJURUhkTkYxdHlseUxzWk1nOWNwNVdIMHFDazdsYVVfak5TeDVJcXZLdG83WEgxSTVHSU1zQnhHVG53TzdYRUVWNG92T2hHRl80amdmNlk3MEZDV2k2VVFXdHZiSzVpazI0Q05n?oc=5",
         "source": "CryptoRank",
@@ -265,20 +279,6 @@
         "source": "Reuters",
         "pubdate": "Thu, 23 Jul 2026 02:49:18 GMT",
         "pubdate_iso": "2026-07-23T02:49:18+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Previsión del IPC en EE. UU. para 2026 y 2027 (actualizado)",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBFSzZDQWZtVkdQUlE5N2NQMWR0OU5YRVBYNkNGZ1JyaENweW9kc0JQaE0tTEc2S19WaTBUMDQ5UjFSeFdpRmRDYmEtNWFabngzRTF4OHdfVkdCaXFmc2JoSWhPU3dZbzFhQXc?oc=5",
-        "source": "Bankinter",
-        "pubdate": "Wed, 22 Jul 2026 16:35:17 GMT",
-        "pubdate_iso": "2026-07-22T16:35:17+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -402,32 +402,18 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
-      },
-      {
-        "title": "Dürr Aktiengesellschaft: Improvement of efficiency at BBS Automation, preliminary figures Q2 2026",
-        "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQT2Ftby16YVlhaGljakFlSkZUQzUtY2pUVVJkZy03R2RZc2lRNlJKMXpSbUt1TmNBUkZDeGZSTzNlNlZvbk50RGVDekgtMzNPcncxT3lYRDRBMVVtVW90R256a214a3YyTzJIeDdKNlhKSmF5UXRnc0hmNlhraTYtblIzRzJWTTVPVnlpTUtTOXNPMXlHeEZRZmpkTUNMM2pDVVdqWk1BcDhKVVlFSWV2UHlSM29JaFhSa0t0U0hJbmI5T3VNakFOVUNta0p2OS1DdVhHRnUzTFdpSmp1TGVtV2NR?oc=5",
-        "source": "TradingView",
-        "pubdate": "Wed, 22 Jul 2026 16:28:44 GMT",
-        "pubdate_iso": "2026-07-22T16:28:44+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
       }
     ]
   },
   "stats": {
-    "total_noticias": 27,
+    "total_noticias": 26,
     "por_categoria": {
       "fed_tasas": 5,
       "mercado": 5,
       "tech_nasdaq": 5,
       "economia": 3,
       "earnings": 5,
-      "sentimiento": 4
+      "sentimiento": 3
     }
   },
   "resumen_ejecutivo": {
@@ -435,7 +421,7 @@
     "score_neto": 4,
     "n_positivas": 3,
     "n_negativas": 1,
-    "n_neutrales": 23,
+    "n_neutrales": 22,
     "narrativa": "El feed muestra 3 senales positivas y 1 negativas (neto +4). Factores dominantes: Earnings fuertes: soporte fundamental; Acciones a la baja.",
     "narrativa_fuente": "plantilla",
     "veredicto": "ALCISTA a corto plazo"
