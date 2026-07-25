@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-25T06:39:33.919822+00:00",
+  "updated_at_utc": "2026-07-25T08:39:35.368617+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "precio": {
@@ -102,6 +102,20 @@
     ],
     "etf_flows": [
       {
+        "title": "Bitcoin declines below $65,000 as Trump threatens Iran after tanker attacks send Oil above $100",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxONlFhWVhEWFI5dGNIZFVJWkhUd1Q0Z3dGWWlTTk1CVzQ1S01tUlJUWG8zTW1QcWJoM1cxd0JBa3J3T0tCRTg3SlhRWHhqa0Q2bmFVOGhjb0xkMWdwZzRFV1o1TXp0cGE1WXFBby1MX2R4RnRTbXh5QlR4Zm5rWjVhbU5oU005elZJTXFKYkFHa2loSmpvX0JqRGNucEVRZ0xGd2doUmdlTXA2eGsxOHFUMkhmU1R3RUpBNTlidk1mZU5UUnFyU21mZEpJTUNSdw?oc=5",
+        "source": "CryptoRank",
+        "pubdate": "Fri, 24 Jul 2026 19:10:37 GMT",
+        "pubdate_iso": "2026-07-24T19:10:37+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
         "title": "ETF de Bitcoin registran salidas por 225 millones y rompen racha de siete días, con IBIT como protagonista",
         "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNaTRWSEQySl9kY1FRc1dIV3dYNGJYeG5sWXNvbVpld0t4aUQySk8wNHQ5cTJjOGpwMXJnb1h2bVFNU2pBSnV6clhFdHFwbzYwX1pWQ29UQVJ4MUpfd01vc0Q4WlE0TjFrOFp4VkdCN3RUZmxvcE01TDRKLTZ3YjZMdWV5Yw?oc=5",
         "source": "Criptotendencias",
@@ -155,20 +169,6 @@
           "intensidad_label": "fuerte",
           "emoji": "🟢🟢",
           "razonamiento": "Flujos institucionales hacia ETF: muy positivo"
-        }
-      },
-      {
-        "title": "$981M Bitcoin ETF Streak Signals Institutional Re-Entry, $70K in Sight",
-        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMWt0THhRc1U5VlJnMWw4MVJLdWdZMjM1bTU4X0FCakRxck5XR04xR1FELUxNYVZJTXpmVGVBWWE5MVVEa3hDTmZjODF5OE82blNLQzlETUduUS1xSTY3NFJUY2JwQW9hYXFyODZMb1JoQ3d2T2JQcHY0SVVQdTIzNjJheEkxT3MwME5CdUNISUFwVkZDS3hnVUlRM08ycnJDMVRvYVVjNHNvVDFPOTFJN25qYUVZZ05aTTBxUERBM0NfR0NQVlE?oc=5",
-        "source": "TradingView",
-        "pubdate": "Thu, 23 Jul 2026 16:46:00 GMT",
-        "pubdate_iso": "2026-07-23T16:46:00+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
         }
       }
     ],
@@ -444,32 +444,18 @@
           "emoji": "🟢",
           "razonamiento": "Whales acumulando: senal on-chain muy bullish"
         }
-      },
-      {
-        "title": "Bitcoin ETFs extend inflow streak to 6 days with $203M added",
-        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOOE1WOUFqLS1ORTE1TmFYdkJBWnhyc1pNZHQ4Wm9XWU5FUGhwbW95SVFIb0xsN2ZnazlTSVhRaTlGRXdnQ1czYVppVGxQUVJuaTJhMlNJRDN5Yll2MFJQWFpEWlBOMzBQUjl2bzVtX1VMQ01yWmVFbWd3YVR5ZTY1Nm9fMlRrdXR0TFQxY0IwX3JCeEwyRVNyU2l5YnhDR3A3YnA0ZGFFZ3ctaUdQckx2MlFENGNyM2VYbF9sRHhYWHdQUQ?oc=5",
-        "source": "TradingView",
-        "pubdate": "Wed, 22 Jul 2026 07:57:03 GMT",
-        "pubdate_iso": "2026-07-22T07:57:03+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
       }
     ]
   },
   "stats": {
-    "total_noticias": 30,
+    "total_noticias": 29,
     "por_categoria": {
       "precio": 5,
       "etf_flows": 5,
       "regulacion": 5,
       "adopcion": 5,
       "fed_macro": 5,
-      "sentimiento_onchain": 5
+      "sentimiento_onchain": 4
     }
   },
   "resumen_ejecutivo": {
@@ -477,7 +463,7 @@
     "score_neto": -1,
     "n_positivas": 3,
     "n_negativas": 4,
-    "n_neutrales": 23,
+    "n_neutrales": 22,
     "narrativa": "El feed muestra 3 senales positivas y 4 negativas (neto -1). Factores dominantes: Flujos institucionales hacia ETF: muy positivo; Salidas institucionales.",
     "narrativa_fuente": "plantilla",
     "veredicto": "NEUTRAL - sin sesgo dominante"
