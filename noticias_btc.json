@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-26T20:48:59.826638+00:00",
+  "updated_at_utc": "2026-07-26T22:39:35.178289+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "precio": {
@@ -330,20 +330,6 @@
           "emoji": "🔴",
           "razonamiento": "BTC a la baja"
         }
-      },
-      {
-        "title": "Indonesian Rupiah Holds Steady as Bank Indonesia Keeps Rates Unchanged",
-        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPRkU3UWZOTGJ2TVowN1dfX1l1TzBuY2pWMHMxZ0h5b292UHR5SThfWFdIbTVBSm1zNWJ6cEtMTTNuMHdMVWs0ekJ6eXF3ZW9KVzBrYjlJU0NqMTNnemNLVkN2cmQyTnRNckpqV240UVM2R09WajlHdDVmSW5ULUZyd2g1cWZyRkU?oc=5",
-        "source": "CryptoRank",
-        "pubdate": "Thu, 23 Jul 2026 22:04:25 GMT",
-        "pubdate_iso": "2026-07-23T22:04:25+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
       }
     ],
     "sentimiento_onchain": [
@@ -406,13 +392,13 @@
     ]
   },
   "stats": {
-    "total_noticias": 26,
+    "total_noticias": 25,
     "por_categoria": {
       "precio": 5,
       "etf_flows": 5,
       "regulacion": 5,
       "adopcion": 4,
-      "fed_macro": 3,
+      "fed_macro": 2,
       "sentimiento_onchain": 4
     }
   },
@@ -421,7 +407,7 @@
     "score_neto": 0,
     "n_positivas": 3,
     "n_negativas": 3,
-    "n_neutrales": 20,
+    "n_neutrales": 19,
     "narrativa": "El feed muestra 3 senales positivas y 3 negativas (neto +0). Factores dominantes: Flujos institucionales hacia ETF: muy positivo; Salidas institucionales.",
     "narrativa_fuente": "plantilla",
     "veredicto": "NEUTRAL - sin sesgo dominante"
