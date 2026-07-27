@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-27T02:33:01.980360+00:00",
+  "updated_at_utc": "2026-07-27T04:33:02.148290+00:00",
   "ventana_dias": 7,
   "medios": [
     "Diario Financiero",
@@ -7,7 +7,15 @@
     "El Mercurio"
   ],
   "noticias_por_ticker": {
-    "HABITAT": [],
+    "HABITAT": [
+      {
+        "title": "Reforma previsional",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9ORkJTNzdGYS0zY2RHczdWb004dzVOZFB6ZzczTVg2TF8zLUZ6N29QMzE0M1NERTNfWW9lUDNBdzctZ3ExSnJHRW8wQ2FqMFRFaHZZZHFJbFpCaVdXeXR2ZVM0dVZ1QQ?oc=5",
+        "pubdate": "Thu, 23 Jul 2026 07:00:00 GMT",
+        "source": "La Tercera",
+        "matched_keyword": "AFP Habitat"
+      }
+    ],
     "ZOFRI": [],
     "PEHUENCHE": [],
     "TRICAHUE": [],
@@ -103,8 +111,8 @@
     "total_queries": 51,
     "queries_exitosas": 51,
     "queries_falladas": 0,
-    "total_noticias_brutas": 2082,
-    "total_noticias_filtradas": 11,
-    "total_hechos_esenciales_brutos": 0
+    "total_noticias_brutas": 2078,
+    "total_noticias_filtradas": 12,
+    "total_hechos_esenciales_brutos": 81
   }
 }
