@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-27T06:39:33.354309+00:00",
+  "updated_at_utc": "2026-07-27T08:39:33.659438+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "precio": {
@@ -155,20 +155,6 @@
           "intensidad_label": "fuerte",
           "emoji": "🟢🟢",
           "razonamiento": "Flujos institucionales hacia ETF: muy positivo"
-        }
-      },
-      {
-        "title": "Bitcoin ETFs snap 7-day inflow streak with $225M in outflows",
-        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSTZINmU3eDBaZlp4dWhUcFlZeFlvWU8yLWhhNXFKZE00VXRvWlhpeU12UlZRbFVDcmRxVG9MaDNMblNQempfSEhwaHdzLTBrcU9SUU5ydmd0YjhZYklidjcwNXZPbDJHUkU1QTdlX2ZRNXBSeUNCbVI4OGpnZ0pacGcyYXRVOElTdXBnM3lUOWM1a2Y5QU9sOVZ6YlRiTVBFajBxam93VEpEZlNockJtTkpqMEk4VE5JakNrX3JsZw?oc=5",
-        "source": "TradingView",
-        "pubdate": "Fri, 24 Jul 2026 07:17:57 GMT",
-        "pubdate_iso": "2026-07-24T07:17:57+00:00",
-        "impacto": {
-          "direccion": "negativo",
-          "intensidad": 2,
-          "intensidad_label": "moderado",
-          "emoji": "🔴",
-          "razonamiento": "Salidas institucionales"
         }
       }
     ],
@@ -402,42 +388,28 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
-      },
-      {
-        "title": "Bitcoin ETFs snap 7-day inflow streak with $225M in outflows",
-        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPdUNyMmZJWXVKUFZWU1lpNklhZjRyREJHYjJ2akxKQmV2Wkpoa3dTZG44bjlrYjdKYzgwdGFKZDBON1RSaUhSQ0YtUWtWQUdJckNkOWJ2NmR6QWdKTDJCcjJOazVBeUEzd3Bvb2Y0b21OWnBjNVNySThIcDUyUHVaOUhIbWZjOWdSUzBhU2xOdmpfN2JabVpDT0JkbHh6TTVxWFRKZDJHV1RYLUZ1RDVTbUw3SWNoNl9ySHpzNm5ldlN2LVpx?oc=5",
-        "source": "TradingView",
-        "pubdate": "Fri, 24 Jul 2026 07:17:57 GMT",
-        "pubdate_iso": "2026-07-24T07:17:57+00:00",
-        "impacto": {
-          "direccion": "negativo",
-          "intensidad": 2,
-          "intensidad_label": "moderado",
-          "emoji": "🔴",
-          "razonamiento": "Salidas institucionales"
-        }
       }
     ]
   },
   "stats": {
-    "total_noticias": 27,
+    "total_noticias": 25,
     "por_categoria": {
       "precio": 5,
-      "etf_flows": 5,
+      "etf_flows": 4,
       "regulacion": 5,
       "adopcion": 5,
       "fed_macro": 3,
-      "sentimiento_onchain": 4
+      "sentimiento_onchain": 3
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "neutral",
-    "score_neto": 0,
+    "sentimiento": "alcista",
+    "score_neto": 4,
     "n_positivas": 3,
-    "n_negativas": 3,
+    "n_negativas": 1,
     "n_neutrales": 21,
-    "narrativa": "El feed muestra 3 senales positivas y 3 negativas (neto +0). Factores dominantes: Flujos institucionales hacia ETF: muy positivo; Salidas institucionales.",
+    "narrativa": "El feed muestra 3 senales positivas y 1 negativas (neto +4). Factores dominantes: Flujos institucionales hacia ETF: muy positivo; Tesoreria corporativa en BTC: tendencia bullish.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "NEUTRAL - sin sesgo dominante"
+    "veredicto": "ALCISTA a corto plazo"
   }
 }
