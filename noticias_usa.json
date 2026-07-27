@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-27T05:33:25.064195+00:00",
+  "updated_at_utc": "2026-07-27T06:03:26.628742+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -55,6 +55,20 @@
         "source": "Yahoo Finanzas",
         "pubdate": "Fri, 24 Jul 2026 23:59:59 GMT",
         "pubdate_iso": "2026-07-24T23:59:59+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Tesla (TSLA) - Precio hoy y Trading con CFDs - FOREX.com Español",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBtbHBiSWZHc1l4Tl9yTDhwYTZDUXo4TXExOGZUdXJ5dldJeWJrVTlRY2NHeTVmMVdPU004NzFENGltZU02Mzd4MDJ1TlRNVXM5Mjg1UWQ1VTBXeURzNXRDandB?oc=5",
+        "source": "FOREX.com",
+        "pubdate": "Fri, 24 Jul 2026 19:00:00 GMT",
+        "pubdate_iso": "2026-07-24T19:00:00+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -226,9 +240,9 @@
     ]
   },
   "stats": {
-    "total_noticias": 14,
+    "total_noticias": 15,
     "por_categoria": {
-      "tesla": 3,
+      "tesla": 4,
       "nvidia": 2,
       "ia_semis": 4,
       "macro_tech": 5
@@ -239,7 +253,7 @@
     "score_neto": -1,
     "n_positivas": 1,
     "n_negativas": 1,
-    "n_neutrales": 12,
+    "n_neutrales": 13,
     "narrativa": "El feed muestra 1 senales positivas y 1 negativas (neto -1). Factores dominantes: Selloff: presion vendedora; Earnings fuertes: soporte fundamental.",
     "narrativa_fuente": "plantilla",
     "veredicto": "NEUTRAL - sin sesgo dominante"
