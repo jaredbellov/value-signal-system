@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-27T07:33:25.252275+00:00",
+  "updated_at_utc": "2026-07-27T08:03:25.908895+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -182,6 +182,20 @@
         }
       },
       {
+        "title": "US indices close mixed. Dow up. S&P unchanged. Nasdaq down",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUW9vUlNtY3hkS3ZzUjJfSXNQZEFrSE51b1VOcW43LWpTWDc1dGZaUk1obnFsT2ZNdUdrVUxWbGxZdGFXeXV6OW1ZLVYxYmU2ZDYzN2ZvRUMtNWJVYVdBamhxeVl4SkR1dG1VVHNXWlNYVnhyYm1KWnBZM1ZFS0I5R3VoRUttalFuZHZrV3pDUGdyelFPYjV6NExyUFlQLW96OUo3a2g3VmRNS3JMVGxaLWZ3R2c?oc=5",
+        "source": "TradingView",
+        "pubdate": "Fri, 24 Jul 2026 20:42:39 GMT",
+        "pubdate_iso": "2026-07-24T20:42:39+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
         "title": "Tech Stocks Slide as Semiconductor Index Drops 6% Despite Strong Earnings",
         "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNdmV5QnBMTWh2SGlISlQtZVRGbFZJaC1KYkNvS2ZKM1M3WWlUS3VHbE5iQjZhdkdqQUhfeGVtUm1UV1ZWUHlWbEVfa1g5SnpUZVgwMU9LY2NHYjBUQm5BUnNQSlhVRjF2RS1xaFVQMVJjYWZ0YVF1OVduVUJsN0VkUmN4a2VOUmdHcS14a1F6ckJvYjA5Q1ByanZieldGVFZLQlpiaE03NV9LejM0QThYdzdKZUJjTm9kaVhkbFJNSXZTaS1mdmc0MzZudw?oc=5",
         "source": "TradingView",
@@ -193,20 +207,6 @@
           "intensidad_label": "moderado",
           "emoji": "🟢",
           "razonamiento": "Earnings fuertes: soporte fundamental"
-        }
-      },
-      {
-        "title": "Tesla Selloff Hands Bears Big Gains",
-        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMm4tVmJoZHVGNFBuck9XVGhOc0s4WVk3YTdsZnY4Z1o0c3BQbFZTTVBieHgyNDFMcG5GcHhSOVhZcGtQZ2hzeF82YWZ0a2pzUWhGMmhNZ2tRXzBDc1VuOEpkVTh0ell4NVhzOGtKc2gxc1VQYU1GaXRQRU02WFZWUmVnUGIwejlWZlFoYjlkYlZ6LTlZbXJxbG9R?oc=5",
-        "source": "TradingView",
-        "pubdate": "Fri, 24 Jul 2026 12:41:18 GMT",
-        "pubdate_iso": "2026-07-24T12:41:18+00:00",
-        "impacto": {
-          "direccion": "negativo",
-          "intensidad": 3,
-          "intensidad_label": "fuerte",
-          "emoji": "🔴🔴",
-          "razonamiento": "Selloff: presion vendedora"
         }
       }
     ]
@@ -221,13 +221,13 @@
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "neutral",
-    "score_neto": -1,
+    "sentimiento": "levemente alcista",
+    "score_neto": 2,
     "n_positivas": 1,
-    "n_negativas": 1,
-    "n_neutrales": 11,
-    "narrativa": "El feed muestra 1 senales positivas y 1 negativas (neto -1). Factores dominantes: Selloff: presion vendedora; Earnings fuertes: soporte fundamental.",
+    "n_negativas": 0,
+    "n_neutrales": 12,
+    "narrativa": "El feed muestra 1 senales positivas y 0 negativas (neto +2). Factores dominantes: Earnings fuertes: soporte fundamental.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "NEUTRAL - sin sesgo dominante"
+    "veredicto": "Levemente ALCISTA"
   }
 }
