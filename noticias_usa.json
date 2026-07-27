@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-27T03:33:25.613597+00:00",
+  "updated_at_utc": "2026-07-27T04:03:26.830229+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -61,20 +61,6 @@
           "intensidad_label": "neutral",
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Acciones de Tesla se desplomaron un 14,5% al ​​caer el beneficio operativo un 57%",
-        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTnBWTkZ1Nl9CbDBMOUE0RVplZjF5cDQ0ZjBkZVV1NFVIcks0QWlLSWhXZEhDYl9JU3l4X21MbDI3b3gxaDRXMXZ4LW8zRHRVNHBNcDFKV1hDTWlmMnFQM1Z6MmtaaXlFUnAwajNNdDB4WnpmRElXUTVmUUtaY3FnQnZtcnR1WmxINkdKYkhaSmhYQl9wU05OQnVwbjh4RnBUdlE?oc=5",
-        "source": "EBC Financial Group",
-        "pubdate": "Fri, 24 Jul 2026 03:48:00 GMT",
-        "pubdate_iso": "2026-07-24T03:48:00+00:00",
-        "impacto": {
-          "direccion": "negativo",
-          "intensidad": 2,
-          "intensidad_label": "moderado",
-          "emoji": "🔴",
-          "razonamiento": "Desplome: muy negativo"
         }
       }
     ],
@@ -240,22 +226,22 @@
     ]
   },
   "stats": {
-    "total_noticias": 15,
+    "total_noticias": 14,
     "por_categoria": {
-      "tesla": 4,
+      "tesla": 3,
       "nvidia": 2,
       "ia_semis": 4,
       "macro_tech": 5
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "levemente bajista",
-    "score_neto": -3,
+    "sentimiento": "neutral",
+    "score_neto": -1,
     "n_positivas": 1,
-    "n_negativas": 2,
+    "n_negativas": 1,
     "n_neutrales": 12,
-    "narrativa": "El feed muestra 1 senales positivas y 2 negativas (neto -3). Factores dominantes: Selloff: presion vendedora; Desplome: muy negativo.",
+    "narrativa": "El feed muestra 1 senales positivas y 1 negativas (neto -1). Factores dominantes: Selloff: presion vendedora; Earnings fuertes: soporte fundamental.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "Levemente BAJISTA"
+    "veredicto": "NEUTRAL - sin sesgo dominante"
   }
 }
