@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-28T20:39:34.639725+00:00",
+  "updated_at_utc": "2026-07-28T22:39:35.196728+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "precio": {
@@ -248,6 +248,20 @@
     ],
     "fed_macro": [
       {
+        "title": "La reunión de la Fed podría tener más impacto en el Nasdaq que en bitcoin, según analistas",
+        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUno2Y19IRnhndWJRajVxcFdFYVZkRGtwT1kxcGYzQzVSeGIzVzF0LTltb1REejVUbGtLOXBCTkdPOW5jTlhhNVpfekNhbXpVbWczR29YX3lLWGV2Z3loeHRUZzdNNi1QaVZxSG5rZE8teHRMaHJVQTFQTkJqNGlXYXNTeEJLWmZ0ZkVpSWNRZ1VnNEF0a0xLMjMxM2JCYUtGWDJNcWxkdVg?oc=5",
+        "source": "CoinDesk",
+        "pubdate": "Tue, 28 Jul 2026 20:43:22 GMT",
+        "pubdate_iso": "2026-07-28T20:43:22+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
         "title": "Key facts: CRYPTO:BTCUSD $64.5k; El Salvador ends BTC; Polymarket drop",
         "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQNFVyTEFSekN6bFRjM2dwbmZhYTFVenVPTTFtM1JYRl9xZktQY1pSR2FETWNNTlltb2FYTDZOWGR5TXg5NXJfUzlKZzl4bUJGNDN1V1pxbnlwNFYxNWI0a3Q5bzI5QUR4Umx0OHBrNjdjVmlrZnIxRTdMQ1A3Tjhna2FmSkRrUXgwaWVzZTYzbG9QdlowVmpfQU9OTEhETC10RWwwcUktVENfLS0xbG5jaTRNR2MtaGs4bmZUMDhyak9jeTRpWVE?oc=5",
         "source": "TradingView",
@@ -302,20 +316,6 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
-      },
-      {
-        "title": "Bitcoin and Gold Struggle for Momentum Despite US-Iran Truce",
-        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxObXBva0ZWdVdsbm9EWlU3VmloVmJiOFdsUGRwY3YwR1lqTlNfajhlOFlaZmhuX21ZWndYWG4wQkFoMzJWU25MM2JocGV5c0xmSnRpN1JKTklRSUFoMmRpRF90QlpSY1lDbWExZU9LY0hKeDBfdGFaWWt1ZF9rc3huTG1n?oc=5",
-        "source": "CryptoRank",
-        "pubdate": "Mon, 27 Jul 2026 22:35:27 GMT",
-        "pubdate_iso": "2026-07-27T22:35:27+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
       }
     ],
     "sentimiento_onchain": [
@@ -348,6 +348,20 @@
         }
       },
       {
+        "title": "Whale Withdraws Another $20.5 Million in ETH from Binance, Extending Accumulation Streak",
+        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQXFBMWgxdWhRS1k0al9OcVhiREk3T0xjcFdzcVZXTFpUQTAtUmp2LUJ2QWlabzF0eWhfaTNKQWdjWnB4OVJqeU9MNTF6NDZ3RVBJcFpKbEJGTlN0SEZRRF9FU3p4eDdlMVRFVG1WTG80WWRNLU5KYlU4Z3hsQUwweXE5dWZtVFFFdmk3eE05S1FYa1p3MmVR?oc=5",
+        "source": "CryptoRank",
+        "pubdate": "Mon, 27 Jul 2026 21:20:27 GMT",
+        "pubdate_iso": "2026-07-27T21:20:27+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
         "title": "Bitcoin se mantiene antes de la decisión de la Fed",
         "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQdHI2YlpPNTVJWnVENE10M3AxWTNtWU1UbFNYSW1ja0dHeWNGQmwyNXNQaU9qRW1XMGxrZDVwUWhjQ3lxVkZLbG5UWWkwbHl6ekdJRlBpa2VvZlhVc0lHakRrbFdqTVgzeHdBQjNmaW9tcHVOcEs2M28wRlJ4QVgzSg?oc=5",
         "source": "TyN Magazine",
@@ -364,14 +378,14 @@
     ]
   },
   "stats": {
-    "total_noticias": 23,
+    "total_noticias": 24,
     "por_categoria": {
       "precio": 5,
       "etf_flows": 1,
       "regulacion": 5,
       "adopcion": 4,
       "fed_macro": 5,
-      "sentimiento_onchain": 3
+      "sentimiento_onchain": 4
     }
   },
   "resumen_ejecutivo": {
@@ -379,7 +393,7 @@
     "score_neto": 1,
     "n_positivas": 1,
     "n_negativas": 0,
-    "n_neutrales": 22,
+    "n_neutrales": 23,
     "narrativa": "El feed muestra 1 senales positivas y 0 negativas (neto +1). Factores dominantes: El Salvador en BTC: contexto adopcion.",
     "narrativa_fuente": "plantilla",
     "veredicto": "NEUTRAL - sin sesgo dominante"
