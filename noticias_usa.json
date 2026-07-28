@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-28T05:33:25.825131+00:00",
+  "updated_at_utc": "2026-07-28T06:03:26.869907+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -138,20 +138,6 @@
     ],
     "ia_semis": [
       {
-        "title": "ASML Stock Tumbles 6% As Investors Weigh China Risk — But Wall Street And Retail Investors Dismiss Selloff",
-        "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQdHZ4eUlOV2FCbWFLOFVzSzBPdlBkRnFraDMxSTlLMUtldGdxN2c0MVpxZ2o1WWZ3bFp5NkRVREpuR0wwVGdINnlQamNKanY0Y3VaTzNjT0tmbVhhY0kxQUFBekxjNFgxeVotaGZFMVJwME1BcFlIYnZFOTNWYlpDSUJXdjI2TWxEeHd3UGNWTW1tTWFIM05IQ3hNcFVFaVNtODJOTjd3clRjaldlMG02MlBZY2JPaVBQSEw1V3NKRGFCX3RRdkpwdlVqb1hHMnhOVnp4UnBkWk1wZE5RUFdOZkpmY3lJRmtBT0N6cFF5NV9Ebi1lbnc?oc=5",
-        "source": "TradingView",
-        "pubdate": "Mon, 27 Jul 2026 21:11:16 GMT",
-        "pubdate_iso": "2026-07-27T21:11:16+00:00",
-        "impacto": {
-          "direccion": "negativo",
-          "intensidad": 3,
-          "intensidad_label": "fuerte",
-          "emoji": "🔴🔴",
-          "razonamiento": "Selloff: presion vendedora"
-        }
-      },
-      {
         "title": "Why Is ASML Stock Falling Today?",
         "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPakxXMFZ2ckk5U214YWoycDRmY00wNHMwOWVUYjF3V050VXh0ODFzdWpsSm1SWkRZRGN6SUFTZkh5M2tMZlhkWGVuM20yVFRkM3Z2U0dUSFZodEV4N3JBcE5RRFZvT2h4YzN4SWNoU1hRTzZwMXpfVkFOTktOTnkxZlBZUzF1WkNxNko1eG5ZRlc0ZXhHcEE?oc=5",
         "source": "TradingView",
@@ -282,22 +268,22 @@
     ]
   },
   "stats": {
-    "total_noticias": 18,
+    "total_noticias": 17,
     "por_categoria": {
       "tesla": 3,
       "nvidia": 5,
-      "ia_semis": 5,
+      "ia_semis": 4,
       "macro_tech": 5
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "bajista",
-    "score_neto": -5,
+    "sentimiento": "levemente bajista",
+    "score_neto": -2,
     "n_positivas": 2,
-    "n_negativas": 3,
+    "n_negativas": 2,
     "n_neutrales": 13,
-    "narrativa": "El feed muestra 2 senales positivas y 3 negativas (neto -5). Factores dominantes: Selloff: presion vendedora; Selloff: presion vendedora.",
+    "narrativa": "El feed muestra 2 senales positivas y 2 negativas (neto -2). Factores dominantes: Selloff: presion vendedora; Selloff: presion vendedora.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "BAJISTA a corto plazo"
+    "veredicto": "Levemente BAJISTA"
   }
 }
