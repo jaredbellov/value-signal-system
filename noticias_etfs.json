@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-28T17:26:56.958378+00:00",
+  "updated_at_utc": "2026-07-28T19:26:57.298428+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "fed_tasas": {
@@ -29,6 +29,20 @@
   },
   "noticias_por_categoria": {
     "fed_tasas": [
+      {
+        "title": "Trump insiste en que la Fed debe reducir las tasas de interés",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNOTFDbXJReXRGbUw0YXZEeThLdWUyS3pqUGFab1dPNXphZ2pjaW9NSWxQb3A2QmxHZEdVUWFqcV9xNkFteGt1UFlVbWtSMWVneFJEV3RNNmZDbkZOXzVIeGZVNmtraDNDRXVsSGVlb0ozOEhhenpnNnhDb1RrMkUwVHdKYUhPVHBLcGxPQmdKVzZyM2xJMDJBUw?oc=5",
+        "source": "Periódico elDinero",
+        "pubdate": "Tue, 28 Jul 2026 13:22:31 GMT",
+        "pubdate_iso": "2026-07-28T13:22:31+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
       {
         "title": "Dollar Edges Higher as Markets Eye Fed’s Next Move This Week",
         "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQenVLSGExalBnLURsdEFWM21DMWVINFBxZzkxbmU3djVFbTJyR1VzOHE5SDVlVGJpWFFhT2tWMUx0ODZTR2p2akFsWlRJOENubl9BbGtRN2JqNFc4R1dLcVE1em9TeU5ZT1JkTC1wWFg3dHhEVFJQc19mVTZWZ1RVQUtIc3c?oc=5",
@@ -84,13 +98,15 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
-      },
+      }
+    ],
+    "mercado": [
       {
-        "title": "Bitcoin price holds above $65K as Fed rate decision, ETF flows shape market outlook",
-        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxORkJiVzJoYWJFb2NLbU5qWXhqeTl3MWYxYmFKWXdZUU9sRU1md25saXd2ZXNTTDdwSXFQYmxQMERjQlZzYm5DRjRFdllBLUxraEhjdmhKT2JoNkpNaFg2cDg2Wlo3YTlZRnIzT0dveHdOdkNQVHgtSFpuLUZiQjRpWVdJZnFualpLcWxsZUhtWEl1cXdGRS1SaE90bVBrV0RwdkJrWGJIWFNFZnFiS2tHTHlXYzFLNFFqdEYtS2MtUzdja0NzZVcyMGIyeXlTbldZRXNv?oc=5",
+        "title": "Nasdaq futures plunge 240 points: 5 things to know before Wall Street opens",
+        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOLTFwTFJvc09lUjYyQkdYbThjVUNaMnZNMHQtaTNDdHFxZDBjbHZZdVNITFdpSmVVajFMQ2htUlV6T0hJd05YTlc4S1B6dE51VE5MUXNFSU9LeXNfZnNURThmSXJpbGxkaTdWRnd5alVib2Z5NC1zQ2FVYlVHZzdQc2QtcDJ5UHBNeTh3UHdPZjVvazZvUUpxaEZubTFta0hKUWxzMm55b1pRSk8xSFlBM2VkaHNPb0Zfczg4Rk45NEVjdDJadmhJUXRR?oc=5",
         "source": "TradingView",
-        "pubdate": "Mon, 27 Jul 2026 12:21:46 GMT",
-        "pubdate_iso": "2026-07-27T12:21:46+00:00",
+        "pubdate": "Tue, 28 Jul 2026 10:35:27 GMT",
+        "pubdate_iso": "2026-07-28T10:35:27+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -98,9 +114,7 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
-      }
-    ],
-    "mercado": [
+      },
       {
         "title": "Why TransDigm (TDG) Stock Is Trading Up Today",
         "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWm51X25aenNyOXpfcWRjbDRkYUNoNzNMdXVDZlh0bzVKejN0WEdqMmNydlNNQ1BmMFJNcVZOWEdHNEs3bFNSWHJvNnJldUo0ZEY4eDVDek16UDNQTWtqU042dEptRVpfVGlSUXNMejZKbVJLMDJSckJVdFJ1aFhKWHpqLXZ3WUxYVGtkcGZhZjN5Vmwyam1ZLXBfdW5oeTFVY0ZOSjRB?oc=5",
@@ -321,10 +335,10 @@
     ]
   },
   "stats": {
-    "total_noticias": 20,
+    "total_noticias": 21,
     "por_categoria": {
       "fed_tasas": 5,
-      "mercado": 4,
+      "mercado": 5,
       "tech_nasdaq": 4,
       "economia": 0,
       "earnings": 5,
@@ -336,7 +350,7 @@
     "score_neto": 0,
     "n_positivas": 0,
     "n_negativas": 0,
-    "n_neutrales": 20,
+    "n_neutrales": 21,
     "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
     "narrativa_fuente": "plantilla",
     "veredicto": "NEUTRAL - sin sesgo dominante"
