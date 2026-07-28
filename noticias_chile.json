@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-28T15:33:54.514650+00:00",
+  "updated_at_utc": "2026-07-28T17:33:54.631992+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "bcch_tpm": {
@@ -103,6 +103,20 @@
         "source": "Infobae",
         "pubdate": "Tue, 28 Jul 2026 11:19:17 GMT",
         "pubdate_iso": "2026-07-28T11:19:17+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Qué mueve el precio del cobre: La guía para entender el metal que define la economía en Latinoamérica",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9xOXVYQkRhR3dCcDBIcUtQdlJyMzd6SHRWTG1jNTNkcldBTXliTWQ3TFg1VTZUZjhuUlNlRkVXODNEZlhDZXRrVGdWUzZLdHYyT05EZmw3VlA2a1Y2U1lxYXFKbHR3Q3o5bUE?oc=5",
+        "source": "EBC Financial Group",
+        "pubdate": "Tue, 28 Jul 2026 10:02:00 GMT",
+        "pubdate_iso": "2026-07-28T10:02:00+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -293,11 +307,11 @@
   },
   "hechos_esenciales_por_ticker": {},
   "stats": {
-    "total_noticias": 17,
+    "total_noticias": 18,
     "por_categoria": {
       "bcch_tpm": 1,
       "ipsa": 2,
-      "dolar_cobre": 4,
+      "dolar_cobre": 5,
       "economia_chile": 3,
       "politica_regulacion": 3,
       "pensiones_afp": 1,
@@ -311,7 +325,7 @@
     "score_neto": -1,
     "n_positivas": 1,
     "n_negativas": 1,
-    "n_neutrales": 15,
+    "n_neutrales": 16,
     "narrativa": "El feed muestra 1 senales positivas y 1 negativas (neto -1). Factores dominantes: Reforma tributaria: incertidumbre impositiva; Crecimiento: soporte macro.",
     "narrativa_fuente": "plantilla",
     "veredicto": "NEUTRAL - sin sesgo dominante"
