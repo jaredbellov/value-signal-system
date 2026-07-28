@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-28T19:33:55.229849+00:00",
+  "updated_at_utc": "2026-07-28T21:33:57.458416+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "bcch_tpm": {
@@ -53,6 +53,20 @@
       }
     ],
     "ipsa": [
+      {
+        "title": "Bolsa chilena cierra en rojo y el IPSA pierde los 10.900 puntos justo antes de la decisión del Banco Central",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5NeHo2Z0RlRmltY1hLYThyRjdFVlJLUXBsT2FDNl90dG5vd2ZQTzJUV3lDTGlkZGxWellDZFpaT044c2RXaUhEbnh1OEQ0elh1TkhYcm12S1V2YkplNHhZd3JCLXA2Y2JK?oc=5",
+        "source": "Diario Financiero",
+        "pubdate": "Tue, 28 Jul 2026 20:22:00 GMT",
+        "pubdate_iso": "2026-07-28T20:22:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
       {
         "title": "SP IPSA: La Bolsa de Santiago cierra con alza marginal de 0,12%",
         "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQU1BBZGNUTjkwYnFwVDJKMkFiVG9rcVoxcWo2UVFvSlVFaUctc25tdmJlZXNvUFB5cU9HdmVVTzBYLTBRVENxVXNvbC1ubk01dnpCSmVJb2lFbFVaOFFQUkdRZTVkNEs5aXZ4aTVXODFRYlNVR0JQb2ozUUNBYVp2TDV1SS0zWnJpSzBSdnczSTBTN0lXNmt2ZHgzc2ZPdm45blMtVk41aDJQUzB5?oc=5",
@@ -226,20 +240,6 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
-      },
-      {
-        "title": "Implementación de reforma tributaria dependerá de reglamentos e instructivos SII",
-        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRFZ6aVlMQzRnSmprcjNlV2FpVHRQWk8yS0wza25SanlYWEZjakhFQ01ZTFhIcHZzOWpWdG1KTTF3T0dPdEdkSEdPdUNLU3BaaVV4TDYwOVRDcUlBUEh0b1RQNHFkanpsQ0x6YlYwTWxEZl9vSXU5Si1rQ201MVlWU0R2dnBBaVV1UV90TDduTHBmTTN2c0VkbHpVajdnUV9KT0VNRXpQZGRLd3M?oc=5",
-        "source": "Nuevo Poder",
-        "pubdate": "Sat, 25 Jul 2026 19:51:00 GMT",
-        "pubdate_iso": "2026-07-25T19:51:00+00:00",
-        "impacto": {
-          "direccion": "negativo",
-          "intensidad": 2,
-          "intensidad_label": "moderado",
-          "emoji": "🔴",
-          "razonamiento": "Reforma tributaria: incertidumbre impositiva"
-        }
       }
     ],
     "pensiones_afp": [
@@ -310,10 +310,10 @@
     "total_noticias": 18,
     "por_categoria": {
       "bcch_tpm": 1,
-      "ipsa": 2,
+      "ipsa": 3,
       "dolar_cobre": 5,
       "economia_chile": 3,
-      "politica_regulacion": 3,
+      "politica_regulacion": 2,
       "pensiones_afp": 1,
       "energia_tarifas": 2,
       "sectores_watchlist": 1
@@ -322,11 +322,11 @@
   },
   "resumen_ejecutivo": {
     "sentimiento": "neutral",
-    "score_neto": -1,
+    "score_neto": 1,
     "n_positivas": 1,
-    "n_negativas": 1,
-    "n_neutrales": 16,
-    "narrativa": "El feed muestra 1 senales positivas y 1 negativas (neto -1). Factores dominantes: Reforma tributaria: incertidumbre impositiva; Crecimiento: soporte macro.",
+    "n_negativas": 0,
+    "n_neutrales": 17,
+    "narrativa": "El feed muestra 1 senales positivas y 0 negativas (neto +1). Factores dominantes: Crecimiento: soporte macro.",
     "narrativa_fuente": "plantilla",
     "veredicto": "NEUTRAL - sin sesgo dominante"
   }
