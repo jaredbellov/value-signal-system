@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-28T05:33:54.004249+00:00",
+  "updated_at_utc": "2026-07-28T07:33:53.220574+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "bcch_tpm": {
@@ -59,6 +59,20 @@
         "source": "diarioestrategia.cl",
         "pubdate": "Mon, 27 Jul 2026 21:58:06 GMT",
         "pubdate_iso": "2026-07-27T21:58:06+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Dividendos y Splits de Banco Santander-Chile (BSAC): Historial de Pagos y Cronograma de Eventos",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9NU3BleF9XU2U4QUQ1dHV0OE1uMC00dlB2bm1KQUNHN1NQdS04OFdSbFE4a2xXMzJGSHotRnhkYTAwY1F1VEtBMGJBb3ZzSy12LWdLY042QndOVzIybEtZQUpFcThHcEFPM0dkWW02Qi1ESDA?oc=5",
+        "source": "TradingKey",
+        "pubdate": "Mon, 27 Jul 2026 10:32:30 GMT",
+        "pubdate_iso": "2026-07-27T10:32:30+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -251,10 +265,10 @@
   },
   "hechos_esenciales_por_ticker": {},
   "stats": {
-    "total_noticias": 14,
+    "total_noticias": 15,
     "por_categoria": {
       "bcch_tpm": 1,
-      "ipsa": 1,
+      "ipsa": 2,
       "dolar_cobre": 2,
       "economia_chile": 4,
       "politica_regulacion": 3,
@@ -269,7 +283,7 @@
     "score_neto": 0,
     "n_positivas": 2,
     "n_negativas": 1,
-    "n_neutrales": 11,
+    "n_neutrales": 12,
     "narrativa": "El feed muestra 2 senales positivas y 1 negativas (neto +0). Factores dominantes: Reforma tributaria: incertidumbre impositiva; Crecimiento: soporte macro.",
     "narrativa_fuente": "plantilla",
     "veredicto": "NEUTRAL - sin sesgo dominante"
