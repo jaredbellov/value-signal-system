@@ -1,6 +1,6 @@
 {
-  "fecha_actualizacion": "2026-07-28T17:36:16.428651",
-  "duracion_segundos": 191.236106,
+  "fecha_actualizacion": "2026-07-28T18:07:42.133660",
+  "duracion_segundos": 276.64344,
   "n_acciones": 17,
   "acciones": [
     {
@@ -466,7 +466,7 @@
           "bpa": 168.95
         }
       ],
-      "_fecha_dato": "2026-07-28T17:36:16.428617"
+      "_fecha_dato": "2026-07-28T18:07:42.133614"
     },
     {
       "ticker": "ZOFRI",
@@ -931,7 +931,7 @@
           "bpa": 90.48
         }
       ],
-      "_fecha_dato": "2026-07-28T17:36:16.428617"
+      "_fecha_dato": "2026-07-28T18:07:42.133614"
     },
     {
       "ticker": "PEHUENCHE",
@@ -1396,7 +1396,7 @@
           "bpa": 206.26
         }
       ],
-      "_fecha_dato": "2026-07-28T17:36:16.428617"
+      "_fecha_dato": "2026-07-28T18:07:42.133614"
     },
     {
       "ticker": "TRICAHUE",
@@ -1853,7 +1853,7 @@
           "bpa": 93.31
         }
       ],
-      "_fecha_dato": "2026-07-28T17:36:16.428617"
+      "_fecha_dato": "2026-07-28T18:07:42.133614"
     },
     {
       "ticker": "COLBUN",
@@ -2318,7 +2318,7 @@
           "bpa": 9.61
         }
       ],
-      "_fecha_dato": "2026-07-28T17:36:16.428617"
+      "_fecha_dato": "2026-07-28T18:07:42.133614"
     },
     {
       "ticker": "ENELGXCH",
@@ -2783,7 +2783,7 @@
           "bpa": 59.47
         }
       ],
-      "_fecha_dato": "2026-07-28T17:36:16.428617"
+      "_fecha_dato": "2026-07-28T18:07:42.133614"
     },
     {
       "ticker": "LIPIGAS",
@@ -2796,24 +2796,11 @@
       "precio_actual_clp": 8595,
       "razon_social": "EMPRESAS LIPIGAS S.A.",
       "variacion_pct": -0.01,
-      "dy": {
-        "dy_pct": 4.06,
-        "anos_usados": 2,
-        "anos_detalle": {
-          "2025": 437.0,
-          "2024": 261.0
-        },
-        "promedio_anual": 349.0,
-        "advertencia": "Solo 2 anos disponibles (ideal: 3)"
-      },
+      "dy": null,
       "cagr_3y": 0.4730164362089684,
       "cagr_5y": 0.21211018760430722,
       "cagr_10y": null,
-      "evaluacion": {
-        "status": "Bajo benchmark",
-        "emoji": "🔴",
-        "vs_benchmark_pp": -2.44
-      },
+      "evaluacion": null,
       "cmf": {
         "periodo": "03/2026",
         "tipo_balance": "CONSOLIDADO",
@@ -2828,88 +2815,7 @@
         "capital_trabajo": 101500777.0,
         "patrimonio_total": 267370984.0
       },
-      "dividendos_recientes": [
-        {
-          "fecha_pago": "2026-06-22",
-          "fecha_limite": "2026-06-16",
-          "monto_clp": 95.0,
-          "tipo": "PROVISORIO",
-          "moneda_origen": "CLP",
-          "descripcion": "DIVIDENDO PROV.  $ 95"
-        },
-        {
-          "fecha_pago": "2026-05-07",
-          "fecha_limite": "2026-04-30",
-          "monto_clp": 118.0,
-          "tipo": "ADICIONAL",
-          "moneda_origen": "CLP",
-          "descripcion": "DIVIDENDO ADIC $ 118"
-        },
-        {
-          "fecha_pago": "2026-03-31",
-          "fecha_limite": "2026-03-25",
-          "monto_clp": 95.0,
-          "tipo": "PROVISORIO",
-          "moneda_origen": "CLP",
-          "descripcion": "DIVIDENDO PROV.  $ 95"
-        },
-        {
-          "fecha_pago": "2025-12-26",
-          "fecha_limite": "2025-12-19",
-          "monto_clp": 153.0,
-          "tipo": "PROVISORIO",
-          "moneda_origen": "CLP",
-          "descripcion": "DIVIDENDO PROV.  $ 153"
-        },
-        {
-          "fecha_pago": "2025-09-25",
-          "fecha_limite": "2025-09-17",
-          "monto_clp": 122.0,
-          "tipo": "PROVISORIO",
-          "moneda_origen": "CLP",
-          "descripcion": "DIVIDENDO PROV.  $ 122"
-        },
-        {
-          "fecha_pago": "2025-06-25",
-          "fecha_limite": "2025-06-18",
-          "monto_clp": 81.0,
-          "tipo": "PROVISORIO",
-          "moneda_origen": "CLP",
-          "descripcion": "DIVIDENDO PROV.  $ 81"
-        },
-        {
-          "fecha_pago": "2025-05-02",
-          "fecha_limite": "2025-04-25",
-          "monto_clp": 65.0,
-          "tipo": "ADICIONAL",
-          "moneda_origen": "CLP",
-          "descripcion": "DIVIDENDO ADIC  $ 65"
-        },
-        {
-          "fecha_pago": "2025-03-31",
-          "fecha_limite": "2025-03-25",
-          "monto_clp": 81.0,
-          "tipo": "PROVISORIO",
-          "moneda_origen": "CLP",
-          "descripcion": "DIVIDENDO PROV $ 81"
-        },
-        {
-          "fecha_pago": "2024-12-27",
-          "fecha_limite": "2024-12-20",
-          "monto_clp": 164.0,
-          "tipo": "PROVISORIO",
-          "moneda_origen": "CLP",
-          "descripcion": "DIVIDENDO PROV $ 164"
-        },
-        {
-          "fecha_pago": "2024-09-30",
-          "fecha_limite": "2024-09-24",
-          "monto_clp": 97.0,
-          "tipo": "PROVISORIO",
-          "moneda_origen": "CLP",
-          "descripcion": "DIVIDENDO PROV.  $ 97"
-        }
-      ],
+      "dividendos_recientes": [],
       "error": null,
       "serie_precio": [
         {
@@ -3247,7 +3153,7 @@
           "bpa": 694.96
         }
       ],
-      "_fecha_dato": "2026-07-28T17:36:16.428617"
+      "_fecha_dato": "2026-07-28T18:07:42.133614"
     },
     {
       "ticker": "NTGCLGAS",
@@ -3712,7 +3618,7 @@
           "bpa": 69.95
         }
       ],
-      "_fecha_dato": "2026-07-28T17:36:16.428617"
+      "_fecha_dato": "2026-07-28T18:07:42.133614"
     },
     {
       "ticker": "SOQUICOM",
@@ -4177,7 +4083,7 @@
           "bpa": 25.39
         }
       ],
-      "_fecha_dato": "2026-07-28T17:36:16.428617"
+      "_fecha_dato": "2026-07-28T18:07:42.133614"
     },
     {
       "ticker": "QUINENCO",
@@ -4642,7 +4548,7 @@
           "bpa": 409.18
         }
       ],
-      "_fecha_dato": "2026-07-28T17:36:16.428617"
+      "_fecha_dato": "2026-07-28T18:07:42.133614"
     },
     {
       "ticker": "CENCOMALLS",
@@ -5107,7 +5013,7 @@
           "bpa": 178.19
         }
       ],
-      "_fecha_dato": "2026-07-28T17:36:16.428617"
+      "_fecha_dato": "2026-07-28T18:07:42.133614"
     },
     {
       "ticker": "ENELAM",
@@ -5564,7 +5470,7 @@
           "bpa": 8.39
         }
       ],
-      "_fecha_dato": "2026-07-28T17:36:16.428617"
+      "_fecha_dato": "2026-07-28T18:07:42.133614"
     },
     {
       "ticker": "AGUAS-A",
@@ -6029,7 +5935,7 @@
           "bpa": 24.06
         }
       ],
-      "_fecha_dato": "2026-07-28T17:36:16.428617"
+      "_fecha_dato": "2026-07-28T18:07:42.133614"
     },
     {
       "ticker": "PARAUCO",
@@ -6486,7 +6392,7 @@
           "bpa": 163.33
         }
       ],
-      "_fecha_dato": "2026-07-28T17:36:16.428617"
+      "_fecha_dato": "2026-07-28T18:07:42.133614"
     },
     {
       "ticker": "MALLPLAZA",
@@ -6943,7 +6849,7 @@
           "bpa": 653.43
         }
       ],
-      "_fecha_dato": "2026-07-28T17:36:16.428617"
+      "_fecha_dato": "2026-07-28T18:07:42.133614"
     },
     {
       "ticker": "CCU",
@@ -7408,7 +7314,7 @@
           "bpa": 317.05
         }
       ],
-      "_fecha_dato": "2026-07-28T17:36:16.428617"
+      "_fecha_dato": "2026-07-28T18:07:42.133614"
     },
     {
       "ticker": "OXIQUIM",
@@ -7869,7 +7775,7 @@
           "bpa": 1048.27
         }
       ],
-      "_fecha_dato": "2026-07-28T17:36:16.428617"
+      "_fecha_dato": "2026-07-28T18:07:42.133614"
     }
   ]
 }
