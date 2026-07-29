@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-29T01:26:56.495435+00:00",
+  "updated_at_utc": "2026-07-29T03:26:56.009622+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "fed_tasas": {
@@ -29,6 +29,20 @@
   },
   "noticias_por_categoria": {
     "fed_tasas": [
+      {
+        "title": "Federal Reserve Faces Knife-Edge Policy Decision, ING Warns of Market Surprise Risk",
+        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZk5zU0JwRXlNU3JQclFLWFpTN2NCVmRlMnpXQ09fYXZKaFZPdjZhMnZudzhzWUVJWllIaGFYd3ozMUFHLVFGT0xPUm9IQnZ1d1hKQ1BFMmg0TVdVcC1yNUJoTlFucjhuUVJBbHhrQlEwVE1Qd25tUUVkRG03TDJ5Zzl6RTUwcUVzaWRZ?oc=5",
+        "source": "CryptoRank",
+        "pubdate": "Tue, 28 Jul 2026 22:41:43 GMT",
+        "pubdate_iso": "2026-07-28T22:41:43+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
       {
         "title": "FOMC Meet: Fed Is Largely Expected To Keep Rates Unchanged, But Economists Say The Risks Have Shifted",
         "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPanFNVFlWeUI2QkVDQWhNTWxVajlIS1AxWk5sRUFObVdkSU9fNU11S2daWWZhLUNmamhjbTZnZHR2TnhzemNJUE05eDdpRzFHRkYzai03ZTlnNllZVzNCb2wwb24xM1RvZ3JZemVaSFJPMUVab1l2NnVIc0NObWV2VWg1OFdpMkcwT2JZUTM5MWRlbDhSMG5pdVY3N0VXdVhfdUtGMmJKY1c0NHJwZGxvR1NqbWNDbHhwQ2VZNi14aC1PZTA4Y3gyZXRTcndJMWhKd2d5dTF6VXc2aXlzUVJ0NnQ1V0FPaDF0VWRaY29OY3A?oc=5",
@@ -63,20 +77,6 @@
         "source": "TradingView",
         "pubdate": "Tue, 28 Jul 2026 11:25:55 GMT",
         "pubdate_iso": "2026-07-28T11:25:55+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "IXIC: Nasdaq Futures Slump as South Korea’s Kospi Dives 10%. It’s the Chips Again.",
-        "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPeFRRWUo5aVJVblM2ZWhqY0Y0VDFkOXI0b0tpZTAyVzd2Qm5VVEs3aWpwdmpPaUxSdHVVTC1jV0wxMC1zcmZpVFFZTXZoajNaQnk3RVQtcUhfbWNqajVFNnNFV2FpOE5KVDJDdXQ4Yy15MkRxWGZaZjlwOXRTOUpyV1VhemxLM0hfbzJYVlZDLS1tNTVMdjFwRmhxN2FJZFNsSWhOV19wbUgyOVNIbjdXcE9ybTNLU2NpMVJTRjMxX3Y0YjJkc3hMcVlENmZlSUV0V0dUd3RR?oc=5",
-        "source": "TradingView",
-        "pubdate": "Tue, 28 Jul 2026 07:30:27 GMT",
-        "pubdate_iso": "2026-07-28T07:30:27+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -228,13 +228,16 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
-      },
+      }
+    ],
+    "economia": [],
+    "earnings": [
       {
-        "title": "Applied Digital Earnings: What To Look For From APLD",
-        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPR3R1Zkh6RUhoVkFMTmRwVjZlNS13Wkh1RmEzNkEyTnB5bDExZEh2Q0Vrc3E0RVZhaDg4ZHNIeEtDR0h4TjFjM1ZEN3BFNFNhUUJLdHFkQks4WTd4VXk1a2U1SzVULW9KSVhfWTV5bk5Ea3ZTeElSYkVFMnByQWFWb2tsaHJCVnpTVDAwY1NvbGZrMENiOHdabGUzTFdzcVY2SVdsdDlSRlJzbmhidXdRNg?oc=5",
+        "title": "Palantir Seen Crushing Q2 Estimates and Raising 2026 Outlook",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQcVlaYnRDM1JNY1lqZ0luMmNhZnpld29NNzlnN0lMUUt1NDE3c05IN0NlRjlZeEFQaFV0Z1U5QlR0RnZ5NlhGYzVweXBCbnRHQldYSTU1WVVJeWxKN1NvREt4cWEzTkl6eGFFOElvYlBLd0lfMFJJNTRYWGdta1lLUm1ZOWMtUm9sVjJZYnJmLVN1aDNzS2JBdnhuRlNLMXJPQnQ4dWZFUDJEeEhVUEV4UW13MU5uRS1rYWVj?oc=5",
         "source": "TradingView",
-        "pubdate": "Sun, 26 Jul 2026 03:02:00 GMT",
-        "pubdate_iso": "2026-07-26T03:02:00+00:00",
+        "pubdate": "Tue, 28 Jul 2026 12:25:06 GMT",
+        "pubdate_iso": "2026-07-28T12:25:06+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -242,16 +245,27 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
-      }
-    ],
-    "economia": [],
-    "earnings": [
+      },
       {
         "title": "Confirmed: Real Madrid post record revenue of €1.221 billion for 2025-26",
         "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSjBwQWNDRGJpakFtMjBRSG1USDFHSEs5Q1VvN3VoZHA4aEJqR3pJRzBITHFUQkl4YnFGVk5TLVY3M0JMWVA5YThNVjkyVFBuZXJxYVRKMEE1WUl5SkNCUjQtVGh1NFdheFFFSTNwdkgyY0VBdkVNc1JCTzNQaThULW80SHB4TWpfY3c?oc=5",
         "source": "Yahoo Sports",
         "pubdate": "Tue, 28 Jul 2026 12:00:00 GMT",
         "pubdate_iso": "2026-07-28T12:00:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Real Madrid board set to approve record revenue and Diomande signing",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZmFteHhmWFVmQVl4dk5adTM2UTkxc2ZnYldvell4Z0VyVDlZaWVDTERTYlBoQVFvTk1qQ1JnMkdhVHV0bHc4Ry1OU1NhMV9IYnA4WWxtclNqRUI0SlhvS2lQX3ZQUzVoYWRFeVRGUnU3ZUc0Ml9rYjV6bjIwR21TU0NnZXJNNUQwN0ZVWmtUQnp0ckQ4Y2JaekpuY1N2SS13SF9ERi16Z9IBuwFBVV95cUxPUXI1MkxDd3htSm01RkpLUnZwLVFFeGcxZW9pdFVWYldtSVBlb1piMEozMEc4eF9HejJwMk1Pa0VFZmxKeGdhZFZWMk5ZRDA1T1F6WnVaR1c3dXVzLVJ2eXZqc21XQjN3V0owWDBqWGhwajBSMUVjQTVoeUtSMUFSbnVoMWRDTEtaaVJKREFFYUt4R3dWbElsUmtYa0xxd3M5Z2tTS3owRlA3X1BoMjdfRDFmeVo4SGFqc3ZZ?oc=5",
+        "source": "Diario AS",
+        "pubdate": "Tue, 28 Jul 2026 08:42:13 GMT",
+        "pubdate_iso": "2026-07-28T08:42:13+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -287,34 +301,6 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
-      },
-      {
-        "title": "The Ensign Group (ENSG) Stock Is Up, What You Need To Know",
-        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPM2pwYlRUazdMRUhvblEtVFQ1WHNmUm5oWXpwczJjZmtLcmdaZE9FLWk5aG1xRVpGM1dmYjhrLVVQYzZxTEJybVdPTmh1MWtXcDNsYlFYamktd3lQUEczZ1N3X1BldlR4Qk1qS1Zwd25IZ0w5SkQ2TTB1OEVzOGJRMFZFRGR2NEdyclM0RW5vc2JodXM3RWE4T01aSlp6ZUZoXy1MeEpYS0pYYUlpQkxGV3pha0Vrdw?oc=5",
-        "source": "TradingView",
-        "pubdate": "Mon, 27 Jul 2026 15:45:44 GMT",
-        "pubdate_iso": "2026-07-27T15:45:44+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Top 3 catalysts for the S&P 500 and Nasdaq 100 indices this week",
-        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQazByb3Y0MkxLcy1qZzktaXo4ZGp5N0IzT21vUVExR0pEeFl3bGFxQU1BWUkzcGkxeVhoQWFvd0NNQi1oQV9lblZnZUJHSXVPNXR5T3VrSW5xRW8tbmN4ZjUxLUUtNk5WYlZXXzhRaklGeklfSWxwX3N0SkI4WTFxdGt6TW5KVGFubWExQ3ZJajFMLTR4alpDbklpWE50Q1IwVUQ5MjNCVk9VbUhKYld0R25FMktzVGtfOUVGNg?oc=5",
-        "source": "TradingView",
-        "pubdate": "Mon, 27 Jul 2026 11:37:01 GMT",
-        "pubdate_iso": "2026-07-27T11:37:01+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
       }
     ],
     "sentimiento": [
@@ -331,32 +317,18 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
-      },
-      {
-        "title": "Opinion | Argentina free market renaissance continues",
-        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTXBfak1uUmhDc28tMzRqempKZjFDazVTSEFfVUgwblBWcGkyYVZXdWFzSlMxYnpnSGtibTFzUjFQM3pDTnprS2UySzNCUjdqNVlWenpncG1NLTRNTUdpS0pUOVRFZmxsd3VNcl9ENFk5eG9jQTBmUFp3WEw0ZUNnaTRZX3dDTHVmYWRrSXNjSWhKUGFDQ2tNQ1VZMA?oc=5",
-        "source": "The Washington Post",
-        "pubdate": "Sun, 26 Jul 2026 01:37:27 GMT",
-        "pubdate_iso": "2026-07-26T01:37:27+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
       }
     ]
   },
   "stats": {
-    "total_noticias": 22,
+    "total_noticias": 20,
     "por_categoria": {
       "fed_tasas": 5,
       "mercado": 5,
-      "tech_nasdaq": 5,
+      "tech_nasdaq": 4,
       "economia": 0,
       "earnings": 5,
-      "sentimiento": 2
+      "sentimiento": 1
     }
   },
   "resumen_ejecutivo": {
@@ -364,7 +336,7 @@
     "score_neto": 0,
     "n_positivas": 0,
     "n_negativas": 0,
-    "n_neutrales": 22,
+    "n_neutrales": 20,
     "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
     "narrativa_fuente": "plantilla",
     "veredicto": "NEUTRAL - sin sesgo dominante"
