@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-30T08:33:31.937402+00:00",
+  "updated_at_utc": "2026-07-30T09:03:29.845950+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -94,6 +94,20 @@
         }
       },
       {
+        "title": "Nvidia Biggest AI Bet Yet Has Wall Street Asking New Questions",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOY0NzbWpWdnQ0akV6M0haOVpZMGMxSzZJcC1BbEFFYV9DVE5TSjBJcU5OMHVRejY2VVk0MjRHMGtBSjhnaHZFcW1tYmIyZHpYTm1QVmNjRlgwcVhGSGlWWTNicDNrdkNRMU9pQVBLcTd0a1lyVnEzTGZEa0k0SUk0V196U2lKNlNPTkVVcjdlUUR5bDRRdXV4NmlDTFZpWVFoVEV6dXJpNkJ0UWN6c19CMDVBcVVaOGtac1p3a2RB?oc=5",
+        "source": "es.tradingview.com",
+        "pubdate": "Wed, 29 Jul 2026 13:51:02 GMT",
+        "pubdate_iso": "2026-07-29T13:51:02+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
         "title": "Top Bank Has a Stark Warning for Nvidia Stock Investors",
         "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOaHIwdFNpSEF2eTFzQTUzZGs1UUd4WHROV1U0NmhvZXRhLUYtTHFEMGxkZVRjbU5WcGhuZDh4cjRka1JMeDUzYzJCS21NRUxubGh4S3FNUWl0OG03dUY4ZXlERGFiRWxNMUhySmpxZ2M5Y0FYU3BWMzliSHFyLUE5RzhVYXNyZ2h2TkJjdVdzeUFWTU5KS2FDYnhtQ2RBUVhNMGRyLWVET19CWFVpaU5NQ2ZScHg?oc=5",
         "source": "es.tradingview.com",
@@ -133,20 +147,6 @@
           "intensidad_label": "fuerte",
           "emoji": "🔴🔴",
           "razonamiento": "Alerta de burbuja"
-        }
-      },
-      {
-        "title": "Nvidia's Reported $5B SSI Investment Fails To Lift NVDA Stock Amid Chip Stocks Selloff",
-        "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOZldZQmhhcGxoTENVdFhOR0otV2xvQW10VUhQR0RKakdBcGRIMTA5cUMwamM3ZWNfMWRDSkZYaXh1NTJCVjZSMUozYXNkMWVWcC0tZzRaeXRUc1hBRG1NZ0VibDZiRVJ6aHJPT2VKNlVEa19NR09oZGFGNHNnRy1VbDNsQkpNa0VIdW1IZ0dBdENhUWxNRmZMRlFTalh0TE9NcTJyMHgtcF9uc3h3VWh3NDZlazJQM1FNbTBiUExYQzd0N0lQbm1aZE9lcXAzdUZzNnRhcnp2SEdmb3F0WlE?oc=5",
-        "source": "es.tradingview.com",
-        "pubdate": "Tue, 28 Jul 2026 10:18:02 GMT",
-        "pubdate_iso": "2026-07-28T10:18:02+00:00",
-        "impacto": {
-          "direccion": "negativo",
-          "intensidad": 3,
-          "intensidad_label": "fuerte",
-          "emoji": "🔴🔴",
-          "razonamiento": "Selloff: presion vendedora"
         }
       }
     ],
@@ -305,13 +305,13 @@
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "levemente bajista",
-    "score_neto": -2,
+    "sentimiento": "neutral",
+    "score_neto": 1,
     "n_positivas": 2,
-    "n_negativas": 2,
-    "n_neutrales": 15,
-    "narrativa": "El feed muestra 2 senales positivas y 2 negativas (neto -2). Factores dominantes: Alerta de burbuja; Selloff: presion vendedora.",
+    "n_negativas": 1,
+    "n_neutrales": 16,
+    "narrativa": "El feed muestra 2 senales positivas y 1 negativas (neto +1). Factores dominantes: Alerta de burbuja; Demanda de chips: soporte tech.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "Levemente BAJISTA"
+    "veredicto": "NEUTRAL - sin sesgo dominante"
   }
 }
