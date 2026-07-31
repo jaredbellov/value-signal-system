@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-31T18:33:29.580243+00:00",
+  "updated_at_utc": "2026-07-31T19:03:30.484307+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -27,6 +27,20 @@
         "source": "TradingView",
         "pubdate": "Thu, 30 Jul 2026 18:56:25 GMT",
         "pubdate_iso": "2026-07-30T18:56:25+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Key facts: Tesla, Inc. down ~18%; FSD $1.8B vs $350B; AI5/AI6 rollout",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOR05uM2NrS1Znel9veV9WU2UwQmRSOFhuVU1CZkFVd1hHSUtNLUxTWGs0YlhORG41Ry1OTVp5TkxGWmt5NU84THNwZkRNd3FtQXRMU19WRlZOVWttU0hlVDhqV0FqMEJsd0FGZE9ZcE04eDN4WmZiVEs1SFk1Q0hONjVhU1QyUjdpczh0bUZVNnR2bE1mN1pJZ3FzSXptVUJTZzdtdnBKdTRqdk40Slhsb3ZPSk4tSmxRbzVsajVn?oc=5",
+        "source": "TradingView",
+        "pubdate": "Thu, 30 Jul 2026 07:15:47 GMT",
+        "pubdate_iso": "2026-07-30T07:15:47+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -296,9 +310,9 @@
     ]
   },
   "stats": {
-    "total_noticias": 19,
+    "total_noticias": 20,
     "por_categoria": {
-      "tesla": 4,
+      "tesla": 5,
       "nvidia": 5,
       "ia_semis": 5,
       "macro_tech": 5
@@ -309,7 +323,7 @@
     "score_neto": 0,
     "n_positivas": 0,
     "n_negativas": 0,
-    "n_neutrales": 19,
+    "n_neutrales": 20,
     "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
     "narrativa_fuente": "plantilla",
     "veredicto": "NEUTRAL - sin sesgo dominante"
