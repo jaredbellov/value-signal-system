@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-31T14:39:37.621122+00:00",
+  "updated_at_utc": "2026-07-31T16:39:36.965911+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "precio": {
@@ -246,6 +246,20 @@
     ],
     "bancos_centrales": [
       {
+        "title": "Reservas de oro de los bancos centrales, según datos del FMI",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQM3Q0bEZfN24xdGsyZFUtR2FNaDlVLW5NRUgzdzRKcDgwbDQ3LXpIVDBGOWJ3Sk5kcXNQMmNrZnhsSGN6YUVGNVRBeFA5WHlDNU1BcGR0MzNzRGdlbmJQbzAzVFlObExLV2loVVJMQUFlM2VUVkVYTmRpaU8wWmtLaml1OUFoSG1qNURKNmU5bWFaUWd5QmZRRmNjMDNLNjlPNDBiMzEtSVc5V2ttV0lDMEMteXF5Zw?oc=5",
+        "source": "MarketScreener España",
+        "pubdate": "Fri, 31 Jul 2026 16:13:43 GMT",
+        "pubdate_iso": "2026-07-31T16:13:43+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🟢",
+          "razonamiento": "Acumulacion de reservas de oro"
+        }
+      },
+      {
         "title": "Amundi Physical Metals plc: Final Terms",
         "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQS3J3Uk96TG1ncXZLdnZEVzBFa29fVEJPOE9rVkVaV2REeGZEakk0b1JRTW9ueXJ2TUJ5TFN6Tm9VZkZwR1FSVlcxYTl2TWdCNWVnbm1icVU3VjEzdnhkYkZmYUkxMGF2X084RE42a0RyZVE2R01nWEU4ekpNLXRVM2VuaHgxaldLRTk4TmNQYVhmTDFoNEww?oc=5",
         "source": "TradingView",
@@ -299,20 +313,6 @@
           "intensidad_label": "neutral",
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Gold demand steady in second quarter as central bank buying offsets ETF outflows",
-        "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPZlEyUmdnNEUwNFloSXZXbEVFVlppSHpDYXBINmN2UUJhZF9sZFJKVlNtYU13RmZWWmtmQ1BHeDRzcjBDODRaN3p4bmdMcTJDejg2ZUJWNndWMmJNckRyLWFFdzFiVXhfRTdidjhnU1pXOF9PeV9kZFhVS2h2YnJaUlg0MmNuZXBlSUZwYWtQeTRDemIxVWdfSURGeXZtM1l3Uk51VnJLeTl0VTM5V3VfOWFaLUpQVEtXRzd2aDJta2VsbVZTQjMyczZpbE5HeTYzTjdSM0hmUm9ubVc4c19MNk1RUQ?oc=5",
-        "source": "TradingView",
-        "pubdate": "Thu, 30 Jul 2026 15:50:33 GMT",
-        "pubdate_iso": "2026-07-30T15:50:33+00:00",
-        "impacto": {
-          "direccion": "positivo",
-          "intensidad": 3,
-          "intensidad_label": "fuerte",
-          "emoji": "🟢🟢",
-          "razonamiento": "Bancos centrales comprando oro: demanda institucional"
         }
       }
     ],
@@ -432,11 +432,11 @@
   },
   "resumen_ejecutivo": {
     "sentimiento": "alcista",
-    "score_neto": 7,
+    "score_neto": 6,
     "n_positivas": 4,
     "n_negativas": 1,
     "n_neutrales": 22,
-    "narrativa": "El feed muestra 4 senales positivas y 1 negativas (neto +7). Factores dominantes: Bancos centrales comprando oro: demanda institucional; Dolar debil favorece oro.",
+    "narrativa": "El feed muestra 4 senales positivas y 1 negativas (neto +6). Factores dominantes: Dolar debil favorece oro; Acumulacion de reservas de oro.",
     "narrativa_fuente": "plantilla",
     "veredicto": "ALCISTA a corto plazo"
   }
