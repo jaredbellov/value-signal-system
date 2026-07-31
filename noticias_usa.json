@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-07-31T11:03:30.188456+00:00",
+  "updated_at_utc": "2026-07-31T11:33:31.498166+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -266,6 +266,20 @@
         }
       },
       {
+        "title": "Indian Stocks Inch Higher",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPSzU5V284ZmtocWZ4b2NGMWJZaWk1NzNKUWtmak5DM2lBa3B5Y0V3MGM2ME9OZ2RpeXJlR1JxQ0pQYXBnM1JPSXRHOTBzQXdBVF9rbDdqMUVPU3FLSVhYQjN6MXd0OFlZa09vUEdIM3VPbzBmUzBlX1VLU0hjbFh1SA?oc=5",
+        "source": "TradingView",
+        "pubdate": "Thu, 30 Jul 2026 11:08:03 GMT",
+        "pubdate_iso": "2026-07-30T11:08:03+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
         "title": "Nasdaq, S&P 500 Futures Rise: Microsoft Lifts AI Mood, Meta Sinks, Investors Brace For Apple, Amazon And PCE – Why MU, IBRX, CAPR, SBUX Are In Focus",
         "link": "https://news.google.com/rss/articles/CBMipAJBVV95cUxPaDhxNG5UaFBJbHloNXlKOE5EcEwwZ1JQdUJhLXN0YjFkUm8ybklpUTFya2dDenQyOGwyTWNVN0sxQWlRd05JR0JlR3dVR3k2V3lUNHZzUTJpZUtuOHd3TTdmLWRUZUUxWE45NXZHTGtCZ19zYlA4TmF1ZWhFWGR4aUEzWlBXZExGcl9INUxxM2djb0JrdTdfcWViSlFLR2sxWldPOFAwUkJXVjVoRHFlNTJpRy1LRzVJZEx5TWFweEVnYktjbS11S25CUkZiMGlrWVFDX1RtLVBtMnRYLW5JTU5pV210MlJhZXZhRjdxbDRKZEppZV9sM05ZcFpkUjhoNnladDlVT1FBRUwyR0VNVHd6QllQc0FOdEJJM2g1Z0ZYcTBH?oc=5",
         "source": "TradingView",
@@ -292,20 +306,6 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
-      },
-      {
-        "title": "Dow Sees Worst Day In Over A Year, Nasdaq Enters Correction Territory As Fed Decision Piques Inflation Concerns — SPCX, CAT, ADBE, SOFI, HIMS Stock In Focus",
-        "link": "https://news.google.com/rss/articles/CBMiswJBVV95cUxOdEwyMkNobG56aXN6b1N1VXBXQVhKdnZmWG5oX2x1VVlZRzZUMV9oVERZZVZiNnAtUUMtelJGc1pjcUM1TXRJX21qWjNWdXlfUFVRNVp6SGVYX2p0Q2hTdGlmWXBnY291R3h2bWFTMzIwcGpMSmNjWHBTMUdwVjRoN3BEUkhtVURjLUxoS0xpU19KYnV2ejhBT1ZNRUVkZVVoSHZ6MkxuVUhGUnF5NFgybmxGenkwUE5NZGUtT2ZpTE9mSEFlX3RXaUlmd0kxVm5YQ1ZucWJaWmMxOGVqR09Oa1c1dU9YN210QTVSV3VUWjNJTFc5Xy1xNDgwbjkyWnZNZGt2U21RN0sxekp3RTM1MUpIT0dqLXJTNDFycXRWRlRQbDBRWWVvQUtoVi1zOVNkQUpr?oc=5",
-        "source": "TradingView",
-        "pubdate": "Wed, 29 Jul 2026 23:00:13 GMT",
-        "pubdate_iso": "2026-07-29T23:00:13+00:00",
-        "impacto": {
-          "direccion": "negativo",
-          "intensidad": 2,
-          "intensidad_label": "moderado",
-          "emoji": "🔴",
-          "razonamiento": "Correccion en curso o anticipada"
-        }
       }
     ]
   },
@@ -319,13 +319,13 @@
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "levemente bajista",
-    "score_neto": -2,
+    "sentimiento": "neutral",
+    "score_neto": 0,
     "n_positivas": 0,
-    "n_negativas": 1,
-    "n_neutrales": 19,
-    "narrativa": "El feed muestra 0 senales positivas y 1 negativas (neto -2). Factores dominantes: Correccion en curso o anticipada.",
+    "n_negativas": 0,
+    "n_neutrales": 20,
+    "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "Levemente BAJISTA"
+    "veredicto": "NEUTRAL - sin sesgo dominante"
   }
 }
