@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-08-02T21:26:56.090484+00:00",
+  "updated_at_utc": "2026-08-02T23:26:56.574474+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "fed_tasas": {
@@ -258,20 +258,6 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
-      },
-      {
-        "title": "US filings for jobless benefits rise to 197,000 last week, but layoffs remain historically low",
-        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQOWV2ZGZ3N0I3YUVXWlhzNnBmVzY1dXFNQTVPVGJUZmYxTi12bUJQWnNMMkxDLUYxNnh2YXR2VnBuS21fcWdGaTB2SnlEanhTb3B3ZEhXM3BFRE8wLWpHUTJhRk1EdFV1NUlzNkc2SC1QbkxjcGM4eUYyN0Q0ZEdSc1hmbFdrV2NFSExoVFk2YXdIQUZMUEtOTGpfaEdMb2lOTXZ4UU01QktVeWV5bGdsZEgydDdoaTlHNks0ZzVJSkN3WmhCOEIwWHNlaU0wblZwdHhJ?oc=5",
-        "source": "La Nación",
-        "pubdate": "Thu, 30 Jul 2026 23:05:00 GMT",
-        "pubdate_iso": "2026-07-30T23:05:00+00:00",
-        "impacto": {
-          "direccion": "negativo",
-          "intensidad": 2,
-          "intensidad_label": "moderado",
-          "emoji": "🔴",
-          "razonamiento": "Despidos: senal de desaceleracion"
-        }
       }
     ],
     "earnings": [
@@ -392,24 +378,24 @@
     ]
   },
   "stats": {
-    "total_noticias": 25,
+    "total_noticias": 24,
     "por_categoria": {
       "fed_tasas": 5,
       "mercado": 5,
       "tech_nasdaq": 5,
-      "economia": 2,
+      "economia": 1,
       "earnings": 5,
       "sentimiento": 3
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "bajista",
-    "score_neto": -5,
+    "sentimiento": "levemente bajista",
+    "score_neto": -3,
     "n_positivas": 0,
-    "n_negativas": 2,
+    "n_negativas": 1,
     "n_neutrales": 23,
-    "narrativa": "El feed muestra 0 senales positivas y 2 negativas (neto -5). Factores dominantes: Fed hawkish: rate hike presiona equities; Despidos: senal de desaceleracion.",
+    "narrativa": "El feed muestra 0 senales positivas y 1 negativas (neto -3). Factores dominantes: Fed hawkish: rate hike presiona equities.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "BAJISTA a corto plazo"
+    "veredicto": "Levemente BAJISTA"
   }
 }
