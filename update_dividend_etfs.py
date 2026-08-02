@@ -33,7 +33,7 @@ OUTPUT_FILE = SCRIPT_DIR / "dividend_etfs_data.json"
 
 # Aportes base por defecto (solo para el calculo del aporte sugerido inicial -
 # el dashboard recalcula con el aporte real del usuario)
-APORTES_DEFAULT = {"SCHD": 140, "JEPQ": 60, "VNQ": 100, "VNQI": 80}
+APORTES_DEFAULT = {"SCHD": 140, "JEPQ": 60, "VNQ": 100, "VNQI": 80, "DGRO": 100}
 
 # Config de ETFs: (ticker, categoria, nombre, descripcion).
 # categoria "dividend" -> SCHD/JEPQ ; categoria "reit" -> VNQ/VNQI (inmobiliario).
@@ -41,16 +41,25 @@ APORTES_DEFAULT = {"SCHD": 140, "JEPQ": 60, "VNQ": 100, "VNQI": 80}
 # drawdown, DGR, momentum): un REIT-ETF se evalua por flujo, no por crecimiento.
 ETFS_CONFIG = [
     ("SCHD", "dividend", "Schwab US Dividend Equity",
-     "ETF de dividendos de calidad (~100 empresas USA con dividendos crecientes y solidos). Bajo costo."),
+     "~100 empresas americanas 'aburridas y buenas' que llevan anos pagando y subiendo dividendos "
+     "(Coca-Cola, Merck, Abbott...). Dividendo ~3.5% que ademas crece cada ano. "
+     "El caballo de batalla del inversor dividendero."),
     ("JEPQ", "dividend", "JPMorgan Nasdaq Equity Premium",
-     "Genera ingreso via covered calls sobre el Nasdaq. Yield alto pero menor potencial de apreciacion."),
+     "Paga una renta mensual alta (~9% al ano) que genera vendiendo opciones sobre las tecnologicas "
+     "del Nasdaq. El costo: cuando la bolsa vuela, este fondo sube menos. "
+     "Es para tener flujo hoy, no para crecimiento."),
+    ("DGRO", "dividend", "iShares Core Dividend Growth",
+     "~440 empresas americanas que llevan 5+ anos subiendo su dividendo todos los anos, filtrando "
+     "las 'trampas' de yields altos insostenibles. El dividendo parte chico (~2%) pero crece contigo: "
+     "es plantar un arbol, no cosechar hoy."),
     ("VNQ",  "reit", "Vanguard Real Estate ETF",
-     "REITs de EE.UU. (centros comerciales, bodegas, oficinas, data centers). El mas grande y liquido del sector. "
-     "El beneficio va por el dividendo, no por apreciacion: por ley reparte ~90% de utilidades. Sensible a tasas. "
-     "OJO: parte del yield es retorno de capital por depreciacion contable."),
+     "Los grandes 'caseros' de EE.UU.: empresas duenas de bodegas, malls, torres de celular y data "
+     "centers que cobran arriendo. Por ley reparten ~90% de sus utilidades como dividendo. "
+     "Sensible a las tasas de interes; parte del yield es devolucion de capital."),
     ("VNQI", "reit", "Vanguard Global ex-US Real Estate",
-     "REITs internacionales (>700, ex-EE.UU.): Asia-Pacifico, Europa. Mayor yield y valoracion mas barata (P/B ~0.9x). "
-     "No correlacionado con REITs USA: aporta diversificacion real. Mismo criterio: se juzga por yield sostenible, no por precio."),
+     "Lo mismo que VNQ pero fuera de EE.UU. (Asia y Europa, +700 inmobiliarias que reparten arriendos). "
+     "Paga mas yield y esta mas barato, a cambio de riesgo cambiario. "
+     "Diversifica de verdad: no se mueve igual que el ladrillo americano."),
 ]
 
 

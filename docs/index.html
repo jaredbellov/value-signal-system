@@ -1804,6 +1804,28 @@ function viewHead(em, title, stamp, sub){
 const ETF_PESOS = {dy_vs_historico:35, drawdown:25, balance_cagr:15, momentum:10, dgr:15};
 
 /* =================== ETFs USA =================== */
+/* ---------- Comparativo: top 5 participaciones por ETF ---------- */
+function compEtfsBlock(){
+  const D=[
+    {t:"CFISPETF",k:"Growth · S&P 500",top:"NVDA ~7% · MSFT ~7% · AAPL ~6% · AMZN ~4% · META ~3%"},
+    {t:"CFINASDAQ",k:"Growth · Nasdaq 100",top:"NVDA ~9% · MSFT ~8% · AAPL ~8% · AVGO ~6% · AMZN ~5%"},
+    {t:"MTUM",k:"Growth · rota 2x/año ⚠️",top:"MU 6,4% · AMD 5,5% · AVGO 4,5% · INTC 4,1% · CAT 3,9%"},
+    {t:"SCHD",k:"Dividend growth",top:"ABT 4,7% · AMGN 4,4% · MRK 4,4% · UNH 4,3% · KO 4,3%"},
+    {t:"JEPQ",k:"Dividend · opciones",top:"≈ Nasdaq 100 (NVDA · MSFT · AAPL · AVGO · AMZN) + venta de calls"},
+    {t:"DGRO",k:"Dividend growth",top:"JPM ~3% · MSFT ~3% · ABBV ~3% · XOM ~3% · JNJ ~2,5%"},
+    {t:"VNQ",k:"REIT USA",top:"WELL 7,7% · PLD 7,1% · EQIX 5,6% · AMT 4,7% · SPG ~4%"},
+    {t:"VNQI",k:"REIT ex-USA",top:"Goodman ~4% · Mitsui F. ~3% · Mitsubishi E. ~3% · Vonovia ~2% · Sun Hung Kai ~2%"},
+  ];
+  const cards=D.map(d=>`<div style="background:var(--bg-2,#141b26);border:1px solid #26334a;border-radius:10px;padding:10px 12px">
+      <div style="display:flex;gap:8px;align-items:baseline"><b>${d.t}</b><span class="hint">${d.k}</span></div>
+      <div class="hint" style="margin-top:4px;line-height:1.5;color:#aebbd0">${d.top}</div>
+    </div>`).join("");
+  return `<details class="panel" style="margin-top:18px"><summary style="cursor:pointer;font-weight:600">\ud83e\udde9 Comparativo: ¿qué hay dentro de cada ETF? · top 5 participaciones</summary>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:10px;margin-top:12px">${cards}</div>
+    <div class="hint" style="margin-top:10px;line-height:1.5">Cartera de referencia a <b>jul-2026</b> (los pesos cambian con el tiempo; ⚠️ MTUM rota su cartera cada 6 meses, sus top 5 caducan rápido). Dato clave: <b>CFISPETF, CFINASDAQ y JEPQ comparten las mismas mega-caps</b> (NVDA/MSFT/AAPL) — son 3 vehículos distintos sobre motores parecidos; la diversificación real la aportan SCHD/DGRO (dividendos), VNQ/VNQI (ladrillo) y las chilenas.</div>
+  </details>`;
+}
+
 function renderETFs(param){
   if(param) return renderETFsDetail(param);
   const e = VS.data.etfs;
@@ -1817,7 +1839,7 @@ function renderETFs(param){
   const divEtfs = allDiv.filter(x=>(x.categoria||"dividend")!=="reit");
   const reitEtfs = allDiv.filter(x=>x.categoria==="reit");
   // Growth ETFs (CFISPETF/CFINASDAQ) vienen de sp_nq
-  const growthOrder = ["CFISPETF","CFINASDAQ","SOXX","ICLN","QCLN"];
+  const growthOrder = ["CFISPETF","CFINASDAQ","MTUM","SOXX","ICLN","QCLN"];
   const growthEtfs = (g && g.etfs) ? growthOrder.filter(t=>g.etfs[t]).map(t=>g.etfs[t]) : [];
 
   const sidebar = `<div><div class="sidebar-news">
@@ -1830,13 +1852,13 @@ function renderETFs(param){
   let main = "";
   if(growthEtfs.length){
     main += `<div class="section-title" style="margin-top:0">Growth ETFs · Racional
-      <span class="hint" style="text-transform:none;letter-spacing:0;font-weight:400">índices (CLP, Racional) + temáticos IA y energía (USD) · crecimiento, se evalúan por valuación</span>
+      <span class="hint" style="text-transform:none;letter-spacing:0;font-weight:400">índices (CLP, Racional) + momentum (USD) · crecimiento, se evalúan por valuación</span>
       <span class="rule"></span></div>
       <div class="grid rows2">${growthEtfs.map(x=>etfRow(x,"growth")).join("")}</div>`;
   }
   if(divEtfs.length){
     main += `<div class="section-title">Dividend ETFs
-      <span class="hint" style="text-transform:none;letter-spacing:0;font-weight:400">SCHD · JEPQ — score de timing para DCA</span>
+      <span class="hint" style="text-transform:none;letter-spacing:0;font-weight:400">SCHD · JEPQ · DGRO — score de timing para DCA</span>
       <span class="rule"></span></div>
       <div class="grid rows2">${divEtfs.map(x=>etfRow(x,"div")).join("")}</div>`;
   }
@@ -1847,6 +1869,7 @@ function renderETFs(param){
       <div class="grid rows2">${reitEtfs.map(x=>etfRow(x,"reit")).join("")}</div>`;
   }
 
+  main += compEtfsBlock();
   const allTk = [...growthEtfs,...divEtfs,...reitEtfs].map(x=>x.ticker).join(" · ");
   return viewHead("📊","ETFs USA", srcStamp("etfs"),
     "ETFs · score de timing para DCA · "+allTk) +

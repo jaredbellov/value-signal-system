@@ -42,10 +42,10 @@ ETFS = {
         "aporte_base_usd": APORTE_SP500,
         "long_name": "FI ETF Singular S&P 500",
         "description": (
-            "ETF de Singular AGF que replica el S&P 500: las ~500 mayores empresas de "
-            "EEUU (cubre ~80% del mercado accionario norteamericano), con sectores "
-            "diversificados. Accesible desde Chile via Racional, en CLP. Estrategia "
-            "pasiva. El score se calcula sobre el indice subyacente con CAPE de Shiller."
+            "Compra de una sola vez las ~500 empresas mas grandes de EEUU (Apple, "
+            "Microsoft, bancos, farmaceuticas...). Es 'comprar todo el mercado "
+            "americano'. Se contrata desde Chile en pesos, via Racional. "
+            "La base de largo plazo de cualquier cartera."
         ),
         "usa_cape_oficial": True,
     },
@@ -56,11 +56,27 @@ ETFS = {
         "aporte_base_usd": APORTE_NASDAQ,
         "long_name": "FI ETF Singular Nasdaq 100",
         "description": (
-            "ETF de Singular AGF que replica el Nasdaq 100: las 100 mayores companias "
-            "no-financieras del Nasdaq, con fuerte sesgo tecnologico (Apple, Microsoft, "
-            "Nvidia, Google, Amazon, Meta). Accesible desde Chile via Racional, en CLP. "
-            "El score usa un proxy de valuacion (precio vs media movil 10 anos) porque "
-            "el CAPE oficial de Shiller solo existe para el S&P 500."
+            "Las 100 empresas tecnologicas mas grandes de EEUU (Nvidia, Apple, Google, "
+            "Amazon...). Mas potencial de crecimiento que el S&P 500, pero con caidas "
+            "mas fuertes cuando la tecnologia sufre. En pesos, via Racional."
+        ),
+        "usa_cape_oficial": False,
+    },
+    "MTUM": {
+        "indice": "MSCI USA Momentum",
+        "indice_ticker": "MTUM",
+        "etf_ticker_yf": "MTUM",
+        "aporte_base_usd": 60,
+        "long_name": "iShares MSCI USA Momentum Factor",
+        "emisor": "iShares (BlackRock)",
+        "moneda_etf": "USD",
+        "es_tematico": True,
+        "sector": "Momentum",
+        "description": (
+            "Compra lo que viene subiendo con fuerza y suelta lo que se freno, "
+            "rotando la cartera 2 veces al ano. No es para dividendos: es para "
+            "surfear las tendencias del mercado. Brilla en rachas largas, sufre "
+            "en los giros bruscos. En USD, via broker."
         ),
         "usa_cape_oficial": False,
     },
@@ -87,19 +103,23 @@ def main():
     nasdaq = fetch_monthly("^NDX")
     rate_10y = fetch_monthly("^TNX")
     rate_3m = fetch_monthly("^IRX")
+    mtum_m = fetch_monthly("MTUM")
     if sp500 is None or nasdaq is None or len(sp500) < 120:
         log("ERROR: datos de indices insuficientes — se conserva el JSON anterior")
         sys.exit(1)
 
     data = pd.DataFrame({"sp500": sp500, "nasdaq": nasdaq,
                          "rate_10y": rate_10y, "rate_3m": rate_3m})
+    if mtum_m is not None:
+        data["mtum"] = mtum_m
     data["yield_curve"] = data["rate_10y"] - data["rate_3m"]
 
     log("Descargando CAPE oficial...")
     cape_official = fetch_cape_official()
     log(f"  CAPE: {'OK ' + str(round(float(cape_official.iloc[-1]),2)) if cape_official is not None else 'no disponible, usando proxy'}")
 
-    series = {"CFISPETF": ("sp500", cape_official), "CFINASDAQ": ("nasdaq", None)}
+    series = {"CFISPETF": ("sp500", cape_official), "CFINASDAQ": ("nasdaq", None),
+              "MTUM": ("mtum", None)}
     etfs_out, fallidos = {}, []
 
     for tk, meta in ETFS.items():
@@ -129,8 +149,10 @@ def main():
                 "indice": meta["indice"],
                 "indice_ticker": meta["indice_ticker"],
                 "long_name": meta["long_name"],
-                "emisor": "Singular AGF",
-                "moneda_etf": "CLP",
+                "emisor": meta.get("emisor", "Singular AGF"),
+                "moneda_etf": meta.get("moneda_etf", "CLP"),
+                "es_tematico": meta.get("es_tematico", False),
+                "sector": meta.get("sector", "Indice"),
                 "description": meta["description"],
                 "cape_oficial": meta["usa_cape_oficial"],
                 "precio_indice": round(float(last["price"]), 2),
@@ -143,6 +165,8 @@ def main():
                 "aporte_base_usd": meta["aporte_base_usd"],
                 "aporte_sugerido_usd": round(meta["aporte_base_usd"] * mult, 0),
                 "precio_etf_clp": round(etf_px["current"], 2) if etf_px else None,
+                "precio_etf_usd": (round(etf_px["current"], 2)
+                                   if (etf_px and meta.get("es_tematico")) else None),
                 "fecha_precio_etf": etf_px["date"] if etf_px else None,
                 "rango_365_clp": ({"min": round(etf_px["r365"]["min"], 2),
                                    "max": round(etf_px["r365"]["max"], 2)}

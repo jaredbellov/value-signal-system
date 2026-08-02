@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-08-02T16:25:06.420858+00:00",
+  "updated_at_utc": "2026-08-02T16:39:47.347826+00:00",
   "etfs": {
     "SCHD": {
       "ticker": "SCHD",
@@ -35,7 +35,7 @@
       "aporte_base_usd": 140,
       "aporte_sugerido_usd": 140.0,
       "aporte_sugerido_clp": null,
-      "fecha_analisis": "2026-08-02T12:25:05.621034",
+      "fecha_analisis": "2026-08-02T12:39:45.935634",
       "ultima_fecha_dato": "2026-07-31",
       "historico": [
         {
@@ -5137,7 +5137,7 @@
       ],
       "categoria": "dividend",
       "nombre": "Schwab US Dividend Equity",
-      "descripcion": "ETF de dividendos de calidad (~100 empresas USA con dividendos crecientes y solidos). Bajo costo."
+      "descripcion": "~100 empresas americanas 'aburridas y buenas' que llevan anos pagando y subiendo dividendos (Coca-Cola, Merck, Abbott...). Dividendo ~3.5% que ademas crece cada ano. El caballo de batalla del inversor dividendero."
     },
     "JEPQ": {
       "ticker": "JEPQ",
@@ -5173,7 +5173,7 @@
       "aporte_base_usd": 60,
       "aporte_sugerido_usd": 90.0,
       "aporte_sugerido_clp": null,
-      "fecha_analisis": "2026-08-02T12:25:05.863366",
+      "fecha_analisis": "2026-08-02T12:39:46.387413",
       "ultima_fecha_dato": "2026-07-31",
       "historico": [
         {
@@ -9435,7 +9435,7 @@
       ],
       "categoria": "dividend",
       "nombre": "JPMorgan Nasdaq Equity Premium",
-      "descripcion": "Genera ingreso via covered calls sobre el Nasdaq. Yield alto pero menor potencial de apreciacion."
+      "descripcion": "Paga una renta mensual alta (~9% al ano) que genera vendiendo opciones sobre las tecnologicas del Nasdaq. El costo: cuando la bolsa vuela, este fondo sube menos. Es para tener flujo hoy, no para crecimiento."
     },
     "VNQ": {
       "ticker": "VNQ",
@@ -9471,7 +9471,7 @@
       "aporte_base_usd": 100,
       "aporte_sugerido_usd": 100.0,
       "aporte_sugerido_clp": null,
-      "fecha_analisis": "2026-08-02T12:25:06.138639",
+      "fecha_analisis": "2026-08-02T12:39:46.888432",
       "ultima_fecha_dato": "2026-07-31",
       "historico": [
         {
@@ -14573,7 +14573,7 @@
       ],
       "categoria": "reit",
       "nombre": "Vanguard Real Estate ETF",
-      "descripcion": "REITs de EE.UU. (centros comerciales, bodegas, oficinas, data centers). El mas grande y liquido del sector. El beneficio va por el dividendo, no por apreciacion: por ley reparte ~90% de utilidades. Sensible a tasas. OJO: parte del yield es retorno de capital por depreciacion contable."
+      "descripcion": "Los grandes 'caseros' de EE.UU.: empresas duenas de bodegas, malls, torres de celular y data centers que cobran arriendo. Por ley reparten ~90% de sus utilidades como dividendo. Sensible a las tasas de interes; parte del yield es devolucion de capital."
     },
     "VNQI": {
       "ticker": "VNQI",
@@ -14609,7 +14609,7 @@
       "aporte_base_usd": 80,
       "aporte_sugerido_usd": 80.0,
       "aporte_sugerido_clp": null,
-      "fecha_analisis": "2026-08-02T12:25:06.410253",
+      "fecha_analisis": "2026-08-02T12:39:47.341998",
       "ultima_fecha_dato": "2026-07-31",
       "historico": [
         {
@@ -19711,8 +19711,10 @@
       ],
       "categoria": "reit",
       "nombre": "Vanguard Global ex-US Real Estate",
-      "descripcion": "REITs internacionales (>700, ex-EE.UU.): Asia-Pacifico, Europa. Mayor yield y valoracion mas barata (P/B ~0.9x). No correlacionado con REITs USA: aporta diversificacion real. Mismo criterio: se juzga por yield sostenible, no por precio."
+      "descripcion": "Lo mismo que VNQ pero fuera de EE.UU. (Asia y Europa, +700 inmobiliarias que reparten arriendos). Paga mas yield y esta mas barato, a cambio de riesgo cambiario. Diversifica de verdad: no se mueve igual que el ladrillo americano."
     }
   },
-  "fallidos": []
+  "fallidos": [
+    "DGRO"
+  ]
 }
