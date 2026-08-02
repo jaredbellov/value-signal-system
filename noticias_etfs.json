@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-08-02T16:16:50.391596+00:00",
+  "updated_at_utc": "2026-08-02T17:26:56.582842+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "fed_tasas": {
@@ -174,6 +174,20 @@
     ],
     "tech_nasdaq": [
       {
+        "title": "Earnings To Watch: UFP Technologies (UFPT) Reports Q2 Results Tomorrow",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOMi1rVkh0MU9Wd2xfRjBRWnZIaXFzbXA3OTNxQ3dYZlpzNF94RTZnY3cwUU9SMTVlNEJWcEQyd2tFX3FUbW5tSEJCT3pvdWFFMFozaGRfbDlqSXhHQzUzczhBZ2NVbUVyY1dSdDljcFVGVGNVSVZYdHhMajJCcGU3dEZMakQySFNCSmR5d1NuZ3dFQWhQMlcxVjFjR0pLZVpwLUtfTEZzMms5Nl9FdDJXRHRNcmFZYklvRFpDempMbm13Vnk4aWc?oc=5",
+        "source": "TradingView",
+        "pubdate": "Sun, 02 Aug 2026 03:05:00 GMT",
+        "pubdate_iso": "2026-08-02T03:05:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
         "title": "Western Union Q2 Earnings Call Highlights",
         "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPRldydGFmN1ZSWnhsQVpRVy1Lb293M1NvRmZyV19TT0NlQ3oxb1k2WjhQVUZFcFJiaEszY19BUFphN0VZeWVETUViZGtVM1ltQzBlWGFHUU1zZUktSXpHbUFtWkVJcFBJa2JBY3dPckdSWUFOR0c5N0pkR3pscTNoSDlhQmRpT2hvOWlVVl9STmZnbEk2YmdOU096c1VPOUMwTGdJ?oc=5",
         "source": "TradingView",
@@ -228,20 +242,6 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
-      },
-      {
-        "title": "Stocks Turn Mixed as Bond Yields Jump",
-        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRndwR0tHc2UxVFFyZUt2UjB4MklVVzRnOUEwMnE2eTNaRXhscGNzaGNiWmVIN1lxUGlNRnVyVExMVEJ3eVh0bXpxU1dCVktJOGRGNWxMZkVLSnBtMjRZYjFnMHhoMWhvV3o2ajJ3d1hMTTRPZi1NYVk1MjF5UGQwOUExc2pLMzBZM1N0Z0JPMnZXQ0o4Vnh6Z1dUUQ?oc=5",
-        "source": "TradingView",
-        "pubdate": "Fri, 31 Jul 2026 15:31:58 GMT",
-        "pubdate_iso": "2026-07-31T15:31:58+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
       }
     ],
     "economia": [
@@ -271,20 +271,6 @@
           "intensidad_label": "moderado",
           "emoji": "🔴",
           "razonamiento": "Despidos: senal de desaceleracion"
-        }
-      },
-      {
-        "title": "Previsión del IPC en EE. UU. para 2026 y 2027 (actualizado)",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBFSzZDQWZtVkdQUlE5N2NQMWR0OU5YRVBYNkNGZ1JyaENweW9kc0JQaE0tTEc2S19WaTBUMDQ5UjFSeFdpRmRDYmEtNWFabngzRTF4OHdfVkdCaXFmc2JoSWhPU3dZbzFhQXc?oc=5",
-        "source": "Bankinter",
-        "pubdate": "Thu, 30 Jul 2026 16:38:40 GMT",
-        "pubdate_iso": "2026-07-30T16:38:40+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
         }
       }
     ],
@@ -420,12 +406,12 @@
     ]
   },
   "stats": {
-    "total_noticias": 27,
+    "total_noticias": 26,
     "por_categoria": {
       "fed_tasas": 5,
       "mercado": 5,
       "tech_nasdaq": 5,
-      "economia": 3,
+      "economia": 2,
       "earnings": 5,
       "sentimiento": 4
     }
@@ -435,7 +421,7 @@
     "score_neto": -5,
     "n_positivas": 0,
     "n_negativas": 2,
-    "n_neutrales": 25,
+    "n_neutrales": 24,
     "narrativa": "El feed muestra 0 senales positivas y 2 negativas (neto -5). Factores dominantes: Fed hawkish: rate hike presiona equities; Despidos: senal de desaceleracion.",
     "narrativa_fuente": "plantilla",
     "veredicto": "BAJISTA a corto plazo"
