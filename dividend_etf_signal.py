@@ -67,6 +67,24 @@ DIVIDEND_ETFS = {
         "yahoo_ticker": "JEPQ",
         "min_history_years": 1,  # JEPQ solo tiene ~4 años
     },
+    "DGRO": {
+        "name": "DGRO",
+        "long_name": "iShares Core Dividend Growth ETF",
+        "description": (
+            "ETF pasivo que replica el Morningstar US Dividend Growth Index. "
+            "~440 empresas USA con 5+ anos consecutivos subiendo su dividendo, "
+            "payout <75% y exclusion del decil de mayor yield (filtro anti-trampa). "
+            "Top holdings: JPMorgan, Microsoft, AbbVie, ExxonMobil, J&J. "
+            "Yield ~2% que crece ~6-7% anual: el interes compuesto del dividendo. "
+            "Dividendos cualificados. Expense ratio 0.08%. Trimestral."
+        ),
+        "type": "Pasivo - Dividend Growth",
+        "inception": "2014-06-10",
+        "expense_ratio": 0.0008,
+        "frequency": "Trimestral",
+        "yahoo_ticker": "DGRO",
+        "min_history_years": 3,
+    },
     "VNQ": {
         "name": "VNQ",
         "long_name": "Vanguard Real Estate ETF",
