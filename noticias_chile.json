@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-08-02T01:33:55.997699+00:00",
+  "updated_at_utc": "2026-08-02T03:33:55.454969+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "bcch_tpm": {
@@ -212,7 +212,7 @@
       {
         "title": "Dólar cae con fuerza en Chile y cierra bajo los $925 impulsado por el cobre",
         "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPZGVUa0VMTTdYQ1o5Q1FXVDFxY1RCc2xDRzg3Y2lSVmdpS3RMczM5NUJEYVFuR3dNR0UwT3NlOWxFYU5xZ3prTkFMYUExMHE4dmxwSkowYk1KZ0RKWEQ1eTByS0NiNG5EUl9lbVFGM0JFdTNSRDZwY1l2U0llWTdhaDhlM0NJcDUwU2ZldXJOWE5DZEROM3pzQWlQbVRicUVzck5fM2RZWHpOY0FDZkd2NkRZVzFqQ2VaU2Jnb0lsa3hpWm1hTGRKLVVfbS05SGM?oc=5",
-        "source": "Radio Agricultura",
+        "source": "radioagricultura.cl",
         "pubdate": "Thu, 30 Jul 2026 18:11:36 GMT",
         "pubdate_iso": "2026-07-30T18:11:36+00:00",
         "impacto": {
@@ -225,6 +225,20 @@
       }
     ],
     "economia_chile": [
+      {
+        "title": "Chile ante la amenaza de la recesión: cinco meses de caída encienden las alarmas",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRzZaeDdqSGE1Z3d0QmFDSkZReDhGRFBTb0RhSnRCVmw5RVJmVDNHNGQ0RzMwc3ZRaHNfWEwyLVdhQU53V2RMcl91bWd6dk5HTm9BUjJzd05DWktlel84QnY0TUtJejlQR0FoM2FBNnFSQlphMnotLURoeFhhTEZSZl81anlfblhBU3NLcmVVU0dtd3NoejdreDh1cGk2eTQ2ZVBXRjhITHZOX2RVREtZaFVTVzRJUQ?oc=5",
+        "source": "diarioangamos.com",
+        "pubdate": "Sun, 02 Aug 2026 02:16:09 GMT",
+        "pubdate_iso": "2026-08-02T02:16:09+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Riesgo de recesion: muy negativo"
+        }
+      },
       {
         "title": "¿Brotes verdes? Las proyecciones apuntan al primer crecimiento de la economía en 2026",
         "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5UeGl6TVpuRUxTX0NZR1pSSWMzN0ZUZzdiX2Q5NGc4aXZMbzN2U1NEVWFoUXE2SUNuYnhnTUJPS0ZvNGJzNkFycGxRMFNBNEl1QXlnTlVfRFc1Vmx2elpGY2ZrT3RqbUt1Q1E?oc=5",
@@ -306,7 +320,7 @@
     "NTGCLGAS": [
       {
         "title": "EMPRESAS GASCO S.A.: Junta extraordinaria de accionistas, citaciones, acuerdos y proposiciones",
-        "link": "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=9835fe7fac17ea6baae85ba06d986f77VFdwQmVVNXFRVE5OUkZFMVRXcFZkMDlSUFQwPQ==&secuencia=-1&t=1785634142",
+        "link": "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=9835fe7fac17ea6baae85ba06d986f77VFdwQmVVNXFRVE5OUkZFMVRXcFZkMDlSUFQwPQ==&secuencia=-1&t=1785641521",
         "pubdate": "28 jul 2026 18:35",
         "source": "CMF (Hecho Esencial)",
         "es_hecho_esencial": true,
@@ -317,12 +331,12 @@
     ]
   },
   "stats": {
-    "total_noticias": 18,
+    "total_noticias": 19,
     "por_categoria": {
       "bcch_tpm": 5,
       "ipsa": 3,
       "dolar_cobre": 5,
-      "economia_chile": 4,
+      "economia_chile": 5,
       "politica_regulacion": 1,
       "pensiones_afp": 0,
       "energia_tarifas": 0,
@@ -331,13 +345,13 @@
     "hechos_esenciales": 1
   },
   "resumen_ejecutivo": {
-    "sentimiento": "levemente bajista",
-    "score_neto": -2,
+    "sentimiento": "bajista",
+    "score_neto": -4,
     "n_positivas": 1,
-    "n_negativas": 2,
+    "n_negativas": 3,
     "n_neutrales": 15,
-    "narrativa": "El feed muestra 1 senales positivas y 2 negativas (neto -2). Factores dominantes: Inflacion cede: positivo; Perdidas reportadas.",
+    "narrativa": "El feed muestra 1 senales positivas y 3 negativas (neto -4). Factores dominantes: Inflacion cede: positivo; Perdidas reportadas.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "Levemente BAJISTA"
+    "veredicto": "BAJISTA a corto plazo"
   }
 }
