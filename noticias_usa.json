@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-08-03T20:33:27.059246+00:00",
+  "updated_at_utc": "2026-08-03T21:03:26.705424+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -49,13 +49,15 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
-      },
+      }
+    ],
+    "ia_semis": [
       {
-        "title": "NVIDIA (Dinari Tokenized Stock) (NVDA) información de precios, capitalización de mercado, gráficos y fundamentos",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9hOXk2eUVUR0xIUTBtSlZiM1FvMFZwRzhIaEdmb280ck9DNDY4Y0FuQW1vT0RfYWQtNW9SSnlaNFNYMDRTUEZkUHNVbGUzU1lZVjlTc2IxZTZ6TXh4ZG1kOWJ3dzd3LTViZzFOOW9PWi0?oc=5",
-        "source": "es.beincrypto.com",
-        "pubdate": "Fri, 31 Jul 2026 20:40:09 GMT",
-        "pubdate_iso": "2026-07-31T20:40:09+00:00",
+        "title": "IPG Photonics Earnings: What To Look For From IPGP",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNb21CMGZVdi1CVkFNejFJeDhKZFZnR0o5T3N2ODRxOUxuV0pFV0pmUmNyT0tyM0dWWE93b2tFVWREdlNoMU5WZmFiVlU4dTBHU2hmNUYzZEpNTExncDFPcXlycFE4Y2dETkg1bjQxdnZKWWpKSFZ6cUk3eExmenl6OUdldFkzOXFXNnBLSk1MSEVZcjdZalgzZE84ZktHOEd2UEFoRl9GT3dReFhGX2c?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 03 Aug 2026 03:22:00 GMT",
+        "pubdate_iso": "2026-08-03T03:22:00+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -63,9 +65,7 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
-      }
-    ],
-    "ia_semis": [
+      },
       {
         "title": "What To Expect From Transcat’s (TRNS) Q2 Earnings",
         "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUlI5U2QzSXdmVW5LMFl0MzhWcEJIVkVKYnlfQTFRbnRRdGZBeWRTZFZ1NXFqN3RuLWZfYVhCM3FKcGhIRVRGTGptTkkyTm9nV2tNbFVBOVF0dFZuRFJXT3BtcEN2WDl4NzFYRkRpQWpZVkhfWXpwQ0wtZlBsT0t4UUw1TUdONEo5Q0dYYWRyUk9WeW9QamtZcGNxMVFmVldlc3Nfd2g5a3pRM2s?oc=5",
@@ -172,8 +172,8 @@
     "total_noticias": 10,
     "por_categoria": {
       "tesla": 0,
-      "nvidia": 3,
-      "ia_semis": 4,
+      "nvidia": 2,
+      "ia_semis": 5,
       "macro_tech": 3
     }
   },
