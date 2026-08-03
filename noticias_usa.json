@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-08-03T06:33:27.910249+00:00",
+  "updated_at_utc": "2026-08-03T07:03:25.496091+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -208,40 +208,26 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
-      },
-      {
-        "title": "META Stock Outperformed GOOG, TSLA In July Despite Earnings Selloff — Analyst Says Shares Are ‘Attractively Priced’ Now",
-        "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQZEx4aldhQzk0YVRJV1hTY0xKTEsxRE9BZWM2NUxXRXhZelNpVzV4b2ExSWQ2VktzdmJfb2NkQzlKU1NjeGg0WVlBVkZyanpJOHk2Qnc4ZTQ1UDVzNm9zU3N2eE05czVCQmFFcWZBZ09LbHN6ZHp2R1d6YU1YckpGWkVDNjE3RENQaGdsenI0MlRwRk1RcE5ONS1Sc1lTQ2ltdlplQnJFbDZfRmx3T3lIVkpnYnhUb0taYWpfVGozdHZTNGhrRkhjajZ1VXdsZW9KV0ZxQ2w4THhSX0xNMVVpaFo4RVpyTGtPNTQ4UV9kOVRfX2JIQUwyWWVLU1ZPRGhUU0lvWg?oc=5",
-        "source": "TradingView",
-        "pubdate": "Fri, 31 Jul 2026 06:39:00 GMT",
-        "pubdate_iso": "2026-07-31T06:39:00+00:00",
-        "impacto": {
-          "direccion": "negativo",
-          "intensidad": 3,
-          "intensidad_label": "fuerte",
-          "emoji": "🔴🔴",
-          "razonamiento": "Selloff: presion vendedora"
-        }
       }
     ]
   },
   "stats": {
-    "total_noticias": 14,
+    "total_noticias": 13,
     "por_categoria": {
       "tesla": 1,
       "nvidia": 5,
       "ia_semis": 4,
-      "macro_tech": 4
+      "macro_tech": 3
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "levemente bajista",
-    "score_neto": -3,
+    "sentimiento": "neutral",
+    "score_neto": 0,
     "n_positivas": 0,
-    "n_negativas": 1,
+    "n_negativas": 0,
     "n_neutrales": 13,
-    "narrativa": "El feed muestra 0 senales positivas y 1 negativas (neto -3). Factores dominantes: Selloff: presion vendedora.",
+    "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "Levemente BAJISTA"
+    "veredicto": "NEUTRAL - sin sesgo dominante"
   }
 }
