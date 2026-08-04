@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-08-04T06:33:27.950575+00:00",
+  "updated_at_utc": "2026-08-04T07:03:26.771849+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -20,7 +20,22 @@
     }
   },
   "noticias_por_categoria": {
-    "tesla": [],
+    "tesla": [
+      {
+        "title": "Why Tesla stock is surging over 3% on Monday",
+        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbHFoMTNFZy15djl0cnNnTzh1WURxTlU0MW1WdFdEa3NYU0tiaFp0SzFxNTNfSTNfanN2dlZNSXBWM2Zacjk2bkg2dDRnX3h1UGxYc0FocmJZU3k2M1VpUWt3WXpUT1ZjcHRHQkdzU2lXdzE5V0trRV9tekxCQno1UFFYV19WdlNNa0FqU3FHR3I3bVhNQ3htX2dfekpCNWVq?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 03 Aug 2026 16:52:32 GMT",
+        "pubdate_iso": "2026-08-03T16:52:32+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
     "nvidia": [
       {
         "title": "Key facts: NASDAQ:NVDA $250B OpenAI backing; strong AI infra; CDS 80bps",
@@ -111,6 +126,20 @@
     ],
     "macro_tech": [
       {
+        "title": "S&P500, Nasdaq End Higher, Dow Hits Record High On Strong Mag 7 Performance And Falling Oil Prices — BA, XOM, CVX, HOOD, AMD In Focus",
+        "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPeHpzd1VKQnJwZmxMTjlLVWh1bWVTaDZoaEl4NXNVcVpkT1hQV01mVGZHTS1idTlja1ZQNWVPWk5hN0xXR0t6cWptUThCN1k2LWNKbkU4YmNlTzhZS0RxbF9aMVRyRnEtR21Sb3ZGMXZocjN0NVRfUXNKZHhHM09JSmo1a2d0MVl3NVN2d0UxblJNYURXRkFiejhKb1VJNXg2ZWJ3Y055M0VJclZwRE5CQjVPZ080MHhqSTZ1RG5acmlaSlBnelNPX2JlWEw1N1ptZlYxWUlTN0JxdXhVelZ0UjRVazk4MndSYXBOUHdtSWZVSE10MmdpbmZZZlZtb3JtLTNqaGpIMlNaWV9heGFIOVhxUQ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 03 Aug 2026 21:33:10 GMT",
+        "pubdate_iso": "2026-08-03T21:33:10+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🟢",
+          "razonamiento": "Maximos historicos"
+        }
+      },
+      {
         "title": "Congressman Who Spent Millions on Magnificent Seven Stocks Just Bought Another Tech Giant",
         "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOclREbGlDemVTamYxWnV5amJlSEI5a1ZEX191ZmhNRFotaVBhbVJfanRDTkl4d09jSFRWYTFtTHFMRHp3d3FxeTBaMDdWM1hsRmh5LXBpX2tIdUdxd3NoYWNOVndPMlNocTNTZWw3NEU1c01OMmtESXp2QzVubU94bnl1Y2NCSjBsUnBOaWZ4MWhXc3BrUWhKZ0tZSEdmNUs5VHA2alEwMWdhTmhyalBOSXRjNTF2U2RHdDRCVHgxbkVjM1J6THZMTXd2b2dsdEIwMXJBUzBaZk1kV1FPbXB4Vg?oc=5",
         "source": "TradingView",
@@ -165,40 +194,26 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
-      },
-      {
-        "title": "Micron Technology Stock Is Falling Monday: What's Going On?",
-        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPeS1sYjlzWF9WRktURUR4c0pYMGpVclUxN0RQeDNMVHBxUUJMVW9xVDFFd2dCdUk3YmpEemQzYkh1YjNENnc3MHY1S1JjY09WX3BJQ3J2OHUtSGh1RVhlMEEwYjV0UC1XQ3lOejNYSFlzeFdkUmdzbkhNdm5sVTJqNnFhVU1QMExTM3hEZ3lvWXZ0bzlHSy11eFNvUmpBVzlkVERhLTJhaVNIN0J6WjdBMW9Zdk1Sdw?oc=5",
-        "source": "TradingView",
-        "pubdate": "Mon, 03 Aug 2026 10:44:05 GMT",
-        "pubdate_iso": "2026-08-03T10:44:05+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
       }
     ]
   },
   "stats": {
-    "total_noticias": 11,
+    "total_noticias": 12,
     "por_categoria": {
-      "tesla": 0,
+      "tesla": 1,
       "nvidia": 1,
       "ia_semis": 5,
       "macro_tech": 5
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "levemente alcista",
-    "score_neto": 2,
-    "n_positivas": 1,
+    "sentimiento": "alcista",
+    "score_neto": 4,
+    "n_positivas": 2,
     "n_negativas": 0,
     "n_neutrales": 10,
-    "narrativa": "El feed muestra 1 senales positivas y 0 negativas (neto +2). Factores dominantes: Demanda de chips: soporte tech.",
+    "narrativa": "El feed muestra 2 senales positivas y 0 negativas (neto +4). Factores dominantes: Demanda de chips: soporte tech; Maximos historicos.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "Levemente ALCISTA"
+    "veredicto": "ALCISTA a corto plazo"
   }
 }
