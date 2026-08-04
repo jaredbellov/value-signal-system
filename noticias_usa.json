@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-08-04T05:33:26.287063+00:00",
+  "updated_at_utc": "2026-08-04T06:03:26.268043+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -20,7 +20,22 @@
     }
   },
   "noticias_por_categoria": {
-    "tesla": [],
+    "tesla": [
+      {
+        "title": "Why Tesla stock is surging over 3% on Monday",
+        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbHFoMTNFZy15djl0cnNnTzh1WURxTlU0MW1WdFdEa3NYU0tiaFp0SzFxNTNfSTNfanN2dlZNSXBWM2Zacjk2bkg2dDRnX3h1UGxYc0FocmJZU3k2M1VpUWt3WXpUT1ZjcHRHQkdzU2lXdzE5V0trRV9tekxCQno1UFFYV19WdlNNa0FqU3FHR3I3bVhNQ3htX2dfekpCNWVq?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 03 Aug 2026 16:52:32 GMT",
+        "pubdate_iso": "2026-08-03T16:52:32+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
     "nvidia": [
       {
         "title": "Key facts: NASDAQ:NVDA $250B OpenAI backing; strong AI infra; CDS 80bps",
@@ -183,9 +198,9 @@
     ]
   },
   "stats": {
-    "total_noticias": 11,
+    "total_noticias": 12,
     "por_categoria": {
-      "tesla": 0,
+      "tesla": 1,
       "nvidia": 1,
       "ia_semis": 5,
       "macro_tech": 5
@@ -196,7 +211,7 @@
     "score_neto": 2,
     "n_positivas": 1,
     "n_negativas": 0,
-    "n_neutrales": 10,
+    "n_neutrales": 11,
     "narrativa": "El feed muestra 1 senales positivas y 0 negativas (neto +2). Factores dominantes: Demanda de chips: soporte tech.",
     "narrativa_fuente": "plantilla",
     "veredicto": "Levemente ALCISTA"
