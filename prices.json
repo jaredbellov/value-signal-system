@@ -5,7 +5,10 @@
     "CFISPETF",
     "CFINASDAQ"
   ],
-  "errores": [],
+  "errores": [
+    "CFISPETF: sin precio",
+    "CFINASDAQ: sin precio"
+  ],
   "prices": {
     "CFISPETF": {
       "ticker": "CFISPETF",
@@ -17,7 +20,8 @@
       "monto_transado": null,
       "fecha_dato": null,
       "fuente": "BCS",
-      "error": null
+      "error": null,
+      "stale": true
     },
     "CFINASDAQ": {
       "ticker": "CFINASDAQ",
@@ -29,7 +33,8 @@
       "monto_transado": null,
       "fecha_dato": null,
       "fuente": "BCS",
-      "error": null
+      "error": null,
+      "stale": true
     }
   }
 }
