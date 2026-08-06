@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-08-06T17:33:27.723094+00:00",
+  "updated_at_utc": "2026-08-06T18:03:24.698701+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -27,6 +27,20 @@
         "source": "Bybit",
         "pubdate": "Wed, 05 Aug 2026 17:03:37 GMT",
         "pubdate_iso": "2026-08-05T17:03:37+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Lucid Group Q2 Earnings Call Highlights",
+        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVXg1YnNIMHI0UmYwQnlNbHVKaFRXQmtVV1VQSjViZGU0cWxaVWREWnFJa2RVNXJnVVExM2FNdWZJNDJzVVBaTkF2UXQxZDVkeXlpbUNxWWhFeFMwd3pNZG8zM2pHX3hjN0xFcjRDM2QzbWxMWGpIMDF6aHQ1TDlkeGZSZTYtZmJxSWNEMnlvRnE3RnJXajM1ZDI2TXdnbUJJ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 05 Aug 2026 00:04:26 GMT",
+        "pubdate_iso": "2026-08-05T00:04:26+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -282,9 +296,9 @@
     ]
   },
   "stats": {
-    "total_noticias": 18,
+    "total_noticias": 19,
     "por_categoria": {
-      "tesla": 3,
+      "tesla": 4,
       "nvidia": 5,
       "ia_semis": 5,
       "macro_tech": 5
@@ -295,7 +309,7 @@
     "score_neto": 0,
     "n_positivas": 2,
     "n_negativas": 1,
-    "n_neutrales": 15,
+    "n_neutrales": 16,
     "narrativa": "El feed muestra 2 senales positivas y 1 negativas (neto +0). Factores dominantes: Selloff: presion vendedora; Rally accionario.",
     "narrativa_fuente": "plantilla",
     "veredicto": "NEUTRAL - sin sesgo dominante"
