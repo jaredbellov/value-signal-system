@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-08-10T15:33:27.352231+00:00",
+  "updated_at_utc": "2026-08-10T16:03:27.926609+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -137,40 +137,26 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
-      },
-      {
-        "title": "Stocks Supported as Fed Rate Hike Fears Ease",
-        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRTlLZF9ZVDVJLVpQUkc5N01HQ25TcFF3VU10dm54bE5JZTlheXhRSlR0STFtbjlQNi1mMFVWamJKeU5aV1ZxTjhZaVRQb3A0c0RIdEFPOHdKWlJWeWRRY2hmUjlCQkpSaDhiRUY1RlZLZW5LYkdrWHpYdEQ3S21vMWZNbERJT1NOSi1PNjFoU09sZkIwa0NxMzFNeTVmZGhpS1JucQ?oc=5",
-        "source": "TradingView",
-        "pubdate": "Fri, 07 Aug 2026 15:42:55 GMT",
-        "pubdate_iso": "2026-08-07T15:42:55+00:00",
-        "impacto": {
-          "direccion": "negativo",
-          "intensidad": 2,
-          "intensidad_label": "moderado",
-          "emoji": "🔴",
-          "razonamiento": "Fed hawkish: rate hike presiona equities"
-        }
       }
     ]
   },
   "stats": {
-    "total_noticias": 9,
+    "total_noticias": 8,
     "por_categoria": {
       "tesla": 0,
       "nvidia": 2,
       "ia_semis": 2,
-      "macro_tech": 5
+      "macro_tech": 4
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "neutral",
-    "score_neto": 0,
+    "sentimiento": "levemente alcista",
+    "score_neto": 2,
     "n_positivas": 1,
-    "n_negativas": 1,
+    "n_negativas": 0,
     "n_neutrales": 7,
-    "narrativa": "El feed muestra 1 senales positivas y 1 negativas (neto +0). Factores dominantes: Demanda de chips: soporte tech; Fed hawkish: rate hike presiona equities.",
+    "narrativa": "El feed muestra 1 senales positivas y 0 negativas (neto +2). Factores dominantes: Demanda de chips: soporte tech.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "NEUTRAL - sin sesgo dominante"
+    "veredicto": "Levemente ALCISTA"
   }
 }
