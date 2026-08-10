@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-08-10T14:33:28.348539+00:00",
+  "updated_at_utc": "2026-08-10T15:03:28.145300+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -93,20 +93,6 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
-      },
-      {
-        "title": "China’s Exports Rise 23.9% YoY as Chip Demand Surges",
-        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9VZXY0R1BpVGR0eDlmaDdVenZtUnl6Mk50UzFSUVhiRlJBY3laelRTRnduX2VvMWZTQk83aWdQMkNsX3lGZ1RzaUpNbTRuYXl6WEsyaXhTS1dMSm5VYTZaS2xQR2pZR1lmUzJnNFgwOFQ3bkFSQjZiOVJJMGdqWmM?oc=5",
-        "source": "CryptoRank",
-        "pubdate": "Fri, 07 Aug 2026 14:39:15 GMT",
-        "pubdate_iso": "2026-08-07T14:39:15+00:00",
-        "impacto": {
-          "direccion": "positivo",
-          "intensidad": 2,
-          "intensidad_label": "moderado",
-          "emoji": "🟢",
-          "razonamiento": "Demanda de chips: soporte tech"
-        }
       }
     ],
     "macro_tech": [
@@ -169,22 +155,22 @@
     ]
   },
   "stats": {
-    "total_noticias": 10,
+    "total_noticias": 9,
     "por_categoria": {
       "tesla": 0,
       "nvidia": 2,
-      "ia_semis": 4,
+      "ia_semis": 3,
       "macro_tech": 4
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "levemente alcista",
-    "score_neto": 2,
-    "n_positivas": 2,
+    "sentimiento": "neutral",
+    "score_neto": 0,
+    "n_positivas": 1,
     "n_negativas": 1,
     "n_neutrales": 7,
-    "narrativa": "El feed muestra 2 senales positivas y 1 negativas (neto +2). Factores dominantes: Demanda de chips: soporte tech; Demanda de chips: soporte tech.",
+    "narrativa": "El feed muestra 1 senales positivas y 1 negativas (neto +0). Factores dominantes: Demanda de chips: soporte tech; Fed hawkish: rate hike presiona equities.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "Levemente ALCISTA"
+    "veredicto": "NEUTRAL - sin sesgo dominante"
   }
 }
