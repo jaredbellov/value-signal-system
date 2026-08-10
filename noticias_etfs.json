@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-08-10T19:26:55.852824+00:00",
+  "updated_at_utc": "2026-08-10T21:26:56.634273+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "fed_tasas": {
@@ -28,22 +28,7 @@
     }
   },
   "noticias_por_categoria": {
-    "fed_tasas": [
-      {
-        "title": "Trump baja el tono con Warsh, pero mantiene la presión sobre la Fed por tasas más bajas",
-        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPV2hmVnVONWVzdDg1WDQ3TXFuWjNpTVdaUW5mQlpaWlhWbHRYMm5nM2hYN2lMcEVpNHdEREVNblRNaTl2M1ZtTEtOZlNhWmFIVFlsa256WE9xa1JYV3ZBRGtTYVdiRkEzS3Z4bkhBSUtianBCZktIdXBfdWFzU3pobWtiUFlhNklkc1I2bDhwN3hrdmdfU2gzMF9sU1BSTnoyT21MVVYzWjZNWmpma21tRExPTUtINDJXVEtwMXlhMVduX0UzWlBxSW9Rd1ZJdEVERUg00gHYAUFVX3lxTE1CTTlremQydzVTNDZiRC04dTZtR1dxc3hTWUNJUHZzRFJhV0NFQVJGRks3N0l3RUJHLTVTbGxkajBibVBqYk4wTTJkaTBYQjh6MnMxWEg4Q2w1TnJBei1Jbm1JUm1pWkFqVTRtNlhkNWRPWFNkak1zaDNwT1JBSjJKdXE0al9pTEpQZlFXSUhBVUs3QVNjWkgxd0dCTWV6U2kyRng1b1NSbkNfWlFlVlhwaW93NmEwNENwWDlXODhNMlVocGNZeVFBa0ZHOFhTeXFyRUEtZUp4cQ?oc=5",
-        "source": "perfil.com",
-        "pubdate": "Fri, 07 Aug 2026 21:07:00 GMT",
-        "pubdate_iso": "2026-08-07T21:07:00+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      }
-    ],
+    "fed_tasas": [],
     "mercado": [
       {
         "title": "Gráficos, datos y noticias de CBOE S&P 500 3-Month Volatility (^VIX3M)",
@@ -72,13 +57,15 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
-      },
+      }
+    ],
+    "tech_nasdaq": [
       {
-        "title": "US Stocks Open Higher as Tech Leads Market Gains",
-        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUnRudmJ2RGNaSGNaTXRsckliR19HaTREVzJXQUpkR2tYUDBrOUlJVjZ5aTNsaGVvYW9qam1aaVItdmloX2Z3cDFnV2VXdW93dDVUeGM4U2NoUGVXOUlaTldJeVdDaUpRS291c0M2OVk5emlNQ2FnWFVwNzJYVlhZM28wZzluTjc3?oc=5",
-        "source": "CryptoRank",
-        "pubdate": "Fri, 07 Aug 2026 19:32:19 GMT",
-        "pubdate_iso": "2026-08-07T19:32:19+00:00",
+        "title": "Dan Ives Says Big Tech Earnings Were The 'Wow Moment' For AI Monetization — 'It's All Starting To Come Together'",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBwWkxFRVZsRUF0MVpGcHh0OC1ZR0JZdGszdUc3U3BMRGtmSmYyRVROTDZycmJoZThNRkNZZDVIQU53Mi1aVllQTWdic3pEY1oyQk1Rbm45ajJTc0lOdzR2TDNKaTlseGZ5Z0E?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 10 Aug 2026 10:37:12 GMT",
+        "pubdate_iso": "2026-08-10T10:37:12+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -88,7 +75,6 @@
         }
       }
     ],
-    "tech_nasdaq": [],
     "economia": [
       {
         "title": "Inflación de EE. UU. será la gran prueba de la semana: mercado espera que llegue al 3,4%",
@@ -131,34 +117,6 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
-      },
-      {
-        "title": "S&P 500 Ends At Record High, Clocks Strongest Week Since April As Poor Jobs Data Calms Rate Hike Fear — SEZL, SPCX, RDW, PLTR, TTD In Focus",
-        "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxQNzUtYzZVM0JXUk1ZZWJ1X1l2ZXlfX0VnMk9RZTlxY3BQcEtJdjhzU3pnQW5PblNla0RDbWFVX0dMWlRUek1nTjhUYUk5WHhFN1pXMmZGWnp0LUpQZWFBZG1NWEs3cjNjbS1Veko2UVE2YTFMOTVqa0h1d2VTbi1MeXNSeE5qLWtLMVgzRnBTUmdzOEw1cjhPenZfTGxFZ0VzaFJ1aS1Qc0Z0eXZMRFJDTnJXMkRoUnEwRXp4eURPVURJU2pSM2ZfM1dBcU53T2JhS3JSLWlCeVRkSzdOUGFLaEpPS3NIX1pVdWtiMjlZMXBlcHdlMUxjWUV3Q2JsV3ozTXd3QmNkb1l6UjRFbHF3U2g4cWMyYm1tLWRzag?oc=5",
-        "source": "TradingView",
-        "pubdate": "Fri, 07 Aug 2026 21:24:45 GMT",
-        "pubdate_iso": "2026-08-07T21:24:45+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "U.S. Jobs Report Delivers Stark Warning on Economy",
-        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSFZ2TE9ONFBhUkxnUlhjLThJalQ3cDNZNW42cXZNTjJadjdSSklEczRTNmQ4RHVCdFEzMjJRcWFLc1NVMk9EVFlwbzFlemhEWTZfWlFvNkJSVHhtNkJLdFpmMkJnYmlodHFpVlZmTVpGdmdXRmFpMWZnM2E1ZHk1VHZXYWVKajB4WkgyT005ZFplbGd1a1FEbExCU3ZuaFpQM05XM21VaXJKQWZu?oc=5",
-        "source": "TradingView",
-        "pubdate": "Fri, 07 Aug 2026 20:36:44 GMT",
-        "pubdate_iso": "2026-08-07T20:36:44+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
       }
     ],
     "earnings": [
@@ -182,6 +140,20 @@
         "source": "TradingView",
         "pubdate": "Sun, 09 Aug 2026 09:03:55 GMT",
         "pubdate_iso": "2026-08-09T09:03:55+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "StandardAero Q2 Earnings Call Highlights",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNTm4wQkRWOHcyYTdZUE5ncl9FQ3JqRkFhVC1zSWhWY1ZEaWNiOVJaUlVIRklpRXl3NExocjMzSDBCdUFOOG9aQWJpZElGa2NIazYzZ0Z1WGF5dlFRcExIV0dkcXQ5ZlBNWW5tUldabERLd3haWFIzdk41NGJrNW1iVUdqTnR6TW5LM0Eta3d2LUxDRUVHSTB6QlF0ZEVGWF9mcWc?oc=5",
+        "source": "TradingView",
+        "pubdate": "Sun, 09 Aug 2026 04:03:51 GMT",
+        "pubdate_iso": "2026-08-09T04:03:51+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -217,48 +189,19 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
-      },
-      {
-        "title": "Kodiak Gas Services Q2 Earnings Call Highlights",
-        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOX1ZKWXlQZFI5NFMydFg0ZEFVWmJjN3VsNW5ZVFJqOTJKa1UzN3pJdVFoTHRpRWRPdHFYZVBPbEtqSzdVQVVtM1pLUFc4V1Vpa212ajhOY0MzUVRQOTh4dDZhMDNfMHJac3lMX3Z2S054WjAwUFFVWm1DRG9NdHdZWjVYWW1sb2kxNURVZVZLSDNKaUkyUGctQV9nZ2xGNnM5NktFWnJNZTAyLUU?oc=5",
-        "source": "TradingView",
-        "pubdate": "Sat, 08 Aug 2026 15:03:57 GMT",
-        "pubdate_iso": "2026-08-08T15:03:57+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
       }
     ],
-    "sentimiento": [
-      {
-        "title": "Corsair Gaming Stock Surges Following Beat-and-Raise Q2 Results",
-        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOYjJXTlJUQThJdFZoMnJLQTFyVElIQVoxX2g2VjhDXzk4elFYZzdlM2trSnc3WjVUYkhnWGlsbVpJbDNza015eE91ZFdSakR4Nkg4YXdGcHh4dHp5OXdLVUlEc0ZkaF9LQW95U3VBV2x1aHltS0FYd2dnbVlRcEV1Yk4xeG8zM0pZZjdqeHpfMjVmSjI4MV9pZVlDVjhWRWRBaXBNSUFsNXNGQmtFeHFWaU5lVWVuTkQ3TDlHV1dB?oc=5",
-        "source": "TradingView",
-        "pubdate": "Fri, 07 Aug 2026 19:37:43 GMT",
-        "pubdate_iso": "2026-08-07T19:37:43+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      }
-    ]
+    "sentimiento": []
   },
   "stats": {
-    "total_noticias": 15,
+    "total_noticias": 11,
     "por_categoria": {
-      "fed_tasas": 1,
-      "mercado": 3,
-      "tech_nasdaq": 0,
-      "economia": 5,
+      "fed_tasas": 0,
+      "mercado": 2,
+      "tech_nasdaq": 1,
+      "economia": 3,
       "earnings": 5,
-      "sentimiento": 1
+      "sentimiento": 0
     }
   },
   "resumen_ejecutivo": {
@@ -266,7 +209,7 @@
     "score_neto": -2,
     "n_positivas": 0,
     "n_negativas": 1,
-    "n_neutrales": 14,
+    "n_neutrales": 10,
     "narrativa": "El feed muestra 0 senales positivas y 1 negativas (neto -2). Factores dominantes: Resultados bajo lo esperado.",
     "narrativa_fuente": "plantilla",
     "veredicto": "Levemente BAJISTA"
