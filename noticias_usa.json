@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-08-10T20:33:25.760891+00:00",
+  "updated_at_utc": "2026-08-10T21:03:26.523070+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -20,9 +20,68 @@
     }
   },
   "noticias_por_categoria": {
-    "tesla": [],
-    "nvidia": [],
-    "ia_semis": [],
+    "tesla": [
+      {
+        "title": "Weekly Recap: Terafab $16.8B chip campus plan and Q2 revenue $28.2B",
+        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPSUFxcF9Sc2VNakxaRjVWQjJRTndZd3p3Zy00cGRDOGpRTUJqcXpwTE1XcUdjWlNUY1ZxYUh3T25NeklnaEtqckM2VkFZOE1EQmNqNFd6ZkpnLV9yWW51LTA4SGV3V0JGVFNPT1d4azMwdW9aRUVaOWt3Qk9BRjd1OHN0dW1ab3BVNzdZU0k3d2VyTmM1RDdCTDJOX01zMlRpZ2hfdlJfVVVqdzdEeFMwUDFnZ2xybnQxM212SHFnRkdBUTg?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 10 Aug 2026 11:37:13 GMT",
+        "pubdate_iso": "2026-08-10T11:37:13+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "nvidia": [
+      {
+        "title": "Dan Ives Says Big Tech Earnings Were The 'Wow Moment' For AI Monetization — 'It's All Starting To Come Together'",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBwWkxFRVZsRUF0MVpGcHh0OC1ZR0JZdGszdUc3U3BMRGtmSmYyRVROTDZycmJoZThNRkNZZDVIQU53Mi1aVllQTWdic3pEY1oyQk1Rbm45ajJTc0lOdzR2TDNKaTlseGZ5Z0E?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 10 Aug 2026 10:37:12 GMT",
+        "pubdate_iso": "2026-08-10T10:37:12+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "ia_semis": [
+      {
+        "title": "INTC Announces $15B Stock Offering To Support Capex Amid ‘Strong’ AI Compute Demand",
+        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQSGY3dkNSRjhXeHRlcjVzSjY3VjVvZTRnblpubUtOOGM3eWNQeEpjXzM2TXMtaUFGMm5malp3SmFvMk42LVVNM0p0bTE1ckpkaEd5UHRsMmJzekxNQWtBTEptQ2U1MGV5MUp0VlktblpvTV91aGg5Z1ktZ29VYk43eUQzWHN5TUd1cUlmNTd3QlJZd0hJbjFrZUpaNnByTmxqaHYxVVVKQ29pOVByS1owcnh2WVBKRTNpMW5RbFl0SHhQT2pLbm5EaUR5WDJma1J3QmF5bVFTaw?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 10 Aug 2026 12:39:38 GMT",
+        "pubdate_iso": "2026-08-10T12:39:38+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Dan Ives Says Big Tech Earnings Were The 'Wow Moment' For AI Monetization — 'It's All Starting To Come Together'",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBwWkxFRVZsRUF0MVpGcHh0OC1ZR0JZdGszdUc3U3BMRGtmSmYyRVROTDZycmJoZThNRkNZZDVIQU53Mi1aVllQTWdic3pEY1oyQk1Rbm45ajJTc0lOdzR2TDNKaTlseGZ5Z0E?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 10 Aug 2026 10:37:12 GMT",
+        "pubdate_iso": "2026-08-10T10:37:12+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
     "macro_tech": [
       {
         "title": "Gold Hovers at 2-Month High",
@@ -55,11 +114,11 @@
     ]
   },
   "stats": {
-    "total_noticias": 2,
+    "total_noticias": 6,
     "por_categoria": {
-      "tesla": 0,
-      "nvidia": 0,
-      "ia_semis": 0,
+      "tesla": 1,
+      "nvidia": 1,
+      "ia_semis": 2,
       "macro_tech": 2
     }
   },
@@ -68,7 +127,7 @@
     "score_neto": 0,
     "n_positivas": 0,
     "n_negativas": 0,
-    "n_neutrales": 2,
+    "n_neutrales": 6,
     "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
     "narrativa_fuente": "plantilla",
     "veredicto": "NEUTRAL - sin sesgo dominante"
