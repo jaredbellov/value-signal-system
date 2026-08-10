@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-08-10T19:33:26.347122+00:00",
+  "updated_at_utc": "2026-08-10T20:03:26.689425+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -21,38 +21,8 @@
   },
   "noticias_por_categoria": {
     "tesla": [],
-    "nvidia": [
-      {
-        "title": "Nvidia Faces New Pressure From U.S. Government",
-        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdFh4LUVKOGwyQ2pTeEVtZ0ZjT2dtcFdoOC1Zdm1Rc1I0NDBTemxtNzZPaEx1eHFxblhTdTlnNi03VmVpVGhiV3Y2Umh2eks0RDZBMkFOV3dieFkzcnlIYUc2RUIyVUxfQTBrVXJDUmhiMVB2UTFLWTQ2LVNGR2RuMWhWNDdndkVxUlRIdXdFZUxGcHJfMk5fY3hfNm52cXA3d1l2ZzFQSQ?oc=5",
-        "source": "TradingView",
-        "pubdate": "Fri, 07 Aug 2026 19:49:27 GMT",
-        "pubdate_iso": "2026-08-07T19:49:27+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      }
-    ],
-    "ia_semis": [
-      {
-        "title": "Nvidia Faces New Pressure From U.S. Government",
-        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdFh4LUVKOGwyQ2pTeEVtZ0ZjT2dtcFdoOC1Zdm1Rc1I0NDBTemxtNzZPaEx1eHFxblhTdTlnNi03VmVpVGhiV3Y2Umh2eks0RDZBMkFOV3dieFkzcnlIYUc2RUIyVUxfQTBrVXJDUmhiMVB2UTFLWTQ2LVNGR2RuMWhWNDdndkVxUlRIdXdFZUxGcHJfMk5fY3hfNm52cXA3d1l2ZzFQSQ?oc=5",
-        "source": "TradingView",
-        "pubdate": "Fri, 07 Aug 2026 19:49:27 GMT",
-        "pubdate_iso": "2026-08-07T19:49:27+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      }
-    ],
+    "nvidia": [],
+    "ia_semis": [],
     "macro_tech": [
       {
         "title": "Gold Hovers at 2-Month High",
@@ -85,11 +55,11 @@
     ]
   },
   "stats": {
-    "total_noticias": 4,
+    "total_noticias": 2,
     "por_categoria": {
       "tesla": 0,
-      "nvidia": 1,
-      "ia_semis": 1,
+      "nvidia": 0,
+      "ia_semis": 0,
       "macro_tech": 2
     }
   },
@@ -98,7 +68,7 @@
     "score_neto": 0,
     "n_positivas": 0,
     "n_negativas": 0,
-    "n_neutrales": 4,
+    "n_neutrales": 2,
     "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
     "narrativa_fuente": "plantilla",
     "veredicto": "NEUTRAL - sin sesgo dominante"
