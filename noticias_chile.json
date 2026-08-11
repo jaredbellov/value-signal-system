@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-08-11T11:33:51.977413+00:00",
+  "updated_at_utc": "2026-08-11T13:33:54.663792+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "bcch_tpm": {
@@ -37,6 +37,20 @@
   },
   "noticias_por_categoria": {
     "bcch_tpm": [
+      {
+        "title": "Banco central de Australia mantiene tasa en 4,35 %",
+        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNYVBRTU1NZUFEVUZCb0o1VzZUd0I0Um83TW1pUk9xa2hOZ2JMTEFFSzFIeEdRV2Z2bkRVVzZkaVRnVGhQQkY2OWZGQVRtTDRQc2VJSlgxbW45RTNPN3k2bC1VWnB2aTU2M3Q2d0kzalBKck41b0dpSXI4TFI3ZURLeTJVdGNRSl9aTXFOQjdyMEpBY1FI?oc=5",
+        "source": "The Times Latino",
+        "pubdate": "Tue, 11 Aug 2026 10:24:00 GMT",
+        "pubdate_iso": "2026-08-11T10:24:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
       {
         "title": "El reto de Banxico para reforzar su credibilidad",
         "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPYUZGOUJGeWxILVlvMHduTXU4RzJQaS0tOV8weDlhV1hDV29XeW1JRTdkSXRrQ0V5NXhkQ3dIeUVtQzZkaGxTZDRmTTk5elpwbENyZnlCXzg0UERqZE5IQ3RrVnZmWm5PRmtXZlhOZkNtV2piRzRXaVZHbDVJclVYcm03QkZ2dEpkckpCdzQyTGlWQzdHMjkwMC1UcDNpbkdYbUdrR1FBd0VjQVRyUzdkSw?oc=5",
@@ -117,20 +131,6 @@
         "source": "Radio Pauta 100.5",
         "pubdate": "Sun, 09 Aug 2026 13:00:12 GMT",
         "pubdate_iso": "2026-08-09T13:00:12+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Dólar a peso chileno: precio del dólar en Chile para este sábado 8 de agosto",
-        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQR1RxWDktaFU4ZGlDck1kaHlRWmhKWWNHdllvd2x5VENuQjV0UWhkblkwcHJtRFFOZjBpSFVOU1lxWThSdXgwVTlOQ3ludDhVT3hjbXUzXzNmaDVLekRuLVBNc1RSbklsQWk3UEFSbTFsZEM3SG1yRUxDY1NhXzh4UVF1ejZwVTBPWU9MZmxfTzEwRXM3X1dmUUJXZ01aMmx0N25JUk5QdzkyN1A5cGFBOUZxSHliMktHM1EyN1R4aWs3MFhv?oc=5",
-        "source": "Radio Pauta 100.5",
-        "pubdate": "Sat, 08 Aug 2026 12:40:00 GMT",
-        "pubdate_iso": "2026-08-08T12:40:00+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -266,9 +266,9 @@
   "stats": {
     "total_noticias": 15,
     "por_categoria": {
-      "bcch_tpm": 1,
+      "bcch_tpm": 2,
       "ipsa": 2,
-      "dolar_cobre": 4,
+      "dolar_cobre": 3,
       "economia_chile": 5,
       "politica_regulacion": 1,
       "pensiones_afp": 0,
