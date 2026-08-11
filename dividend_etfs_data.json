@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-08-11T03:55:06.382451+00:00",
+  "updated_at_utc": "2026-08-11T04:25:05.657199+00:00",
   "etfs": {
     "SCHD": {
       "ticker": "SCHD",
@@ -10,21 +10,21 @@
       "inception": "2011-10-20",
       "expense_ratio": 0.0006,
       "frequency": "Trimestral",
-      "precio_usd": 33.9,
+      "precio_usd": 34.19,
       "precio_clp": null,
       "usd_clp": null,
-      "dy_actual_pct": 3.09,
-      "dy_historico_3y_pct": 3.67,
+      "dy_actual_pct": 3.07,
+      "dy_historico_3y_pct": 3.66,
       "drawdown_pct": 0.0,
-      "cagr_precio_3y_pct": 10.91,
-      "cagr_precio_5y_pct": 5.86,
+      "cagr_precio_3y_pct": 11.21,
+      "cagr_precio_5y_pct": 5.74,
       "dgr_3y_pct": 6.51,
       "dgr_confiable": true,
-      "momentum_pct": 20.9,
+      "momentum_pct": 20.54,
       "componentes": {
-        "dy_vs_historico": 34.32098381628084,
+        "dy_vs_historico": 33.67044234591846,
         "drawdown": 0.0,
-        "balance_cagr": 93.35402034561656,
+        "balance_cagr": 95.18220020493206,
         "momentum": 100.0,
         "dgr": 75.0
       },
@@ -35,13 +35,9 @@
       "aporte_base_usd": 140,
       "aporte_sugerido_usd": 140.0,
       "aporte_sugerido_clp": null,
-      "fecha_analisis": "2026-08-10T23:55:04.520757",
-      "ultima_fecha_dato": "2026-08-07",
+      "fecha_analisis": "2026-08-11T00:25:04.558079",
+      "ultima_fecha_dato": "2026-08-10",
       "historico": [
-        {
-          "fecha": "2021-07-12",
-          "close": 25.4
-        },
         {
           "fecha": "2021-07-13",
           "close": 25.27
@@ -5137,6 +5133,10 @@
         {
           "fecha": "2026-08-07",
           "close": 33.9
+        },
+        {
+          "fecha": "2026-08-10",
+          "close": 34.19
         }
       ],
       "categoria": "dividend",
@@ -5152,33 +5152,33 @@
       "inception": "2022-05-03",
       "expense_ratio": 0.0035,
       "frequency": "Mensual",
-      "precio_usd": 59.74,
+      "precio_usd": 59.68,
       "precio_clp": null,
       "usd_clp": null,
-      "dy_actual_pct": 10.92,
-      "dy_historico_3y_pct": 10.79,
-      "drawdown_pct": -2.8,
-      "cagr_precio_3y_pct": 7.26,
-      "cagr_precio_5y_pct": 3.73,
+      "dy_actual_pct": 10.93,
+      "dy_historico_3y_pct": 10.78,
+      "drawdown_pct": -2.9,
+      "cagr_precio_3y_pct": 7.66,
+      "cagr_precio_5y_pct": 3.7,
       "dgr_3y_pct": 5.03,
       "dgr_confiable": true,
-      "momentum_pct": 8.13,
+      "momentum_pct": 9.38,
       "componentes": {
-        "dy_vs_historico": 51.23236139648903,
-        "drawdown": 6.996409988722249,
+        "dy_vs_historico": 51.40516999368665,
+        "drawdown": 7.240476756476948,
         "balance_cagr": 100.0,
-        "momentum": 70.32557865551279,
+        "momentum": 73.45444077792793,
         "dgr": 75.0
       },
-      "score": 53.0,
+      "score": 53.4,
       "zona": "ATRACTIVO",
       "multiplicador": 1.5,
       "emoji": "🟢",
       "aporte_base_usd": 60,
       "aporte_sugerido_usd": 90.0,
       "aporte_sugerido_clp": null,
-      "fecha_analisis": "2026-08-10T23:55:05.020504",
-      "ultima_fecha_dato": "2026-08-07",
+      "fecha_analisis": "2026-08-11T00:25:04.812490",
+      "ultima_fecha_dato": "2026-08-10",
       "historico": [
         {
           "fecha": "2022-05-04",
@@ -9455,6 +9455,10 @@
         {
           "fecha": "2026-08-07",
           "close": 59.74
+        },
+        {
+          "fecha": "2026-08-10",
+          "close": 59.68
         }
       ],
       "categoria": "dividend",
@@ -9470,38 +9474,34 @@
       "inception": "2014-06-10",
       "expense_ratio": 0.0008,
       "frequency": "Trimestral",
-      "precio_usd": 79.47,
+      "precio_usd": 79.62,
       "precio_clp": null,
       "usd_clp": null,
       "dy_actual_pct": 1.86,
       "dy_historico_3y_pct": 2.28,
       "drawdown_pct": 0.0,
-      "cagr_precio_3y_pct": 14.85,
-      "cagr_precio_5y_pct": 8.82,
+      "cagr_precio_3y_pct": 14.9,
+      "cagr_precio_5y_pct": 8.64,
       "dgr_3y_pct": 6.34,
       "dgr_confiable": true,
-      "momentum_pct": 18.51,
+      "momentum_pct": 18.1,
       "componentes": {
-        "dy_vs_historico": 31.55279287409215,
+        "dy_vs_historico": 31.48583432034061,
         "drawdown": 0.0,
         "balance_cagr": 100.0,
-        "momentum": 96.27487143711522,
+        "momentum": 95.24903279154694,
         "dgr": 75.0
       },
-      "score": 46.9,
+      "score": 46.8,
       "zona": "NEUTRAL",
       "multiplicador": 1.0,
       "emoji": "🟡",
       "aporte_base_usd": 100,
       "aporte_sugerido_usd": 100.0,
       "aporte_sugerido_clp": null,
-      "fecha_analisis": "2026-08-10T23:55:05.501726",
-      "ultima_fecha_dato": "2026-08-07",
+      "fecha_analisis": "2026-08-11T00:25:05.030963",
+      "ultima_fecha_dato": "2026-08-10",
       "historico": [
-        {
-          "fecha": "2021-07-12",
-          "close": 51.26
-        },
         {
           "fecha": "2021-07-13",
           "close": 51.07
@@ -14597,6 +14597,10 @@
         {
           "fecha": "2026-08-07",
           "close": 79.47
+        },
+        {
+          "fecha": "2026-08-10",
+          "close": 79.62
         }
       ],
       "categoria": "dividend",
@@ -14612,38 +14616,34 @@
       "inception": "2004-09-23",
       "expense_ratio": 0.0013,
       "frequency": "Trimestral",
-      "precio_usd": 98.43,
+      "precio_usd": 97.11,
       "precio_clp": null,
       "usd_clp": null,
-      "dy_actual_pct": 3.53,
+      "dy_actual_pct": 3.58,
       "dy_historico_3y_pct": 3.94,
-      "drawdown_pct": -2.5,
-      "cagr_precio_3y_pct": 5.62,
-      "cagr_precio_5y_pct": -1.53,
+      "drawdown_pct": -3.8,
+      "cagr_precio_3y_pct": 5.23,
+      "cagr_precio_5y_pct": -1.73,
       "dgr_3y_pct": -2.76,
       "dgr_confiable": true,
-      "momentum_pct": 7.8,
+      "momentum_pct": 9.27,
       "componentes": {
-        "dy_vs_historico": 39.50317831519191,
-        "drawdown": 6.240705099670353,
-        "balance_cagr": 61.02122122948735,
-        "momentum": 69.48774989452235,
+        "dy_vs_historico": 40.7570994246982,
+        "drawdown": 9.50964946502034,
+        "balance_cagr": 58.73952323859699,
+        "momentum": 73.18662239687382,
         "dgr": 0.0
       },
-      "score": 31.5,
+      "score": 32.8,
       "zona": "NEUTRAL",
       "multiplicador": 1.0,
       "emoji": "🟡",
       "aporte_base_usd": 100,
       "aporte_sugerido_usd": 100.0,
       "aporte_sugerido_clp": null,
-      "fecha_analisis": "2026-08-10T23:55:05.881932",
-      "ultima_fecha_dato": "2026-08-07",
+      "fecha_analisis": "2026-08-11T00:25:05.334591",
+      "ultima_fecha_dato": "2026-08-10",
       "historico": [
-        {
-          "fecha": "2021-07-12",
-          "close": 105.96
-        },
         {
           "fecha": "2021-07-13",
           "close": 104.48
@@ -19739,6 +19739,10 @@
         {
           "fecha": "2026-08-07",
           "close": 98.43
+        },
+        {
+          "fecha": "2026-08-10",
+          "close": 97.11
         }
       ],
       "categoria": "reit",
@@ -19754,38 +19758,34 @@
       "inception": "2010-11-01",
       "expense_ratio": 0.0012,
       "frequency": "Variable",
-      "precio_usd": 46.23,
+      "precio_usd": 45.56,
       "precio_clp": null,
       "usd_clp": null,
-      "dy_actual_pct": 4.66,
-      "dy_historico_3y_pct": 4.42,
-      "drawdown_pct": -8.92,
-      "cagr_precio_3y_pct": 4.02,
-      "cagr_precio_5y_pct": -4.68,
+      "dy_actual_pct": 4.73,
+      "dy_historico_3y_pct": 4.41,
+      "drawdown_pct": -10.24,
+      "cagr_precio_3y_pct": 3.76,
+      "cagr_precio_5y_pct": -5.14,
       "dgr_3y_pct": 109.34,
       "dgr_confiable": false,
-      "momentum_pct": -3.74,
+      "momentum_pct": -2.88,
       "componentes": {
-        "dy_vs_historico": 55.614883316293,
-        "drawdown": 22.31086943010781,
-        "balance_cagr": 57.86052422996212,
-        "momentum": 40.657698422085524,
+        "dy_vs_historico": 57.19422152190976,
+        "drawdown": 25.610702916612716,
+        "balance_cagr": 56.583018537154054,
+        "momentum": 42.80231130468343,
         "dgr": 50.0
       },
-      "score": 44.5,
+      "score": 46.1,
       "zona": "NEUTRAL",
       "multiplicador": 1.0,
       "emoji": "🟡",
       "aporte_base_usd": 80,
       "aporte_sugerido_usd": 80.0,
       "aporte_sugerido_clp": null,
-      "fecha_analisis": "2026-08-10T23:55:06.372303",
-      "ultima_fecha_dato": "2026-08-07",
+      "fecha_analisis": "2026-08-11T00:25:05.646871",
+      "ultima_fecha_dato": "2026-08-10",
       "historico": [
-        {
-          "fecha": "2021-07-12",
-          "close": 60.02
-        },
         {
           "fecha": "2021-07-13",
           "close": 59.44
@@ -24881,6 +24881,10 @@
         {
           "fecha": "2026-08-07",
           "close": 46.23
+        },
+        {
+          "fecha": "2026-08-10",
+          "close": 45.56
         }
       ],
       "categoria": "reit",
