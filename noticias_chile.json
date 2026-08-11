@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-08-11T09:33:52.754689+00:00",
+  "updated_at_utc": "2026-08-11T11:33:51.977413+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "bcch_tpm": {
@@ -59,20 +59,6 @@
         "source": "diarioestrategia.cl",
         "pubdate": "Mon, 10 Aug 2026 23:56:37 GMT",
         "pubdate_iso": "2026-08-10T23:56:37+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Bolsa chilena logra cerrar con leve alza pese a que mercados globales resienten las mutuas exigencias de EEUU e Irán",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9ocThnTjl3NFBpTDJYTnJfbDhFOTNVRlRDbWp2eTBzZkNuYnk0TC04eW9WS2E3WDVqaWEyOTAwRHRuUzNUWGgxYzVjMWl6UVBVY0xsMzFsWE5ROGp3MV9hM1ZiQ0dJb19p?oc=5",
-        "source": "Diario Financiero",
-        "pubdate": "Mon, 10 Aug 2026 20:22:00 GMT",
-        "pubdate_iso": "2026-08-10T20:22:00+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -243,7 +229,22 @@
       }
     ],
     "pensiones_afp": [],
-    "energia_tarifas": [],
+    "energia_tarifas": [
+      {
+        "title": "Suspenden sesión clave de megaproyecto eléctrico en el Maule: la ranita del Pehuenche frena a Enel",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcktWcU5kRlNKRW1meUFwUkxtTkU4cTBuWXRPb0hoY0U4Mk5sWmRQMWdwNWt6Z3lkUjV6UHVqcF9DSFd4X1BmQWVLTVNFcG4xT09HdFpEaXlYZVJmd054ZTcyRWZtd21vN1FjOHRHbjhTMjlaYXNDTjJjblVHcXZFY19WTW5wUFJ1ejgzb19mUlRjMk1ZbHNKZkZ5RjNsbVRkUFF3Z1dnemdEXzBJTmlmVjJWUllXSVRlY0J3SQ?oc=5",
+        "source": "Publimicro",
+        "pubdate": "Tue, 11 Aug 2026 10:13:23 GMT",
+        "pubdate_iso": "2026-08-11T10:13:23+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
     "sectores_watchlist": [
       {
         "title": "Vicepresidente de Corfo aborda futuro de ZOFRI de cara a 2030: “Hay un período marcado donde tenemos que tomar una definición”",
@@ -266,12 +267,12 @@
     "total_noticias": 15,
     "por_categoria": {
       "bcch_tpm": 1,
-      "ipsa": 3,
+      "ipsa": 2,
       "dolar_cobre": 4,
       "economia_chile": 5,
       "politica_regulacion": 1,
       "pensiones_afp": 0,
-      "energia_tarifas": 0,
+      "energia_tarifas": 1,
       "sectores_watchlist": 1
     },
     "hechos_esenciales": 0
