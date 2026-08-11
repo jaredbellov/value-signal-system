@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-08-11T14:33:30.543604+00:00",
+  "updated_at_utc": "2026-08-11T15:03:28.527061+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -21,6 +21,20 @@
   },
   "noticias_por_categoria": {
     "tesla": [
+      {
+        "title": "Las acciones de Tesla suben alrededor de 1% hoy: ¿puede mantenerse la recuperación?",
+        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOSF9MaWhsTHpjaEJJckdQMGtxbFgzdWZvWVRJYjZESC1wZk51RXFwaHZ1cVI5UUtzTkhLaTRKQjJkR25tNms1b2I2N2xfTThCeTFJTTJrUVl0WHZxdmZUTERwc1VCeE9qdWU5WTFPeXl2MHljLW1yajFaUFVNc29RVlEzWGxPSzFqWERfXzlRS3NocWpscXNDY1IxcVlQNDJkanBKWXY2OHBHMXV3dWhONmkyM0JrQmtucl9WQk1qOVpWS05qeWZLaw?oc=5",
+        "source": "invezz.com",
+        "pubdate": "Tue, 11 Aug 2026 14:50:03 GMT",
+        "pubdate_iso": "2026-08-11T14:50:03+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
       {
         "title": "Tesla necesita pruebas del volante Robotaxi para convencer a inversores",
         "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPb2JkdzVHV0x1eDhmUjVQdnduTjZNWkJMOEJJYUVvVGJKQzJLMXBDTVoyOVh5dFJtdGFMNm9udFhURkhUV0UwY3NfQjFUYWplaGRRWWR6eVlUN0tCZzRETGt0VWVxZ3ZZQlBZeDZGdEJ3Mk9qSzFKbXdSSUxXZW85ejEtOVRyaTZBcGJTbmoySE5UQjlvSUtzcW1UYVY?oc=5",
@@ -212,9 +226,9 @@
     ]
   },
   "stats": {
-    "total_noticias": 13,
+    "total_noticias": 14,
     "por_categoria": {
-      "tesla": 2,
+      "tesla": 3,
       "nvidia": 4,
       "ia_semis": 5,
       "macro_tech": 2
@@ -225,7 +239,7 @@
     "score_neto": 5,
     "n_positivas": 2,
     "n_negativas": 0,
-    "n_neutrales": 11,
+    "n_neutrales": 12,
     "narrativa": "El feed muestra 2 senales positivas y 0 negativas (neto +5). Factores dominantes: Boom de IA: impulso para tech; Maximos historicos.",
     "narrativa_fuente": "plantilla",
     "veredicto": "ALCISTA a corto plazo"
