@@ -1,11 +1,13 @@
 {
-  "updated_at_utc": "2026-08-13T23:05:20.895716+00:00",
-  "updated_at_local": "2026-08-13T23:05:20.895730",
+  "updated_at_utc": "2026-08-14T00:02:27.154061+00:00",
+  "updated_at_local": "2026-08-14T00:02:27.154077",
   "tickers_solicitados": [
     "CFISPETF",
     "CFINASDAQ"
   ],
-  "errores": [],
+  "errores": [
+    "CFINASDAQ: sin precio"
+  ],
   "prices": {
     "CFISPETF": {
       "ticker": "CFISPETF",
@@ -29,7 +31,8 @@
       "monto_transado": null,
       "fecha_dato": null,
       "fuente": "BCS",
-      "error": null
+      "error": null,
+      "stale": true
     }
   }
 }
