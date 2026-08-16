@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-08-16T20:33:28.239302+00:00",
+  "updated_at_utc": "2026-08-16T21:03:28.352287+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -20,7 +20,22 @@
     }
   },
   "noticias_por_categoria": {
-    "tesla": [],
+    "tesla": [
+      {
+        "title": "Morgan Stanley a Tesla: la IA promete, pero los números deben aparecer",
+        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZUxjOGZBLXg3MThkdUVlbDBRaDFadWthVzVkMTIwMHJHSEpBMDlTWVlPckx2RkljUVJFaG1EaER1LUZLRmlvX0h6cHlVMGZpaUsyMktpYk5oWlJBa2R3NVN2WEFLSXc1MERzVnA0N1ludFFEUWRTQ2FFN3Z5cWZwU3VLV2JXemFUekZZVkg4R29SQTVGenBRSWprZGY1TV9QR3R0TVVlZ3NheVlp?oc=5",
+        "source": "DiarioBitcoin",
+        "pubdate": "Sun, 16 Aug 2026 20:59:16 GMT",
+        "pubdate_iso": "2026-08-16T20:59:16+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
     "nvidia": [
       {
         "title": "Oportunidades de arbitraje de NVIDIA Tokenized Stock (Robinhood)",
@@ -155,9 +170,9 @@
     ]
   },
   "stats": {
-    "total_noticias": 9,
+    "total_noticias": 10,
     "por_categoria": {
-      "tesla": 0,
+      "tesla": 1,
       "nvidia": 5,
       "ia_semis": 2,
       "macro_tech": 2
@@ -168,7 +183,7 @@
     "score_neto": 0,
     "n_positivas": 0,
     "n_negativas": 0,
-    "n_neutrales": 9,
+    "n_neutrales": 10,
     "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
     "narrativa_fuente": "plantilla",
     "veredicto": "NEUTRAL - sin sesgo dominante"
