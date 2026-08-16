@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-08-16T09:03:26.742861+00:00",
+  "updated_at_utc": "2026-08-16T09:33:25.234172+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -121,20 +121,6 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
-      },
-      {
-        "title": "SMIC profit more than triples on AI-driven chip demand",
-        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWkRoYXlPM01EQ1c3aWRMOGRIZzdZUFhSS3V3T1lYYWtieGsxM2NqM094VXVuOXJ6SjNiVTNLbFExS1lCdHBnSFduSW9xWThsUHRYc1Z5cnVTRS1SWGhaZmg4WTJsd3BIeFAtMUJSMFRNNnFON2dHdk9xbEtmcEtqdXNpNzRwbksxR3dyempETExJN19hbjlSYjNtMFFmMnFRRUtvUU9HVzcxeEFfZ0RMWVBYS3FGcmEtVGJla3Fwd3k?oc=5",
-        "source": "TradingView",
-        "pubdate": "Thu, 13 Aug 2026 09:32:00 GMT",
-        "pubdate_iso": "2026-08-13T09:32:00+00:00",
-        "impacto": {
-          "direccion": "positivo",
-          "intensidad": 2,
-          "intensidad_label": "moderado",
-          "emoji": "🟢",
-          "razonamiento": "Demanda de chips: soporte tech"
-        }
       }
     ],
     "macro_tech": [
@@ -183,22 +169,22 @@
     ]
   },
   "stats": {
-    "total_noticias": 11,
+    "total_noticias": 10,
     "por_categoria": {
       "tesla": 0,
       "nvidia": 5,
-      "ia_semis": 3,
+      "ia_semis": 2,
       "macro_tech": 3
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "levemente alcista",
-    "score_neto": 2,
-    "n_positivas": 1,
+    "sentimiento": "neutral",
+    "score_neto": 0,
+    "n_positivas": 0,
     "n_negativas": 0,
     "n_neutrales": 10,
-    "narrativa": "El feed muestra 1 senales positivas y 0 negativas (neto +2). Factores dominantes: Demanda de chips: soporte tech.",
+    "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "Levemente ALCISTA"
+    "veredicto": "NEUTRAL - sin sesgo dominante"
   }
 }
