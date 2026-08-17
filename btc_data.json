@@ -1,13 +1,13 @@
 {
-  "updated_at_utc": "2026-08-17T17:45:06.615359+00:00",
-  "precio_btc": 64173.39,
-  "precio_ibit": 36.35,
-  "score_final": 71.9,
+  "updated_at_utc": "2026-08-17T18:15:06.135793+00:00",
+  "precio_btc": 64324.23,
+  "precio_ibit": 36.44,
+  "score_final": 71.8,
   "zona": "ATRACTIVO",
   "multiplicador": 1.5,
   "peso_aplicado_pct": 100,
   "sub_scores": {
-    "drawdown": 80.9,
+    "drawdown": 80.7,
     "fear_greed": 69,
     "pi_cycle": 100,
     "halving_cycle": 65,
@@ -16,17 +16,17 @@
   },
   "sub_detalles": {
     "drawdown": {
-      "drawdown_pct": -48.56,
+      "drawdown_pct": -48.44,
       "ath": 124752.53,
-      "precio_actual": 64173.39
+      "precio_actual": 64324.23
     },
     "fear_greed": {
       "fg_value": 31,
       "classification": "Fear"
     },
     "pi_cycle": {
-      "ma_111": 67781.45,
-      "ma_350_x2": 165351.87,
+      "ma_111": 67782.81,
+      "ma_350_x2": 165352.73,
       "ratio": 0.41
     },
     "halving_cycle": {
@@ -7358,7 +7358,7 @@
     },
     {
       "fecha": "2026-08-17",
-      "precio": 64173.39
+      "precio": 64324.23
     }
   ]
 }
