@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-08-17T20:33:28.113455+00:00",
+  "updated_at_utc": "2026-08-17T21:03:29.543017+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -66,26 +66,41 @@
         }
       }
     ],
-    "ia_semis": [],
+    "ia_semis": [
+      {
+        "title": "Oracle Plans More Layoffs as AI Spending Surges",
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSThuTU5HcTRqZ0NKLU5XM2lHWDNYT1o2dFdqLWVWRGhHRzRxSmctV0FJV2d0UERqSDMtT3c5WkNNTGZUb0s3Tms1R3BNYXB2VVVmVmIybWFJaGxBOGtVeE1aU1ZOMTh4ZjVJYy0zY3pVdVh4NGl3a0NhQXdTa05NZXA2UGtYc2NTQUo5Mm5xQlBqZWhKWG9LVGc1TFZCbXhweWhocm9ERHF4dw?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 17 Aug 2026 12:20:51 GMT",
+        "pubdate_iso": "2026-08-17T12:20:51+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Despidos: senal de desaceleracion"
+        }
+      }
+    ],
     "macro_tech": []
   },
   "stats": {
-    "total_noticias": 3,
+    "total_noticias": 4,
     "por_categoria": {
       "tesla": 1,
       "nvidia": 2,
-      "ia_semis": 0,
+      "ia_semis": 1,
       "macro_tech": 0
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "neutral",
-    "score_neto": 0,
+    "sentimiento": "levemente bajista",
+    "score_neto": -2,
     "n_positivas": 0,
-    "n_negativas": 0,
+    "n_negativas": 1,
     "n_neutrales": 3,
-    "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
+    "narrativa": "El feed muestra 0 senales positivas y 1 negativas (neto -2). Factores dominantes: Despidos: senal de desaceleracion.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "NEUTRAL - sin sesgo dominante"
+    "veredicto": "Levemente BAJISTA"
   }
 }
