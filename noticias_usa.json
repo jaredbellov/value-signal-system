@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-08-18T16:03:25.868706+00:00",
+  "updated_at_utc": "2026-08-18T16:33:26.490185+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -21,6 +21,20 @@
   },
   "noticias_por_categoria": {
     "tesla": [
+      {
+        "title": "Tesla revierte pérdidas mientras inversores esperan avances en IA y robotaxis",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPclhCc1ZqRmM1VHpmdUFudngyLXRwMUdGdW9PWFU4VzMxTjQ0WkU3NTVlNmRZamxDWXFnUHZ0WHVfVUV0WEt4RGpoZUpleElSTWxjREVCRFQyd2tiUGR4a2k1Y1NpOHFTVk13WFZaQzJ0dG5LMUZFc1lHSUZFVEJNOTdJM2R3dllXc05QX0prSnZsTjNkVE05dVlSZXdVdm5xb003S1JrSThLWjctWG0wbFdZcXA0eFozY1NhdA?oc=5",
+        "source": "Invezz",
+        "pubdate": "Tue, 18 Aug 2026 16:25:58 GMT",
+        "pubdate_iso": "2026-08-18T16:25:58+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
       {
         "title": "Morgan Stanley a Tesla: la IA promete, pero los números deben aparecer",
         "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZUxjOGZBLXg3MThkdUVlbDBRaDFadWthVzVkMTIwMHJHSEpBMDlTWVlPckx2RkljUVJFaG1EaER1LUZLRmlvX0h6cHlVMGZpaUsyMktpYk5oWlJBa2R3NVN2WEFLSXc1MERzVnA0N1ludFFEUWRTQ2FFN3Z5cWZwU3VLV2JXemFUekZZVkg4R29SQTVGenBRSWprZGY1TV9QR3R0TVVlZ3NheVlp?oc=5",
@@ -226,9 +240,9 @@
     ]
   },
   "stats": {
-    "total_noticias": 14,
+    "total_noticias": 15,
     "por_categoria": {
-      "tesla": 1,
+      "tesla": 2,
       "nvidia": 4,
       "ia_semis": 4,
       "macro_tech": 5
@@ -239,7 +253,7 @@
     "score_neto": 2,
     "n_positivas": 3,
     "n_negativas": 2,
-    "n_neutrales": 9,
+    "n_neutrales": 10,
     "narrativa": "El feed muestra 3 senales positivas y 2 negativas (neto +2). Factores dominantes: Maximos historicos; Despidos: senal de desaceleracion.",
     "narrativa_fuente": "plantilla",
     "veredicto": "Levemente ALCISTA"
