@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-08-18T19:26:57.160619+00:00",
+  "updated_at_utc": "2026-08-18T21:26:57.363092+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "fed_tasas": {
@@ -29,6 +29,20 @@
   },
   "noticias_por_categoria": {
     "fed_tasas": [
+      {
+        "title": "S&P 500 Falls, Bitcoin Surges as Traders Await the Fed Minutes: What Next?",
+        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNTTBBS18yMFByRmppNWdKQVhDSDVadk40dWhaYkcwdDJhLWp6eWVfNzI4U2RNenNkN09Pa09JMU9pbXN4RDBPU2o2WXRabFJXYWZNZ3FTUjdyc0JmVnNMc044SHVINmRTaTlGSnloOHIzNXBpQjhzZERVamZoNkU3eThzdlQtSFhJZFFj?oc=5",
+        "source": "CryptoRank",
+        "pubdate": "Tue, 18 Aug 2026 05:43:48 GMT",
+        "pubdate_iso": "2026-08-18T05:43:48+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
       {
         "title": "Prediction Markets Give the Fed 74% Odds of Standing Pat in September",
         "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4ySkZtRGJoX0tUVlpMU2pQXzVIclZ2aTRWMDBLN2o0QVJpTWpfYlFhejl4aUF6SEdNQ2dsaEhJdHMzMWNOVmx1NGwyNWNNQU9TX0Y2WFF5N2NuZDh6SXptNVZtYUlyODhYeVRwbGxaVdIBd0FVX3lxTE9tLW9kSEx2algzWDZxOG4yRmJhM1lIYzlvU2RnVXZIbmN2Nm5tN3lLNEI5S1ZGUnRTb1lDUnlRODF0RDdiZzRJbXg2VFdqcDJ2TkJOMkxQTmZzRWxyd1pkZm1SSFAxZjBQRk1CdXhDazJ4aXE5MDY0?oc=5",
@@ -293,9 +307,9 @@
     ]
   },
   "stats": {
-    "total_noticias": 18,
+    "total_noticias": 19,
     "por_categoria": {
-      "fed_tasas": 4,
+      "fed_tasas": 5,
       "mercado": 1,
       "tech_nasdaq": 5,
       "economia": 0,
@@ -308,7 +322,7 @@
     "score_neto": 2,
     "n_positivas": 2,
     "n_negativas": 1,
-    "n_neutrales": 15,
+    "n_neutrales": 16,
     "narrativa": "El feed muestra 2 senales positivas y 1 negativas (neto +2). Factores dominantes: Yields disparados: presion sobre equities; Fed en pausa: alivio para equities.",
     "narrativa_fuente": "plantilla",
     "veredicto": "Levemente ALCISTA"
