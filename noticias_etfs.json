@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-08-19T13:24:09.381698+00:00",
+  "updated_at_utc": "2026-08-19T13:26:56.874442+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "fed_tasas": {
@@ -58,20 +58,6 @@
         }
       },
       {
-        "title": "Bitcoin jumps above $64K as whale buying puts $66K breakout in play",
-        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQLWlHMFJaWlZreE1rZnphOXlCaHNqYy1GQmljRkx4UnlGMnNhSkFHSW5BQzZFZkpHa240VDVHVHhlLXNkeWNyMWl6X04wb3FOdlVEZmNDRVNhT0xpSFFoaDhjNVVKZVpaelE3NHNuLW44Y0p1U294eEZoaVRZUEhqaGhySDJvdndnbzV4MkFSUDVpcHl6a0hkWlcxdmJydzhvbWJCU3BWUl9fRXVwTXZnYWdZbkVXOXFfeG8yNE1n?oc=5",
-        "source": "es.tradingview.com",
-        "pubdate": "Tue, 18 Aug 2026 06:26:20 GMT",
-        "pubdate_iso": "2026-08-18T06:26:20+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
         "title": "S&P 500 Falls, Bitcoin Surges as Traders Await the Fed Minutes: What Next?",
         "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNTTBBS18yMFByRmppNWdKQVhDSDVadk40dWhaYkcwdDJhLWp6eWVfNzI4U2RNenNkN09Pa09JMU9pbXN4RDBPU2o2WXRabFJXYWZNZ3FTUjdyc0JmVnNMc044SHVINmRTaTlGSnloOHIzNXBpQjhzZERVamZoNkU3eThzdlQtSFhJZFFj?oc=5",
         "source": "CryptoRank",
@@ -97,6 +83,20 @@
           "intensidad_label": "neutral",
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Bond Market Triggers Wall Street Risk Warnings As Long Yields Surge",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPOW1UNHhCamZGeEJzU1FnQ09lek1ia3lDenQ5Wk50WXROY2l3aXhqcjd3S0tPTkgxV1o0ZUlUdDdhcVRhblh4U2NUUUZ6ZkhPQlV0Rk5XbVdRYzVxeG5iaVlCQ0JJcmZJVWRBaUV0UG1UYXNJT3pHTmROVFNtSzExZjdyaWZ5bTlOY1Q4SWhXY1FGa0FuUHl3bVpmekRLMjFjYW9aUmJuaWhTQmpzb1pDbHpzazdseVZ3RFI0a3JDdkZ0azh5Nmc?oc=5",
+        "source": "es.tradingview.com",
+        "pubdate": "Mon, 17 Aug 2026 18:23:36 GMT",
+        "pubdate_iso": "2026-08-17T18:23:36+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Yields disparados: presion sobre equities"
         }
       }
     ],
@@ -418,11 +418,11 @@
   },
   "resumen_ejecutivo": {
     "sentimiento": "bajista",
-    "score_neto": -4,
+    "score_neto": -6,
     "n_positivas": 0,
-    "n_negativas": 2,
-    "n_neutrales": 24,
-    "narrativa": "El feed muestra 0 senales positivas y 2 negativas (neto -4). Factores dominantes: Alerta de burbuja; Alerta de burbuja.",
+    "n_negativas": 3,
+    "n_neutrales": 23,
+    "narrativa": "El feed muestra 0 senales positivas y 3 negativas (neto -6). Factores dominantes: Yields disparados: presion sobre equities; Alerta de burbuja.",
     "narrativa_fuente": "plantilla",
     "veredicto": "BAJISTA a corto plazo"
   }
