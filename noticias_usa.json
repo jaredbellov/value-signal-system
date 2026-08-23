@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-08-23T09:03:28.249926+00:00",
+  "updated_at_utc": "2026-08-23T09:33:28.094732+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -47,6 +47,20 @@
           "intensidad_label": "neutral",
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Tesla Jumps 3.6% as Semi Launch and Robotaxi Expansion Accelerate",
+        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdXppZDdyeUdfNDRHREhVYTUxd19QenpMaE95dzJHcEVraVhKb01iekY2ajVJcVZmdkxjZzd6ckdQTE43SEZ6bEQ4QUJvOE5VaEtlWGt4Si1DZEtORkdWTUp2X2d2UGVnLU5WWElhSjNFNE1hM2Nibzg1Um5rYlBGbkxvOXFYNWJQOHNMcDN2c1l5aVZoMnNVell2WGtlNG52cmF4SVcyUFJWMzBhX1BKSWhkT0ptSzdWeGdyVHhBMlY?oc=5",
+        "source": "TradingView",
+        "pubdate": "Fri, 21 Aug 2026 18:22:20 GMT",
+        "pubdate_iso": "2026-08-21T18:22:20+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🟢",
+          "razonamiento": "Expansion robotaxi: catalizador Tesla"
         }
       },
       {
@@ -268,22 +282,22 @@
     ]
   },
   "stats": {
-    "total_noticias": 17,
+    "total_noticias": 18,
     "por_categoria": {
-      "tesla": 4,
+      "tesla": 5,
       "nvidia": 5,
       "ia_semis": 5,
       "macro_tech": 3
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "neutral",
-    "score_neto": 0,
-    "n_positivas": 0,
+    "sentimiento": "levemente alcista",
+    "score_neto": 2,
+    "n_positivas": 1,
     "n_negativas": 0,
     "n_neutrales": 17,
-    "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
+    "narrativa": "El feed muestra 1 senales positivas y 0 negativas (neto +2). Factores dominantes: Expansion robotaxi: catalizador Tesla.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "NEUTRAL - sin sesgo dominante"
+    "veredicto": "Levemente ALCISTA"
   }
 }
