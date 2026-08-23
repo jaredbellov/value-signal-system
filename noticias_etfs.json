@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-08-23T19:26:57.227360+00:00",
+  "updated_at_utc": "2026-08-23T21:26:57.095552+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "fed_tasas": {
@@ -160,22 +160,7 @@
         }
       }
     ],
-    "economia": [
-      {
-        "title": "Why Lucid (LCID) Stock Is Falling Today",
-        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbUtlcS1oV3B6VXJrX1BFNUJkeDVyZUZobFA0TVhPUE5rNVBPUE5ZdEVhdnIxcTlYd0dDcnBCaGxaUERibHp6TjVZcWJzYmZIRnlTVUltbWw2dnV1eV9rRnpRLUo3eHZvajM5amFGVmVOSC1CcEY2alNiaVV2VGU5aG50NTQwc212QU5uTFByZXpYT0FRRXV4WHNwU2dvdw?oc=5",
-        "source": "TradingView",
-        "pubdate": "Thu, 20 Aug 2026 20:31:01 GMT",
-        "pubdate_iso": "2026-08-20T20:31:01+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      }
-    ],
+    "economia": [],
     "earnings": [
       {
         "title": "Flowers Foods Q2 Earnings Call Highlights",
@@ -224,12 +209,12 @@
     ]
   },
   "stats": {
-    "total_noticias": 13,
+    "total_noticias": 12,
     "por_categoria": {
       "fed_tasas": 3,
       "mercado": 5,
       "tech_nasdaq": 1,
-      "economia": 1,
+      "economia": 0,
       "earnings": 2,
       "sentimiento": 1
     }
@@ -239,7 +224,7 @@
     "score_neto": -1,
     "n_positivas": 1,
     "n_negativas": 1,
-    "n_neutrales": 11,
+    "n_neutrales": 10,
     "narrativa": "El feed muestra 1 senales positivas y 1 negativas (neto -1). Factores dominantes: Selloff: presion vendedora; Acciones al alza.",
     "narrativa_fuente": "plantilla",
     "veredicto": "NEUTRAL - sin sesgo dominante"
