@@ -1,40 +1,35 @@
 {
-  "updated_at_utc": "2026-08-24T17:51:38.787074+00:00",
-  "updated_at_local": "2026-08-24T17:51:38.787088",
+  "updated_at_utc": "2026-08-24T18:03:44.297945+00:00",
+  "updated_at_local": "2026-08-24T14:03:44.297958",
   "tickers_solicitados": [
     "CFISPETF",
     "CFINASDAQ"
   ],
-  "errores": [
-    "CFISPETF: sin precio",
-    "CFINASDAQ: sin precio"
-  ],
+  "errores": [],
   "prices": {
     "CFISPETF": {
       "ticker": "CFISPETF",
-      "precio_cierre": 1774.0,
-      "precio_actual": 1774.0,
+      "precio_cierre": 1771.5,
+      "precio_actual": 1771.5,
       "razon_social": "FI ETF SINGULAR SP 500",
       "moneda": "CLP",
       "variacion_pct": null,
       "monto_transado": null,
       "fecha_dato": null,
       "fuente": "BCS",
-      "error": null,
-      "stale": true
+      "error": null
     },
     "CFINASDAQ": {
       "ticker": "CFINASDAQ",
-      "precio_cierre": 2117.4,
-      "precio_actual": 2117.4,
+      "precio_cierre": 2114.0,
+      "precio_actual": 2114.0,
       "razon_social": "FI ETF SINGULAR NASDAQ 100",
       "moneda": "CLP",
       "variacion_pct": null,
       "monto_transado": null,
       "fecha_dato": null,
       "fuente": "BCS",
-      "error": null,
-      "stale": true
+      "error": null
     }
   }
 }
