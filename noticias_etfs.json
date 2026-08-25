@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-08-25T17:26:58.485998+00:00",
+  "updated_at_utc": "2026-08-25T19:26:59.050957+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "fed_tasas": {
@@ -28,7 +28,22 @@
     }
   },
   "noticias_por_categoria": {
-    "fed_tasas": [],
+    "fed_tasas": [
+      {
+        "title": "Jackson Hole ofrecerá a Kevin Warsh una oportunidad de refutar a sus críticos",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMENlQjFZamFkeWlRUVUzVGV6SU5MeHVOWTJ0eFZHWnpTakZTWGc3cExPSWdTTjBTSHNJMG1ORk9OVnZfQnpIS1ZIZGpSVFJac05KMm9DMkZ1NkhVRHNlNi1UUEJUQWtWQWFxNDhMNGxlZllKUG9MUVFXdVlZN2U5Y01IQlM1SGxFOGVyeWM3Zk1mbWZ3MnB4d1VmeDl0aXJWYmFIUFNrNThsZVhvd2tneg?oc=5",
+        "source": "Bloomberg",
+        "pubdate": "Tue, 25 Aug 2026 15:55:25 GMT",
+        "pubdate_iso": "2026-08-25T15:55:25+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
     "mercado": [
       {
         "title": "Wall Street inicia cobertura de Digi España con optimismo tras su reciente OPV",
@@ -45,7 +60,7 @@
         }
       },
       {
-        "title": "La bolsa hoy: Nuevo capítulo en la guerra comercial entre Estados Unidos y Canadá",
+        "title": "La bolsa hoy: sigue la guerra comercial entre EE.UU. y Canadá",
         "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQQUJwNnlrTGJHYU1OMS1nZlg2SEhCUUx2ajhJYURFQUhzN1dUWEczRFA3cGdzZm10ZmxIT0hZSFplbFllTFlEZ2NzUTVwUHVLZTVaVkpUN2hSWEU5ZWR4LThzWWJ6OFVKTmNsakpMMVlOWEtLN1g5MzZ2RmpuaVVmWEZYTzV1NndCWExWZlY5Nl9fWTF4RFVnQWFFaTA0TXZwemhfbWxVQUpjblZ3WkZDSGhCbWpaNG5lV3BkdGNaVDBfQkliR1pSUTlqeGpnd3FkREVjcVd5ckI1OGo2?oc=5",
         "source": "XTB.com",
         "pubdate": "Tue, 25 Aug 2026 06:17:58 GMT",
@@ -206,6 +221,20 @@
     ],
     "sentimiento": [
       {
+        "title": "Ripple Price Forecast: XRP bulls eye another breakout with $1.70 in sight",
+        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNdm9CNVIzUmVZUkVEcG5ZN1Z1WnF2TndtazdfUlJ3aEhaMFhGOFFFV2t5cXM1VUFtZTJCYi1QbUUzcFM4ckppaGREREo0clowY2RPcXUyTUk0c2NGbUVTTTZBTGI2VFpqQnpkQXgwXy1OcmRSWWhOYUdSdnptSk5TWVlxWXNiakxRZ1Y5NTlMVFlDd3RkRGdXOXN1aDM4eVYzZDRhcnZHYWlScjIxNzgxXzF5c2JjUGdDM3lTeUpwcjRfMmwyZVRDdXI3d0Voa2VmMnc?oc=5",
+        "source": "tmgm.com",
+        "pubdate": "Tue, 25 Aug 2026 14:02:33 GMT",
+        "pubdate_iso": "2026-08-25T14:02:33+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
         "title": "Bitcoin Price Stalls as Profit-Taking Emerges After Rally",
         "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPaVhGeTZ4cV9OVy1wQkdsVkJreHJHbjB6RlptOTQ1cE40MmN1c1ktQjRsVWRFWk5tU1Jwb256TU1peGFxVWV4NmF4U2x5dzdlYTN2dWRfN2NRdElGQVNNQlJQeDNkbktidUNnUTNmdlA5RTdqWGJyMHJHNG1HVEVWSg?oc=5",
         "source": "CryptoRank",
@@ -236,14 +265,14 @@
     ]
   },
   "stats": {
-    "total_noticias": 14,
+    "total_noticias": 16,
     "por_categoria": {
-      "fed_tasas": 0,
+      "fed_tasas": 1,
       "mercado": 5,
       "tech_nasdaq": 5,
       "economia": 0,
       "earnings": 2,
-      "sentimiento": 2
+      "sentimiento": 3
     }
   },
   "resumen_ejecutivo": {
@@ -251,7 +280,7 @@
     "score_neto": -2,
     "n_positivas": 0,
     "n_negativas": 1,
-    "n_neutrales": 13,
+    "n_neutrales": 15,
     "narrativa": "El feed muestra 0 senales positivas y 1 negativas (neto -2). Factores dominantes: Guerra comercial: muy negativo.",
     "narrativa_fuente": "plantilla",
     "veredicto": "Levemente BAJISTA"
