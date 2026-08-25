@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-08-25T13:43:42.200509+00:00",
+  "updated_at_utc": "2026-08-25T15:26:59.686549+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "fed_tasas": {
@@ -28,22 +28,7 @@
     }
   },
   "noticias_por_categoria": {
-    "fed_tasas": [
-      {
-        "title": "Bitcoin Price Forecast: BTC Nears Key 50-Day EMA as FOMC Minutes Loom",
-        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZU9wb180UURRZzVtcWtiTm9sSzlGNXVxQnQ4X3dDdmhuOHVpT1FPSFdGQmRaTWdRRWhIU2NJUlNHOHFzdlFkbW5IbDA5Vkg1c2lNZ0Q0ZEZzZjZSYWg4YWM5M2t5MGo0aXVnb21nVjduS0dmNG1tMWJVS2dEV1FpYnZ3NXFzZ1ZjbGtrMjFwVTQ?oc=5",
-        "source": "CryptoRank",
-        "pubdate": "Sat, 22 Aug 2026 14:44:57 GMT",
-        "pubdate_iso": "2026-08-22T14:44:57+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      }
-    ],
+    "fed_tasas": [],
     "mercado": [
       {
         "title": "Wall Street inicia cobertura de Digi España con optimismo tras su reciente OPV",
@@ -251,9 +236,9 @@
     ]
   },
   "stats": {
-    "total_noticias": 15,
+    "total_noticias": 14,
     "por_categoria": {
-      "fed_tasas": 1,
+      "fed_tasas": 0,
       "mercado": 5,
       "tech_nasdaq": 5,
       "economia": 0,
@@ -266,7 +251,7 @@
     "score_neto": -2,
     "n_positivas": 0,
     "n_negativas": 1,
-    "n_neutrales": 14,
+    "n_neutrales": 13,
     "narrativa": "El feed muestra 0 senales positivas y 1 negativas (neto -2). Factores dominantes: Guerra comercial: muy negativo.",
     "narrativa_fuente": "plantilla",
     "veredicto": "Levemente BAJISTA"
