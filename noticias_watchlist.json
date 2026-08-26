@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-08-26T18:33:01.945616+00:00",
+  "updated_at_utc": "2026-08-26T20:33:02.021755+00:00",
   "ventana_dias": 7,
   "medios": [
     "Diario Financiero",
@@ -7,7 +7,15 @@
     "El Mercurio"
   ],
   "noticias_por_ticker": {
-    "HABITAT": [],
+    "HABITAT": [
+      {
+        "title": "Gerente de inversiones de Habitat y próximo esquema de premios y castigos para las AFP: \"Es comercialmente catastrófico\"",
+        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNOUZTYmpsdE14TVlhNVNwMzE3Q1I0OC03RV9BcW9raVVWNHpHazJ1QWtYbFUtMXBON05sbFNIaUZpZEtxZ2s0VV9ycVJYSV9MRE9aQ0hfUmN1WGlLRUVhcEpLMUJXN052a3VPb2lZVTQtR2lycFRuSjJDSll0cmdOM0QtMWgxUTJoU3RoR2VpOA?oc=5",
+        "pubdate": "Wed, 26 Aug 2026 15:27:00 GMT",
+        "source": "Diario Financiero",
+        "matched_keyword": "AFP Habitat"
+      }
+    ],
     "ZOFRI": [
       {
         "title": "Las empresas que se beneficiarían de la eliminación al impuesto a las ganancias de capital en acciones",
@@ -32,7 +40,7 @@
       },
       {
         "title": "ZONA FRANCA DE IQUIQUE S.A.: Contingencias, huelgas, paralización de actividades",
-        "link": "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=cf60ff815f94733e5d782608a9a40231VFdwQmVVNXFRVFJOUkZVd1RsUkpNVTFCUFQwPQ==&secuencia=-1&t=1787769001",
+        "link": "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=cf60ff815f94733e5d782608a9a40231VFdwQmVVNXFRVFJOUkZVd1RsUkpNVTFCUFQwPQ==&secuencia=-1&t=1787776321",
         "pubdate": "20 ago 2026 19:55",
         "source": "CMF (Hecho Esencial)",
         "matched_keyword": "zona franca de iquique",
@@ -61,7 +69,15 @@
         "matched_keyword": "Enel Chile"
       }
     ],
-    "LIPIGAS": [],
+    "LIPIGAS": [
+      {
+        "title": "La caída del petróleo alivia la tensión, mientras el cobre alcanza nuevos máximos históricos",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTUZjRkQ5ZWtNV3l1Y3RyNVAtZkN2RkdDM0Q3WWdXbTJEMjVFWWpabDhWcmhzdEtoUUNQdmNyNmoza1BYRjBYNnpBTm9OdGVhOXNOOFN5X3Q5NVNETXFacFgtS1M4dDI2MmRxMEVhcm9wczVPNWNtaTVqaDZwZG85dnNtVlVvQlJSV1dwMHlTWEw5TjVrTUdpR1JKM3pZVDlKaGxvYjBn?oc=5",
+        "pubdate": "Wed, 26 Aug 2026 11:30:00 GMT",
+        "source": "Diario Financiero",
+        "matched_keyword": "Lipigas"
+      }
+    ],
     "NTGCLGAS": [
       {
         "title": "Empresas Gasco registra pérdidas el primer semestre de 2026 tras mayor inversión en proyectos renovables",
@@ -100,7 +116,7 @@
       },
       {
         "title": "EMPRESAS GASCO S.A.: Otros",
-        "link": "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=f101ece0ed8bf6e3c469b1bdb4971536VFdwQmVVNXFRVFJOUkZVeFRXcEpNazUzUFQwPQ==&secuencia=-1&t=1787769001",
+        "link": "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=f101ece0ed8bf6e3c469b1bdb4971536VFdwQmVVNXFRVFJOUkZVeFRXcEpNazUzUFQwPQ==&secuencia=-1&t=1787776321",
         "pubdate": "25 ago 2026 16:27",
         "source": "CMF (Hecho Esencial)",
         "matched_keyword": "empresas gasco",
@@ -111,6 +127,20 @@
       }
     ],
     "SOQUICOM": [
+      {
+        "title": "Dorothy Pérez señala que Contraloría se encuentra investigando a Codelco: “Estamos auditando hoy día en dos líneas”",
+        "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNMEF0cmtvYnNDRUw5UkJuZHp2TjZnaWc4dTBOX2JwTXJnMWhIa0pVTWlhQ2QtQXMxQ0FYbDB0U2N1MEpSa2IwdTBTOWhJc3lsNFJRWV9oZDMxb0xySW51MnJCWXdIWWlzOGYzZWMyM28zYlBKMkhxVmRabDQ5NjBXWThReXZJRDZNZGRWbkNFUW1VVU5JVDhMRHk1YzZNemloVnVsSl9FV0VvVC1OcVpfNDJQaGF6WmNZdHRyRkp0LUZ5UEcwbWpYeFhpU1h6SnpqdjRaNUwzRVlOQTRUaTR5Q2dQY1RvRzNRMzRma9IBjgJBVV95cUxQY1Z1eWZWMjR3Qk5yNV9ZSlI2bWlqZ3F0ZVpmdFptV205T3NlSEU5SEhUR1BFVkh3VnRNcWh6VU5mRlNkNFNtck9FRmZPRjB0eVBxcTE1bzVKRkRzZEdqZ0pocS1RWndFS3VXOXk1SVBXSTRlcmU0Nnl5ZlV3Y0JOOUI0NlJueld6Q3Q4a21Nc2w2M0t5aEFzS3hNbHdIZlFraXBfNFFTWkF0NlFvdVRib05Jd21oSHVCdnVwbmpTTS1lNDJrcnRHdW1RelBoWi1hSDRBRzVjWU05MGxldUFjbEdVeWQzMGJOVk55OGVQY1lfU1RjSlZIOW5HMW1HWWhhMFU4VDVIWjRwUVZ1QUE?oc=5",
+        "pubdate": "Wed, 26 Aug 2026 19:23:04 GMT",
+        "source": "La Tercera",
+        "matched_keyword": "SQM"
+      },
+      {
+        "title": "Morgan Stanley eleva su apuesta por la bolsa chilena y recomienda “sobreponderar”",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbi1EMmRUU0FUZFpTanlQckwtcGxMcnRWOUxNOV9BaDExMmd0UXVENmt3SEl4SWxzQXJJOFczMHp5VWNybV92Q3dnRmZMcE1INFEwRE51eXpqbzN4RDJOZGFneVdfQ2VaUngxcDdxVTFQZlN2SjItLVNTNC0wZ0Z0Y0NkUk9CYzFOeS1WeWdCeW9QbmFzUXRvRnZRLXR6amVSb0FNQjIxUzB3V1llX0E?oc=5",
+        "pubdate": "Wed, 26 Aug 2026 19:11:00 GMT",
+        "source": "Diario Financiero",
+        "matched_keyword": "SQM"
+      },
       {
         "title": "Darío Calderón entra en modo defensa en caso Junaeb: ficha a Samuel Donoso y pide proteger conversaciones con clientes",
         "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQSXhLb2xMbXBEeG94V185eFROOUJOcDlyMUV1emdfSjlxMElZODdGU2RsNGEyczZuWXpIa19qLXo1Z25qQUtnajdUV0xwcGVsYW82d0RuRVJsVTNuSUVibjlLMXFMWjBWRUxmYUthSml1QnV4TVU4MEJXN05uV3RZc2ZHQkNJXzdnc1lEbWxVUkhjTnRCQ3hJSTRTRFRuYjZGR1pTajkyVTVmckdPN241RUdyN1RlZXZUY3ozZlkxSF9jXzBhOVFyOHNtVEpaQzhVcm94X1IwOWZUZFR3VWZOVm5VWDJwaF9ZUXJsNWM1T1JBTzDSAZQCQVVfeXFMTnBhN0czLW1EUjFTYTI2bTNkcHRMZjZab1R2OHNFRGVvQlE5dGYzZzl6TlNIQ0lST2hiRU9WTjlxTXh6QWRLTGRNV3dzeE55QVhTT1R4dUJwQm0wN0xIa2xLbmw5Y2xDQnF5ZjRNY0xPQ3d1cnphQ05wYUJzZ1JHVHpJbDJZbHlHWE9USDdWclhIM2Uyck15ejhpUEU2dG1tS1RscnFDQUJlZUwxbXZFRHpTZkREQmgwX3djd2xBNGFjTC1UVHUxelNkc1BMWU5NMVQ1X3Fsb21LUFRfSDRiMzRiQWJvTXNDUWdqVWQ1WHVZT1BfNDlXYWJtX0twaHVTYTFNd2NIUHdPckNMcDAxWmR3aDVm?oc=5",
@@ -210,13 +240,6 @@
         "matched_keyword": "SQM"
       },
       {
-        "title": "La deuda del gobierno de EEUU alcanza los US$ 40 billones y crece a un ritmo histórico",
-        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPOTc3QmwyUUlEaDNBbnNEcWx6cVFpMXZnQkNZOE45T2xhOEUzVk5GM244MHB3RmItYWczS3JkUUZoM0pIV2NETkRSMVRFSFROa3p1bEtMZ21GbFh3T1VPZHViX3NjVkthdkRYX1lQbDdxOGhJQXNnYzQ2Z1pJSFVZek0yMDJPTHA3SGc5ekxyQVliN3g0d05kaFJpNHRrSThpbm9sSnFQWQ?oc=5",
-        "pubdate": "Wed, 19 Aug 2026 22:15:00 GMT",
-        "source": "Diario Financiero",
-        "matched_keyword": "SQM"
-      },
-      {
         "title": "SEC de EEUU termina investigación contra SQM por corrupción y no impondrá sanciones",
         "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOMUVZN05scllsdkdEQTVtV2JoLUxSSkpiaUg4S2xiZFhWVkxoTW1fZjU3Zy1YUUlMbzZRR2VLSVM2SndsdUIzSHR1UzdrYXRCbzItTHdjSkJ1SUZCQmRqX2dpeXRrSm1mTldyMnBsdFJRZklaa3lBUjhUZzU0OUh4bEZVcU03OWVuU2JKMmNxM0VBVkdybGc?oc=5",
         "pubdate": "Wed, 19 Aug 2026 21:11:00 GMT",
@@ -224,15 +247,8 @@
         "matched_keyword": "SQM"
       },
       {
-        "title": "IPSA cierra sobre los 11.200 puntos una quinta sesión alcista tras resultados de SQM y mejora de perspectivas a nivel local",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9nT2szZTlDSDhZaFh5Y2NJbFRRMWR1WjZFcVpGRGpHRm5BaU56czVOdm8zSVRUSEhUWG14SDFGRjVsNVhpOEk4QktkQzB4VTFjZ211RTJtSW1XdU9PRmwyM2pJZUpuZU52?oc=5",
-        "pubdate": "Wed, 19 Aug 2026 20:24:00 GMT",
-        "source": "Diario Financiero",
-        "matched_keyword": "SQM"
-      },
-      {
         "title": "SOCIEDAD QUIMICA Y MINERA DE CHILE S.A.: Reparto de utilidades (pago de dividendos)",
-        "link": "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=fb437005e4cce8caeffe00ac5a13dd45VFdwQmVVNXFRVFJOUkZVeFRXcFpNRTFCUFQwPQ==&secuencia=-1&t=1787769001",
+        "link": "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=fb437005e4cce8caeffe00ac5a13dd45VFdwQmVVNXFRVFJOUkZVeFRXcFpNRTFCUFQwPQ==&secuencia=-1&t=1787776321",
         "pubdate": "25 ago 2026 17:14",
         "source": "CMF (Hecho Esencial)",
         "matched_keyword": "sociedad quimica y minera",
@@ -257,8 +273,8 @@
     "total_queries": 51,
     "queries_exitosas": 51,
     "queries_falladas": 0,
-    "total_noticias_brutas": 1927,
-    "total_noticias_filtradas": 31,
-    "total_hechos_esenciales_brutos": 103
+    "total_noticias_brutas": 1961,
+    "total_noticias_filtradas": 33,
+    "total_hechos_esenciales_brutos": 104
   }
 }
