@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-08-26T19:33:54.479757+00:00",
+  "updated_at_utc": "2026-08-26T21:34:00.280112+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "bcch_tpm": {
@@ -53,6 +53,20 @@
       }
     ],
     "ipsa": [
+      {
+        "title": "¿Es siempre inconveniente abrirse en bolsa en Chile? - Ex-ante",
+        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE84TF9QakE0QUc1bS1kd3NHeVdzZFpWdGhBckJERzNlOWxkYjJOOFlMc29kbjBVWjhsMlNYeUdveFVnaGZMVFFoc05Ka3hEYzJOTHc2NmNsZFBVd3pZN1JfZzFCa29WU2puXzhlbThDdDhHdHh5R3lLaQ?oc=5",
+        "source": "Ex-ante",
+        "pubdate": "Wed, 26 Aug 2026 20:31:18 GMT",
+        "pubdate_iso": "2026-08-26T20:31:18+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
       {
         "title": "SP IPSA: La Bolsa de Santiago este martes cierra a la baja con variación de 0,76%",
         "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYTRWYTJmeldIQmhTVHIybk1tb1NkaHMwX3dqZGVxUUU1aDVhZ2NHY1VqLWVMMmlRc0lfQnZBc0JrUVlpbzJpeDEtU2EzYTZCNERGcjgtZG1VYzB5Tk1vLTVueDRwX1BBY2w1RXJOSUZCcmFudThDQ2M3RDBzOW5QSzZCNzRHS1R3Ul9rN21Bc0M0ME9JWVZUazBtLXlldW4tMlNzcjI3a0dKR0dGWWROT1QzdUJielU?oc=5",
@@ -378,7 +392,7 @@
     "ZOFRI": [
       {
         "title": "ZONA FRANCA DE IQUIQUE S.A.: Contingencias, huelgas, paralización de actividades",
-        "link": "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=cf60ff815f94733e5d782608a9a40231VFdwQmVVNXFRVFJOUkZVd1RsUkpNVTFCUFQwPQ==&secuencia=-1&t=1787772661",
+        "link": "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=cf60ff815f94733e5d782608a9a40231VFdwQmVVNXFRVFJOUkZVd1RsUkpNVTFCUFQwPQ==&secuencia=-1&t=1787779981",
         "pubdate": "20 ago 2026 19:55",
         "source": "CMF (Hecho Esencial)",
         "es_hecho_esencial": true,
@@ -390,7 +404,7 @@
     "NTGCLGAS": [
       {
         "title": "EMPRESAS GASCO S.A.: Otros",
-        "link": "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=f101ece0ed8bf6e3c469b1bdb4971536VFdwQmVVNXFRVFJOUkZVeFRXcEpNazUzUFQwPQ==&secuencia=-1&t=1787772661",
+        "link": "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=f101ece0ed8bf6e3c469b1bdb4971536VFdwQmVVNXFRVFJOUkZVeFRXcEpNazUzUFQwPQ==&secuencia=-1&t=1787779981",
         "pubdate": "25 ago 2026 16:27",
         "source": "CMF (Hecho Esencial)",
         "es_hecho_esencial": true,
@@ -402,7 +416,7 @@
     "SOQUICOM": [
       {
         "title": "SOCIEDAD QUIMICA Y MINERA DE CHILE S.A.: Reparto de utilidades (pago de dividendos)",
-        "link": "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=fb437005e4cce8caeffe00ac5a13dd45VFdwQmVVNXFRVFJOUkZVeFRXcFpNRTFCUFQwPQ==&secuencia=-1&t=1787772661",
+        "link": "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=fb437005e4cce8caeffe00ac5a13dd45VFdwQmVVNXFRVFJOUkZVeFRXcFpNRTFCUFQwPQ==&secuencia=-1&t=1787779981",
         "pubdate": "25 ago 2026 17:14",
         "source": "CMF (Hecho Esencial)",
         "es_hecho_esencial": true,
@@ -413,10 +427,10 @@
     ]
   },
   "stats": {
-    "total_noticias": 23,
+    "total_noticias": 24,
     "por_categoria": {
       "bcch_tpm": 1,
-      "ipsa": 4,
+      "ipsa": 5,
       "dolar_cobre": 5,
       "economia_chile": 5,
       "politica_regulacion": 5,
@@ -431,7 +445,7 @@
     "score_neto": -4,
     "n_positivas": 0,
     "n_negativas": 2,
-    "n_neutrales": 21,
+    "n_neutrales": 22,
     "narrativa": "El feed muestra 0 senales positivas y 2 negativas (neto -4). Factores dominantes: Reforma pensiones: riesgo regulatorio para AFPs; Perdidas reportadas.",
     "narrativa_fuente": "plantilla",
     "veredicto": "BAJISTA a corto plazo"
