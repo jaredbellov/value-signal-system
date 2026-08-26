@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-08-26T18:03:25.997634+00:00",
+  "updated_at_utc": "2026-08-26T18:33:39.361087+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -94,6 +94,20 @@
         }
       },
       {
+        "title": "Nvidia Stock Could Swing 6% After Q2 Earnings",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQLWZnSnFUX1A2ODhaZnpSVXpmZmM3cUlvUTdWRzl0R0doalZ2VXY0VDRRMmhMMTJRdllhZlpjdW5zWkxXSnhVTHVOcS03TUtMUGllOXVyakwzZmdPZXBZbXVSWjh1VXZub2VkbHFLd3p3Qk1zYXY2NDZWZVFYQUVQd2hrVHRHRDdubVo5M3VDdEFveEw1SENGNHVydkcxM2tpMWV3S3N3?oc=5",
+        "source": "TradingView",
+        "pubdate": "Tue, 25 Aug 2026 19:25:24 GMT",
+        "pubdate_iso": "2026-08-25T19:25:24+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
         "title": "OpenAI’s Jalapeño chip shows major inference speed and efficiency gains in first benchmarks",
         "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE82VkN3N2VsTnl1SFF5d3ctUnpZNFpzNUFWcGpEc2c4N0tCcmgzSGRibkE0S3Q4YkltREdVZHBjdXJ0NHdnbndDUHZNRXFraS1tQm9Pb2N1MDl0RHUtcms1MF9qLUhKTDE2bl9sQ3dEU24zNEt0eC1PSklJYks?oc=5",
         "source": "CryptoRank",
@@ -106,13 +120,15 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
-      },
+      }
+    ],
+    "ia_semis": [
       {
-        "title": "Markets on Edge as Nvidia Earnings Loom, AI Server Costs Surge, and Iran Sanctions Escalate",
-        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWjk3X2daTU4xTmpOQXZjMEV4NDJ6UHlaWE1OdTViTmJpcFM3LWZFZkRyeXpYT0VFb094cTJzZTNsRm9hS1dJZGRhTEgyMS1SeHlLNlZSa3NUQmFGc0xSNUM3blZrb01hZFMxbWo3N0l4bFRHSElVbXdLWFBia3NfXzZISlJfODA1OEZuV2tzcUZlNlBLa3lmMHlUdXY5WWo0X0NDeHJfb0xRZVl2X1Qw?oc=5",
-        "source": "CryptoRank",
-        "pubdate": "Tue, 25 Aug 2026 15:38:16 GMT",
-        "pubdate_iso": "2026-08-25T15:38:16+00:00",
+        "title": "TSMC Jumps Before Nvidia Tests Its Capacity Bet",
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNdUxqS3R4bkJ0Wm11SjhpX1RZTURqRExpTHoyYnRNaDd6MlRyR2NXYWoxTFl4WlBJdHYweXdfb1JGYTB4cDVpdncwMmhtRU9tN0R5VkRUS0NqN29ZV1RlYk1xVkVzT2FLX2ZNMFhCbUVZeWtUUklnNU5WOVZLWTduOHEyMGZSS2x4S1JuRzVoVXBfdzFKeGpKUm9ZM2Q1ZlFNaUVYcFFfYTZyUQ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Tue, 25 Aug 2026 19:58:25 GMT",
+        "pubdate_iso": "2026-08-25T19:58:25+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -120,9 +136,7 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
-      }
-    ],
-    "ia_semis": [
+      },
       {
         "title": "Nvidia earnings: Five key questions investors should ask",
         "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQYkZ6WTlwbXRLWF96TzRHc2FDYnR0Sy1SY2liekp1aHB3MWtLeEJZTFlya0pBN1l4RFhhUFZCUjhtMmdLNk8wbS04TWxCTi1uUmJGTnF2MWtxS3cteVNGUUh2WWtPZ0ZJT1hqajUyTnd5UnJhWHBuRk9VMDY3SWhuVzRIMmhZTjJV?oc=5",
@@ -212,11 +226,11 @@
     ]
   },
   "stats": {
-    "total_noticias": 13,
+    "total_noticias": 14,
     "por_categoria": {
       "tesla": 2,
       "nvidia": 5,
-      "ia_semis": 1,
+      "ia_semis": 2,
       "macro_tech": 5
     }
   },
@@ -225,7 +239,7 @@
     "score_neto": 1,
     "n_positivas": 1,
     "n_negativas": 0,
-    "n_neutrales": 12,
+    "n_neutrales": 13,
     "narrativa": "El feed muestra 1 senales positivas y 0 negativas (neto +1). Factores dominantes: Avances en Optimus: opcionalidad Tesla.",
     "narrativa_fuente": "plantilla",
     "veredicto": "NEUTRAL - sin sesgo dominante"
