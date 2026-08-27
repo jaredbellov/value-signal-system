@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-08-27T21:33:30.098989+00:00",
+  "updated_at_utc": "2026-08-27T22:03:31.879856+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -66,31 +66,17 @@
     ],
     "nvidia": [
       {
-        "title": "Top 20 Empresas en Global AI Chip Market",
-        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcm1lVU1lMmotOEZ6aDBvc2ZzQW9jUTBtbVpjNktTRlRDeVctQTlTODh6Yjc2eXYxOWxfSUN6LWtnS1dJVjV0aUFjRlhPRXFfQlZkYVV5bjVHVmdNZnBWYTZHWmhlemxuNDVDQ21USGVxSFFiWTBpQzduUU5HSTUzRWJSOUo5anBsZHQ5SG8zUmtTaU52cERDOUFsWlVsSEllenJaMHBDVjBOMVVvRmotaEdzTDkyeElQTG5VN3cxbWV3NFVrNE1F?oc=5",
-        "source": "Spherical Insights",
-        "pubdate": "Thu, 27 Aug 2026 17:12:08 GMT",
-        "pubdate_iso": "2026-08-27T17:12:08+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Nvidia Reportedly Agrees to Buy Hugging Face for $12.9 Billion",
-        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNNkZkQ245ZEtGLVU5bnBLUWoxT05JT1pXYlY2azJWTEtjX2ZZY3U4U2ZVbUYyaUhwUnBxUGxJWUZDT2lYcDEwQWJqQ0JKTVk0VnAyNjdKS0NDcjFlb0QtSXlJN3lfSnBfRTgta05KTkZfMWZEMkQtWkVkbE80SE1fQnd2WDZ1LTdpLWJzcUp3cm10S08tUzkzOVNqT2g2RTRibHZF?oc=5",
+        "title": "Michael Burry Targets Nvidia, Palantir and Oracle as AI Bubble Concerns Rise",
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOaXJSUEF0TXVPcE9GVlNNTFVpX3NuZUpXQkFwUDhlaXdIRnMxSjZBNV9DM3JDM2pXQmpmZy1aRkx1LWRJQUJBWlZidHE5eG1hSXA3YlNCVWRFQm5PV3luQkpDUW85RmE3OVJrV243UFNVWG5oSzNaNERXUWRYdTlxZTRVcGZ2UGtHUnFrUnJtdHUzbXJkQTFsQ282NWg3aktLS0E1UVhMSVdzQnhzcllKRl9GckhlS28?oc=5",
         "source": "CryptoRank",
-        "pubdate": "Thu, 27 Aug 2026 11:22:26 GMT",
-        "pubdate_iso": "2026-08-27T11:22:26+00:00",
+        "pubdate": "Thu, 27 Aug 2026 11:35:42 GMT",
+        "pubdate_iso": "2026-08-27T11:35:42+00:00",
         "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
+          "direccion": "negativo",
+          "intensidad": 3,
+          "intensidad_label": "fuerte",
+          "emoji": "🔴🔴",
+          "razonamiento": "Alerta de burbuja"
         }
       },
       {
@@ -133,6 +119,20 @@
           "intensidad_label": "moderado",
           "emoji": "🟢",
           "razonamiento": "Proxima arquitectura Rubin: roadmap fuerte"
+        }
+      },
+      {
+        "title": "Nvidia beats Q2 revenue estimates on surging AI chip demand",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBMUUpCc3hxY0diNWV2OTB6SVFaNkZBamVhTjE5Z1VJZGZZbnJ5Tmc4Wml3cWVseVQ4UlNfRV9OeXZ1djk0VERBVWx5dmdfczVkRVk3M1BxLTBOQUdZZXJaYkdCRnAxdnJvYWtUd0FydVdwcGpieWY3bC1hVDhVNFE?oc=5",
+        "source": "CryptoRank",
+        "pubdate": "Thu, 27 Aug 2026 06:21:55 GMT",
+        "pubdate_iso": "2026-08-27T06:21:55+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 3,
+          "intensidad_label": "fuerte",
+          "emoji": "🟢🟢",
+          "razonamiento": "Nvidia sobre lo esperado: lider IA"
         }
       }
     ],
@@ -293,10 +293,10 @@
   "resumen_ejecutivo": {
     "sentimiento": "alcista",
     "score_neto": 8,
-    "n_positivas": 4,
-    "n_negativas": 0,
-    "n_neutrales": 14,
-    "narrativa": "El feed muestra 4 senales positivas y 0 negativas (neto +8). Factores dominantes: Nvidia sobre lo esperado: lider IA; Proxima arquitectura Rubin: roadmap fuerte.",
+    "n_positivas": 5,
+    "n_negativas": 1,
+    "n_neutrales": 12,
+    "narrativa": "El feed muestra 5 senales positivas y 1 negativas (neto +8). Factores dominantes: Alerta de burbuja; Nvidia sobre lo esperado: lider IA.",
     "narrativa_fuente": "plantilla",
     "veredicto": "ALCISTA a corto plazo"
   }
