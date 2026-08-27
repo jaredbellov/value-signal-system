@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-08-27T06:01:28.824390+00:00",
+  "updated_at_utc": "2026-08-27T12:58:43.534985+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "fed_tasas": {
@@ -28,32 +28,402 @@
     }
   },
   "noticias_por_categoria": {
-    "fed_tasas": [],
-    "mercado": [],
-    "tech_nasdaq": [],
-    "economia": [],
-    "earnings": [],
-    "sentimiento": []
+    "fed_tasas": [
+      {
+        "title": "EUR/USD Price Forecast: Sideways Action Ahead of Key US Data",
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMzJpSVdnQUtnenZnbk5ZTW01dlA5dnFrZXVfTTNVRXVPYWdJOTNXNG5kTEtUU1NBRlJBQ25ibVNFMWZyX2NyM19wWEREYjFPWFBZQ2tFd3NkY1pBSG1zRU1xemRoV1BCRTBNTEdxdVRkRHRrMVZueGZUeTk2cGU5NjVJQ3FwLWlMX3lSdXFoWloxUQ?oc=5",
+        "source": "CryptoRank",
+        "pubdate": "Thu, 27 Aug 2026 03:56:22 GMT",
+        "pubdate_iso": "2026-08-27T03:56:22+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "AUD/USD Edges Toward 0.7200: RBA Hike Uncertainty and Fed Signals Drive Momentum",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNMnYxbm9BaHVTdHEzdU9Bc3J2bEloYjBmZ182a2pMdHgwWENyWlVfMjdUcXd5TjR2S2tGVmRnU1h3ZW4wTG1Bay1uOWNFWWhvQkNKQ1dkYU55VmVvVGthWmxJUUNkS053eC1hZWtZUF9FNktES21pUFk4UkFNLUVvTWlR?oc=5",
+        "source": "CryptoRank",
+        "pubdate": "Wed, 26 Aug 2026 22:14:19 GMT",
+        "pubdate_iso": "2026-08-26T22:14:19+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Gold Tumbles as Hot US Inflation Bolsters Fed Hawkish Stance",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPVzQtN0V6RnI1MVNwUkFGMVY1VDktYktRVjBUOUVCa0hpM2o2ZlZPQUdTdUl0MWhtZHdqUXFSQzVvZTRPRXFlRlB3dWt1QVBVWVYwVm5zWXRJVHZJRE15cXhHNUlBb3NIRlkwd0QyMFZSeV9xcDlsY1p2SjVFOWI4bjF4MHFzdFQ4bEE?oc=5",
+        "source": "CryptoRank",
+        "pubdate": "Wed, 26 Aug 2026 21:15:32 GMT",
+        "pubdate_iso": "2026-08-26T21:15:32+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Tono hawkish: presion"
+        }
+      },
+      {
+        "title": "Bitcoin, Ethereum, XRP Hold Tight Range as Market Awaits Next Catalyst",
+        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxONHBCZUpiYWRKNzFiZjMtM0szcTgyUXV3ZzNvT01QcnhBRm5GNDZlQWx6NWVNOFVmOHR3Q2hCZ3phOWZHc01xMkhnTWJJOVgwN041czFHRDZHVDU0RmJpRWNlQkhERTEzRzlpT0RKYjNXdWpQQmR0M09VamtnSlVCUTBJRkNWbTB1SHNOT1hnNS1wOUV6?oc=5",
+        "source": "CryptoRank",
+        "pubdate": "Wed, 26 Aug 2026 15:11:16 GMT",
+        "pubdate_iso": "2026-08-26T15:11:16+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Kevin Warsh se prepara para dar su primer gran discurso como presidente de la Reserva Federal",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNDhxbXQtbndvYXBycDU0R3poVE5GNEVqU2VlTS1iV2ZaS1pKdkwyUjFmMjdNLW0zMmhXMzRYcDdJdnVOZ2U0bllpcXhSZ1g3YVJTa1BMRG1nWEN2RXhTc1VuVXZ2YXFPcDFCWU9qZEJKdnhYYzBoZnZHWlBiVHBCLVJiemt4LWhibUZTeVc0MC1zWk1wYnZxNF84ZVlLWk9NR2ZqR0xRVm5ueFRJel9zb0Y0SdIBuAFBVV95cUxPa3dGWTFWZkZrS2Z6VTMwYTM1a0RkcUlvdlNrcl94UGxwbVdRU2oyZHVwaUtCMXdwNzUzMFBHUmJPeDBIVGdkTzBacXBGb2FvR1I0UWJfcERVMzE0N1dhNzJ2dm9Zb1pxaV9YZGtydU81XzNlbVhqXzVpdmZHQnlnRkthQnB0Z0ZEZG5nRmc1ZUJwNzczQlFnZGptR2FBclcyMkdpbmMyMzh4b1NlYlpWZkpjY3htUVBj?oc=5",
+        "source": "Perfil",
+        "pubdate": "Tue, 25 Aug 2026 22:32:00 GMT",
+        "pubdate_iso": "2026-08-25T22:32:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "mercado": [
+      {
+        "title": "Wall Street cierra en rojo tras la subida de los precios de consumo personal",
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOV2REclJGT3VPdjBHSjhfeHNETXk0bVRaLTlNZWVuN1dmZTdjLTh1SV9ZRi11aUNOSG9OSC1wX2RweGM4SkczejhUTDlCYVZkbU9QVzh4Y1E0Rl9wZTRMTnpjZ0F0RmFweDFBZ0NlYnhqWmRfODVBYnU1cmFGdWlOaDkyc0Q1YV8xN2V5TWVfQUtwUHhOemNLRnNRdGVldHFwc0V6QjRFVFBteGRtN3RBRWxR?oc=5",
+        "source": "AlbertoNews",
+        "pubdate": "Wed, 26 Aug 2026 21:11:23 GMT",
+        "pubdate_iso": "2026-08-26T21:11:23+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Wall Street Closes Higher as All Three Major Indexes Post Gains",
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNeFVjcFhpZlpZNGtuNG4tY0dldXNEWFlJS1ZNVDJVX0hmak00NHJ1TXVLZkJ2bVZreG9YS2R3ODZnSWpPN0l3YzRuNFV6cXBQODduejdVaVJKaXZxal9acExRNW9pNGg2b2FiU1JweE8xSGs3ZTFwWmoxOTNHRUFqXzBPdU1uUkJGYzc4T1RQSEdWUQ?oc=5",
+        "source": "CryptoRank",
+        "pubdate": "Wed, 26 Aug 2026 01:05:58 GMT",
+        "pubdate_iso": "2026-08-26T01:05:58+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "¡Cuidado! Tras Rebotar Un 10% El S&P 500 Se Enfrenta A Importantes Niveles De Resistencia Today Show (OGl8cltIjs)",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9zSXhuem5USG53bW5PNkFTeDhGNzVscTY2ZzlhY014REVRemZwY09zMVloSnlnUGY2WFRGWS1uZXJ5cEFQbFJvRm5zdDIwcW1MdjlPUXh5LUF2LUhIZnU0WA?oc=5",
+        "source": "Mshale",
+        "pubdate": "Tue, 25 Aug 2026 21:40:05 GMT",
+        "pubdate_iso": "2026-08-25T21:40:05+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "La bolsa hoy: sigue la guerra comercial entre EE.UU. y Canadá",
+        "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQQUJwNnlrTGJHYU1OMS1nZlg2SEhCUUx2ajhJYURFQUhzN1dUWEczRFA3cGdzZm10ZmxIT0hZSFplbFllTFlEZ2NzUTVwUHVLZTVaVkpUN2hSWEU5ZWR4LThzWWJ6OFVKTmNsakpMMVlOWEtLN1g5MzZ2RmpuaVVmWEZYTzV1NndCWExWZlY5Nl9fWTF4RFVnQWFFaTA0TXZwemhfbWxVQUpjblZ3WkZDSGhCbWpaNG5lV3BkdGNaVDBfQkliR1pSUTlqeGpnd3FkREVjcVd5ckI1OGo2?oc=5",
+        "source": "XTB.com",
+        "pubdate": "Tue, 25 Aug 2026 06:17:58 GMT",
+        "pubdate_iso": "2026-08-25T06:17:58+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Guerra comercial: muy negativo"
+        }
+      },
+      {
+        "title": "Stock Market Today: S&P 500, DJI as Chip Stocks Sink Ahead of Iran Sanctions",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQeGlZY196dU1CTXpmTEZtcjBudTRBSXFOVjE2UVBsZWhRRElVZFFGcmt0bWJaUWhJOG01WDVfV3I1NXNzbWRlcWxreUlkX1pSMC1lNE1JTTdQVzRlOFY3N2xHdFFBc1VQUDRFUnU1QjB6LU1jb2xRNU9kN2VWbW9GaGtudHl4eHk5RjlndkcxUGVXXzJ4UU5vRWdYZF81NXBfdER2a1A2eFZOOWktanJlZVl2VHg?oc=5",
+        "source": "CryptoRank",
+        "pubdate": "Mon, 24 Aug 2026 21:49:01 GMT",
+        "pubdate_iso": "2026-08-24T21:49:01+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "tech_nasdaq": [
+      {
+        "title": "CMB.TECH NV reports results for the quarter ended June 30 - Earnings Summary",
+        "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPNWVOd25xaURfNUdFbUpLcFQ2ZENJSV9JZmhleDJMNkpzYTdKTmZmN1ZCczRDN0pnYnJweWsxTC1SM1lXNzdqSjFORnB5bk1rcGJwTHlOdzFPd0JnOXBYQ0dEb1ZaT1E2dHlkcTAxei1pLTJwY0ZkdlozWWJOek5TSDhGVGJ2TDhwWW4yc29HY3VHd0ZiczFUMFhCa1VVd0dpTVhmRnltN1pPV2FlTmU1OU5uNXlkSnVuUVk2dk9NY0E5YXUwYzhNNXMtSFdPbDZ0d1EySFJXM0lYX0k?oc=5",
+        "source": "TradingView",
+        "pubdate": "Thu, 27 Aug 2026 07:31:17 GMT",
+        "pubdate_iso": "2026-08-27T07:31:17+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "No AI, No Problem: 5 Consumer Stocks Quietly Outperforming Nvidia This Year",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPRGFOejYwTmRkS2RZU0phNVVRNjUtbUlMcHFndHNVdEV3VDdMWGRmbEhVZU04YVVpNldQQTVMNXc3YzlveTQ3LUk3NzJyR0tnOGFxbTRQbEhVRF9QU3lfNEVtNjcwd0ZJckRlZzNrWnJTTmM5a2pkSUp3NUJ0Y19HUmd3X3ZLTWhuRFhoOFJ2R0RwbGJIbXRIQVcyQVE2M1RkMkNaVllXdnNjRTYxUlZnZEk2X0JCM0RXTXBkdWtKbDBMdk1NSGg0ZV92dXdlQQ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Thu, 27 Aug 2026 05:31:24 GMT",
+        "pubdate_iso": "2026-08-27T05:31:24+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "What's Going On With the Drop in Palantir Stock Today?",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNcU01V2R5eEYtYTN5UnpzRHY4UjR6S3FtWENKa2JyUjhncDhQVmJZY2Q2UGVCczJZb3dUaWZETWVkVFdsTTYydzlRV09rZ01uZmROcGxBMl9DRWxGakYxOHRnZ0ZLc254TXVmaFNzUnN2MmJuSTVWelhTMFQtbmQyNVZhUkFzaURKZmdiTDAwNXFuVmt2anpfNk9kR0dkQmVuNkk4SDIxM05jOVlYajA2WQ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Tue, 25 Aug 2026 18:47:35 GMT",
+        "pubdate_iso": "2026-08-25T18:47:35+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Software stocks get an earnings gut check after hot summer rally",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPMFU4RFdOUDRCYU5EWF9OOGRIcGZaaVY5U2RNeGFBbjE2bmR5SDdaUXR1dFRNTTZieVZDLWZKRnRqcXJHcFc5UklpMkJMa01XaldqZVg4ckJiQVRlbzZpZXlpMDlPektLbGhiaHJUV1AxYmpVSDFsTGhndlNfdC1QaXpCM1RPTHZIUHVrbGlRd3FrRzNleDllZ1dIQW92M181WUp2aVZkajZkZEo3YW5Mbno5M2dXSXhyNW1jYTBzWU5YY2Jt?oc=5",
+        "source": "TradingView",
+        "pubdate": "Tue, 25 Aug 2026 18:27:48 GMT",
+        "pubdate_iso": "2026-08-25T18:27:48+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "NVDA Stock In For ‘Very, Very Fast’ Rally: Analysts Shrug Off Price-Hike Buzz Ahead Of Most-Watched Earnings Report",
+        "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNMzQ2OHBTMW9UcE1GUGROTVhMUVFDMExQV3o5NVZPWmlvejJGblFnMVAxZV9NbzBfQXZ3Vlc2Mml1cl9yV3V2NTY1VHcwei1RdmNOdVlRTjhPbGVJd19zZDI0eHdKa0hEdHZZc1lldndaMnBqeEloZFcxUGhjQ0Nfc0RNSUh6U0U2YUtzZlVPTkVkSjFMNHJFN3lPc3JUSUM2V1VuYVNJRWV6akNmeG5TTkdXOXJWNUJsbEowRWVQT2lNQTl3VFNOMUJvamFySXZqMEw0ZXhqSDBmVUhUNm9KYTdZX2t0dlV6NnNBNTFza2E1Mmk4cGpJYTNRb21tUFZr?oc=5",
+        "source": "TradingView",
+        "pubdate": "Tue, 25 Aug 2026 08:14:01 GMT",
+        "pubdate_iso": "2026-08-25T08:14:01+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "economia": [
+      {
+        "title": "CPI: “No bajaremos los brazos” ante EU",
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTElYbU1ldDNla2I4OFI5azRDY1RLN1NyeHNYVkhyZUxjb1F1UUczV2JhQW1zd0NHZi1mamhSbHBsYVdQVFlBNV9TekNFdWZRNlBHVzdUWkhlMTdLOFpTdVg1UWg1TldIblNsRUstSTFSUG0zbkZTcndpcEdQNUhIbkNMQ3JOem1KY2ltQ01EOXUzT2FVZzN6MlJTNmjSAZwBQVVfeXFMTkxJWG1NZXQzZWtiODhSOWs0Q2NUSzdTcnhzWFZIcmVMY29RdVFHM1diYUFtc3dDR2YtZmpoUmxwbGFXUFRZQTVfU3pDRXVmUTZQR1c3VFpIZTE3SzhaU3VYNVFoNU5XSG5TbEVLLUkxUlBtM25GU3J3aXBHUDVISG5DTENyTnptSmNpbUNNRDl1M09hVWczejJSUzZo?oc=5",
+        "source": "El Economista",
+        "pubdate": "Thu, 27 Aug 2026 07:06:35 GMT",
+        "pubdate_iso": "2026-08-27T07:06:35+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "earnings": [
+      {
+        "title": "BCL champions present record budget for 2026-27 season",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOUUhXb09nNjNBNm9BUkR1b2xxV0VHbUhhTWxKZjJUOERTOVpVNWhtcjFwUnVBQTd1QVZsbU9WWnNGUWlydUp3Z1dHQWRrNlN5eXAyOWdLem9ROEJ0NGx2NzNfYzF6ZW93cXdtRkNMZk02NmRFa1JmZ3kwY3VnTFMzYl96azhQYkxacGlzeW93?oc=5",
+        "source": "BasketNews.com",
+        "pubdate": "Thu, 27 Aug 2026 08:27:58 GMT",
+        "pubdate_iso": "2026-08-27T08:27:58+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "PDD Beat Earnings—So Why Did the Stock Still Fall?",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNdFBqakdJdzNmbFlsRGdINjN2aHJydklORG1PYmZ6S1I2dDhuUEtDTVBqc3lsNlVZUVhjR3AtWkt0OHVJdkplaHZaekVUR25iaklXT0cwZmR6Tzh4cjY4OXNseW1neU9QNTAxZk11ZjRBckhXam1NUEpwaUhxbW5wbDZDZUhkdFNnY2NCMVNsSFdKOWVOeFBuTlNhSE85ajZ2QjRfaEJVMktqNGk0c2c?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 26 Aug 2026 12:45:00 GMT",
+        "pubdate_iso": "2026-08-26T12:45:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "J. M. Smucker Q1 Earnings Call Highlights",
+        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNQ0t2d2F0aXN6VUszbVoyN3VoWWVWYS15V2NkMENEdWo3T0dYU0V0ZG9UMHZTRTJ1bmUwRTdKeHEtNVZTTHVDTjd4cnlTT3JEZmxuZy13X19CYU1FZnhXWlNRNC1lX21qY2hLWU85MFB5T2VHODdnU1BCc29BUHZvb1Vfa0pNSXR1VnBqUjBEa01qRXRzQ0l4YTBTNVU0dElm?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 26 Aug 2026 12:01:56 GMT",
+        "pubdate_iso": "2026-08-26T12:01:56+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "J M Smucker posts Q1 FY2027 sales $2.22B, adjusted EPS $3.24 and updates FY27 outlook",
+        "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOcnJmeXlwZ1dwM2lMWjNXcnE3TldpY1NDMnRWdEtqenJ2dEgtdTFXSVYxclRqd051OGJCcWM0VkQtaEJ2aGtvTVZROHhSekxWSDRTbEd2TlItaHozdVd2cG9mUUVtRVY4WXNYY2ZhV3U5ZTV4TFp5aUN2ZVExa0pOTDRnb1I4M3p3N18wZ0kzbmtiRmpKaUFWbzd2V1V0TTI3dkRfSXpoTUd1UVZlRW5VbWJnajlFbEpOVTh2ZFFQdWdGNGFaWTRuc00wQ0dFd0FRQjFaTVNYUlBtcGc?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 26 Aug 2026 11:03:03 GMT",
+        "pubdate_iso": "2026-08-26T11:03:03+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Earnings To Watch: Elastic (ESTC) Reports Q2 Results Tomorrow",
+        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNb3dIa282QmZBbnJ5RG5VODVQdU9Wb25ERTlpRVJERk1kTV9SdVRZMG1sZjBhaEZUWjdLX3BYaHNHUGNMYTgtUDdfT2NGOUx2TUJjNzZaZ2tzR1otMk82SW5HYUwyV2wtQ3hORTZjU3VLd3RGa18xZlJWelk0a3RoYnFqZ2VaelNPS0JwOU5TbzNSS1RsblpFdktxNkJYVGREelRLTkVsQ1g0TW5VSG9jZnoxODBQbFh1dkE?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 26 Aug 2026 03:01:00 GMT",
+        "pubdate_iso": "2026-08-26T03:01:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "sentimiento": [
+      {
+        "title": "Gold Price Corrects Near $4,620 as Markets Brace for US PCE Inflation Data",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5lNnZFTWZGbmQtdV9SR1h2SVdEYzMyVHhlQzBzRWZLWkgxOFNueFEwRkpRSUcybkFXVXUtSTlwWEVYX2hRLWVIcDRkeWd2SlM3VWVSN04yYUhkd0hMZ1VmMVplOHRqNUxoSm9jV1BkM2UxRm94elVSbGx0NEhxMFU?oc=5",
+        "source": "CryptoRank",
+        "pubdate": "Wed, 26 Aug 2026 15:11:34 GMT",
+        "pubdate_iso": "2026-08-26T15:11:34+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Noticias de CNBC TV18 en TradingView, de fecha 2026-08-26 — cnbctv:0a365fed4094b:0",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5Db1lqLUFvZEppT2N1bTJEYWhDbDB6RTF5RXI2bk4zN3VVNVV1OWdwTzNxa0ktY1kxaHBHWXhUWE8tWFpLVDhuT2ZlNF8zS3ZvdFF6anRrOUEybHNRbk9uekVGUE9udw?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 26 Aug 2026 12:00:41 GMT",
+        "pubdate_iso": "2026-08-26T12:00:41+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "The Never Ending Sideways Grinding [Demotivated Investors] para NSE:NIFTY de deep_bhattacharjee_db",
+        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObVZkc2JXc0k1bVI2U1RKSWhKLXE2a0VXREl2ay1VVVozaktvdzFmVzdvdVZzckFkdUZCZldZRXBpQzBYRUUyV2FxaEFpN1pmcXp3elpSVTN0VUZoYkZyZ2l4cmRGcDlTaU9RS0Q4bFJrWWRWa3NCZU1OQUhwT2pVUWtyZnEzYlVVRzJmNnFQNGJpaXFYc0xsdUd3LUVaOFM1eG16OF9sajM?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 26 Aug 2026 08:16:52 GMT",
+        "pubdate_iso": "2026-08-26T08:16:52+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Independiente del Valle vs Deportes Tolima Prediction, Betting Tips, Lineups & Odds | 25 Aug 2026",
+        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPaEVTdFU4MUVFNEVkeEcwOElta2Q0eFppWWJwUXVBc0V1SEhGREFsLUVmTlYtOHNCb1ozYm9rZE9raXd3MDdCa2dmcmVYUzBBVHVGak5VZ05EYXdVSUozNTN1c1hjN0RqeVZmVXA3aUdqZGJyT1J5UzFzREtvRzhlV1VtbTlJWkhBSGh0dmpRVC1xbkdRRy16MTFNTElSMlhHYTFFZGo2V3N0NlBQYUJXUl9CVXJON2JwTTJKNVlKaWhrUUs3ZUhFbEJn?oc=5",
+        "source": "Sportsgambler",
+        "pubdate": "Wed, 26 Aug 2026 07:10:22 GMT",
+        "pubdate_iso": "2026-08-26T07:10:22+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Bitcoin Drops Below $78,000 as Market Volatility Intensifies",
+        "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE15eV9xUzBsU2hrVlJfblJMbUxXMll6TkJUVlR1S1JBc1djNTZHTDhUQm5rYU1hSUxabDAtOTF0Qy16Y1d1d0hWSUpDM1FZVVNMbHhhZnUtb2dDOW5HZFI2YTY3Vkl1MmV6MU9TYzFyM1E2a3FGbDdV?oc=5",
+        "source": "CryptoRank",
+        "pubdate": "Wed, 26 Aug 2026 03:59:04 GMT",
+        "pubdate_iso": "2026-08-26T03:59:04+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ]
   },
   "stats": {
-    "total_noticias": 0,
+    "total_noticias": 26,
     "por_categoria": {
-      "fed_tasas": 0,
-      "mercado": 0,
-      "tech_nasdaq": 0,
-      "economia": 0,
-      "earnings": 0,
-      "sentimiento": 0
+      "fed_tasas": 5,
+      "mercado": 5,
+      "tech_nasdaq": 5,
+      "economia": 1,
+      "earnings": 5,
+      "sentimiento": 5
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "neutral",
-    "score_neto": 0,
+    "sentimiento": "bajista",
+    "score_neto": -4,
     "n_positivas": 0,
-    "n_negativas": 0,
-    "n_neutrales": 0,
-    "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
+    "n_negativas": 2,
+    "n_neutrales": 24,
+    "narrativa": "El feed muestra 0 senales positivas y 2 negativas (neto -4). Factores dominantes: Tono hawkish: presion; Guerra comercial: muy negativo.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "NEUTRAL - sin sesgo dominante"
+    "veredicto": "BAJISTA a corto plazo"
   }
 }

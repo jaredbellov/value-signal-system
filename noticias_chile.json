@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-08-27T06:01:28.856042+00:00",
+  "updated_at_utc": "2026-08-27T12:58:53.540751+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "bcch_tpm": {
@@ -36,20 +36,377 @@
     }
   },
   "noticias_por_categoria": {
-    "bcch_tpm": [],
-    "ipsa": [],
-    "dolar_cobre": [],
-    "economia_chile": [],
-    "politica_regulacion": [],
-    "pensiones_afp": [],
+    "bcch_tpm": [
+      {
+        "title": "El BCRA limita tasas de tarjetas no bancarias",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMWRjb3dNa0dBelA1SHpEMHBXbXFTdm4ybnBQUFFfU2M4NFA5eDN5Um5NM1paYURLY2k2SkhrWVJQMmx6ZnlaOEt3QnItYTBIazFvaGtNd0xMeTlzQUVWWGxlQmRYdWZRbWdpc1kzSmRSVGtpT2lYYk1MZnJ1WnZFVUdUY3JDWi1VWU9vWGh3?oc=5",
+        "source": "Página|12",
+        "pubdate": "Mon, 24 Aug 2026 23:01:00 GMT",
+        "pubdate_iso": "2026-08-24T23:01:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "ipsa": [
+      {
+        "title": "SP IPSA: La Bolsa de Santiago este miércoles cierra a la baja con variación de 0,73%",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZzhPaXhvRHBFUlZHUjdCQTNtSTRBQWg1N0JKVnhOaTFpbmZ2cE1ucHNVNFFXUGNBaGdjWkw5cktHeW0wOUZDemxwS0FnU3ZwQTZCVmxuVXZkUW5hR1hYVFRqR0VjNXN3eFRabVpSQnVhUTFCTllTZUJoZWhwS0NaWkw4cW9NanRON2s0dUdiNTc2cmJDT2ZvT0tteURmNnpWUzEzR0drYlItM3ZKd2I3cW1mcnVUUy0zS21F?oc=5",
+        "source": "diarioestrategia.cl",
+        "pubdate": "Wed, 26 Aug 2026 23:33:37 GMT",
+        "pubdate_iso": "2026-08-26T23:33:37+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "¿Es siempre inconveniente abrirse en bolsa en Chile? - Ex-ante",
+        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE84TF9QakE0QUc1bS1kd3NHeVdzZFpWdGhBckJERzNlOWxkYjJOOFlMc29kbjBVWjhsMlNYeUdveFVnaGZMVFFoc05Ka3hEYzJOTHc2NmNsZFBVd3pZN1JfZzFCa29WU2puXzhlbThDdDhHdHh5R3lLaQ?oc=5",
+        "source": "Ex-ante",
+        "pubdate": "Wed, 26 Aug 2026 20:31:18 GMT",
+        "pubdate_iso": "2026-08-26T20:31:18+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Bolsa chilena cierra a la baja y el IPSA pierde los 11.500 puntos arrastrado por una fuerte caída de SQM",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1SdEowd3FwUGRPcFR1QzVNQ050QmFJQ2ZQRmlTVVBlQl81VlhsY0hRLVVBWTc5c0NGZWJDT1pDUGJkUVNjSEhoTmkwLUR4cm1ldFoxWEhRT2hPVzV1MGxzajBJdWxhOW15?oc=5",
+        "source": "Diario Financiero",
+        "pubdate": "Tue, 25 Aug 2026 20:28:00 GMT",
+        "pubdate_iso": "2026-08-25T20:28:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "IPSA avanza hasta por encima de los 11.500 puntos y se acerca a su máximo histórico mientras Wall Street cierra mixto",
+        "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNblpCTjE3Ukt1V290dGxHVS1iNW9vMy12NW5kcE84TDVfZFptNWdUSkVyRWtXdUpJTy1EVnE1eXRNOTRjLTRPb043RWdvcVRGb0pqSlY1SnpuNkplQnN1MHhoc0l4VUNRbjI0MGVZWjZua2lYclFBaFVFZWdJTjhzWTBUMnhiRXgyb3drcXlGS3FSS2lzakt0NE9KcENETFBvalBIYUJsTmNReXZ5TlVtSjBuQkVaSV9mSjh6MTNFbFZLZTUxRENORHNvTkFsQm1NZXRVeFhpYnlRcDgtNDhlMzJOb25QdVU?oc=5",
+        "source": "CNN Chile",
+        "pubdate": "Mon, 24 Aug 2026 21:24:55 GMT",
+        "pubdate_iso": "2026-08-24T21:24:55+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "IPSA cierra sobre los 11.500 puntos y se acerca a nuevos máximos históricos tras subir como pocas bolsas en el mundo",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE80blJBbDNHeXNPOHdYdXBfN2xXbmpnUXhXQW9tZVpXOGhqejlQaVFrOHhWektNSUZWUUx1ZzBjcmZQSzBna3QzVkpVTjJHenlTaHlQbGpTWWI4c0NybC1EQmFSTlVhV0JO?oc=5",
+        "source": "Diario Financiero",
+        "pubdate": "Mon, 24 Aug 2026 20:26:00 GMT",
+        "pubdate_iso": "2026-08-24T20:26:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "dolar_cobre": [
+      {
+        "title": "Dólar hoy en Chile: cotización de apertura del 27 de agosto",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUzBZZVFmRS10RDd0eWVNRVdhOTdPMlB4T0dWbWx6NUp4YU1JQ3NtZnRULWF2UzBoMTBKTnAzemR4X1paYW9VNFhXanU1MWtFaGYwb09oNDlRTTZOcGxKczMwZ3NnMk9rUVhDVEF1ZV9peDFBOXhpd2ZUams1WTA1VFJHSUVXY3VHc3NZVTkzSC1EZjNFcElWYm5QVmZ3aGpLOUtUaGNB0gHAAUFVX3lxTE5wS3RLbTZ0bjNNU0ZISEVRUHBqYjVSZ2FwQjVsRlhEbUZJSVh1VEI5bDQ5aFFITDA1UldreHpsX0hicm1ScUhJOHJLdkV5RXNDbDY0MlBjRWdYZ3VoTVFDWF83LVVRbXN6UjYxOHp2MDdaWlZodXJlWV9CTnVyNllmd1p2cVZDZTltNjZJOFFoWFM2bDJnYThRdWJFa0Q1UURBZ3lpaF94aVVZSHFtUTNWQk9PYTRtVThnVTBFOWlUQg?oc=5",
+        "source": "Infobae",
+        "pubdate": "Thu, 27 Aug 2026 11:45:31 GMT",
+        "pubdate_iso": "2026-08-27T11:45:31+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Precio del Dólar en Chile hoy: El Peso chileno se desliza a mínimos de dos jornadas tras datos clave de EE.UU.",
+        "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNb3JMSUVxUC12R0c0SEJfWGY5M1RibVdXZDBGUU53aW50RkMwWUdQa2NBVENKZ25Vb1dMYXBhMVV0MmtPNGZEdDJTeXI1U29XY00ta0xfcFpmR01UdHBIR2FVRml5anpxTjU2TWZQZllSVm03QVRPNHJTUWppblB2ZFJCLV9PbDB2VG1tRDY2NWswaGR3YmNYamJuN3hDYUQxN3F3MWhVQUY1RGRzQ2IwTjFJQ3JQNFFhdXFTVnAzS0J3aTBjVXZIM0pKUW9UMWVKVDVtQ2ZRWmJGSHB1THZaeGNCb9IB6AFBVV95cUxOTENJN2xfTFp4MDJiTHZpV2EwNkxjbkxWV2VSLWdYeFA1b0stVW0tWHlod1lvSEdzalg5M2k4YXdXd0NrVm84ZWhUVUFmenNLY08za21ubmZaVllUNFB4VkVJOGxuMVkwdzhOTGhDbmp4X0Z2VElOdmxUQ0RhRTZmdkF6al9tcjlYUEpEZEJBUGRENE8xTXJ4T3ZtSXRseko0cDlWODUzOTdaRDU2VGp6bktXcWhWV0FpbHAtNWJGaDFOOUFMd1RiOVVVN0VqZXNZWGIyR2VrZWRLMGR6dkJGMUxKOXFKR01B?oc=5",
+        "source": "FXStreet",
+        "pubdate": "Wed, 26 Aug 2026 14:40:00 GMT",
+        "pubdate_iso": "2026-08-26T14:40:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Peso chileno hoy: cuánto vale este 26 de agosto y qué pasa con el dólar para viajar a Chile",
+        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPMHhEUlVzZmVKdWhEWVNxb0szTFlRaXZtNmF0RjlUaERXWkV3REJQV20zWG5LMVBhRjZZeWtfX2FvR3RETVRPODZDVjhEd1ZNZXRpQWF1czl2VlREYllOU3Z6YTJ3ck44SE5KLTl3cVhiWjhZcWNiQlgxeGc5dlZtenNrUUlUN0l6RElvSmFYLXNqMWlNb3BKM0I0c1FWRW9wZEVadndwOE84YlRNY1JBTGllM3VsaE1oZzJTSVgtWEJTRkh0UmkyTjZNMWRKbUE4c1HSAdoBQVVfeXFMUGJOa0NFRHNuZDBRSlZpemN2VGV6SXNMb29iZEVzZlpMWW5relAzdmthQWJSTUNYRUFNTnljbkJhR0NETFFzOExNa3dTOWxDQ1ZXOFlSYmYxbUtxSnV4N1NBU3Q0Z1lIRENDYTAxZkhTaDVEbHotUVh1aU8tbDRMT1VjXy1NaXVJcmlDUE50R1lpRnI1VGRGVE1GWEsxRU9IRDZhZ19NVXN6YjE1QXJmRGdtUXJ3SGZXWFZVWnEwaGVTT3dPU2JweTMtVWxEUDMzTDd5QUFlY0x1YXc?oc=5",
+        "source": "Diario Río Negro",
+        "pubdate": "Wed, 26 Aug 2026 14:17:11 GMT",
+        "pubdate_iso": "2026-08-26T14:17:11+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Dólar hoy en Chile abre a la baja ante menor tensión geopolítica y fortaleza del cobre",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPT2NFMXVSRkNDN2haR0NaN1dWRkpELTIyMGVHTVlvSURjaldxUmxodUtLTFpSWVlQak5adG5udE5HYnFzTEZkWTR3WVFMN0RGS1dvSGFKaTBIZ1FNcUREaXZQaEhFQld3bzJ2c2ZsNUJBZ0d5RUVOV3R3QV9SOEdHLU9PX2hIMzRmTmlydUhEaVNmTVZXTkFLTXNUS3NlckZ6UTNzT1cxZzVrWDloaVpWMnhkZmtiWVFua0RJYQ?oc=5",
+        "source": "prensadigital.cl",
+        "pubdate": "Tue, 25 Aug 2026 16:05:32 GMT",
+        "pubdate_iso": "2026-08-25T16:05:32+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Dólar hoy en Chile cae con cobre en máximos",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNMEhmdGtyV0tnR3hxTUpfUUV4QlVrczJBUkU5WkFONnhkT1ZYU21kbUpvR0RSRy1SbHR5cm5NTEtXMXpVUGY0Q193SmpaclYteDlDelhlMmdLMjJHQ3RLc2lJTXNmYWF1c0RhRmFDMWh6Z2dIb3g0QkZWSURETFp4dUhVOUlEcHZWMFRjX0hqY0RGaW4yV2dVQk5faHdMLWJpYTBwVERTU3BIWndHYm9wVERMQUR5UnRhajE5QUlGRXlZNHNGYjNjMTAtSEFudw?oc=5",
+        "source": "XTB.com",
+        "pubdate": "Tue, 25 Aug 2026 15:15:07 GMT",
+        "pubdate_iso": "2026-08-25T15:15:07+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "economia_chile": [
+      {
+        "title": "Así es la \"megarreforma\" de Kast: el gran giro liberal con el que Chile quiere volver a crecer",
+        "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOeEtGdWVxdF83UUdlUFdUU2psdVVkeFh3MHdySWRUUklLNHNpek5DRzhCazBNSnRVejF3ek1aamdpX3dJTGpDSUhHUDdialFWQjdrOXQxVWpBbDUzUlZCbFowUUpxZk5kODNSOHZJbFJ6ZVY3Q3dJMjR0NVNHUk9PQzdrMXFJbWRMMzRQVUxQcGxXY0tsbkRENU91djdHZ3RwZXRYcHJmbkVfN3diZlNEUTFmUURpdFdQeENGVEozel9lMDZGdzZESWNXdkUtT19Pb2dEcTMxOGJqaGlYRlBaWk02bzh5QTlLeVF6cw?oc=5",
+        "source": "Libertad Digital",
+        "pubdate": "Thu, 27 Aug 2026 03:20:11 GMT",
+        "pubdate_iso": "2026-08-27T03:20:11+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Imacec: una señal positiva que exige mirar más allá del dato",
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUTI0SlJsYlZTb0ZHNUNFLV9ESmc0VVlaZUUzdGNUWHNyaU40YThZaFp2VUswUG5ld2JrNVYteHRYSzRpUktyQmIzeHNEZHBUcGNGOFdXazYtMmRGTlJKVWdzUEZ1dEh6aTk4cW16aWxzSFk3X3V6SVc0c0J0N0RtTldkejNuZVpQdmNGTUlVemlaMUxEbGRFMzQ3TTFCVEU?oc=5",
+        "source": "Tierramarillano",
+        "pubdate": "Thu, 27 Aug 2026 03:19:28 GMT",
+        "pubdate_iso": "2026-08-27T03:19:28+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "FMI aprobó Línea de Crédito Flexible para Chile por 11.800 millones de dólares",
+        "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOMnJiSDV6QjN3V3RCbWJZYzJrejhtcDgzOXBmaWU4SGxFZldiY2laRXpsamNzZU5yeWc5UVgzM19MV2pqamVQRy1YYktVT1JvVVlKcGVZMld0a0JZZnpuUHpnWjdSVUVKaHBXeGZEdE1HdnRxTVpoRzJCY3RpbXRrcy12UzVJMFk3cFFzaGtvUHFwcGdueHNqbzRSVWItSVJkR21wSnpSUU5WMW50alRZbl90TEsxUHhFM3dMWUYzWjVoRnZzUktXc1NlbFNfblNvdTdHcjZicFo4U2puOEZNYmZwbGhzZEJmNmtwQtIBjAFBVV95cUxNYkdCR3VBd1dBWUdlS054T2NzdzZGMmpvUkU0T1BBdXA2WUpYRXloWUhtYzd5bGJYNzRTSlNYVW4tT2hXQTVSLWVRTmtoc1ROMFJEOXp3cWJBX2V1NzYxMHdhRFpwUVhBTjB5U0k2enlDdHVMb200SFlCSjhJT0tMdm16d0NtbGNoZmlwMw?oc=5",
+        "source": "Cooperativa",
+        "pubdate": "Thu, 27 Aug 2026 00:46:00 GMT",
+        "pubdate_iso": "2026-08-27T00:46:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "FMI aprueba línea de dos años para Chile por 11.800 millones de dólares",
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTXBUdi1hLUMwdzBVLUhoY3ZRU3R4UG5aNGFibjJHc1NfNDZ0VEp3OUh2TTktNVFySWp3WjhpUHRKeTFOaGNsTUxEOTVlcllRbml1dEdpYWJRYXdMeTkySk9FSkhvQm1XRFVGNFZsSXh4aFlXZjItTHBMaVRhTXYwQi1DMXl5N05TZTIyZVBtTlc1QlBFVGlMNUhzaHJpX24yS3Fmd09selBCaWxaMC10NlJR?oc=5",
+        "source": "Forbes Chile",
+        "pubdate": "Wed, 26 Aug 2026 21:59:10 GMT",
+        "pubdate_iso": "2026-08-26T21:59:10+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Chile 2026: reactivación con empleo al debe",
+        "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1SOUJrUndUMVQ5RWhWNVl3M1lfOEVEZV9XbHNEWjBZU0MyWmFSRWtrLXdHNFFvb1UzNzA3cmt2SWZhUnpnYUZqZHRNUWsyOS1jYjQwQUpWbF9seUgtNUVBaGFra0s1UVBkem9yWXhhM0ZlNXJDQzFnV2N1Sjh3QQ?oc=5",
+        "source": "El Ecosistema Startup",
+        "pubdate": "Wed, 26 Aug 2026 13:51:30 GMT",
+        "pubdate_iso": "2026-08-26T13:51:30+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "politica_regulacion": [
+      {
+        "title": "Los seis principales problemas que las empresas de servicios básicos alertan sobre la reconexión: se prevé un aumento en las tarifas",
+        "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOYmZXYmNja0pzT1ZMU0puRXhBZ20zeHFDZVdlMnNTeXh6bXJJcEJhN19iLURwTlpMenN3T0JTYlRNV21zeURieUpJV0pjbXZ3eVJuZFlQOUotREZwdjBNN1pJNkRWeGNZZGt4RW1pcmNDM2lQM290eDlaTHp5T2I4aXBOc2VmdEdsT0VLZzZnMU1KM1ZsQWRldUpGNDcxcm5XLTFmbVNXRkZnVTFsR3AxTFR4aFJVLTh6Z3pOYVhMSDVjelhkMFNMNUtFbkxkOUJRMi05YnNXcmw4a0xsOUpUZW9Sa3JmV1ZSbkNONEUxdw?oc=5",
+        "source": "urgente.cl",
+        "pubdate": "Thu, 27 Aug 2026 12:04:19 GMT",
+        "pubdate_iso": "2026-08-27T12:04:19+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Gobierno frena ley corta por reconexión de servicios básicos",
+        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPMDZjYllnZFRTU3NXbFM5VGhKN21QR244eHJaUGRHRDZheUV4czVsbDV4XzlBY2FMZEU5SDJYUDVxelRuMUNoVUVZbDlQa3VZOEx4Ym1GRUI4bkpWbzBxeGVFT3hTc1NISTloQWNyVUdyMm0yRENrbmpScVZXTDRQalNGWEhoWURQT2MwRS1QT0NOYlluejU0M3RwVW1DTGxHZ0xGR0ViM0stR0VzN21naVNOc1dTVk9FMnQwWFozMnJzWjluN3pPNHc0Zw?oc=5",
+        "source": "Radio Pauta 100.5",
+        "pubdate": "Thu, 27 Aug 2026 12:00:16 GMT",
+        "pubdate_iso": "2026-08-27T12:00:16+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Empresas de gas y sanitarias advierten que norma de reconexión podría poner en peligro a los trabajadores",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPdWpGTlQ1RjZUY2o4dE9zdUJ1UW4xekgybXk5MjJNTURFWi14YWdjdDlTeVlFazJzazlkR0RyOUFydzdPaklYeFc3ZXdhWUtKZm9nME5ZTlhCN0twaWE2MHBTVkVTbUJ0S0laRzlhN0NXX3hYdnRKS01Dbm5HZ2MtTWlDWTFMS2dySU1lMHd6ejNSRS00OVRtN1ZIcUlWTmVVZkxDel8tUlhSOGFLNS1oRWEtOG56MTFyZ1BYUzBzWUt5ekNTMDE3VGp1MEE?oc=5",
+        "source": "urgente.cl",
+        "pubdate": "Thu, 27 Aug 2026 00:07:25 GMT",
+        "pubdate_iso": "2026-08-27T00:07:25+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Gobierno evalúa ley corta tras rechazo del TC a recurso contra norma para reposición de servicios básicos",
+        "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPR3NHZnZzbWY5TnRYeGIwdVRrc0ZmazV0SnctUW1CaWdOZml2eTQxNkJqU0hSSlhxV0ZUZ3p6TzJmOXVIMWdadnlNVnZhS1dHZHN6MlZnYXl1MGFJdkk4X2Q3eWlicExFUTZzX0g1MlI3LUNJbTU1MlJVWFVJVFR0QUpwdThxSE5HRzhoN0pXTUFHLVp2VDhacHc3VTk2V3RTc2NQdDFQUFpNYXNZdHdIRVdQUnJqZmFhdE9JOEh4aGlrZ3ktaUljaDdMaWxTOVo2dU9ick5B?oc=5",
+        "source": "G5noticias",
+        "pubdate": "Wed, 26 Aug 2026 19:27:19 GMT",
+        "pubdate_iso": "2026-08-26T19:27:19+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Chile 2026: reactivación con empleo al debe",
+        "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1SOUJrUndUMVQ5RWhWNVl3M1lfOEVEZV9XbHNEWjBZU0MyWmFSRWtrLXdHNFFvb1UzNzA3cmt2SWZhUnpnYUZqZHRNUWsyOS1jYjQwQUpWbF9seUgtNUVBaGFra0s1UVBkem9yWXhhM0ZlNXJDQzFnV2N1Sjh3QQ?oc=5",
+        "source": "El Ecosistema Startup",
+        "pubdate": "Wed, 26 Aug 2026 13:51:30 GMT",
+        "pubdate_iso": "2026-08-26T13:51:30+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "pensiones_afp": [
+      {
+        "title": "Retiros de fondos previsionales redujo montos de pensión",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZnlSVnF0c014SVduX2hvY0toZE9Hd0hqRmVhVG5fTk9aVFZkLVdKeUZkTzktYkFfblludW1WY3BPU3VUZmtFSmdlY0R6UXVHZ1hLc29MYzE2VUpOUUtBZlFmMXo0X1NtNXVqZmdhUndjZ1MxVVIzZTZaV05zUXRUbXQ4Z0pHQkZWTWIwUk9YSmcwazdnWlp6QQ?oc=5",
+        "source": "Diario Extra",
+        "pubdate": "Thu, 27 Aug 2026 06:30:00 GMT",
+        "pubdate_iso": "2026-08-27T06:30:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "AFC anuncia que más de 550 mil pensionados tienen dinero listo para retirar: cómo hacer el trámite",
+        "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOdjJvVy1jUHBxeHRHeHdVaWc3WmZGUVc4UU9nNkxKc3pfd2ZUemQwaTZrbWlad1VDeExlYS1ybEpLclh4TkUzLS1YcUxBakpuUVFFZHNhRUppdHdHZ2VMZ2JpUERMVWFuVWFKU3BwSEZPdzNhUlEwbkJEQWRDMnd1NVY5YTdZYUhyR1lXSi0tTkpBa0hqZXVHSGhWaFdhLUZ6bmk1UGpab0ZZbHg2Nm5ndFF0R2RiR1FlUTlGTGIwOWJPNTFvcTNvX215MURFa0FwQ2o3N2pXcWdLMmpycGhiU2QyWW1Rb0hXVzN0UzJQdkpEX3JFUFNVMUFMTllCdThU?oc=5",
+        "source": "BioBioChile",
+        "pubdate": "Tue, 25 Aug 2026 14:59:38 GMT",
+        "pubdate_iso": "2026-08-25T14:59:38+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Préstamo reembolsable de la reforma de pensiones: qué es, cómo funciona y cuándo se podrá revisar",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQNHdpa3pvMXhxUDNQLTI5Y3RnRzdDMl9ka3dQZ256RjNUc2RMNDRGR0RHMmZCNWZUREhyY2hJWG5DOWd5a0lCSThvSGh1RTFLOFhaQjdDb19MUmFGdU1jU1EtNHJzTUUxZ0puYUxrMTNqMDRjcEVocXZNODYxekxTNy05RTlyeGhYUUdFT0wtOFZWZFVOQ1FFeG84aWxteXJOVDk0RjlucHVfYm84WkNKeWxYX0VaOURfUGp1THhINzZHMy1QMVE?oc=5",
+        "source": "Radio Pauta 100.5",
+        "pubdate": "Mon, 24 Aug 2026 21:10:27 GMT",
+        "pubdate_iso": "2026-08-24T21:10:27+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Reforma pensiones: riesgo regulatorio para AFPs"
+        }
+      }
+    ],
     "energia_tarifas": [],
-    "sectores_watchlist": []
+    "sectores_watchlist": [
+      {
+        "title": "Gremio automotriz de Zofri reporta pérdidas que superan los 25 millones de dólares tras impacto del sistema frontal",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPYzd2MGVsX0V5OVVwSXpZTFF2RXNxTWVLOTZzYXk0YkQ4QzZJWVZrN3lBdjAyRjN1blRnTzRfS0tZcVdUNDFYNjF1dlRGVWdXVlNvZndVVndvTDJhdG5kM2ZwZW9RbF82QlBSclQzXzhScERNY3V3bWM1MjlhLXZQV1Q1eDg2ZndJVDFwLUlmUUpKRVJWcFZfSERoMmZjQQ?oc=5",
+        "source": "SoyChile.cl",
+        "pubdate": "Tue, 25 Aug 2026 15:18:56 GMT",
+        "pubdate_iso": "2026-08-25T15:18:56+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Perdidas reportadas"
+        }
+      }
+    ]
   },
   "hechos_esenciales_por_ticker": {
     "ZOFRI": [
       {
         "title": "ZONA FRANCA DE IQUIQUE S.A.: Contingencias, huelgas, paralización de actividades",
-        "link": "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=cf60ff815f94733e5d782608a9a40231VFdwQmVVNXFRVFJOUkZVd1RsUkpNVTFCUFQwPQ==&secuencia=-1&t=1787801341",
+        "link": "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=cf60ff815f94733e5d782608a9a40231VFdwQmVVNXFRVFJOUkZVd1RsUkpNVTFCUFQwPQ==&secuencia=-1&t=1787835421",
         "pubdate": "20 ago 2026 19:55",
         "source": "CMF (Hecho Esencial)",
         "es_hecho_esencial": true,
@@ -61,7 +418,7 @@
     "LIPIGAS": [
       {
         "title": "EMPRESAS LIPIGAS S.A.: Reparto de utilidades (pago de dividendos)",
-        "link": "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=b07d0f707d210550fe50708f18cee8b4VFdwQmVVNXFRVFJOUkZVeFRtcG5NazVCUFQwPQ==&secuencia=-1&t=1787801341",
+        "link": "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=b07d0f707d210550fe50708f18cee8b4VFdwQmVVNXFRVFJOUkZVeFRtcG5NazVCUFQwPQ==&secuencia=-1&t=1787835421",
         "pubdate": "26 ago 2026 17:44",
         "source": "CMF (Hecho Esencial)",
         "es_hecho_esencial": true,
@@ -73,7 +430,7 @@
     "NTGCLGAS": [
       {
         "title": "EMPRESAS GASCO S.A.: Otros",
-        "link": "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=f101ece0ed8bf6e3c469b1bdb4971536VFdwQmVVNXFRVFJOUkZVeFRXcEpNazUzUFQwPQ==&secuencia=-1&t=1787801341",
+        "link": "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=f101ece0ed8bf6e3c469b1bdb4971536VFdwQmVVNXFRVFJOUkZVeFRXcEpNazUzUFQwPQ==&secuencia=-1&t=1787835421",
         "pubdate": "25 ago 2026 16:27",
         "source": "CMF (Hecho Esencial)",
         "es_hecho_esencial": true,
@@ -85,7 +442,7 @@
     "SOQUICOM": [
       {
         "title": "SOCIEDAD QUIMICA Y MINERA DE CHILE S.A.: Reparto de utilidades (pago de dividendos)",
-        "link": "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=fb437005e4cce8caeffe00ac5a13dd45VFdwQmVVNXFRVFJOUkZVeFRXcFpNRTFCUFQwPQ==&secuencia=-1&t=1787801341",
+        "link": "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=fb437005e4cce8caeffe00ac5a13dd45VFdwQmVVNXFRVFJOUkZVeFRXcFpNRTFCUFQwPQ==&secuencia=-1&t=1787835421",
         "pubdate": "25 ago 2026 17:14",
         "source": "CMF (Hecho Esencial)",
         "es_hecho_esencial": true,
@@ -96,27 +453,27 @@
     ]
   },
   "stats": {
-    "total_noticias": 0,
+    "total_noticias": 25,
     "por_categoria": {
-      "bcch_tpm": 0,
-      "ipsa": 0,
-      "dolar_cobre": 0,
-      "economia_chile": 0,
-      "politica_regulacion": 0,
-      "pensiones_afp": 0,
+      "bcch_tpm": 1,
+      "ipsa": 5,
+      "dolar_cobre": 5,
+      "economia_chile": 5,
+      "politica_regulacion": 5,
+      "pensiones_afp": 3,
       "energia_tarifas": 0,
-      "sectores_watchlist": 0
+      "sectores_watchlist": 1
     },
     "hechos_esenciales": 4
   },
   "resumen_ejecutivo": {
-    "sentimiento": "neutral",
-    "score_neto": 0,
+    "sentimiento": "bajista",
+    "score_neto": -4,
     "n_positivas": 0,
-    "n_negativas": 0,
-    "n_neutrales": 0,
-    "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
+    "n_negativas": 2,
+    "n_neutrales": 23,
+    "narrativa": "El feed muestra 0 senales positivas y 2 negativas (neto -4). Factores dominantes: Reforma pensiones: riesgo regulatorio para AFPs; Perdidas reportadas.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "NEUTRAL - sin sesgo dominante"
+    "veredicto": "BAJISTA a corto plazo"
   }
 }
