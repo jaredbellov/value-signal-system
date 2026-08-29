@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-08-29T11:03:26.451677+00:00",
+  "updated_at_utc": "2026-08-29T11:33:28.811907+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -196,6 +196,20 @@
         }
       },
       {
+        "title": "Tech selloff drags S&P 500 after Warsh vows to fight inflation",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOaXNJcVFRbl9Td2w5UFppQ3FOTlY5azFYbHA1eHZDTUwtZEtSX2c4SlBaTEJ6ZnV2NGpVUkNIRUdkaFo0Q0pFRm14WTBmVW1nb1RNY2U1cVVKZlhMUnZNY2tyakZ2allIaVBodjRwS2tINWxjNEZNRERGZHcxYk5ZV19VUjYzaEtRYWF0al95cUF5S0o0UFYzUGtiSV9Nak5KUUJORFZoaDdrMzFwRUZjRkNCUy1vUHk2QU5oeVdfcU1IZw?oc=5",
+        "source": "TradingView",
+        "pubdate": "Fri, 28 Aug 2026 17:39:52 GMT",
+        "pubdate_iso": "2026-08-28T17:39:52+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 3,
+          "intensidad_label": "fuerte",
+          "emoji": "🔴🔴",
+          "razonamiento": "Selloff: presion vendedora"
+        }
+      },
+      {
         "title": "Equities Edge Higher on Tech Strength as Oil Prices Slip: Deutsche Bank",
         "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxORUJ5QjA5Q1ZRU3Q4SWs0STNEVjFhQ3EwQW5ZQWRxbENHY21wVEkzQkNweU1pVWFHLUR3VWdWT09JNlRWNU4wa0s1ZnVHdzY5U0ZhS2djbHE3UzJreTJLVndWemZJeTR1RUNxUDJ0LTZDS0NzbzFSbUJoVzltdFY4SHIxb0NmenBSMWFneW5fbw?oc=5",
         "source": "CryptoRank",
@@ -236,20 +250,6 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
-      },
-      {
-        "title": "Opiniones de la comunidad de #sp500rises0.7%techsectorgains3.3% y sentimiento del mercado | Binance Square",
-        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPZDlVVDBxQmlTUEw0RE9SOTZvSm42QWNCZndVY3ZZUE55bGJRTm1CYVpsMktTaHM4d1dyRW43VF9VczRPbVhZWXdwOW1XSlpkNXd4ZG1zaklNRU95NGQ0VDExNXB0S3dJSTgtQ3prbW1zaUhBS1pmVnVVdmJ4bThoMFNsZm5idXJZQ2c?oc=5",
-        "source": "Binance",
-        "pubdate": "Fri, 28 Aug 2026 05:37:27 GMT",
-        "pubdate_iso": "2026-08-28T05:37:27+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
       }
     ]
   },
@@ -264,11 +264,11 @@
   },
   "resumen_ejecutivo": {
     "sentimiento": "alcista",
-    "score_neto": 10,
+    "score_neto": 7,
     "n_positivas": 5,
-    "n_negativas": 0,
-    "n_neutrales": 11,
-    "narrativa": "El feed muestra 5 senales positivas y 0 negativas (neto +10). Factores dominantes: Nvidia sobre lo esperado: lider IA; Proxima arquitectura Rubin: roadmap fuerte.",
+    "n_negativas": 1,
+    "n_neutrales": 10,
+    "narrativa": "El feed muestra 5 senales positivas y 1 negativas (neto +7). Factores dominantes: Nvidia sobre lo esperado: lider IA; Selloff: presion vendedora.",
     "narrativa_fuente": "plantilla",
     "veredicto": "ALCISTA a corto plazo"
   }
