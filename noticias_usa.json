@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-08-30T06:03:26.438949+00:00",
+  "updated_at_utc": "2026-08-30T06:33:29.146946+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -150,20 +150,6 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
-      },
-      {
-        "title": "Nvidia beats Q2 revenue estimates on surging AI chip demand",
-        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBMUUpCc3hxY0diNWV2OTB6SVFaNkZBamVhTjE5Z1VJZGZZbnJ5Tmc4Wml3cWVseVQ4UlNfRV9OeXZ1djk0VERBVWx5dmdfczVkRVk3M1BxLTBOQUdZZXJaYkdCRnAxdnJvYWtUd0FydVdwcGpieWY3bC1hVDhVNFE?oc=5",
-        "source": "CryptoRank",
-        "pubdate": "Thu, 27 Aug 2026 06:21:55 GMT",
-        "pubdate_iso": "2026-08-27T06:21:55+00:00",
-        "impacto": {
-          "direccion": "positivo",
-          "intensidad": 3,
-          "intensidad_label": "fuerte",
-          "emoji": "🟢🟢",
-          "razonamiento": "Nvidia sobre lo esperado: lider IA"
-        }
       }
     ],
     "macro_tech": [
@@ -240,22 +226,22 @@
     ]
   },
   "stats": {
-    "total_noticias": 15,
+    "total_noticias": 14,
     "por_categoria": {
       "tesla": 1,
       "nvidia": 5,
-      "ia_semis": 4,
+      "ia_semis": 3,
       "macro_tech": 5
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "levemente alcista",
-    "score_neto": 3,
-    "n_positivas": 3,
+    "sentimiento": "neutral",
+    "score_neto": 0,
+    "n_positivas": 2,
     "n_negativas": 1,
     "n_neutrales": 11,
-    "narrativa": "El feed muestra 3 senales positivas y 1 negativas (neto +3). Factores dominantes: Nvidia sobre lo esperado: lider IA; Selloff: presion vendedora.",
+    "narrativa": "El feed muestra 2 senales positivas y 1 negativas (neto +0). Factores dominantes: Selloff: presion vendedora; Earnings sobre lo esperado.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "Levemente ALCISTA"
+    "veredicto": "NEUTRAL - sin sesgo dominante"
   }
 }
