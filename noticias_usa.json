@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-08-30T07:03:26.723724+00:00",
+  "updated_at_utc": "2026-08-30T07:33:28.340843+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -20,22 +20,7 @@
     }
   },
   "noticias_por_categoria": {
-    "tesla": [
-      {
-        "title": "Key facts: Tesla, Inc. Fremont Optimus; Netherlands OK FSD; Shanghai",
-        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNMG5qRUw0TmZwa01Da1F2cVBlRmUwTzZkaW01NnRFMkZlbkhnQ2NXQU05X0RUU3hoTGphaFo5V1dNdVZtR1kxS0F3b2VuWXhfZmJxcktSVHVxZE5DbGV5cEEwRFdWUURiaGRLUENZTGk4ODZYSUwwWncwSlYyeHg1amFmakxxVVVGMDZJZlItbmhyQUhEejZwcGdzMWxTeTRFbkpoLVMxWnRSRTZFU2Z5M1ZLOWJqczZYRTZGQzRQNFl5UQ?oc=5",
-        "source": "TradingView",
-        "pubdate": "Thu, 27 Aug 2026 07:14:33 GMT",
-        "pubdate_iso": "2026-08-27T07:14:33+00:00",
-        "impacto": {
-          "direccion": "positivo",
-          "intensidad": 1,
-          "intensidad_label": "leve",
-          "emoji": "🟢",
-          "razonamiento": "Avances en Optimus: opcionalidad Tesla"
-        }
-      }
-    ],
+    "tesla": [],
     "nvidia": [
       {
         "title": "Nvidia Quietly Became Its Own Market Category",
@@ -43,6 +28,20 @@
         "source": "TradingView",
         "pubdate": "Fri, 28 Aug 2026 22:25:31 GMT",
         "pubdate_iso": "2026-08-28T22:25:31+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Veteran Analyst Drops Surprise Take On Nvidia Stock",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTnN0cHQwNlZMcnpJS3B6OW5OLWxhMzdueFBFaGRwMzIycUJ3WWNEbk9OV0pfcHgxY3lxM1hVdUdZd3lueHVmMlpaYW0yWmI3M0prMzBQMHRnRV9OUHFfUkdkNVZSSDlkM29uUmZ6SkhCN2c4Z185Nng5dmpuaFdlX2UzX1hsb0xIUDh5WVlENlpWVnhJcjY0YldMRnZVMjVTTEVnbWRZeS1YWmY5ZVlv?oc=5",
+        "source": "TradingView",
+        "pubdate": "Fri, 28 Aug 2026 14:19:36 GMT",
+        "pubdate_iso": "2026-08-28T14:19:36+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -85,20 +84,6 @@
         "source": "Austin American-Statesman",
         "pubdate": "Thu, 27 Aug 2026 19:43:21 GMT",
         "pubdate_iso": "2026-08-27T19:43:21+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "SK Hynix Breaks Ground on Critical Nvidia Supply Play",
-        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZ3JoS2dzZ2tLVE9kaVB1Yk9oaVR4eklka2lLcmdOeUNvUHBWc2hhUVVWMjR1ZnVkeW4xSTJxWTAxTXJETlhiVlllLUIzVEJQYk1FeWw5MUlWRWw3LS1VdFpIVWpxaGJaZlNuem5hRXU1RFNBWk9MamZVNmZxdURybUNOczFnNHR0TENvWU5RcTdvSGl0R1NyWE5aUE0tQ1BZSHZRODNmUFBCSlhZdS0zRnFR?oc=5",
-        "source": "TradingView",
-        "pubdate": "Thu, 27 Aug 2026 19:36:18 GMT",
-        "pubdate_iso": "2026-08-27T19:36:18+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -226,9 +211,9 @@
     ]
   },
   "stats": {
-    "total_noticias": 14,
+    "total_noticias": 13,
     "por_categoria": {
-      "tesla": 1,
+      "tesla": 0,
       "nvidia": 5,
       "ia_semis": 3,
       "macro_tech": 5
@@ -236,11 +221,11 @@
   },
   "resumen_ejecutivo": {
     "sentimiento": "neutral",
-    "score_neto": 0,
-    "n_positivas": 2,
+    "score_neto": -1,
+    "n_positivas": 1,
     "n_negativas": 1,
     "n_neutrales": 11,
-    "narrativa": "El feed muestra 2 senales positivas y 1 negativas (neto +0). Factores dominantes: Selloff: presion vendedora; Earnings sobre lo esperado.",
+    "narrativa": "El feed muestra 1 senales positivas y 1 negativas (neto -1). Factores dominantes: Selloff: presion vendedora; Earnings sobre lo esperado.",
     "narrativa_fuente": "plantilla",
     "veredicto": "NEUTRAL - sin sesgo dominante"
   }
