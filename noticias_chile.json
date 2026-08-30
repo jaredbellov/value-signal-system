@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-08-30T03:51:27.812747+00:00",
+  "updated_at_utc": "2026-08-30T05:33:54.365427+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "bcch_tpm": {
@@ -37,19 +37,249 @@
   },
   "noticias_por_categoria": {
     "bcch_tpm": [],
-    "ipsa": [],
-    "dolar_cobre": [],
-    "economia_chile": [],
-    "politica_regulacion": [],
-    "pensiones_afp": [],
+    "ipsa": [
+      {
+        "title": "SP IPSA: La Bolsa de Santiago registró este viernes caída de 0,22% y en la semana varió 0,95%",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNcGNpOWNSZ291UjNaSTFqTkhVNXlRcVo1UzhEWnpvOV9JdnpmU3RUZkM0ZzFxM0ptM1luaC1kVUd0UHdWdG5Sa0diMHFKUElFeWxmOEl5d1huYmNkSlFzWF9ici1pUXBKNnAyYVBVWkhqSWZhS0Jta3VUNzRDbmdHWXF3MGtseTJQZElWYnJRbzBLM2J6ejFTWmJiYU9oRlk3eVhiZ0hsbHhMSFY1ekxZT1ZJUUNKMTNXSWxzT0RxTFBWdDZrWFE?oc=5",
+        "source": "diarioestrategia.cl",
+        "pubdate": "Fri, 28 Aug 2026 23:56:58 GMT",
+        "pubdate_iso": "2026-08-28T23:56:58+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "dolar_cobre": [
+      {
+        "title": "Proveedores: la hoja de ruta de una demanda que se triplica hasta 2040",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOam41OWFjUGMxdHRNRDZLcjFVTktmWHpRUWl3dzlFeVJrdk1PVTFPT1QtSTR4ZFRHVkdzT2N0eWd1czRnNmJVTE5YZDNvdHRXWThMVFpvcFp0YThqMDBDRHJ6VlJ5NVpuQ0R4TU9iUXRLaC02NW9HRzVUOGZGVnFVZHFjczZBTFNQV1ZjR21adDdidDQxSzYzSUxJbjJOMFNGUDFUekZRVmdiM1hHa2Zrb1ZKaHpvYl8yWXB4aNIBwgFBVV95cUxOOHp0WGpUZEdaRmR4QU5lQmxieHZEb21FTUdMbzNZdnQtLWlReHd2VEF2NmZzaTEwNV8yek4wUkpVWlNVOFp1cUozY1RWS1ByY0VzR084X2dJM3ctSHFPY1VTNFVWWFFldVFMYWFxS3VRTVMzdXY3cmJ6N0tmeTFDY0pXQjdRbUtTTzRBNzN1MXZDdEUxdnd4NEtHWEtlU0pGUmo1b2VtMWhmV2FIdlFvd01wUEZZS0QtRUdBSmZ4eU4xZw?oc=5",
+        "source": "El Tribuno",
+        "pubdate": "Sun, 30 Aug 2026 04:58:00 GMT",
+        "pubdate_iso": "2026-08-30T04:58:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Inteligencia artificial dispara la demanda de cobre y refuerza el atractivo del metal para los inversionistas",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPRkFCTTh1QUZ0STlfSmNFb194eXlFYXJKRTNHSnZ4eVRmZk9MYlpTbHNrM1JOa2RlcVoxLVAwaEc1Z1V1NFVVd1lIUWRDZFJaMzg1YXkxUExFNGlTZDM0Z1ZvblZGM3ZiNElXTVMwaTREamM3OUEyQlJYNXdfUERaRTFHQjRmTFFHU2swaU9OaFB0QmJxeGF0cUYwbktobW9Ya19DRWZrTXhqbFBZdGFYOUpJaVBRQXJuMl9mMWItd3VDUmpyUUtmX3p2c1o?oc=5",
+        "source": "Revista Digital Minera REDIMIN",
+        "pubdate": "Fri, 28 Aug 2026 22:41:36 GMT",
+        "pubdate_iso": "2026-08-28T22:41:36+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🟢",
+          "razonamiento": "Demanda de cobre: viento a favor"
+        }
+      },
+      {
+        "title": "Precio del dólar hoy en Chile: cotización de cierre del 28 de agosto",
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYlp0eDlHbFpXYUNkakFQMm1zTVVFa2pmLVp2aDNRbmdUYjM2TkttWHZmZFZqdlRTOVdsdVNvTG1nbFNILUNWdk5ZZzZvTTAwTTZfSWdlaDR2MkNkN05WR0JZN0ZzRUFqS0ZHQjdCeE81cnhBZmZNSHB1ZmpMSkRRdWU3YTlBeXd5ZDdPVGdLXzJTNGQydDFzWWVjQkpjcGhDQzJEeXZTdHhETjFDTzBQRkp30gHMAUFVX3lxTE91aHhncHI5d0pFNEN1RmVRQW51U0F6OWpuYm0zM2ZncENsVWI4dnBiTGJGVnBZWklIWWttc182OGpfLWI2WUpFem84R3VRdEE2Y1lROG9VOHM1NFFXTXlBRk1NcDEtRVViUTNyVVd6NEdMV0F3dHFzRGZ1ckt2WExRZ25ZakptYjM0Z0Z0ZGZsTlZGNFpCM20yVDFia1QxRjRGY1Vaa2dCZ2hmT3RFZ0ZHWnZ4aTJKR29paHVMSjAtRHdXb2JTazliXzJGLQ?oc=5",
+        "source": "Infobae",
+        "pubdate": "Fri, 28 Aug 2026 19:16:00 GMT",
+        "pubdate_iso": "2026-08-28T19:16:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Peso chileno hoy, 28 de agosto: a cuánto cotiza y cómo está el dólar para viajar a Chile",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPeHRqM3ZfRVh6YlNtQTFLMkZFT09jRDFua1pGRUJUTVZtR2N4SmlSenhTWVY0LXJnY2VIRUNUZWJIWEtYZ3duMGhNSGpkdWRzUXNjZlM2R0NfUGQ5Nk5NQzNhdWpFNlB5bzlKcUh2UkY5NVBMN3JrbHBDR3dkQmgwNWZjX3pTeTVvWkxRWktEV1gzREVISU8zb1k4WDRQTjJiSHlPTUVqbjVROUh0YzItT0tMTm5xbktTVjRZUlNlc2U4UzBtaXNCdFA2YjfSAdQBQVVfeXFMT2JKMVhZSC1zQjluVl82V19MZWJ0eTliQUhNM2VhNWIxYmNjRDdlVzlOYXBwNThTOUVwYmowMWVqb0tUUlZuT2c2cXA4eENGUkhsbW9HOTdEYTNicXlLZS1FTWs0eTZCclhYZkdjaVJsS1lQSFJ5czUxbDY5eFd4MnhUWkxPNnZ2clctbXByaGY3V1FlZVBBSTBPbDlGTzRhQUVEN1cxVUxPa2hlVWlPcEoyVWhrMFgtZ0pRX1JkeHV2VTBLS05FVXZTMTlKM1JtSkgtZXk?oc=5",
+        "source": "Diario Río Negro",
+        "pubdate": "Fri, 28 Aug 2026 14:45:59 GMT",
+        "pubdate_iso": "2026-08-28T14:45:59+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Precio del Dólar en Chile hoy: El Peso chileno se desploma a mínimos de más de tres semanas",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPZXZFTG1ZSkk5UmJUZGhjNTlBX2w3ZXNFN2xBQlV4ellvYk5tT0dadmpUSnBXZWhNNmZSZ29YRmNTaFZGempNMmNMZHpGZmVac05XZGpXcFhZcmJ0SGI5cnZoN0JKWi1EYmZGRkZGU093UTF3SWxoUzQ5RlRlNGxyVEwyWWNGVGlvVlN4akVSVUZpc2lOTEdIaHNBdUtTeHNPQmdzTnkxUERQNlZXVi1uZm1yWGotbVZWRXFhN1BnZmlTUkctUFFRRnFFZV_SAdIBQVVfeXFMTkVxZzBXekxpc2pTUjdRS1luME5IbTNQOGFXaWM0NVVsbXR6RWpMRGctQUFySFN2SHVUWHozTU03RjN4Yl91RFplbW1YLWE3OGZYenlqdmVHTGYwTWgwNXhBZGJFNjc4RGZSWDlQeGo4VXQyV3NQdXRLQWtTdWhWRXZoUkxkNm4ybHZobzJ3NjdIUFNBRXB0Q2tsSDZia3Y5V0VrWS1sLW94bmN5MGtSdUduZkdEZnh5b0ZGNmlyT0IzS2RuQ1hPRlJFWE9WR052eGFn?oc=5",
+        "source": "FXStreet",
+        "pubdate": "Fri, 28 Aug 2026 14:29:50 GMT",
+        "pubdate_iso": "2026-08-28T14:29:50+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "economia_chile": [
+      {
+        "title": "Hacienda apuesta por inversión privada y proyecta crecimiento de 3,5% para Chile en 2027",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWUVkV0Fic0JzbDFzMU15Sm5qUUJVYmZIU09aWWZHRjFyVVRJQ2w1RS1QYW83emZ3bkRTVDNEUjVJYUNUQ2w0TUJDRDAwVFZGSWJjMDhqdzdNMVdyUGtpNWJhRFRJbG9KcmJybGdkT2d6UWRzVllOUHAtSjUxWVVsaFlyNnZLZXp3dE1rSk9ld0RIS3lPM0pyd21KUk5RLUdPTW4waHd6RnVVZmZaVEE?oc=5",
+        "source": "Publimicro",
+        "pubdate": "Sat, 29 Aug 2026 13:53:25 GMT",
+        "pubdate_iso": "2026-08-29T13:53:25+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Biministro Daniel Mas presenta agenda para acelerar inversión y abrir un nuevo ciclo de crecimiento de la minería chilena",
+        "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPVXN4NWcxdEJ5cWFoeHZpVlJRcWlOSXlUX1c2bWpOT3ZtZDBib2d3RUtXc0E4TGNaZnNZaUZoSERleFJldTExS2MxcjQyM0htam42TkZfcG5HUXVESVBRNUFOSzR5bk9iVk1oc2dDaGlsMmlMQVdWNjJlNC00ei14cFRYWGowcTZxSkxPdzBiS2RPUXpSTURDT0k3clpsWUdEdlpXYThCcGMxYzlFNXNqZVgzWW1nNldxZ0V5amhWTmhXSGtiS2w3NHVSWGZ2Z3pDS2tucGdqY20zNFhxODZZMDBNeGtJX1h2ZkZZ?oc=5",
+        "source": "G5noticias",
+        "pubdate": "Thu, 27 Aug 2026 15:42:30 GMT",
+        "pubdate_iso": "2026-08-27T15:42:30+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "El turno de la tecnología",
+        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0zdW85MmdJcUZPaEZac0hWVy1CdGkyek5XX3BMazlBcURaVjREZm5PNDNLbGtiUjhNd2ZpRXhfX1ROcnd4bmxCOWY5ZEpaRE1UNnBMZ3pwb05BSmljR0NGYjF6cUdXOERiVElROXMteVVsN1BTazhBcA?oc=5",
+        "source": "El Dínamo",
+        "pubdate": "Thu, 27 Aug 2026 07:00:00 GMT",
+        "pubdate_iso": "2026-08-27T07:00:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "politica_regulacion": [
+      {
+        "title": "Gobierno frena ley corta para modificar norma sobre reconexión de servicios básicos",
+        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPMDZjYllnZFRTU3NXbFM5VGhKN21QR244eHJaUGRHRDZheUV4czVsbDV4XzlBY2FMZEU5SDJYUDVxelRuMUNoVUVZbDlQa3VZOEx4Ym1GRUI4bkpWbzBxeGVFT3hTc1NISTloQWNyVUdyMm0yRENrbmpScVZXTDRQalNGWEhoWURQT2MwRS1QT0NOYlluejU0M3RwVW1DTGxHZ0xGR0ViM0stR0VzN21naVNOc1dTVk9FMnQwWFozMnJzWjluN3pPNHc0Zw?oc=5",
+        "source": "Radio Pauta 100.5",
+        "pubdate": "Thu, 27 Aug 2026 12:00:16 GMT",
+        "pubdate_iso": "2026-08-27T12:00:16+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "pensiones_afp": [
+      {
+        "title": "Cómo retirar los fondos de la AFC que mantienen los pensionados en Chile",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPaUdVLVNiVUZGdU15MlFYQUFFZ0IyQzBzUks5THhObWhCdzdoY0Zia1haOGZHQTFpcEJjUEdjelBsRE1sZmx6cnRYTHdoSWwxR0JSaVJXT0c5cG91ZTloV1VVYWhTaG5odDdRQ2k2bFhzUG5BSzVnV3IzVDVnM0tQUHE1bTNSTVlmTzIwbjRWdFMydllTVGRDOUMxYUhEUzl4bWlTSlNzMjVLbGtaOGFXRUJwY9IBxwFBVV95cUxNb0owV0VCUFdMRFRtbE15d2txbngybk15eEc0NUVlOEM0bWZtX1U5X2FwcjA2VWhQbnBqRXZ0aEN0N3pIc3VJZjVwZ0k3RXFtb1FXUDk2WEVfeElLekh3VkZsZ3d6Yl9uLUJBU0VBX3c2ZDBuYUd0QS00R0R5Q2tfYzdFSERlcmhpaVFVaGgtN0lEQ2lQR05qZThLQ3JRb0h4dlF6U2tiQWlUb3RLRk9DQS1LVC1xNVBXRHdZOXpGU1RxYkY0eTBj?oc=5",
+        "source": "EL PAÍS",
+        "pubdate": "Thu, 27 Aug 2026 17:02:36 GMT",
+        "pubdate_iso": "2026-08-27T17:02:36+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Retiros de fondos previsionales redujo montos de pensión",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZnlSVnF0c014SVduX2hvY0toZE9Hd0hqRmVhVG5fTk9aVFZkLVdKeUZkTzktYkFfblludW1WY3BPU3VUZmtFSmdlY0R6UXVHZ1hLc29MYzE2VUpOUUtBZlFmMXo0X1NtNXVqZmdhUndjZ1MxVVIzZTZaV05zUXRUbXQ4Z0pHQkZWTWIwUk9YSmcwazdnWlp6QQ?oc=5",
+        "source": "Diario Extra",
+        "pubdate": "Thu, 27 Aug 2026 06:30:00 GMT",
+        "pubdate_iso": "2026-08-27T06:30:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
     "energia_tarifas": [],
-    "sectores_watchlist": []
+    "sectores_watchlist": [
+      {
+        "title": "Zofri retoma desde este sábado atención aduanera tras varios años",
+        "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNZ0pkVzZWZFhGaWdBMWJ0OUxfQnphMy1uYlRld2x4VXJWeUpIQTBBaklZVkFwdjR2MWJoVm4xeDk1MlJLTjd3N0NuVEpzQ21fT2RGY1RiYkNwc2N4SnI3QjNJbHpsYklDYWtPdXNSZVBYTlVZdktybGFaNGlrZUUySzNyMl8wdDdGb085ajZfNzkzcVoxVExGZEdpWTF4NzNJT2F5eEpRMlBXS0pLTktfcGNMQ2xXcVhlTFFJRzJxNnludWN3ZEdabjFuUmJLZWc5Vl9BRFJFUEFhSjBVUHFLSmJxY0MtZkVVU0Vhb3BJRnFEYkJQcm9UWkx4U1J6YTBPeXNJYlhVdHlqTHNj?oc=5",
+        "source": "BioBioChile",
+        "pubdate": "Fri, 28 Aug 2026 17:28:47 GMT",
+        "pubdate_iso": "2026-08-28T17:28:47+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Cenco Portal La Dehesa suma un nuevo cine 100% Premier operado por Cinemark",
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOY2k2RHlpMzJHTjg1VEQ4YkFLSEgxb0VpNzNLMU5LZk9yY2RtT1p0NTRUSjJ2UjJCUGZQUm1oSERrdVQwLW9aaVJOb3BpbTE3NmJ1QnFyS3BSOTl6RW95d3M4ZktGMDUwaWdmNHFKVWlwdWE3aGdoNlQ3cmtOLTJmQzdvY3doaGFBeUZ0enF0SjYwaThtaUpSai1aMkxfZ0IzTG44bC05UE5na2VveEFBWEZn?oc=5",
+        "source": "Supermercado Al Día",
+        "pubdate": "Fri, 28 Aug 2026 01:40:39 GMT",
+        "pubdate_iso": "2026-08-28T01:40:39+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Atención aduanera volverá a operar los sábados en Zofri desde el 29 de agosto",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPYnVVMEw4azA3c3ZJa19SODFXVmpyLUZ4TnZONTBmY3RTeFNhTGtoZzIyamRkSlVoUzN6Y3hfZjlCcnc0cXhvSmg5UGhZSm5zMHZvTFdTRmdoQ2lfVGYxQ25oRkk4bVpESThxMFEzOVplRDlVTkFSMnRHQzh6NW9aTjBuVnVzb0NyZnJxMXc4RnFTc0NqMUh0TFRCa3ptOTNYQVpKY1dWcXk3RE8zVFlmOXBWd9IBswFBVV95cUxPYnVVMEw4azA3c3ZJa19SODFXVmpyLUZ4TnZONTBmY3RTeFNhTGtoZzIyamRkSlVoUzN6Y3hfZjlCcnc0cXhvSmg5UGhZSm5zMHZvTFdTRmdoQ2lfVGYxQ25oRkk4bVpESThxMFEzOVplRDlVTkFSMnRHQzh6NW9aTjBuVnVzb0NyZnJxMXc4RnFTc0NqMUh0TFRCa3ptOTNYQVpKY1dWcXk3RE8zVFlmOXBWdw?oc=5",
+        "source": "Radio Paulina",
+        "pubdate": "Thu, 27 Aug 2026 19:43:18 GMT",
+        "pubdate_iso": "2026-08-27T19:43:18+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Sujetos asaltan a usuaria de Zofri en las inmediaciones de la Plaza Prat de Iquique: robaron 68 millones pesos",
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUGMwQlNpOUpHMUZKTWl5djhmUFN4NGNXVmNOdXNkNFZvTzNubVRSdWRRVE5Eem96SS1RQVpZNFJkTmM5aFZNdFVpOEZ2XzQwOWlXdGVIeUI5UDlLTFNsdzVoa095eHFLeU84cjZHcEZxQXpqRlpoS2xOUzZzbUtXcFlCc05aWExKSEF2aU1wZm5UdGVHM3BJZzRMMGxldkE?oc=5",
+        "source": "SoyChile.cl",
+        "pubdate": "Thu, 27 Aug 2026 16:53:00 GMT",
+        "pubdate_iso": "2026-08-27T16:53:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ]
   },
   "hechos_esenciales_por_ticker": {
     "LIPIGAS": [
       {
         "title": "EMPRESAS LIPIGAS S.A.: Reparto de utilidades (pago de dividendos)",
-        "link": "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=b07d0f707d210550fe50708f18cee8b4VFdwQmVVNXFRVFJOUkZVeFRtcG5NazVCUFQwPQ==&secuencia=-1&t=1788010381",
+        "link": "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=b07d0f707d210550fe50708f18cee8b4VFdwQmVVNXFRVFJOUkZVeFRtcG5NazVCUFQwPQ==&secuencia=-1&t=1788067922",
         "pubdate": "26 ago 2026 17:44",
         "source": "CMF (Hecho Esencial)",
         "es_hecho_esencial": true,
@@ -61,7 +291,7 @@
     "NTGCLGAS": [
       {
         "title": "EMPRESAS GASCO S.A.: Otros",
-        "link": "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=f101ece0ed8bf6e3c469b1bdb4971536VFdwQmVVNXFRVFJOUkZVeFRXcEpNazUzUFQwPQ==&secuencia=-1&t=1788010381",
+        "link": "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=f101ece0ed8bf6e3c469b1bdb4971536VFdwQmVVNXFRVFJOUkZVeFRXcEpNazUzUFQwPQ==&secuencia=-1&t=1788067922",
         "pubdate": "25 ago 2026 16:27",
         "source": "CMF (Hecho Esencial)",
         "es_hecho_esencial": true,
@@ -73,7 +303,7 @@
     "SOQUICOM": [
       {
         "title": "SOCIEDAD QUIMICA Y MINERA DE CHILE S.A.: Reparto de utilidades (pago de dividendos)",
-        "link": "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=fb437005e4cce8caeffe00ac5a13dd45VFdwQmVVNXFRVFJOUkZVeFRXcFpNRTFCUFQwPQ==&secuencia=-1&t=1788010381",
+        "link": "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=fb437005e4cce8caeffe00ac5a13dd45VFdwQmVVNXFRVFJOUkZVeFRXcFpNRTFCUFQwPQ==&secuencia=-1&t=1788067922",
         "pubdate": "25 ago 2026 17:14",
         "source": "CMF (Hecho Esencial)",
         "es_hecho_esencial": true,
@@ -85,7 +315,7 @@
     "OXIQUIM": [
       {
         "title": "OXIQUIM S.A.: Reparto de utilidades (pago de dividendos)",
-        "link": "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=d9deb6b6194c0dfa4bac41e25746e4c2VFdwQmVVNXFRVFJOUkZVeFQwUkpOVTFCUFQwPQ==&secuencia=-1&t=1788010381",
+        "link": "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=d9deb6b6194c0dfa4bac41e25746e4c2VFdwQmVVNXFRVFJOUkZVeFQwUkpOVTFCUFQwPQ==&secuencia=-1&t=1788067922",
         "pubdate": "27 ago 2026 12:16",
         "source": "CMF (Hecho Esencial)",
         "es_hecho_esencial": true,
@@ -96,27 +326,27 @@
     ]
   },
   "stats": {
-    "total_noticias": 0,
+    "total_noticias": 16,
     "por_categoria": {
       "bcch_tpm": 0,
-      "ipsa": 0,
-      "dolar_cobre": 0,
-      "economia_chile": 0,
-      "politica_regulacion": 0,
-      "pensiones_afp": 0,
+      "ipsa": 1,
+      "dolar_cobre": 5,
+      "economia_chile": 3,
+      "politica_regulacion": 1,
+      "pensiones_afp": 2,
       "energia_tarifas": 0,
-      "sectores_watchlist": 0
+      "sectores_watchlist": 4
     },
     "hechos_esenciales": 4
   },
   "resumen_ejecutivo": {
-    "sentimiento": "neutral",
-    "score_neto": 0,
-    "n_positivas": 0,
+    "sentimiento": "levemente alcista",
+    "score_neto": 2,
+    "n_positivas": 1,
     "n_negativas": 0,
-    "n_neutrales": 0,
-    "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
+    "n_neutrales": 15,
+    "narrativa": "El feed muestra 1 senales positivas y 0 negativas (neto +2). Factores dominantes: Demanda de cobre: viento a favor.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "NEUTRAL - sin sesgo dominante"
+    "veredicto": "Levemente ALCISTA"
   }
 }

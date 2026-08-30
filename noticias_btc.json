@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-08-30T03:51:27.763120+00:00",
+  "updated_at_utc": "2026-08-30T05:27:34.181474+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "precio": {
@@ -28,31 +28,415 @@
     }
   },
   "noticias_por_categoria": {
-    "precio": [],
-    "etf_flows": [],
-    "regulacion": [],
-    "adopcion": [],
-    "fed_macro": [],
-    "sentimiento_onchain": []
+    "precio": [
+      {
+        "title": "Bitcoin: cotización actual, cuánto vale hoy y cómo cambia al 30 de agosto",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNFVsVGpDbi1fbTVQampyMVpRTkJJVzNMS0l5Q3Rwc2xVRkMzWjZrUXQ5SG5hT3lvVUZ6cW9HNXd6OTEtWFduR2dLNTlIcjd5ZXhmQ0w0ZDMyc3gtb1NuVUhfaFo0d05fdXhZUDBtbzJmRWw5eHc3SEJMRndjRWFwYTFuRlo5S19mYTNVb2JYeUVuNmo2UzkwQmZ2WkRPSnZGSUxmNHE0NkxDVThOUmJYMFRXckZXdEF6aG5qZXloaVpsQQ?oc=5",
+        "source": "La Nación",
+        "pubdate": "Sun, 30 Aug 2026 04:00:00 GMT",
+        "pubdate_iso": "2026-08-30T04:00:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Precio del Bitcoin hoy, 30 de agosto de 2026: Se pone fin a una racha de 9 días de flujo de dinero hacia los ETF de Bitcoin.",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPcDVQN1N5V21uYTBQXzB4Njd1WEtqUTJoQk01ZHh6RFVvSl9kWUxRc3BzVGFDWUJaWHh3TDVXRUdBSWgxZHlqOEM3aDRsZ2RGMmE5R3ZXZ0xxR2lTdE5CTlRBcmlwSGZnY21LbE1pZjRuOU1vSjFHdDBialVCU1lQQkpmZ2o4V2l1eUl4LTFNNzdjajB5WGZGUGVobnlsYzgwZ3pzZDk5ZHF1N3FFVzlz?oc=5",
+        "source": "Vietnam.vn",
+        "pubdate": "Sun, 30 Aug 2026 01:25:38 GMT",
+        "pubdate_iso": "2026-08-30T01:25:38+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "¿Es MemeCore una buena compra al precio actual?",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAzdXd6dGF3NGNhRVhVMGtKWXI5ZmwxUndMUmRPbXJsMzM0WUJ1R0FDTllnYXY0eUc5QUJ3QzE0V0ZudTYtWkN4LU05Z2lBSXozRWRrVXB3R1dlanBMVkhoemROcGNXY0stRFU0NVMwUmYtQjRa?oc=5",
+        "source": "CryptoTicker",
+        "pubdate": "Sat, 29 Aug 2026 12:15:35 GMT",
+        "pubdate_iso": "2026-08-29T12:15:35+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Bitcoin hoy: cotización y precio del BTC este sábado 29 de agosto de 2026",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPVUF4MG9JcEt5WFpNRThVcVJhdjh6VFJUU0hPOHJkMHI3U3ItZDJWS2pJMFNMTExybk5MSHNjX0xabzN6cHI5RTlNN010OUg1Z1BlbXhHb0hfMXU1WklQWGRMU0RnNkJQaS1oMjdiSzZkd0I0N29QallpbzNOR19VQzZxMnBOYnBHUUdFM2V5bGN3cnRUTE0wSnEwREl4OXdlUVE?oc=5",
+        "source": "FM Del Condado",
+        "pubdate": "Sat, 29 Aug 2026 11:00:00 GMT",
+        "pubdate_iso": "2026-08-29T11:00:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Valor de bitcoin es hoy más alto que todos los bancos cotizados",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdWFQeWxqZ3FjYndVLXdNTWYwMUw2cy1HWXo1cnJVZ1JQM0tsT3dyTmZrZHB1SExXNmxEelVVYkRqclRkdURvNjNwdUdFMy1EbG00SDQ2ODlna0doZGV5N3Jrd0QyQ25JOGt2akR0SEhOc0lRanlxc3VfempvbGhySzc2ZWpic2ZZaS0xZUpfX3Y2TmVuSWQyZWdpMkZJYzQyVjJDREFn?oc=5",
+        "source": "Observatorio Blockchain",
+        "pubdate": "Sat, 29 Aug 2026 06:18:34 GMT",
+        "pubdate_iso": "2026-08-29T06:18:34+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "etf_flows": [
+      {
+        "title": "Bitcoin ETFs end 9-day inflow streak as BTC dips below $78K",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNRk1xYVFuUGpsYzd5RlZvTnNxV01iSkhsb2ozN0JJbnpYcjk5dHUweEtHOXRiMFlOaXBjeVBqV1N4SjFSd0tmN0dIQlVJcWRnNHlnNWxwWWthUGwwT291b2RIRGEyc1o4M2NxUzA4RVk5ZkRuYjRkZFh2YTlwRTVKeG1tdnM2X1Rzdl9aUVU2Y3VDZC0xN1FxQTRqM1R4QnhNZDdXaEYteXROemM4OUhCZm93eFpfRzdRZHpVMjBn?oc=5",
+        "source": "TradingView",
+        "pubdate": "Sat, 29 Aug 2026 06:47:00 GMT",
+        "pubdate_iso": "2026-08-29T06:47:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Bitcoin ETF Bags $242M Inflow as BTC Price Eyes Biggest Historical Retest",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSHJIZ0RGWDA1WVZwcjNmVjFKSDNDbGE1Z0ZHTUd6aUVzWTFyUlprdkV4RW9XS1J0NjMzam1qR2V5SnBlOWtyMEc0TFBpWlFvQjNkYThRODlmbVNPNHJfNGhXUnVmM2lHNVZuVHZFTDhyTlZ2R1NtTHNzc2FXSGlFanBIMzBJak5GMWo0STlGMXZqT3VtOXMyQS1hc0pYdkNsZHdmbE94cnQ1c0lwREI5eFZFdw?oc=5",
+        "source": "CryptoRank",
+        "pubdate": "Sat, 29 Aug 2026 02:09:25 GMT",
+        "pubdate_iso": "2026-08-29T02:09:25+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "BlackRock IBIT recupera vencimientos semanales de opciones tras cambio de MIAX",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSUFZQ2tib3BHRHFLaU1aVVYxRmNyRkZFaktfUktlcXRiUFdVdmVBSU4weW9BNG5TeG4tVHl3c1U1QXNqc2l1UXFMNWg4NTBldjVob0NrcTh4TXRuTGVXdURLS3FELTU4V3Y3VkxOUmp0T3VJZ1V4cHNLYnZEOUQ4SWFoaGJkN0NuV1FNbWthSGNLYkwwWXdCXzZ0dGpFT2dqTWhxZXhEWnJDam1vTkgzc0pEVEpMamZaUVBIZg?oc=5",
+        "source": "DiarioBitcoin",
+        "pubdate": "Fri, 28 Aug 2026 20:21:49 GMT",
+        "pubdate_iso": "2026-08-28T20:21:49+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Bitwise Solana ETF Breaks Into the Billion-Dollar Club as Demand Surges",
+        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNck5qWG1GMVI1XzRySXJpR0VFbm5EMkVjZ193aWFZeF9mSjBqSGVRWlBhdUV1ZS1MbElxdHF5SmhWbThHem01MHVHTW9xZ0VpcVhnOUdIM2JzUExKR0RoS0l6UXpJZ1hfVmgxWXRyMVdyMk9EN193cHQwR3FobmxBT3d2M0lZRUhWVVN0RmFGQ2N0bzBEeHlEd2pyUHFIV3RoWmh5QmhPOS1QM29Ib1hKOFhwTEVBOUV4RG04SWNWVVZRYVZTeS1Bbg?oc=5",
+        "source": "TradingView",
+        "pubdate": "Fri, 28 Aug 2026 17:28:35 GMT",
+        "pubdate_iso": "2026-08-28T17:28:35+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "ETF de Bitcoin IBIT recupera opciones semanales tras rebajarse el umbral a 25.000 millones",
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNQnI2RDhrMjI1dU5QRlg3cEc5TkF4ZEROTFRFRVB6VUQwN0ttTVRYZURFSFR1MEREcVU2U0lQQU80MTNOTTl2U00yVE9SR1U4M1VMRjFJeTYwc1JDOUo2MTdCR0VXNThNS1dpY2M3eTlqTVludmd0Y0xEemFiTlV4M2xnUWZBUGc?oc=5",
+        "source": "Criptotendencias",
+        "pubdate": "Fri, 28 Aug 2026 17:01:29 GMT",
+        "pubdate_iso": "2026-08-28T17:01:29+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "regulacion": [
+      {
+        "title": "CLARITY Act: el Senado vota el 15 de septiembre y el mercado le da un 14 %",
+        "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBzMlJnRkJTMjN1NlFfdFpYMlFhTGJOOXc4LURQVG5ROEctMkR4U0t5VDR4cmFzTzB0UE0tUlhWQjRlclZqRVBlSk5VQ0g0VjByV285V3hlRmNlYUdwZGgwWEhDc19yWWd6SEhmRGdNeFB0QldhUUtz?oc=5",
+        "source": "CryptoTicker",
+        "pubdate": "Sat, 29 Aug 2026 18:16:52 GMT",
+        "pubdate_iso": "2026-08-29T18:16:52+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Presidente de SEC resalta papel de Bitcoin en las finanzas y el dinero",
+        "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOYkdfa2gzOUh3Y2luZ1k3SE1KdXZXQ1hhYUxHaGtkdFEyM1FRLWI4WWY4SUJnbTl1emFRVWlYajYtRTJDN2hiMXBNaWNpVmpCTS1Gc194SFljZUZka29FNHg5bEROOWVoTkQwcjN1S3hSRjlNZ3U2dUhYODJmU1hoamxvM05jNEg1U29YSkdPS1h5ZUVGWmpKZFdlMlFoNUNDNlJfUDNUZ0dqSndLTENObi12WEtFenZRU2NKVnhiRjRoNGRmV1V5M0xKbXRMRlJRb0pBVA?oc=5",
+        "source": "Observatorio Blockchain",
+        "pubdate": "Sat, 29 Aug 2026 09:29:22 GMT",
+        "pubdate_iso": "2026-08-29T09:29:22+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Tusk busca nueva votación sobre la ley cripto tras el escándalo de Zondacrypto",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQmU4dUtFLVJVZThkcHdldlhiZXVUZ2treVNXU0sweThobnU5ZDdhdmJoejRSX19QU3BxQUplaXZKc1R5V1RhZUptdmVuYzVQb3I0LTk2d1RuaFp1NWZNdGhlOC1WaVk0S3BLeFN4Y0pmSm13MTJfSThLN0lUc1VEZ21lLWQ0UUsyN3RzSUdwNUlUMlNsZlJoellydE5RYXBHd0MyaHMtdGJMeW1OWmNFT1dISjROaXl5S0Ffag?oc=5",
+        "source": "DiarioBitcoin",
+        "pubdate": "Fri, 28 Aug 2026 23:37:14 GMT",
+        "pubdate_iso": "2026-08-28T23:37:14+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Franklin Templeton presenta solicitud de ETF de Bitcoin en la SEC",
+        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOMHFFaWpPWml3UFE1YjY4QWNWdjNGLWU2MnpVR1BROVRZSm0wTC1lUm92Nmt2M3drR2lGVExJTzdBUWRzTEpycl94NWdibHVJMmlWdlF1NDNLVkhqaEY1X3hoMFFaV05MRjJGXy1GYXFabUg5VVRRbXVRYU5MWmZIYVlSM0x6NzJrOU5QTmhJNDhFZXZBWDQ5LXhsX1VMdkRsLUJZNjFXbFhHblE0WDhhN0w0ZUUzM2NUSGNGbkJaX08?oc=5",
+        "source": "Observatorio Blockchain",
+        "pubdate": "Fri, 28 Aug 2026 19:36:33 GMT",
+        "pubdate_iso": "2026-08-28T19:36:33+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Arthur Hayes: Trump No Longer Moves Bitcoin — Liquidity, Not Politics, Drives Markets",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPMVphU05UcUtoT29Gem1nSGx1Yms3RGFJcWI1WXpqZ1VnV0FRaUJhb2czdHNiQThYSVhnSHNiUEJmY3g0SlRUakJGQ1RIclVxbHFlSkpNLVVGUy1kZDdYVU5zbDg1azJ1ZURWYktkUXBweDR5cUFIaHFsd1MyZFhpZVhnZw?oc=5",
+        "source": "CryptoRank",
+        "pubdate": "Fri, 28 Aug 2026 19:32:20 GMT",
+        "pubdate_iso": "2026-08-28T19:32:20+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "adopcion": [
+      {
+        "title": "BTC Price above $78,000 on August 29, 2026, at 11:59pm UTC?",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcFZLUl90dHZ6Q1JIRmlQNDJvTVd3RE9HMmRBNjJfZy1zei1lN0ROTTBvaGhvOXZXeC1ZeEEyOXgxamNDY21FRTJVd1I2T19fOWxHUWZhRzFLM1VLaWJxdkxsd1p1WFpXMVpNZVJVTy1ZSDBYTTF3djN0bWtBTmxySTBJOUhUaTllX09pbExtcUZYc3JJa3gxRQ?oc=5",
+        "source": "Decrypt",
+        "pubdate": "Sat, 29 Aug 2026 06:31:30 GMT",
+        "pubdate_iso": "2026-08-29T06:31:30+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Capital B Raises €21M From Adam Back and TOBAM To Buy More BTC",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNMGZvTGplNjBYU1ZKZ2V0cS1PMDNDZXdKWVhfS245SVJSZGZjVXI2VGdyWG8zVk9jUG9KR3YwWmE4LXNXbXpHZHpNN0VIMHBueU95TE1rZkRSRUJzMlhHUU9weG9falVKRDRHdEkxLUdvQUJWWWhCOHNuSWMtanJzdQ?oc=5",
+        "source": "CryptoRank",
+        "pubdate": "Sat, 29 Aug 2026 03:08:11 GMT",
+        "pubdate_iso": "2026-08-29T03:08:11+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Bitcoin’s Moment Has Come for the Far East, Says Metaplanet CEO",
+        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1xaFp3Y014cU5MRjBtS0VDRjIwXzF3dW40My02VnRSa2FkUXp0aVVZeEpCS08wMTRzU2xjaURabWw3ZW9yVExSYnVscm5IUzRfT0NTMXYxdXZIVm4wVnA2NGo1aW1RUkVLTHFscjUzV3JEZlRTMzMteg?oc=5",
+        "source": "CryptoRank",
+        "pubdate": "Sat, 29 Aug 2026 02:56:26 GMT",
+        "pubdate_iso": "2026-08-29T02:56:26+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Capital B’s €21 million Bitcoin raise comes with heavy warrant dilution risk",
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNa1gtc1lVQ2pPYU8wdmkxZnNDSTdNTXBLb0NWTmQtNlNwcnExbkJEbzJCX0hyVDQ0cnMyZmZwQkpwMnQ0YlNVVkJ0WlNLX2duakFDZUlIOG1CWk5jZm9jUC1zRlZxQVV2NkVscnQ5Y1U2S0Qzb1FQOUY2UXdfV0VkOEx6b3FFdEVLNFpjRUppLWcwNDJrVmRyejNiZVFZRGk4UmVLazY1ZE5EUW1hVmd0MkdIdTBnb2s?oc=5",
+        "source": "CryptoRank",
+        "pubdate": "Sat, 29 Aug 2026 00:47:06 GMT",
+        "pubdate_iso": "2026-08-29T00:47:06+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Las acciones de MSTR aumentan un 40 % en agosto mientras la estrategia reduce la deuda",
+        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOOGtHTV95Q1VqNHdHdGo2MXp4VFc2NzNYd3U2cEJqZk9NQ3hNUUVOcDVtX216RWszclRqaGRzLWhBWVdmck4zTm1rX0E0ZXJvRl9USXBkMEFsT2F3WTk2UmhvcVRrbmVBVzRRb1dDUFBpZHhkRUt1eU4xNU5OWUkzM0thT1N1UThPWTZFQ3B1TkxOdEliWmZJ?oc=5",
+        "source": "KuCoin",
+        "pubdate": "Fri, 28 Aug 2026 23:42:41 GMT",
+        "pubdate_iso": "2026-08-28T23:42:41+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "fed_macro": [
+      {
+        "title": "Jordi Visser Dismisses Warsh’s Hawkish Fed Talk As ‘Showmanship,’ Says Scott Bessent’s Playbook Matters Far More For Crypto",
+        "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQQ0h0U0RyV2w5c0xaT2tqekJCSFdyUnZoUGRmTFVPN3NZS2wtSlVBcTg3a2drRGlrLXM5TllDeEVjdjZyemt1VVRldERPMUljM2tQOHFNTHFNZWJiR1dETzQzQmhycDVqOTVGVjBsQktFdHFHWHhuc0VGblBEdHYtUUg4dmZUdk9QNTVBb1V1cHFGeWhweGhMQVJOOUU5UWZFbHNPc3Jzb3Uza2phX2JBUWNTZ3ZtZnFFalhyZkVFN0JvUEU5MXZPYmpSZjZvc2ltZHZJbFdCVGxFbjdfclh1Qm5LRGhaSmo4c0c1ek9ubldEaHlKaUNWeWRuQlVQVEhTWFdHVFA1YW1BVi04?oc=5",
+        "source": "TradingView",
+        "pubdate": "Sat, 29 Aug 2026 15:20:12 GMT",
+        "pubdate_iso": "2026-08-29T15:20:12+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Tono hawkish: presion para BTC"
+        }
+      },
+      {
+        "title": "The Fed Just Changed the September Trade — Here’s What Moved Markets",
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZEMyNG9IZzB5X21NbF9ybkw0aFhXRWpsa2R0VGxSR2NhY2dBNUVKbWhDVWtxYm1RQzZSN1dLd05VR0NOdEk4MHVMYUVtalJOOGxWTHM2YVkxVjdaMXFfVlJzV1pkQ21fWWFlQ0lKN3g3NXdnRDhPSEJTVTlzenBzeEEyMG1VN2RIa0RqcEJ2aU9HckNQVm53ZUtsR3VzV0MtVkdBb05IU05WQQ?oc=5",
+        "source": "CryptoRank",
+        "pubdate": "Sat, 29 Aug 2026 13:07:38 GMT",
+        "pubdate_iso": "2026-08-29T13:07:38+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Bitcoin Cools Off After $3 Billion ETF-Driven Surge",
+        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOZXMzbWFGN0E4dEs0Y2xuSmdoUk9ackYxTkQ0LWtHbGRrbDBNa21fVE9vMEhHd2w5WEpWWWxaS1ZvSk4zeUtzb25TaTB1eVA1YklTMHpTODhBckwtSmtDZ3FFR1RlUHFvTlhfLV9pSDJCLXRISl9hdzBnYUxUU1lVNXB4amNEZw?oc=5",
+        "source": "CryptoRank",
+        "pubdate": "Sat, 29 Aug 2026 01:32:38 GMT",
+        "pubdate_iso": "2026-08-29T01:32:38+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Gold and Silver Eye 2026 Gains as U.S. Debt Tops $40 Trillion and Fed Decision Looms",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9qeDFpUjh0dUdDamVwYUx1ajFjOU9VSURQdV8yZ2ZDc3p6d1hpLVlKWWtLV1NZVkFIWGN0QXVqWXRLWldhVHhBWEg3WlNUV0tnOFUyVzdTeXhrQkdFU282cndjWC04dW94cU11TzItdEdKTVpZdldCdUlJcl9aUUE?oc=5",
+        "source": "CryptoRank",
+        "pubdate": "Fri, 28 Aug 2026 20:47:40 GMT",
+        "pubdate_iso": "2026-08-28T20:47:40+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Los traders de Bitcoin vigilan al presidente de la Fed Warsh en busca de pistas — y no obtienen nada",
+        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPQTIybDhBdXVoV1NMMXBpSTZwd0JXVWphSW9BenBLV1Y4a1hDa2tyZGtUcXRoVW8zUVJsWDZ4VU85UjB6cW96S3I5WWI1TktZVlpob2d4TWNEX1BlTTRRNE94REZ2dENQdm1sY0dMc29zMmRpT2lObjZUajNNbVRtWlVrWHAyLV9FdlZyZW5meDZLekxCajdaSkN3c1dYaUFTbVh2bEZKaHRtTVoybDRhQzF0UzVRU0tjNEh6ZDlmVmppUzB0WlZDYzJBNllHejF6?oc=5",
+        "source": "bitcoin.es",
+        "pubdate": "Fri, 28 Aug 2026 20:06:21 GMT",
+        "pubdate_iso": "2026-08-28T20:06:21+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "sentimiento_onchain": [
+      {
+        "title": "Crypto Today: Bitcoin, Ethereum, XRP bulls regain strength amid steady capital inflows",
+        "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQVnFwQk5admpvdVVLOG9hNWV0ZFlMbUlPVVlPRlZ1MzgzU1pyTUJnbkxnbnFLRWFUZFVjMVhRQkdOaDB5VEdTVGFLRGxEREo3a3FOcVRiUDNLSHRUMHZyWVFEYmVrWGZUWld6T2VWR01fdk4xMjVrblBKMi1hdDlLVUtrd2dPdUdNb0lwVFFRT2lGRktrRGxtR2xnQkc5Smc3aEM5VlVYb2YyLXFLYzJzVENBRU5ZclMtbl9RZEZwaWdiaEJXRmc5SkpWQ0V1T0xwT2MwR3duY1JScVpXcVlhbTFZcw?oc=5",
+        "source": "tmgm.com",
+        "pubdate": "Thu, 27 Aug 2026 10:23:53 GMT",
+        "pubdate_iso": "2026-08-27T10:23:53+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🟢",
+          "razonamiento": "Flujos institucionales hacia BTC"
+        }
+      },
+      {
+        "title": "Whale Moves $6.5M in HYPE Off Exchanges, Extending Accumulation Streak",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTjNDbUgtdlJKUWc0OEgyRFk4UVQtcG1IbS05NEYzdURQZVlCZkw0Vm1oeVRBRHJaMVZyVUZMZDlPT190OW5jYlBPeXU2RllrUXVMYXJDRWZHbzdzWl95MTh0dl92M3VBRzlTMWhNazNHQWJpQnJvU3RRTlRTWFdaRnFsdDRYcEl3?oc=5",
+        "source": "CryptoRank",
+        "pubdate": "Thu, 27 Aug 2026 07:00:00 GMT",
+        "pubdate_iso": "2026-08-27T07:00:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ]
   },
   "stats": {
-    "total_noticias": 0,
+    "total_noticias": 27,
     "por_categoria": {
-      "precio": 0,
-      "etf_flows": 0,
-      "regulacion": 0,
-      "adopcion": 0,
-      "fed_macro": 0,
-      "sentimiento_onchain": 0
+      "precio": 5,
+      "etf_flows": 5,
+      "regulacion": 5,
+      "adopcion": 5,
+      "fed_macro": 5,
+      "sentimiento_onchain": 2
     }
   },
   "resumen_ejecutivo": {
     "sentimiento": "neutral",
     "score_neto": 0,
-    "n_positivas": 0,
-    "n_negativas": 0,
-    "n_neutrales": 0,
-    "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
+    "n_positivas": 1,
+    "n_negativas": 1,
+    "n_neutrales": 25,
+    "narrativa": "El feed muestra 1 senales positivas y 1 negativas (neto +0). Factores dominantes: Tono hawkish: presion para BTC; Flujos institucionales hacia BTC.",
     "narrativa_fuente": "plantilla",
     "veredicto": "NEUTRAL - sin sesgo dominante"
   }
