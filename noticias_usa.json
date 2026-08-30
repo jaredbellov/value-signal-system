@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-08-29T14:03:27.131675+00:00",
+  "updated_at_utc": "2026-08-30T03:51:27.808259+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -20,256 +20,28 @@
     }
   },
   "noticias_por_categoria": {
-    "tesla": [
-      {
-        "title": "Key facts: Tesla, Inc. Fremont Optimus; Netherlands OK FSD; Shanghai",
-        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNMG5qRUw0TmZwa01Da1F2cVBlRmUwTzZkaW01NnRFMkZlbkhnQ2NXQU05X0RUU3hoTGphaFo5V1dNdVZtR1kxS0F3b2VuWXhfZmJxcktSVHVxZE5DbGV5cEEwRFdWUURiaGRLUENZTGk4ODZYSUwwWncwSlYyeHg1amFmakxxVVVGMDZJZlItbmhyQUhEejZwcGdzMWxTeTRFbkpoLVMxWnRSRTZFU2Z5M1ZLOWJqczZYRTZGQzRQNFl5UQ?oc=5",
-        "source": "TradingView",
-        "pubdate": "Thu, 27 Aug 2026 07:14:33 GMT",
-        "pubdate_iso": "2026-08-27T07:14:33+00:00",
-        "impacto": {
-          "direccion": "positivo",
-          "intensidad": 1,
-          "intensidad_label": "leve",
-          "emoji": "🟢",
-          "razonamiento": "Avances en Optimus: opcionalidad Tesla"
-        }
-      }
-    ],
-    "nvidia": [
-      {
-        "title": "Nvidia Quietly Became Its Own Market Category",
-        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZ2dZYUF4ZnBBLUdnRk5HX1BzckE4cmd2RXpNbEFNVzAwRHVLaFRIWFlFWUF2OHhUWmFtWk5ST0h3NVhIZVQwVlJlcUM5a0EyNjRIOFVLTUdEdjRTenhlZU9qOEhKSVpsR2tJM2owVHB1VWNHRU0taFVPMnZiUzJHV1FHNFNkaUJkNmU3eFFRbjdydTFleXVwU3AwUEtIOHBhdEg3OE9Lbw?oc=5",
-        "source": "TradingView",
-        "pubdate": "Fri, 28 Aug 2026 22:25:31 GMT",
-        "pubdate_iso": "2026-08-28T22:25:31+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Key facts: NASDAQ:NVDA $96.2B Q2; buys Hugging Face $12.9B; AWS US AI",
-        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQzZaTTVseTd6MXJzVFIwdEM5dkZwM1FFbDRuMElnXy1RNHFnai1XWmZCbVJ6aDRTT3RxcHVUVkdmTHZUQ2otLVpMRlhua1c5VVB1OVRoU3J3MURjUGtDZ1BuTFI1enY2WTVtSnk3cWdKYUVGY0FCckNfT1VQR1g4VmdGOUZKYVQ1VUNjVTh4eUFIa0x5U1ptd09aS0JVM3pnMnFSZUdkNEtrYzBHUm5FbjA3VEZ1U19Ucy1rMncyb1dTQWM?oc=5",
-        "source": "TradingView",
-        "pubdate": "Fri, 28 Aug 2026 07:14:25 GMT",
-        "pubdate_iso": "2026-08-28T07:14:25+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Nvidia Vera Rubin proyecta US$20.000M en ventas para Q3",
-        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQaTFjQ1Zvb0NBX3Z4WktMZ2hCblhpMDdEc0hrREVYWEl5VEYxZ1lRMklyWlJNREl5ajc1dGdnM3JLdkpHNy11NW9hLUdQS25tX0szc0tXZ3pJc05vRDkzb0xkTWszZkg1MHZtVmY5MmFxMTF5Nlg2NzdXZ1NDZTA4emZCWHVXR3RXdWJwY05n?oc=5",
-        "source": "El Ecosistema Startup",
-        "pubdate": "Fri, 28 Aug 2026 02:21:53 GMT",
-        "pubdate_iso": "2026-08-28T02:21:53+00:00",
-        "impacto": {
-          "direccion": "positivo",
-          "intensidad": 2,
-          "intensidad_label": "moderado",
-          "emoji": "🟢",
-          "razonamiento": "Proxima arquitectura Rubin: roadmap fuerte"
-        }
-      },
-      {
-        "title": "Marvell Q2 Earnings Beat Estimates as AI Data Center Revenue Jumps 46%",
-        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNd0hfTHdyQ0J0TGVsRlNyMDFHcWVQZkV0ekZ5SlRvVHR2QVhIZWJMc05Ca295NFg3R2E0VlZSZU05dlp1SURsbGVxYVlBY2t6VVg5aS1qT3dGc19zS0dVWjk4UlF0MmZRQ292WWdteS1vcWZUTk0yaU1aNi1vXzRnUVdaLVJHYmdSaURtbWhLcGpORXl4My1MQmpHYmI5NWZkSVJWSFhXSEY3aXkxY2kw?oc=5",
-        "source": "CryptoRank",
-        "pubdate": "Fri, 28 Aug 2026 01:20:48 GMT",
-        "pubdate_iso": "2026-08-28T01:20:48+00:00",
-        "impacto": {
-          "direccion": "positivo",
-          "intensidad": 2,
-          "intensidad_label": "moderado",
-          "emoji": "🟢",
-          "razonamiento": "Earnings sobre lo esperado"
-        }
-      },
-      {
-        "title": "Nvidia revenue tops $96B as chipmaker expands in Austin - Austin American-Statesman",
-        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNWhCWHh4T2U0YmNHNVlVOWYwbE8ybHNHMW14bnI2S1UxWVBQWE0xSURuTVFjN0poTjI5dnoycW1FUGNQNWNfZ1BiZjFVWjVBS3daaHBBb0M2cnZRemZtendTSVl4UGU2dDNMY3VYNjRITk9ZMHhjM3BaUXF3OEpwMjR4aWxnUlo5MUZFX01NdWxMOWRVNWNTN3pGZ2xoeE9wQzBNWmZ4QW42VklZ?oc=5",
-        "source": "Austin American-Statesman",
-        "pubdate": "Thu, 27 Aug 2026 19:43:21 GMT",
-        "pubdate_iso": "2026-08-27T19:43:21+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      }
-    ],
-    "ia_semis": [
-      {
-        "title": "Micron Technology Doubles Capex as AI Memory Shortage Deepens",
-        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPNGRMM2xuRFRvbHJaT1dGR2tzOUtIRkE0RnR6enFtVlVlLWRLWUdYZFlDbGx2cWVtVGJHOXBxU2ZQY2NzbU4xbVdEUnRibWpZWmR1VXUwcG1OWEZlQkJ5UFI0QnpubmRTdjY0emRjWkl6VFNrY2Ixei1SZUJhVHcwcWlySktHX0dwV3dLUHBxVy1tUGx5dHJ2WHR3V3prVndoNVE3R0I5TUdvbC1ZcjJkUWh3OE91bGYzbVpYYTZn?oc=5",
-        "source": "TradingView",
-        "pubdate": "Thu, 27 Aug 2026 21:02:31 GMT",
-        "pubdate_iso": "2026-08-27T21:02:31+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Nvidia revenue tops $96B as chipmaker expands in Austin - Austin American-Statesman",
-        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNWhCWHh4T2U0YmNHNVlVOWYwbE8ybHNHMW14bnI2S1UxWVBQWE0xSURuTVFjN0poTjI5dnoycW1FUGNQNWNfZ1BiZjFVWjVBS3daaHBBb0M2cnZRemZtendTSVl4UGU2dDNMY3VYNjRITk9ZMHhjM3BaUXF3OEpwMjR4aWxnUlo5MUZFX01NdWxMOWRVNWNTN3pGZ2xoeE9wQzBNWmZ4QW42VklZ?oc=5",
-        "source": "Austin American-Statesman",
-        "pubdate": "Thu, 27 Aug 2026 19:43:21 GMT",
-        "pubdate_iso": "2026-08-27T19:43:21+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Applied Materials Sees AI Driving Its Biggest Semiconductor Growth Inflection Yet",
-        "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQcjJlMks4cTV1eXZGUjFYNTlkYk9SRjJVRV9sLVRudWxtbS11WGtWSUhWelpEMGhoQ18zVU5vTlhQbWJDY2pjdjE2QjZiNzZ0bjRicF9NZUctQzJQR2VTd2VlTmxCYkp2UnREcUhEcmhQcTMtRVcxWnIyRzdQdXQ5WHZjODJjazNtcWNpNm43eURXamZKZ3VaUnpoaGlKNVhJeC1kNm4xVlJIbzkydzdEN09ULUlBUE4wLVpWUWxzM19MNFM1NzlSUVlmcEtGWEZTbHFrRi1tUHM?oc=5",
-        "source": "TradingView",
-        "pubdate": "Thu, 27 Aug 2026 16:03:55 GMT",
-        "pubdate_iso": "2026-08-27T16:03:55+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Nvidia beats Q2 revenue estimates on surging AI chip demand",
-        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBMUUpCc3hxY0diNWV2OTB6SVFaNkZBamVhTjE5Z1VJZGZZbnJ5Tmc4Wml3cWVseVQ4UlNfRV9OeXZ1djk0VERBVWx5dmdfczVkRVk3M1BxLTBOQUdZZXJaYkdCRnAxdnJvYWtUd0FydVdwcGpieWY3bC1hVDhVNFE?oc=5",
-        "source": "CryptoRank",
-        "pubdate": "Thu, 27 Aug 2026 06:21:55 GMT",
-        "pubdate_iso": "2026-08-27T06:21:55+00:00",
-        "impacto": {
-          "direccion": "positivo",
-          "intensidad": 3,
-          "intensidad_label": "fuerte",
-          "emoji": "🟢🟢",
-          "razonamiento": "Nvidia sobre lo esperado: lider IA"
-        }
-      },
-      {
-        "title": "Nvidia stock jumps as company forecasts $108 billion Q4 revenue",
-        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQQXhPVE96V0lZbW9tZEtOanliNzZ4SUt2aWNoZGhjc2FLTWRmbmRsRFhfcThRQzg3aDFfR0NvbUotdWRBZTMtdkk2YmtvRUpPR3hEQ21YSFlzcnFvakRGOEpCNkk5Qmp5dWZGV3BqYWZ0cHJGMzJhQ3Y0NDJkTkd6VzR6MDgzY0U?oc=5",
-        "source": "CryptoRank",
-        "pubdate": "Thu, 27 Aug 2026 03:09:03 GMT",
-        "pubdate_iso": "2026-08-27T03:09:03+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      }
-    ],
-    "macro_tech": [
-      {
-        "title": "Stocks Slip as Tech Weakness Drags Nasdaq Lower; S&P 500, Dow Also Fall",
-        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1ZeTAzeHNfd0VNYXNhTkVTYWxxYUFYZmRydVktODBFdE5yLUF3XzItbHY5M3ItbEc2amVqcUxheEx1YjI1T1kwVXQxb05pQTNqQWd6eEhrWnpvV1Flc2RtZkhUZE8zSzRaTVRzZU9icVJYMzA?oc=5",
-        "source": "CryptoRank",
-        "pubdate": "Sat, 29 Aug 2026 02:18:17 GMT",
-        "pubdate_iso": "2026-08-29T02:18:17+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Tech selloff drags S&P 500 after Warsh vows to fight inflation",
-        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOaXNJcVFRbl9Td2w5UFppQ3FOTlY5azFYbHA1eHZDTUwtZEtSX2c4SlBaTEJ6ZnV2NGpVUkNIRUdkaFo0Q0pFRm14WTBmVW1nb1RNY2U1cVVKZlhMUnZNY2tyakZ2allIaVBodjRwS2tINWxjNEZNRERGZHcxYk5ZV19VUjYzaEtRYWF0al95cUF5S0o0UFYzUGtiSV9Nak5KUUJORFZoaDdrMzFwRUZjRkNCUy1vUHk2QU5oeVdfcU1IZw?oc=5",
-        "source": "TradingView",
-        "pubdate": "Fri, 28 Aug 2026 17:39:52 GMT",
-        "pubdate_iso": "2026-08-28T17:39:52+00:00",
-        "impacto": {
-          "direccion": "negativo",
-          "intensidad": 3,
-          "intensidad_label": "fuerte",
-          "emoji": "🔴🔴",
-          "razonamiento": "Selloff: presion vendedora"
-        }
-      },
-      {
-        "title": "Equities Edge Higher on Tech Strength as Oil Prices Slip: Deutsche Bank",
-        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxORUJ5QjA5Q1ZRU3Q4SWs0STNEVjFhQ3EwQW5ZQWRxbENHY21wVEkzQkNweU1pVWFHLUR3VWdWT09JNlRWNU4wa0s1ZnVHdzY5U0ZhS2djbHE3UzJreTJLVndWemZJeTR1RUNxUDJ0LTZDS0NzbzFSbUJoVzltdFY4SHIxb0NmenBSMWFneW5fbw?oc=5",
-        "source": "CryptoRank",
-        "pubdate": "Fri, 28 Aug 2026 12:26:31 GMT",
-        "pubdate_iso": "2026-08-28T12:26:31+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "SPX: S&P 500 Futures Hug the Flatline as Warsh Prepares for Jackson Hole Speech",
-        "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNaWtVTklWcWNMeHhFSTIyTHhmRUc3Snk3M1E3cm9FSGlJTW56bkZOLTB3THBKZktEaDRDZVZGbFhvR0IwUFFEV21IOWF1LVNLbzdQQmJMZ01lVGl2NnlNRGozOGNLLW5YTTRWdmNtTDZXQm1RV1dERFpuRW0xWXZoeFVBSmhGaWVrWE5XRVBNeTc4dDNSd29ydFJnZkRyaXNjSjJOYU8wdXZzazdQY3o5TGFXY05wdWNiSTFaZV9TLTNTWl96cDVoblRYUGc1QVRuYjZkampn?oc=5",
-        "source": "TradingView",
-        "pubdate": "Fri, 28 Aug 2026 06:52:00 GMT",
-        "pubdate_iso": "2026-08-28T06:52:00+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Opiniones de la comunidad de #sp500rises0.7%techsectorgains3.3% y sentimiento del mercado | Binance Square",
-        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPZDlVVDBxQmlTUEw0RE9SOTZvSm42QWNCZndVY3ZZUE55bGJRTm1CYVpsMktTaHM4d1dyRW43VF9VczRPbVhZWXdwOW1XSlpkNXd4ZG1zaklNRU95NGQ0VDExNXB0S3dJSTgtQ3prbW1zaUhBS1pmVnVVdmJ4bThoMFNsZm5idXJZQ2c?oc=5",
-        "source": "Binance",
-        "pubdate": "Fri, 28 Aug 2026 05:37:27 GMT",
-        "pubdate_iso": "2026-08-28T05:37:27+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      }
-    ]
+    "tesla": [],
+    "nvidia": [],
+    "ia_semis": [],
+    "macro_tech": []
   },
   "stats": {
-    "total_noticias": 16,
+    "total_noticias": 0,
     "por_categoria": {
-      "tesla": 1,
-      "nvidia": 5,
-      "ia_semis": 5,
-      "macro_tech": 5
+      "tesla": 0,
+      "nvidia": 0,
+      "ia_semis": 0,
+      "macro_tech": 0
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "alcista",
-    "score_neto": 5,
-    "n_positivas": 4,
-    "n_negativas": 1,
-    "n_neutrales": 11,
-    "narrativa": "El feed muestra 4 senales positivas y 1 negativas (neto +5). Factores dominantes: Nvidia sobre lo esperado: lider IA; Selloff: presion vendedora.",
+    "sentimiento": "neutral",
+    "score_neto": 0,
+    "n_positivas": 0,
+    "n_negativas": 0,
+    "n_neutrales": 0,
+    "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "ALCISTA a corto plazo"
+    "veredicto": "NEUTRAL - sin sesgo dominante"
   }
 }
