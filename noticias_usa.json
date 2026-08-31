@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-08-31T22:03:28.625322+00:00",
+  "updated_at_utc": "2026-08-31T22:33:26.736604+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -36,22 +36,7 @@
         }
       }
     ],
-    "nvidia": [
-      {
-        "title": "Nvidia Quietly Became Its Own Market Category",
-        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZ2dZYUF4ZnBBLUdnRk5HX1BzckE4cmd2RXpNbEFNVzAwRHVLaFRIWFlFWUF2OHhUWmFtWk5ST0h3NVhIZVQwVlJlcUM5a0EyNjRIOFVLTUdEdjRTenhlZU9qOEhKSVpsR2tJM2owVHB1VWNHRU0taFVPMnZiUzJHV1FHNFNkaUJkNmU3eFFRbjdydTFleXVwU3AwUEtIOHBhdEg3OE9Lbw?oc=5",
-        "source": "TradingView",
-        "pubdate": "Fri, 28 Aug 2026 22:25:31 GMT",
-        "pubdate_iso": "2026-08-28T22:25:31+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      }
-    ],
+    "nvidia": [],
     "ia_semis": [
       {
         "title": "IREN Stock Faces 3-Month Losing Streak After Q4 Miss, But Analyst Sees ‘Buying Opportunity’",
@@ -65,6 +50,20 @@
           "intensidad_label": "neutral",
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "China's Ingdan interim revenue rises on AI chip demand",
+        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPckducU5rbWN1RFJoYWwtNzY3SEJCdkc4ZGhwNklMTHpwZzNsLWhqYUIta2ZTdkJxclVYYVgwcTdBbEdZOWFQMnhNbmI4bHVUWkFyNjBISFNXSFYwZ3JxTVhpTTlkVHRXOGxJNUJlWk5JbG9DRlBudTZGZDZsSVlCSXUwRkNGMHFxWlVUMHBGa3BlTlFRYVl5eGxWTGVPb0ZQV1U2dzNSTlZfdElrd3dDcW5sX19ocXlUTm5wLWtQSTQ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 31 Aug 2026 09:29:29 GMT",
+        "pubdate_iso": "2026-08-31T09:29:29+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🟢",
+          "razonamiento": "Demanda de chips: soporte tech"
         }
       },
       {
@@ -159,19 +158,19 @@
     "total_noticias": 9,
     "por_categoria": {
       "tesla": 1,
-      "nvidia": 1,
-      "ia_semis": 2,
+      "nvidia": 0,
+      "ia_semis": 3,
       "macro_tech": 5
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "levemente alcista",
-    "score_neto": 2,
-    "n_positivas": 1,
+    "sentimiento": "alcista",
+    "score_neto": 4,
+    "n_positivas": 2,
     "n_negativas": 0,
-    "n_neutrales": 8,
-    "narrativa": "El feed muestra 1 senales positivas y 0 negativas (neto +2). Factores dominantes: Capex en IA: demanda estructural de GPUs.",
+    "n_neutrales": 7,
+    "narrativa": "El feed muestra 2 senales positivas y 0 negativas (neto +4). Factores dominantes: Demanda de chips: soporte tech; Capex en IA: demanda estructural de GPUs.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "Levemente ALCISTA"
+    "veredicto": "ALCISTA a corto plazo"
   }
 }
