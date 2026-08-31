@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-08-31T20:03:27.695014+00:00",
+  "updated_at_utc": "2026-08-31T20:33:26.858272+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -20,22 +20,7 @@
     }
   },
   "noticias_por_categoria": {
-    "tesla": [
-      {
-        "title": "Pronóstico del precio de las acciones de Tesla: los ingresos y beneficios superan las expectativas, ¿por qué cayó el precio de las acciones?",
-        "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQeld1UU5qb0FncWJzM1BkQ053WTU0SDJRaGtIM0dZOFdEckxvUUFXM1c3QTBuMEhoOU1BMEl2OEJiQVgtUGdrR3pFTnN5SVJyemtjY3BoRWZSSkpmSWJtbkpBNzV2VXlrT1ZqYmdodE0xTUJ4SUFMYWJnVWxpSHpOaFZrR2NqMzBpSzNGR2JqMXBRZF93b2x1RTZCLWt0TnktWThiUUJRd0EyMl9IdUg4VTg0Y2pTY2dmelFidlF6cm9mZS16VkdLcms2dU1TTTlBak9yLU9ZazdWUVdyTFZXY0RVR24ya3RqV3BBa0NiRzctd2VUc1hsNDF0UHRMb0c4d2hz?oc=5",
-        "source": "TradingKey",
-        "pubdate": "Sun, 30 Aug 2026 02:05:46 GMT",
-        "pubdate_iso": "2026-08-30T02:05:46+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      }
-    ],
+    "tesla": [],
     "nvidia": [
       {
         "title": "Nvidia Quietly Became Its Own Market Category",
@@ -156,9 +141,9 @@
     ]
   },
   "stats": {
-    "total_noticias": 9,
+    "total_noticias": 8,
     "por_categoria": {
-      "tesla": 1,
+      "tesla": 0,
       "nvidia": 1,
       "ia_semis": 2,
       "macro_tech": 5
@@ -169,7 +154,7 @@
     "score_neto": 2,
     "n_positivas": 1,
     "n_negativas": 0,
-    "n_neutrales": 8,
+    "n_neutrales": 7,
     "narrativa": "El feed muestra 1 senales positivas y 0 negativas (neto +2). Factores dominantes: Capex en IA: demanda estructural de GPUs.",
     "narrativa_fuente": "plantilla",
     "veredicto": "Levemente ALCISTA"
