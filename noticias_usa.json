@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-08-31T21:03:28.434619+00:00",
+  "updated_at_utc": "2026-08-31T21:33:27.691519+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -84,6 +84,20 @@
     ],
     "macro_tech": [
       {
+        "title": "Asian Stocks Drop on Hawkish Fed Bets",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxORzVWTmd1ejdZQ3FsYUlTa3FOelp4Q2txSnBSRUI1dTNEckV0NGVlc2N5Z2RaSEVnWlluSkttamFXWmlNODBtZ1Voejk1ZmM2SmpFQzFqaVBjTVNteWp2UHkyX3Rwb1JRTlNhOUpTbDFOX2FsOV9LS2N4dW94T0pNYTRaaFFvbEVxT3NGc2QyVVo?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 31 Aug 2026 02:16:00 GMT",
+        "pubdate_iso": "2026-08-31T02:16:00+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 3,
+          "intensidad_label": "fuerte",
+          "emoji": "🔴🔴",
+          "razonamiento": "Tono hawkish: presion"
+        }
+      },
+      {
         "title": "Stocks under Rs.100: Sumeet Bagadia recommends three shares to buy on Monday - 31 August 2026",
         "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPUE1fN2NjWE5uaVdsSVFpMFVEWUVuT09kRU1zUFctTDltVTNKZlNMcmVEZjdtc2RaeEljZVljZVpfc2ZqMjdYOTJEYjAxcGI3STNCVmlDRl9rcXlaajZfenB2SHdPMHBtMnRfejE4V3NRY2RSeUF6ajFlYUttWU12c1p6TEJpOFZHUG96MXJzRUlzcHpUdk54dm5IalFjME8xWWh6a05fVjdBTlNuTEVERWtHZ2x0elFzV3JrZzFad1VreW41OTJMRnN1bExxaDdJaWI2VUE3Y0prQ005c19n?oc=5",
         "source": "TradingView",
@@ -138,20 +152,6 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
-      },
-      {
-        "title": "Stocks Slip as Tech Weakness Drags Nasdaq Lower; S&P 500, Dow Also Fall",
-        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1ZeTAzeHNfd0VNYXNhTkVTYWxxYUFYZmRydVktODBFdE5yLUF3XzItbHY5M3ItbEc2amVqcUxheEx1YjI1T1kwVXQxb05pQTNqQWd6eEhrWnpvV1Flc2RtZkhUZE8zSzRaTVRzZU9icVJYMzA?oc=5",
-        "source": "CryptoRank",
-        "pubdate": "Sat, 29 Aug 2026 02:18:17 GMT",
-        "pubdate_iso": "2026-08-29T02:18:17+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
       }
     ]
   },
@@ -165,13 +165,13 @@
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "levemente alcista",
-    "score_neto": 2,
+    "sentimiento": "neutral",
+    "score_neto": -1,
     "n_positivas": 1,
-    "n_negativas": 0,
-    "n_neutrales": 8,
-    "narrativa": "El feed muestra 1 senales positivas y 0 negativas (neto +2). Factores dominantes: Capex en IA: demanda estructural de GPUs.",
+    "n_negativas": 1,
+    "n_neutrales": 7,
+    "narrativa": "El feed muestra 1 senales positivas y 1 negativas (neto -1). Factores dominantes: Tono hawkish: presion; Capex en IA: demanda estructural de GPUs.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "Levemente ALCISTA"
+    "veredicto": "NEUTRAL - sin sesgo dominante"
   }
 }
