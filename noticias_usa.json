@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-09-01T10:33:26.978755+00:00",
+  "updated_at_utc": "2026-09-01T11:03:27.827255+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -21,6 +21,20 @@
   },
   "noticias_por_categoria": {
     "tesla": [
+      {
+        "title": "Weekly Recap: Nevada clears 5,000 Tesla robotaxis and 13.5 GWh; margins dip",
+        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQeUpWY3h4SkpjXzFoTGpEWnNnSS1EcHEtak10SGJpSjZJVDJOZWloRGwwaVAzV3JDQ1pTMmJjWGZqU2FQV1NzbTZvYnlnQXgtcHFlSldCbEl1dVV4cnhZZWoyY2pNZWtSZUVQZ3FIeURHWVhBVGxhUWZTb1hOanQ3TE9zd2NoUERtWFh4NmhQRjVFeVdBemQwQmpDcEJhVTF5MkZQQWNFWUNncll6anBDTkRlcEFpYm8zVjNvRkkxSWxqQ0lTTnR2TkJYcW9fTnM?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 31 Aug 2026 11:22:48 GMT",
+        "pubdate_iso": "2026-08-31T11:22:48+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
       {
         "title": "Convertir Tesla Tokenized Stock (Robinhood) ( TSLA ) a Australian Dollar (AUD)",
         "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBTTFlhdng1RWZsUDRNTWE5NlExYi10RjlrNHNMU21aZFFjYTRtaFg4ZWczSFpoSW05Qm9fNXl2aktoM3hhdlFZQ1k2eFpuaUR0REhNdnIzTi1QdzBNNWFMTGV0b01EY3J2Y3QwbWttYkM2bjZR?oc=5",
@@ -198,9 +212,9 @@
     ]
   },
   "stats": {
-    "total_noticias": 12,
+    "total_noticias": 13,
     "por_categoria": {
-      "tesla": 2,
+      "tesla": 3,
       "nvidia": 3,
       "ia_semis": 2,
       "macro_tech": 5
@@ -211,7 +225,7 @@
     "score_neto": -1,
     "n_positivas": 1,
     "n_negativas": 1,
-    "n_neutrales": 10,
+    "n_neutrales": 11,
     "narrativa": "El feed muestra 1 senales positivas y 1 negativas (neto -1). Factores dominantes: Tono hawkish: presion; Demanda de chips: soporte tech.",
     "narrativa_fuente": "plantilla",
     "veredicto": "NEUTRAL - sin sesgo dominante"
