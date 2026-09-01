@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-09-01T13:41:12.707180+00:00",
+  "updated_at_utc": "2026-09-01T15:26:58.433659+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "fed_tasas": {
@@ -28,32 +28,416 @@
     }
   },
   "noticias_por_categoria": {
-    "fed_tasas": [],
-    "mercado": [],
-    "tech_nasdaq": [],
-    "economia": [],
-    "earnings": [],
-    "sentimiento": []
+    "fed_tasas": [
+      {
+        "title": "Gold Holds Near $4,450 as Fed Rate-Hike Expectations Keep Buyers Cautious",
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNb0lNcVlEUUV0WW1RU25WOXlkcHJLcG5vMVpNcVV1WlUwZ21RVFhpVjlkWXZCR2dRS2I3M3ZuWmh5OHJTeFNSUGtYOXZaYjlELTBWbGxnaGlIZGhyZGpVMHNETFNUWGhYRzkya0V6QkpneXlhNGRXdEpFd3pPNFlraUZ6b0FlaTJDUGwtcGdSNWh2dw?oc=5",
+        "source": "CryptoRank",
+        "pubdate": "Tue, 01 Sep 2026 01:19:39 GMT",
+        "pubdate_iso": "2026-09-01T01:19:39+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Gold Slips as Fed Rate-Hike Bets and Oil Rally Lift Treasury Yields",
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQaVZ1cjNxdTRfamEybWRLMTNsc1gxcVE3Ql82RUQ4UGl3UXBCa1VfZ09SWndxWUVJZXpGd1FXS3JSanYwQ2QzT25QNmNXLUFVLTh1VkNIc0M5cHdScG1FUkRYdnYtZkRuQjhXR0N4RWdTdl9fVEY1aGRZbFQtbEktanFLOUE2dFpJaFE1Z19sUDNEejl4dUE?oc=5",
+        "source": "CryptoRank",
+        "pubdate": "Mon, 31 Aug 2026 22:47:42 GMT",
+        "pubdate_iso": "2026-08-31T22:47:42+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Stocks Pressured as Soaring Crude Prices Boost Bond Yields",
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRzZiU1BPcmR4VTk1NU1KR3pGWmJWcVloRFljZ3p4ZklRQWNfazdnOF9uRndPVWJaeGFXTS1pSzBDd0JPb1dpaWMybFNEbDV3WGdqaURFT3gxNWRnVTI5SW5XaVRlV215X2xKMHR0Q3lQX0o1OGw2U2FUeXRlRHpkQzhwd1hTVHdORTI4blVQelNvd3hjaElxNmd6Q29tZnZXOVJzMURXZU5QWlBmN0k3QTNpdHBwdWs?oc=5",
+        "source": "es.tradingview.com",
+        "pubdate": "Mon, 31 Aug 2026 14:01:09 GMT",
+        "pubdate_iso": "2026-08-31T14:01:09+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Gold Price Steadies Near $4,400 as Fed Rate Hike Bets Intensify: XAU/USD Outlook",
+        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZldBZWNaVGR5ekNBeXZGa29HMmZoY2h0cDNudzhta0k2YmZNTTVUcGNJREdwMy1qUDFOdVdGb2JKOVE4U21XNU1yeFU0MzZRMHpwSnpWU1M5bktwUElBVERiRERFR00yOVdkTlE2Xy01dFhHbm54T3VCOVBTc29UMktGRjNIVXl4ZzVyak5GSVhqcGc?oc=5",
+        "source": "CryptoRank",
+        "pubdate": "Mon, 31 Aug 2026 13:40:40 GMT",
+        "pubdate_iso": "2026-08-31T13:40:40+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Fed hawkish: rate hike presiona equities"
+        }
+      },
+      {
+        "title": "Canadian Dollar remains on the front foot vs soft USD; lacks bullish conviction",
+        "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNcUZnM216LUtwOTBpbnBYLVU0UlJXVzF4d01ra1RMQjF3cGp4VGxXYkdaR2puaUtfS2Q4TW85TzA5OTZ0empWazIzeHVCT0RfblNFLTNsWXNWWURUXzBmWTVTU0RIZUtoMHI3MG1zY1BXMmJLV0d3OTNnRURScEVpd0F5bG03WW1aQm1MRGpSWGdJYy1PYUxBWDZmUHhRTzVTVHpWRE5faENkSWhqdVZHTmdBVllJaVU2VUVQYzNycHFqOHRjMFkyUVY4OEVfVnNjWUhna1pSTXlaT0Et?oc=5",
+        "source": "tmgm.com",
+        "pubdate": "Mon, 31 Aug 2026 09:01:50 GMT",
+        "pubdate_iso": "2026-08-31T09:01:50+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "mercado": [
+      {
+        "title": "Stock Market Today: S&P 500 and Dow Jones Slip as Oil, Rates and September Risk Pressure Wall Street",
+        "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQZHFITEpBN29rbGZ0YVlVM19KRk9EdUFZbVljWGc3WU9tOWkwVDZjdTN6WkhianFqc0hnMHdjSVMxaWUzemZ6N2ZyYUYtSUZpc0xuRVZPQk1jZ2J3Z3lmX3I5ejVKblQwZWhVbENaUXlHMDVvcHVON3pLVEVEdGhJdWFySzNrR3o0ZlNPY3R1cDlLQmRMVXlzUWp4Q1d3aWZJQVNYZFFyVWZZUG5Kbm9iZjNPY3RWNDlYXzk5UDc0aTBmUGVWdzhVUm91MXphOGktZTZ1Rw?oc=5",
+        "source": "CryptoRank",
+        "pubdate": "Tue, 01 Sep 2026 03:26:40 GMT",
+        "pubdate_iso": "2026-09-01T03:26:40+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Wall Street cae al cierre de agosto tras tensiones con Irán y apuestas sobre tasas de la Fed",
+        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQclVFWEJhLTVTckZDbjRCN2RuYmNYODBTOUZHb3VoSUk4OF82Q2psYk9pYkxmcHhPTmw3aXVZWmpXSmlJdlJ1NERtSlpzYTJBWGVqT1NXVnlFQTFhcWRBdl8zY1RZLXFQRDg4R1JpSk9oeFNyS2ZPckFyUER5WVFwWmhaTnAzb3ZHWUtEbWcyaVVOZkhRcFhSc01tZkp0QjZ3TF9wcFF6RGhpdkVkemdLQy1KZWNxQ0h5WmhjX3NqWFlWU3ljMlh2dDZTMNIB3wFBVV95cUxQQ2ZoRGk0THNtVWVhM2t1NWszTGFHTVZ2dnRlM2k1YXR4ZmZabmRJbDVrYmRKRTZoOXBheUJmcE42NkZQTng5S0E5WWwzcE1TempSZkt1ODJDekpvdEt0ZmpsWEstXy1vSVdiWFpEbzRKeWtVUUl5ZkU5NWdUcWlNZ0ltOG9BTjFMaHI0MXl0UEowTGNrdUNKcF9tSUNWTWhjLVNQbGJPYVVsak5KXzN6bGxfcVprMWNXRVdmamJfRVk1RWVNUFVRVUg2cmVZc3JNZHJpdWdNQXBDS19VM2dB?oc=5",
+        "source": "Bloomberg Línea",
+        "pubdate": "Mon, 31 Aug 2026 20:04:32 GMT",
+        "pubdate_iso": "2026-08-31T20:04:32+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Wall Street a la baja"
+        }
+      },
+      {
+        "title": "¡Cuidado! Tras Rebotar Un 10% El S&P 500 Se Enfrenta A Importantes Niveles De Resistencia Today Show (OGl8cltIjs)",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9sTl9vUDcwT3A1SkFsQ0FYcG1ibkMzOXB4YkpMVlFQcEFGR2w4Z3RxZmdsendjcVN2MF81eWdvX1dGNlhoMElFOEZVTm1YNHVvVTRkc1NOYUphd3c?oc=5",
+        "source": "Mshale",
+        "pubdate": "Mon, 31 Aug 2026 17:27:17 GMT",
+        "pubdate_iso": "2026-08-31T17:27:17+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Stocks Pressured as Soaring Crude Prices Boost Bond Yields",
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRzZiU1BPcmR4VTk1NU1KR3pGWmJWcVloRFljZ3p4ZklRQWNfazdnOF9uRndPVWJaeGFXTS1pSzBDd0JPb1dpaWMybFNEbDV3WGdqaURFT3gxNWRnVTI5SW5XaVRlV215X2xKMHR0Q3lQX0o1OGw2U2FUeXRlRHpkQzhwd1hTVHdORTI4blVQelNvd3hjaElxNmd6Q29tZnZXOVJzMURXZU5QWlBmN0k3QTNpdHBwdWs?oc=5",
+        "source": "es.tradingview.com",
+        "pubdate": "Mon, 31 Aug 2026 14:01:09 GMT",
+        "pubdate_iso": "2026-08-31T14:01:09+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Stock Market Today: S&P 500, Dow Jones Climb as Warsh Keeps Fed Rate-Hike Risk Alive",
+        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQY1NiSTFmdnVlNWFIWmpLYUppU1p2TmJwNG5tN3FnN3B6alNMTk5hc2J1S19abzJEYWlqUnlKaE5QTnJSeE1fWkhCVGlZLTR1REZCVVJydkk0aVJfeDYwbWh0TGtSTVZQZ004VktnUkRXR01RVU84MDdXMWJCSUFQOVlRdVpURXZKVmJRQU82QllkbjE0LWNuRkc4Mi1LY2dKdDItM2hEZmdqTC03S1JYdElWU3ZBUHdRdEJ3WFhIaw?oc=5",
+        "source": "CryptoRank",
+        "pubdate": "Sun, 30 Aug 2026 00:11:12 GMT",
+        "pubdate_iso": "2026-08-30T00:11:12+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "tech_nasdaq": [
+      {
+        "title": "C3.ai (AI) Reports Q2: Everything You Need To Know Ahead Of Earnings",
+        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOUFFLUzlUQ3M0M1RWd3ZmR1NhM3ZueDlXT1I0dEtzYmcxWVRtSFJjREZfcmpmaFlTS2Y0ejk4Q2pSMXp6WVJhOFp4YzJ6TldmdTdCcVdjYU1GTVdQNFhnN1hVeXZkVGlidUNJbG4zZzRJa3J6YTc1WnRMMUhYbjJ3THJaRk1XX1NqZGpWYmVUUWpRNTFyRV9VdVZhcUNldmhmZnBESUdqdE42VVJFM1ZFQ05Kd3NsbjVJdDVqX1RqMUYxcW8?oc=5",
+        "source": "es.tradingview.com",
+        "pubdate": "Tue, 01 Sep 2026 03:03:00 GMT",
+        "pubdate_iso": "2026-09-01T03:03:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Tom Lee Says Markets Could 'Rally Very Strongly' in September, Touts Fed Surprise",
+        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOM2o5eTVtUlA0RzViUXFGQ0x4UnRsSTBxU3hlQzFwR3hLdG5sMXc4MmNOa2pqejViQ01EUW1hQVVHbk5KWXp1VUlyaHVTV0dGU0NGMEVzVEk2dnQxNWtma2U2M3ZtRjl0UGx6UVdsZk5MUFRnQzI0OE1MVlJJMkhwQlpzdmJnSHo5TjMySlpIX1k0bHRNZm1YUDlTUDl5dGZzSzdrbUJrNlhOcjkyODUwMlFpYjFtN3ZXbnduOHR5dDFtNnVvT215YkVmWWN0U0ViNlE?oc=5",
+        "source": "es.tradingview.com",
+        "pubdate": "Mon, 31 Aug 2026 17:19:33 GMT",
+        "pubdate_iso": "2026-08-31T17:19:33+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Credo Technology stock: Insider selling meets options market jitters before earnings",
+        "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPM0ZGaVdJUFVLaVZjQnlhcHRiVnlvOGEtUDBtNVlyOTJnTEZQLXdFSXEydXhCb0ZFMTFUbVJLUXBEaHlfdXdwc0ZyU2F1R2ZiR3N5azVQblRQV1Q2WGc2T2hKY0dEN0w5RnpmbGFlejRYZkpVUmt4OVlmNnVMOGxGY2N2N1ZFUmhBWF9xcWZKLVlKOER0SHpNRUoxTzdyeWxHeGlnQXZzbnpwTDU1dUxMZEM2a2l5VWM5U21iMUdjcnk0QzQxVTRFMXI2YTdCQXNNcnVfbTNn?oc=5",
+        "source": "es.tradingview.com",
+        "pubdate": "Mon, 31 Aug 2026 15:00:00 GMT",
+        "pubdate_iso": "2026-08-31T15:00:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Galaxis Technology Announces 2026 Interim Results, Revenue Surges 45.1% YoY and Overseas Business Expansion Accelerates",
+        "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxOQ2x0QjFhNmJVUldGZlo0dFNfQkdOSlBhS0FZd1RvNElKbndaUVV0MXBTb1hpdVFzU1RwWkNrbWloLWsxTEtTMDdweVJ1alE5U0NYM21FVF9LWkpxc05zXzJ4dmZhOGJMdWxRaXViM0NpVVRteTNkY3pST2ZjaW1xaXQwOS1VajdjYjY0NC1QMEFHcUFxS1JCS2ZXX1lNU05BeS12VFJvZUFNYW1nYWZfeEtKZGlxRnJERXJwTEh5aHF2Q0VUY1JJMUNPMW5pWW9xTzRkcmlCQy1Qb05QUy1mQWZVR2E0dlZuUGI2eTlwS010QzloeU9UelhjeXlyclZwTmotVGNRWmxsemJIaWJTOUFHQ2J2M1NMVkR5Uw?oc=5",
+        "source": "es.tradingview.com",
+        "pubdate": "Mon, 31 Aug 2026 14:55:41 GMT",
+        "pubdate_iso": "2026-08-31T14:55:41+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "This week could set the trajectory for the AI trade: here's why",
+        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPNF9mRWhRUXFQRWVBUy1RU3VKX1FjQ2JhOWt5ejQydHVKR3l5dzRLTVc0RV9PSXlLNExGSVc2dDNZM2VmS2FBUnVYMlpIWEc3dXdvVGpVNkUxdWhVSmZIaE1QSzlhVUhkRnVoTVNscU5YVWNUQkpXT2lBRkhPb0dJOUF2bUdiMTU1NHM4YzRLczRaa2s4MERKTFVNcDhiUVZhMG5IV2U4TnAwZDZiM3ptc1Q2bHI2V1BUbnc?oc=5",
+        "source": "es.tradingview.com",
+        "pubdate": "Mon, 31 Aug 2026 14:08:29 GMT",
+        "pubdate_iso": "2026-08-31T14:08:29+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "economia": [
+      {
+        "title": "U.S. job openings rise slightly to 7.3 million as labor market remains sturdy despite higher costs",
+        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOamVmeDZPbC1xQXpER3IxdmhOcVVkT09vQ3BySy1lM25CdzZaYTlhZkxNQm1vOG5kT3hHTE0xVzBvTTRsRl84LUpGLUU4Y1dwa1dpNGwtY01PbVU5dUtERXd0eFZRdDRyUjY2LUZtV2NjR19DOHY3UE9hdldiZXJ3NGxVZ2lOb1NRM2pwV3hmVE04ZnZfZHdFaDJkcjNGdUgzaTZMdjdjTmVjTUZxR2c4Snp3LWZmT09DTEw5X0kzTVUweEtFYlZuTURiaEl5cksyUjhkWTFjRQ?oc=5",
+        "source": "La Nación",
+        "pubdate": "Tue, 01 Sep 2026 14:13:00 GMT",
+        "pubdate_iso": "2026-09-01T14:13:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "EUR/USD: Euro Holds Near $1.16 as US Jobs Report Sets Up the Week’s Main Test",
+        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNS0U3bzFpYWFPd3JjU05LbjZXZ3VfRWRhYXppXzN0dEphbk5QeGVfNU0xcnVBY1M5TFhjanV3RkR2eTlXd2JQaWhXNWNvZ2xCb2FqTVZSLWRfdEtWc1ZwcUdOWHBxWmp5UDFNaWpsUFFHcklfQ1ZFdlVMTWRDSlhTQW5XaXRNaTA3VkpGWEN2eVNqVk1BLVdlMWdVemRWbkJvM1RDc2hLamdLckhXR25YWHFlSURqMDJJcWxPdG9XQkJHVFowUjhNNzJnYkh2TDdnZkE?oc=5",
+        "source": "es.tradingview.com",
+        "pubdate": "Mon, 31 Aug 2026 05:13:00 GMT",
+        "pubdate_iso": "2026-08-31T05:13:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "US jobs report seen backing Warsh view",
+        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQX1lhOV9VTXpqamZTbFJJOVVweWdGTjh1SVhmYjZTUlhTOWhXQ0pHSDhJdGs3SjFUT2IwaC1ORU9UMzJjaExSeFdnZW1xREVYeXNUb2dmZ0NGY2VPWUxybVhOdUU2Wkc4T3QxMFlidTF6c053UnNXN1ZPeVV4LXM2OFhPSlNnemtwRFY4WDRUblBpa2NwcWZZN3YxMUtqWU1y?oc=5",
+        "source": "The Star",
+        "pubdate": "Mon, 31 Aug 2026 00:19:08 GMT",
+        "pubdate_iso": "2026-08-31T00:19:08+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "'Big Short' Steve Eisman Warns AI Trade Hinges On OpenAI, Anthropic: 'The Whole Tech Space Sells Off' If Spending Slows",
+        "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPVmdUMVFvaFQ5UHVVWE9MWXlWTG9NYzN3TkNralpzR2pOaDFfekdqMUJzajJSNzl1aFl5ME5uTEVkUUxEb3pMSkJ1TjU0dFN1SlRIMzRBWkhDNlpsOFBPSGRLNFZldUxnU0g1bGRMMjhqUkVBRHhxOEFlejlBc2VrMldIVGc2OVh4MGtDbGx4enQ5TlJHNXhaRlhHUWFKNTd2UXA1ZmFGaUo0RFdlRUp6a1pvOUktcHJzTVBDRm9LRU42b0t1TXVrRzQ2MkhVWVRUZ2FlVTNtaDRZeG92UWttTVE1QjNjODJud0ZIUnJPeXNVcnlfTjB1UnAyTTJ5N2JKNnFR?oc=5",
+        "source": "es.tradingview.com",
+        "pubdate": "Sat, 29 Aug 2026 16:50:31 GMT",
+        "pubdate_iso": "2026-08-29T16:50:31+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "earnings": [
+      {
+        "title": "C3.ai (AI) Reports Q2: Everything You Need To Know Ahead Of Earnings",
+        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOUFFLUzlUQ3M0M1RWd3ZmR1NhM3ZueDlXT1I0dEtzYmcxWVRtSFJjREZfcmpmaFlTS2Y0ejk4Q2pSMXp6WVJhOFp4YzJ6TldmdTdCcVdjYU1GTVdQNFhnN1hVeXZkVGlidUNJbG4zZzRJa3J6YTc1WnRMMUhYbjJ3THJaRk1XX1NqZGpWYmVUUWpRNTFyRV9VdVZhcUNldmhmZnBESUdqdE42VVJFM1ZFQ05Kd3NsbjVJdDVqX1RqMUYxcW8?oc=5",
+        "source": "es.tradingview.com",
+        "pubdate": "Tue, 01 Sep 2026 03:03:00 GMT",
+        "pubdate_iso": "2026-09-01T03:03:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "SpaceX stock gains as Bernstein maintains bullish outlook",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcDhRZU92VTI1aWdmWHVEdWR2SUNZRWFuT1hteHgySkhGOUdubDAwZ1M2OHM1NTRNd0VBNXhXcjkyUnpBbzE0WTBuOFhuNHpqNERTUnB2T0NfUUtBRU9LX0h3ZFEwbDVWdjFDVVVGUTJGeGtScEltSFBUZmlhRzRHZWs5RWJ0RGZ2a1VoSUYtLW5sd0IwUzVFTmd3NVV5MWlRQlN3aDhNWktTNm5DUkxJSHpkOA?oc=5",
+        "source": "es.tradingview.com",
+        "pubdate": "Mon, 31 Aug 2026 17:00:47 GMT",
+        "pubdate_iso": "2026-08-31T17:00:47+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Is Palo Alto Networks (PANW) a 'Buy' Ahead of Earnings?",
+        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRFpLMkVzbFNOMUJrekh5WVN2NUE3RE90N0NTdndPYVp2dkR5Vl9xRkRSNHMxbWJDUG05aGhjVGRFdHdQNm0yZWpzLWhsNy1Ua2RFSzVnd0xJTDRQV0I1eVEtUFY2MEloeE50YTV1Ukt1c0pxZElIOE4xVVlLb0tOUDdIN2VuUzc1RkVPcURpVDl2VXBWcFIzeFpjSk5ickhHV09hanFzaks?oc=5",
+        "source": "es.tradingview.com",
+        "pubdate": "Mon, 31 Aug 2026 13:34:00 GMT",
+        "pubdate_iso": "2026-08-31T13:34:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "CrowdStrike’s AI Security Rally Faces Its Next Test At Fal.Con 2026: What Investors Should Watch",
+        "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQWGNpblJmNVh3Q3hiUkpwZlUycFJ6NUx6dk4zUkowNmVCTFRIa1hzWDFicmF2Ny0tb2FJaGtCb0k3Zi0talA0TDZBLUlLX0QxSEpEVkczVjhreVAzV0I3am5IY0N6SWVhQzBUSHpoZTVCZjc4UTYtXzQ3VWlaYXRRRUM2akxzb3ZERlVJVW52LTVDaXoxNmpCQVNnWjA3aXFfbWM3YTM4bHZ4aHg2ZXlQY0xZS2VNbm9NOHlQdGhjakRrcWJTRWxVTG5lMGVpdUdtOG1EdzJ6enpQdklGVHg3NTZSd1BWU1pLaTh3?oc=5",
+        "source": "es.tradingview.com",
+        "pubdate": "Mon, 31 Aug 2026 07:07:42 GMT",
+        "pubdate_iso": "2026-08-31T07:07:42+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "GitLab (GTLB) Reports Earnings Tomorrow: What To Expect",
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVS1SV2JKU2Vqb0lOZEN6SFBfNms1VER6SUJRLU5ZLUw3ZDRpNWNOTkw0YThHcWpRa1J0TkRjall2VDFvREdSUUFSb0MxQmp5cTlRUzMwbF9zTjJ6RlNJcThHRUZvOVlaOGN1cHRkZjFRTEtEWXhrY2toSE54SDVCaFRLc0RjcFVTbVB0OTZoTHRGYXh5MVRscnROdEU3eGR0OFpTTUVTT0tlTUNaeXh5NWZn?oc=5",
+        "source": "es.tradingview.com",
+        "pubdate": "Mon, 31 Aug 2026 03:00:00 GMT",
+        "pubdate_iso": "2026-08-31T03:00:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "sentimiento": [
+      {
+        "title": "Bitcoin Price Forecast: What Top 3 Models Predict for September After $78K Close",
+        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNY2pTNUtPWDRBMGVycDg1RU5fYWhDYmlTLUJuLXlxV0ZVdm9BRDhuZEpDdmhvNm1OczFrWUdURjV6dnVXOWQzRWxxVF9OSWdyQnVSdHAyMTJ2blBGV1lHcHk3c1BaSEdibFFzdnFjeWRZTWdiWGZHTE45NzlhZklwblpoZENYQUtYdlJObk1zOE9mQTVBMWhvLWR4TmtQN3l1aVNkN3M2Z0h1TzZZVDY4NjRJQmhWdzJzaXZPNXZWUlRPLWl3RG4tZU1MeE9FMExOa05J?oc=5",
+        "source": "es.tradingview.com",
+        "pubdate": "Mon, 31 Aug 2026 19:42:52 GMT",
+        "pubdate_iso": "2026-08-31T19:42:52+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Stock Market prediction tomorrow, September 1: What will happen to Sensex, Nifty, Bank Nifty, KOSPI, Nikkei on Tuesday?",
+        "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNOGhtVVFUODVSNUp1c1dzajJ6LTVsOVFKUTZXV1lZWGdqa0JuUmFjTTRDSlZGR2N5V09LYWV4ZWd4T25vU3M2eFhfX0JzNmQ2cklCaGh2SWpIMVJ0TVJYRG5LV3l4aGJXTFoySVZTQkNub0tBcUhJZUdXRVB1MnNiWUpvQ3V0QVNTaDJBU2lVbGZWOVRzZ29HVEFJbDM5dTAwT3pxTFQ4cGZsOUg5VTdPUkR3dWItQmpNYXZVb0VxYjMtU0d1R2R5b3ctdHBuRGFDMmxDZUdVTzVHQXZ3M3RjMzdpMnVhSVo3X2k1ZUI1a2FKYVlhc0J3SDd0eUQ?oc=5",
+        "source": "es.tradingview.com",
+        "pubdate": "Mon, 31 Aug 2026 16:25:15 GMT",
+        "pubdate_iso": "2026-08-31T16:25:15+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Noticias de CNBC TV18 en TradingView, de fecha 2026-08-31 — cnbctv:d2f7dbbf9094b:0",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE44SDhndjV4d3F0NzVMbXNIWlp0LXpZNWpkd0ZCT01BU2tkdVJ1SHl4QldGb3FVTHpUeEpvdnFoYW04aVRXUjVQSWRwNDAzWE1Oc0lfaU9mbWtOaDhxTW5QbnVFOXBxQQ?oc=5",
+        "source": "es.tradingview.com",
+        "pubdate": "Mon, 31 Aug 2026 09:42:40 GMT",
+        "pubdate_iso": "2026-08-31T09:42:40+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ]
   },
   "stats": {
-    "total_noticias": 0,
+    "total_noticias": 27,
     "por_categoria": {
-      "fed_tasas": 0,
-      "mercado": 0,
-      "tech_nasdaq": 0,
-      "economia": 0,
-      "earnings": 0,
-      "sentimiento": 0
+      "fed_tasas": 5,
+      "mercado": 5,
+      "tech_nasdaq": 5,
+      "economia": 4,
+      "earnings": 5,
+      "sentimiento": 3
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "neutral",
-    "score_neto": 0,
+    "sentimiento": "bajista",
+    "score_neto": -4,
     "n_positivas": 0,
-    "n_negativas": 0,
-    "n_neutrales": 0,
-    "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
+    "n_negativas": 2,
+    "n_neutrales": 25,
+    "narrativa": "El feed muestra 0 senales positivas y 2 negativas (neto -4). Factores dominantes: Fed hawkish: rate hike presiona equities; Wall Street a la baja.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "NEUTRAL - sin sesgo dominante"
+    "veredicto": "BAJISTA a corto plazo"
   }
 }
