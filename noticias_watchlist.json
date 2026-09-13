@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-09-13T02:27:26.472028+00:00",
+  "updated_at_utc": "2026-09-13T03:33:02.879748+00:00",
   "ventana_dias": 7,
   "medios": [
     "Diario Financiero",
@@ -79,32 +79,9 @@
         "pubdate": "Fri, 11 Sep 2026 07:04:18 GMT",
         "source": "Diario Financiero",
         "matched_keyword": "Lipigas"
-      },
-      {
-        "title": "EMPRESAS LIPIGAS S.A.: Reparto de utilidades (pago de dividendos)",
-        "link": "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=b07d0f707d210550fe50708f18cee8b4VFdwQmVVNXFRVFJOUkZVeFRtcG5NazVCUFQwPQ==&secuencia=-1&t=1788294601",
-        "pubdate": "26 ago 2026 17:44",
-        "source": "CMF (Hecho Esencial)",
-        "matched_keyword": "empresas lipigas",
-        "es_hecho_esencial": true,
-        "doc_id": "2026080556864",
-        "empresa_cmf": "EMPRESAS LIPIGAS S.A.",
-        "materia_cmf": "Reparto de utilidades (pago de dividendos)"
       }
     ],
-    "NTGCLGAS": [
-      {
-        "title": "EMPRESAS GASCO S.A.: Otros",
-        "link": "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=f101ece0ed8bf6e3c469b1bdb4971536VFdwQmVVNXFRVFJOUkZVeFRXcEpNazUzUFQwPQ==&secuencia=-1&t=1788294601",
-        "pubdate": "25 ago 2026 16:27",
-        "source": "CMF (Hecho Esencial)",
-        "matched_keyword": "empresas gasco",
-        "es_hecho_esencial": true,
-        "doc_id": "2026080552267",
-        "empresa_cmf": "EMPRESAS GASCO S.A.",
-        "materia_cmf": "Otros"
-      }
-    ],
+    "NTGCLGAS": [],
     "SOQUICOM": [
       {
         "title": "Economía y Negocios Pág.9",
@@ -140,17 +117,6 @@
         "pubdate": "Mon, 07 Sep 2026 16:30:00 GMT",
         "source": "La Tercera",
         "matched_keyword": "SQM"
-      },
-      {
-        "title": "SOCIEDAD QUIMICA Y MINERA DE CHILE S.A.: Reparto de utilidades (pago de dividendos)",
-        "link": "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=fb437005e4cce8caeffe00ac5a13dd45VFdwQmVVNXFRVFJOUkZVeFRXcFpNRTFCUFQwPQ==&secuencia=-1&t=1788294601",
-        "pubdate": "25 ago 2026 17:14",
-        "source": "CMF (Hecho Esencial)",
-        "matched_keyword": "sociedad quimica y minera",
-        "es_hecho_esencial": true,
-        "doc_id": "2026080552640",
-        "empresa_cmf": "SOCIEDAD QUIMICA Y MINERA DE CHILE S.A.",
-        "materia_cmf": "Reparto de utilidades (pago de dividendos)"
       }
     ],
     "QUINENCO": [
@@ -169,22 +135,14 @@
         "matched_keyword": "Quinenco"
       }
     ],
-    "CENCOMALLS": [
-      {
-        "title": "Centros comerciales",
-        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBaUmhObGg4TVd3dGI5ZEpzc01ITWhxVi1mQ2Z4Q1Q4eDk3SFlSR2tFa2tJbTJCcVRYX3hrYmM4eW5jYTVyeWFWUVJMOHhJaWlJTENNWGQ1Rk01NjhoY2hTcXBNb1U5QQ?oc=5",
-        "pubdate": "Wed, 09 Sep 2026 07:00:00 GMT",
-        "source": "La Tercera",
-        "matched_keyword": "Cencosud Shopping"
-      }
-    ]
+    "CENCOMALLS": []
   },
   "stats": {
     "total_queries": 51,
     "queries_exitosas": 51,
     "queries_falladas": 0,
-    "total_noticias_brutas": 2102,
-    "total_noticias_filtradas": 20,
-    "total_hechos_esenciales_brutos": 3
+    "total_noticias_brutas": 2104,
+    "total_noticias_filtradas": 16,
+    "total_hechos_esenciales_brutos": 71
   }
 }
