@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-09-13T03:33:28.136858+00:00",
+  "updated_at_utc": "2026-09-13T04:03:27.454378+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -110,20 +110,6 @@
     ],
     "ia_semis": [
       {
-        "title": "AMD Expands Into Rack-Scale AI as Agentic Workloads Boost CPU Demand",
-        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOMm1EMkJZNWd1bDBUM3BfcWhkbzlDek1PVzNEZS1GbjlzRkM0VmFHWTVTcjVkaGs0MEFRX2xybDY4VWN2TlFUX2IycS1wbGswNktteW9tRnJyTGtOZnZnVW0tRlN2ckRwUU1XQVY2N25hc1MzX044X3gzSnowOXkxSUtWYndhcVRDMEhtTmc0SUs3eEUtU0NRakREbk0xeEtQNTNva2VBWlhSNlpIS3dZQUZRd3ZERzBWdk13eHVacHVFZzc4NVNj?oc=5",
-        "source": "TradingView",
-        "pubdate": "Fri, 11 Sep 2026 17:02:03 GMT",
-        "pubdate_iso": "2026-09-11T17:02:03+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
         "title": "Lam Research Sees Sold-Out Chip Demand, Targets Capacity and AI Service Gains",
         "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQcC1hT2xCUzJRVDk3ZV9sVUVfUl9ZZzlCWlMxZnJPalR5VW9FVDF1NDV2OVJRZjEwdEoxQVliYi0tNEc0MUFXSVk4U3ZlUG42c0N3OEoyaGlyTl8ybEQ5RldOR0pZZVFaZzdZVGV4UGcwNEtWOENYQXdJbTNOdnE5THZsWlFQTG9JYmowMXYtUDdzaU5SVE1fQUdtdGR1Tm9jaEJZZ2ZUNVJtdWtOYWhRNDNabHhYVkFQQkJ2UnZwVUpTSUNOdkRmWlZqLWZxYTI1a1E?oc=5",
         "source": "TradingView",
@@ -177,6 +163,20 @@
           "intensidad_label": "neutral",
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "TSMC Revenue Jumps 53% on Red-Hot AI Chip Demand",
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaU5QM1AwRnRVQU5VcnJWMmZtWHBJWGVCNElDQjNqVUNBWVdZWC1RZGJrY0R6QjZ3MFpGRjBfeVE5VTRFUmZpakJxOGJEVUY4YzBFYUtubXFNZFdlODJhd0d0MWlVQmRORlhCZ2VYTTFhTG1FRzFqb1NIQnJ4M0ZGSldoUVZTd0RfQU82azNHVHRESHdFMzh4Q3RIUHQwSmFjYW9CcHp3Z1B6QQ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Thu, 10 Sep 2026 12:06:56 GMT",
+        "pubdate_iso": "2026-09-10T12:06:56+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🟢",
+          "razonamiento": "Demanda de chips: soporte tech"
         }
       }
     ],
@@ -250,11 +250,11 @@
   },
   "resumen_ejecutivo": {
     "sentimiento": "alcista",
-    "score_neto": 4,
-    "n_positivas": 2,
+    "score_neto": 6,
+    "n_positivas": 3,
     "n_negativas": 0,
-    "n_neutrales": 13,
-    "narrativa": "El feed muestra 2 senales positivas y 0 negativas (neto +4). Factores dominantes: Demanda de chips: soporte tech; Demanda de chips: soporte tech.",
+    "n_neutrales": 12,
+    "narrativa": "El feed muestra 3 senales positivas y 0 negativas (neto +6). Factores dominantes: Demanda de chips: soporte tech; Demanda de chips: soporte tech.",
     "narrativa_fuente": "plantilla",
     "veredicto": "ALCISTA a corto plazo"
   }
