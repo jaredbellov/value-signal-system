@@ -1,46 +1,46 @@
 {
-  "updated_at_utc": "2026-09-01T22:15:16.460704+00:00",
-  "precio_btc": 77249.44,
-  "precio_ibit": 43.76,
-  "score_final": 60.1,
+  "updated_at_utc": "2026-09-13T02:28:54.500172+00:00",
+  "precio_btc": 77241.52,
+  "precio_ibit": 43.77,
+  "score_final": 62.0,
   "zona": "ATRACTIVO",
   "multiplicador": 1.5,
   "peso_aplicado_pct": 100,
   "sub_scores": {
     "drawdown": 63.5,
-    "fear_greed": 31,
+    "fear_greed": 39,
     "pi_cycle": 100,
     "halving_cycle": 65,
-    "momentum": 35.6,
-    "mvrv": 77.2
+    "momentum": 38.8,
+    "mvrv": 76.5
   },
   "sub_detalles": {
     "drawdown": {
       "drawdown_pct": -38.08,
       "ath": 124752.53,
-      "precio_actual": 77249.44
+      "precio_actual": 77241.52
     },
     "fear_greed": {
-      "fg_value": 69,
+      "fg_value": 61,
       "classification": "Greed"
     },
     "pi_cycle": {
-      "ma_111": 67355.52,
-      "ma_350_x2": 162199.52,
-      "ratio": 0.415
+      "ma_111": 67462.25,
+      "ma_350_x2": 160019.59,
+      "ratio": 0.422
     },
     "halving_cycle": {
-      "meses_desde_halving": 28.5,
+      "meses_desde_halving": 28.8,
       "last_halving": "2024-04-19",
       "next_halving_aprox": "2028-04-01",
       "fase": "Bear market medio"
     },
     "momentum": {
-      "ret_12_1_pct": -27.63
+      "ret_12_1_pct": -14.94
     },
     "mvrv": {
-      "z_score": 0.851,
-      "fecha": "2026-08-31"
+      "z_score": 0.897,
+      "fecha": "2026-09-06"
     }
   },
   "pesos": {
@@ -52,54 +52,6 @@
     "mvrv": 15
   },
   "historico_btc": [
-    {
-      "fecha": "2021-09-01",
-      "precio": 48847.03
-    },
-    {
-      "fecha": "2021-09-02",
-      "precio": 49327.72
-    },
-    {
-      "fecha": "2021-09-03",
-      "precio": 50025.38
-    },
-    {
-      "fecha": "2021-09-04",
-      "precio": 49944.62
-    },
-    {
-      "fecha": "2021-09-05",
-      "precio": 51753.41
-    },
-    {
-      "fecha": "2021-09-06",
-      "precio": 52633.54
-    },
-    {
-      "fecha": "2021-09-07",
-      "precio": 46811.13
-    },
-    {
-      "fecha": "2021-09-08",
-      "precio": 46091.39
-    },
-    {
-      "fecha": "2021-09-09",
-      "precio": 46391.42
-    },
-    {
-      "fecha": "2021-09-10",
-      "precio": 44883.91
-    },
-    {
-      "fecha": "2021-09-11",
-      "precio": 45201.46
-    },
-    {
-      "fecha": "2021-09-12",
-      "precio": 46063.27
-    },
     {
       "fecha": "2021-09-13",
       "precio": 44963.07
@@ -7358,7 +7310,51 @@
     },
     {
       "fecha": "2026-09-01",
-      "precio": 77249.44
+      "precio": 77403.62
+    },
+    {
+      "fecha": "2026-09-02",
+      "precio": 77300.48
+    },
+    {
+      "fecha": "2026-09-03",
+      "precio": 81271.74
+    },
+    {
+      "fecha": "2026-09-04",
+      "precio": 79671.97
+    },
+    {
+      "fecha": "2026-09-05",
+      "precio": 79823.87
+    },
+    {
+      "fecha": "2026-09-06",
+      "precio": 80350.05
+    },
+    {
+      "fecha": "2026-09-07",
+      "precio": 79115.85
+    },
+    {
+      "fecha": "2026-09-08",
+      "precio": 78438.58
+    },
+    {
+      "fecha": "2026-09-09",
+      "precio": 78259.52
+    },
+    {
+      "fecha": "2026-09-10",
+      "precio": 76568.12
+    },
+    {
+      "fecha": "2026-09-11",
+      "precio": 77173.8
+    },
+    {
+      "fecha": "2026-09-13",
+      "precio": 77241.52
     }
   ]
 }

@@ -1,42 +1,45 @@
 {
-  "updated_at_utc": "2026-09-01T21:57:26.141077+00:00",
-  "precio_gld": 396.75,
-  "score_final": 64.6,
+  "updated_at_utc": "2026-09-13T02:28:55.556286+00:00",
+  "precio_gld": 398.77,
+  "score_final": 60.2,
   "zona": "ATRACTIVO",
   "multiplicador": 1.5,
-  "peso_aplicado_pct": 85,
+  "peso_aplicado_pct": 100,
   "sub_scores": {
-    "drawdown": 100.0,
-    "momentum": 87.3,
-    "ratio_sp500": null,
-    "ratio_silver": 73.7,
-    "dxy": 52.7,
-    "real_yield": 39.0,
-    "vix": 6.7
+    "drawdown": 97.9,
+    "momentum": 97.9,
+    "ratio_sp500": 46.1,
+    "ratio_silver": 71.1,
+    "dxy": 40.0,
+    "real_yield": 36.2,
+    "vix": 4.2
   },
   "sub_detalles": {
     "drawdown": {
-      "drawdown_pct": -19.99,
+      "drawdown_pct": -19.59,
       "max_52w": 495.9,
-      "precio_actual": 396.75
+      "precio_actual": 398.77
     },
     "momentum": {
-      "ret_12_1_pct": 14.92
+      "ret_12_1_pct": 19.18
     },
-    "ratio_sp500": null,
+    "ratio_sp500": {
+      "ratio_actual": 0.0521,
+      "percentil_2y": 53.9
+    },
     "ratio_silver": {
-      "ratio_actual": 6.14,
-      "percentil_2y": 26.3
+      "ratio_actual": 6.18,
+      "percentil_2y": 28.9
     },
     "dxy": {
-      "dxy_actual": 99.68,
-      "percentil_2y": 52.7
+      "dxy_actual": 99.12,
+      "percentil_2y": 40.0
     },
     "real_yield": {
-      "real_yield_pct": 2.44
+      "real_yield_pct": 2.55
     },
     "vix": {
-      "vix_actual": 16.34
+      "vix_actual": 15.84
     }
   },
   "pesos": {
@@ -49,30 +52,6 @@
     "vix": 10
   },
   "historico_gld": [
-    {
-      "fecha": "2021-09-02",
-      "precio": 169.25
-    },
-    {
-      "fecha": "2021-09-03",
-      "precio": 171.06
-    },
-    {
-      "fecha": "2021-09-07",
-      "precio": 167.71
-    },
-    {
-      "fecha": "2021-09-08",
-      "precio": 167.29
-    },
-    {
-      "fecha": "2021-09-09",
-      "precio": 168.03
-    },
-    {
-      "fecha": "2021-09-10",
-      "precio": 167.18
-    },
     {
       "fecha": "2021-09-13",
       "precio": 167.74
@@ -5064,6 +5043,34 @@
     {
       "fecha": "2026-09-01",
       "precio": 396.75
+    },
+    {
+      "fecha": "2026-09-02",
+      "precio": 402.78
+    },
+    {
+      "fecha": "2026-09-03",
+      "precio": 410.22
+    },
+    {
+      "fecha": "2026-09-04",
+      "precio": 406.77
+    },
+    {
+      "fecha": "2026-09-08",
+      "precio": 399.72
+    },
+    {
+      "fecha": "2026-09-09",
+      "precio": 403.35
+    },
+    {
+      "fecha": "2026-09-10",
+      "precio": 396.36
+    },
+    {
+      "fecha": "2026-09-11",
+      "precio": 398.77
     }
   ]
 }
