@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-09-14T16:03:27.820230+00:00",
+  "updated_at_utc": "2026-09-14T16:33:28.457251+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -36,20 +36,6 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
-      },
-      {
-        "title": "Lam Research Sees Sold-Out Chip Demand, Targets Capacity and AI Service Gains",
-        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQcC1hT2xCUzJRVDk3ZV9sVUVfUl9ZZzlCWlMxZnJPalR5VW9FVDF1NDV2OVJRZjEwdEoxQVliYi0tNEc0MUFXSVk4U3ZlUG42c0N3OEoyaGlyTl8ybEQ5RldOR0pZZVFaZzdZVGV4UGcwNEtWOENYQXdJbTNOdnE5THZsWlFQTG9JYmowMXYtUDdzaU5SVE1fQUdtdGR1Tm9jaEJZZ2ZUNVJtdWtOYWhRNDNabHhYVkFQQkJ2UnZwVUpTSUNOdkRmWlZqLWZxYTI1a1E?oc=5",
-        "source": "TradingView",
-        "pubdate": "Fri, 11 Sep 2026 16:03:33 GMT",
-        "pubdate_iso": "2026-09-11T16:03:33+00:00",
-        "impacto": {
-          "direccion": "positivo",
-          "intensidad": 2,
-          "intensidad_label": "moderado",
-          "emoji": "🟢",
-          "razonamiento": "Demanda de chips: soporte tech"
-        }
       }
     ],
     "macro_tech": [
@@ -70,22 +56,22 @@
     ]
   },
   "stats": {
-    "total_noticias": 3,
+    "total_noticias": 2,
     "por_categoria": {
       "tesla": 0,
       "nvidia": 0,
-      "ia_semis": 2,
+      "ia_semis": 1,
       "macro_tech": 1
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "neutral",
-    "score_neto": 0,
-    "n_positivas": 1,
+    "sentimiento": "levemente bajista",
+    "score_neto": -2,
+    "n_positivas": 0,
     "n_negativas": 1,
     "n_neutrales": 1,
-    "narrativa": "El feed muestra 1 senales positivas y 1 negativas (neto +0). Factores dominantes: Demanda de chips: soporte tech; Crash: muy negativo.",
+    "narrativa": "El feed muestra 0 senales positivas y 1 negativas (neto -2). Factores dominantes: Crash: muy negativo.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "NEUTRAL - sin sesgo dominante"
+    "veredicto": "Levemente BAJISTA"
   }
 }
