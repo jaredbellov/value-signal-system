@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-09-15T01:05:48.602493+00:00",
+  "updated_at_utc": "2026-09-15T01:33:26.754930+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -22,26 +22,70 @@
   "noticias_por_categoria": {
     "tesla": [],
     "nvidia": [],
-    "ia_semis": [],
-    "macro_tech": []
+    "ia_semis": [
+      {
+        "title": "USAR, MP, UUUU, CRML Stocks Drop Overnight: Why China's Threat To Scrap Trump-Xi Summit Matters",
+        "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxObkF1ZDJmN1VjZFRUaGEwbnEydnBQN2hVSk5jOFVjb184bWNHbm9QVDRmRGxxVFhJeE9pMXI0Q0YzbEJjNDI4ZGRUa05qN3B4ZEJ3VFA1czVrMUlYNjJTTjZVanVDUERzQmJSRHJ5dWZhY3pIS19UMkk4ZWFEaWFuemdBMGR2dzJJTEp2UHBBY3Z0ZWdUWVRadV84TERFdlZhN1NhUW0tZGRZdlpqUlpyb0RfYXFoTmV5Qmh2TkFtRGo0Y0Jwc01UOFpnRk1PR2F1SEJ0QW9CWldaUk9IQ3llVjR2ZkVvdw?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 14 Sep 2026 07:18:42 GMT",
+        "pubdate_iso": "2026-09-14T07:18:42+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Acciones caen"
+        }
+      }
+    ],
+    "macro_tech": [
+      {
+        "title": "Oil gains on Mideast supply fears, AI warnings rattle tech firms",
+        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5XMl9mWHB0SnIyd21QdGNGVFZXQnpfTWZyRFN3SlF1WkJ6Qlh5WWttRVItcVkxWVNrcHhSbmdVTm9iOERpbXZjNm9zYw?oc=5",
+        "source": "afp.com",
+        "pubdate": "Mon, 14 Sep 2026 14:28:40 GMT",
+        "pubdate_iso": "2026-09-14T14:28:40+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Morgan Stanley Gives Huge Stock Market Crash Warning in 30 Days",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPMWlrS0NYQnV0WmtfaXFiVjM2M21wSUd6WHoxODktSTloQktWZmdZWVg5NzhpZlYwcThkeHlzSWJkUk9UTDcxaG1aZjNWNlZVQk9uRXAtLWtJY3BMLXI4elNuTjY2Q1VSMjdlRGlPOUFjWGxZMmZYVnFnZl80aVo5YVZkVmNOM3ZYdWc?oc=5",
+        "source": "CryptoRank",
+        "pubdate": "Sun, 13 Sep 2026 20:49:51 GMT",
+        "pubdate_iso": "2026-09-13T20:49:51+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Crash: muy negativo"
+        }
+      }
+    ]
   },
   "stats": {
-    "total_noticias": 0,
+    "total_noticias": 3,
     "por_categoria": {
       "tesla": 0,
       "nvidia": 0,
-      "ia_semis": 0,
-      "macro_tech": 0
+      "ia_semis": 1,
+      "macro_tech": 2
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "neutral",
-    "score_neto": 0,
+    "sentimiento": "bajista",
+    "score_neto": -4,
     "n_positivas": 0,
-    "n_negativas": 0,
-    "n_neutrales": 0,
-    "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
+    "n_negativas": 2,
+    "n_neutrales": 1,
+    "narrativa": "El feed muestra 0 senales positivas y 2 negativas (neto -4). Factores dominantes: Acciones caen; Crash: muy negativo.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "NEUTRAL - sin sesgo dominante"
+    "veredicto": "BAJISTA a corto plazo"
   }
 }
