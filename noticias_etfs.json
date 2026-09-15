@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-09-15T15:26:57.484116+00:00",
+  "updated_at_utc": "2026-09-15T17:26:57.409211+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "fed_tasas": {
@@ -101,20 +101,6 @@
       }
     ],
     "mercado": [
-      {
-        "title": "Sector & Industry Performance",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5xWEtZUzJ1Y0JsejVfb1o5VkF5Z3BFdWVwYzdCcEJ6dWJ3N19uOFNoY2VaYnMtUVpLeTdSUE83a3pkTWtOQmpTUm01aEJteWVhNU5n?oc=5",
-        "source": "Bloomberg.com",
-        "pubdate": "Tue, 15 Sep 2026 10:14:56 GMT",
-        "pubdate_iso": "2026-09-15T10:14:56+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
       {
         "title": "FEMSA comprará sus acciones en Estados Unidos",
         "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSl9jdnFwd0lUdFVlOWlmc08xVUxGaVk3SXVmT2UxRVhsVC1LZmxQVWM1aVM4STZQOUZlTHhxUktLMXlCMDZCRVN4TFBDWWVfTUU4VUZzendlNUZpU1Vmd2FWSWFrdDV5YkJsR2xKcnN1b0Vpc2ZYOUZJZUx1d3dBcGlqRC0tWGxVMTQzQ2FNNHdTcDBsZEE?oc=5",
@@ -223,10 +209,10 @@
     ]
   },
   "stats": {
-    "total_noticias": 13,
+    "total_noticias": 12,
     "por_categoria": {
       "fed_tasas": 5,
-      "mercado": 3,
+      "mercado": 2,
       "tech_nasdaq": 1,
       "economia": 0,
       "earnings": 1,
@@ -238,7 +224,7 @@
     "score_neto": -6,
     "n_positivas": 0,
     "n_negativas": 3,
-    "n_neutrales": 10,
+    "n_neutrales": 9,
     "narrativa": "El feed muestra 0 senales positivas y 3 negativas (neto -6). Factores dominantes: Fed hawkish: rate hike presiona equities; Fed hawkish: rate hike presiona equities.",
     "narrativa_fuente": "plantilla",
     "veredicto": "BAJISTA a corto plazo"
