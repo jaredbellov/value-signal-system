@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-09-15T21:33:52.381737+00:00",
+  "updated_at_utc": "2026-09-15T23:33:52.084566+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "bcch_tpm": {
@@ -68,6 +68,20 @@
     ],
     "ipsa": [
       {
+        "title": "MSCI IPSA: La Bolsa de Santiago este martes cierra con caída marginal de 0,17%",
+        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOMXR1N3FaUG9HbUpneGd5eFlVWTBLb0d0YkY4eEtzajZfYm51Q3dzUmlfYVNpTnJzcFVnTXNkWWM3X1RHeTlJNXExYTlsa1htODBoZ0pib2JOZWxRek16YTRMNDJWajFIdnQxb1dBRnl3a19PMWE1X2c5NUlKeGYyQ0VMb1F1R0J3a3g0RWR2ekxZbkp2UmxsaExST3pxbWgxSk96bXV6alV2NzdfbmRrNWQ5Nm9vU2d4Mnc?oc=5",
+        "source": "diarioestrategia.cl",
+        "pubdate": "Tue, 15 Sep 2026 20:55:01 GMT",
+        "pubdate_iso": "2026-09-15T20:55:01+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
         "title": "Bolsa chilena y Wall Street cierran a la baja después de que principal tasa soberana de EEUU alcanzara máximos de casi dos décadas",
         "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBqMDAwZjlGc3ZVakFIa0JmemVmcHdFWF8yeS1MQlRmQlpDamlkZHAtSGI5XzZaQU1MM0NkVTJHMm9fdDZjcXpHQmN5Qm9mLWY4U3hNS1JiQVRUX0pzVmpOT3YwTW93M25p?oc=5",
         "source": "Diario Financiero",
@@ -129,8 +143,8 @@
         "title": "Chile vuelve a tentar a los sanjuaninos para el verano",
         "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOcElSUTBoNnhEalI1NjhHbi1admt2c2d2ODNJR04tcGNLeXZBRHdaZnpSOEhNMFNsRVZsU0N1aC1NODRiQlItLWtwWDJrMGljUHV1UGdaUjNmYXE4WE1hSDdoVW5fZkpkdmVNRlQ1M29WVnBuWFFmMjZRaHZONXdpUFNycWxIZEo0d2llYWRxZw?oc=5",
         "source": "Diario la Ventana",
-        "pubdate": "Tue, 15 Sep 2026 15:53:15 GMT",
-        "pubdate_iso": "2026-09-15T15:53:15+00:00",
+        "pubdate": "Tue, 15 Sep 2026 16:02:57 GMT",
+        "pubdate_iso": "2026-09-15T16:02:57+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -262,10 +276,10 @@
   },
   "hechos_esenciales_por_ticker": {},
   "stats": {
-    "total_noticias": 15,
+    "total_noticias": 16,
     "por_categoria": {
       "bcch_tpm": 2,
-      "ipsa": 2,
+      "ipsa": 3,
       "dolar_cobre": 5,
       "economia_chile": 5,
       "politica_regulacion": 0,
@@ -280,7 +294,7 @@
     "score_neto": -2,
     "n_positivas": 0,
     "n_negativas": 1,
-    "n_neutrales": 14,
+    "n_neutrales": 15,
     "narrativa": "El feed muestra 0 senales positivas y 1 negativas (neto -2). Factores dominantes: Alza de TPM: presion para dividenderas.",
     "narrativa_fuente": "plantilla",
     "veredicto": "Levemente BAJISTA"

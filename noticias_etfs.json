@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-09-15T21:26:56.482830+00:00",
+  "updated_at_utc": "2026-09-15T23:26:56.970899+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "fed_tasas": {
@@ -105,8 +105,8 @@
         "title": "Wall Street cierra en rojo, con el foco puesto en la Fed, la subida del crudo y los bonos",
         "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNaUlVQ2YxZVpQX1VIT3B6eWhpNmtZQTZQakpCU2NXM18xemMxREtRQ1kweDJwUkxGWFFSRjBkd2N6SGwtbTlMaHRIYUxPUGItdFR3ME5TUVJQdkg5TFFSV3cyVklGMEkyWlJmRDNmOHRHeV9qNnJxdnpBWUxaMVN1LXRLQ2hPQ2VuRk5YNW9YRVNRXzY4TnF6Rm5vclB1N3Q0WUd3aHJobTVEQmJDTE83T0hGSzVzcnlXRXBFVXJ5elNMc1BrZnBj?oc=5",
         "source": "AlbertoNews",
-        "pubdate": "Tue, 15 Sep 2026 20:44:05 GMT",
-        "pubdate_iso": "2026-09-15T20:44:05+00:00",
+        "pubdate": "Tue, 15 Sep 2026 20:43:56 GMT",
+        "pubdate_iso": "2026-09-15T20:43:56+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -130,7 +130,22 @@
         }
       }
     ],
-    "tech_nasdaq": [],
+    "tech_nasdaq": [
+      {
+        "title": "AI warnings knock Nasdaq futures, pressure tech stocks",
+        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOU0NyMXRyYTYxS1NtdnNZMHFBRXVuWlZEQU5xbnRjdGZCcmxqYmNMVzFGb2NWcHluUlp0N0t5QXJVbWtGaEVDRHl0eE5Zazc5VmlEajBJVElUQmQtbnNlZW05V1dMdkFpeTBUTFRjWU9fZEswa3lTQ012T1FqRzNVdHZ4aUZUOEh5clNLa0ktSWQ4VlJwajM0ejAtQl9MLW9zdTRLMjJuLVktellDT1dFWm1SdzRsb044bEZ0N1Raaw?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 14 Sep 2026 09:13:54 GMT",
+        "pubdate_iso": "2026-09-14T09:13:54+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
     "economia": [],
     "earnings": [
       {
@@ -153,8 +168,8 @@
         "title": "Platense vs Fluminense Prediction, Betting Tips, Lineups & Odds | 15 Sep 2026",
         "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRVItWGUySGdFa21kSFI4WFNNNDNjRU5Kb290dmpLYjM5VTRyZVFtN0ZfNmUyYXBSSVkwRlYwbUw3c3FBQVNicnFkYVNpLWtqSVpHTzFIWXgxMVpZcmpUa1oyYVNmNDJwdlVmXzg1eFlueHR6Z21pUzVyM1h2OURtYlM5eFQxajQ0RXNmbXUzQ1JBU1liM0w1Wmp3OUEtTjhuOWM4X0pWQ2ZuN1ZxWmtV?oc=5",
         "source": "Sportsgambler",
-        "pubdate": "Tue, 15 Sep 2026 19:58:41 GMT",
-        "pubdate_iso": "2026-09-15T19:58:41+00:00",
+        "pubdate": "Tue, 15 Sep 2026 22:59:49 GMT",
+        "pubdate_iso": "2026-09-15T22:59:49+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -208,11 +223,11 @@
     ]
   },
   "stats": {
-    "total_noticias": 12,
+    "total_noticias": 13,
     "por_categoria": {
       "fed_tasas": 5,
       "mercado": 2,
-      "tech_nasdaq": 0,
+      "tech_nasdaq": 1,
       "economia": 0,
       "earnings": 1,
       "sentimiento": 4
@@ -223,7 +238,7 @@
     "score_neto": -8,
     "n_positivas": 0,
     "n_negativas": 4,
-    "n_neutrales": 8,
+    "n_neutrales": 9,
     "narrativa": "El feed muestra 0 senales positivas y 4 negativas (neto -8). Factores dominantes: Acciones a la baja; Fed hawkish: rate hike presiona equities.",
     "narrativa_fuente": "plantilla",
     "veredicto": "BAJISTA a corto plazo"
