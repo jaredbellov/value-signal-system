@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-09-15T21:33:28.067442+00:00",
+  "updated_at_utc": "2026-09-15T22:50:08.658418+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -35,6 +35,20 @@
           "intensidad_label": "neutral",
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "USAR, MP, UUUU, CRML Stocks Drop Overnight: Why China's Threat To Scrap Trump-Xi Summit Matters",
+        "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxObkF1ZDJmN1VjZFRUaGEwbnEydnBQN2hVSk5jOFVjb184bWNHbm9QVDRmRGxxVFhJeE9pMXI0Q0YzbEJjNDI4ZGRUa05qN3B4ZEJ3VFA1czVrMUlYNjJTTjZVanVDUERzQmJSRHJ5dWZhY3pIS19UMkk4ZWFEaWFuemdBMGR2dzJJTEp2UHBBY3Z0ZWdUWVRadV84TERFdlZhN1NhUW0tZGRZdlpqUlpyb0RfYXFoTmV5Qmh2TkFtRGo0Y0Jwc01UOFpnRk1PR2F1SEJ0QW9CWldaUk9IQ3llVjR2ZkVvdw?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 14 Sep 2026 07:18:42 GMT",
+        "pubdate_iso": "2026-09-14T07:18:42+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Acciones caen"
         }
       },
       {
@@ -126,22 +140,22 @@
     ]
   },
   "stats": {
-    "total_noticias": 7,
+    "total_noticias": 8,
     "por_categoria": {
       "tesla": 0,
       "nvidia": 0,
-      "ia_semis": 2,
+      "ia_semis": 3,
       "macro_tech": 5
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "neutral",
-    "score_neto": 0,
+    "sentimiento": "levemente bajista",
+    "score_neto": -2,
     "n_positivas": 0,
-    "n_negativas": 0,
+    "n_negativas": 1,
     "n_neutrales": 7,
-    "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
+    "narrativa": "El feed muestra 0 senales positivas y 1 negativas (neto -2). Factores dominantes: Acciones caen.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "NEUTRAL - sin sesgo dominante"
+    "veredicto": "Levemente BAJISTA"
   }
 }
