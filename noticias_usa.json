@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-09-15T15:03:25.821474+00:00",
+  "updated_at_utc": "2026-09-15T15:33:26.698523+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -110,6 +110,20 @@
         }
       },
       {
+        "title": "AI warnings knock Nasdaq futures, pressure tech stocks",
+        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOU0NyMXRyYTYxS1NtdnNZMHFBRXVuWlZEQU5xbnRjdGZCcmxqYmNMVzFGb2NWcHluUlp0N0t5QXJVbWtGaEVDRHl0eE5Zazc5VmlEajBJVElUQmQtbnNlZW05V1dMdkFpeTBUTFRjWU9fZEswa3lTQ012T1FqRzNVdHZ4aUZUOEh5clNLa0ktSWQ4VlJwajM0ejAtQl9MLW9zdTRLMjJuLVktellDT1dFWm1SdzRsb044bEZ0N1Raaw?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 14 Sep 2026 09:13:54 GMT",
+        "pubdate_iso": "2026-09-14T09:13:54+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
         "title": "Dow Jones futures dip as Fed hike bets, AI safety concerns weigh on markets",
         "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNSmY3RjN0MWZVUWVtYlpVeXhrWGZWTkpYbzlVN1dBOTJGRU1reFJ3QkM1bkVaNEtTdktJMWhRSms0eUJobXVYSGFKTFlJYzZEUF93dHVsUmtfZUNVOS1teGRWVThTbkxTWXlvd01HZjlmOVUxTGpSRFcxdkRXdXNPaEh4NXdod18zU2tRMEVvYV9Ha185ZkhXSWpOUlltT3hGSGEwUGhJMUlMUmNCU1FPR3ctcWlkTnRJal9laTFhWHRuUzJIVjlZZExzRDBfaUZNakh2VUxTRQ?oc=5",
         "source": "tmgm.com",
@@ -121,20 +135,6 @@
           "intensidad_label": "neutral",
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Morgan Stanley Gives Huge Stock Market Crash Warning in 30 Days",
-        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPMWlrS0NYQnV0WmtfaXFiVjM2M21wSUd6WHoxODktSTloQktWZmdZWVg5NzhpZlYwcThkeHlzSWJkUk9UTDcxaG1aZjNWNlZVQk9uRXAtLWtJY3BMLXI4elNuTjY2Q1VSMjdlRGlPOUFjWGxZMmZYVnFnZl80aVo5YVZkVmNOM3ZYdWc?oc=5",
-        "source": "CryptoRank",
-        "pubdate": "Sun, 13 Sep 2026 20:49:51 GMT",
-        "pubdate_iso": "2026-09-13T20:49:51+00:00",
-        "impacto": {
-          "direccion": "negativo",
-          "intensidad": 2,
-          "intensidad_label": "moderado",
-          "emoji": "🔴",
-          "razonamiento": "Crash: muy negativo"
         }
       }
     ]
@@ -149,13 +149,13 @@
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "bajista",
-    "score_neto": -4,
+    "sentimiento": "levemente bajista",
+    "score_neto": -2,
     "n_positivas": 0,
-    "n_negativas": 2,
-    "n_neutrales": 6,
-    "narrativa": "El feed muestra 0 senales positivas y 2 negativas (neto -4). Factores dominantes: Acciones caen; Crash: muy negativo.",
+    "n_negativas": 1,
+    "n_neutrales": 7,
+    "narrativa": "El feed muestra 0 senales positivas y 1 negativas (neto -2). Factores dominantes: Acciones caen.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "BAJISTA a corto plazo"
+    "veredicto": "Levemente BAJISTA"
   }
 }
