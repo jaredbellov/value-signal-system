@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-09-15T13:05:16.839311+00:00",
+  "updated_at_utc": "2026-09-15T13:33:54.763512+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "bcch_tpm": {
@@ -36,38 +36,239 @@
     }
   },
   "noticias_por_categoria": {
-    "bcch_tpm": [],
-    "ipsa": [],
-    "dolar_cobre": [],
-    "economia_chile": [],
+    "bcch_tpm": [
+      {
+        "title": "¿Hasta dónde puede bajar el dólar? Estas son las señales que marcarán el precio de la divisa esta semana",
+        "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNMU5TcE9qVlBORDdRckZCT01HOVJqS0NtS0VhV2hwYzNMV0h3dGFmc294eGt1OGNBa2dTaW5CWTJvQjlmN0I1MjZxb0x5ZW16QVZjOFNLcVVuZWNZVUV3OEtsejc4U1VtNGNIZWtiOHk3WWQyVzE4QnY3MXRRNjFQc1J4QU1BNHd1T1BhbXRXV3pIX2l5VEpnaUhiVU11U2lINHp3NGg4LXJfUHE5a1IybmwzbmprS3ZZYW9lRTBoRU8tc2NUekVYZ2FUblZINnNpTnhUak42T3BpTlpBVnpfbHZhSlFUbnZoNkxuWGhkS2taS2pJ0gH6AUFVX3lxTE1mdTltS3FIZTB0bG5JNDk5R3lkeUNUUGZrcnY2TERINndzUklKU1ZPYlMwS1p2VXFOOF8yZWZHMkVYc3pCSVhIWDQ5ajhOQ3FVa1JOZHFISlZoTFJZd0E5eUVLVDIyOWdPb3hCUzVEQVBOVEtJMzI2RFRpbGZIbzlfTkUtV1JkUk1aRk81MXUzdVA4S25fRlZnRnByTkh0S3RIVGpoSThIRGJncDY5ZW95NFJ5SGZ0THJST3ZidG9QTU05QUt1NHhHdE9ER0RyR2tGWnpRczI2VXRyeDhvM2YtRmJYUXJtMjF6Q0xCX19EOThtZXN1T0NhM1E?oc=5",
+        "source": "El Tiempo",
+        "pubdate": "Mon, 14 Sep 2026 13:28:43 GMT",
+        "pubdate_iso": "2026-09-14T13:28:43+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Fed, ante una decisión crucial: mercados apuestan por alza de tasas mientras Trump presiona para evitarlas",
+        "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNXzZzYVM0N1h4bnRjSENuTkNLYktsV1FDN05KSkVZQlczYlpnWHA5Ti1aOHRZZjVEakZ3anp3NGFRWEJXc3lTZjZNUFpZZkV0TmM0eURBVVBqRTFWOE8wa1ZhTVpLWDNtWC1iYW9jN0x2c241ZHVZRUxmbTJvMjFKMllXU2hNWkdZLUFWRzFPVjhBeXNNS3ktMnpGa3EtcmRwQUlFcHRfMW82MlFVNXVXX0xmbWtTdENDcG5aYTYxcFU3VEY3R1BBdmFnLWVlZl9rTzZ0QVdidlJEdWlrWFM0NHFTZGU4QdIB6wFBVV95cUxOcmFOdHhtZl9Bdm4zdEVRcjF3ZmhycFpabXUyNzVOemREZFhUQ1FDN0Z0UC14blgxNnoyMGF2RDgxS2R2b2xzS3IxOGlvWWsxTHJpR0gwUmFBUTVueUdTZi1kNnFlNVZSMVVoZDMxcW14dVBKRlpVdkVrYXR3LVhKUklvSGlVemlPT3JOVHVkMWd4OXNxZ3NMOTFNVlJ3ZHlpYXI0cWM2ano4UHRhMUhZYlZOQUJ5a2NzYXgyd0xhUmtQNTZPMXJpMjRMbXNHU0o2bkdkYjNCMmJoYlphVTdiYzh5Rkh4Znl5a3lF?oc=5",
+        "source": "Portafolio.co",
+        "pubdate": "Sun, 13 Sep 2026 16:04:37 GMT",
+        "pubdate_iso": "2026-09-13T16:04:37+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Alza de TPM: presion para dividenderas"
+        }
+      }
+    ],
+    "ipsa": [
+      {
+        "title": "MSCI IPSA: La Bolsa de Santiago este lunes tuvo variación de 0,46%",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQREo3c0FCazhCQThFOUVKUHNDRmRtUzFEdTc2MkwyMHBMTWw0M2FSdGluQ2tjOHNKRlRzWnlBeXJWMncwRms5bEZrX2ZnWmg4UFdNaUZZbEdUZThkSDVDVGUwUXNoakZaYzlDZWIteWpwUWJuNmk3S3MtRUdLY0ZZTkQtVEdHTXJWV1hhM0FmNU9lc0NkS3JZZjRoMlRzTTB3bHQ2TXdwTTBLZnd4dVk0?oc=5",
+        "source": "diarioestrategia.cl",
+        "pubdate": "Tue, 15 Sep 2026 00:02:27 GMT",
+        "pubdate_iso": "2026-09-15T00:02:27+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "dolar_cobre": [
+      {
+        "title": "El dólar en Chile se acerca a una luca: por qué a los argentinos les conviene más que nunca",
+        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQeW5DaF9hOXQ4cS1vVWJnbWtMRDYwcGVTMnpHdVFDNEpPN3NnVmUwX2x3d0tyNWEwZ0swUWtPdWYyT2JReEZjUmN5c1hqb2JKZXRyVTM1MGZka2tkcnZ5MVdVdWV0NkNUcUM5NzNoemZOX3VlbU04Rk9tQ2xrdWFtRlh4UXQzdDMxUHpmR2ZsWTNtRjhPN0QtX0xBMllab1BIUHBlYWRrTEpGU3hOZjJlQkNodTlJOHRPakFaenFLWFRYYU0?oc=5",
+        "source": "Los Andes",
+        "pubdate": "Tue, 15 Sep 2026 12:19:00 GMT",
+        "pubdate_iso": "2026-09-15T12:19:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Dólar hoy en Chile: precio este martes 15 de septiembre",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPMjBkclpiMTBGakRvcFFidG5UaGljaWdBVXNGSi16TWJCaERIZlNIOXp5bXhmVUtlaHZDUUtfNC0wZ2ZjdzhyWER0Q0pOVFpDQ2FMcW9mUEJDQl8zTjBraTFQVnIzc1pPWTVVTEpEQXBvSVZBOUgxYV81eDdKRTQ4dHZ5TUlRYzJRUEwxbWxqTUJmZnFGUjlpZ2NzTHRvemt5ZlBQdnFDYzNxdEVUcG1jRFprZzJuLTFVTXF1UDVn?oc=5",
+        "source": "Radio Pauta 100.5",
+        "pubdate": "Tue, 15 Sep 2026 12:00:24 GMT",
+        "pubdate_iso": "2026-09-15T12:00:24+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Precio del dólar hoy en Chile: cotización de apertura del 15 de septiembre",
+        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOakVyVDVYUFhzQWotMHFDeS1yVXAzZDMxZlBoV2ZmTjhaRFVneUF4Smp5UVp6NWN1Y1ZHajJDUURhMm1QYW93U0FhM3VZNjNxdU5CVklRa3J4cjhWRWNiN18zV0l3emFOS3lHb2JVNDJ6YW1raEpLS2xvN3l6RTc0Wnlqalp5WG9DamFZb0lLTEozS3BuMkh4Y255TC1RQ2lMWFV6cUcxcHhIRU9sZlZGYVhPMjVZMlZTLUHSAdQBQVVfeXFMUElhREE0OU1BY3piWnc3X08waVlyUmtXZGNEMTF0N2c2TUp4NUljOUNqanZEZWlSaWU3TTdhNllzTXBxQ0N2N2p0c3hpYnNhZW1XOEtPQ3MtLTBtRmdwak40UVVCam1DcTBpbHQ1NG12YkpjMWhwMXNhWVFnQmt2LTRtb0VVcENmN2hHMGhGc1JRdlVhbHByeVBUYllkZ0ZOZnpZVUFOZ1pGZ25senBfclBzaXd6YW9WSHFHbExEYTRtWlRqM2ZKYll3dWZ2ZlF5dDdJZWo?oc=5",
+        "source": "infobae.com",
+        "pubdate": "Tue, 15 Sep 2026 11:30:21 GMT",
+        "pubdate_iso": "2026-09-15T11:30:21+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Dólar hoy en Chile apunta a $950 por fortaleza global del dólar y caída del cobre",
+        "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOV2VRMlV5cGxHS2JTS2dBdEhBcVJqSzR1LTlJc2paNkJ5RnRaekE2b3AtbHZZekpCLWJOeHV5aTA4NnRKUkxZVVRkWUc4M2JhVmI3R28ydWRuWDNHVFVGQkJ0dm0xd3Bkdlh0RjRfSzRVLWxNT2lac1N4R0p0LS1RZXZBZkt1ZWxCdDJIb2hyS2g3dWozSW9NYk1CcThBU1hVQVpQbUxNY0tmcVZYcEhHN2JFREtEeWxsSmhYZERGY3E5akU1aW1Pa0JFNnNZZ2M0T2I3RXlMRUV3MmZS?oc=5",
+        "source": "XTB.com",
+        "pubdate": "Mon, 14 Sep 2026 22:18:40 GMT",
+        "pubdate_iso": "2026-09-14T22:18:40+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Citi proyecta cobre a US$ 15.000: Fundamentos estructurales superan riesgos arancelarios",
+        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPOEtvVWZfZTNOeHBYMHJZTVUtM3RmaWpnNjAtWkVRSU1TSGtUejk5TVdBZmF6RTN6Nk9tZmRVZ2RMMnRRMWl0Q1A1RXl2LWM4T0MxZVBrRWZIQ0VCa0FTWVJhcVp2cWFuZEFVc2lDTFNzMkdkTXM4enNXYWl6LTgyQ09wS09SR0hfb3lDanJyV2pQMW1uM2JhRDdnV3AtQmlkVV9DZElFZEg1Tm1palVTakloNGpKX2JqcVVjTS1vOA?oc=5",
+        "source": "Minería en Línea",
+        "pubdate": "Mon, 14 Sep 2026 16:49:52 GMT",
+        "pubdate_iso": "2026-09-14T16:49:52+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "economia_chile": [
+      {
+        "title": "FMI proyecta recuperación de la economía chilena en 2027",
+        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPbENRenlOZHFWQUh1WEZhMC1LbUs3c3BjcW9jRVU4ZXYwYk9CT3hfb0cxaER6UHByX01PTGQxYVJBTTJUS1dVbE40cExJXzAwajF4MGlyanc5dzBPSFc4V2xBVmVQQXBGSjRZV0lDclpDV2RnNmtsR01zQks2Z1RGUklTOXlXRzF4cldNdHhnQ200dmM?oc=5",
+        "source": "estapasando.cl",
+        "pubdate": "Tue, 15 Sep 2026 12:38:08 GMT",
+        "pubdate_iso": "2026-09-15T12:38:08+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Jorge Quiroz en el ‘Chile Day Madrid’: “Queremos un mercado de capitales que vuelva a ser el motor de crecimiento”",
+        "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPdnpZX2RfZzBPT1EyZmdyTmF6RTVTTGJpOFdFMTUxeDhpcDNudnFCa2NuTVMtcDQ3ejVMQzFwWG1rbVFOUVdwWWc5RWd2MzFKek1nVXdZemw2VVlDZllqVzVXMEs0Y2htdWZXanJrbUg3M2Fxc0M0cHg0SlotMDBvVUxOcU5Ga3BBaGR6MDNQWWVlbjNMNExHS3FfUEE5RGtob05CY1JqQnpGVm5LVHZQQ0VlS2R3Q2tDUUp5U292QmdTcG9TQUhiNlYwQTlBVDNlbXl0NXZVeXdxalA5RXJHbGQxUUbSAfgBQVVfeXFMUHVUUERidFJRd1JOUFAxU21vTGdrOGxUX1o3Q19UeWtJVTVhX25sRzN6Qkdua01YYnpkeVhPeVpaWHB6NEFfaW50VHhNcjBFUjBFQXFNQ2YyY1lfdjFCLVFqTmRBOS1WWU5reF9YNjFmN0t6RWxXQ1BNSW0xcGZvMEt2Vm9hSi1XYXQ5Q1U0NG16WUgwVFo1VUdpMFY4S2w2OFBEQjlQRXhqVTFEbld2bURwVVJFMGxSQ0N6SU1VOG9abU5MdG9TRUZFQVdla1VLRm9lV3lPS3QxX0dQS25IN1A0amF6WjhYYUxHaGNicExRTUwtSHQzMTE?oc=5",
+        "source": "EL PAÍS",
+        "pubdate": "Mon, 14 Sep 2026 22:55:56 GMT",
+        "pubdate_iso": "2026-09-14T22:55:56+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Quiroz en Chile Day Madrid 2026: «Queremos un mercado de capitales que vuelva a ser el motor del crecimiento»",
+        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPcWZ6Z3BWekNiWG51bWhoM2xmRk9OSHJRR3hVSXNzdGhfMnBiWjBqNThweUdVTzNDczdhN01lZ0hDbmZRSmNtUEkwQ1pJWTlUalI2TGNvaVdkWEVvcmx1ejlSZzd5bVd1SEZHRWdFNFFKVG9wTjlKTTdrbFAxZ2V2UFZjSDNUTm5CY3Yzdkc1SGQwemZfVDJRRVozdFluN1lxSE1rVmh2Z1JwelpYbDd5WTFzMjN6X3dHX0lCLXJ2U25kUENqdEhXLXIxRzUweDNzcDcw?oc=5",
+        "source": "Diálogo Sur",
+        "pubdate": "Mon, 14 Sep 2026 20:30:22 GMT",
+        "pubdate_iso": "2026-09-14T20:30:22+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Banco Central golpea las expectativas y advierte un 2026 de bajo crecimiento para Chile",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRFVMXzNrWVpKMmhHR3hibjhENWJzcVQzSWFQOHZybzU0cjBmTUlRbkFDQkhrX1NnSUVyTk5CNG5YODRzcDYzRU0xMXZoZksyZ005Z0szYjlTN3dUZ3dGcElTWkFiQW9DMXVHTUhZZ2pGMVFvelR4LXJxeEI2bTNsRXo1cUhoLWRCelRGc09nMnBWVXI2eXBJbTZncno0dlBqSGxHNnA0ZmVHUFZhQTBCYzFKVVJkZjVq?oc=5",
+        "source": "David Noticias",
+        "pubdate": "Mon, 14 Sep 2026 15:56:14 GMT",
+        "pubdate_iso": "2026-09-14T15:56:14+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Anatomía Económica de Septiembre: El Dieciocho que Reconfigura el Consumo Chileno",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPRGJIVjVQd1dCZjMxU0dlRGtaY05LcXAtZTRtWGRmYnB0ZjcyaW5VU0doc1UycWtXd1h1d0tDNklrenpaVW1mZFhEQmp1ZlNLWktnOUxzalpfelBuUWVhQ2JpWS1lVkVEQnVUWHdoWl9DOFZYZ185dURDZkhXYThkTmp5S3Vxd1l6RUlsZms0aGVnS3BDWnJIa0RlUTUxeEdBVDZDd3JuQ2lvQzd4czYxOEc2SFpPdDRBWGhwb3F0dVlyQQ?oc=5",
+        "source": "elmartutino.cl",
+        "pubdate": "Mon, 14 Sep 2026 13:45:03 GMT",
+        "pubdate_iso": "2026-09-14T13:45:03+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
     "politica_regulacion": [],
     "pensiones_afp": [],
     "energia_tarifas": [],
-    "sectores_watchlist": []
+    "sectores_watchlist": [
+      {
+        "title": "Cenco Malls celebra más de 10 años de Mercado Emprende impulsando el talento y emprendimiento local en Chile, Perú, Colombia y Argentina",
+        "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNVjR4dElVc3RVbVZDMzFyWlZPRWZaMlhRQzBMWU9aM25ROGFPVzR1cUN1M0thUjhYNWdFd0thcm9UdXdaR2g1cjc1RlBUTENRTXRvbWpxcHd3cjBsdVhLdGMtc3JsTnRoT0hRU2xIWmFyYlJjMHd4alc5X29qQ1NEbzgtQXo1T1RVd3hUNXNDazRYeW95TjZfUDRvV1NpUXJZejZFUjA1OGpjSGZNcnY2OFNSTU1obHNXM0l2azRjYW53aGoyNm5iQ0VoV0xnWDV4NTFFSXBLM0p1Z0NacmgxVmhCaXhVNWV5OUJqTXZwQjRpXzgwNEtwcGVLSFN1R2FmQmRXQ01tZ3RTbDBWVU5BVFJpWjXSAbYCQVVfeXFMTWlVR05RdkRPUEh3S29lOWFMY1NSQXdqdVpVRnpHc21UVnI1bEFQbXZkemRISHh5XzkzWGhUZndfNG5pN2xKVFR4cFRzTVdWVklWMl9jU0FrRlNUMzZMbVZmV1Z2d3l6UUxvQmV0SWtJVmdLUzdsVEpsOW1MemFTZDB4X0dod29ZXzFsTXhaTU5LMmJydVBGS2IwSEctOHBUQ2pFTGhIRURVRjU3ZTk0RVVjRW5nX2NwblZOQWNTRFREQTZuUzFOZWZLbko1X05BUVBLOTVuNno0RGI4SGRVLXgtVDFBeENESW9vY0ttYU5PNnJGMlZ5NkV6YVQ0b0ViaExtQVU5eWVwQUk5YURFWkNQNUxTZmJhOUh2UEl6cGV6NGY1SzRjMnltSHJTeWtNQ096Q2Rxdw?oc=5",
+        "source": "La Tercera",
+        "pubdate": "Mon, 14 Sep 2026 14:30:18 GMT",
+        "pubdate_iso": "2026-09-14T14:30:18+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ]
   },
   "hechos_esenciales_por_ticker": {},
   "stats": {
-    "total_noticias": 0,
+    "total_noticias": 14,
     "por_categoria": {
-      "bcch_tpm": 0,
-      "ipsa": 0,
-      "dolar_cobre": 0,
-      "economia_chile": 0,
+      "bcch_tpm": 2,
+      "ipsa": 1,
+      "dolar_cobre": 5,
+      "economia_chile": 5,
       "politica_regulacion": 0,
       "pensiones_afp": 0,
       "energia_tarifas": 0,
-      "sectores_watchlist": 0
+      "sectores_watchlist": 1
     },
     "hechos_esenciales": 0
   },
   "resumen_ejecutivo": {
-    "sentimiento": "neutral",
-    "score_neto": 0,
+    "sentimiento": "levemente bajista",
+    "score_neto": -2,
     "n_positivas": 0,
-    "n_negativas": 0,
-    "n_neutrales": 0,
-    "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
+    "n_negativas": 1,
+    "n_neutrales": 13,
+    "narrativa": "El feed muestra 0 senales positivas y 1 negativas (neto -2). Factores dominantes: Alza de TPM: presion para dividenderas.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "NEUTRAL - sin sesgo dominante"
+    "veredicto": "Levemente BAJISTA"
   }
 }

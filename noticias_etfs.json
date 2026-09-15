@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-09-15T13:05:16.839022+00:00",
+  "updated_at_utc": "2026-09-15T13:26:57.967305+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "fed_tasas": {
@@ -28,32 +28,204 @@
     }
   },
   "noticias_por_categoria": {
-    "fed_tasas": [],
-    "mercado": [],
+    "fed_tasas": [
+      {
+        "title": "¿Una y nada más? El debate que divide a Wall Street sobre el rumbo de la Fed",
+        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPSlV2cDg2NFg1MDVYaE92V1ZrMEs1dTI4aGt1Q1VsVXBNTG1VSmdIOF91NnBIbWM2V1NQUkZobV82MVdEcEd4SWMyRldUN2NtTUhyZ2UxZHc5dm5FUWNFZFZpNy1pSl9wb0NnTFZRMzgydDJlV0dZQmw5UXhLeXpCVExoQmt1bElTbHBtN2w0UXMwVkxYSURCQlJHRy1XdW81SHhGNl9XcUNPeWRZUExlZ3pfT0gyU054Szh2TlJVSnBRdnJOZ1NHQzJn0gHKAUFVX3lxTE9KVXZwODY0WDUwNVhoT3ZXVmswSzV1Mjhoa3VDVWxVcE1MbVVKZ0g4X3U2cEhtYzZXU1BSRmhtXzYxV0RwR3hJYzJGV1Q3Y21NSHJnZTFkdzl2bkVRY0VkVmk3LWlKX3BvQ2dMVlEzODJ0MmVXR1lCbDlReEt5ekJUTGhCa3VsSVNscG03bDRRczBWTFhJREJCUkdHLVd1bzVIeEY2X1dxQ095ZFlQTGVnel9PSDJTTnhLOHZOUlVKcFF2ck5nU0dDMmc?oc=5",
+        "source": "Bloomberg Línea",
+        "pubdate": "Tue, 15 Sep 2026 09:03:26 GMT",
+        "pubdate_iso": "2026-09-15T09:03:26+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Bitcoin pushes past $79K as markets anticipate Fed meeting, Strategy stays put",
+        "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOdXp6dnRtbjJjMEFFbmRCbWRyMS1mY1RzdTAyTkVfaVkxdkd0MG41YmIzWU9td2JSdzJJR2Jjc0Q3UGswak9HS0pLOGNISW5ULUd4VHFpSmhiLVhGOUhWbk03emtEUE1oYjVpdlI1YTdwNmNtMlRoLWFEeHJkN3FTZFBnbU1MLXlLdXZ1U3ByMVYweDUzVnRRRlM1c3IwMG9VbnNMUU5wR3JCYXFKWkUyRWlLLXo5UzYyNnA2QkdIM3F4d3l2UDdITG96OGlNNnNlUVJtYlFXOERKUQ?oc=5",
+        "source": "tmgm.com",
+        "pubdate": "Mon, 14 Sep 2026 22:24:59 GMT",
+        "pubdate_iso": "2026-09-14T22:24:59+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "XRP Price Forecast: Momentum builds despite elevated Fed rate hike bets",
+        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNV0NsSW9LMHRhSDBlX2d5UWpoUkFuWEJjY21lUVdsMEFqNmVFbkFkb0dLZDc3alV4d09XTlRtVDlhazFRT2txVWVsaGYtY0FhNEhscU5JMGtQSUtnSFIyX2dTVEdLYVM0Y2RpM2RtaTZuajJBbG1pS1ZpbkVFMGpuNUdFZHpjU2F0YVNOeGVacFkyN2Q0ampJX1pPWm5seWwyWWNrY0RyWDR1NUljY2Z2cjg5LVlKeGpvd2FLanM2VlQ5cXBONEc3bXRKbnN5cTVwUHc?oc=5",
+        "source": "tmgm.com",
+        "pubdate": "Mon, 14 Sep 2026 17:09:50 GMT",
+        "pubdate_iso": "2026-09-14T17:09:50+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Fed hawkish: rate hike presiona equities"
+        }
+      },
+      {
+        "title": "Decisiones sobre tasas de interés de la Fed, BOE y BOJ: Semana cripto por delante",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNLU4xTzRtUDdDWHktWWQyaHJTSE1SZ2F6LUtabzd4NUhSQktmLWJzMFd4Q2VMQ2JtdFAyZWIwblJGcTN6UXlNV1pXUzNVSVhlV1VSbnlBZ1JIbDdudEdZRGxKSDdRNXlxVmt2ZGt4dHhQVy1WR3ZNeHFPMEZrNG45NG5MdHR2ak84aG04d1lPLXFSU3FJTzRRcl8yNkl3LWFka1E?oc=5",
+        "source": "CoinDesk",
+        "pubdate": "Mon, 14 Sep 2026 10:13:07 GMT",
+        "pubdate_iso": "2026-09-14T10:13:07+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Japanese Yen, US Yields Pose Biggest Near-Term Bitcoin Risk: Analysts",
+        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQdWpFU3c1dWZENTRKWjVuSzRjMTR0Qi1oc3lnM0dGempmZWx6ZmRkTDl0bjZQdzVLc2pxcXppMWotS0k0QWJSU1VCMjR3a0ppR3lXY2pTSUlYQko0ZThvNUcxc1piZk9KS2NpNm1POFVIRzhlWS1Rc21uaklIaWVmaldDTEFVN0J5Z1ctWFI2MTBFSk4tSXdGNnlXVWZtMjBvZkRjSF9yN2FLSHE3?oc=5",
+        "source": "CryptoRank",
+        "pubdate": "Mon, 14 Sep 2026 09:46:50 GMT",
+        "pubdate_iso": "2026-09-14T09:46:50+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "mercado": [
+      {
+        "title": "Sector & Industry Performance",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5xWEtZUzJ1Y0JsejVfb1o5VkF5Z3BFdWVwYzdCcEJ6dWJ3N19uOFNoY2VaYnMtUVpLeTdSUE83a3pkTWtOQmpTUm01aEJteWVhNU5n?oc=5",
+        "source": "Bloomberg.com",
+        "pubdate": "Tue, 15 Sep 2026 10:14:56 GMT",
+        "pubdate_iso": "2026-09-15T10:14:56+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "FEMSA comprará sus acciones en Estados Unidos - es-us.noticias.yahoo.com",
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSl9jdnFwd0lUdFVlOWlmc08xVUxGaVk3SXVmT2UxRVhsVC1LZmxQVWM1aVM4STZQOUZlTHhxUktLMXlCMDZCRVN4TFBDWWVfTUU4VUZzendlNUZpU1Vmd2FWSWFrdDV5YkJsR2xKcnN1b0Vpc2ZYOUZJZUx1d3dBcGlqRC0tWGxVMTQzQ2FNNHdTcDBsZEE?oc=5",
+        "source": "es-us.noticias.yahoo.com",
+        "pubdate": "Tue, 15 Sep 2026 03:17:36 GMT",
+        "pubdate_iso": "2026-09-15T03:17:36+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "S&P 500, Nasdaq, Dow Futures Retreat After Rally Fueled By SpaceX, US-Iran Deal As Fed Meeting Looms: TSLA, PLAY, FISV In Focus",
+        "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxORlVUTXRteDFpT1JZeVlPRWtGX25scF9aaVZBWG9XNm9INVVrV3FHdTZiTGltRmRROXUtWTNJNUZxZmhxQXVOOTVJNDAzODZDRDNQb2htaTItRFZDU1dHTjM3SmZzdU54VFlsVXF1Y1JwZ1dheFBGUGVFWVZJeHpEVU5KODV2di16eFNRN1ZYVHdGTjE0d0FKa2QyeGZIUmdjQ000LWdTVUItdkVxY3RYeTMyRHhPbDlkb1Y2NGd1bU1xc2g1Mmh2TGhRVXlPWW4zTVVyWFpxWm1mRTVXbnRUek5SbGhScjNSS1k1eDVXQW0?oc=5",
+        "source": "Stocktwits",
+        "pubdate": "Sun, 13 Sep 2026 01:30:26 GMT",
+        "pubdate_iso": "2026-09-13T01:30:26+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
     "tech_nasdaq": [],
     "economia": [],
-    "earnings": [],
-    "sentimiento": []
+    "earnings": [
+      {
+        "title": "Solana Price Prediction: Record Revenue Meets a Warning Sign — Which One Wins?",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbUh6SEh1SGVNUTRhdXFRb09JdDhBdGV2Znp3TFNCZU5zMmh0ZFhWXzlwMGs1czhSZ2I1WUtVUm9KQVN5bXlXTGFtdnpMZVBCNHB0ODdiaUVVcG8xZTBqRVJhdk1ZTGI3WFBQWFFHcC0xZEdfcW40aGFwNWZ0djlDbDVaRWF5SUVzSHdCWWs3MDlFZnpHU2FGT1Z5elQzbTdqb2QyRHVaNG1SakhseWZHZFpWNmc0dw?oc=5",
+        "source": "CryptoRank",
+        "pubdate": "Tue, 15 Sep 2026 00:00:00 GMT",
+        "pubdate_iso": "2026-09-15T00:00:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "sentimiento": [
+      {
+        "title": "Bitcoin, Ethereum, XRP, Dogecoin Dip as Senate Prepares to Vote on CLARITY: Analyst Sees BTC Rallying to $90,000, but Only If...",
+        "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQSVExdVExcFoyN1pvQUh5R2xBcUUxQldlZEJ4TUF0REJtUVItRURGR2tKYkRpYVZ0RjhxSDB5NmZQSUlxTEZTWGxkVXF2aDJuUDZZaTZiZVQ5d3N3M1B2ODVaMGtUbF93MkdTSmlobmRlX0oyOVNSMUtOaGRPWTgtMlpIblpiUENuSG9yRmNjTlJDanNCa2dkaEttdFhaQ201UTgzOWN6QjNaYjZJdWtXMzk4R2Yzel85aHdKUW1McktCZG1oeU5CV05TOHBwMk1ua0RlRl9ZQU5fQ0FudzJsekRlX1Vmb1Yxb2Y4a1oyTFd3RVprR2tfQUNsRER1UGthbGFoZTdDVTQ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 14 Sep 2026 01:50:00 GMT",
+        "pubdate_iso": "2026-09-14T01:50:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Morgan Stanley Gives Huge Stock Market Crash Warning in 30 Days",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPMWlrS0NYQnV0WmtfaXFiVjM2M21wSUd6WHoxODktSTloQktWZmdZWVg5NzhpZlYwcThkeHlzSWJkUk9UTDcxaG1aZjNWNlZVQk9uRXAtLWtJY3BMLXI4elNuTjY2Q1VSMjdlRGlPOUFjWGxZMmZYVnFnZl80aVo5YVZkVmNOM3ZYdWc?oc=5",
+        "source": "CryptoRank",
+        "pubdate": "Sun, 13 Sep 2026 20:49:51 GMT",
+        "pubdate_iso": "2026-09-13T20:49:51+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Crash: muy negativo"
+        }
+      },
+      {
+        "title": "Sensex, Nifty prediction for Tuesday: NSE, BSE closed tomorrow on Ganesha Chaturthi - Outlook for stock market 15th Sept",
+        "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNM1FvVUs0R05sRWt1X1htZWxVclN3RFY5RV9FanlSVzZFNGNNNjJmLTFKek5IeGxXX3g4c3VxMDdUTmJ6MXBhSktlcHV5UjlfLWlMMjdhUTVYc213bnpMcF9GOXFvRm5yZUt2S0EzcWlRa1FFRFBkYVJBcWMtSTdGTWx2Sld6NkhLcGVPVVZ6QjVJM2poQ2dUbHR2bVZ0ZHloYjJsdjNCTml1eGlVbmg5SGdGem9TNkluaUNaZHNwNTZCNDh2SXJmVGRVdEEwTWVjT2tQLXQwRHRaUzZLT0x6bjlObnRrMkxQaGRwTzRfVWgwVm1yU3NYYVBqTC1NV3NN?oc=5",
+        "source": "TradingView",
+        "pubdate": "Sun, 13 Sep 2026 08:19:12 GMT",
+        "pubdate_iso": "2026-09-13T08:19:12+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ]
   },
   "stats": {
-    "total_noticias": 0,
+    "total_noticias": 12,
     "por_categoria": {
-      "fed_tasas": 0,
-      "mercado": 0,
+      "fed_tasas": 5,
+      "mercado": 3,
       "tech_nasdaq": 0,
       "economia": 0,
-      "earnings": 0,
-      "sentimiento": 0
+      "earnings": 1,
+      "sentimiento": 3
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "neutral",
-    "score_neto": 0,
+    "sentimiento": "bajista",
+    "score_neto": -4,
     "n_positivas": 0,
-    "n_negativas": 0,
-    "n_neutrales": 0,
-    "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
+    "n_negativas": 2,
+    "n_neutrales": 10,
+    "narrativa": "El feed muestra 0 senales positivas y 2 negativas (neto -4). Factores dominantes: Fed hawkish: rate hike presiona equities; Crash: muy negativo.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "NEUTRAL - sin sesgo dominante"
+    "veredicto": "BAJISTA a corto plazo"
   }
 }
