@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-09-14T16:33:28.457251+00:00",
+  "updated_at_utc": "2026-09-14T17:13:27.640776+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -22,56 +22,26 @@
   "noticias_por_categoria": {
     "tesla": [],
     "nvidia": [],
-    "ia_semis": [
-      {
-        "title": "AMD Expands Into Rack-Scale AI as Agentic Workloads Boost CPU Demand",
-        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOMm1EMkJZNWd1bDBUM3BfcWhkbzlDek1PVzNEZS1GbjlzRkM0VmFHWTVTcjVkaGs0MEFRX2xybDY4VWN2TlFUX2IycS1wbGswNktteW9tRnJyTGtOZnZnVW0tRlN2ckRwUU1XQVY2N25hc1MzX044X3gzSnowOXkxSUtWYndhcVRDMEhtTmc0SUs3eEUtU0NRakREbk0xeEtQNTNva2VBWlhSNlpIS3dZQUZRd3ZERzBWdk13eHVacHVFZzc4NVNj?oc=5",
-        "source": "TradingView",
-        "pubdate": "Fri, 11 Sep 2026 17:02:03 GMT",
-        "pubdate_iso": "2026-09-11T17:02:03+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      }
-    ],
-    "macro_tech": [
-      {
-        "title": "Morgan Stanley Gives Huge Stock Market Crash Warning in 30 Days",
-        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPMWlrS0NYQnV0WmtfaXFiVjM2M21wSUd6WHoxODktSTloQktWZmdZWVg5NzhpZlYwcThkeHlzSWJkUk9UTDcxaG1aZjNWNlZVQk9uRXAtLWtJY3BMLXI4elNuTjY2Q1VSMjdlRGlPOUFjWGxZMmZYVnFnZl80aVo5YVZkVmNOM3ZYdWc?oc=5",
-        "source": "CryptoRank",
-        "pubdate": "Sun, 13 Sep 2026 20:49:51 GMT",
-        "pubdate_iso": "2026-09-13T20:49:51+00:00",
-        "impacto": {
-          "direccion": "negativo",
-          "intensidad": 2,
-          "intensidad_label": "moderado",
-          "emoji": "🔴",
-          "razonamiento": "Crash: muy negativo"
-        }
-      }
-    ]
+    "ia_semis": [],
+    "macro_tech": []
   },
   "stats": {
-    "total_noticias": 2,
+    "total_noticias": 0,
     "por_categoria": {
       "tesla": 0,
       "nvidia": 0,
-      "ia_semis": 1,
-      "macro_tech": 1
+      "ia_semis": 0,
+      "macro_tech": 0
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "levemente bajista",
-    "score_neto": -2,
+    "sentimiento": "neutral",
+    "score_neto": 0,
     "n_positivas": 0,
-    "n_negativas": 1,
-    "n_neutrales": 1,
-    "narrativa": "El feed muestra 0 senales positivas y 1 negativas (neto -2). Factores dominantes: Crash: muy negativo.",
+    "n_negativas": 0,
+    "n_neutrales": 0,
+    "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "Levemente BAJISTA"
+    "veredicto": "NEUTRAL - sin sesgo dominante"
   }
 }
