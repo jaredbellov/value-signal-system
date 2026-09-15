@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-09-14T15:33:55.150521+00:00",
+  "updated_at_utc": "2026-09-15T01:05:48.625254+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "bcch_tpm": {
@@ -36,252 +36,37 @@
     }
   },
   "noticias_por_categoria": {
-    "bcch_tpm": [
-      {
-        "title": "Persistente inflación pone a prueba a la Reserva Federal y su decisión sobre tasa de interés",
-        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1STUFGU2NmMHV4aGtmVzlnNGEtSGNLWmptbDhCUFloekFOSm5SSlhjZmc1di1ucVB0VHUxR25ZOFh2ZWxmUV9DeUhwLXc3MVdNRmNoUUFjd3pmZUxnQWpPVm8wV0pBbEZzN05HeTFQN05zcEJnbEZMSNIBeEFVX3lxTE12WlRrZ3VrWVM1cjFfa0stTHJTNm5HRnV3MVptOUV3eVY3RmhCZlM0U0l5blphUGVaY21sWTBKRW02a09rSFVNMnpUNE5zN0hka3IwdFV5YS1WYzNrd3B4VEVqc1ZFMU55WEFVOC1ITG9xRGVsZ0NGUw?oc=5",
-        "source": "El Nuevo Herald",
-        "pubdate": "Sun, 13 Sep 2026 16:52:36 GMT",
-        "pubdate_iso": "2026-09-13T16:52:36+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Fed, ante una decisión crucial: mercados apuestan por alza de tasas mientras Trump presiona para evitarlas",
-        "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNXzZzYVM0N1h4bnRjSENuTkNLYktsV1FDN05KSkVZQlczYlpnWHA5Ti1aOHRZZjVEakZ3anp3NGFRWEJXc3lTZjZNUFpZZkV0TmM0eURBVVBqRTFWOE8wa1ZhTVpLWDNtWC1iYW9jN0x2c241ZHVZRUxmbTJvMjFKMllXU2hNWkdZLUFWRzFPVjhBeXNNS3ktMnpGa3EtcmRwQUlFcHRfMW82MlFVNXVXX0xmbWtTdENDcG5aYTYxcFU3VEY3R1BBdmFnLWVlZl9rTzZ0QVdidlJEdWlrWFM0NHFTZGU4QdIB6wFBVV95cUxOcmFOdHhtZl9Bdm4zdEVRcjF3ZmhycFpabXUyNzVOemREZFhUQ1FDN0Z0UC14blgxNnoyMGF2RDgxS2R2b2xzS3IxOGlvWWsxTHJpR0gwUmFBUTVueUdTZi1kNnFlNVZSMVVoZDMxcW14dVBKRlpVdkVrYXR3LVhKUklvSGlVemlPT3JOVHVkMWd4OXNxZ3NMOTFNVlJ3ZHlpYXI0cWM2ano4UHRhMUhZYlZOQUJ5a2NzYXgyd0xhUmtQNTZPMXJpMjRMbXNHU0o2bkdkYjNCMmJoYlphVTdiYzh5Rkh4Znl5a3lF?oc=5",
-        "source": "Portafolio.co",
-        "pubdate": "Sun, 13 Sep 2026 16:04:37 GMT",
-        "pubdate_iso": "2026-09-13T16:04:37+00:00",
-        "impacto": {
-          "direccion": "negativo",
-          "intensidad": 2,
-          "intensidad_label": "moderado",
-          "emoji": "🔴",
-          "razonamiento": "Alza de TPM: presion para dividenderas"
-        }
-      },
-      {
-        "title": "El BCE está endureciendo su política, pero no apueste todo a una subida de tasas de la Fed de Warsh",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZHJxQU5fcjJVSklhWUhZVE90SjBOX2Exc1J3dy16bElPdkFVQ0VLNWh5NDNvR0gxY0FNamZ1ZTk5M0pZUDR6V0ZHeFhpMEg1dFlnZlBWLWZzYmJxa0tmWHFGbXhYcEFDWmliNFFONDMzNjVyb2pXU0pNQ1VKU1dpd29uYw?oc=5",
-        "source": "Bitfinanzas",
-        "pubdate": "Fri, 11 Sep 2026 15:54:03 GMT",
-        "pubdate_iso": "2026-09-11T15:54:03+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      }
-    ],
-    "ipsa": [
-      {
-        "title": "MSCI IPSA: La Bolsa de Santiago este viernes cierra con caída marginal de 0,16% y en la semana varió -2,03%",
-        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNb2YyVzRIRXl5VzQwVGVsMlV2cGg4VHhPa1poR05EQ19YeDF2VHlEZ3lvRTFnOFpBR2dPVzhrY1VfLTRDV2hscV9qQ040eVVHVEQtY3JNT3hVc0RzY1g4YUhHRlhKeDZqRmZUUlVOZTdEbURlNDBCX2YwRmU4SE5yVGpaTEl1WDNTZXhWODkzNVhvRkVVRWptakRkZ1J5eE5CbWc1amUxd05mbVBvU1hvRzFZd3cwbm5peFJyWXlZZm10Zmp5dXdjNHI2ZmJvWFN0X0E?oc=5",
-        "source": "diarioestrategia.cl",
-        "pubdate": "Fri, 11 Sep 2026 21:48:56 GMT",
-        "pubdate_iso": "2026-09-11T21:48:56+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      }
-    ],
-    "dolar_cobre": [
-      {
-        "title": "Peso chileno hoy, 14 de septiembre: a cuánto cotiza y qué marcan las pizarras este lunes",
-        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOM1dVbXFvLWZVaHQ0MjZHOGhTLU5najRmU3NBcmtXRmxqbG5KcURiYjdvMl9oaEI5WUJIS01VZUZTcy1sYktIUjdGbUJxampXa29XcXNuZjk1Zy1XN1FpVXpKNGdlc3ExUjlES05GR0s5S2cybXpyd1VJMEVtcE1VMjBibVBTb3dpSGd1dHFQRVpYTHRTNDlONDlpNEpiZ0d2QUM4YmNUZEk1VGNOenlJQkJoWUtudi1PeTZiRWdobGdNS2xVc3RzWlFhZkjSAdQBQVVfeXFMTXQ3M29BN3ZjVTFCVG5JRGpYcDFEZXFOZ2pGYjFoX2xIdkhDaDZHeW1MLTNSWHp6THBQUE5mZmJpd1NpeGtMTWFFZWxPQ1V2d2s4bnQ5NVpGVzdpVWpIeUJGeHNMSGFBWmJhbzl2VUp1b2JOcDk3MnhhaGdrY3pUc255dUZ3MWhOcGU0Slp5QmRUSE1mcnFrc1FaZ29UXzZGTTlFUDRScE0zXzZyYXBCZGxQT1pSTVA5ejZ4N0lYTXF1V0I5aFBhS2ZuVWhYcS1nVDhVN0E?oc=5",
-        "source": "Diario Río Negro",
-        "pubdate": "Mon, 14 Sep 2026 13:36:39 GMT",
-        "pubdate_iso": "2026-09-14T13:36:39+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Perú, Chile y Argentina aún no están listos para la demanda de cobre mundial de los próximos años",
-        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRUUwNE9mQ3VSMUpmZVdaNUsyYXAyLXRaM0hEc3I2dzNDQkUwMHVaTmhxSzZQWlpzNEMzMzJxQ0cyaFdNX3BhdGxHbHoxM2EwbS14eUFQZDZCNW1kdm4xMHhSZWZ3QWpvV3ppZzZjSkZXVnI1M2V3WUNJRXFaRmN6bmpiY1h0NDR5NnpySnY1bUthcWV1ZHdXejMwLW54MXVfYkVWNWtSLXVsNzBmbXdFaUlyckxUcXU3OEYySkRMQjZCdw?oc=5",
-        "source": "Editorial RN",
-        "pubdate": "Mon, 14 Sep 2026 12:11:05 GMT",
-        "pubdate_iso": "2026-09-14T12:11:05+00:00",
-        "impacto": {
-          "direccion": "positivo",
-          "intensidad": 2,
-          "intensidad_label": "moderado",
-          "emoji": "🟢",
-          "razonamiento": "Demanda de cobre: viento a favor"
-        }
-      },
-      {
-        "title": "Precio del dólar hoy en Chile: cotización de apertura del 14 de septiembre",
-        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNLWVnbDZXQVJIc3hGQ0pmLUlDc1NDOXVKMzAxaGRJN3BnWW5CYzFna3NYT0ZfdW5JZjBUVVR3cVpndV8ybXhTdG1ab1poZXI3YUJLQjV6U001UUVnZW9JV2dlanhMRUxCeWktbzFhSkNaTmc4NVZOb0lraEE4UG9saW5rWlNKNGwtVXd6MjhSeUdYNXZYb0hsaTQ3Mmd0VHRsaTExWEtVWi0ybGZ3ZGNieEpWc09wbVMtdUHSAdQBQVVfeXFMTVRPakNKN3ZVRTlOOGh4RzNoMXdwSkpTTzR2YXcwWlVLcGd2WllacmNzZER6cUZ3R01BWnVuak5mUFJiUFdTWWd4Z1o4SWotYl9peVRFMTU5bGJXYTI0ekotX1BzWHR3VUFRaGNQZlpzbmN1aFJiQ0FIUXptdkxpXzV6Qk44NTFlZFRsQnZaOGtYbzdSQjB1dU9IeUlWMl9YZEdyNExlWUphWFR5VThheDFjLXE0N0pjaFVUdFVXV2ZySV9VVzhzSWFUc3dhQ1FGelFvdkY?oc=5",
-        "source": "Infobae",
-        "pubdate": "Mon, 14 Sep 2026 11:36:43 GMT",
-        "pubdate_iso": "2026-09-14T11:36:43+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "ROQUE BENAVIDES: “EL PERÚ LIDERA EN PROYECTOS DE COBRE EN EL MUNDO Y DEBEMOS PONERLOS EN VALOR”",
-        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMk1MNlhxZ1ZQUmxDMERLZzNlbkhoSngyUDZQejQxS1JmVHlybzVWN2JVdEJpZW4wQjFsTS1naG1ic08waHhaTWVISDVQd3VuZ3NrdU9VVGdoR25OT1NKRzI1NXU4NGdTOTNDd25NR3FLaTVWTFRwUnRxVWpoUHM5YWRmd1hKTmlmN09YUUlOdG1rcHY3WDBjUWNsRFhsOHNQN3F3VGxHTWIySTFORG9BQXR1dXpVMkQx?oc=5",
-        "source": "RCR Peru",
-        "pubdate": "Sat, 12 Sep 2026 19:04:54 GMT",
-        "pubdate_iso": "2026-09-12T19:04:54+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      }
-    ],
-    "economia_chile": [
-      {
-        "title": "Anatomía Económica de Septiembre: El Dieciocho que Reconfigura el Consumo Chileno",
-        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPRGJIVjVQd1dCZjMxU0dlRGtaY05LcXAtZTRtWGRmYnB0ZjcyaW5VU0doc1UycWtXd1h1d0tDNklrenpaVW1mZFhEQmp1ZlNLWktnOUxzalpfelBuUWVhQ2JpWS1lVkVEQnVUWHdoWl9DOFZYZ185dURDZkhXYThkTmp5S3Vxd1l6RUlsZms0aGVnS3BDWnJIa0RlUTUxeEdBVDZDd3JuQ2lvQzd4czYxOEc2SFpPdDRBWGhwb3F0dVlyQQ?oc=5",
-        "source": "elmartutino.cl",
-        "pubdate": "Mon, 14 Sep 2026 13:45:03 GMT",
-        "pubdate_iso": "2026-09-14T13:45:03+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Presidente Kast descarta calificar de \"crítica\" la economía pese al bajo crecimiento y defiende señales para la inversión",
-        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxORlJxU01rOUw0YnhVRFd3cGxCRGt0Z2NWcGdYUkZqUnhnYlc1cV9wTGhua0JFcUNQbWllWDR3bHlVMHJIYzhzZlpucVJWLXNVNTNTeEtJNXV5WDFaTUVxSnZYWDJ1QWlSVFdjY0NDTzRtVEp4Z1pkdFA3aFMwWVRZNXRqMXRaQTdoaHM4Y1RCaUdjZ3hYMkpKZDBVY1MtMGR5cU03OUtXTG1iUQ?oc=5",
-        "source": "Puranoticia.cl",
-        "pubdate": "Mon, 14 Sep 2026 12:13:00 GMT",
-        "pubdate_iso": "2026-09-14T12:13:00+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Hoja de Ruta: Sebastián Izquierdo analiza los desafíos que enfrenta la economía chilena",
-        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxORXEwZHZKZnQ4VlN4eWRkdGJ1WmJjVS03QWZjMEJwOGtmbFpjOER1YUtuajJmc0ZXNUkzcWg0NDJHdHQ4aklQemVRYXJFLXlzVFJpRGVXd3NSZlR4cFVJc2o1QUJKUy1taV9WejZJellHWF92X0hMN2VBNFhOQlJadk40RU1iV0hONkJybzBCMGlOUTdISjkwdlhMSnk2TVNBVXJQemJuZ0VCTU13VEctZDJDaldwUXJKTkE?oc=5",
-        "source": "Radio Agricultura",
-        "pubdate": "Sun, 13 Sep 2026 19:45:13 GMT",
-        "pubdate_iso": "2026-09-13T19:45:13+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "La meta del 6,5%",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA4TGtpQ1M3TU41TWl4UU9zX2p3SmxIVU1MOWx4RTlWR0hGdUpTQlhMeC1YaUdRSTdxYmpSeGNZOHFmOGowYVFuQXF3OUdWclVWZ3Yza04zZUl2Nl9NYUpYMjlacEt4cmF00gGKAUFVX3lxTE1MZXJpMVJOSUhjUXJ0eE0zeVZ1Ul9DQ1FGWDlFeUV6UjVqSkJYek0zNXpEczJwdk1KMVJVWmV2c2VCWXR3MVZqSXJmR0tuZlBSTGlIMXRULUdTbWN2b0VVdUdQWGhnbEVyOC1ydExlT1pYaFd2akJDRkZkNTlaQlBQNDJ2SGFGcm5EZw?oc=5",
-        "source": "La Tercera",
-        "pubdate": "Sat, 12 Sep 2026 10:15:52 GMT",
-        "pubdate_iso": "2026-09-12T10:15:52+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Klaus Schmidt-Hebbel: “El crecimiento de este año será muy mediocre por la herencia de Boric y los shocks negativos de oferta y demanda”",
-        "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOOFZ2WlhzdVRLZWl5VXpJS29yeEtnNEVycEZ3SV9LMmJlalFJbXN5eERIVkdtZUhkaWhBeFAtYUpoVzhQMVRYdTUtOG43b0tfbkl0TVZpZmU3UDQyRFhqT3ZyLTRkRjBxSG1YXzBnZHJ0MXFXcnlNVHVsclpVQ2ZaTGtjQnpacHFvaXhZbG51Y0xScXI5RWRVNU9zczBUbzFVSjRJRVliRFRwLW10Y2dPdUx4Qmo2eWxabDQyOG1heGxZUnZxSzZhVnNVUWJDNmFEVTJmRG92b0VvdlRCenlxemtheVpMWnlVRDM2dW1UZWJwMmxNNGxVZ3o1ZXEybDhBeTFKQtIBpgJBVV95cUxPbnZjNlA2YTJYaEwzWUFCaDBTb0VZTHA4U1FlWHRKM1lQamFTRGo2TFZEX3RHRFlCZlBoeHFNRzMxZlRBRmdpZkR3dG94SVZNa1hSTXFoaTV2QjhrSm9Xa1RGWlExUk14R1MwSDFRbmtMdnJUZnJuSG52R1pzWnc0VDlhZ1I5SGpaTHZOM2xWY29FbVZGMmpsYUZBYVA1UTBSUkhhX2VLNkxBeUlRdDNnaHZoX25FaXd0enBzcHlfV0RxLTl2V1MxX0VkLXJrQWFrbnhLcWhhamxzb2Qtb3hzUnhpdklYY2t0OUViNkJ3Y3VlM1FvWUduZGdhRVplaS1OMWFWMzFHMF92ZFZJLTJfNlRJeGZLeDJZdTBNNGNxT25oaF9Na2c?oc=5",
-        "source": "La Tercera",
-        "pubdate": "Sat, 12 Sep 2026 10:00:00 GMT",
-        "pubdate_iso": "2026-09-12T10:00:00+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      }
-    ],
+    "bcch_tpm": [],
+    "ipsa": [],
+    "dolar_cobre": [],
+    "economia_chile": [],
     "politica_regulacion": [],
     "pensiones_afp": [],
     "energia_tarifas": [],
-    "sectores_watchlist": [
-      {
-        "title": "Cenco Malls celebra más de 10 años de Mercado Emprende impulsando el talento y emprendimiento local en Chile, Perú, Colombia y Argentina",
-        "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNVjR4dElVc3RVbVZDMzFyWlZPRWZaMlhRQzBMWU9aM25ROGFPVzR1cUN1M0thUjhYNWdFd0thcm9UdXdaR2g1cjc1RlBUTENRTXRvbWpxcHd3cjBsdVhLdGMtc3JsTnRoT0hRU2xIWmFyYlJjMHd4alc5X29qQ1NEbzgtQXo1T1RVd3hUNXNDazRYeW95TjZfUDRvV1NpUXJZejZFUjA1OGpjSGZNcnY2OFNSTU1obHNXM0l2azRjYW53aGoyNm5iQ0VoV0xnWDV4NTFFSXBLM0p1Z0NacmgxVmhCaXhVNWV5OUJqTXZwQjRpXzgwNEtwcGVLSFN1R2FmQmRXQ01tZ3RTbDBWVU5BVFJpWjXSAbYCQVVfeXFMTWlVR05RdkRPUEh3S29lOWFMY1NSQXdqdVpVRnpHc21UVnI1bEFQbXZkemRISHh5XzkzWGhUZndfNG5pN2xKVFR4cFRzTVdWVklWMl9jU0FrRlNUMzZMbVZmV1Z2d3l6UUxvQmV0SWtJVmdLUzdsVEpsOW1MemFTZDB4X0dod29ZXzFsTXhaTU5LMmJydVBGS2IwSEctOHBUQ2pFTGhIRURVRjU3ZTk0RVVjRW5nX2NwblZOQWNTRFREQTZuUzFOZWZLbko1X05BUVBLOTVuNno0RGI4SGRVLXgtVDFBeENESW9vY0ttYU5PNnJGMlZ5NkV6YVQ0b0ViaExtQVU5eWVwQUk5YURFWkNQNUxTZmJhOUh2UEl6cGV6NGY1SzRjMnltSHJTeWtNQ096Q2Rxdw?oc=5",
-        "source": "La Tercera",
-        "pubdate": "Mon, 14 Sep 2026 14:30:18 GMT",
-        "pubdate_iso": "2026-09-14T14:30:18+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Lagarto exótico fue encontrado en bodegas del Recinto Amurallado de Zofri - soy-chile.cl",
-        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUEozSmh6R3l3UDlBY0ZwWHVXRzBZWjlCLVU1TTF4aENfQ0tieHhYZkFla082LTVpLXdxQUpTSVJ3UEhNTmcyYksyZFo4aE9MeVdBYnhJUnpxbFlxdzNoMmVhUjR3SXBjVUpTTzJ5c2E1c1FzYTYzcWtoYWY2RUxudEhoTkJwUHNIWXpvOHNfel9pMFBvZVlEX2pDbFhtSjgtd3R6OERB?oc=5",
-        "source": "soy-chile.cl",
-        "pubdate": "Fri, 11 Sep 2026 18:55:54 GMT",
-        "pubdate_iso": "2026-09-11T18:55:54+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      }
-    ]
+    "sectores_watchlist": []
   },
   "hechos_esenciales_por_ticker": {},
   "stats": {
-    "total_noticias": 15,
+    "total_noticias": 0,
     "por_categoria": {
-      "bcch_tpm": 3,
-      "ipsa": 1,
-      "dolar_cobre": 4,
-      "economia_chile": 5,
+      "bcch_tpm": 0,
+      "ipsa": 0,
+      "dolar_cobre": 0,
+      "economia_chile": 0,
       "politica_regulacion": 0,
       "pensiones_afp": 0,
       "energia_tarifas": 0,
-      "sectores_watchlist": 2
+      "sectores_watchlist": 0
     },
     "hechos_esenciales": 0
   },
   "resumen_ejecutivo": {
     "sentimiento": "neutral",
     "score_neto": 0,
-    "n_positivas": 1,
-    "n_negativas": 1,
-    "n_neutrales": 13,
-    "narrativa": "El feed muestra 1 senales positivas y 1 negativas (neto +0). Factores dominantes: Alza de TPM: presion para dividenderas; Demanda de cobre: viento a favor.",
+    "n_positivas": 0,
+    "n_negativas": 0,
+    "n_neutrales": 0,
+    "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
     "narrativa_fuente": "plantilla",
     "veredicto": "NEUTRAL - sin sesgo dominante"
   }
