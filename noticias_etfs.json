@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-09-16T01:26:57.252419+00:00",
+  "updated_at_utc": "2026-09-16T12:56:08.130080+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "fed_tasas": {
@@ -28,219 +28,32 @@
     }
   },
   "noticias_por_categoria": {
-    "fed_tasas": [
-      {
-        "title": "Bitcoin Drops Below $77K Ahead Of Potential Fed Rate Hike – CLARITY Act Vote Set To Add Crypto Volatility, Says Analyst",
-        "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNM0RMMWxFaDNqOVBycEpZc0pJMlh3VXV5UTRtc3lYdkdfeG9aMlFONU03cWI4eS1HU3h1bGo0cXlGLTJWQUdndWtxQ2VUZmMwNjBsVzVhakc0MkRQLWJXZVp6TEhwVWFkc2ZkVGNSNDk1ZUZ4OExWRFFmbmlLOXhlclNNQ0hOQmIxOGZsTXcwYlJySTVBVHNQeGlmQ1Zlb0haeXFkOVBkdXlVQmRRRlFyV1ZrczloU0ZEZGtFYjVpT1ozRm1nUjY3VFpWdXkxVUtodVFCUHgtNjViZ1lGVzQzN1Y1b0NKMmFzZ3JqVzY3V2twaFNXX1BJV1d4VGlpZ2x5MXl4U2hB?oc=5",
-        "source": "TradingView",
-        "pubdate": "Tue, 15 Sep 2026 17:51:45 GMT",
-        "pubdate_iso": "2026-09-15T17:51:45+00:00",
-        "impacto": {
-          "direccion": "negativo",
-          "intensidad": 2,
-          "intensidad_label": "moderado",
-          "emoji": "🔴",
-          "razonamiento": "Fed hawkish: rate hike presiona equities"
-        }
-      },
-      {
-        "title": "Swarmer Stock Plunges Tuesday: What's Driving the Action?",
-        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTXppUEtDYzFleHEwRHcybzZRYkRVZFREZ04yZDVoM3ViSHFfN3lpMkZTYTlHbVByejVGMW1mZnM2LVNGQS1xX0RmWWV4eDVyT2NqaGQ4emFvQWM2d1FGOHRpSzJVWlkwMHBDcmRJTEZXWkFKT18zR3JIUEl5NWVMU2NvZno2UmJORFpmSU9udnpzREVQbUVnTEpFMWdWWlpsNWluWmV2VktaZGlQNWs1WmtJVQ?oc=5",
-        "source": "TradingView",
-        "pubdate": "Tue, 15 Sep 2026 16:29:42 GMT",
-        "pubdate_iso": "2026-09-15T16:29:42+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "US stocks fall as 10-year yield hits highest level since 2007",
-        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORlFhTExSVll1Zm5HckE2Rk56bXAzZ3kwS2VHT3lHWnpvRjJTWWNlUU1nNS16YjhmSkZDNmhncGo0MDdLUlR6MXp3bUZ5dV9BNlFmV2hKOElka3l0S3RacFFIV29TQ0JrQ2I5RnJGY2MxaFZqS2RTWUVHUHJ1LTQyR2FmU2t3S0ktWnpDeUdKeThlcFBmODR3SkJxNFE0c19jd1BWSnBNYl83NUpYMjVjM05jZjhIOGxNR2ppY0hlRWI?oc=5",
-        "source": "TradingView",
-        "pubdate": "Tue, 15 Sep 2026 13:57:20 GMT",
-        "pubdate_iso": "2026-09-15T13:57:20+00:00",
-        "impacto": {
-          "direccion": "negativo",
-          "intensidad": 2,
-          "intensidad_label": "moderado",
-          "emoji": "🔴",
-          "razonamiento": "Acciones a la baja"
-        }
-      },
-      {
-        "title": "La Reserva Federal define la tasa bajo presión: qué espera el mercado y cómo puede impactar en la Argentina",
-        "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQOVRHRlhuaGEzcFBpVGl3MmtIUDVOaF95YXNNMExJNjhSLXBMU3hRREFGMHg3YmgxRW9yR0wtNlpfeEpWcVdBS201TkQ4R0NBS1ctSmtGamVlckRTODhiY3pTOW1ZRC1PTnJHUHY4QWszdTlhcXV2NkhvVUpqeHEzdzlLZDB6RU9iTVZ6NmJBYVVpVDNRVVl1cnpEOWppZXhfSWNPZGNibXVMdWdWNzdMTXk5Y3NqQ1U3VDNkNFZoWUhoY0R1aGlMZFZGTHFYVkNINnFmWEcxQ0FYcnlsUG9DT2tzeV9OcXdv0gHuAUFVX3lxTFBMcmpCY0JxeC1xQTl5VjZ4a1pWV1VDVmNVcGxDajZITDJvZGRBVmg4QjlmcnRyM1dTQXY2Wi1vck92bFZ6dW1XRkxZU1habnpFOFVMZ3I1QnN4T0plVHlDNHZNbUlTaFFBMGJHVlpvVXVKUXNkeWxja3U3alpzTzRRdGdDeGowYWVqSjN6ZS05THhkTXZqZFZKbVZwSkpZQlgwR01nUDVTdHYxLXZrZnVCeGhmRWZ3djJCbF9WXzh4Z3I1YWJpc2NaMGFndGlpMl8zNzNUUDAzSDd5N1JxVXo0enZqUGdNclVYRUNTbnc?oc=5",
-        "source": "perfil.com",
-        "pubdate": "Tue, 15 Sep 2026 11:59:04 GMT",
-        "pubdate_iso": "2026-09-15T11:59:04+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Canadian Dollar languishes near 0.8200 as Fed tightening bets buoy US Dollar",
-        "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOM01Kand6M1F1VTlZdmdvQmU5S1RrUXl3UTd1QUJEYmp2S3YtNi1hUl8xV3hWVWppTWNFSnBFeTVOYzZGczNjdkJJaWhSUGtXcHNyYzBVNmN6QmVDM1B4ODYtbElJUkV0bFJjaXpCdlBJQzByaG9RSEM1NUNhU2dWdlVmYm5SbUpwQnFhc2FWTkx6eEtHTThlY3dETHhGT2xhay00Y2h5endxYVB1ZzkwWDJFdC1wdG5RcklRRWVramtWNTNVTHd0YW9KeERoeVFJWU1ONUlwejk?oc=5",
-        "source": "tmgm.com",
-        "pubdate": "Tue, 15 Sep 2026 09:32:05 GMT",
-        "pubdate_iso": "2026-09-15T09:32:05+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      }
-    ],
-    "mercado": [
-      {
-        "title": "Wall Street cierra en rojo, con el foco puesto en la Fed, la subida del crudo y los bonos",
-        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNaUlVQ2YxZVpQX1VIT3B6eWhpNmtZQTZQakpCU2NXM18xemMxREtRQ1kweDJwUkxGWFFSRjBkd2N6SGwtbTlMaHRIYUxPUGItdFR3ME5TUVJQdkg5TFFSV3cyVklGMEkyWlJmRDNmOHRHeV9qNnJxdnpBWUxaMVN1LXRLQ2hPQ2VuRk5YNW9YRVNRXzY4TnF6Rm5vclB1N3Q0WUd3aHJobTVEQmJDTE83T0hGSzVzcnlXRXBFVXJ5elNMc1BrZnBj?oc=5",
-        "source": "AlbertoNews",
-        "pubdate": "Tue, 15 Sep 2026 20:43:56 GMT",
-        "pubdate_iso": "2026-09-15T20:43:56+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "FEMSA comprará sus acciones en Estados Unidos",
-        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSl9jdnFwd0lUdFVlOWlmc08xVUxGaVk3SXVmT2UxRVhsVC1LZmxQVWM1aVM4STZQOUZlTHhxUktLMXlCMDZCRVN4TFBDWWVfTUU4VUZzendlNUZpU1Vmd2FWSWFrdDV5YkJsR2xKcnN1b0Vpc2ZYOUZJZUx1d3dBcGlqRC0tWGxVMTQzQ2FNNHdTcDBsZEE?oc=5",
-        "source": "Yahoo",
-        "pubdate": "Tue, 15 Sep 2026 03:17:36 GMT",
-        "pubdate_iso": "2026-09-15T03:17:36+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      }
-    ],
-    "tech_nasdaq": [
-      {
-        "title": "AI warnings knock Nasdaq futures, pressure tech stocks",
-        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOU0NyMXRyYTYxS1NtdnNZMHFBRXVuWlZEQU5xbnRjdGZCcmxqYmNMVzFGb2NWcHluUlp0N0t5QXJVbWtGaEVDRHl0eE5Zazc5VmlEajBJVElUQmQtbnNlZW05V1dMdkFpeTBUTFRjWU9fZEswa3lTQ012T1FqRzNVdHZ4aUZUOEh5clNLa0ktSWQ4VlJwajM0ejAtQl9MLW9zdTRLMjJuLVktellDT1dFWm1SdzRsb044bEZ0N1Raaw?oc=5",
-        "source": "TradingView",
-        "pubdate": "Mon, 14 Sep 2026 09:13:54 GMT",
-        "pubdate_iso": "2026-09-14T09:13:54+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      }
-    ],
+    "fed_tasas": [],
+    "mercado": [],
+    "tech_nasdaq": [],
     "economia": [],
-    "earnings": [
-      {
-        "title": "Solana Price Prediction: Record Revenue Meets a Warning Sign — Which One Wins?",
-        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbUh6SEh1SGVNUTRhdXFRb09JdDhBdGV2Znp3TFNCZU5zMmh0ZFhWXzlwMGs1czhSZ2I1WUtVUm9KQVN5bXlXTGFtdnpMZVBCNHB0ODdiaUVVcG8xZTBqRVJhdk1ZTGI3WFBQWFFHcC0xZEdfcW40aGFwNWZ0djlDbDVaRWF5SUVzSHdCWWs3MDlFZnpHU2FGT1Z5elQzbTdqb2QyRHVaNG1SakhseWZHZFpWNmc0dw?oc=5",
-        "source": "CryptoRank",
-        "pubdate": "Tue, 15 Sep 2026 00:00:00 GMT",
-        "pubdate_iso": "2026-09-15T00:00:00+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      }
-    ],
-    "sentimiento": [
-      {
-        "title": "Platense vs Fluminense Prediction, Betting Tips, Lineups & Odds | 15 Sep 2026",
-        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRVItWGUySGdFa21kSFI4WFNNNDNjRU5Kb290dmpLYjM5VTRyZVFtN0ZfNmUyYXBSSVkwRlYwbUw3c3FBQVNicnFkYVNpLWtqSVpHTzFIWXgxMVpZcmpUa1oyYVNmNDJwdlVmXzg1eFlueHR6Z21pUzVyM1h2OURtYlM5eFQxajQ0RXNmbXUzQ1JBU1liM0w1Wmp3OUEtTjhuOWM4X0pWQ2ZuN1ZxWmtV?oc=5",
-        "source": "Sportsgambler",
-        "pubdate": "Mon, 14 Sep 2026 04:31:22 GMT",
-        "pubdate_iso": "2026-09-14T04:31:22+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Bitcoin, Ethereum, XRP, Dogecoin Dip as Senate Prepares to Vote on CLARITY: Analyst Sees BTC Rallying to $90,000, but Only If...",
-        "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQSVExdVExcFoyN1pvQUh5R2xBcUUxQldlZEJ4TUF0REJtUVItRURGR2tKYkRpYVZ0RjhxSDB5NmZQSUlxTEZTWGxkVXF2aDJuUDZZaTZiZVQ5d3N3M1B2ODVaMGtUbF93MkdTSmlobmRlX0oyOVNSMUtOaGRPWTgtMlpIblpiUENuSG9yRmNjTlJDanNCa2dkaEttdFhaQ201UTgzOWN6QjNaYjZJdWtXMzk4R2Yzel85aHdKUW1McktCZG1oeU5CV05TOHBwMk1ua0RlRl9ZQU5fQ0FudzJsekRlX1Vmb1Yxb2Y4a1oyTFd3RVprR2tfQUNsRER1UGthbGFoZTdDVTQ?oc=5",
-        "source": "TradingView",
-        "pubdate": "Mon, 14 Sep 2026 01:50:00 GMT",
-        "pubdate_iso": "2026-09-14T01:50:00+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Morgan Stanley Gives Huge Stock Market Crash Warning in 30 Days",
-        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPMWlrS0NYQnV0WmtfaXFiVjM2M21wSUd6WHoxODktSTloQktWZmdZWVg5NzhpZlYwcThkeHlzSWJkUk9UTDcxaG1aZjNWNlZVQk9uRXAtLWtJY3BMLXI4elNuTjY2Q1VSMjdlRGlPOUFjWGxZMmZYVnFnZl80aVo5YVZkVmNOM3ZYdWc?oc=5",
-        "source": "CryptoRank",
-        "pubdate": "Sun, 13 Sep 2026 20:49:51 GMT",
-        "pubdate_iso": "2026-09-13T20:49:51+00:00",
-        "impacto": {
-          "direccion": "negativo",
-          "intensidad": 2,
-          "intensidad_label": "moderado",
-          "emoji": "🔴",
-          "razonamiento": "Crash: muy negativo"
-        }
-      },
-      {
-        "title": "Sensex, Nifty prediction for Tuesday: NSE, BSE closed tomorrow on Ganesha Chaturthi - Outlook for stock market 15th Sept",
-        "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNM1FvVUs0R05sRWt1X1htZWxVclN3RFY5RV9FanlSVzZFNGNNNjJmLTFKek5IeGxXX3g4c3VxMDdUTmJ6MXBhSktlcHV5UjlfLWlMMjdhUTVYc213bnpMcF9GOXFvRm5yZUt2S0EzcWlRa1FFRFBkYVJBcWMtSTdGTWx2Sld6NkhLcGVPVVZ6QjVJM2poQ2dUbHR2bVZ0ZHloYjJsdjNCTml1eGlVbmg5SGdGem9TNkluaUNaZHNwNTZCNDh2SXJmVGRVdEEwTWVjT2tQLXQwRHRaUzZLT0x6bjlObnRrMkxQaGRwTzRfVWgwVm1yU3NYYVBqTC1NV3NN?oc=5",
-        "source": "TradingView",
-        "pubdate": "Sun, 13 Sep 2026 08:19:12 GMT",
-        "pubdate_iso": "2026-09-13T08:19:12+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      }
-    ]
+    "earnings": [],
+    "sentimiento": []
   },
   "stats": {
-    "total_noticias": 13,
+    "total_noticias": 0,
     "por_categoria": {
-      "fed_tasas": 5,
-      "mercado": 2,
-      "tech_nasdaq": 1,
+      "fed_tasas": 0,
+      "mercado": 0,
+      "tech_nasdaq": 0,
       "economia": 0,
-      "earnings": 1,
-      "sentimiento": 4
+      "earnings": 0,
+      "sentimiento": 0
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "bajista",
-    "score_neto": -6,
+    "sentimiento": "neutral",
+    "score_neto": 0,
     "n_positivas": 0,
-    "n_negativas": 3,
-    "n_neutrales": 10,
-    "narrativa": "El feed muestra 0 senales positivas y 3 negativas (neto -6). Factores dominantes: Fed hawkish: rate hike presiona equities; Acciones a la baja.",
+    "n_negativas": 0,
+    "n_neutrales": 0,
+    "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "BAJISTA a corto plazo"
+    "veredicto": "NEUTRAL - sin sesgo dominante"
   }
 }
