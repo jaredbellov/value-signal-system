@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-09-17T05:03:24.530831+00:00",
+  "updated_at_utc": "2026-09-17T05:33:24.680712+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -23,6 +23,20 @@
     "tesla": [],
     "nvidia": [],
     "ia_semis": [
+      {
+        "title": "Bank of America Makes Massive Call on AI Chip Market",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOczBiVVRRVUZRRno1SzJOSG03anp3eFU4Snk2OE9LcmV2b2pveDhrbWp6dzZVUGVnZVB6NWZCSW5rcTktclFIem5jeHhCZ0tIOWZmbnlxbHRaYlBsZmxMcWxXdjZEN2RBZmZ6OXc5UDJYRUNPeTV6WjY3a1FrbmZpRWllZDhBT2JjZE5ueHhaUWdNQm5sT0U4eEVVRjJwZDdVZ3ZQeXpQbHlaMUJ4V0J6NA?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 16 Sep 2026 18:43:26 GMT",
+        "pubdate_iso": "2026-09-16T18:43:26+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
       {
         "title": "Bank of Korea Says the AI Chip Trade Is Now a Financial Stability Problem",
         "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNSE83OExvTFBseUdScnc3U3lFN1hhamowdDBHUUNsNkhOZlJUZ2FOQ21aR002SEFEU2VaS2FKR19mcXl6SFlTX0ZkdzR4M3g4WWRTQ1hGSl94a0VFekYybkJGMUVXRzl1c0FQWl9tbHpKLXY4ajJCSFh5N1ZZc3E0RWw3TzdLNnJXRFNaeg?oc=5",
@@ -126,11 +140,11 @@
     ]
   },
   "stats": {
-    "total_noticias": 7,
+    "total_noticias": 8,
     "por_categoria": {
       "tesla": 0,
       "nvidia": 0,
-      "ia_semis": 2,
+      "ia_semis": 3,
       "macro_tech": 5
     }
   },
@@ -139,7 +153,7 @@
     "score_neto": -4,
     "n_positivas": 0,
     "n_negativas": 2,
-    "n_neutrales": 5,
+    "n_neutrales": 6,
     "narrativa": "El feed muestra 0 senales positivas y 2 negativas (neto -4). Factores dominantes: Acciones caen; Fed hawkish: rate hike presiona equities.",
     "narrativa_fuente": "plantilla",
     "veredicto": "BAJISTA a corto plazo"
