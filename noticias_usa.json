@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-09-17T06:33:37.415108+00:00",
+  "updated_at_utc": "2026-09-17T07:03:26.814884+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -21,12 +21,27 @@
   },
   "noticias_por_categoria": {
     "tesla": [],
-    "nvidia": [],
+    "nvidia": [
+      {
+        "title": "SoundHound vs. NVIDIA After Earnings: Which AI Stock to Buy Now?",
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObTFqa0l5ZmpsSU41Z2FaRm56bXhzSGY3TkQ3OU5zUTJFNVhub3FEcEE4R3ZVaDR6NUpvQ3VLVHp5R2EzbHMwYjlJaGgzSFdlZUpjYkp5a0xDYUNQaUlsZ2NWTE1LQ19lR2NLUk5rZHRLQVVxa2RURlowdHd5ZXZhTFRPTXJ3eVRoSWNMaktXWXJtQlRUOGhRNTlaSUM5TVM2eFg0dVd0bkx3bG5JekgxWmF3U1l0aXM?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 16 Sep 2026 19:00:00 GMT",
+        "pubdate_iso": "2026-09-16T19:00:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
     "ia_semis": [
       {
         "title": "Bank of America Makes Massive Call on AI Chip Market",
         "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOczBiVVRRVUZRRno1SzJOSG03anp3eFU4Snk2OE9LcmV2b2pveDhrbWp6dzZVUGVnZVB6NWZCSW5rcTktclFIem5jeHhCZ0tIOWZmbnlxbHRaYlBsZmxMcWxXdjZEN2RBZmZ6OXc5UDJYRUNPeTV6WjY3a1FrbmZpRWllZDhBT2JjZE5ueHhaUWdNQm5sT0U4eEVVRjJwZDdVZ3ZQeXpQbHlaMUJ4V0J6NA?oc=5",
-        "source": "es.tradingview.com",
+        "source": "TradingView",
         "pubdate": "Wed, 16 Sep 2026 18:43:26 GMT",
         "pubdate_iso": "2026-09-16T18:43:26+00:00",
         "impacto": {
@@ -54,7 +69,7 @@
       {
         "title": "USAR, MP, UUUU, CRML Stocks Drop Overnight: Why China's Threat To Scrap Trump-Xi Summit Matters",
         "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxObkF1ZDJmN1VjZFRUaGEwbnEydnBQN2hVSk5jOFVjb184bWNHbm9QVDRmRGxxVFhJeE9pMXI0Q0YzbEJjNDI4ZGRUa05qN3B4ZEJ3VFA1czVrMUlYNjJTTjZVanVDUERzQmJSRHJ5dWZhY3pIS19UMkk4ZWFEaWFuemdBMGR2dzJJTEp2UHBBY3Z0ZWdUWVRadV84TERFdlZhN1NhUW0tZGRZdlpqUlpyb0RfYXFoTmV5Qmh2TkFtRGo0Y0Jwc01UOFpnRk1PR2F1SEJ0QW9CWldaUk9IQ3llVjR2ZkVvdw?oc=5",
-        "source": "es.tradingview.com",
+        "source": "TradingView",
         "pubdate": "Mon, 14 Sep 2026 07:18:42 GMT",
         "pubdate_iso": "2026-09-14T07:18:42+00:00",
         "impacto": {
@@ -84,7 +99,7 @@
       {
         "title": "Stock Market prediction tomorrow: Sensex, Nifty outlook for Thu | Kospi, Taiwan Index, Nikkei cues to watch | 17 Sept",
         "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPa2VKU1JNMVlxVkFLbG9OQ3NZSENxY1lFaGc3RXlOdEc5RXdhUnF4ZjV1NjNtODk0eUJtVU1IMS1sQ2J0RXhRWnlnRjVDLWdsdGZzc2wtNUpyemxhS3JSa3p2UWluQnhGY2s4RndrcUFSY29xaDRrS1BuSkN1dld2ZENSWGF6MTd4NjlHVXp4SWNJb3prazBJc3lDM0x3ZjZkeDl0a0RLajlscUNzeXdlbFVZODV0QU9zRzFxalllRTlwU1llSnZJN2JhVnA1NEVwS29tem1kT01uYjdBdHVCY1hKSWtEbExmUTJrX0wwUEwwanVUUHdaNg?oc=5",
-        "source": "es.tradingview.com",
+        "source": "TradingView",
         "pubdate": "Wed, 16 Sep 2026 19:02:39 GMT",
         "pubdate_iso": "2026-09-16T19:02:39+00:00",
         "impacto": {
@@ -140,10 +155,10 @@
     ]
   },
   "stats": {
-    "total_noticias": 8,
+    "total_noticias": 9,
     "por_categoria": {
       "tesla": 0,
-      "nvidia": 0,
+      "nvidia": 1,
       "ia_semis": 3,
       "macro_tech": 5
     }
@@ -153,7 +168,7 @@
     "score_neto": -4,
     "n_positivas": 0,
     "n_negativas": 2,
-    "n_neutrales": 6,
+    "n_neutrales": 7,
     "narrativa": "El feed muestra 0 senales positivas y 2 negativas (neto -4). Factores dominantes: Acciones caen; Fed hawkish: rate hike presiona equities.",
     "narrativa_fuente": "plantilla",
     "veredicto": "BAJISTA a corto plazo"
