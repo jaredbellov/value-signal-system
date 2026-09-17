@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-09-17T13:33:28.138302+00:00",
+  "updated_at_utc": "2026-09-17T14:03:29.045601+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -20,8 +20,37 @@
     }
   },
   "noticias_por_categoria": {
-    "tesla": [],
+    "tesla": [
+      {
+        "title": "El precio objetivo de TSLA llega a $840: por qué Morgan Stanley apuesta por el Semi",
+        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOV0VlcDZ4UkQxbFQ3dmNWYXdBNVdZM01LSlh1YUxlbzBrYW1ocnpqNFpKQ09nZ094STdXT3RWTzhIa0dubG1GOS1fSXRaQmpOS0Fqb2o5c3ZIbFVCbGJBVEp6VUJEa1NtMXRnNzh3NDNlcmp0bEcza1NHNldzQ0lHTU1rWHYyTDVwVXNNa2VKTE9fQ0J1dzlqRVdva0p0UUJsTzZqT2kydHlhakFvZ1VlY3FpczZSTjNMMjI2VHdzQTFvbVcyaEM0YTFPTGpKWWI1?oc=5",
+        "source": "WEEX",
+        "pubdate": "Tue, 15 Sep 2026 14:04:23 GMT",
+        "pubdate_iso": "2026-09-15T14:04:23+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
     "nvidia": [
+      {
+        "title": "Nvidia sube más de un 2% mientras Jensen Huang prevé que las ventas de chips se dupliquen para 2027",
+        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQQm5hYjNXMGZEVXhfc2JvSDhuM0ZTT0I3bnltWEdwZmo2UTBhNUd2bzJGV1pnN3ZXM2RjbXRyMmdpdEhrRWVnRzJSYkRqY0wxTjd1TWJleVVJbDNxaWhHbXItSjNxUjhnaHJJU1UxblROTkRTMlUtUnlaWEhhMUg1WW81U2owb0l5bU13WVA5Tl9BckFBbS1BLWozal9fUUNoVHRnQUFKdzlTOUJrUjB2ek1yZkp1aXFUN3lfZ2hPSXZJQUUxcmg2ZmNR?oc=5",
+        "source": "TradingKey",
+        "pubdate": "Thu, 17 Sep 2026 13:45:18 GMT",
+        "pubdate_iso": "2026-09-17T13:45:18+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
       {
         "title": "SoundHound vs. NVIDIA After Earnings: Which AI Stock to Buy Now?",
         "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObTFqa0l5ZmpsSU41Z2FaRm56bXhzSGY3TkQ3OU5zUTJFNVhub3FEcEE4R3ZVaDR6NUpvQ3VLVHp5R2EzbHMwYjlJaGgzSFdlZUpjYkp5a0xDYUNQaUlsZ2NWTE1LQ19lR2NLUk5rZHRLQVVxa2RURlowdHd5ZXZhTFRPTXJ3eVRoSWNMaktXWXJtQlRUOGhRNTlaSUM5TVM2eFg0dVd0bkx3bG5JekgxWmF3U1l0aXM?oc=5",
@@ -68,6 +97,20 @@
       }
     ],
     "macro_tech": [
+      {
+        "title": "Stock Market Today: Dow Drops 1.2%, S&P 500 Falls After Fed Rate Hike",
+        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNT2NOZjRWd2RLdFVSTkF2U0d3QmZfakpPRzFhbUY4UWt4eTE0Wmgwek9ySGZ0cTQ2VDRrX1otNUtXZGJseFAycVVXNENXU0MtRnViSGtlMTdqMGlsSXVSWWpJVDFSRnlkUUpEdkxtTTNxcV9RMmtvMHNJZWFPd3RMdHdMalFmTnFDVkJGbUNaN0cyRTBXcVpfT2J1V0tvLThYNXpER3J4ejA?oc=5",
+        "source": "CryptoRank",
+        "pubdate": "Thu, 17 Sep 2026 07:15:17 GMT",
+        "pubdate_iso": "2026-09-17T07:15:17+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Fed hawkish: rate hike presiona equities"
+        }
+      },
       {
         "title": "Nike Stock Crashes to 12-Year Low — How Much Worse Can NKE Get?",
         "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQkRRZVVkWnZ1Z3BpUDZoNjNSUWp6NzViVTYzaXRlUXBFZS1jUFlkT3V5NEJBRTNuVnVsREhVQm1XWXdPdDlPbm51dXMwZW1kOGRHNE9ySG9pZm9lMVR5ZUpfOW8xNEtwXzdUckxIMzRaV1Y1THVDeGViSmVRdFg0ZnNSeVBUcTJaREUzcE80SFhpaUthcjVFTzVRTDg2SkVVTEdr?oc=5",
@@ -123,28 +166,14 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
-      },
-      {
-        "title": "Most markets drop as oil extends gains ahead of expected US rate hike",
-        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5vbWlQQk8zbVhJcmhrZ0s3SFZsUEpyMGRhVEFWVExYQnBWMldkTVJUdmtsajNtTGljaHdTWmFOdmxBTF9FaUc0Y18zbw?oc=5",
-        "source": "afp.com",
-        "pubdate": "Tue, 15 Sep 2026 04:52:04 GMT",
-        "pubdate_iso": "2026-09-15T04:52:04+00:00",
-        "impacto": {
-          "direccion": "negativo",
-          "intensidad": 2,
-          "intensidad_label": "moderado",
-          "emoji": "🔴",
-          "razonamiento": "Fed hawkish: rate hike presiona equities"
-        }
       }
     ]
   },
   "stats": {
-    "total_noticias": 8,
+    "total_noticias": 10,
     "por_categoria": {
-      "tesla": 0,
-      "nvidia": 2,
+      "tesla": 1,
+      "nvidia": 3,
       "ia_semis": 1,
       "macro_tech": 5
     }
@@ -154,7 +183,7 @@
     "score_neto": -4,
     "n_positivas": 0,
     "n_negativas": 2,
-    "n_neutrales": 6,
+    "n_neutrales": 8,
     "narrativa": "El feed muestra 0 senales positivas y 2 negativas (neto -4). Factores dominantes: Fed hawkish: rate hike presiona equities; Fed hawkish: rate hike presiona equities.",
     "narrativa_fuente": "plantilla",
     "veredicto": "BAJISTA a corto plazo"
