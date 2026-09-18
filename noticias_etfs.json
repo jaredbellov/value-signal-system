@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-09-18T17:26:57.636608+00:00",
+  "updated_at_utc": "2026-09-18T19:26:56.610918+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "fed_tasas": {
@@ -35,6 +35,20 @@
         "source": "tmgm.com",
         "pubdate": "Thu, 17 Sep 2026 18:12:31 GMT",
         "pubdate_iso": "2026-09-17T18:12:31+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Japanese Yen awaits fresh direction from Bank of Japan interest rate decision",
+        "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNQXpGVEtmSXFXaGJRWFV5V0tha3R2ZTlRN1pqMGplRzY0azJKZXZqZnZiVFdiZXZ4QU5iZWNhSHZ5cmQzbHJPbFdTSFhRdUlBYkszbmJIUGJobnNFMWl4S2RGazBUVHo3Q21qSHgyaHdyMFhxN3dMVVVsaGFPUFB1blo2OTNlT3FLWjB4ckp4RkRQNnF4cmI0MUtacVZNNEZ4SmZIZVBEVkljS1pYMDNQdkRBWHFOYXFENy0zVGZqVWFaak1yZC13eHVZUjdjU1hXbUhPNVlmVjl4TXc?oc=5",
+        "source": "tmgm.com",
+        "pubdate": "Thu, 17 Sep 2026 18:05:02 GMT",
+        "pubdate_iso": "2026-09-17T18:05:02+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -83,20 +97,6 @@
           "intensidad_label": "neutral",
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Indian Rupee gains ground despite fears of more Fed interest rate hikes",
-        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNY1N3VmpESFJVSW9fVnFBcjl1N3NfTXk5b09fbFlybVVqc3hhRHpRYW40YjQyOEpWNkJvTWdieHBHS2EtRE5oQkg4Sk5fY1FMNGp3UUdJek5oYjFRNEtDOUNNQ29jRkF4a0JyTlhEcWs4VVJCWktTa3VMbGhnVDN6bFRIWDFIS1c5WnJ3Qm5ieVBzMzAzbk9SUGQ4UmxmSEQzano3eTV6YlJyUEt5Q18yd0FHWjdiLUkzSnU3UmhrYlQ5MS1uRWtPWC12ZHhqdm5lRkZr?oc=5",
-        "source": "tmgm.com",
-        "pubdate": "Thu, 17 Sep 2026 08:58:51 GMT",
-        "pubdate_iso": "2026-09-17T08:58:51+00:00",
-        "impacto": {
-          "direccion": "negativo",
-          "intensidad": 3,
-          "intensidad_label": "fuerte",
-          "emoji": "🔴🔴",
-          "razonamiento": "Fed hawkish: rate hike presiona equities"
         }
       }
     ],
@@ -263,11 +263,11 @@
   },
   "resumen_ejecutivo": {
     "sentimiento": "bajista",
-    "score_neto": -7,
+    "score_neto": -4,
     "n_positivas": 1,
-    "n_negativas": 4,
-    "n_neutrales": 10,
-    "narrativa": "El feed muestra 1 senales positivas y 4 negativas (neto -7). Factores dominantes: Fed hawkish: rate hike presiona equities; Fed hawkish: rate hike presiona equities.",
+    "n_negativas": 3,
+    "n_neutrales": 11,
+    "narrativa": "El feed muestra 1 senales positivas y 3 negativas (neto -4). Factores dominantes: Fed hawkish: rate hike presiona equities; Fed hawkish: rate hike presiona equities.",
     "narrativa_fuente": "plantilla",
     "veredicto": "BAJISTA a corto plazo"
   }
