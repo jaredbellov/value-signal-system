@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-09-18T00:03:28.485075+00:00",
+  "updated_at_utc": "2026-09-18T00:33:25.933034+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -94,22 +94,7 @@
         }
       }
     ],
-    "ia_semis": [
-      {
-        "title": "Bank of Korea Says the AI Chip Trade Is Now a Financial Stability Problem",
-        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNSE83OExvTFBseUdScnc3U3lFN1hhamowdDBHUUNsNkhOZlJUZ2FOQ21aR002SEFEU2VaS2FKR19mcXl6SFlTX0ZkdzR4M3g4WWRTQ1hGSl94a0VFekYybkJGMUVXRzl1c0FQWl9tbHpKLXY4ajJCSFh5N1ZZc3E0RWw3TzdLNnJXRFNaeg?oc=5",
-        "source": "CryptoRank",
-        "pubdate": "Tue, 15 Sep 2026 00:29:54 GMT",
-        "pubdate_iso": "2026-09-15T00:29:54+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      }
-    ],
+    "ia_semis": [],
     "macro_tech": [
       {
         "title": "Dow Jones futures gain as oil slide offsets Fed rate hike jitters",
@@ -184,11 +169,11 @@
     ]
   },
   "stats": {
-    "total_noticias": 11,
+    "total_noticias": 10,
     "por_categoria": {
       "tesla": 1,
       "nvidia": 4,
-      "ia_semis": 1,
+      "ia_semis": 0,
       "macro_tech": 5
     }
   },
@@ -197,7 +182,7 @@
     "score_neto": -6,
     "n_positivas": 0,
     "n_negativas": 3,
-    "n_neutrales": 8,
+    "n_neutrales": 7,
     "narrativa": "El feed muestra 0 senales positivas y 3 negativas (neto -6). Factores dominantes: Fed hawkish: rate hike presiona equities; Fed hawkish: rate hike presiona equities.",
     "narrativa_fuente": "plantilla",
     "veredicto": "BAJISTA a corto plazo"
