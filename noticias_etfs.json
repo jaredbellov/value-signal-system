@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-09-17T23:33:52.197624+00:00",
+  "updated_at_utc": "2026-09-18T01:26:58.298018+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "fed_tasas": {
@@ -28,32 +28,218 @@
     }
   },
   "noticias_por_categoria": {
-    "fed_tasas": [],
-    "mercado": [],
-    "tech_nasdaq": [],
+    "fed_tasas": [
+      {
+        "title": "Indian Rupee gains ground despite fears of more Fed interest rate hikes",
+        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNY1N3VmpESFJVSW9fVnFBcjl1N3NfTXk5b09fbFlybVVqc3hhRHpRYW40YjQyOEpWNkJvTWdieHBHS2EtRE5oQkg4Sk5fY1FMNGp3UUdJek5oYjFRNEtDOUNNQ29jRkF4a0JyTlhEcWs4VVJCWktTa3VMbGhnVDN6bFRIWDFIS1c5WnJ3Qm5ieVBzMzAzbk9SUGQ4UmxmSEQzano3eTV6YlJyUEt5Q18yd0FHWjdiLUkzSnU3UmhrYlQ5MS1uRWtPWC12ZHhqdm5lRkZr?oc=5",
+        "source": "tmgm.com",
+        "pubdate": "Thu, 17 Sep 2026 08:58:51 GMT",
+        "pubdate_iso": "2026-09-17T08:58:51+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 3,
+          "intensidad_label": "fuerte",
+          "emoji": "🔴🔴",
+          "razonamiento": "Fed hawkish: rate hike presiona equities"
+        }
+      },
+      {
+        "title": "US 10-Year Treasury Yield nears 5% after Fed rate hike, Middle East tensions raise inflation fears",
+        "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNNzBwZExDYThNMm1jTzF2YUtUQnBRb015dFB6bURFR3VKSUU3NFN0VTY3NENCSEdmekN2czlXRlRBZjZkYkVYVVZEZlFKam82eFdLeVppZzNfSldQVktIbkhmdHcwYkJpR0duZ2ctc3h3Yk80ek5qa2NmYll0ZXZib1RZWkY4WmVEZVhQMUxJR0ZPSS1ybHJZSHRWTHRqQUxzM09NdzVtWk9PaGlCZ0VidTgwaW9LbTVyaGNkT0V0UG50NWlpWHVYTnljN25UR1Q2WkJ4UTdCbXdMV3ZEemlxUG5ESnFVcHpCcFR4Uk5tNUVTSS1u?oc=5",
+        "source": "tmgm.com",
+        "pubdate": "Thu, 17 Sep 2026 06:36:49 GMT",
+        "pubdate_iso": "2026-09-17T06:36:49+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Fed hawkish: rate hike presiona equities"
+        }
+      },
+      {
+        "title": "Federal Reserve: Policy path reshaped – Rabobank",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQLXB1b3EtQl9wS0N0NWdNdVA4eFJfaWxpZldqRTZJdV9PbGR1MnJ5ZncxTXZsbzdjczJpQmxKR1NuNW5aRzJUSW1qaTlYamY4THpUX1FYNktiR2F1TmhraXlYcGZpVE52MGpYZ3F3UlphTmtxYmZoMWFNLWg4SjVHc2VoZHJ0VktQM29MWS1aa3BiV2lrV3ZxZXQ4ZWpXdUVyX1AzSVBmZHA0QXdaWW5sZg?oc=5",
+        "source": "tmgm.com",
+        "pubdate": "Thu, 17 Sep 2026 04:09:27 GMT",
+        "pubdate_iso": "2026-09-17T04:09:27+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Bitcoin, crypto market see muted activity following FOMC rate hike",
+        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQU1NWVmtTbF9nWTBtRXV3UnRsdld1MGVlWWRZR1RnZVNNMFRvQno2NFZHRms4cUpfN1JhdHcwVG1LRzVwTFp6OElDZnhreEh2VHo3OF9yM3B2RGNiZHJjLWE1ZTZjS29zcjhsVExPWlppWTRFcTJFTFpjSC1XNUV1bGdWR1FIZGxxYU13Q1hWVlRuZXRnRXJuVXBXOEJZTEhEaDRuNk5FRVBieHFHdDVEbGpXei1HUjVvRm0wWUxfNE1vckNHQTc1eUloTQ?oc=5",
+        "source": "tmgm.com",
+        "pubdate": "Thu, 17 Sep 2026 02:59:39 GMT",
+        "pubdate_iso": "2026-09-17T02:59:39+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Fed hawkish: rate hike presiona equities"
+        }
+      },
+      {
+        "title": "La Reserva Federal de EEUU elevó la tasa de interés: cómo afecta a la Argentina",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQdlpmYXBQTWs0dW1xUk91bW80YXI4dmVNZFJKWmljYVc4R0FCT28xcTFmVzU4LXdiYk52UlBsNk50djVWMG0xdERjc000VG03WTZfSk9nWjJrNzFWbGZndVpuN3lYblY5UU9IOGszaVp1MloyQ3N1Vm14X1EwdWszVWIySjFqSDk3WG1Nc2luWVRlOHI3bXRCalkwMTVER01WbjY4aGlsOHFMc2E0LTZtaG5PamHSAbQBQVVfeXFMUHZaZmFwUE1rNHVtcVJPdW1vNGFyOHZlTWRSSlppY2FXOEdBQk9vMXExZlc1OC13YmJOdlJQbDZOdHY1VjBtMXREY3NNNFRtN1k2X0pPZ1oyazcxVmxmZ3Vabjd5WG5WOVFPSDhrM2ladTJaMkNzdVZteF9RMHVrM1ViMkoxakg5N1htTXNpbllUZThyN210QmpZMDE1REdNVm42OGhpbDhxTHNhNC02bWhuT2ph?oc=5",
+        "source": "MinutoUno",
+        "pubdate": "Wed, 16 Sep 2026 23:54:00 GMT",
+        "pubdate_iso": "2026-09-16T23:54:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "mercado": [
+      {
+        "title": "Precio del Bitcoin hoy, 18 de septiembre de 2026: Estados Unidos allana el camino para que los criptoactivos coticen en las bolsas de criptomonedas.",
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObTc3c0F6eXctbFl5MDRzd3RQWjRJOWx6LTlXbUhWd2N2M0lCNDNvRlUwR1JjR3JsbHdydGIyekpPbFBZVVA0TzVYMDlySkh1RmxBaEJXOWt4VmZLQlRNYTBuTEhpR3JNOS1yUF9fWk9mYi05eW1Gc2pFR0tvSjd4VHFhVFVQUVotX0h1em9rNHhUZHZSWkdfQTZseUE3eFZrSFZRWGdjcDFLZw?oc=5",
+        "source": "Vietnam.vn",
+        "pubdate": "Fri, 18 Sep 2026 00:59:46 GMT",
+        "pubdate_iso": "2026-09-18T00:59:46+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Stock Market Today: Dow Drops 1.2%, S&P 500 Falls After Fed Rate Hike",
+        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNT2NOZjRWd2RLdFVSTkF2U0d3QmZfakpPRzFhbUY4UWt4eTE0Wmgwek9ySGZ0cTQ2VDRrX1otNUtXZGJseFAycVVXNENXU0MtRnViSGtlMTdqMGlsSXVSWWpJVDFSRnlkUUpEdkxtTTNxcV9RMmtvMHNJZWFPd3RMdHdMalFmTnFDVkJGbUNaN0cyRTBXcVpfT2J1V0tvLThYNXpER3J4ejA?oc=5",
+        "source": "CryptoRank",
+        "pubdate": "Thu, 17 Sep 2026 07:15:17 GMT",
+        "pubdate_iso": "2026-09-17T07:15:17+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Fed hawkish: rate hike presiona equities"
+        }
+      },
+      {
+        "title": "Fed Rate Hike Expected Today: Here's Where Benzinga Readers Think SPY Closes",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQYjhKdXRVUUVKXzFlZWU3cE9QQWZ4Z2I1SkV0d08zY2E1cTN0c21oTE54STBHbGtiQ01QVWJaUUNqTzBIWnB0cmppQ0dkV0ZsRmFxY0FxT2h6bnZCVV9BQmhXNXFzaFVVNS16RzhrUUQ1VEhjY0o1VUN1OTdacV9fY0pSOVoyaV9VeEVaeUdrdXU4bGJDVGN0M0ZVeGJQdXBsNTI4TERfTHBpUFBfSTdWY1VPZ0toQ2ppWVhVUnFhVkJTYUtCLXp5VEtKd0tzQQ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 16 Sep 2026 15:07:27 GMT",
+        "pubdate_iso": "2026-09-16T15:07:27+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Fed hawkish: rate hike presiona equities"
+        }
+      },
+      {
+        "title": "What's Going On With Marvell Technology Stock Wednesday?",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObnVOU0JBUFBsclVjOG82THprOTR3MHVYLWNhcENLakFQYVF2em55NWpTS3RJbHJ4SjBsTlpMMmlaZWhiazk2cVJLRWpacS1XWnBCWDUxbWtqMmQ4WmRETWk2NjdIcEc2OUlCLU1KOGxuRDJoS3Z6XzBiRE5hcC1Hb0xodmtOMlE3b0szN0dGWThfZ3Q1ejBsQS1VaGxBa1phLUhnd0RWc2I5N0RsMDJUaFdBRQ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 16 Sep 2026 12:27:49 GMT",
+        "pubdate_iso": "2026-09-16T12:27:49+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "tech_nasdaq": [
+      {
+        "title": "Stock Market Today: Dow Drops 1.2%, S&P 500 Falls After Fed Rate Hike",
+        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNT2NOZjRWd2RLdFVSTkF2U0d3QmZfakpPRzFhbUY4UWt4eTE0Wmgwek9ySGZ0cTQ2VDRrX1otNUtXZGJseFAycVVXNENXU0MtRnViSGtlMTdqMGlsSXVSWWpJVDFSRnlkUUpEdkxtTTNxcV9RMmtvMHNJZWFPd3RMdHdMalFmTnFDVkJGbUNaN0cyRTBXcVpfT2J1V0tvLThYNXpER3J4ejA?oc=5",
+        "source": "CryptoRank",
+        "pubdate": "Thu, 17 Sep 2026 07:15:17 GMT",
+        "pubdate_iso": "2026-09-17T07:15:17+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Fed hawkish: rate hike presiona equities"
+        }
+      },
+      {
+        "title": "What's Going On With Marvell Technology Stock Wednesday?",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObnVOU0JBUFBsclVjOG82THprOTR3MHVYLWNhcENLakFQYVF2em55NWpTS3RJbHJ4SjBsTlpMMmlaZWhiazk2cVJLRWpacS1XWnBCWDUxbWtqMmQ4WmRETWk2NjdIcEc2OUlCLU1KOGxuRDJoS3Z6XzBiRE5hcC1Hb0xodmtOMlE3b0szN0dGWThfZ3Q1ejBsQS1VaGxBa1phLUhnd0RWc2I5N0RsMDJUaFdBRQ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 16 Sep 2026 12:27:49 GMT",
+        "pubdate_iso": "2026-09-16T12:27:49+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
     "economia": [],
     "earnings": [],
-    "sentimiento": []
+    "sentimiento": [
+      {
+        "title": "How Asian markets, crude will impact Sensex, Nifty today: What GIFT Nifty, Nikkei, Kospi, Taiwan signals for India",
+        "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNRkpQM0JSaEE2bjZFOXFqZm4xbF8xTHd5b1NaOWVWZlhNcXJGaXpNT19fX2NYbVJ5dlA4bngyb3U3eHQtdlVLU3lyRzdrZU5DRFR1UlRoc3VIeEFrblp5MEpyZUl0UFE0NVMzc21UTUJwd2dqb3EwclVmTG5CWHpQd3phaElTeTB0REFqSS0yODJEY21oRzI2NTc4UFlGNUxSbkh6NkFLc1N6WE5NVGUwOG1jSC02NmFlZVJJWEtfa0RLYzdBYmY2U2g2T3Ixa2hEWDhhRVJ0X1NoUHM4dUdSSjJub2ctRW1lQllRUzJ5OUpFa1JaaU1Z?oc=5",
+        "source": "TradingView",
+        "pubdate": "Thu, 17 Sep 2026 05:18:00 GMT",
+        "pubdate_iso": "2026-09-17T05:18:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "US ADP Employment Change 4-week average increases to 16.25K",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPN3BPQ3V0NnlqeWlXZmhzbmJta0Uxb28tTVJsTC1vN2xMdWtmb0UzRlRKZ2VwT2J2Ym1DUjZiY2FOVzFCSUxMZWFVQ005R2xXcENLZ1RYR0JNUnA3cDR6RFJ2Z1dldTZSaEJKOXM5eDhjMDFYT3dKV1U1QU9odFltc0xMd0czWTdtT1lkZ1VWTHZmWGh0Y01wVElza2ZNZUl1VGFjUF9zTFBxY3VmVEQ4RVZBUFVGNzU1R09ic2g3a0owQQ?oc=5",
+        "source": "tmgm.com",
+        "pubdate": "Tue, 15 Sep 2026 14:07:15 GMT",
+        "pubdate_iso": "2026-09-15T14:07:15+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ]
   },
   "stats": {
-    "total_noticias": 0,
+    "total_noticias": 13,
     "por_categoria": {
-      "fed_tasas": 0,
-      "mercado": 0,
-      "tech_nasdaq": 0,
+      "fed_tasas": 5,
+      "mercado": 4,
+      "tech_nasdaq": 2,
       "economia": 0,
       "earnings": 0,
-      "sentimiento": 0
+      "sentimiento": 2
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "neutral",
-    "score_neto": 0,
+    "sentimiento": "bajista",
+    "score_neto": -13,
     "n_positivas": 0,
-    "n_negativas": 0,
-    "n_neutrales": 0,
-    "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
+    "n_negativas": 6,
+    "n_neutrales": 7,
+    "narrativa": "El feed muestra 0 senales positivas y 6 negativas (neto -13). Factores dominantes: Fed hawkish: rate hike presiona equities; Fed hawkish: rate hike presiona equities.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "NEUTRAL - sin sesgo dominante"
+    "veredicto": "BAJISTA a corto plazo"
   }
 }
