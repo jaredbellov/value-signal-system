@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-09-18T19:26:56.610918+00:00",
+  "updated_at_utc": "2026-09-18T21:26:56.920595+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "fed_tasas": {
@@ -174,6 +174,20 @@
     ],
     "tech_nasdaq": [
       {
+        "title": "INTC, AMD, MU, NVDA: Chip Stocks Rally As Investors Look Past AI Concerns",
+        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTzdYZXhGV2JpNFJkS0kzb09lVFhibjdteERyMnVWbExJLWpFTGlvVkEzaWJNOFJQbXg3blpKTFB3Y1dYdHBubXhhOW4zQ2kxVEY1YUgzYUIwc1U4bFVuclZLMmpndndZam9BSjVIcHVDT19QQjY3WHN1bU5ENVNfRGxHVk4yakJQWWRIOUFOUjBqRlR3c3J0T3kwa2NmdzJ0ZDc0YnN3M2ZRcVdCZDJNLXZ0WmRDNjV2NnJDb2RTRzBSTERBd3RKUQ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Fri, 18 Sep 2026 02:17:00 GMT",
+        "pubdate_iso": "2026-09-18T02:17:00+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🟢",
+          "razonamiento": "Rally accionario"
+        }
+      },
+      {
         "title": "IBM and IonQ Stocks Rally on Fresh Quantum Computing Breakthroughs",
         "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOV3JrMjEwVkFuVVhSeGJiSVBtNjRUZERKbUNUWmRFWXVxQ0ZXaUV2ZnVOMzlybGRkVDdJMHJ2c2NITlFQSW9hR2NCb0xFN3NFa0hPbG9mMk8tdkVqdG01X3pYQWtVSDBzRVNkQ3d4d3dxQ1pUYXRUaC1UeXRXc2RYTFhXa3N2dm1SZXJ6VkoyMFBLV2YxV0pUaHU2MjlUQUk1Tk9xMkRiVmdRVlJLN1JMdDNCWmZpaVRMSjVERkNlc3FvaTQ?oc=5",
         "source": "TradingView",
@@ -216,22 +230,7 @@
         }
       }
     ],
-    "economia": [
-      {
-        "title": "Kosovo: CPI condena a expresidente Hashim Thaci a 25 años de prisión por crímenes de guerra",
-        "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNQjV0NGw3cVkxem1RMTFJTXFoa1N0OTJza3BRc24wWFVpUHh0Mks5ZUdmZGVMbmJUWlVoU2lwUG1NTmVoMnBoa2xjcURPRFp2RTlQSW0zZmJoQnp0d0pMbDlOb2t5OXlaRHNOejVSQ0VteEt6OTRYLWxpOFJmbmV0U0V2ZDZsZ19IQ0xXSDlzdmdidE00UGQ1YzRYNGVIQ3pEbWZxYWZHX0E0bUhDc1k5VG9GTmt4RkJXek5jai1venp2ampwa08zWTE4MG9DX0ZfTy1xWG5MOU80RVZxTEU1eFN3?oc=5",
-        "source": "France 24",
-        "pubdate": "Wed, 16 Sep 2026 19:10:39 GMT",
-        "pubdate_iso": "2026-09-16T19:10:39+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      }
-    ],
+    "economia": [],
     "earnings": [],
     "sentimiento": [
       {
@@ -255,20 +254,20 @@
     "por_categoria": {
       "fed_tasas": 5,
       "mercado": 5,
-      "tech_nasdaq": 3,
-      "economia": 1,
+      "tech_nasdaq": 4,
+      "economia": 0,
       "earnings": 0,
       "sentimiento": 1
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "bajista",
-    "score_neto": -4,
-    "n_positivas": 1,
+    "sentimiento": "levemente bajista",
+    "score_neto": -2,
+    "n_positivas": 2,
     "n_negativas": 3,
-    "n_neutrales": 11,
-    "narrativa": "El feed muestra 1 senales positivas y 3 negativas (neto -4). Factores dominantes: Fed hawkish: rate hike presiona equities; Fed hawkish: rate hike presiona equities.",
+    "n_neutrales": 10,
+    "narrativa": "El feed muestra 2 senales positivas y 3 negativas (neto -2). Factores dominantes: Fed hawkish: rate hike presiona equities; Fed hawkish: rate hike presiona equities.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "BAJISTA a corto plazo"
+    "veredicto": "Levemente BAJISTA"
   }
 }
