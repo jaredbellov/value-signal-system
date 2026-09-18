@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-09-18T01:33:52.431828+00:00",
+  "updated_at_utc": "2026-09-18T03:33:51.838066+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "bcch_tpm": {
@@ -121,6 +121,20 @@
           "intensidad_label": "neutral",
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Bolsa chilena sube con fuerza y el IPSA cierra próximo a 11.400 puntos en sesión corta por la víspera del 18 de septiembre",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5PTm40ZW1hSHhENWVZOTZDZ2kwUmhGOHhMNDRHTGowZVhLQ0V2R3R0VXo5c2xScU5HNlRMSDIwME5LdGN6ajBCbFNRV0RkYUI2YVhYUzM2TFd0X20xT1lGR1cwYTA4MmhF?oc=5",
+        "source": "Diario Financiero",
+        "pubdate": "Thu, 17 Sep 2026 20:05:00 GMT",
+        "pubdate_iso": "2026-09-17T20:05:00+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🟢",
+          "razonamiento": "Bolsa local al alza"
         }
       },
       {
@@ -256,7 +270,7 @@
       {
         "title": "Hacienda eleva apuesta para 2027 y proyecta que economía chilena podría crecer 3,3% o más",
         "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPeVZ3QlJEbXRweS1tMzQ2LXd6bGpOXzRKQmg0bkdrQk5NNV95T0RDbUctR2NTdGVNVzB0dEZ5WGp6Wk1nQWxoaFlER2h2Yk1HSFJEcjFvVTZ6dkcxX2F4MGZQcjg1TFZmVFBhRVhTQ3dhVENtUFV5NGRBakFjT0dySi01amZMWkczNUcyRmhuOVR0TlFxSnZJaXhNR3FRZ016YzhfY3NBNFNwbVBQRFhxaUl2V1A?oc=5",
-        "source": "nuevopoder.cl",
+        "source": "Nuevo Poder",
         "pubdate": "Thu, 17 Sep 2026 12:21:00 GMT",
         "pubdate_iso": "2026-09-17T12:21:00+00:00",
         "impacto": {
@@ -270,7 +284,7 @@
       {
         "title": "Hacienda proyecta caída de 7% en la minería chilena durante 2026 y advierte impacto sobre el crecimiento",
         "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNcDIzR3Riall1dUozRFZ5aFlqWEszRjNjZkNBMzdYRWdfUERTSGNaNUExdWxGRlF1OWdKcTFYREUwOHVZM0xHOGxtb21GQWVNR1I1SWlra1Z1a3c5elBGV3plU1dDTXpvNEJIUloxNUJ5MjJRV0ZJZm1QS0hmR2JIR09ycE1NSHdHdmI5czduRnlOdldEVkROZVZQbGp4cGwwVlNiTXR6X2Qya21DeVpEQTRBT0F2eTJQN19MZF83WDd6MFBD?oc=5",
-        "source": "publimicro.cl",
+        "source": "Publimicro",
         "pubdate": "Thu, 17 Sep 2026 11:21:05 GMT",
         "pubdate_iso": "2026-09-17T11:21:05+00:00",
         "impacto": {
@@ -375,10 +389,10 @@
   },
   "hechos_esenciales_por_ticker": {},
   "stats": {
-    "total_noticias": 23,
+    "total_noticias": 24,
     "por_categoria": {
       "bcch_tpm": 5,
-      "ipsa": 4,
+      "ipsa": 5,
       "dolar_cobre": 5,
       "economia_chile": 5,
       "politica_regulacion": 1,
@@ -390,11 +404,11 @@
   },
   "resumen_ejecutivo": {
     "sentimiento": "bajista",
-    "score_neto": -7,
-    "n_positivas": 0,
+    "score_neto": -5,
+    "n_positivas": 1,
     "n_negativas": 4,
     "n_neutrales": 19,
-    "narrativa": "El feed muestra 0 senales positivas y 4 negativas (neto -7). Factores dominantes: Alza de TPM: presion para dividenderas; Cobre a la baja: presion para Chile.",
+    "narrativa": "El feed muestra 1 senales positivas y 4 negativas (neto -5). Factores dominantes: Alza de TPM: presion para dividenderas; Bolsa local al alza.",
     "narrativa_fuente": "plantilla",
     "veredicto": "BAJISTA a corto plazo"
   }
