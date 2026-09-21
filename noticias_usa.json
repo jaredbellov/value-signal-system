@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-09-21T17:33:27.672811+00:00",
+  "updated_at_utc": "2026-09-21T18:03:26.402680+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -66,22 +66,7 @@
         }
       }
     ],
-    "ia_semis": [
-      {
-        "title": "Why is SanDisk stock gaining 8% today?",
-        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUGUwYm11eG9sTi1Vd0RVYmI2Vy1KUzYwZlVuOEtGanppQXJoZmdBcVdNQXZKUDJQdkZzUmFzRHFtbWRGcldlYzJzUkUxUWNweWVNWXhuOWNqdEpUZHF4QVN5Slo2eF84TjVaX2J4Z3poUUNxbVc2c0ZGNk9vWC1NNzNVOXc1N182bUJaODFYNHRyNklsUWdV?oc=5",
-        "source": "TradingView",
-        "pubdate": "Fri, 18 Sep 2026 17:49:40 GMT",
-        "pubdate_iso": "2026-09-18T17:49:40+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      }
-    ],
+    "ia_semis": [],
     "macro_tech": [
       {
         "title": "Dow, S&P 500, Nasdaq Futures Climb Ahead Of Key China Summit: CRML, APLD, GME, AMD Stocks In Focus",
@@ -128,11 +113,11 @@
     ]
   },
   "stats": {
-    "total_noticias": 7,
+    "total_noticias": 6,
     "por_categoria": {
       "tesla": 2,
       "nvidia": 1,
-      "ia_semis": 1,
+      "ia_semis": 0,
       "macro_tech": 3
     }
   },
@@ -141,7 +126,7 @@
     "score_neto": 0,
     "n_positivas": 0,
     "n_negativas": 0,
-    "n_neutrales": 7,
+    "n_neutrales": 6,
     "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
     "narrativa_fuente": "plantilla",
     "veredicto": "NEUTRAL - sin sesgo dominante"
