@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-09-23T18:55:06.684650+00:00",
+  "updated_at_utc": "2026-09-23T20:25:06.765300+00:00",
   "etfs": {
     "SCHD": {
       "ticker": "SCHD",
@@ -10,20 +10,20 @@
       "inception": "2011-10-20",
       "expense_ratio": 0.0006,
       "frequency": "Trimestral",
-      "precio_usd": 33.72,
+      "precio_usd": 33.74,
       "precio_clp": null,
       "usd_clp": null,
       "dy_actual_pct": 3.11,
       "dy_historico_3y_pct": 3.33,
-      "drawdown_pct": -4.23,
-      "cagr_precio_3y_pct": 12.37,
-      "cagr_precio_5y_pct": 6.37,
+      "drawdown_pct": -4.17,
+      "cagr_precio_3y_pct": 12.32,
+      "cagr_precio_5y_pct": 6.1,
       "dgr_3y_pct": 6.27,
       "dgr_confiable": true,
-      "momentum_pct": 28.47,
+      "momentum_pct": 28.84,
       "componentes": {
-        "dy_vs_historico": 43.28376748930318,
-        "drawdown": 10.57936596501226,
+        "dy_vs_historico": 43.24829340933355,
+        "drawdown": 10.437357598896654,
         "balance_cagr": 100.0,
         "momentum": 100.0,
         "dgr": 75.0
@@ -35,8 +35,8 @@
       "aporte_base_usd": 140,
       "aporte_sugerido_usd": 210.0,
       "aporte_sugerido_clp": null,
-      "fecha_analisis": "2026-09-23T15:55:05.198901",
-      "ultima_fecha_dato": "2026-09-21",
+      "fecha_analisis": "2026-09-23T17:25:05.171539",
+      "ultima_fecha_dato": "2026-09-22",
       "historico": [
         {
           "fecha": "2021-08-25",
@@ -5129,6 +5129,10 @@
         {
           "fecha": "2026-09-21",
           "close": 33.72
+        },
+        {
+          "fecha": "2026-09-22",
+          "close": 33.74
         }
       ],
       "categoria": "dividend",
@@ -5144,33 +5148,33 @@
       "inception": "2022-05-03",
       "expense_ratio": 0.0035,
       "frequency": "Mensual",
-      "precio_usd": 61.01,
+      "precio_usd": 61.17,
       "precio_clp": null,
       "usd_clp": null,
-      "dy_actual_pct": 11.09,
-      "dy_historico_3y_pct": 10.83,
-      "drawdown_pct": -0.73,
-      "cagr_precio_3y_pct": 9.16,
-      "cagr_precio_5y_pct": 4.13,
+      "dy_actual_pct": 11.06,
+      "dy_historico_3y_pct": 10.82,
+      "drawdown_pct": -0.47,
+      "cagr_precio_3y_pct": 9.12,
+      "cagr_precio_5y_pct": 4.19,
       "dgr_3y_pct": 6.91,
       "dgr_confiable": true,
-      "momentum_pct": 4.69,
+      "momentum_pct": 4.36,
       "componentes": {
-        "dy_vs_historico": 52.411710088405464,
-        "drawdown": 1.8304619656801377,
+        "dy_vs_historico": 52.16854388778949,
+        "drawdown": 1.1796327686596486,
         "balance_cagr": 100.0,
-        "momentum": 61.72148492096749,
+        "momentum": 60.89989533199874,
         "dgr": 75.0
       },
-      "score": 51.2,
+      "score": 50.9,
       "zona": "ATRACTIVO",
       "multiplicador": 1.5,
       "emoji": "🟢",
       "aporte_base_usd": 60,
       "aporte_sugerido_usd": 90.0,
       "aporte_sugerido_clp": null,
-      "fecha_analisis": "2026-09-23T15:55:05.598400",
-      "ultima_fecha_dato": "2026-09-21",
+      "fecha_analisis": "2026-09-23T17:25:05.578621",
+      "ultima_fecha_dato": "2026-09-22",
       "historico": [
         {
           "fecha": "2022-05-04",
@@ -9567,6 +9571,10 @@
         {
           "fecha": "2026-09-21",
           "close": 61.01
+        },
+        {
+          "fecha": "2026-09-22",
+          "close": 61.17
         }
       ],
       "categoria": "dividend",
@@ -9607,7 +9615,7 @@
       "aporte_base_usd": 100,
       "aporte_sugerido_usd": 100.0,
       "aporte_sugerido_clp": null,
-      "fecha_analisis": "2026-09-23T15:55:05.919018",
+      "fecha_analisis": "2026-09-23T17:25:05.924858",
       "ultima_fecha_dato": "2026-09-21",
       "historico": [
         {
@@ -14741,7 +14749,7 @@
       "aporte_base_usd": 100,
       "aporte_sugerido_usd": 100.0,
       "aporte_sugerido_clp": null,
-      "fecha_analisis": "2026-09-23T15:55:06.253443",
+      "fecha_analisis": "2026-09-23T17:25:06.357602",
       "ultima_fecha_dato": "2026-09-21",
       "historico": [
         {
@@ -19875,7 +19883,7 @@
       "aporte_base_usd": 80,
       "aporte_sugerido_usd": 120.0,
       "aporte_sugerido_clp": null,
-      "fecha_analisis": "2026-09-23T15:55:06.674713",
+      "fecha_analisis": "2026-09-23T17:25:06.755029",
       "ultima_fecha_dato": "2026-09-21",
       "historico": [
         {
