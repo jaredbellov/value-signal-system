@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-09-23T16:03:28.369565+00:00",
+  "updated_at_utc": "2026-09-23T16:33:29.095212+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -54,7 +54,7 @@
       {
         "title": "Jensen Huang: Nvidia duplicará ventas de chips hacia 2027",
         "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPWTdjQS13ODhINHRqNEZhai1zWmhGRXZsMXBLbXI4OF9kRFJKVkhEZ3dHeFZhOGZqMGpDdUJqWEFBRmVUQmdWMkVDNDIwWmJLRHk5U0xvaGF6UnBWenp1T2pDcmJrQ3lNUHU4eEl2c1plVVIwa296bmdXbWV2cEdYVmk1eWZKN1Q0cTBDd0NDTDM?oc=5",
-        "source": "ecosistemastartup.com",
+        "source": "El Ecosistema Startup",
         "pubdate": "Sun, 20 Sep 2026 22:54:55 GMT",
         "pubdate_iso": "2026-09-20T22:54:55+00:00",
         "impacto": {
@@ -112,6 +112,20 @@
         }
       },
       {
+        "title": "Wall Street advances as the Nasdaq notches a new all-time high",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNX1pFbmdpR0NvZ0w1M01oblN6VGc0ZjFFcWRuM0w1MTVOMENvYVhpcnllcEdoa0s0YUh0MTExSEhaWURtSG9pZE9hTjdzdUc5cUdZMjFJcDBERk1ENmVGN1lpLUVpOUtUMlJNZDJZeDRxQzRZYTgtMTJKcnJHTFd4VjBGc2NkTHpMZE1LLTFfTFJEcUh0SjkxVkkzRjk1WXB1OUpVWlpiTk5BdlVMOW1PT2pRTUJNajBsRkZNRVh0MmNtUQ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Tue, 22 Sep 2026 13:44:00 GMT",
+        "pubdate_iso": "2026-09-22T13:44:00+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🟢",
+          "razonamiento": "ATH: momentum fuerte (cuidado: tope)"
+        }
+      },
+      {
         "title": "What's Going On With SpaceX Stock Today?",
         "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcF84ZmpzNW56bTZaMVZHQk11eVFwaGVKczNQZjBYZjM1eFloQ0pxaURXVkJ0RS1sVHA4NzB5M1BMX1NiWjV5aTVsREwwNE5LZ0xVNW1scm4xQTNEaVZEMEIxMFJLUXFzOE5yM0NtZjRhMmtnbWxjSGVJWXoxTXFxbUp6d1R3NGgxaGlFYV8xaGk2OE5QVDRfTnN4Q1Zrdw?oc=5",
         "source": "TradingView",
@@ -138,20 +152,6 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
-      },
-      {
-        "title": "What's Going On With Intel Stock Monday?",
-        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZElTX3NzQ1hjUElmU0NJLU55dFphUG9EeDVhRm1HYkVNd2EtcDliNU0xYmRFVll2TERYdWtOa2lWN0JzSnA1T0FZWlJTeXFkRjJfb09yVWdncTJSQWZOMlBnaThaY3R6aXNUR1kxdlZ4VUN3eUFlSjFyY3JCMW83MzU4eWlPVkxsQ3lEM3ZIVks5eHNDd3lOd1o3dEg1Zw?oc=5",
-        "source": "TradingView",
-        "pubdate": "Mon, 21 Sep 2026 12:06:17 GMT",
-        "pubdate_iso": "2026-09-21T12:06:17+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
       }
     ]
   },
@@ -165,13 +165,13 @@
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "neutral",
-    "score_neto": 0,
-    "n_positivas": 0,
+    "sentimiento": "levemente alcista",
+    "score_neto": 2,
+    "n_positivas": 1,
     "n_negativas": 0,
-    "n_neutrales": 9,
-    "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
+    "n_neutrales": 8,
+    "narrativa": "El feed muestra 1 senales positivas y 0 negativas (neto +2). Factores dominantes: ATH: momentum fuerte (cuidado: tope).",
     "narrativa_fuente": "plantilla",
-    "veredicto": "NEUTRAL - sin sesgo dominante"
+    "veredicto": "Levemente ALCISTA"
   }
 }
