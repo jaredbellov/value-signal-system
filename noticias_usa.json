@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-09-24T14:33:28.186418+00:00",
+  "updated_at_utc": "2026-09-24T15:03:26.214219+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -20,22 +20,7 @@
     }
   },
   "noticias_por_categoria": {
-    "tesla": [
-      {
-        "title": "Predicción sobre Tesla: incremento de las acciones de TSLA en los años de 2026, 2027, 2028–2030, 2040 y más allá",
-        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZUZ4eUNscGRVLTF1b2RfSDJlSkFBd1JfajJrUHRJNmgtckhiMGp6VmJzcjVTLWV3OG1EVW1ubFl4Z2lkOFdWYnNadzBDcUNERUlDZENZNkdIWGZacDlTTVlBZS1mX0Rjbmk5RGhLNlM3R3VwejVvQnFnalpEbDQwMU1pMVdjQk5DUHNGSHY4cW8?oc=5",
-        "source": "LiteFinance",
-        "pubdate": "Mon, 21 Sep 2026 14:42:41 GMT",
-        "pubdate_iso": "2026-09-21T14:42:41+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      }
-    ],
+    "tesla": [],
     "nvidia": [
       {
         "title": "Super Micro Starts Shipping Nvidia Vera Rubin NVL72 Racks — Why It Matters",
@@ -170,9 +155,9 @@
     ]
   },
   "stats": {
-    "total_noticias": 10,
+    "total_noticias": 9,
     "por_categoria": {
-      "tesla": 1,
+      "tesla": 0,
       "nvidia": 2,
       "ia_semis": 2,
       "macro_tech": 5
@@ -183,7 +168,7 @@
     "score_neto": 3,
     "n_positivas": 3,
     "n_negativas": 1,
-    "n_neutrales": 6,
+    "n_neutrales": 5,
     "narrativa": "El feed muestra 3 senales positivas y 1 negativas (neto +3). Factores dominantes: Fed hawkish: rate hike presiona equities; Proxima arquitectura Rubin: roadmap fuerte.",
     "narrativa_fuente": "plantilla",
     "veredicto": "Levemente ALCISTA"
