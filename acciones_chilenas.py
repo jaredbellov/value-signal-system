@@ -427,6 +427,17 @@ async def analizar_ticker(ticker_config, bcs_client):
         {"ano": _r["ano"], "bpa": round(_r["utilidad"] * 1000.0 / _n_acc, 2)}
         for _r in resultado["flujos_5y"] if _r.get("utilidad") is not None
     ] if _n_acc else [])
+    # PER = precio actual / BPA del ultimo cierre anual disponible.
+    # Se recalcula en cada corrida junto con el precio (el BPA solo cambia
+    # cuando la empresa reporta su cierre anual).
+    _bpa_ult, _bpa_ano = None, None
+    if resultado["bpa_5y"]:
+        _ult = max(resultado["bpa_5y"], key=lambda r: r["ano"])
+        if _ult.get("bpa") and _ult["bpa"] > 0:
+            _bpa_ult, _bpa_ano = _ult["bpa"], _ult["ano"]
+    _px = resultado.get("precio_actual_clp") or 0
+    resultado["per"] = round(_px / _bpa_ult, 1) if (_bpa_ult and _px) else None
+    resultado["per_bpa_ano"] = _bpa_ano
     # 2. Obtener datos CMF (indicadores)
     try:
         cmf_ef = obtener_estados_financieros(ticker)
