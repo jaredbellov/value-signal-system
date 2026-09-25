@@ -2091,6 +2091,33 @@ function clPP(a){
 }
 
 /* ---------- salud financiera: acción chilena (datos CMF) ---------- */
+/* ---------- Deteccion de utilidades infladas por partidas no operacionales ---------- */
+function gananciaPapel(a){
+  try{
+    const c=a.cmf||{};
+    const m=c.margen_neto_pct;
+    const inmob=/inmobiliar/i.test(a.sector||"");
+    /* AFP, bancos y aseguradoras tienen margen alto legitimo (negocio de
+       comisiones, sin costo de ventas): no se les aplica el criterio de margen. */
+    const finan=/afp|banco|seguro|financ/i.test((a.sector||"")+" "+(a.nombre||""));
+    if(m!=null && m>80 && !finan) return {si:true, motivo:`margen neto de ${fmt.pct(m)}`,
+      detalle:`Un margen sobre 100% es imposible operando: significa que la <b>utilidad contable incluye partidas que no son ventas</b> \u2014 t\u00edpicamente revalorizaci\u00f3n de propiedades (IFRS), utilidades de filiales o venta de activos.`};
+    if(inmob) return {si:true, motivo:"sector inmobiliario (IFRS)",
+      detalle:`Las inmobiliarias registran la <b>revalorizaci\u00f3n de sus propiedades como utilidad</b> bajo IFRS, aunque no entre un peso a la caja.`};
+    return {si:false};
+  }catch(e){ return {si:false}; }
+}
+function papelAviso(a, donde){
+  const g=gananciaPapel(a);
+  if(!g.si) return "";
+  const extra = donde==="per" ? ` El <b>PER se ve artificialmente bajo</b>: el denominador (utilidad) est\u00e1 inflado.`
+              : donde==="bpa" ? ` El <b>BPA queda inflado</b> los a\u00f1os con revalorizaci\u00f3n, as\u00ed que su "crecimiento" no es operacional.`
+              : ` El <b>ROE y el margen quedan inflados</b>.`;
+  return `<div class="hint" style="margin-top:8px;padding:8px 10px;border-left:3px solid #eab308;background:rgba(234,179,8,.07);line-height:1.5">
+    \u26a0\ufe0f <b>Ganancia de papel detectada</b> (${g.motivo}). ${g.detalle}${extra}
+    Para juzgar el negocio real, usa el <b>FCF</b> del gr\u00e1fico de coherencia contable y el flujo operacional, no la utilidad.</div>`;
+}
+
 function evalSaludChile(a){
   const c=a.cmf||a.fund||{}, rows=[];
   const sector=(a.sector||"").toUpperCase();
@@ -2113,6 +2140,15 @@ function evalSaludChile(a){
           ? ` Fuente: CMF ${esc(roePer)} — utilidad de 12 meses ÷ patrimonio. Confirma con el promedio de 5 años.`
           : (facAnual?" Anualización lineal aproximada: confirma con el promedio de 5 años.":""));
     rows.push([cls,label,txt]);
+  }
+  if(c.patrimonio_total!=null){
+    rows.push(["patrimonio-row",`Patrimonio ${fmt.clp(c.patrimonio_total)}k`,
+      `capital contable de los due\u00f1os (activos menos pasivos). Es el denominador del ROE. Fuente: CMF ${esc(c.periodo||"")}, en miles de pesos.`]);
+  }
+  {
+    const _gp = gananciaPapel(a);
+    if(_gp.si) rows.push(["bad",`\u26a0\ufe0f Utilidad con ganancia de papel`,
+      `${_gp.detalle} La utilidad contable <b>no refleja caja</b>: valida con el FCF y el flujo operacional antes de usar ROE, margen, BPA o PER de esta empresa.`]);
   }
   if(c.margen_neto_pct!=null){
     const v=c.margen_neto_pct, cls=v>=20?"ok":v>=10?"mid":"bad";
@@ -2322,6 +2358,7 @@ function bpaChart(a){
         ${barras}${xl}
       </svg>
       ${evRow(cls,"Tendencia del BPA",ver)}
+      ${papelAviso(a,"bpa")}
       <div class="hint">BPA = utilidad neta anual (CMF, normalizada a CLP) \u00f7 ${(a.n_acciones||0).toLocaleString("es-CL")} acciones. N\u00famero de acciones actual: asume sin variaciones de capital en la ventana \u2014 si hubo aumentos, los BPA antiguos var\u00edan.</div>
     </div>`;
   }catch(e){ console.warn("bpaChart",e); return ""; }
@@ -2868,7 +2905,7 @@ function renderChileDetail(ticker){
           <div class="ticker" style="font-size:24px">${esc(a.ticker)}</div>
           <div class="name" style="max-width:none">${esc(a.nombre)} · ${esc(a.sector)} · <span class="dim">${esc(a.clasificacion||"")}</span>${edCl.icon}</div>
           <div class="price" style="margin-top:8px">${fmt.clp(a.precio_actual_clp)}
-            <span class="chg ${a.variacion_pct>=0?'up':'down'}">${fmt.signpct(a.variacion_pct)}</span>${a.per?`<span class="per-badge dim" style="font-size:13px;font-weight:600;margin-left:10px" title="PER = precio \u00f7 BPA ${a.per_bpa_ano||""} (utilidad por acci\u00f3n, CMF). Referencia: 8\u201314 vaca lechera \u00b7 15\u201324,9 DGI \u00b7 25+ crecimiento.">PER ${a.per.toLocaleString("es-CL")}</span>`:""}</div>
+            <span class="chg ${a.variacion_pct>=0?'up':'down'}">${fmt.signpct(a.variacion_pct)}</span>${a.per?`<span class="per-badge dim" style="font-size:13px;font-weight:600;margin-left:10px" title="PER = precio \u00f7 BPA ${a.per_bpa_ano||""} (utilidad por acci\u00f3n, CMF). Referencia: 8\u201314 vaca lechera \u00b7 15\u201324,9 DGI \u00b7 25+ crecimiento.${gananciaPapel(a).si?" \u26a0 OJO: la utilidad de esta empresa incluye ganancia de papel, el PER se ve mas bajo de lo real.":""}">PER ${a.per.toLocaleString("es-CL")}${gananciaPapel(a).si?" \u26a0":""}</span>`:""}</div>
         </div>
         <div class="score-wrap">
           <div class="score-num" style="font-size:40px;color:${sobre?'var(--z-opp)':'var(--tx)'}">${fmt.pct(dy.dy_pct)}</div>
@@ -2887,22 +2924,12 @@ function renderChileDetail(ticker){
 
     ${evalChilePanel(a)}
 
-    <div class="grid c2">
-      <div class="panel">
-        <h3>Dividendos por año <span class="dim" style="font-weight:400;text-transform:none">(CLP/acción)</span></h3>
-        ${divbars}
-        <div class="kv" style="margin-top:14px"><span class="k">Promedio anual</span><span class="v">${fmt.clp(dy.promedio_anual)}</span></div>
-        <div class="kv"><span class="k">CAGR precio 3y / 5y / 10y${edCagr.icon}</span><span class="v">${fmt.pct((a.cagr_3y||0)*100)} / ${fmt.pct((a.cagr_5y||0)*100)} / ${fmt.pct((a.cagr_10y||0)*100)}</span></div>
-        ${edCagr.inline}
-      </div>
-      <div class="panel">
-        <h3>Fundamentales CMF <span class="dim" style="font-weight:400;text-transform:none">${esc(cmf.periodo||"")}</span></h3>
-        <div class="kv"><span class="k">ROE</span><span class="v">${fmt.pct(cmf.roe_pct)}</span></div>
-        <div class="kv"><span class="k">Margen neto</span><span class="v">${fmt.pct(cmf.margen_neto_pct)}</span></div>
-        <div class="kv"><span class="k">Endeudamiento</span><span class="v">${fmt.pct(cmf.razon_endeudamiento_pct)}</span></div>
-        <div class="kv"><span class="k">Razón corriente</span><span class="v">${fmt.num(cmf.razon_corriente,2)}</span></div>
-        <div class="kv"><span class="k">Patrimonio</span><span class="v">${cmf.patrimonio_total?fmt.clp(cmf.patrimonio_total)+"k":"—"}</span></div>
-      </div>
+    <div class="panel">
+      <h3>Dividendos por año <span class="dim" style="font-weight:400;text-transform:none">(CLP/acción)</span></h3>
+      ${divbars}
+      <div class="kv" style="margin-top:14px"><span class="k">Promedio anual</span><span class="v">${fmt.clp(dy.promedio_anual)}</span></div>
+      <div class="kv"><span class="k">CAGR precio 3y / 5y / 10y${edCagr.icon}</span><span class="v">${fmt.pct((a.cagr_3y||0)*100)} / ${fmt.pct((a.cagr_5y||0)*100)} / ${fmt.pct((a.cagr_10y||0)*100)}</span></div>
+      ${edCagr.inline}
     </div>
 
     <div class="panel" style="margin-top:16px">
