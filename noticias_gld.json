@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-09-25T12:46:07.353144+00:00",
+  "updated_at_utc": "2026-09-25T12:52:14.872414+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "precio": {
@@ -28,32 +28,388 @@
     }
   },
   "noticias_por_categoria": {
-    "precio": [],
-    "fed_macro": [],
-    "dolar": [],
-    "bancos_centrales": [],
-    "geopolitica": [],
-    "proyecciones": []
+    "precio": [
+      {
+        "title": "Pronóstico del precio del oro (XAU/USD): el oro rebota mientras el dólar, los rendimientos y el crudo se atenúan",
+        "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQUGo5YUpVTDFPazFmY1gzcUdDNml2eHVqeHExY3FtYlJ0YVpfaENtdUk0M1lnTGp5MzdxYnFUMG9WbzJaZkZyZk1TaXVoX204czJJUmJoT0FIbzdTdS13bWF3OWRocE96MHFsSDVLR096TlNlZW8xRUtpRXdSa3ZKR1JubElLNl8walFnSXlmVHVPXzV1VEIyMk5kY0tjVkRPdVZLbC1sR3pvc0hEVi1vSVBHeGpZMmstSU9PRll0LTc3RThNWk5aNk9TQlhiMlhrZTRHZkhGbVhRS0NSOGJQUXp6Znd3Zw?oc=5",
+        "source": "FXEmpire",
+        "pubdate": "Fri, 25 Sep 2026 12:22:53 GMT",
+        "pubdate_iso": "2026-09-25T12:22:53+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🟢",
+          "razonamiento": "Rebote del oro"
+        }
+      },
+      {
+        "title": "Precio del oro en España: la cotización máxima y mínima por gramo hoy 25 de septiembre",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQdjlPMWE1RFc5R0Q5VlVlb01uQTc0OURoVE53TExFWVdhUWt2T1dPWC0zVXdsV3U0TEc0bEZiMC1Od0ZBVmx0TVcxRjBBVHpUVV9vU1hsT1dOQmlSUVlqYVFlU18wVkpyaUt4bmRTTEdZR1JFWjRVb1VrZVhvTVBDSkljbTVrb3hCV0NSSUdzTTBuZHVUVUtZaVA2bi1KMGlRV2c1Q3h3M0RVX01BQVFhVVpyaFFmdWRNSjRtU1hrZ2pWeVVnS0Zv0gHiAUFVX3lxTE5YU2F1Vlp6b0NsbVYxalNZMFJCVE1mNTFCSFlvdW9nMmZDczZKSzlONXR6OTBiczNydDBvNWxmbUg1eTFjMmxoMW9FMF96WVhRUnUyMTd6X1RRb2dRaXZGNVg4eFBHWEJZdERyRzQwZllRanNxODAtcWNTa0E2ZjRQbEk4SmprcmtFWGVlMDZNY29CaG1jMlFySk84OTBLZ1htZnJ5YUJGdjBPb1JVNVJoR1ZSSUlZNjhXakZrMEpxY2d2dUk1M3VLcFNBQkRCQlFHb2U5Tmh3ZURILVdYUUtOY2c?oc=5",
+        "source": "Infobae",
+        "pubdate": "Fri, 25 Sep 2026 08:05:37 GMT",
+        "pubdate_iso": "2026-09-25T08:05:37+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Precio del oro hoy en euros: datos de cotización en tiempo real por gramos en España",
+        "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQV1JhS0JTb1BhY2hzUVhVLU5TeGlmd252U1RvZ1RKcVZiNHVvbTNtY2VBRFVCeXBCcmdqV2FIYmZlQkE0ektDSU1QcncwdjQ0S2VVZDJ1R1lJcS14eU9UOXpvYTFKdktRUVhveWhFT3ZaUDM4emRpRWh2WFJ4cXp4R3A3RU9EUkZ0bXhZWkZ5bnM0anFuSk1wcDlqVG80dVlBajJLQk55V1dYMkoyNjZPaWhpN2JhaDZZWTl5X0NjZmFuUGNkZVZfMG1qYlpFbkNKOXV3QzhhYV9MM2QxbldYMGpuSlB2d1JKaXFsOU9PelA1c2I30gHfAUFVX3lxTE1qdFhRUUUyZHFSbDcyd3BFOFFyY1BaREJzc3NseTlIeHNtaUk3OFdobkNSVTZvNW5ySWpjY3k0Nnl4eXZTT0JEUm9GWEx3d2Nsa25TbzFvUEt2TFZ2Y1hLakJuN0RaS01TREdNaGJ6QVJYSWRvTkEtRE9RM1JBYk1ETWlhWG5WRTJCemNNVmpESVJaXzlSWDhNMVpITVJuUF9NREpXb3RDTklDQjlRRnRKcWRfeEVwMEZhOHlHbDJKaDVxZkQtNWhOU3lQLVF3NFpXTmt3SkREbXZSWUQ4LWM?oc=5",
+        "source": "eleconomista.es",
+        "pubdate": "Fri, 25 Sep 2026 07:48:24 GMT",
+        "pubdate_iso": "2026-09-25T07:48:24+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Precios del oro hoy, 25 de septiembre: El oro cae por debajo de los 4.300 dólares por onza, ¿cuánta presión adicional enfrentará?",
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPa2FxS3E0X3dpMmV2dG1jVl8tdTFFNFUzZ3VMMmtEejM3dWNGMC1DWElxMzd3Yk9QSjB5bFN2Zkh3T3cxUkNfU0ZJdGZUZjRybWJad21rZF9GUVZGZm9EcFV3dERJOWtfVXFnbmp2aEpMS2l4bm5iaVhxSVZIVDJfZFhOUEN6dmFzWWd2TXl3eWZjb2NyV1dHSkk0N3c5NGs?oc=5",
+        "source": "Vietnam.vn",
+        "pubdate": "Fri, 25 Sep 2026 07:22:22 GMT",
+        "pubdate_iso": "2026-09-25T07:22:22+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Oro a la baja"
+        }
+      },
+      {
+        "title": "Precios del oro hoy (tarde del 25 de septiembre): Los lingotes de oro SJC se mantienen sin cambios, los anillos de oro fluctúan ligeramente.",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOeXF2eVUtOGl2YnlkSnRSTll4WGRRUk80eVlFT1ZHd25EN09td01WMnBsWWZzdjZ0RFNaQWFXRkNWUnBubTRYSVhyU2VlS3d1aHhhc1JndHJoTmdCbU94WnNXZmJVX3RRbS1XOEhVV2gtQi14WEFjeExXSFJseThTYV9naGZsN3BhbGhHV21CNlp1cy1NYXlTTWdXNWJCcVZKeTk0?oc=5",
+        "source": "Vietnam.vn",
+        "pubdate": "Fri, 25 Sep 2026 07:09:01 GMT",
+        "pubdate_iso": "2026-09-25T07:09:01+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "fed_macro": [
+      {
+        "title": "Oro se encamina a caída semanal de casi 2% mientras sube expectativa de alza de tasas de la Fed",
+        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVExDeUo2R2loVUhsNUhkbHVfVndWOEwtWktxRFZDQlpfenZWMGhIRDJGUWZReWFRcUJXWDZIeDhXRmhHWHRCY25NcjkzYlpyc1RMOWVPcDdXOG1kaWNneUJRM0hrdmo0dllnbmE3SHFNX3dSMTJmb3JjV19IQVBtVkhqT2hvMlgwalJVdUFjbWVXM0dwUDk0X1hLRG9sTGFKRVJKNHM4OWpHN1NkVHdzdEJhNzQ3c2tFVUJfQzc5NNIBxAFBVV95cUxNTzVlVDBqWTQxamFkR1JxazVCS0x4QUgzR2dOVnFfQ2RqWW5mcjNvVlF4NVNGU0Y3YnAxRl9SOVBya01aQTdxMHg0eFVIQ1VkY0E5amMybTA2RWZDOXY0NHFYQURPemdvR2kzWGhGNUxFdktjUWtrcGhYaDc2YjNKU2stemRWaVFNalRjUXl4alp3M01ySEtOSGczNHU0enJaVV9pMlJOTmhwWW84XzMwTHpTRmFCUUlJZ3ZJcXItcEJXWDla?oc=5",
+        "source": "El Economista",
+        "pubdate": "Fri, 25 Sep 2026 12:35:34 GMT",
+        "pubdate_iso": "2026-09-25T12:35:34+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Fed hawkish: tasas mas altas presionan oro"
+        }
+      },
+      {
+        "title": "Divorcio de tasas: Por qué Banxico sostiene la pausa monetaria ante el sesgo restrictivo de la Fed",
+        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQUG5JMDBram4zeW9lQm91WjhKUFoxNXRCdjdqa1NCcEhydVdjcjVrWUhHSW9LUmVjSG55YzhHNktOc2NDRDJjN2JnaGM1WFM3Y1AtaUpBLUs0MnZJSUx5N2JyQU15UFV1R0dXTlQtN1NlY3VTOHFDaHdxZHpKY1J1eF9DTkNTSlg2Z1B0b3BjWFE1QkJYNThyVmVFNXd1ZnNnbDZtX1hUbEw4RlpKSnpqTVRLZlBMa2dYNm1QaDhFMFMxVTd5bGtwNGRXMHdSVkpkMHZqVTJOSdIB8gFBVV95cUxQRC1LZm9tOVdta21IcDJYR3JJVmxkcHpCYjByLS1qZTh2UkplaFNsWVlqZEVvOTVXeEwtNkc2dUxWQ012bmxMVEJoV2VvNG1hQWduUTNtZ0cyXzFER3llMERHc09FX2RqcUNpVk4wOWsySDVodS1xQ1BudlJoY2lTenRmMWJvb0IxR09QZWFfcGFoZlhSSzR6UFlNNE5IS25vRE5WYjNtLUJqVDc3LTdpOUlNeVVmXzZ0UEZDZTd1VkQxZURuOWJnTUUtTy01MW9xYm85QmVncllPbU5UU0tZdTk0YW50bG5CLUYwanZXSl94QQ?oc=5",
+        "source": "El Cronista",
+        "pubdate": "Fri, 25 Sep 2026 12:00:01 GMT",
+        "pubdate_iso": "2026-09-25T12:00:01+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Se desmarca Banxico de la Fed y deja tasa en 6.5%",
+        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOc25JdnQzVUIyMTFhNkZvNG9Ra2stQjA5RnNhQ1RnYzZDV09IQzNlUTMxbVBFMVRpRTB5Z29BQndVYVNFZm14Zk0wbVNtbzJJamtQNWREX25EYnRPR3FiLWdnZTR0NUlaZ0JwekMybnRueVdYUVFvczhxbDBuVjdyZlYtRVVMRl9OTmktU0ZrSFFfNDh0WkZ1NHlJNA?oc=5",
+        "source": "El Horizonte",
+        "pubdate": "Fri, 25 Sep 2026 11:04:14 GMT",
+        "pubdate_iso": "2026-09-25T11:04:14+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "United States Dollar Index approaches 101.80 as bond yields keep rallying",
+        "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNblEwZ2tYMWtzbU5rUzNJcVBWd1M4MThiU2RXMHBqMDVHWjFlVVJjUDVwMDM0ZlVNZzhLZ1Vzam9rc2wwNWM3aDl0bXEwR1B5UXBMamY1dE51RDlQZWRHUXplaDg2OXlCZ05MVXRUdlZKZ05CcktoWDdjcnpaM0FTcDF6aDRMM0d6VXVxdDRPTUhwVlVJS1JJb0pGZW1STTZrZXRhbkxPUEQwZHZXdjlJM2lTZ0ZFRmtKRGFBMXJJd3pSamRESkE2cW5SbjlyTXM2ODBucw?oc=5",
+        "source": "tmgm.com",
+        "pubdate": "Fri, 25 Sep 2026 03:56:42 GMT",
+        "pubdate_iso": "2026-09-25T03:56:42+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Stock Market Today: S&P 500 & DJI Futures Fall, Oil and Bond Yields Rise",
+        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNa2RDS3V1Wlp4UFc2bVozMHdVeXlNbVc5aExoVDhRMndsbGlZRlNEaGZxODh6RmN0cUFkNHlibWxfYUNQM2Z4WjVOTlZmNjVCbVhSbnpKZVlTQUVyZHFHTjJjclN1U2xCZEdhRGQ3NHh6VGhfVWRXTkJxUFdtOHhlZU1aT0hVUVIxdEhCVW5fT2JBaVVHX1lodHZWRENTX0p2Wnd0Rks0Z2ljY01E?oc=5",
+        "source": "CryptoRank",
+        "pubdate": "Thu, 24 Sep 2026 19:40:50 GMT",
+        "pubdate_iso": "2026-09-24T19:40:50+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Yields reales suben: presion para oro"
+        }
+      }
+    ],
+    "dolar": [
+      {
+        "title": "Pronóstico del dólar estadounidense: el índice DXY apunta a 101,40 mientras se intensifican las apuestas por subidas de la Fed; niveles clave para EUR/USD y GBP/USD",
+        "link": "https://news.google.com/rss/articles/CBMitAJBVV95cUxObWxXbHlVX21LTmJ0a2RXT293MmhPeUZfVTlKWU9iYnR5em9KMHBqV1BQZU5qV21kMWpZOGotTGM1MjAyeWRpazlTSTZEQlQ4WE01MmlaaXYyS3dhM3o4MTE4NlNhbVV3Um5FeWRNc2lBcE50Uy1ZbENKZm5lSDJBd2dhV0hlRF93MW4tY2xPcVdtNlZyLWdLa1hHTG9QXzVubkI5OGFYdkNqbjJfWUZhNzlNdUpQV0ZCaTk1SEVtVDh6VkZRbzF4T1dhZllVOTVIWFdLSHVmN2FoLTB0SXBPa2ZSTlJxaFFLaWc2R3pUcEpDYlp0dW5mUXgtdUF6UE5TUE9GNk9pOVZGSDh6NlRZZk9BejB3cHAzd2ItbURwRVVhU0tEaVNVSUNnWGM2TDlaUXI5RQ?oc=5",
+        "source": "FXEmpire",
+        "pubdate": "Fri, 25 Sep 2026 07:51:59 GMT",
+        "pubdate_iso": "2026-09-25T07:51:59+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Previsión del Índice del Dólar: Encaminándose a su segunda semana de ganancias por encima de 101.00, sesgo alcista intacto",
+        "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPY3JUWWR5VnZvSG9vbHpRRlJ1Q3QxZUdiYkxGQUNhRVJjX2UtUDBJU3U3VkJBNGVPQ3Zsd29kS2ItTnN1c3FxakFsaVA4RzdQc3NTemtOOXV5RzhiQ3FzZWpNdHVxNTJNcWVPSGxMSjdQY19hclBUS090YXU0a3VaMjk3d3ZjczQxNmk2RmxiaDRsN1FxVTVrUTNpVXpEN0FrMWdYaGVndURBQXBxRW9Fa0E4RncxMkhFbS1YTGNpUGdPMkVNaVJNbUpBdVpUcFpCeWVMemI1NmItSnBNR2ZZamNsXy04OTBNUkxaWUE1YWdHTWpHNjEzNmd1TFlVX0HSAYQCQVVfeXFMTlFWa2x5UWlpRjQ4cnlYbnBjc0N0MGJVMldwSm5lZTU3dFNUQXB1VFYxNUxORUFfMEZBR3U2Nng1SXAzT2FZak5Cbnl3Z3Q4ZnhUM01oQ3lTNUZoMEtIcWFWMVVMcHlVeW5Ta2VoSldJM1hVdEdwM2JBU3FvS0o3SHJMbGpFS1R5QlFQUGlyVEhydlRCazI3RHp4T2dNalkyN09ta19ha1lNbUpXc3h0NkI1dWJTWU82Rm5POXVNY3QwTzJuY3NZWDhiR2wxcm5uc2tqNXA1V29yYmZ0TlB1d1RkWE1XSDV3OVhkaTVwSjQza1kzdlk4Q1RLYWp1dGNkbVF1Sjg?oc=5",
+        "source": "FXStreet",
+        "pubdate": "Fri, 25 Sep 2026 06:58:14 GMT",
+        "pubdate_iso": "2026-09-25T06:58:14+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "El Índice del Dólar estadounidense se acerca a 101.80 mientras los rendimientos de los bonos siguen repuntando",
+        "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNZktLbjM5ajQtQ1JkQVVIZjExVGpBVVV3Um1GekNrdTNYd25hV2NrSUlPRkVmTF8xWDJvVFRCUE9NQTZqOWpiS2hONi0zanRMdWpiRnhtcy1xck4zcmVwZkRncm5lM19DbTlPemF5cHF5ZU1aTXp5QjA0M21PaXZSTGJPamhaLURZVjhISVJhbFU3eEZOMldEOXkwOGd6aEtGdzNDUnpCZmVYQzFYSlJOdHJ3VzlyWXd0bzZjTktDbkNhZmVUM0JuZ0dZWHJlSGJ0NmhsZ29yaDU5UnhIZDk0OUM1dXRHd9IB6wFBVV95cUxQeDlUQVZ1MG0xb0pnQ0dsaVZqWUtZSUxaTUZSVTRKcXgxX2JreDNEU25TMlk2NEdnczI4LXQ1REg5OXdLRWwzS2VpTm1mdzhLVk4tcnM5Zkx1WE54SVF3bUExN2ZvcUcwWHdxQUl0aUtXWW5WelZ3ZlFGY2s3ckZsRVBNSmdyU0x0bDJPdEY3RVNXRFJRX0tmTGNVZEY2SGVkNlVBeEVrZUdxZlozbkJDeEJDbFlSV0F3RTJPN0pFZXgwU0Q2R2pnbEd6VHE2ZTVrLW42NThlRzVQa2NJUVpNQTJ5SmNHT2pkOFRr?oc=5",
+        "source": "FXStreet",
+        "pubdate": "Fri, 25 Sep 2026 03:22:35 GMT",
+        "pubdate_iso": "2026-09-25T03:22:35+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "El Índice del Dólar extiende su racha de ganancias mientras los miembros de la Fed apoyan las subidas",
+        "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxON0NyRFNPZHF0ZDk0eFdPVktuQXVCWXdEb3djTTZKeDRmSE83RTYzMktKUmZ4Z01SRUtLeVExcG12ejJ6Y1JRQTRiajByMTE1MWxEVUItNXQ0ZE1pdXE2NVJGeXhuLWh1ek05MDIzLVJKZDdqWmotU0JpeEgwbG9LZlFNeDhNTXJiRkxIWERaT3lReWd2a1VkTTJxNDhKb0FQWnNGeHZFZ290NTI5X0FjTXYxQWU5cmhEMTdoVUdCdHI0VW5QS1YwWFF3bC1PbjZRX292ZGE1bVVjT2PSAeABQVVfeXFMTVg1OXZDa2tYbHdQR21hUWxQdlU4ajhjRVd1RWl0dEgwWkt2X3hiS1FuSFlwWkFmcmdYMkhPem5NR0lkcmFVNXo1dUd1aEFELWd4X3U2ZUI1aFRHRXp5d2xVbnExNnpESmxLQTNEaV9IMHRBNHExTlB4ZEZNMkc4bXh0LWhnMnNyckg2b0hxZE9xNVdESE0zbjB4cVFkX0YyMTN2TmMzcEJQTmc4cDBwZ20ydHRmbHpFOTMzdnI1TWh6V0ZfRkdfVDJIMjRMTUJlQUdnN2gxM3RWb2pGLVVJX2M?oc=5",
+        "source": "FXStreet",
+        "pubdate": "Thu, 24 Sep 2026 19:04:36 GMT",
+        "pubdate_iso": "2026-09-24T19:04:36+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "El Índice del Dólar gana terreno antes de los datos semanales de solicitudes iniciales de subsidio por desempleo",
+        "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNZnhqSVBNbHd0RFdTZVp1U043Q1NfVExLdk15amNnckVNSEM3eml3ZEhtaDdTdmg5N2tONkFfUHRMYzh3bjlydS13a2VnbEx5NlZ0eUdWOVE2ZzJCakE1YzZaYUVFemhRLTdONzFqT1JFU1R5VW52RUZndURiZEQwVEh3bFpXQUxrMkZ4V210eWg0YW03NnFaQVdHQ05BQ0p1cFFLcWZRQzZmc1BpemExejlpSGRrY1IwUENGZFJtWDBfT3R3R0dieDMwM0ctcXhjdVNhRk1Kc1N4djBSdzc1a09DSlFkaHJHTUHSAe8BQVVfeXFMT1NTdTA0Sko0X1dRaVZ3Mm9GSnEtSE85NG1zQ1JkMFJiUmpyY205Um1Dd0JiS0ZBQS1FNjdYWlp0MGladGN4RmRORW9ZUmlSMnA3RkJmczdpSXhpdkNqbnUwWGl0NnpIVHZWc1A5UzN1WWZiSHJfc01IdEx4MTA5SlczVkVpTGVYSTJZWHBWdndPbUNibHMzTVRfWUxPZF9mT2gwYTQwYWFRak1sZDNuNC1nQ1kwbVI5ZVpneS1MR3IxaGRYWXJKWmxhaHhBNnJPZTkyMmkxUnI2WlpNWmlWY1F3ZXIxYmJjM0ZsMExRWlU?oc=5",
+        "source": "FXStreet",
+        "pubdate": "Thu, 24 Sep 2026 09:19:25 GMT",
+        "pubdate_iso": "2026-09-24T09:19:25+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "bancos_centrales": [
+      {
+        "title": "Goldman Sachs: China compra el doble del oro que reporta oficialmente",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPVXFCeVZpMlpXUzgwQXlRQllsMmVlVlhKendSX2NMdHE3ZkU0M3FaaThQV19GT0N3ZWNIenFmbUYxMmFKS3JuZm51ZE5OZVBWbGI1RF9INFpKMWpPYXRyeWJFaW5KSHdSMDY0Um9hUmtiMG00RTdOR3pjUXRUeDhRMFVDbmt2RlhJZjJET2N5cmFfakliQVZaQU13bTNyeW81TkE?oc=5",
+        "source": "Banca y Negocios",
+        "pubdate": "Wed, 23 Sep 2026 13:34:56 GMT",
+        "pubdate_iso": "2026-09-23T13:34:56+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Gold falls as Fed rate hike bets lift US Dollar to two-month high",
+        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQRzljbUhxVFpkcGhOR3FUeTJiREVFdDZfRDZRajZaSElmQUNGbjhIckhFU1VFU3FNX3JwLTdSNUZMWkROWWVIakdQMVFRZUhNWEhCX1ZYb0ZjVjUzblJPeE12eE5TSkhSTjltWS0yYVRGSGxqN0I0cHh1QnFEMk41clpHS05FZlBlUUJYSUJwT3J3YUFjMHBKU0xuQlFaUUdpUVBjVWZsdlFPRk1scTF4WVVyb1pieUk0SFp5dV9SZGZQdGI4VnZHNXFsWQ?oc=5",
+        "source": "tmgm.com",
+        "pubdate": "Wed, 23 Sep 2026 11:52:28 GMT",
+        "pubdate_iso": "2026-09-23T11:52:28+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 3,
+          "intensidad_label": "fuerte",
+          "emoji": "🔴🔴",
+          "razonamiento": "Fed hawkish: rate hike presiona oro"
+        }
+      },
+      {
+        "title": "Gold recovers above $4,350 on US–Iran diplomacy hopes",
+        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPd1Y0UjhUdnJLZDZlRHEyTjhqN2dLWlNlNTEzVzZObk1rbVdpNzdFMzhpRTJLTF9JVjVMYWZ1LWs3UldtdU5kMzlBVjhaX2tYN3ljcjY3aGNiOTV6VjJBMU5weFo2YmRBOGVDcVprck4tdTZ6QThRQ0U1RTM5WmE4eDBYanFJb3NsTF9VSUxiM196LXRYMUQxWVZDODZ1V054Z0NKRkltN29INEwtZk5hZUotcV84QWFjckE?oc=5",
+        "source": "tmgm.com",
+        "pubdate": "Wed, 23 Sep 2026 02:51:24 GMT",
+        "pubdate_iso": "2026-09-23T02:51:24+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "RD no alcanza una tonelada de oro en sus reservas pese a tener importantes yacimientos del metal",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWWZ6U0JVMDZEM0RrbkxBWnZrU0RQcWZQdVo1YmdvTVVvU3R5T3JRSl9nQTNpMUNwVWlvZ2phVS1yeW9hbDBVMGlGRl8wOU9lQkFhaGpJOTVqeHVVcXF5aU5tVXdPZ1Y4X29RR0llNGdXT3BVSnNWcjBfTkRUTnBqTEFzaHhWZWdlTUEteDVYZFZfVEN4czZURk5zM2pkUGtPTlE0dnhsQkJpZ1Btck9kYzhkN1TSAboBQVVfeXFMTzhFcC1QM2UyQ0pXZl9KWjA4QkZ1N2xMU01yWUs1MlBSaUMxNm9HNWp3NlVtVDFGdlFNeUQ5MVo3QWNLbTBCZ01JZDJ2bWZFdERfS1JrSF9KU21CYTlQTnJ1RkYycVYzM3dRMThEN1ZZRU1ZVEE5WnFER2VWUHVSeXlSNnlpYmdycG9qQ1dDenZxNGYwT1lwaVdKN3Q2Q0RrZ1RVZEcyVzYwcDV3T3o4eENPQ01TekJWZ3hn?oc=5",
+        "source": "El Nacional — La voz de todos",
+        "pubdate": "Tue, 22 Sep 2026 14:01:12 GMT",
+        "pubdate_iso": "2026-09-22T14:01:12+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "geopolitica": [
+      {
+        "title": "Noticias de CNBC TV18 en TradingView, de fecha 2026-09-24 — cnbctv:1f278c1d2094b:0",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB3Z01YNkdOM2VSTExKdUpnMzBRRnBJSkNlbU9ZeVNONGU5dFpNanhCMkpvb3Zmbk5EZTU0MUpqOWlfUlBZMEIxSW43UWRPa2xhaVNMX0paOE9MY2I4RHRWWDVpdFZGZw?oc=5",
+        "source": "TradingView",
+        "pubdate": "Thu, 24 Sep 2026 01:58:00 GMT",
+        "pubdate_iso": "2026-09-24T01:58:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "proyecciones": [
+      {
+        "title": "Predicción del precio de Litecoin (LTC) para 2023 2024 2025 2026 - 2030",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1qVGRFUnp3U25Rang3S1o5MHZCQWlBbDBpeVFNTlM1dHlvRjdZZDhHTlpzeTZWcGdJUTBxSzRGZGxFYjI4WGFxMHN3UTVuVktDbEk0akVBNTQySUl1c1lQYjVEQVFBMjBEN1E?oc=5",
+        "source": "changelly.com",
+        "pubdate": "Fri, 25 Sep 2026 10:28:06 GMT",
+        "pubdate_iso": "2026-09-25T10:28:06+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Predicción del precio de TRON (TRX) para 2026 2027 2028 - 2040",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOS3dzTlN2SC1uNU1tazFKdU91cnI1OU9VQy1zby03RU9MNVA4R3k1NWJRQTR3TExWMnltMXd5eWFwOEZLYmpJZElPNVdtVUlmU2pnUERNQzFHOTdTX2dLcDAzdzMtNDZ4N0QzcVlTYVU1T0g5R2ltRHBRTTBvejVoWXRXYw?oc=5",
+        "source": "changelly.com",
+        "pubdate": "Fri, 25 Sep 2026 06:39:37 GMT",
+        "pubdate_iso": "2026-09-25T06:39:37+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Kinross Gold Stock Falls on Production Guidance Cuts and Price Target Reduction",
+        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOTzVHanItMjRRbVhoOGRTS0pDa1RFNG1JUHNZbFpoa1F5NXE0Ym5wTmtfRjQ1dGtXNWg1QnV3a0VkSUZSakJiS0RuZ0RUVzRoTU5HOE1SX0ZuTWp2ZklGZENNSVhxM1hBRmdxVThCakE3eTFaWDV3OWZBOXlJUHhlMmFlNTNzcm4tbTN2dWNfdnpKTnI3VFlZZVpSV196ZmRpNmJNOVRjUFVRdXZkQnFiZkphSlJFa1ZrZnJKSzZzaEpxLXZTSWRFdm9hbmNjRmdnNXZv?oc=5",
+        "source": "TradingView",
+        "pubdate": "Thu, 24 Sep 2026 19:27:28 GMT",
+        "pubdate_iso": "2026-09-24T19:27:28+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Kinross Gold plunges after cutting 2026-27 production estimates",
+        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOb25Ha2h0eU9SNEpzbkFfSXV0aUVRX0M2YWc1VTd3ZzN2Wm9JMFZELTBLV3RTLTlPOGJfeEhQeUIwVHhFU1BsUmlBVTRxS0lpZ2pzcGZseklOa2FsZDFWcXN6Znd5YUZVUHJqejdCOWloY201cXVGVF9Cd25XVXVmdWs1MG9Ybm8tTERLcWJDY29HZWM1TVJxWlFScXpscTdydF93TTlyVDJjOG43cURBT202WnJCeUc3dXg5OU94U3pVaFk?oc=5",
+        "source": "TradingView",
+        "pubdate": "Thu, 24 Sep 2026 16:26:05 GMT",
+        "pubdate_iso": "2026-09-24T16:26:05+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Predicción del precio de Neo (NEO) para 2023 2024 2025 2026 - 2030",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9oNzRFZ0VqS2RGSGN5TlNMSld4WF9LZU0wbEdtekRqSlRNLURRVW5IU29ibDA5UDVIa1MyUGRMa0V1b0ZVODY4aDJueV9kUQ?oc=5",
+        "source": "changelly.com",
+        "pubdate": "Thu, 24 Sep 2026 14:06:36 GMT",
+        "pubdate_iso": "2026-09-24T14:06:36+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ]
   },
   "stats": {
-    "total_noticias": 0,
+    "total_noticias": 25,
     "por_categoria": {
-      "precio": 0,
-      "fed_macro": 0,
-      "dolar": 0,
-      "bancos_centrales": 0,
-      "geopolitica": 0,
-      "proyecciones": 0
+      "precio": 5,
+      "fed_macro": 5,
+      "dolar": 5,
+      "bancos_centrales": 4,
+      "geopolitica": 1,
+      "proyecciones": 5
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "neutral",
-    "score_neto": 0,
-    "n_positivas": 0,
-    "n_negativas": 0,
-    "n_neutrales": 0,
-    "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
+    "sentimiento": "bajista",
+    "score_neto": -7,
+    "n_positivas": 1,
+    "n_negativas": 4,
+    "n_neutrales": 20,
+    "narrativa": "El feed muestra 1 senales positivas y 4 negativas (neto -7). Factores dominantes: Fed hawkish: rate hike presiona oro; Rebote del oro.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "NEUTRAL - sin sesgo dominante"
+    "veredicto": "BAJISTA a corto plazo"
   }
 }
