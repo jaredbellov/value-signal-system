@@ -1,6 +1,6 @@
 {
-  "fecha_actualizacion": "2026-09-25T15:35:33.662164",
-  "duracion_segundos": 148.675053,
+  "fecha_actualizacion": "2026-09-25T15:38:43.115757",
+  "duracion_segundos": 139.988859,
   "n_acciones": 17,
   "acciones": [
     {
@@ -9,7 +9,7 @@
       "sector": "AFP",
       "clasificacion": "DGI",
       "benchmark_min_pct": 6.0,
-      "benchmark_max_pct": 7.000000000000001,
+      "benchmark_max_pct": 7.0,
       "descripcion": "Administradora de Fondos de Pensiones. Top 1 por AUM en Chile. ROE consistentemente alto (~45%), G=20% (tecnicamente Crecimiento pero paga dividendos altos).",
       "precio_actual_clp": 1450,
       "razon_social": "A.F.P. HABITAT S.A.",
@@ -468,7 +468,7 @@
       ],
       "per": 8.6,
       "per_bpa_ano": 2025,
-      "_fecha_dato": "2026-09-25T15:35:33.662132"
+      "_fecha_dato": "2026-09-25T15:38:43.115731"
     },
     {
       "ticker": "ZOFRI",
@@ -935,7 +935,7 @@
       ],
       "per": 11.1,
       "per_bpa_ano": 2025,
-      "_fecha_dato": "2026-09-25T15:35:33.662132"
+      "_fecha_dato": "2026-09-25T15:38:43.115731"
     },
     {
       "ticker": "PEHUENCHE",
@@ -1402,7 +1402,7 @@
       ],
       "per": 13.1,
       "per_bpa_ano": 2025,
-      "_fecha_dato": "2026-09-25T15:35:33.662132"
+      "_fecha_dato": "2026-09-25T15:38:43.115731"
     },
     {
       "ticker": "TRICAHUE",
@@ -1865,7 +1865,7 @@
       ],
       "per": 15.3,
       "per_bpa_ano": 2025,
-      "_fecha_dato": "2026-09-25T15:35:33.662132"
+      "_fecha_dato": "2026-09-25T15:38:43.115731"
     },
     {
       "ticker": "COLBUN",
@@ -2332,7 +2332,7 @@
       ],
       "per": 15.3,
       "per_bpa_ano": 2025,
-      "_fecha_dato": "2026-09-25T15:35:33.662132"
+      "_fecha_dato": "2026-09-25T15:38:43.115731"
     },
     {
       "ticker": "ENELGXCH",
@@ -2799,7 +2799,7 @@
       ],
       "per": 9.9,
       "per_bpa_ano": 2025,
-      "_fecha_dato": "2026-09-25T15:35:33.662132"
+      "_fecha_dato": "2026-09-25T15:38:43.115731"
     },
     {
       "ticker": "LIPIGAS",
@@ -2807,7 +2807,7 @@
       "sector": "Gas",
       "clasificacion": "DGI",
       "benchmark_min_pct": 6.0,
-      "benchmark_max_pct": 7.000000000000001,
+      "benchmark_max_pct": 7.0,
       "descripcion": "Distribuidora de GLP en Chile, Colombia y Peru. Crecimiento moderado por expansion regional. ROE 33%, payout 63%, G=12%.",
       "precio_actual_clp": 8900.1,
       "razon_social": "EMPRESAS LIPIGAS S.A.",
@@ -3265,7 +3265,7 @@
       ],
       "per": 12.8,
       "per_bpa_ano": 2025,
-      "_fecha_dato": "2026-09-25T15:35:33.662132"
+      "_fecha_dato": "2026-09-25T15:38:43.115731"
     },
     {
       "ticker": "NTGCLGAS",
@@ -3732,16 +3732,16 @@
       ],
       "per": 10.0,
       "per_bpa_ano": 2025,
-      "_fecha_dato": "2026-09-25T15:35:33.662132"
+      "_fecha_dato": "2026-09-25T15:38:43.115731"
     },
     {
       "ticker": "SOQUICOM",
       "nombre": "Soquimich Comercial",
       "sector": "Fertilizantes",
-      "clasificacion": "DGI",
-      "benchmark_min_pct": 6.0,
-      "benchmark_max_pct": 7.000000000000001,
-      "descripcion": "Distribuidora de fertilizantes especiales en Chile. Filial de SQM. ROE 11%, ciclo de payout variable, G=11%.",
+      "clasificacion": "Vaca Lechera",
+      "benchmark_min_pct": 8.0,
+      "benchmark_max_pct": 9.0,
+      "descripcion": "Distribuidora de fertilizantes especiales en Chile. Filial de SQM. Reclasificada de DGI a Vaca Lechera (2026): BPA decreciente 5 anos seguidos (-14%/ano), no corresponde la exigencia de una empresa en crecimiento.",
       "precio_actual_clp": 375,
       "razon_social": "SOQUIMICH COMERCIAL S.A.",
       "variacion_pct": 0,
@@ -3760,9 +3760,9 @@
       "cagr_5y": 0.10807899612268668,
       "cagr_10y": null,
       "evaluacion": {
-        "status": "Sobre benchmark",
-        "emoji": "🟢",
-        "vs_benchmark_pp": 0.76
+        "status": "Cerca",
+        "emoji": "🟠",
+        "vs_benchmark_pp": -1.24
       },
       "cmf": {
         "periodo": "06/2026",
@@ -4199,7 +4199,7 @@
       ],
       "per": 14.8,
       "per_bpa_ano": 2025,
-      "_fecha_dato": "2026-09-25T15:35:33.662132"
+      "_fecha_dato": "2026-09-25T15:38:43.115731"
     },
     {
       "ticker": "QUINENCO",
@@ -4666,7 +4666,7 @@
       ],
       "per": 11.8,
       "per_bpa_ano": 2025,
-      "_fecha_dato": "2026-09-25T15:35:33.662132"
+      "_fecha_dato": "2026-09-25T15:38:43.115731"
     },
     {
       "ticker": "CENCOMALLS",
@@ -5133,7 +5133,7 @@
       ],
       "per": 12.7,
       "per_bpa_ano": 2025,
-      "_fecha_dato": "2026-09-25T15:35:33.662132"
+      "_fecha_dato": "2026-09-25T15:38:43.115731"
     },
     {
       "ticker": "ENELAM",
@@ -5592,7 +5592,7 @@
       ],
       "per": 10.1,
       "per_bpa_ano": 2025,
-      "_fecha_dato": "2026-09-25T15:35:33.662132"
+      "_fecha_dato": "2026-09-25T15:38:43.115731"
     },
     {
       "ticker": "AGUAS-A",
@@ -6059,7 +6059,7 @@
       ],
       "per": 13.6,
       "per_bpa_ano": 2025,
-      "_fecha_dato": "2026-09-25T15:35:33.662132"
+      "_fecha_dato": "2026-09-25T15:38:43.115731"
     },
     {
       "ticker": "PARAUCO",
@@ -6518,7 +6518,7 @@
       ],
       "per": 23.1,
       "per_bpa_ano": 2025,
-      "_fecha_dato": "2026-09-25T15:35:33.662132"
+      "_fecha_dato": "2026-09-25T15:38:43.115731"
     },
     {
       "ticker": "MALLPLAZA",
@@ -6977,15 +6977,15 @@
       ],
       "per": 5.6,
       "per_bpa_ano": 2025,
-      "_fecha_dato": "2026-09-25T15:35:33.662132"
+      "_fecha_dato": "2026-09-25T15:38:43.115731"
     },
     {
       "ticker": "CCU",
       "nombre": "Compania Cervecerias Unidas",
       "sector": "Embotelladora",
-      "clasificacion": "DGI",
-      "benchmark_min_pct": 6.0,
-      "benchmark_max_pct": 7.000000000000001,
+      "clasificacion": "Vaca Lechera",
+      "benchmark_min_pct": 8.0,
+      "benchmark_max_pct": 9.0,
       "descripcion": "Mayor cervecera y embotelladora de Chile. Marcas lider, expansion regional. Precio via Yahoo (.SN) por bloqueo captcha BCS.",
       "precio_actual_clp": 5233.9,
       "razon_social": "COMPANIA CERVECERIAS UNIDAS S.A.",
@@ -7007,7 +7007,7 @@
       "evaluacion": {
         "status": "Bajo benchmark",
         "emoji": "🔴",
-        "vs_benchmark_pp": -4.04
+        "vs_benchmark_pp": -6.04
       },
       "cmf": {
         "periodo": "06/2026",
@@ -7444,7 +7444,7 @@
       ],
       "per": 16.5,
       "per_bpa_ano": 2025,
-      "_fecha_dato": "2026-09-25T15:35:33.662132"
+      "_fecha_dato": "2026-09-25T15:38:43.115731"
     },
     {
       "ticker": "OXIQUIM",
@@ -7452,7 +7452,7 @@
       "sector": "Quimica",
       "clasificacion": "DGI",
       "benchmark_min_pct": 6.0,
-      "benchmark_max_pct": 7.000000000000001,
+      "benchmark_max_pct": 7.0,
       "descripcion": "Quimica industrial: resinas para tableros de madera y terminales maritimos de graneles liquidos. ROE 21%, margen neto 11%, endeudamiento 46% (desapalancandose). Dividendos irregulares. Baja liquidez bursatil.",
       "precio_actual_clp": 13100,
       "razon_social": "OXIQUIM S.A.",
@@ -7907,7 +7907,7 @@
       ],
       "per": 12.5,
       "per_bpa_ano": 2025,
-      "_fecha_dato": "2026-09-25T15:35:33.662132"
+      "_fecha_dato": "2026-09-25T15:38:43.115731"
     }
   ]
 }
