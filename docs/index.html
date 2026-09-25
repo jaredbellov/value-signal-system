@@ -2253,7 +2253,7 @@ function fcfChart(a){
     else{cls="bad";ver=`\ud83d\udea9 <b>Patr\u00f3n La Polar</b>: utilidades contables sin caja libre que las respalde (FCF/Utilidad promedio ${prom.toFixed(2)}${negs?`, ${negs} a\u00f1o(s) con FCF negativo`:""}). Revisar el An\u00e1lisis Razonado antes de aportar.`;}
     return `<div style="margin-top:14px">
       <h4 style="margin:0 0 6px">\ud83d\udd75\ufe0f Utilidad vs FCF \u00b7 coherencia contable (5 a\u00f1os)</h4>
-      <svg viewBox="0 0 ${W} ${H}" style="width:100%;max-width:560px;display:block">
+      <svg viewBox="0 0 ${W} ${H}" style="width:100%;max-width:100%;display:block">
         <line x1="${padL}" y1="${y0.toFixed(1)}" x2="${W-padR}" y2="${y0.toFixed(1)}" stroke="#3a4556" stroke-dasharray="4 4"/>
         <polyline points="${line(U)}" fill="none" stroke="#5eead4" stroke-width="2"/>
         <polyline points="${line(F)}" fill="none" stroke="#eab308" stroke-width="2"/>
@@ -2306,7 +2306,7 @@ window.__drawPC=function(id,anios){
     const area=`${pL},${(H-pB).toFixed(1)} `+pts+` ${(W-pR)},${(H-pB).toFixed(1)}`;
     const xl=[0,Math.floor((data.length-1)/2),data.length-1].map(i=>
       `<text x="${X(i).toFixed(1)}" y="${H-6}" font-size="9" fill="#7c8aa0" text-anchor="${i===0?"start":i===data.length-1?"end":"middle"}">${data[i].f}</text>`).join("");
-    cont.innerHTML=`<svg viewBox="0 0 ${W} ${H}" style="width:100%;max-width:560px;display:block">
+    cont.innerHTML=`<svg viewBox="0 0 ${W} ${H}" style="width:100%;max-width:100%;display:block">
       <polygon points="${area}" fill="${col}" opacity="0.08"/>
       <polyline points="${pts}" fill="none" stroke="${col}" stroke-width="2"/>
       ${xl}
@@ -2353,7 +2353,7 @@ function bpaChart(a){
     }
     return `<div style="margin-top:14px">
       <h4 style="margin:0 0 6px">\ud83d\udcca BPA \u00b7 utilidad por acci\u00f3n (5 a\u00f1os)</h4>
-      <svg viewBox="0 0 ${W} ${H}" style="width:100%;max-width:560px;display:block">
+      <svg viewBox="0 0 ${W} ${H}" style="width:100%;max-width:100%;display:block">
         <line x1="${padL}" y1="${y0.toFixed(1)}" x2="${W-padR}" y2="${y0.toFixed(1)}" stroke="#3a4556" stroke-dasharray="4 4"/>
         ${barras}${xl}
       </svg>
@@ -2374,8 +2374,7 @@ function evalChilePanel(a){
         <div class="ev-col"><h4>Salud financiera</h4>${sal.rows.map(r=>evRow(...r)).join("")}${evConcl(sal.concl[0],sal.concl[1])}</div>
         <div class="ev-col"><h4>Valoración</h4>${val.rows.map(r=>evRow(...r)).join("")}${evConcl(val.concl[0],val.concl[1])}</div>
       </div>
-      ${fcfChart(a)}
-      ${bpaChart(a)}
+      <div class="grid c2" style="margin-top:4px">${fcfChart(a)}${bpaChart(a)}</div>
       <div class="ev-note">${sal.note} Valoración por múltiplos y dividendo — sin flujo de caja descontado (muy sensible a supuestos para el inversionista minoritario).</div>
     </div>`;
   }catch(e){ console.warn("evalChilePanel",e); return ""; }
