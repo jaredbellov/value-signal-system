@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-09-28T19:03:28.353164+00:00",
+  "updated_at_utc": "2026-09-28T19:33:27.807395+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -20,22 +20,7 @@
     }
   },
   "noticias_por_categoria": {
-    "tesla": [
-      {
-        "title": "Tesla begins deliveries in the United States of the mass-production version of its Semi truck",
-        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOTkZHZUlnY0RPSUxCQUkzNlYwdE5ZTXFEVmVJX3hWd0NFUWN4em0tN0xSMHBoSFhqVGRfVkxGVlZMN2hPNjFweTBDcDBfTFVxSGY5RHRYc2VqcVRUb013TzFPNjBTSHY3dnFDWGEzbWNhTUdUeF83cm1Zc1paRnRJY0JxRVNQaEdROFRJRUFCbDdhVVFqT3VvX3JWVDRYdVRlZzgydFJJMzJpYVRvYVFfRUZSRjBVdkRSZU5sbXlQRjA?oc=5",
-        "source": "Highmotor",
-        "pubdate": "Fri, 25 Sep 2026 19:11:15 GMT",
-        "pubdate_iso": "2026-09-25T19:11:15+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      }
-    ],
+    "tesla": [],
     "nvidia": [],
     "ia_semis": [
       {
@@ -99,9 +84,9 @@
     ]
   },
   "stats": {
-    "total_noticias": 5,
+    "total_noticias": 4,
     "por_categoria": {
-      "tesla": 1,
+      "tesla": 0,
       "nvidia": 0,
       "ia_semis": 2,
       "macro_tech": 2
@@ -112,7 +97,7 @@
     "score_neto": 0,
     "n_positivas": 0,
     "n_negativas": 0,
-    "n_neutrales": 5,
+    "n_neutrales": 4,
     "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
     "narrativa_fuente": "plantilla",
     "veredicto": "NEUTRAL - sin sesgo dominante"
