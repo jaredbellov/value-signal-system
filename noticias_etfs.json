@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-09-28T19:26:56.752037+00:00",
+  "updated_at_utc": "2026-09-29T12:23:15.329904+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "fed_tasas": {
@@ -28,303 +28,31 @@
     }
   },
   "noticias_por_categoria": {
-    "fed_tasas": [
-      {
-        "title": "SPX: S&P 500 Futures Slip as Oil and Bond Yields Rise. What to Watch This Week.",
-        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNXzc1ZlNvUE9ObzZsa3dBUXh1RVlCZGt2dzduU3RDVnFzRDVHQ2JUdjhkX3JhZEJxd1JpUC0ySWo3WHU1Zml2Qk84MmpnQnljbmpHSXJHN005T1hvZEhZenVQT1gzX0dFMEFrWDNFbW51Nml3X0ZHZFRuOEdYdmNENGxXZk9TWnZjTHFidENDOURzemxfMktaQ25RaTBfQkhYaThIei1SUTM0N3QwMEJZSlRRUDJPV3NpSWVGcExCTS14d29FNnpDeWxzWXRhUFFqcUJ3?oc=5",
-        "source": "TradingView",
-        "pubdate": "Mon, 28 Sep 2026 05:44:00 GMT",
-        "pubdate_iso": "2026-09-28T05:44:00+00:00",
-        "impacto": {
-          "direccion": "negativo",
-          "intensidad": 1,
-          "intensidad_label": "leve",
-          "emoji": "🔴",
-          "razonamiento": "Yields al alza: viento en contra"
-        }
-      },
-      {
-        "title": "Stocks Settle Higher as Crude Prices Fall on US-Iran Deal Hopes",
-        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQZ0MzMXlsYkpYNkRELU9FN3JPc3ozT3pfS1p2TlZxWV95eENzSEtpVEltRHJ3N1hpSHJoUUFiV3VEaHRTNmQzQmw2cjFuTURzSlNOVTVrLW9jdXp0N2RJbVhyY3o4UkZuODNFSmExaVlQVGd1OEh6OVB0Vy1jdWppLWNzWTZNRkZENkRvWE41Ymo1VDJqMlRmb2xCTlkwekN0d2pSUTRkdnlJaVNjLUF1LU1jRkRqLVhaMkFEajBn?oc=5",
-        "source": "TradingView",
-        "pubdate": "Fri, 25 Sep 2026 20:36:33 GMT",
-        "pubdate_iso": "2026-09-25T20:36:33+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Dollar Falls as Crude Prices Decline and Stocks Gain",
-        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQkFSTmFZaGVnMDBHOVo5cGlCeHM0b1BnMkwtQmZVc0RCc0VnNm5pZHZKUWhWMFJkdG5kbXNVdE1vcmJCVFZSNG9XREZndm5NWEo1aVFyTURVS2RNeEdvNWhaMXVnZzJENTExUGNxOWlqZmlrX1dvYW1Na1dvaENGX3g3NXo3bUlVYnkxRWNfaDdvX09TYU5OUF9PYVFjaW9lYTNILTQtVDlKOWdnNjBZ?oc=5",
-        "source": "TradingView",
-        "pubdate": "Fri, 25 Sep 2026 19:34:07 GMT",
-        "pubdate_iso": "2026-09-25T19:34:07+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      }
-    ],
-    "mercado": [
-      {
-        "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
-        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOd09PZnJralJxSk5iNVJzTmstU3BRZlQ0TnB3Vktib09VbF91eEE3aGNkWWd3T1RMTTRjU2ZaX3lnRzBBcWFCNHlhTE0wWFp3Z2ZZNEo3UVc0NTltZDQ0YnZ6alg2S016LVFtU1lkLWo2R29KYVJBb0JFc2E5eTNoRk4yMVhoLUxtQVM0enFzRjRnR0JYM08xQ2hDdUMwc1NPUFJ6RklQRFU?oc=5",
-        "source": "TradingView",
-        "pubdate": "Mon, 28 Sep 2026 06:11:00 GMT",
-        "pubdate_iso": "2026-09-28T06:11:00+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Nasdaq, S&P 500 Futures Edge Lower Despite AI Momentum As Iran Risks Linger: Why HPE, MRVL, INTC, TSLA, SPCE, ASTS Are In Focus",
-        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPUTF1MDJpd2lTQm5va3JoSjdTaTM5Z0g5eTAyRk4tc2lKci1vcmptWktEelozNVFicUd5NEFTTU5RQW9ZbVNTTzZKakZrV2REUUhVWjZJQ04zMlg3ckNObmNNaGtpRXBJMFJhTmtRbGFLTnVwQnFzSXVZeVdULVpUM2NtRHVKVkZlMmkyaTlNUndHUV9KdVo3NHU3OHFEVWlac2xfbkxVYm9rRzlwNGxjZlZkTGZfeVdqQ1hrbTV2eG9CZV8xQTJPTjlST2JvcFFxU1FV?oc=5",
-        "source": "Stocktwits",
-        "pubdate": "Sun, 27 Sep 2026 20:07:29 GMT",
-        "pubdate_iso": "2026-09-27T20:07:29+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Wall Street Sees Nifty at 30,000: Why Are Foreign Investors Still Selling Indian Stocks?",
-        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOejM1emlhQVVNN285ek1Cdk50RnpCbW02b1NLMDNyTlNpQmFfOG1WQmd5dld4ZVJHcW0yNWpKWUtyYTlTaVlweG1udGRwVnJmeDhEREdHdG5udnhGc1VOTXJJY3dVM3h2eUxFMmg1OG44VzVjRHVjd2luMFlHVWVlZG5NZWkwM3FZaTI0VFdINUFBSUFrSTVoQ1J0RG4xTWstRGdlNUo1ZGtQOWQ5eGlsZnVxZEpLTUQ0QnZHWDZhRGVmWlBE?oc=5",
-        "source": "CryptoRank",
-        "pubdate": "Sat, 26 Sep 2026 19:27:38 GMT",
-        "pubdate_iso": "2026-09-26T19:27:38+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      }
-    ],
-    "tech_nasdaq": [
-      {
-        "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
-        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOd09PZnJralJxSk5iNVJzTmstU3BRZlQ0TnB3Vktib09VbF91eEE3aGNkWWd3T1RMTTRjU2ZaX3lnRzBBcWFCNHlhTE0wWFp3Z2ZZNEo3UVc0NTltZDQ0YnZ6alg2S016LVFtU1lkLWo2R29KYVJBb0JFc2E5eTNoRk4yMVhoLUxtQVM0enFzRjRnR0JYM08xQ2hDdUMwc1NPUFJ6RklQRFU?oc=5",
-        "source": "TradingView",
-        "pubdate": "Mon, 28 Sep 2026 06:11:00 GMT",
-        "pubdate_iso": "2026-09-28T06:11:00+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "RUM Stock Extends Rally Overnight: Rumble Secures 85% Support For Northern Data Deal As Closing Nears",
-        "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPeEtOVkd0YTZRZ1M4LU13WjNtWG5XWm1DcHFSQzBnUjI1MkVLSHNLMV9zRERHUXIwNmtoQlpjWkhJTHM1MXBCX2xPbGhQbF9mazhzSUFIenJZaXM1Rk1tTnNaTkZFenh2ckJKVVM1LWdBLW5Fb0hYTnM5REU3S3p6ZTBRX1pYZ1JlVFFuUVlGUlVGb3o1bVpTN0lESjljeG8tcFZmRE5yWTBOMk5DT2VqU3VrdGVFNVdzb3hoTWNHZU44SHV0UVVleGRhSllmc1RHMnBVeTVCTVBLelphRjAwTEpSUlpEODJuWGNRcWxfbl83cmRZT1E?oc=5",
-        "source": "Stocktwits",
-        "pubdate": "Sun, 27 Sep 2026 20:15:07 GMT",
-        "pubdate_iso": "2026-09-27T20:15:07+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Dow Jones: Stocks Rally, Silver Price Holds Despite 5% Yields",
-        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZ0RfNVlBdDVkcUFsU0ZzWGN6dm83V3RKNU1tbU5UQ1ZMZEZWTHFZSWdmTU03eWRLYVU0NlBYMEJsbFhTYVY2LTFINVl6cWZnaGRnMW9CSDVXcG1Xc2FUUTVxUTFPdXc1dUVmcGllLXRFcTFZaHUyaWJnaGhSenROWXgyRkxBakxkWlExR1g5bDl0TXJrbFJlRFhFNGNYaTJ1?oc=5",
-        "source": "CryptoRank",
-        "pubdate": "Sat, 26 Sep 2026 07:00:00 GMT",
-        "pubdate_iso": "2026-09-26T07:00:00+00:00",
-        "impacto": {
-          "direccion": "positivo",
-          "intensidad": 2,
-          "intensidad_label": "moderado",
-          "emoji": "🟢",
-          "razonamiento": "Rally accionario"
-        }
-      },
-      {
-        "title": "What Will the Q3 Earnings Season Show?",
-        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUGdWcllzZG51UVVsMVF1RmoyYUZ3TnlJa1E0STZ6Rmg3VVJMY2p6TnF4cjJGZjR6akVDWVF1OGRYTmhkQTJqcG1WQXVCMmNmdlE0bTJ0UExobmk4N2c2M1k2dnFCeE0xUTQ1bVRoeU9KRlRJMklTTmZXN1huNjZlc3hURGRXWlliM1UxTTUwNjFmal9GVEpr?oc=5",
-        "source": "TradingView",
-        "pubdate": "Fri, 25 Sep 2026 20:58:00 GMT",
-        "pubdate_iso": "2026-09-25T20:58:00+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      }
-    ],
-    "economia": [
-      {
-        "title": "SPX: S&P 500 Futures Slip as Oil and Bond Yields Rise. What to Watch This Week.",
-        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNXzc1ZlNvUE9ObzZsa3dBUXh1RVlCZGt2dzduU3RDVnFzRDVHQ2JUdjhkX3JhZEJxd1JpUC0ySWo3WHU1Zml2Qk84MmpnQnljbmpHSXJHN005T1hvZEhZenVQT1gzX0dFMEFrWDNFbW51Nml3X0ZHZFRuOEdYdmNENGxXZk9TWnZjTHFidENDOURzemxfMktaQ25RaTBfQkhYaThIei1SUTM0N3QwMEJZSlRRUDJPV3NpSWVGcExCTS14d29FNnpDeWxzWXRhUFFqcUJ3?oc=5",
-        "source": "TradingView",
-        "pubdate": "Mon, 28 Sep 2026 05:44:00 GMT",
-        "pubdate_iso": "2026-09-28T05:44:00+00:00",
-        "impacto": {
-          "direccion": "negativo",
-          "intensidad": 1,
-          "intensidad_label": "leve",
-          "emoji": "🔴",
-          "razonamiento": "Yields al alza: viento en contra"
-        }
-      }
-    ],
-    "earnings": [
-      {
-        "title": "AI-driven stock swings revive hedge fund interest in dispersion trades",
-        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPRUZMOUt6a2ZoU051RTJHQ2xILWZGcTRRRzhVM21QeHV6eHZUX2N5eWhGbzNKWnBQSEtZLW5meEpmSkhGdlF6eThQVV8xUkRyUHhDLXJKSE1WS0NPZ1ZYcDFobDVUSy13ZGhzZGZNakpMaWxUbHRYcnFFSVRKaVE0Yy1NOWluTUdwZG9TWkh5NzNKRGh3TkxmTi1MR3F0SW5fSHhGc3M3Yi0zWnhqRjJmOW9EcUM4NUM5S3NKNTV6RTNGMk8zMk9SS1dJYkI?oc=5",
-        "source": "TradingView",
-        "pubdate": "Sun, 27 Sep 2026 14:43:43 GMT",
-        "pubdate_iso": "2026-09-27T14:43:43+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Vail Resorts (MTN) Q2 Earnings: What To Expect",
-        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQYmgyelhTOFd5bTgtdGJNbXIybHBUdC1xLXN6d3lqd3pOem5rR2NnRi1yZHRPQzc5aWlmVE9uLU1jSGQwdmMtWGxSRjkwSTE4OUVHaHRqZE9OTWo2bFBESnJ2UHlMSjZmd2dyMHE3NEtTVDdaSF9zbndsNU1YNWhjaGZLVEZNSTdjNS01QUh3QjMyUDJLdGhIZ2dTV2FZRXdZcS1WZEhn?oc=5",
-        "source": "TradingView",
-        "pubdate": "Sun, 27 Sep 2026 03:00:00 GMT",
-        "pubdate_iso": "2026-09-27T03:00:00+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "What Will the Q3 Earnings Season Show?",
-        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUGdWcllzZG51UVVsMVF1RmoyYUZ3TnlJa1E0STZ6Rmg3VVJMY2p6TnF4cjJGZjR6akVDWVF1OGRYTmhkQTJqcG1WQXVCMmNmdlE0bTJ0UExobmk4N2c2M1k2dnFCeE0xUTQ1bVRoeU9KRlRJMklTTmZXN1huNjZlc3hURGRXWlliM1UxTTUwNjFmal9GVEpr?oc=5",
-        "source": "TradingView",
-        "pubdate": "Fri, 25 Sep 2026 20:58:00 GMT",
-        "pubdate_iso": "2026-09-25T20:58:00+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Biotech ETF XBI Hits an Interest Rate Wall as 40+ Catalysts Approach",
-        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNaXRCRkZhcUxFRmpuNEgxMWJaLUhFai1KZjNMVllQN3h4d0UzQmtubkFjLUVTSzZGWWZSR0EyNTlQcHpfb3ZmUGdwNW1lNFItMDVxTDNyWnBXTC1hX05PWFctbHZaazJRY2RmcF9kdTR1YldZRUxtMVBOSXlsaVF5UE84SzQ0LTRWdkNwbUI0WkQ0VEg2SzB4SW5PR2dJSVc4N0FWN0llZjRQcC1uc3pmRUdDMGdzOVhyQklHN09MX29pNDg?oc=5",
-        "source": "TradingView",
-        "pubdate": "Fri, 25 Sep 2026 20:19:27 GMT",
-        "pubdate_iso": "2026-09-25T20:19:27+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      }
-    ],
-    "sentimiento": [
-      {
-        "title": "Sensex, Nifty 50 prediction today: Stock market outlook for Monday, 28 Sept - GIFT Nifty, Kospi, Nikkei signals",
-        "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNUDZ2eWNBbmNKaFA1bTRBQUlZNDZwMXVia2UtVG1sR1dEZ19YTDNTZk5sYmVfRDROTEJYUlpTTElfemZqLUhBcVBHYXJ6b1JiV3N6bHkwQUx1RXVKeGFqOW16aGJweTFvR0lJR2k1SWVhTWZ2NzRqUUF4Q2duOWpDSDF1OVYwSWpITzV6NWdzSEIzWHlLcGRQcE9zY1hQNThrWW5YdW1fRXJNVGlpWjRXUTEwMzZZUmhJR1JvMHlnQ2k2azlKOWhOTEFWRjh3am54ZDB3eERVZmhpOXZnN0JVX0hRQ0lzWTBpeHpCanc2X3c1QQ?oc=5",
-        "source": "TradingView",
-        "pubdate": "Mon, 28 Sep 2026 04:41:00 GMT",
-        "pubdate_iso": "2026-09-28T04:41:00+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Bitcoin, Ethereum, XRP Slide While Dogecoin Gains as Trump Rejects Iran's Hormuz Proposal: Analyst Sees BTC Marching to $90,000 Levels if This Happens",
-        "link": "https://news.google.com/rss/articles/CBMirAJBVV95cUxNU1psYUJ1d25FeUt5aW43ckstOTZCWXBXTDJCQUw3U0RPTGZZWEZlOTF4eV83TXF3MFBtV1lVakVkdVBWZkp4MFZWdzAxXzJBQlJ2dDNGSVd5THlWRElvOWVtNWdCY1Q4Y0ZJMzZ5RmVuZHVzLTBfS2xrdFlhbkthVkNudmg3am9vZG96MllqcHRaN2V0amQtNHM0eWhLRG9ySURJTlFLenJFYVZwTUVVdGtZdXJ6RDAtTEVvZktPWVpqMkZhY3NXcVduc196TTJ3WHdGRWhIZm9CU0RteGlackwxNTg2b2J6VFQwV0l5eE83Q0ttQ3ZjZHozZFZVNXJyWjRBZEs4T3BPeUNFYmJmbERPUDRXNWxRRVdqc01qcnd3eWs0WFlfVUpEN0E?oc=5",
-        "source": "TradingView",
-        "pubdate": "Mon, 28 Sep 2026 02:09:00 GMT",
-        "pubdate_iso": "2026-09-28T02:09:00+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Stock market prediction for tomorrow: Sensex, Nifty Monday, 28 Sept triggers | GIFT Nifty, Nikkei, Taiwan, Kospi cues",
-        "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNUHRMTTh3STBvellhVWxpX3FwNnB5SEZGLWNEZDVMY1N1dFMwQVVRSlpsTGF4cy1IYnlMbnBPRzJMMGd3RXM4V181dXFfWk04WXZiMTNfbzlpZ3BmcEhhVTdGTHpTWnI5enpsOW9nTE9WWE95eW05SlZfNXRfMGMwdG1RN1NDdUJSb0t6TGwzNVRfRFRDOUJwbjZrSkdPRnRqa3Y0bFBmM2hjTUZ5R1RRRzl2RGtQb0o1eWUwcFZmRDVPaTJPNFMyVk05YXV6c0JwRDN6ZFhzUVJZZ2l2YkxKSnMwcEs2OG5fTGNpa1l0R29OT2RDTHVJXw?oc=5",
-        "source": "TradingView",
-        "pubdate": "Sun, 27 Sep 2026 07:33:47 GMT",
-        "pubdate_iso": "2026-09-27T07:33:47+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Sumeet Bagadia's stock picks for Monday - Mahindra And Mahindra, Asian Paints, HCL Tech | Target, SL, market outlook",
-        "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxObndRelZmVE9KRk5LdlpLdFlDOUt2SS1zRW9NVS0yNmFEa2ZmVVVXa2JxcHd4Z3RuMkhRZWZvRlhxVzY1ZUNzUGhsSF9ieGpIUjllbW1INmt0MzhDTGRER1Zab1l0N2hRbmZ0VzJmcVNtakNQNnk1ZGRHcEx1cXVfV2YxUzBmaUVfalpVZWFRRWlmOXVsQlhmLURBX1pOZERmRlF3SEtWcjVibm5KVERYLXhnQ2pjU3J5R1NNWVV0SVhDNVowWnhKVmhFeG4zVFgzeS02aEljc3N5YkZOaE5FcVJ3VUVaam5tVFhLX1plNkZlX00tMDlZ?oc=5",
-        "source": "TradingView",
-        "pubdate": "Sat, 26 Sep 2026 07:48:54 GMT",
-        "pubdate_iso": "2026-09-26T07:48:54+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      }
-    ]
+    "fed_tasas": [],
+    "mercado": [],
+    "tech_nasdaq": [],
+    "economia": [],
+    "earnings": [],
+    "sentimiento": []
   },
   "stats": {
-    "total_noticias": 19,
+    "total_noticias": 0,
     "por_categoria": {
-      "fed_tasas": 3,
-      "mercado": 3,
-      "tech_nasdaq": 4,
-      "economia": 1,
-      "earnings": 4,
-      "sentimiento": 4
+      "fed_tasas": 0,
+      "mercado": 0,
+      "tech_nasdaq": 0,
+      "economia": 0,
+      "earnings": 0,
+      "sentimiento": 0
     }
   },
   "resumen_ejecutivo": {
     "sentimiento": "neutral",
     "score_neto": 0,
-    "n_positivas": 1,
-    "n_negativas": 2,
-    "n_neutrales": 16,
-    "narrativa": "El feed muestra 1 senales positivas y 2 negativas (neto +0). Factores dominantes: Rally accionario; Yields al alza: viento en contra.",
+    "n_positivas": 0,
+    "n_negativas": 0,
+    "n_neutrales": 0,
+    "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
     "narrativa_fuente": "plantilla",
     "veredicto": "NEUTRAL - sin sesgo dominante"
   }
