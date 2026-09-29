@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-09-29T12:23:15.661886+00:00",
+  "updated_at_utc": "2026-09-29T13:33:52.708338+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "bcch_tpm": {
@@ -36,20 +36,207 @@
     }
   },
   "noticias_por_categoria": {
-    "bcch_tpm": [],
-    "ipsa": [],
-    "dolar_cobre": [],
-    "economia_chile": [],
+    "bcch_tpm": [
+      {
+        "title": "La tasa de interés en el sector construcción y los altos costos",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNVRmeUYzQXVrWlo0NWxVZ3NWR1ZGallIZmxtcXM4M20zcEp2QjF2RFp0dWE2bk1YQXY0aW5OUk8tYmdBLUZHMV9FbTlxVjdoQUphSWhNdTdEM1pjemRwa1pIRnlsU3Fwek9ZZDRxUzNPbFVEbWxlTE9MWGVZWV81Y1p0enhEelFRbWxhWXF3?oc=5",
+        "source": "eldia.com.do",
+        "pubdate": "Mon, 28 Sep 2026 13:19:01 GMT",
+        "pubdate_iso": "2026-09-28T13:19:01+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "ipsa": [
+      {
+        "title": "MSCI IPSA: La Bolsa de Santiago esta sesión cerró a la baja con 1,06%",
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZTJjWFBfNGZUMHM2ZVR3Wm90dkZZWVpqWC15TDZrWU01WHFyZlA1WHJNZFVxeDJKRE1MdmZfU2FpQjE5Z09FNTZ0aWo4Y0lqTW9wVW5hdTh0ZlU5dlBvV3ctZFFSRVozRF9JbzVoXzB0bUtZWjQ2NWRpYTVyZG9vaVNLcEx2Q1F0WnJRbVRlb2E5Z1g2UHBIUWZkS2M2YVN2UUoyUGtPSG0yZWhmSnRENzVR?oc=5",
+        "source": "diarioestrategia.cl",
+        "pubdate": "Mon, 28 Sep 2026 23:55:46 GMT",
+        "pubdate_iso": "2026-09-28T23:55:46+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Bolsa chilena cae por tercera sesión y cierra en mínimos de seis semanas frente al estancamiento diplomático en torno a Medio Oriente",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE80UmxmT1EwQTBLZUVrR0p6YmJRUmhTTFltMzB5cjloLWpYTWdOYXNSQXY5cUk5Rll0endkZFlkQU4yOTlwUmZmU01meDlKRjlxd3pVYkxoSVZmR0ZnbjRzd2FSQm1wQnJp?oc=5",
+        "source": "Diario Financiero",
+        "pubdate": "Mon, 28 Sep 2026 20:01:00 GMT",
+        "pubdate_iso": "2026-09-28T20:01:00+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Bolsa local a la baja"
+        }
+      }
+    ],
+    "dolar_cobre": [
+      {
+        "title": "Mercado mundial del cobre se encamina a un déficit estructural que podría alcanzar 10 millones de toneladas hacia 2040",
+        "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQR0JIX0VCOWVabnVvSDFxMDFSMUJmTkVxUHZhSkRsUjdHRzVXSFZTR3p0WUNaamZmdjdPSks5SHo4THEtQXZCX3U4YnhxQm1wb2dNN3U2eG5VUVBaQU1IZjVmRlZ4c3J5ZTdLM2lKa0hBRm5IY2dJdGVPRVgydUxiT3BXUmNWRWJJTnJ4M04yOENfVUlwd2Y0bkM0b3QwLUNmU2l4TTRDS2lCeHV0eE5YQlZxNXRlaHFTV3dnTTR2ZVJLQjhYdld3MXE2U0JGT052alBwTURjb3Y?oc=5",
+        "source": "Revista Digital Minera REDIMIN",
+        "pubdate": "Mon, 28 Sep 2026 15:48:18 GMT",
+        "pubdate_iso": "2026-09-28T15:48:18+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Cobre registra caída a mínimo semanal por débil demanda global",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNQlJiVXlvZGJoTEJwV1U3SWg1VTlYYTRGb0JNZ1VSUE9VZmtpaUZWR3NvZTdxRG5XYWFCRnozNkU5SmJjT29Bd1N5WVJyVER2aUVBVFZ2QzhOWU9sOTJxYlpVSjhjOEpiT25CaGlVMW4wUUxObmFHSzJrdWdVa3lLRTkxZ0pSYjJ3MmNpcG9R?oc=5",
+        "source": "Xpectro FM",
+        "pubdate": "Mon, 28 Sep 2026 14:49:46 GMT",
+        "pubdate_iso": "2026-09-28T14:49:46+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Precio del Dólar en Chile hoy: El Peso chileno cae a mínimos de más de un año ante la fortaleza del Dólar estadounidense",
+        "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOM0VuT3RIWFlLdjZ0QXJCbjJTekRkSUpROG52T1o4WEVRYTVmZUszTXZkbjJyMkNnMjRKaml1cldQRlRmSjRIbE1JWEY2ZVlDNVA5akd2WjgxNzRGVVQ4U0pMNEItLXhXZDhqQ1lTQzh5THpxSGl0VlcwNmVwNF95V3UxZ1NyQlhPb1IzYU0zVFhtU0NXdFRIRTdpYlBTb2lramRhMGxMNmRtYUIyaE8zUmxVTExvTWh0MFB6Y2NWWFJIT1BNS0RjV2RKRHRqMzFYRWhKb1BUV0NqT2JBclFPMExxQmUxMTB1WFVOVTBmQWNCZFnSAfgBQVVfeXFMTXNnTG94TWlBaXR1TlBXaTlqY1lDdndIVXctR0xKV0J4U2loTk5hWDRtYTdEeGZHalRnLVlQanlZazRnSTBCNlBZUFVsMUlKN2M4TEdFZnI4ZHpIMFZGVVdnZXVyQUdaa2hGQ3VDV3NuXzV4b1EyNFlDY1hsSnAySENzS2JKSkxxR0NZZnUtbW1fZ080Z3Z1b2ZqY3E2N1ZYaFdzWm5DdG95UUg4MlVOVVBTNW1lWl9QUTRfa3hsaWtLSkJZMVROMmczLXdqYzRkRWRmZ29GQlowdlplbUNzRmRhdlo3c2R6dUlFWFAzZ25BVHNSdWhTQWQ?oc=5",
+        "source": "FXStreet",
+        "pubdate": "Mon, 28 Sep 2026 14:39:40 GMT",
+        "pubdate_iso": "2026-09-28T14:39:40+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Peso chileno hoy, 28 de septiembre: a cuánto cotiza y cómo abrieron las pizarras en el último lunes de septiembre",
+        "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNcHhva0hxd1YyVlQ4WmRXU0l3OGZRbUcxVm5FM2tuNGtSNUdLYV92bXRYcWZPcjdWZjVEaENCbU1ZQjdqb0JydlNnZWhHc19nXzY5ZUlTdHFaMGVfT01NWDQ1UHdYQXJYV1VidWUzNzF4ejFOUVVLaE5xT3Jsd2xvZnBaWEpENm1venJlZ19UaHlBU2l0TDllMmRQZ19CVzYzcG9mdDY2SkgwWkFaSDUwdDFFbml1MktLcjVwcTNQT3lBblVCUjRIbjRqbU1tNDVzU3RHNDRyMUMzd3U3STdNTFQ5RzNHY3E1bnZRdXNB0gH2AUFVX3lxTE5fMmdjdHAzRW9BWkpUUXpKM3BSMF9WNk02REsxUi0tdHJYa1JUNnBBaGxtQkViNmEtZHFoeVI4SE9GemVVWmhQcUtUdFhScnNHNDRJWGxIQkhHaWFmNjhodE5GZ3h6MlEzT0ZwVjZoQ1l4dmJSMHBlREZIZlRDUDhnUm1yakFFZy1uWGdCVm9mTnVIQTdTODJkZXZtNS1hNy1yUG5tUFZQMWFUaUhieFBBYlFSUU5faTNzSmYxd2Q3aVVfX3dVYm1EZWl1N1NUSUN4dWVQVlVTdlkwVXNkeFNYUGtKMGZDU0ZkMUM1djcwRVBsXzZTdw?oc=5",
+        "source": "Diario Río Negro",
+        "pubdate": "Mon, 28 Sep 2026 14:35:09 GMT",
+        "pubdate_iso": "2026-09-28T14:35:09+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Dólar hoy en Chile se acerca a máximos de septiembre por petróleo y tensión geopolítica",
+        "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOaHROYzlQTXdDSVFIQmJGdXN1aEVHQWlUanFiRWlMZWllMVRSSEJyUUlVZUkxSDI4ME5HaEE5a3ZtTFFQVkRfQ0NhSUNjSlltb3hYbHpDUkhUVWhZbXRyTjJjVU5rQXRuYndxbFpRYUptM3JnVlRhSnpUbXRvQXRPZWlrMERQWHhtZS1HZ2dFeUpQYXpCTWEyR19McGNGb3pHTDlORnNKYnZYM1VuNHlzV3gzd2Etc044VUxGQk5uMEJxMXoyVnJ1UVpjN0RVanp0Uk5xMGNIeUJtcXJBV1h1d3ZhNmNHZw?oc=5",
+        "source": "XTB.com",
+        "pubdate": "Mon, 28 Sep 2026 12:17:50 GMT",
+        "pubdate_iso": "2026-09-28T12:17:50+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "economia_chile": [
+      {
+        "title": "Clasificadora de riesgo S&P Global Ratings anuncia un mayor crecimiento para Chile en 2027 y ratifica calificación soberana",
+        "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNWnJpVUlzMm9MdTBsbjdGZzhzTDJiYXNDWlZsaW9XWWlmSm5WMmh3NzdTSXdMOVBYVW9sQUxPQTRUT3hYb2w2dDZ2OXZSZDJtV3BYcTVHcjNPS3hQWGRrZ1ZvU0dfWmR2ZHZJRV9hREhtR29uSThtR09KZDRNaHhBSFdseVFlVHpFaVVnV0lrX2w2ZE5FRlNVbUo1RWQyaFRjRFFsYWZSbldsM3BnNjJaUzh5Z01XanB1LURlcEtvUzVpWGUxSFBhSndFcUlSWWh3SWl6dGJLaHZtMFNZSDcwbW5GbUF1YzQ?oc=5",
+        "source": "Hora12",
+        "pubdate": "Sun, 27 Sep 2026 17:41:22 GMT",
+        "pubdate_iso": "2026-09-27T17:41:22+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
     "politica_regulacion": [],
     "pensiones_afp": [],
     "energia_tarifas": [],
-    "sectores_watchlist": []
+    "sectores_watchlist": [
+      {
+        "title": "GREMIO AUTOMOTRIZ DE ZOFRI ALERTA SOBRE CIERRE MASIVO DE CUENTAS BANCARIAS Y EXIGE INTERVENCIÓN DEL MINISTERIO DE HACIENDA",
+        "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQd0xXaDdPUlIzNDdXTHhRRjl0akczUGhrNzB5NHMzSExBdnJkT2s3WkNXV2p6T0lUemM1aUFrQUtuWXJCZ2hwZFpDeThrMURUYXZfQ1gwYUh0RU5pZ0lIRk96TEhnaURaejM5RklhN3BrUThYLVBucExsSmRNN1dZeTB2YkI4N1R6WlFtNUFhRnRNQzJ3blN6RFNtYngwMjdoSERncHptZmtRVWY0QmFoRndmRFJOYzZVem5nVzZEc0lxUWFpRTB3UDZOeVZ1cXl3bG5WVm1yUUJwdlRIdmc?oc=5",
+        "source": "Vilas Radio",
+        "pubdate": "Mon, 28 Sep 2026 22:08:09 GMT",
+        "pubdate_iso": "2026-09-28T22:08:09+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "TEXTILES DE ZOFRI PIDEN AUDIENCIA CON KAST POR NORMA AMBIENTAL QUE AMENAZA CON LA PÉRDIDA MASIVA DE EMPLEOS EN TARAPACÁ",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOT0hsUUQ2TDNhRE1MdE1aTlliLWV2dGtMWHkwVlRrb28weVNqejZUQzlJUFNJNWs1ZFVRZWlNQWo4aGdtMFZMLV9BZjkxRkdDWG56dGY5YXdQTTZsV1NsdXdFV1dHYWlGaURCWTVuek1wS3BTZ3ZjTTR4aWwya1pIUU1NZ1RSdko2S2F0bTRIX05ZWHMtSGJndFRYMlFndm9yWW81NmF4ZUdoOTlpTXFuSXg0U2dLMVpWaXZSSlJJbnpsc0xPTk1GWWd3R2QtQQ?oc=5",
+        "source": "Vilas Radio",
+        "pubdate": "Mon, 28 Sep 2026 20:30:00 GMT",
+        "pubdate_iso": "2026-09-28T20:30:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Renunció directora de ZOFRI",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQX2JGWGZOZTBlazdpX0Q0RE5FN1U5TjVvUk9RMndqVWhxWlNFcDN4VXVuWW9NQXNFaTE5eGt3dnQwMThKdFpxUGRWUUNDNWFPb0MwM0kwV1hfdk5MaEV2UWY3SWZzSklpVUdQT0xyaHAwNjFBWW1SLW1tTXdEV1pYSDdIQ3ZwNGNiSzA3S05R?oc=5",
+        "source": "diarioestrategia.cl",
+        "pubdate": "Mon, 28 Sep 2026 12:08:45 GMT",
+        "pubdate_iso": "2026-09-28T12:08:45+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "ZOFRI promueve oportunidades de negocios y proyecta a Iquique en Bolivia",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcXVPbHl2Wm5ZblB1c244Rm5maUN4d3ozSVVBYW1BRFZSZS0zY0VvdXU1RmMwdkFabmdRNHN0ZHJfelN2UGtyZmx2azdtWnd5UjFtOUc2T1J6VG9TbXc5UXc2QVVKSTkxaFF1V2NVRF94VG9mYlpYeVRJOW1UVURzcFZILTVNZXBpSXptcDMzandoQWFDYUpYQ3NSX0tyQUUzcF9wZmNkUjd1U3BONjVR?oc=5",
+        "source": "tarapacaonline.cl",
+        "pubdate": "Sun, 27 Sep 2026 14:20:06 GMT",
+        "pubdate_iso": "2026-09-27T14:20:06+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ]
   },
   "hechos_esenciales_por_ticker": {
     "ZOFRI": [
       {
         "title": "ZONA FRANCA DE IQUIQUE S.A.: Cambios en la administración",
-        "link": "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=d56314ba4540e7e12f9901601c3d1e88VFdwQmVVNXFRVFZOUkZsNVRsUnJORTlCUFQwPQ==&secuencia=-1&t=1790623981",
+        "link": "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=d56314ba4540e7e12f9901601c3d1e88VFdwQmVVNXFRVFZOUkZsNVRsUnJORTlCUFQwPQ==&secuencia=-1&t=1790688781",
         "pubdate": "25 sept 2026 14:35",
         "source": "CMF (Hecho Esencial)",
         "es_hecho_esencial": true,
@@ -57,30 +244,42 @@
         "empresa_cmf": "ZONA FRANCA DE IQUIQUE S.A.",
         "materia_cmf": "Cambios en la administración"
       }
+    ],
+    "CENCOMALLS": [
+      {
+        "title": "CENCOSUD SHOPPING S.A.: Otros",
+        "link": "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=db3736759d134389095ab79984a412c0VFdwQmVVNXFRVFZOUkZsNlRXcHJORTVCUFQwPQ==&secuencia=-1&t=1790688781",
+        "pubdate": "28 sept 2026 19:56",
+        "source": "CMF (Hecho Esencial)",
+        "es_hecho_esencial": true,
+        "doc_id": "2026090632984",
+        "empresa_cmf": "CENCOSUD SHOPPING S.A.",
+        "materia_cmf": "Otros"
+      }
     ]
   },
   "stats": {
-    "total_noticias": 0,
+    "total_noticias": 13,
     "por_categoria": {
-      "bcch_tpm": 0,
-      "ipsa": 0,
-      "dolar_cobre": 0,
-      "economia_chile": 0,
+      "bcch_tpm": 1,
+      "ipsa": 2,
+      "dolar_cobre": 5,
+      "economia_chile": 1,
       "politica_regulacion": 0,
       "pensiones_afp": 0,
       "energia_tarifas": 0,
-      "sectores_watchlist": 0
+      "sectores_watchlist": 4
     },
-    "hechos_esenciales": 1
+    "hechos_esenciales": 2
   },
   "resumen_ejecutivo": {
-    "sentimiento": "neutral",
-    "score_neto": 0,
+    "sentimiento": "levemente bajista",
+    "score_neto": -2,
     "n_positivas": 0,
-    "n_negativas": 0,
-    "n_neutrales": 0,
-    "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
+    "n_negativas": 1,
+    "n_neutrales": 12,
+    "narrativa": "El feed muestra 0 senales positivas y 1 negativas (neto -2). Factores dominantes: Bolsa local a la baja.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "NEUTRAL - sin sesgo dominante"
+    "veredicto": "Levemente BAJISTA"
   }
 }
