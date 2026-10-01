@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-10-01T13:33:26.282441+00:00",
+  "updated_at_utc": "2026-10-01T14:03:29.939440+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -83,8 +83,8 @@
         "title": "Precio de acciones, noticias, cotización e historial de NVIDIA Corporation (NVDA)",
         "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9kanItV1ZzUkxTX251dWR5N2pVU0o1OGIxcTFLcnlUeUlDMU9JS3IySlZWelU2T2djT2wweENJTFRkLUtZR3hQMnhoa0hodUI4VFE?oc=5",
         "source": "Yahoo",
-        "pubdate": "Thu, 01 Oct 2026 10:27:22 GMT",
-        "pubdate_iso": "2026-10-01T10:27:22+00:00",
+        "pubdate": "Thu, 01 Oct 2026 09:23:53 GMT",
+        "pubdate_iso": "2026-10-01T09:23:53+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -99,20 +99,6 @@
         "source": "El Ecosistema Startup",
         "pubdate": "Wed, 30 Sep 2026 19:08:43 GMT",
         "pubdate_iso": "2026-09-30T19:08:43+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Cathie Wood Just Dropped $78 Million on This Red-Hot Chip Stock",
-        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcFN4c1JpYXlTSzBGUzNzMFY4OGNYR2NRRG4wcTRyamZPYTcycVdHbFpsdFhwRnJ3c1JFM3d1alMzS2tZcjFMZ2k5LXVfdHZidHBaRm4xRkZCTDBCQjU3NHVKRnB5eUFNeUFLVXpMa01hV0J3TUNDYUh1bVN1Z1h0V2R5clNTbjdjbURsSm9OYmxsaUJURkFkd1VNMlRuOUxseUFQa3NtUWpsX2EtU1ItSE1IRDdrd0R5TldlT1dn?oc=5",
-        "source": "TradingView",
-        "pubdate": "Wed, 30 Sep 2026 14:28:05 GMT",
-        "pubdate_iso": "2026-09-30T14:28:05+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -147,6 +133,20 @@
           "intensidad_label": "neutral",
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Nvidia Reverses After $150B Buyback News, But This NVDA-Tied ETF Is Still the Market’s Most Traded",
+        "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNMlgzZVRKUl9CbWZHd0ZSNndaUGRnc3hhUHVBcjhpRWJhcTRBaHNtc3NWTUZ1VWRfZEdlaE5DaEdDblQ5UHZxWWtaNndXUVdCRnZWQ0FNeDFZVF83NUhnRGh4djE3ZGkzR19HeG5adjhPejBha1RzQmlPYlZMdGlETTVnSXVRa0lLWmZfcFJZbzVROHdpRVBfSFpDSFFHdlZRMExUQWJlTlBqTXdudnlIUkhSazJMNl9mTVA2N2xlWFJSR19oZnMyNzNuMTJRREp3TmJuR0UzT0pIVGZJbW9DeG8zRUt1VFY4eEE?oc=5",
+        "source": "TradingView",
+        "pubdate": "Tue, 29 Sep 2026 20:44:25 GMT",
+        "pubdate_iso": "2026-09-29T20:44:25+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🟢",
+          "razonamiento": "Recompras: soporte para el precio"
         }
       }
     ],
@@ -305,13 +305,13 @@
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "levemente bajista",
-    "score_neto": -3,
-    "n_positivas": 1,
+    "sentimiento": "neutral",
+    "score_neto": -1,
+    "n_positivas": 2,
     "n_negativas": 3,
-    "n_neutrales": 15,
-    "narrativa": "El feed muestra 1 senales positivas y 3 negativas (neto -3). Factores dominantes: Rally accionario; Fed hawkish: rate hike presiona equities.",
+    "n_neutrales": 14,
+    "narrativa": "El feed muestra 2 senales positivas y 3 negativas (neto -1). Factores dominantes: Recompras: soporte para el precio; Rally accionario.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "Levemente BAJISTA"
+    "veredicto": "NEUTRAL - sin sesgo dominante"
   }
 }
