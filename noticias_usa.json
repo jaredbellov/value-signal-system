@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-10-01T20:03:28.883169+00:00",
+  "updated_at_utc": "2026-10-01T20:33:27.689612+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -51,20 +51,6 @@
       }
     ],
     "nvidia": [
-      {
-        "title": "Precio de acciones, noticias, cotización e historial de NVIDIA Corporation (NVDA.MX)",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9NM0ZCMEZkZDBTdEhIQ2NyQzhHR2hScmg0YkJjSE9IVlM5ZjI3ZFhXZmcxaUVXOHNxdzFYb0JVdW9ocUJ0MGpLSW5TUGs4UElheF9ELWpR?oc=5",
-        "source": "Yahoo",
-        "pubdate": "Wed, 30 Sep 2026 22:33:43 GMT",
-        "pubdate_iso": "2026-09-30T22:33:43+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
       {
         "title": "sys4net suma servidores IA con Nvidia Blackwell en Murcia",
         "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNmxySHhQWlk5MmlXQUdpdUdGNEU2VGVzVFl4Ti1hTFJKWjBnQWdzVFpxdWN3SXVLcm5pVGdUa0pvQlFieVRrSXBGa2dIVzE2bk5KS0dGVVdCVjAzb1BBZU9NOXRUbmxQVDB3U0hlbkRtbXdISGZVNlJPY1MyMGVaeEhWTVM4eHRaaENpRjZxcGh1UQ?oc=5",
@@ -119,6 +105,20 @@
           "intensidad_label": "neutral",
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Nvidia Reverses After $150B Buyback News, But This NVDA-Tied ETF Is Still the Market’s Most Traded",
+        "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNMlgzZVRKUl9CbWZHd0ZSNndaUGRnc3hhUHVBcjhpRWJhcTRBaHNtc3NWTUZ1VWRfZEdlaE5DaEdDblQ5UHZxWWtaNndXUVdCRnZWQ0FNeDFZVF83NUhnRGh4djE3ZGkzR19HeG5adjhPejBha1RzQmlPYlZMdGlETTVnSXVRa0lLWmZfcFJZbzVROHdpRVBfSFpDSFFHdlZRMExUQWJlTlBqTXdudnlIUkhSazJMNl9mTVA2N2xlWFJSR19oZnMyNzNuMTJRREp3TmJuR0UzT0pIVGZJbW9DeG8zRUt1VFY4eEE?oc=5",
+        "source": "TradingView",
+        "pubdate": "Tue, 29 Sep 2026 20:44:25 GMT",
+        "pubdate_iso": "2026-09-29T20:44:25+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🟢",
+          "razonamiento": "Recompras: soporte para el precio"
         }
       }
     ],
@@ -278,11 +278,11 @@
   },
   "resumen_ejecutivo": {
     "sentimiento": "neutral",
-    "score_neto": -1,
-    "n_positivas": 1,
+    "score_neto": 1,
+    "n_positivas": 2,
     "n_negativas": 2,
-    "n_neutrales": 14,
-    "narrativa": "El feed muestra 1 senales positivas y 2 negativas (neto -1). Factores dominantes: Rally accionario; Fed hawkish: rate hike presiona equities.",
+    "n_neutrales": 13,
+    "narrativa": "El feed muestra 2 senales positivas y 2 negativas (neto +1). Factores dominantes: Recompras: soporte para el precio; Rally accionario.",
     "narrativa_fuente": "plantilla",
     "veredicto": "NEUTRAL - sin sesgo dominante"
   }
