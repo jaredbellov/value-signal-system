@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-10-01T10:12:00.996869+00:00",
+  "updated_at_utc": "2026-10-01T11:26:56.263259+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "fed_tasas": {
@@ -102,6 +102,20 @@
     ],
     "mercado": [
       {
+        "title": "MongoDB Stock Pops After $1 Billion Buyback Announcement",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMkxfZWlZZElhYVJ4NlJzVklmMXVhSHN5V3FMOEZER3poQmJtaEM3dnVIZmxWWnRUcVBJZXNiczFTWl9OSTJxWVVRVnNSMGhmWFY5R1ZKbWNxZy0tbW5Pc25PQlFUaGZFUGRZWF8xSUdVMFlSb1RDWnh0U191Yi0tSEZjQ2h2dHZmM1VjUE9hVmpOaXZRNFpyeUVoR3lXdHpfaTk1bnVSQi1WbGxZQk95WVgzdw?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 30 Sep 2026 17:08:51 GMT",
+        "pubdate_iso": "2026-09-30T17:08:51+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🟢",
+          "razonamiento": "Recompras: soporte para el precio"
+        }
+      },
+      {
         "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
         "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUnFPMldXZVZrODhFalRQLVFxV080a3ByUzRjX3hhYUZKUHV3NGFQSjJ5NWlncjZZWm1KLXUxQkhjOHlxazNqaEJyQmk0MGdqT0MtdW5aTlFDSzI2cnFIYXg2RVp4cUVUQ2NHM3ctUE1McFpGelliSGE2VHZrUmFMSzVFNlA5aVZBblRsVnpNYTRJa01WQUZ5ay1tclFxOVBidmcxckRONGo?oc=5",
         "source": "TradingView",
@@ -155,20 +169,6 @@
           "intensidad_label": "neutral",
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Stocks Turn Mixed as Bond Yields Rise",
-        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOU2ppMzdmUzZFS0hham5IVWhOQUJIbnk0M0dDQ2llRXdmMXFmeE1XMXJ4UlhQUEowcDJCMG5TRDFhV1JaS1dKcTlJSWxpWk52MFpNXzFwdzdOS21FQXBLOWttYkVBbG9FU0hYUE1vOHFsMG9RcEstXzA3Y3Rzd2RTbmlRWnNjMEdQOFhyQ0t6TS1xU2dxMlNtTENvaw?oc=5",
-        "source": "TradingView",
-        "pubdate": "Tue, 29 Sep 2026 15:18:32 GMT",
-        "pubdate_iso": "2026-09-29T15:18:32+00:00",
-        "impacto": {
-          "direccion": "negativo",
-          "intensidad": 1,
-          "intensidad_label": "leve",
-          "emoji": "🔴",
-          "razonamiento": "Yields al alza: viento en contra"
         }
       }
     ],
@@ -431,13 +431,13 @@
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "neutral",
-    "score_neto": -1,
-    "n_positivas": 2,
-    "n_negativas": 4,
+    "sentimiento": "levemente alcista",
+    "score_neto": 2,
+    "n_positivas": 3,
+    "n_negativas": 3,
     "n_neutrales": 21,
-    "narrativa": "El feed muestra 2 senales positivas y 4 negativas (neto -1). Factores dominantes: Fed hawkish: rate hike presiona equities; Rally accionario.",
+    "narrativa": "El feed muestra 3 senales positivas y 3 negativas (neto +2). Factores dominantes: Recompras: soporte para el precio; Fed hawkish: rate hike presiona equities.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "NEUTRAL - sin sesgo dominante"
+    "veredicto": "Levemente ALCISTA"
   }
 }
