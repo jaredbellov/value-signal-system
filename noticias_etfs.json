@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-10-04T03:26:55.725625+00:00",
+  "updated_at_utc": "2026-10-04T05:26:55.711134+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "fed_tasas": {
@@ -29,6 +29,20 @@
   },
   "noticias_por_categoria": {
     "fed_tasas": [
+      {
+        "title": "S&P 500 Climbs as Fed Rate Hike Odds Collapse",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSDZsbkJvTk4yTEc4aFllNERELWcwckdEaldvYmtlZjRub0hZM3gzd1RnMUN0a3ROUTE1Zm0zQUxCUG1NcTJfOHpLVjdzOWJaTUdMX2Y1WVpnZ2xRNk5HNWVWdXhyQTFQYjZEUUM4TjlyZ29DMFhKN01EUC1ZNWF4MW9IVnpPSWEyb29SdFV0Y0J2cmc5UUZQS1lJOWlMMHZNR0lGTUVITQ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Fri, 02 Oct 2026 19:57:22 GMT",
+        "pubdate_iso": "2026-10-02T19:57:22+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Fed hawkish: rate hike presiona equities"
+        }
+      },
       {
         "title": "Stocks Climb as Weak US Economic News Eases Fed Rate Hike Concerns",
         "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZXdGaFhmQjdGS0NaeWt3RnhpN3dCOWVRMlhGaW1mXzJYM241Vm5UYnNSbmRSdVF4NVJLVTN1Zk1ObEV6SXAxbk5WNTcxYnlzcGVCVWZuVWctejNCWnFEcms0akZYUkotczUxd0tteFo1OG4wWXZTMWRqcHhrSnlBWExlbFpZWWhjaGlkN19qOC03dXhzTEVBalFpb21NRk5RcU1OV2tORE5mMERMbjhzb1dHOEtaTEIwMEd1NzVEMFdRZw?oc=5",
@@ -84,13 +98,15 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
-      },
+      }
+    ],
+    "mercado": [
       {
-        "title": "Stocks Rebound as Bond Yields Fall from Multi-Decade Highs",
-        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOY1hQeGkzRmZ2aU1wbGh2QU1XQndva0FGVGRNcFV4U01BMlpsMGtBc2N3bDlWUXY2Q0M3aDVHV3I2S29UQWRYdEdQdUhXVktwMURXVjZPbW51bURHdzQ1UTNFbUxUY3NLdnF0NEpnazEyUkNFdGdyVFFVLUhNdUJyckdMeDMzV2NmX1pjbWI0aHpuSmtmQlZibzFpQ2R1SlpUX1dxYXg5NFBkM1JQTFdGODZGR3M1Tk0?oc=5",
-        "source": "TradingView",
-        "pubdate": "Thu, 01 Oct 2026 20:35:11 GMT",
-        "pubdate_iso": "2026-10-01T20:35:11+00:00",
+        "title": "Gráficos, datos y noticias de CBOE S&P 500 9 Day Volatility I (^VIX9D)",
+        "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA2ZFZJY1ZtQkRKR3d4dWsxb2haSEZDRFJ4RmUyMWRjVFZXa2JwT3RUenpiNHpaOTZHZkx1dnp5Z2VQNnZPX0wwMWtIOUlqVEV0anhNcnJsTQ?oc=5",
+        "source": "Yahoo",
+        "pubdate": "Sat, 03 Oct 2026 11:28:51 GMT",
+        "pubdate_iso": "2026-10-03T11:28:51+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -98,15 +114,27 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
-      }
-    ],
-    "mercado": [
+      },
       {
         "title": "Bolsa Mexicana de Valores se recupera tras dos días de pérdidas",
         "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPSFh0YTdyb0hQRlRfVW8wMVBtS3NBb0JoakZldmtDQ2UwNWV0a1RBN1hRLTVnOFEydUFLY041aDhNOExMbnd5VmJJMzBqY2ZsQ21UbEtZc0Y0dGx1VDdZX1hlWUxLOWtobVVFYUg2aWRKcWRPblQ5WXhNaUYzVTVyX3lLdUtHMGZTS1JrUGxrV1d6SFFYMEZOQmY0TGJXcEtnUnNrazkxODVXUGVERlRNSDBlbmN0ZVAxMFHSAccBQVVfeXFMT29VcWZ5TWF4ZGY3Q04wUEtPamE5VEdSRFB3aHM5ZlRTVGJ6ZDBaaU0zeGtVUW1oQmw2Mnlmd3NUVGlwcW1LWE9LT1Exb0lLa0xHTWMyOGI2bUpsYm9ETTRlMWJxOGVLdzNKOElTWjJ2d1hGeFM3QWdLa21HYzFVcVhqYXVFcFQ0UVJpRWxJZ3B2djFCS1pfdGVsc1BoV0JTUXR1d1V0ZjJ3dTVXSk01c3JyUWZ0Sll5dkNoa0RQdmNwMGczZmlhOA?oc=5",
-        "source": "tvazteca.com",
+        "source": "TV Azteca",
         "pubdate": "Sat, 03 Oct 2026 02:17:00 GMT",
         "pubdate_iso": "2026-10-03T02:17:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "SPY Stock Price Today",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBUT3dKZV9IWV9aQlhEUERCS2lDWVcyOEpWR1JlQ2RiUXp6LVpwZmdZR3phdEtjMjlfeUxKdnJRREdhbDRoZE9aOTgtMHExdEtuc3ozazBB?oc=5",
+        "source": "CoinDesk",
+        "pubdate": "Fri, 02 Oct 2026 20:00:00 GMT",
+        "pubdate_iso": "2026-10-02T20:00:00+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -142,37 +170,23 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
-      },
-      {
-        "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
-        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPYW5IOGdfcDFoakxuN3R4TER2Z3QyVmgxXzFlYXZBeDRqZ2QwSldVZHJnOVVxNXVLMlJJbmY2TDEwaHVTU3RVVDM0UUZoZDVCeTM4TDVwM1VXTTFHMVA1V1NGYURBSDQ5NGNCUEFQQkdEMl9melg5WndjSEpVS0xaWHNrVkZVcFFCZF9vWVdaZWh2b0NSTWY4eUlMc09FUXdIU0JZT1BKSWM?oc=5",
-        "source": "TradingView",
-        "pubdate": "Fri, 02 Oct 2026 05:47:00 GMT",
-        "pubdate_iso": "2026-10-02T05:47:00+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Why Did CRWD, TWLO, P Stocks Hit 52-Week Highs Today?",
-        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPdDYzQk9ya0diTURlRjJWc1NKckhHck9BN1JJR2pPX1ZkUjFsVzBYUEVFYUoxT0JmcTg2RjlUTW1KN1p2TXJvZEp0dXUxV2dQaVViNnZpQzBUOFRzdUxOTmFCS19NUllQYUxOUWFHQ2h6akdqb3NpNXJEdVFlMTJHS3l0YjlNdWVaMWgtRWJJMVdBSXZrRWNkYWFFcmVNdFpBeGgzQXJSTE5kMUxwVjhV?oc=5",
-        "source": "TradingView",
-        "pubdate": "Fri, 02 Oct 2026 03:03:00 GMT",
-        "pubdate_iso": "2026-10-02T03:03:00+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
       }
     ],
     "tech_nasdaq": [
+      {
+        "title": "SA Asks: Does AMD still have upside after its latest rally? (Update)",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOa25pU2o3UFo0SGhhNFRuY0NnRS1ORWU5VFpuTVNZMTVRdjlUSU1CVFhlUDJWcGt4WXlLcGRBVjF6QXI3RmlWelNJd2J1eV9BQV9ZXzF2RTRnQjk5eGprdGItSVhKT0hXN0hjV09FdldZeWJGbGN0aTNNY3hPdDA4NEgxUDhzcnNybXRlSTUtYUwweE5kLUhweTFia19ybDUyNU04WkhCSHdaR1pjOTdUZ3NFbzM0UjduN01xX0RILXlfWERt?oc=5",
+        "source": "TradingView",
+        "pubdate": "Fri, 02 Oct 2026 20:32:37 GMT",
+        "pubdate_iso": "2026-10-02T20:32:37+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
       {
         "title": "Weak Jobs Report Lifts Nvidia, Nasdaq 100 to Record Highs: Stock Market Today",
         "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNZ2N2VEdVTmVHNHg1dExkNU9mNDZibE5FczF2OExXbGg5N3RQeW5pLVJxa3VOeVBseEpnTFhFU28tT290ODZ4Nm9QNDVfcU81R01jLURPa1VFaFZXSnVvb2JPdjB0Sk12b1BaWHpnTzFMNlRhT2pxQkF2XzA2Q1ViMnpNN0x5UDg2VmljVk9xWTdWNENBOFkxNUpuN2t5QUZaQ2Vybmg0d0hwRXRQSTF2OUY2aDF4VFVRYjBwQ0FPR09HU3ptSUJFczZvM25MZw?oc=5",
@@ -221,20 +235,6 @@
         "source": "TradingView",
         "pubdate": "Fri, 02 Oct 2026 04:53:00 GMT",
         "pubdate_iso": "2026-10-02T04:53:00+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Blue Owl Technology Finance Corp. Schedules Earnings Release and Quarterly Earnings Call to Discuss its Third Quarter Ended September 30, 2026 Financial Results",
-        "link": "https://news.google.com/rss/articles/CBMivwJBVV95cUxOdkIzWFkzOU1KWmFYSUtCa2VObmxwYVdlUlFxVzVjTGtLbVRKQ3lEdXB1SG9tMnV4MTd1bXE2RXktaGJuY1NEaGxtS2M1OUVIVkQtVWswVHM1enVHWTA2Sm1yRThhTTgyMWYzN1p2T1dmLUprcGh4VzEzLVFOQ1BkMjRKOXBrdkFnQWV1TU55bVhaRk1SdU9nck9zaDQ4Z24tMklRQVlMZkRmY2dvNnhlX2pkWEw3WGlPSEpUemtScVlqYTNLUk9mZjNzVG51Rl9NWjNuUktocl9aR09nNFhiTmNhbDRQTlZrR0dmajhoTk0tNUV0bUVBZWQ4ZUtTSmk4dUxLMm1taTdsOHV0cDNUeU1EMG03eDBUUW9aa25LSHR4M2N6V1QyZ0lEUmd4WUZ3M3Y2VFF0dWhMWHVHVDNF?oc=5",
-        "source": "TradingView",
-        "pubdate": "Thu, 01 Oct 2026 20:15:00 GMT",
-        "pubdate_iso": "2026-10-01T20:15:00+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -430,55 +430,27 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
-      },
-      {
-        "title": "Stock market outlook today, 1 Oct: Sensex, Nifty prediction - DJIA, S&P, NASDAQ, GIFT Nifty, Kospi, Nikkei, Taiwan cues",
-        "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNdzJTOW91MDh3YU50RlF3Qy1RQ3RNS3lNNVVsODc4anlxbHl6Mkhmb2FlNXZ3NEczV3RHUWx3NzdpWDV2dkt2OWVMNXRka3dQc19RYkRiQ2tnSXV2ZnFtZlkyVDdzY0VFS1RhYXdFSXlKNHR3MVZlQmhuWUlmM2t4bXROMGQ0NDBoSjJnOUFRX3BEc19tQmdMcjNXcnpHYzZETUNMbEFlOTRoQk00ZWdmUkpLNXJiOUFnQ1ZXeEhKOUNqWkZqS3FqTEx6Q3lnWXRUY3dhdEM2VjVMaDViQWY0Nk80RkNSRjJzU1JmdHZEc242dWYxR2JF?oc=5",
-        "source": "TradingView",
-        "pubdate": "Thu, 01 Oct 2026 05:19:00 GMT",
-        "pubdate_iso": "2026-10-01T05:19:00+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Noticias de CNBC TV18 en TradingView, de fecha 2026-10-01 — cnbctv:98254a12b094b:0",
-        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE51eVd6S2hheXZHZWlRWUFfX2xwY1RNWHJaSjYxdEoyLVc2TU5RTDJqdXowek1hZWg5ZHI3ZUlkQ3dfUzdab3AxdVJkSjJRcV80dTgtcC11V3pzQy1JbjI5OU5FX0paZw?oc=5",
-        "source": "TradingView",
-        "pubdate": "Thu, 01 Oct 2026 04:25:00 GMT",
-        "pubdate_iso": "2026-10-01T04:25:00+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
       }
     ]
   },
   "stats": {
-    "total_noticias": 30,
+    "total_noticias": 28,
     "por_categoria": {
       "fed_tasas": 5,
       "mercado": 5,
       "tech_nasdaq": 5,
       "economia": 5,
       "earnings": 5,
-      "sentimiento": 5
+      "sentimiento": 3
     }
   },
   "resumen_ejecutivo": {
     "sentimiento": "bajista",
-    "score_neto": -5,
+    "score_neto": -7,
     "n_positivas": 1,
-    "n_negativas": 6,
-    "n_neutrales": 23,
-    "narrativa": "El feed muestra 1 senales positivas y 6 negativas (neto -5). Factores dominantes: Maximos historicos; Fed hawkish: rate hike presiona equities.",
+    "n_negativas": 7,
+    "n_neutrales": 20,
+    "narrativa": "El feed muestra 1 senales positivas y 7 negativas (neto -7). Factores dominantes: Fed hawkish: rate hike presiona equities; Maximos historicos.",
     "narrativa_fuente": "plantilla",
     "veredicto": "BAJISTA a corto plazo"
   }
