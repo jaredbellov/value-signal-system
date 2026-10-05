@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-10-05T19:33:28.433952+00:00",
+  "updated_at_utc": "2026-10-05T20:03:25.590685+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -82,6 +82,20 @@
         }
       },
       {
+        "title": "Trump, Zuckerberg, Musk and Nvidia: This Week in AI",
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPd3d2NHhzRjhFbTVYNTFNd2xNUkc1VkZmTVZZMmRZYnRaaTR2bEJjdjRlOElCYTQ1NTJlYWVLRTNEaGhyLXRlOEViZXlqOFc3NkZBX1F1VTNTVGxPVFZnVEhQUzFaUzlDcjFHY3NwQzB4dnF4cWduZ1g4RUY4Z2dFWk5keE1VdUZCMHVYdXdaZ1d0WFNhRDNYRTlNMFV1TkZYcnhaRzEwYjhQdw?oc=5",
+        "source": "TradingView",
+        "pubdate": "Sun, 04 Oct 2026 13:00:08 GMT",
+        "pubdate_iso": "2026-10-04T13:00:08+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
         "title": "Amazon Pledges $1 Billion to Win Over Communities as AI Data Center Backlash Intensifies",
         "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1jMldMa2hndFVkcTRSNTVpWE9ldEoyVlVMYTBvNTlXTFRsc2RaNE5CYmZQcTNlRGUtUDlDWDF6VHBKM3hLX1VyRlFjLUJzNnBCVWZVd3FSc0VrX08tOUR3SC1Ick5Td2s?oc=5",
         "source": "TradingView",
@@ -152,20 +166,6 @@
           "emoji": "🔴",
           "razonamiento": "Fed hawkish: rate hike presiona equities"
         }
-      },
-      {
-        "title": "Stocks Settle Higher as Fed Rate Hike Concerns Ease",
-        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPWU5QdVBCRmJoZDJjcFhLcXgzTU5mcEVMNXNrYk5GNWh4eXF2Mnl1LUhVZE01VFBYcWlMZFYyaXEyaWl5RGNvUEpOT2tkQnFKUmE4NFV0QUdpSDNEYmRVQ1hSaXJ5emxoZHpFTktfeGx5cW0wZ1ljWTlTczAzamthMWk2emRMa213dUZvUUtyU19OR2xqQ2JDZzdRSHMxaFladU1hLUE4b3puWUExeEE?oc=5",
-        "source": "TradingView",
-        "pubdate": "Fri, 02 Oct 2026 20:38:25 GMT",
-        "pubdate_iso": "2026-10-02T20:38:25+00:00",
-        "impacto": {
-          "direccion": "negativo",
-          "intensidad": 2,
-          "intensidad_label": "moderado",
-          "emoji": "🔴",
-          "razonamiento": "Fed hawkish: rate hike presiona equities"
-        }
       }
     ]
   },
@@ -174,18 +174,18 @@
     "por_categoria": {
       "tesla": 2,
       "nvidia": 1,
-      "ia_semis": 2,
-      "macro_tech": 5
+      "ia_semis": 3,
+      "macro_tech": 4
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "levemente bajista",
-    "score_neto": -2,
+    "sentimiento": "neutral",
+    "score_neto": 0,
     "n_positivas": 1,
-    "n_negativas": 2,
-    "n_neutrales": 7,
-    "narrativa": "El feed muestra 1 senales positivas y 2 negativas (neto -2). Factores dominantes: Rally de IA: impulso Nasdaq; Fed hawkish: rate hike presiona equities.",
+    "n_negativas": 1,
+    "n_neutrales": 8,
+    "narrativa": "El feed muestra 1 senales positivas y 1 negativas (neto +0). Factores dominantes: Rally de IA: impulso Nasdaq; Fed hawkish: rate hike presiona equities.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "Levemente BAJISTA"
+    "veredicto": "NEUTRAL - sin sesgo dominante"
   }
 }
