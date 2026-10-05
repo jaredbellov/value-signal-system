@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-10-05T13:34:56.866457+00:00",
+  "updated_at_utc": "2026-10-05T17:33:52.179310+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "bcch_tpm": {
@@ -37,19 +37,261 @@
   },
   "noticias_por_categoria": {
     "bcch_tpm": [],
-    "ipsa": [],
-    "dolar_cobre": [],
-    "economia_chile": [],
+    "ipsa": [
+      {
+        "title": "MSCI IPSA: La Bolsa de Santiago este viernes con alza marginal de 0,08% y en la semana varió -3,02%",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQemxwSjhJdTdDLVBhaUtZdjhLTUN1RjU5QzhXWUY2U3ZYdmJraEhncjZINlVETG5kb2xfNUNNcnVYbFNJVEJoU2JULUhqLWJITGs2ZXF2M2NnM0tpWEpHQ0trajRONmFaMUdDNkthLTdYSEdhcDFGNGVsMWM2OWJiZzRENjVnYlhySlNpbGZSZExERVRqRzBBNElXZUhoNkpvSmpnX243M2hyUXY2QnFxcVg4ZEttbFBWWElNcXpURmNHSXpBQ3NB?oc=5",
+        "source": "diarioestrategia.cl",
+        "pubdate": "Fri, 02 Oct 2026 21:59:12 GMT",
+        "pubdate_iso": "2026-10-02T21:59:12+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Bolsa chilena cierra con alza marginal y logra descontinuar seis jornadas de pérdidas tras débiles cifras de empleo en EEUU",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1HMms4ZjRhVEhfMmFycWwwM3hxcjBFMWhISW4zb2Z3Z0VtU1N5dV9qeGxBMGduN1NESjZwZS1PWV9ZWUJpVmxtemxJb2VpakpxZFB5N0tGeGlKeGFIZlU0eUFNbC0zM3hR?oc=5",
+        "source": "Diario Financiero",
+        "pubdate": "Fri, 02 Oct 2026 20:06:00 GMT",
+        "pubdate_iso": "2026-10-02T20:06:00+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Perdidas reportadas"
+        }
+      }
+    ],
+    "dolar_cobre": [
+      {
+        "title": "Dólar en Chile a 999 pesos: cuánto cuesta el iPhone 17 de 256 GB con el Cyber Monday",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdjNyNHU2bW53dTJld2FXUmY5cGpuRmF1ZFc3SHltQ05zeEVwaWNZemM4cC1leEN4cWxXaUNPNUFnQ09aVTB1TDdReEQ4VjExd2gzcmk0clE3VHZ6cGwtZGowdmlTMEVxYU80MjZWZmNST1VIazFITHNKQW03aFZkNEpYUUtrSzZRYnFvVVdIbC1JcDRHR1VaS3hyeEtUQkhyZGw2NUdSbHc3RVZyZ3p4QXZwMXVfTXZG?oc=5",
+        "source": "Los Andes",
+        "pubdate": "Mon, 05 Oct 2026 15:48:00 GMT",
+        "pubdate_iso": "2026-10-05T15:48:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Mayor demanda de cobre abre una década decisiva para la minería sudamericana",
+        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPT0ZuaWZtc1dlekNhMGVDOVBjb1BWelhNYlVJZ3loZlJGcXp4Q2VzdThKaDQzaGlLTWdRb0xiQmFxNmN6bTRtQzFvQ29BZ0hGUVVDeUlYS29ONkdEQjRuMTRmaGZjVmxCU1RweHp1X0wyT3FJcE5acG8wTnNSTXFqSHhpajJvRmhJMmx3VU1VTkpPeUxkTFBFMFVIMDVSOEtS?oc=5",
+        "source": "Revista Digital Minera REDIMIN",
+        "pubdate": "Mon, 05 Oct 2026 13:22:48 GMT",
+        "pubdate_iso": "2026-10-05T13:22:48+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🟢",
+          "razonamiento": "Demanda de cobre: viento a favor"
+        }
+      },
+      {
+        "title": "Precio del dólar hoy en Chile: cotización de apertura del 5 de octubre",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNOTNHc0tqMVpJeW1vS1VfQ3ZHeTlwOE9VMzhNOE1ZX01tanlCRTRFb0x6STJTRmFfZzhYNS03YkZsTHAwdFhVbzhQcEdOeEhSYUZnY2hVejRfMHE5OFlVM2F1cV9IX0hDUDRvalltenphZDZYRUtibkt2ZDhuOU4yXzg1QktTaEpza0FRSUtybXdpMzFZODVuRUxOSE9hYlcxM09MQmxxWjE5SjNjX0h6UElQdG7SAc8BQVVfeXFMTzJrRWNJNDNlcGZCa2lMTGlkWkdrb0hXSHlpc2JpVnpyNlM1QkdmVERHWTJTbFJnUktSaThaallEd1VLZEp2SFp5anp1dGpobjFvVXhkVzByOXNMM0RWcmM5Z0gxaXFDZWJKZjlLaHZBN0NqWlc2bEhpMDNpQ3pGWXVTS1NJQnlub2szc0lSZVFKeUswTmUtaE9sVDc4QlZ3T1N5MV9SanRfWjRCU19KNjRXTFhnMDZLZlV4a3pOWjdlODByWi1xS3AtaE40bzZz?oc=5",
+        "source": "Infobae",
+        "pubdate": "Mon, 05 Oct 2026 11:29:18 GMT",
+        "pubdate_iso": "2026-10-05T11:29:18+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Demanda de cobre e inteligencia artificial: el rol sanjuanino",
+        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYi1XNmlMT3p5Q0tVYnFSQUpTLTluSFVmN01HVHE3T2dSRE4wR21WdW5WaEhianBRVVN6OWFJUkVPZHE0VnYwbmxTRnZNVkxQRHhIdmJFUnFLSnE4UUtkZ2ZnQ29CTE5XQ3NjZEdxQXk4RFZpdlU2WUJkdlRUM2dLOHZZMjBoTXFUYUprVmFSRUp6VUJH?oc=5",
+        "source": "Acero y Roca | Magazine Minero",
+        "pubdate": "Mon, 05 Oct 2026 06:21:32 GMT",
+        "pubdate_iso": "2026-10-05T06:21:32+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🟢",
+          "razonamiento": "Demanda de cobre: viento a favor"
+        }
+      },
+      {
+        "title": "Dólar en Chile: sube a 992 pesos y amplía su avance",
+        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQenVGRk8zQmJjZWFScEJCdWs2QzhyLXFodjQ0bllxRFNaWjkzcjVJUkZoSG1YOXNJeEZsemZ5UnFiUTlES3FFQ1VXQUxYNTQweFZBdFl1c3k0ZkpnclFacjhSQ3pIU3BNenpIb1NPS29OeXI0aGE2SUdWaGFRUjBtOTc2ZkxhSzRZN193UGpWSTZxVFZGU0hYbzlPRUJNcENiT2pjVHZWdUM?oc=5",
+        "source": "Identidad Correntina",
+        "pubdate": "Sat, 03 Oct 2026 09:04:15 GMT",
+        "pubdate_iso": "2026-10-03T09:04:15+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "economia_chile": [
+      {
+        "title": "Economía preocupa a los chilenos: mayoría no proyecta un mayor crecimiento para 2027",
+        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPeWJjVzB6OENYUUVQVjhPbGdjeGJFMzhBZzA0U1ZqcUgxN1VtUW1EMU56OHhPaHEwUmVfWm1udWZqeTVmWWxuVDBZblVET2JRSWJBaG5faFAweXdRQ0tmQnVQUHVUdFpMU29WT19WcFBBdUlHQlV5dENCTFJUNV85eWZSVmdRQWhpYlplT21kNDE3ZFVBa1JlNUdsUERUcXhvQkdyOXlSelNjZjQyQkd0UkZKa3BkOGlKQ0J5X2xaQ2hITGs?oc=5",
+        "source": "elmartutino.cl",
+        "pubdate": "Mon, 05 Oct 2026 16:16:02 GMT",
+        "pubdate_iso": "2026-10-05T16:16:02+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "ARTÍCULO: Chile mira al “boom” del cobre",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9zc0NCa1NMWFNpUFQtcjNXMnBQZmNHTnh5d1Bpbks3TW01b181R19nN24xUmpsWjJNeGxSLVlhWmlFZV8wZlZDNVZPeFVBSzA?oc=5",
+        "source": "El Comentario",
+        "pubdate": "Mon, 05 Oct 2026 13:33:22 GMT",
+        "pubdate_iso": "2026-10-05T13:33:22+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Economista Gonzalo Martner advierte sobre caída del consumo: \"A mí me preocupa mucho más la situación de las expectativas de los hogares en su gasto\"",
+        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNSkN5UnprSzhZYmJrQnR2OVlRVlVqeHhWMVg3VjFZSUthd2ZNQlBDRzMwWXdkbVlXTEtzbnFqbGczeGdMTFB3ZzhxMmJMZE9pYlk0WVExV3NHWGI4bFdVYnJTLUhZM1c2UUE5X0NCa004UzFkRElMQVhtWDdsQVlHTTRNNHQ4VkhlOWJLZVFnV2VOQUlRbjRWTDNldnNVdEMzaWloWWQzZmZOZ2lRdE5mdjZoRUpMOEpJMnpFZXJvTlF2U2pvYlZWaQ?oc=5",
+        "source": "elobservatodo.cl",
+        "pubdate": "Mon, 05 Oct 2026 00:35:33 GMT",
+        "pubdate_iso": "2026-10-05T00:35:33+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Desempleo en Chile roza 10%: el plan Chile Despega y qué esperar",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdWwwYW9nY1VMb0hnSE9Ja0JjWFllclBWVlFaOUl4bGpDUVZiX0NQNTJQcWo2ZmtQSmJsS2J1ekZKdGthMTcwTV93Zlp3YTlWNlNDQTlQRUk3SjdRRGE3N09CaHpPUjE2X0ZxbnBTQ0pGeFZmcmdQWHZlYTVkZXVqMzhEZkF6ZWJDRVFkNGNleVY5MnpoNmd6aw?oc=5",
+        "source": "El Ecosistema Startup",
+        "pubdate": "Sun, 04 Oct 2026 15:07:14 GMT",
+        "pubdate_iso": "2026-10-04T15:07:14+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "La economía chilena se contrae 1 % en agosto arrastrada por bajo desempeño minero",
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPN2R2bGhEbXdFamJvY251VzRJRGJwMzBuNU9vc0pTU0sxLWZsbGtnS3dOZVR1UGpRTkNtdzFqMFdzdnl1YTFoeGRjT0NBdUpPQTZPdzNIbjRiMFVST19yTU8zZU1qcTktMzIteTBtTFJpajZ5bG5sek93aXlTLTJrNkRxaFZVNEhJYjVPZ19PWG1JU01Gck1YeVEzR1FIY3lWWTB5Q182ZXpDQQ?oc=5",
+        "source": "El Aragueño",
+        "pubdate": "Sun, 04 Oct 2026 12:27:29 GMT",
+        "pubdate_iso": "2026-10-04T12:27:29+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
     "politica_regulacion": [],
     "pensiones_afp": [],
     "energia_tarifas": [],
-    "sectores_watchlist": []
+    "sectores_watchlist": [
+      {
+        "title": "AUZ solicita intervención de Kast para lograr instalar un BancoEstado en Zofri, ante la falta de servicios bancarios dentro de Zona Franca",
+        "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPaFRTb09LODFoeU5aWnhoeTBoZW9MZ1M0M2dtODNaSV9EZ3hpSXlIMUhObjMxcWF1UllXSExmbTZnVWFUV2J2YUM2Q3ZTdTBJazNXV3NzNHoxN20tS1hpMUI0WFh0bW1CbjRxdFNPcmozU1c4VVo0c28xcTlWSjZXZkMwaVhsRHNpZUNWeE9aYjJMYkdCd0RWMTlfeDdIa2JuQ1I3UHFPelgycGMxeXU5bHBVWTFlbDZudElFaEdMdjRXamhNMFVmeDZqWjNNSlRBb0ZWdl9vR1VlM3d0am5JblU2TmFUd3BtSHo2blZvNV9INFA4OEoydkRYdHI3dw?oc=5",
+        "source": "Edición Cero",
+        "pubdate": "Mon, 05 Oct 2026 11:50:13 GMT",
+        "pubdate_iso": "2026-10-05T11:50:13+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "TARAPACÁ | Usuarios de Zofri piden intervención del Presidente Kast ante cierre de sucursales bancarias",
+        "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNcXFQQjEtYml4TURHdzVmS0kwSU9DYWNST3g0blpERUJLdHd2RTc0ajNGNXdGWXJFR1AyV1g2V1hWNE50bnJmV3dOTDZFVTBSbkVVamVOSWl6OXZQaDR5N0lSZG9JRGYtaGVuaUdOcWpFeHBydGx4T2RmYTV0TEl5cVZtU3JXR2pONFUzMmhVRlNxQ3B4WDFSa1dBTmkzRXlaY0k0THdiUjk3Zy15NWs3eWFkRmkxVEk2VlBQVzNMdEhHdXN2Q2RZdEx0VlltcldyTFBhYmlpaGJsakHSAdsBQVVfeXFMTXFxUEIxLWJpeE1ER3c1ZktJMElPQ2FjUk94NG5aREVCS3R3dkU3NGozRjV3RllyRUdQMldYNldYVjROdG5yZld3Tkw2RVUwUm5FVWplTklpejl2UGg0eTdJUmRvSURmLWhlbmlHTnFqRXhwcnRseE9kZmE1dExJeXFWbVNyV0dqTjRVMzJoVUZTcUNweFgxUmtXQU5pM0V5WmNJNEx3YlI5N2cteTVrN3lhZEZpMVRJNlZQUFczTHRIR3VzdkNkWXRMdFZZbXJXckxQYWJpaWhibGpB?oc=5",
+        "source": "Radio Paulina",
+        "pubdate": "Mon, 05 Oct 2026 11:35:09 GMT",
+        "pubdate_iso": "2026-10-05T11:35:09+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "[Opinión] Zofri Requiere Más Libertad Y Menos Centralismo |Nelson Mondaca I.",
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxORDhxMXZ5U1hzWm5zN1U4NlNULXpiUmhhM2FDMFM2Rzh4MzQ1cXlaT2E0bG5tcEJsaUJXSkVfZi1uTVluNjh0QlJ3TmE0RUlNSlJuNDdzNjRNYWFPTFFnZVNKeVMzeDlYcnd5a0VNbHh5YlREQTV3Um5ndkF0ZzVjN292R0dPRUN3bVNQRWM1MDdVU1duMnc?oc=5",
+        "source": "El Sol de Iquique",
+        "pubdate": "Mon, 05 Oct 2026 02:11:49 GMT",
+        "pubdate_iso": "2026-10-05T02:11:49+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Fiscalía sostuvo reunión estratégica con ZOFRI para fortalecer investigaciones",
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMWRFUXB5dmlmS0xrSmUyRzE4LUp4WFZ0T1FxTk1mcjEwR1RMeHBOQmQtdEo4OUJnSGI1MDdPeHRDU2drUU8zWlF3M3BvLW93cERmYzh4NjhvZV8zTHdheGZWYnRUR053TkpkTFZqS1AyVVEyR0lvZFdvTElaOTUyUF9ma2ZrbXdySXBsMWhhVVhYWU8yU0l4WjNJN3Atdmxnbkd6X0hRN0U2eWROXzVRS2tR?oc=5",
+        "source": "El Reportero de Iquique",
+        "pubdate": "Sun, 04 Oct 2026 11:52:49 GMT",
+        "pubdate_iso": "2026-10-04T11:52:49+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "ZOFRI anuncia aporte de $50 millones a Bomberos de Iquique en su 151 aniversario",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNNG5rN3ZiNG13cjdhVWJIMjhFLWEzc2RWMlFGektWOE1DVVctU0pkRm9pVjl4N2xOcTFNQy05YnlTZWR1Z3Q0ZnBvcElkQ2VzRXcxUmUtUHBXbDg3VlZBcExEUUhSaTUwN01jNzJBckNLMG91RmFyd0JGTXJuU3pSWmZIRVBTT0ZrR3pGSlFPV3Y2d1EzeUFQVXZpSmNUUGd4Vl9MaXpDR1hhLTBoejFHT3BHbFFYQdIBtgFBVV95cUxNNG5rN3ZiNG13cjdhVWJIMjhFLWEzc2RWMlFGektWOE1DVVctU0pkRm9pVjl4N2xOcTFNQy05YnlTZWR1Z3Q0ZnBvcElkQ2VzRXcxUmUtUHBXbDg3VlZBcExEUUhSaTUwN01jNzJBckNLMG91RmFyd0JGTXJuU3pSWmZIRVBTT0ZrR3pGSlFPV3Y2d1EzeUFQVXZpSmNUUGd4Vl9MaXpDR1hhLTBoejFHT3BHbFFYQQ?oc=5",
+        "source": "Radio Paulina",
+        "pubdate": "Sun, 04 Oct 2026 09:45:00 GMT",
+        "pubdate_iso": "2026-10-04T09:45:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ]
   },
   "hechos_esenciales_por_ticker": {
     "ZOFRI": [
       {
         "title": "ZONA FRANCA DE IQUIQUE S.A.: Otros",
-        "link": "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=c1b2d81140ae39592c461726320decfeVFdwQmVVNXFRVFZOUkZsNlRrUkZkMDUzUFQwPQ==&secuencia=-1&t=1791199921",
+        "link": "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=c1b2d81140ae39592c461726320decfeVFdwQmVVNXFRVFZOUkZsNlRrUkZkMDUzUFQwPQ==&secuencia=-1&t=1791221461",
         "pubdate": "29 sept 2026 11:26",
         "source": "CMF (Hecho Esencial)",
         "es_hecho_esencial": true,
@@ -61,7 +303,7 @@
     "PEHUENCHE": [
       {
         "title": "EMPRESA ELECTRICA PEHUENCHE S.A.: Reparto de utilidades (pago de dividendos)",
-        "link": "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=917d3db16008f6e7f9985ce2863ee3caVFdwQmVVNXFRVFZOUkZrd1RWUkpNVTVCUFQwPQ==&secuencia=-1&t=1791199921",
+        "link": "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=917d3db16008f6e7f9985ce2863ee3caVFdwQmVVNXFRVFZOUkZrd1RWUkpNVTVCUFQwPQ==&secuencia=-1&t=1791221461",
         "pubdate": "30 sept 2026 20:34",
         "source": "CMF (Hecho Esencial)",
         "es_hecho_esencial": true,
@@ -73,7 +315,7 @@
     "CENCOMALLS": [
       {
         "title": "CENCOSUD SHOPPING S.A.: Otros",
-        "link": "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=db3736759d134389095ab79984a412c0VFdwQmVVNXFRVFZOUkZsNlRXcHJORTVCUFQwPQ==&secuencia=-1&t=1791199921",
+        "link": "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=db3736759d134389095ab79984a412c0VFdwQmVVNXFRVFZOUkZsNlRXcHJORTVCUFQwPQ==&secuencia=-1&t=1791221461",
         "pubdate": "28 sept 2026 19:56",
         "source": "CMF (Hecho Esencial)",
         "es_hecho_esencial": true,
@@ -84,27 +326,27 @@
     ]
   },
   "stats": {
-    "total_noticias": 0,
+    "total_noticias": 17,
     "por_categoria": {
       "bcch_tpm": 0,
-      "ipsa": 0,
-      "dolar_cobre": 0,
-      "economia_chile": 0,
+      "ipsa": 2,
+      "dolar_cobre": 5,
+      "economia_chile": 5,
       "politica_regulacion": 0,
       "pensiones_afp": 0,
       "energia_tarifas": 0,
-      "sectores_watchlist": 0
+      "sectores_watchlist": 5
     },
     "hechos_esenciales": 3
   },
   "resumen_ejecutivo": {
-    "sentimiento": "neutral",
-    "score_neto": 0,
-    "n_positivas": 0,
-    "n_negativas": 0,
-    "n_neutrales": 0,
-    "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
+    "sentimiento": "levemente alcista",
+    "score_neto": 2,
+    "n_positivas": 2,
+    "n_negativas": 1,
+    "n_neutrales": 14,
+    "narrativa": "El feed muestra 2 senales positivas y 1 negativas (neto +2). Factores dominantes: Perdidas reportadas; Demanda de cobre: viento a favor.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "NEUTRAL - sin sesgo dominante"
+    "veredicto": "Levemente ALCISTA"
   }
 }
