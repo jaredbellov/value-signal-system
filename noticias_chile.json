@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-10-05T17:33:52.179310+00:00",
+  "updated_at_utc": "2026-10-05T19:33:52.881680+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "bcch_tpm": {
@@ -36,7 +36,22 @@
     }
   },
   "noticias_por_categoria": {
-    "bcch_tpm": [],
+    "bcch_tpm": [
+      {
+        "title": "La inflación se acelera a 4,68% en 12 meses a setiembre y el Banco Central se apresta a tomar decisión sobre la tasa",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPak10NG9HZHRIS1J0NXRpTTZMeC0ybVRFazI5MGhFdVF1bjZSU2FUVjhZRlY4Yi1mbXE3WDlTOEFaQnZyTFZMMkpCU2xvRkt1ME5fekdnNTRfSVI1cFd3N3lkU2NNZGszeVE4UVp3SFhqTkxPVW9wWjNBdUtMSmo1dkNGNGM1SDhLUlFTOWZUWlRuc01mVVpKWU1RelFkdExiSllTdjI0cm9qNkNHeUtkZQ?oc=5",
+        "source": "EL PAÍS Uruguay",
+        "pubdate": "Mon, 05 Oct 2026 18:08:10 GMT",
+        "pubdate_iso": "2026-10-05T18:08:10+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
     "ipsa": [
       {
         "title": "MSCI IPSA: La Bolsa de Santiago este viernes con alza marginal de 0,08% y en la semana varió -3,02%",
@@ -69,6 +84,20 @@
     ],
     "dolar_cobre": [
       {
+        "title": "Precio del dólar hoy en Chile: cotización de cierre del 5 de octubre",
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZUlCWWZCa0NQa2h1Nmk1NkhmYjd6QXowbWRFa25wMWZKdElkeWd6QjNweFVxUC1kMk45RjdyMXlDaXhGN0VrTnBIc1VOR0lKZ0Y0TVE4dWRSandFTmZRTGxXX2hxclBRM09NcGcxY0lUUFBTSjFENDZUV05nRi1LNVU0eWFLTXIyLUZDeW5vbm9sVTlDOXpUUU9wMzVZWkZJNy1fQTd4UzZnTG1sOFZrd2JB0gHMAUFVX3lxTE1VWkxucjZnZTVBaFlmUDNnOU41OFpzVFl1ejZVdWZwazRQWXhDRTkweVp0QXVCRzNBZlJBX2xoRmhaMExZS016bmdwc0V2dWtzcUtmVWxscjNvQVFJX1I2eHY4X3BFYlJaak43LURfTlJqc1pEaEt2MmljaFJHWDlCM1pPMmEwbjhvUkEwQ1BGSkVyX3NPUHVOclBQWEdRNzZ1NEhOVlk5dXVqTnNLSVZTcjk1TTByVDBQanlnX1FlcU5qQ1RHLVVpNDVacA?oc=5",
+        "source": "Infobae",
+        "pubdate": "Mon, 05 Oct 2026 18:34:31 GMT",
+        "pubdate_iso": "2026-10-05T18:34:31+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
         "title": "Dólar en Chile a 999 pesos: cuánto cuesta el iPhone 17 de 256 GB con el Cyber Monday",
         "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdjNyNHU2bW53dTJld2FXUmY5cGpuRmF1ZFc3SHltQ05zeEVwaWNZemM4cC1leEN4cWxXaUNPNUFnQ09aVTB1TDdReEQ4VjExd2gzcmk0clE3VHZ6cGwtZGowdmlTMEVxYU80MjZWZmNST1VIazFITHNKQW03aFZkNEpYUUtrSzZRYnFvVVdIbC1JcDRHR1VaS3hyeEtUQkhyZGw2NUdSbHc3RVZyZ3p4QXZwMXVfTXZG?oc=5",
         "source": "Los Andes",
@@ -97,23 +126,9 @@
         }
       },
       {
-        "title": "Precio del dólar hoy en Chile: cotización de apertura del 5 de octubre",
-        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNOTNHc0tqMVpJeW1vS1VfQ3ZHeTlwOE9VMzhNOE1ZX01tanlCRTRFb0x6STJTRmFfZzhYNS03YkZsTHAwdFhVbzhQcEdOeEhSYUZnY2hVejRfMHE5OFlVM2F1cV9IX0hDUDRvalltenphZDZYRUtibkt2ZDhuOU4yXzg1QktTaEpza0FRSUtybXdpMzFZODVuRUxOSE9hYlcxM09MQmxxWjE5SjNjX0h6UElQdG7SAc8BQVVfeXFMTzJrRWNJNDNlcGZCa2lMTGlkWkdrb0hXSHlpc2JpVnpyNlM1QkdmVERHWTJTbFJnUktSaThaallEd1VLZEp2SFp5anp1dGpobjFvVXhkVzByOXNMM0RWcmM5Z0gxaXFDZWJKZjlLaHZBN0NqWlc2bEhpMDNpQ3pGWXVTS1NJQnlub2szc0lSZVFKeUswTmUtaE9sVDc4QlZ3T1N5MV9SanRfWjRCU19KNjRXTFhnMDZLZlV4a3pOWjdlODByWi1xS3AtaE40bzZz?oc=5",
-        "source": "Infobae",
-        "pubdate": "Mon, 05 Oct 2026 11:29:18 GMT",
-        "pubdate_iso": "2026-10-05T11:29:18+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
         "title": "Demanda de cobre e inteligencia artificial: el rol sanjuanino",
         "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYi1XNmlMT3p5Q0tVYnFSQUpTLTluSFVmN01HVHE3T2dSRE4wR21WdW5WaEhianBRVVN6OWFJUkVPZHE0VnYwbmxTRnZNVkxQRHhIdmJFUnFLSnE4UUtkZ2ZnQ29CTE5XQ3NjZEdxQXk4RFZpdlU2WUJkdlRUM2dLOHZZMjBoTXFUYUprVmFSRUp6VUJH?oc=5",
-        "source": "Acero y Roca | Magazine Minero",
+        "source": "aceroyroca.com",
         "pubdate": "Mon, 05 Oct 2026 06:21:32 GMT",
         "pubdate_iso": "2026-10-05T06:21:32+00:00",
         "impacto": {
@@ -141,6 +156,20 @@
     ],
     "economia_chile": [
       {
+        "title": "ARTÍCULO: Chile mira al “boom” del cobre",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9zc0NCa1NMWFNpUFQtcjNXMnBQZmNHTnh5d1Bpbks3TW01b181R19nN24xUmpsWjJNeGxSLVlhWmlFZV8wZlZDNVZPeFVBSzA?oc=5",
+        "source": "El Comentario",
+        "pubdate": "Mon, 05 Oct 2026 19:25:11 GMT",
+        "pubdate_iso": "2026-10-05T19:25:11+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
         "title": "Economía preocupa a los chilenos: mayoría no proyecta un mayor crecimiento para 2027",
         "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPeWJjVzB6OENYUUVQVjhPbGdjeGJFMzhBZzA0U1ZqcUgxN1VtUW1EMU56OHhPaHEwUmVfWm1udWZqeTVmWWxuVDBZblVET2JRSWJBaG5faFAweXdRQ0tmQnVQUHVUdFpMU29WT19WcFBBdUlHQlV5dENCTFJUNV85eWZSVmdRQWhpYlplT21kNDE3ZFVBa1JlNUdsUERUcXhvQkdyOXlSelNjZjQyQkd0UkZKa3BkOGlKQ0J5X2xaQ2hITGs?oc=5",
         "source": "elmartutino.cl",
@@ -155,11 +184,11 @@
         }
       },
       {
-        "title": "ARTÍCULO: Chile mira al “boom” del cobre",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9zc0NCa1NMWFNpUFQtcjNXMnBQZmNHTnh5d1Bpbks3TW01b181R19nN24xUmpsWjJNeGxSLVlhWmlFZV8wZlZDNVZPeFVBSzA?oc=5",
-        "source": "El Comentario",
-        "pubdate": "Mon, 05 Oct 2026 13:33:22 GMT",
-        "pubdate_iso": "2026-10-05T13:33:22+00:00",
+        "title": "Sólo ha pasado tres veces en los últimos 30 años: Expertos no descartan que Chile cierre 2026 con crecimiento negativo tras Imacec de agosto",
+        "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNQlkwTmtTSEtzcE8zNWdFeGpLV18wbDdSZDl2d0dPM0NBd0Z6eTdXQllRVGF5a1pPdE91eTF4WUI5a1p0Y09XSHN6aFBxLVlDOUVuWl8xM19vTUpBVDAyS0paYnNqQk8wdTZ4MW11ay1weHZvN2x0NkhwRUNlUFpJTEt1NmNsZXFrREdvSHdiOEJNbFRUanhyTnc4a2FUSHBSbEo1RDFmSjljWVJkTXlZQ2RsWG5oT2ZYUHp1eGxfd0JTeGx1dmVpcmctVmt5ZGh6YnJwT3h6ZnJaZkV6Y29rcERvZlA2eGppdExQNExEUEZlTWVVaHJQTGNZUWc1S1lqQzQ3THhWTkloMGFn0gGSAkFVX3lxTE41cm9zeGlNcDJJRlhob0ZBN1liMjhCd0NxSUdYbk45aS00NlBTelpKR2JVTXlQR0ZlQmdTVE5uZkJNS2xBdjVlOFJsWDJiX21EekEwdHNJbFZJN2RPR3BBSjRZSGIyeFNKMkNFai1qUEl6MklBbF9HU0dWdE1rSWVIR3lxS3pIT09iUGwzVmxHWVdUYWo5a295OFRTOFdvdW42MDZMaXpCdHJsYXFVNVBKTDE0TUp5TE5Ud0JWRXgwRHc5ODVoZ2JPTmNnOWNNUFRZWnRONmI4QXY1bjFCTHhoUW9aOXBXZEU2RGppYWxkWWdwNE9NeXJCMldFMVhLakZvMWhtdmlMaTRFNHoxaERsZXc?oc=5",
+        "source": "Diario El Pulso",
+        "pubdate": "Mon, 05 Oct 2026 14:20:40 GMT",
+        "pubdate_iso": "2026-10-05T14:20:40+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -188,20 +217,6 @@
         "source": "El Ecosistema Startup",
         "pubdate": "Sun, 04 Oct 2026 15:07:14 GMT",
         "pubdate_iso": "2026-10-04T15:07:14+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "La economía chilena se contrae 1 % en agosto arrastrada por bajo desempeño minero",
-        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPN2R2bGhEbXdFamJvY251VzRJRGJwMzBuNU9vc0pTU0sxLWZsbGtnS3dOZVR1UGpRTkNtdzFqMFdzdnl1YTFoeGRjT0NBdUpPQTZPdzNIbjRiMFVST19yTU8zZU1qcTktMzIteTBtTFJpajZ5bG5sek93aXlTLTJrNkRxaFZVNEhJYjVPZ19PWG1JU01Gck1YeVEzR1FIY3lWWTB5Q182ZXpDQQ?oc=5",
-        "source": "El Aragueño",
-        "pubdate": "Sun, 04 Oct 2026 12:27:29 GMT",
-        "pubdate_iso": "2026-10-04T12:27:29+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -272,11 +287,11 @@
         }
       },
       {
-        "title": "ZOFRI anuncia aporte de $50 millones a Bomberos de Iquique en su 151 aniversario",
-        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNNG5rN3ZiNG13cjdhVWJIMjhFLWEzc2RWMlFGektWOE1DVVctU0pkRm9pVjl4N2xOcTFNQy05YnlTZWR1Z3Q0ZnBvcElkQ2VzRXcxUmUtUHBXbDg3VlZBcExEUUhSaTUwN01jNzJBckNLMG91RmFyd0JGTXJuU3pSWmZIRVBTT0ZrR3pGSlFPV3Y2d1EzeUFQVXZpSmNUUGd4Vl9MaXpDR1hhLTBoejFHT3BHbFFYQdIBtgFBVV95cUxNNG5rN3ZiNG13cjdhVWJIMjhFLWEzc2RWMlFGektWOE1DVVctU0pkRm9pVjl4N2xOcTFNQy05YnlTZWR1Z3Q0ZnBvcElkQ2VzRXcxUmUtUHBXbDg3VlZBcExEUUhSaTUwN01jNzJBckNLMG91RmFyd0JGTXJuU3pSWmZIRVBTT0ZrR3pGSlFPV3Y2d1EzeUFQVXZpSmNUUGd4Vl9MaXpDR1hhLTBoejFHT3BHbFFYQQ?oc=5",
-        "source": "Radio Paulina",
-        "pubdate": "Sun, 04 Oct 2026 09:45:00 GMT",
-        "pubdate_iso": "2026-10-04T09:45:00+00:00",
+        "title": "Cenco La Molina obtiene certificación EDGE: es el primer mall del Perú en recibirla",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPT3Zqdk1TTWNVMk54U01fVm95cEtUY1JCUm15ZUlrZ2dpZ1FmNDFWQkh5RVJHMVR1dWFKQ1Z6QjRKXzBwSWVJZTdNNHBUcXdHODNFeldtWmZuWWF2czRKQjJUQ2gxcXlCczlJTlRRUUFBTDVGZWJ4ajhiSWRXMzJJWDQyYWw3eGo2NUh3RXZZS19uX1lKeC1VeF9pSk9naElFVzh5bHpma3FLczdmalpvZmlrcVk?oc=5",
+        "source": "Perú Retail",
+        "pubdate": "Sun, 04 Oct 2026 00:45:57 GMT",
+        "pubdate_iso": "2026-10-04T00:45:57+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -291,7 +306,7 @@
     "ZOFRI": [
       {
         "title": "ZONA FRANCA DE IQUIQUE S.A.: Otros",
-        "link": "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=c1b2d81140ae39592c461726320decfeVFdwQmVVNXFRVFZOUkZsNlRrUkZkMDUzUFQwPQ==&secuencia=-1&t=1791221461",
+        "link": "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=c1b2d81140ae39592c461726320decfeVFdwQmVVNXFRVFZOUkZsNlRrUkZkMDUzUFQwPQ==&secuencia=-1&t=1791228781",
         "pubdate": "29 sept 2026 11:26",
         "source": "CMF (Hecho Esencial)",
         "es_hecho_esencial": true,
@@ -303,7 +318,7 @@
     "PEHUENCHE": [
       {
         "title": "EMPRESA ELECTRICA PEHUENCHE S.A.: Reparto de utilidades (pago de dividendos)",
-        "link": "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=917d3db16008f6e7f9985ce2863ee3caVFdwQmVVNXFRVFZOUkZrd1RWUkpNVTVCUFQwPQ==&secuencia=-1&t=1791221461",
+        "link": "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=917d3db16008f6e7f9985ce2863ee3caVFdwQmVVNXFRVFZOUkZrd1RWUkpNVTVCUFQwPQ==&secuencia=-1&t=1791228781",
         "pubdate": "30 sept 2026 20:34",
         "source": "CMF (Hecho Esencial)",
         "es_hecho_esencial": true,
@@ -315,7 +330,7 @@
     "CENCOMALLS": [
       {
         "title": "CENCOSUD SHOPPING S.A.: Otros",
-        "link": "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=db3736759d134389095ab79984a412c0VFdwQmVVNXFRVFZOUkZsNlRXcHJORTVCUFQwPQ==&secuencia=-1&t=1791221461",
+        "link": "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=db3736759d134389095ab79984a412c0VFdwQmVVNXFRVFZOUkZsNlRXcHJORTVCUFQwPQ==&secuencia=-1&t=1791228781",
         "pubdate": "28 sept 2026 19:56",
         "source": "CMF (Hecho Esencial)",
         "es_hecho_esencial": true,
@@ -326,9 +341,9 @@
     ]
   },
   "stats": {
-    "total_noticias": 17,
+    "total_noticias": 18,
     "por_categoria": {
-      "bcch_tpm": 0,
+      "bcch_tpm": 1,
       "ipsa": 2,
       "dolar_cobre": 5,
       "economia_chile": 5,
@@ -344,7 +359,7 @@
     "score_neto": 2,
     "n_positivas": 2,
     "n_negativas": 1,
-    "n_neutrales": 14,
+    "n_neutrales": 15,
     "narrativa": "El feed muestra 2 senales positivas y 1 negativas (neto +2). Factores dominantes: Perdidas reportadas; Demanda de cobre: viento a favor.",
     "narrativa_fuente": "plantilla",
     "veredicto": "Levemente ALCISTA"
