@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-10-07T19:32:53.578735+00:00",
+  "updated_at_utc": "2026-10-07T21:26:58.738844+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "fed_tasas": {
@@ -28,32 +28,458 @@
     }
   },
   "noticias_por_categoria": {
-    "fed_tasas": [],
-    "mercado": [],
-    "tech_nasdaq": [],
-    "economia": [],
-    "earnings": [],
-    "sentimiento": []
+    "fed_tasas": [
+      {
+        "title": "2,213% Liquidation Imbalance Crushes XRP Bulls Amid Market-Wide Selloff",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSDIwbHVIbXAtcE1ieE1JMlA1ZzdMWGJDeXMzQ3hZdXVObDBaN21kRzdMUjFOV2NmQVZvMnU4cHo0ZUh4Z3ZYREN4NkE1Q0xkc0pLQmp1bnhOSjhEcGkzS1k3WnJIb0t1Q3RVVW1fX1pZS0NyM1otUzAzYUZvV1hqRnUzUWczNlYtSk1aMXBkNzlONm9rQTBiRXl2RkxINXQ2WWx0ZUlTYmF2ZXZYa1REcUVZNERkaldDeUhKOTF2V2E5cG9kTmc?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 07 Oct 2026 10:48:58 GMT",
+        "pubdate_iso": "2026-10-07T10:48:58+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 3,
+          "intensidad_label": "fuerte",
+          "emoji": "🔴🔴",
+          "razonamiento": "Selloff: presion vendedora"
+        }
+      },
+      {
+        "title": "Australian Dollar holds losses below 0.7000 ahead of FOMC Minutes",
+        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPWVFSaFExT19pMVhKOTMtbUE2NERmZ3RkanhrUVJTOFdGaVRIYUdFcHpWQ0wwOFJzbWE3NzM2Z2lsY09qUC1OQkUxS1ZNS2wtc2NWRDJIb0tOaldYRWN4SDRTZ0VvZU1kQU1pNjVrSDA4OHZ5WlB6LXhCXzdYWVNxRC02dlRpeEhOUEFvMmVoclcyUkVTak5ra0s4RXY4MlJ1eEc0V2NkYWdWOE1SOGhYSHhnV2NMVFVLdFE0MlM5U1A1NFczWXBMeW13?oc=5",
+        "source": "tmgm.com",
+        "pubdate": "Wed, 07 Oct 2026 09:22:42 GMT",
+        "pubdate_iso": "2026-10-07T09:22:42+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Gold weakens amid renewed USD strength and higher bond yields, ahead of FOMC Minutes",
+        "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQdmUzc1N1cW05STRhZ1ZINko2SkFWcjI5dVlTcVVGVDRVSWhIaGNTTTJDaVFsYUZ2UmlHWVVvZkQwM0ZLYmxWckdpTzVUQUlyVXFhaUFsVFJGX3VGYW40TS11cHBYLVJqNjdMUlFScHJlWHFsekhhZnpTd0h6NlB4czVNYWJ3S3NQSHVJVWRCaVR1UmxYQWx0UXlFdmxTWi1JdEY1TXl4YzIxaDF6OXh3M0hETWNjQ0QwZDdUWnBHYzNqdlA2UGluT2RQUUtYT3lTZ3ZLUlRsZVJ2aERIekk3YXExdw?oc=5",
+        "source": "tmgm.com",
+        "pubdate": "Wed, 07 Oct 2026 06:02:06 GMT",
+        "pubdate_iso": "2026-10-07T06:02:06+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "British Pound weakens as US Dollar advances ahead of FOMC Meeting Minutes",
+        "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPLXl0eGZxcVdVaTZTRmZ4UUJOdjh4azM0NTRjeWJWNjRFa0luTUpYTzFJNWZLX3FxS2VLOFJNM3lTaE0ydzMwVGd1amx3aTdUam1LV1Q3OHBUZ25XQVhqdExadmxtMEhldS1pbElFMUNUaWZwYWtNSnVpQTVoQmdRN09lV09lZ1I2ZU9FQ3VlcG54cGMtY0g5MjFTQkhYNUQyYU9DT1B2X1N1Y25NTnFkcTZxbGtXS3FjY1RzaEZ5dmx0N3RiT1FWRU9CYXBqMXJleWtMa0VB?oc=5",
+        "source": "tmgm.com",
+        "pubdate": "Wed, 07 Oct 2026 03:25:36 GMT",
+        "pubdate_iso": "2026-10-07T03:25:36+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Gold rises above $4,150 as bond yields turn lower, traders await FOMC Minutes",
+        "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPNUJKMjg4WktiUWljZ2RXOFZhdWxwSjFNM1NpRkpEYXQzdDhxcWdLZ0lJTlZpNkt2Y0l3Q1B4U19TRmU3TEhab3VQLVh1cnJOOHBTclF2N25uTlhna1FwelV2a3djeERmVlhZQUdlQUZMMjJsVU1oTVY0enBTTjY2Nng1YVVmWjVpOXlxZDdRbjZ0MldSdUdKQ2ZRVEMzUU05WV9qdFMxNWVLWWJWSmpTQjA5Zlg3UklpNjdvVWstbDJZUXMxSVFGbVVZdy1MSFVta3NtQmk4RlA?oc=5",
+        "source": "tmgm.com",
+        "pubdate": "Wed, 07 Oct 2026 02:57:21 GMT",
+        "pubdate_iso": "2026-10-07T02:57:21+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "mercado": [
+      {
+        "title": "Stock Market Today: S&P 500 and Nasdaq Fall as Treasury Yields Hit 24-Year High",
+        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbWZOeU5QNHVvWWRmeGlFdS1GRDdnQlFzMFRmMnlZaEYwemhXcVJCUmtHMmFNaXNOUEwwWWMxc0dkZ1RMa2hoZ2dpTFJjZUx2RUtsUWhfQ2g5d0ZydVpwYkliaVo0VUxEdUczWHRoT3FNRW5FaGpfN2xPU1hVWkZHZFVmVzFaSU1BOHhKZnhNLTZVMHZOcDR6OUZpV0NHc2pVWlpXRWNBUVJyZnpORmQxeVpxaDI4QWVESnc?oc=5",
+        "source": "CryptoRank",
+        "pubdate": "Wed, 07 Oct 2026 17:17:26 GMT",
+        "pubdate_iso": "2026-10-07T17:17:26+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Why is the stock market down today? Surging bond yields, oil prices, and Fed anxiety halt Wall Street's record rally",
+        "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPTVRRTnZ0bFRmVnVpM0RXYkk2ak1NOTR2MDVsM21xNTVfMTBSVzVmaGU1WFdKYmtSOGxtQlFONHhOLU5OX0RsdlZSWWVOWUxMQ25jM0xTSmFpcEExRk5ScEM1NjhCLUZDVzVZdmMwcW1PUERpeVN2aWE4SThad1JfRHpCLXNOTWNRRU1qM3V4Q215d3BKNks2am1hMUxzLWxuREFZSm5kSllBYldtYXBRNmExcU93UmlYOG84bVRqX3JDcjBZamJLS19Fc1BxTGZOOEl0TzZsRXRTbmpvMkNfN0syZ1pqdndSWlpGX1RicURxNG_SAfgBQVVfeXFMTnp5QU9xQS1xWkE0Wms5V1hzTWlfYy1oQ19yb0FISHJ0NFdTMnJMSDZsaG5aeW9kNGFzS3RRaHpGcU5BYzVxdXRrSW9IWXYzZjlKWjVaMDNaZnJTZkVGRXlRekdtWE1od3FXbDVaM00zSmZGZXY5VjVONWhocTlzcU5jTC12dVp3RGJsbkVnRFBRZUtpYVZPU3lfRUoza2VodjVZRVpRaTlfdVBYTkU3TlZfNHhMLTV6MU1yMXRGaHZCbXNhOFlURmpSdm5Bbkxwdmw0TjhBVWRkYzZZSTFKVnFpRFR0OTBBc1pTX0M3eURiZW1wRm05RGc?oc=5",
+        "source": "Clarin.com",
+        "pubdate": "Wed, 07 Oct 2026 14:34:56 GMT",
+        "pubdate_iso": "2026-10-07T14:34:56+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "S&P 500, Nasdaq Hit Records, Power Stocks Rally on Google's Nuclear Deal: Stock Market Today",
+        "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOeWlMT1lpNGtlTU82a25HRG1rY0Q0eHg0Z3NlZ0FacGJYWDBJLWxMa2doSURtRk8zNjkyY2l4TDZBcG5MVThadTFfa0prZVFQYWJrN2pVTzZhaU1fa2R3aW1ORk02OWRfOGM2bjZlYkRHOWwyV3dQRVRKOGRNeDV6MThJUk1lSzdZVkVkNmgxS2F4TjlTb0RfWlFtdUljOFVMNXN3VFpJVE1UMzc5Um50eUJVYjh0MHZoZV9xeDRQbTA2cWRFZnJiMEQyV0VRbU5laEZMVDVFZTlXMnQxdGxXUg?oc=5",
+        "source": "TradingView",
+        "pubdate": "Tue, 06 Oct 2026 17:11:12 GMT",
+        "pubdate_iso": "2026-10-06T17:11:12+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🟢",
+          "razonamiento": "Rally accionario"
+        }
+      },
+      {
+        "title": "S&P 500 and Nasdaq 100 Post Record Highs as Crude Prices and Bond Yields Fall",
+        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNRHRudThTb0dhX2xjQk1mWlI2Z0RwRnNUMlRFR0tKOVpVX3BBZ0h6UW5tRVpRaFlSaGN2R0pfUjV4MzVHdGlNbEtqSW9RQjFpU1M5ZEMxNVZiczFCSnNSRG5WWFRPZE5WdXd4a1l3UWluUVNZNFlCclI0RjFZeGoxVVFQa05SM2Vya0lXZUFjbE5Oa0hydS03aXdob096MU9Sd3pFbTdSU1h2NTA3WVBuNUpXUlVGYTdFSDhnMUJ5WlhjUGF6b1lYUEx1NE9naUFQ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Tue, 06 Oct 2026 13:59:32 GMT",
+        "pubdate_iso": "2026-10-06T13:59:32+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🟢",
+          "razonamiento": "Maximos historicos"
+        }
+      },
+      {
+        "title": "Dow futures jump 220 points: 5 things to know before Wall Street opens on Oct. 6",
+        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNWWJ6ejVucmYwdzZqNHpxNko2ZlBHNFliQ252NWV4WTJFVTNxQmswY2JDS2xoemNRYVhVYWNPNTR6OXdWd1NPd2JXdV9EMGF2SFpOTTNxV0ZvczVfQllWY1pBYVkzRk5QSXBqRU9ZSHpIa3JHYUxfWFF5Z3VBX0Ryb0dkMngtTm9WSjR1Mk5KZnRLZlBDWVRYbzByb2xvTEFVSF9PUUxMTkg2MDduczcxX1diT1BOVjVhei10TjRRbjhEdkUwV0lodUVnV1JEWWc?oc=5",
+        "source": "TradingView",
+        "pubdate": "Tue, 06 Oct 2026 11:24:11 GMT",
+        "pubdate_iso": "2026-10-06T11:24:11+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "tech_nasdaq": [
+      {
+        "title": "Stock Market Today: S&P 500 and Nasdaq Fall as Treasury Yields Hit 24-Year High",
+        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbWZOeU5QNHVvWWRmeGlFdS1GRDdnQlFzMFRmMnlZaEYwemhXcVJCUmtHMmFNaXNOUEwwWWMxc0dkZ1RMa2hoZ2dpTFJjZUx2RUtsUWhfQ2g5d0ZydVpwYkliaVo0VUxEdUczWHRoT3FNRW5FaGpfN2xPU1hVWkZHZFVmVzFaSU1BOHhKZnhNLTZVMHZOcDR6OUZpV0NHc2pVWlpXRWNBUVJyZnpORmQxeVpxaDI4QWVESnc?oc=5",
+        "source": "CryptoRank",
+        "pubdate": "Wed, 07 Oct 2026 17:17:26 GMT",
+        "pubdate_iso": "2026-10-07T17:17:26+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Why is the stock market down today? Surging bond yields, oil prices, and Fed anxiety halt Wall Street's record rally",
+        "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPTVRRTnZ0bFRmVnVpM0RXYkk2ak1NOTR2MDVsM21xNTVfMTBSVzVmaGU1WFdKYmtSOGxtQlFONHhOLU5OX0RsdlZSWWVOWUxMQ25jM0xTSmFpcEExRk5ScEM1NjhCLUZDVzVZdmMwcW1PUERpeVN2aWE4SThad1JfRHpCLXNOTWNRRU1qM3V4Q215d3BKNks2am1hMUxzLWxuREFZSm5kSllBYldtYXBRNmExcU93UmlYOG84bVRqX3JDcjBZamJLS19Fc1BxTGZOOEl0TzZsRXRTbmpvMkNfN0syZ1pqdndSWlpGX1RicURxNG_SAfgBQVVfeXFMTnp5QU9xQS1xWkE0Wms5V1hzTWlfYy1oQ19yb0FISHJ0NFdTMnJMSDZsaG5aeW9kNGFzS3RRaHpGcU5BYzVxdXRrSW9IWXYzZjlKWjVaMDNaZnJTZkVGRXlRekdtWE1od3FXbDVaM00zSmZGZXY5VjVONWhocTlzcU5jTC12dVp3RGJsbkVnRFBRZUtpYVZPU3lfRUoza2VodjVZRVpRaTlfdVBYTkU3TlZfNHhMLTV6MU1yMXRGaHZCbXNhOFlURmpSdm5Bbkxwdmw0TjhBVWRkYzZZSTFKVnFpRFR0OTBBc1pTX0M3eURiZW1wRm05RGc?oc=5",
+        "source": "Clarin.com",
+        "pubdate": "Wed, 07 Oct 2026 14:34:56 GMT",
+        "pubdate_iso": "2026-10-07T14:34:56+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "S&P 500, Nasdaq Hit Records, Power Stocks Rally on Google's Nuclear Deal: Stock Market Today",
+        "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOeWlMT1lpNGtlTU82a25HRG1rY0Q0eHg0Z3NlZ0FacGJYWDBJLWxMa2doSURtRk8zNjkyY2l4TDZBcG5MVThadTFfa0prZVFQYWJrN2pVTzZhaU1fa2R3aW1ORk02OWRfOGM2bjZlYkRHOWwyV3dQRVRKOGRNeDV6MThJUk1lSzdZVkVkNmgxS2F4TjlTb0RfWlFtdUljOFVMNXN3VFpJVE1UMzc5Um50eUJVYjh0MHZoZV9xeDRQbTA2cWRFZnJiMEQyV0VRbU5laEZMVDVFZTlXMnQxdGxXUg?oc=5",
+        "source": "TradingView",
+        "pubdate": "Tue, 06 Oct 2026 17:11:12 GMT",
+        "pubdate_iso": "2026-10-06T17:11:12+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🟢",
+          "razonamiento": "Rally accionario"
+        }
+      },
+      {
+        "title": "PacBio Deepens AI Drug-Discovery Push With TychoBio Deal — PACB Stock Takes A Breather After 103% Rally",
+        "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOMkFxSGVzeHE5T3VwQUNyeFlGWWVPUDZWUkJRQVIzWDBIZHdhZHBMVU9LT0VUQ0QtYXhhQ0hwazY1RXNRUElnU1Vzcnp4TXdXV19GUFAtb1dZNTZBT3laUGJtWFJza21wVmxaU201VWQtVld5SXlIdzJwczk4cXZCTEQ2b1BWZF9UMldQUV9sNFZZanRyR284SUpvaW5xVVQ1OE9oQU5XQmdPUnFoQVVMYWtUWVA0UmQ4S3VDcXdYazdkWFF0cGxyZGhidWRJeUdiZU5zUnFocC1UTGdUdGRGNk1LLU1HbXBscGVyZGItVV9lZw?oc=5",
+        "source": "TradingView",
+        "pubdate": "Tue, 06 Oct 2026 15:23:46 GMT",
+        "pubdate_iso": "2026-10-06T15:23:46+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "S&P 500 and Nasdaq 100 Post Record Highs as Crude Prices and Bond Yields Fall",
+        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNRHRudThTb0dhX2xjQk1mWlI2Z0RwRnNUMlRFR0tKOVpVX3BBZ0h6UW5tRVpRaFlSaGN2R0pfUjV4MzVHdGlNbEtqSW9RQjFpU1M5ZEMxNVZiczFCSnNSRG5WWFRPZE5WdXd4a1l3UWluUVNZNFlCclI0RjFZeGoxVVFQa05SM2Vya0lXZUFjbE5Oa0hydS03aXdob096MU9Sd3pFbTdSU1h2NTA3WVBuNUpXUlVGYTdFSDhnMUJ5WlhjUGF6b1lYUEx1NE9naUFQ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Tue, 06 Oct 2026 13:59:32 GMT",
+        "pubdate_iso": "2026-10-06T13:59:32+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🟢",
+          "razonamiento": "Maximos historicos"
+        }
+      }
+    ],
+    "economia": [
+      {
+        "title": "Will The Fed Hike Again In October? Jeremy Siegel Says ‘Goldilocks’ Jobs Report Gives Warsh 'Cover To Hold' Ahead Of Midterms",
+        "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPenVYb0d0d3RuOXQ4SEE1NXhHVnpfQXNVV2VkRzRqbTZGc1ZTSlNSNExjR0d0T214NGZJcTVVSmgwQ0IxY1JmY0thN3Q5QS1HWjhrWmdYVmpkcnNfR1lMUHNKZ2p6bWFRaWEycUkwd252Mzc0ZDl3dUdpSXFCMFR2Y25YQ1pUeUIzWGlnVlhzREF4WUJwOWNmQ2VRQmZWTmJ2WVYtN0x3bk93MFUwcEl1SVQxWFdfZ3pkUDJQaHF6dDNOMkh1YUNCWWNWNDVVaktrVTh5SHF5dmFxTkZYcDBKeGxKaEM5STVCRDZ1cEpEZ1B1ZTJHY2RPaTR5LVhNOFBGbmJ1Sk1GcjVqSUQz?oc=5",
+        "source": "TradingView",
+        "pubdate": "Tue, 06 Oct 2026 01:16:00 GMT",
+        "pubdate_iso": "2026-10-06T01:16:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "FX weekly: Dollar strength holds, major currencies ease",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNanB1dWZtU19vT2ZSUjdDOG9SWXFid2RpdHdWZFRXTXE3bnl3NTg0Vjl3bndPOHh1MEh3WVhFbjQtVklTMGFYRmZPYWU2enBUbG1aRWhCU1dkZUVwbWlFUzFkcE9MdmUtTmtJUnIzU0drMGV4Zk43YWdYZUFiLUJHYnNWTHlxR3BnS2NfZ0d3cEhMWGVQZ2ZpQnJxR3N0cHRjTzVIeGFpZTZFWXJXTDJXN2lyMUhNdw?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 05 Oct 2026 17:11:05 GMT",
+        "pubdate_iso": "2026-10-05T17:11:05+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "10-year yield reversal tracks stronger cyclical payrolls, EPB says",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPaEdTRXJIOV9SaUxhOGZoQ09VT0JmUWJLdFNTdlQ1MjFCWWljeVdzdVo1S1Z1TVE4OU8ycXJzbV9HanVJaXZoSThnQVc3ODYzR09KcTcwSWxOWm40Mi1Za2pGS0xUMkxsZmkzLWpDMjdqT3ZSUmpjcUEtZ0toOEk3TF9UbV8xQUtEQlpqOHhXazFPcFF0eThCZzFGOGZHX2JRM1N1TWJLRTFLUGpIcFNLOE85Z3dJWnZ3aDVvVzc5M1RqbTVrdnc?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 05 Oct 2026 16:01:42 GMT",
+        "pubdate_iso": "2026-10-05T16:01:42+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "United States Dollar Index gathers strength above 102.00 on safe-haven flows",
+        "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOSC1acVl4dm8wMXdoWUt1VE1qNmhBc1VXXzZlSlRCRmZfLUNiTlpENllCS0syckR4Y2dOQkU2T1NRSDVreHQ2SHZMVFJsNVNJaDl2NGUyakpTVWtLeTZLckRldVN2NUktaVppMVhEczRqY0h5RDBOc3RLcUx2ZzYwbUhVZFFhR25uVHNGaTN6UG9WRl9mTkRNS1VsTklQVkZKWGdzeGs4dVBHaXVCaVEybVctamdfcXBJcUNhdDRKYXQ5WDJwWnZGYlhBVlp0UlVFbHhYdVltZ0M?oc=5",
+        "source": "tmgm.com",
+        "pubdate": "Mon, 05 Oct 2026 11:34:59 GMT",
+        "pubdate_iso": "2026-10-05T11:34:59+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Dow, S&P 500, Nasdaq Futures Rise After Soft Jobs Report As Markets Await Fed Minutes: IBRX, SMCI, VST, SOFI Stocks In Focus",
+        "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPSXE2eXE3S1Vsdm5QMHVhZU9rcDZTTlBPdG9GVk1zdVhIYW1aeTJWTl81QUNTcElJV1l4VlA4T2MyUHdKRC1HSVhKUTRycm1TUmpSUXNQYUpSbUd3QlluVmRHZ3JwZDYxZDFFdjJ4QnloZEJjWjduWXFGaUNydHp6dFY3TlV2YmZTRmdOTmtRNnBDV3lvVDFtOHFUblNUdnBDbHAxUndaY19lMnJoS0h0SnlqOUJWRUpBM0t6clV0RWNPaG45NGdETHJPaW9nTjNEekYyazVjbC1tcWMxUVFkZHU1eHZwQU4yTkU1emh5NGdFejVkbl9VZEFpQks0SE9wajZPYlZ2SE1sUQ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 05 Oct 2026 03:17:00 GMT",
+        "pubdate_iso": "2026-10-05T03:17:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "earnings": [
+      {
+        "title": "Why Apogee (APOG) Stock Is Up Today",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNX1I0YzVPYUszdmFST19WXzRCQUY4LXRkR3BVQXNKdGJDaEc4WE9rRnNzNmFBTndBaUpnN2doU3JqZC1TLWYzQjIwa2dTX2FaU1FZdXJDV3RlRHUxRG56VTc5emdKMGYwWU5ha3ItU19wdkNNUmdzUXZEaGx3Rm82c21yRVdnaHhHX0p6Y2w1SG5CQ09OaVg5MQ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Tue, 06 Oct 2026 14:15:44 GMT",
+        "pubdate_iso": "2026-10-06T14:15:44+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Noticias de CNBC TV18 en TradingView, de fecha 2026-10-06 — cnbctv:8fed4fd26094b:0",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9mSHY2aU5vMHFFRXhXcmN4VTdyUUdLeUtaWjZidkZfb2RkUW5TelpSNkcxYXppZ3hITDlBR20ySXN3bXF0bEEyZ2J6ekRfWDVyOHlNT1M1Qnl3cnl6UWVsc21PUDJJUQ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Tue, 06 Oct 2026 11:54:15 GMT",
+        "pubdate_iso": "2026-10-06T11:54:15+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Infosys Q2 2026 quarterly results: Announcement date and time, earnings schedule, dividend history - Details",
+        "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQbFlEOE1VZFpmSmdqTXZRYm45UGNDSUMzRUl6ckxvbllYZG5Cb1RyQXhiSnpYeXpDaTBiYzlLQVJuLWNTR0oydm51cXptZzVYTTBqVWJMREZINEZ0ZWZkSkV3RGlDejh1VV9qdW5RODFiV19WSldzMEhaN0Z5RUhvSlFFNjRlSm1ILVUyMno0djZDakxMNklCSk9RRWJhTDVDWUlrTU1oRFZ6QXNDQ0FwMTI1cnZ5WlhteFhHX1V2OFh0d1ljTUJsMVM3ckNWSkg0QlRMc3ZpVHlrOTlfZ3RXcUtnWEZWcWN6ckNLX1lxUjk?oc=5",
+        "source": "TradingView",
+        "pubdate": "Tue, 06 Oct 2026 11:23:23 GMT",
+        "pubdate_iso": "2026-10-06T11:23:23+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "3 Consumer-Facing Stocks Reporting This Week",
+        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPM2dOV09PZnNCNVRVdkp6WDk4VWNGNWFPdzdDM2tlaGFBemplSVM0Mm02MVpZa29xdk9xYWYyOGFWZlg5S0hDWjF0SVVPQUp0M0NER0Rkb1k4ZzRxUWpTdU1aMFFoS1k2b29ZNDdSd2ZiSlNOSUhxVlBobnA0ZXBHeHR4aHRzdG1MaXVWV0lzQmdBaHJMSUgzVnF0emVEcVY4?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 05 Oct 2026 20:38:00 GMT",
+        "pubdate_iso": "2026-10-05T20:38:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Record 72 S&P 500 firms issue positive Q3 earnings guidance - FactSet",
+        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbWVBeXVPWUdiMXpaRW9YUGlScTlfMVMwX3pZSlBhaUQwX0c5emszMVVDX3ViVlc3TjNnSEhZd1B3cUFqb25TblluSjBCbW9nUFdLVEF2SUxxWmFnajNkQXNkLWVvS01wQ2JlUDVsbGluV25pRlpKeEpXc1d5N0RnMFdqTWE1UHpqOUN6a1ZrVzY1NkZ2SFJCZnpXRlpJRS1VUEMtbklhNTl5eTI1a2czdTJCZEF4d29pQnMtaTR4NEYtNm0xNld0Nw?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 05 Oct 2026 19:12:25 GMT",
+        "pubdate_iso": "2026-10-05T19:12:25+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "sentimiento": [
+      {
+        "title": "Stock market prediction for tomorrow: Sensex, Nifty outlook for Thursday | Kospi, Taiwan cues to watch | 8 Oct 2026",
+        "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOejZydDU3alhQcWZ1Z0RoVFZOSUlvaUtRenNiaElHRXBzZ2VHVWRlMVVIVXhSakFmNWlyaTh6SzZMcU5CYjhINUNiR1dYRkVKYmJja2VXSElJbHNZd3YtajJNN1hKLWxFSHNyV3VLcm5tSWp6cEloa3BiT2NoU2ZUSHQ0RVZVblpGN2JKVEx4MS03Y0VVbkNDOHlZTVdzMVlneC1PQVJUUWxCd1IwV1ZnU0VSS1lua21oRU1TZHRZU2twc1lZdVN0OUowWFJYaGQ5UXNBLUU4eVBYNng1Z0x2WEpqNXdxU1BFdkNzTndnZW1xM2RmZ2Vn?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 07 Oct 2026 13:45:56 GMT",
+        "pubdate_iso": "2026-10-07T13:45:56+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Stock market outlook today, 7 Oct: Sensex, Nifty prediction - DJIA, S&P, NASDAQ, GIFT Nifty, Nikkei, Kospi, Taiwan cues",
+        "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQbEJYVW8wR3hJck9XanFWNjN2VGQzTkIyVFhJQXVrdlp0N0J6RGE5cmRXdHg5YzlwNFJlaXR6bGVpb3hFVm1UNDhjUUIwUmN1Z0hBUkxhR3hFZGVObXc3ZjdwVVlldEFEZ0FzQmVfRktiOWN0QktRdFpwUFpEemIxMVN1bWFuNUloQk51SVBFc21Kdnl5RWlnTWJxWHhndjlOT2VzdGRsVlY2d28wTGVfcDZGUTFRWEgxR3lRWXlZWWxNaTN3a1RsQXpzd1dkQlNrWFNURWg4WjUyV3RobC1VSUlSTlF6R0VqblJoNTZDeUV0LUJmcmt3?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 07 Oct 2026 04:50:00 GMT",
+        "pubdate_iso": "2026-10-07T04:50:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple – BTC fails to hold $85,000, ETH downside risks rise, XRP momentum fades",
+        "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNbG4xS05Gd2llWnJDc0g0MENWZnNKeUN3TmxJSTRjeGFBZGJ2Tm1KRFk1Qm1fMGVKQUkyQUhJOHZsYWZ3bzNLOXR4N09ZQjVNN3hLd2J5bFg3MEtWbXVZSC1LbGs1d09YRGRCWE13Ylh5eDNVcURsTTB3QzVpY0NtWC1oM3lXQTEzN01MM214cnJsd0JZNUpmdHgtblp4QW9FM0piekI0aDh2QXVaanZadGE1OHp5TmVJYV9PeHc1R0dkaFEyMDh0ZHNYTmtlVFFlOV9lbVFXR0hoRFlEelBSUjN5RzFGMlNBakd0TEtOVnVCLW0wdnJ1NHo3cFh2c3V0dlNVNkFweHpQYjFw?oc=5",
+        "source": "tmgm.com",
+        "pubdate": "Wed, 07 Oct 2026 04:36:13 GMT",
+        "pubdate_iso": "2026-10-07T04:36:13+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Stock market prediction for tomorrow: Sensex, Nifty outlook for Wednesday | Kospi, Taiwan cues to watch | 7 Oct 2026",
+        "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOMWYxcnItM3RjdG50OVRTOHBUaHNzeF9jdFJpSlo1Uk4tamh6bVFVektlNFlHZDJ5djNqU0JiZjk4Y3BfZUk5eE9mZGZuZjhCenFaR0lyY2RjVlZZZnc5TzhSTjNTdXNUc0E2c3dxS0RwTDRRem1LVjFwclZuQmY1MTF3NjBYTGVrcWpHLVR0cFJJRHdRci1qdDRwZWtOR1pGLTJQa1lhMjIyQ29yVGlQaGFXS1B2MWE5d0UwVlFyYjBuOXVRYWo2MllqLUQ1WGlWNUpCX21FYi00MXB6Z3BJTVRrd1dXV2dwQ0xvUjRWbDEwT094aXc4TQ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Tue, 06 Oct 2026 13:34:29 GMT",
+        "pubdate_iso": "2026-10-06T13:34:29+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "World Bank lifts 2026 East Asia growth forecast to 4.5% amid AI boom but warns of capex risks",
+        "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNU2dKZkpmSUNRQmpISFZIZi1kNFJ6Z3RjR0xqamNjLURudW9mT19NTWJzZllEQUJHckgtQ1dmbHRHMFdfSFY4MEhOenJXV2RweUJUdjNxUVMwWl9nVW1kb19tRjFsNmxxWlAyTERHbTlWM3pXYTR0cVVfdjlWN3RxczhhUnV5QXVGTFpFTmY0Z2FBZmZJamxzck1XN3ZfeXVLNGFtUkVMa1dQOS1IMlR2V0hFcVdiUWpjem4xeV9MTE9yQmNnRDJnanlPZXRJdFNUZHZvTjJheFVvWTEwRTF4ZWk4VzJ6NFZuclE?oc=5",
+        "source": "TradingView",
+        "pubdate": "Tue, 06 Oct 2026 06:42:00 GMT",
+        "pubdate_iso": "2026-10-06T06:42:00+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🟢",
+          "razonamiento": "Boom de IA: impulso para tech"
+        }
+      }
+    ]
   },
   "stats": {
-    "total_noticias": 0,
+    "total_noticias": 30,
     "por_categoria": {
-      "fed_tasas": 0,
-      "mercado": 0,
-      "tech_nasdaq": 0,
-      "economia": 0,
-      "earnings": 0,
-      "sentimiento": 0
+      "fed_tasas": 5,
+      "mercado": 5,
+      "tech_nasdaq": 5,
+      "economia": 5,
+      "earnings": 5,
+      "sentimiento": 5
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "neutral",
-    "score_neto": 0,
-    "n_positivas": 0,
-    "n_negativas": 0,
-    "n_neutrales": 0,
-    "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
+    "sentimiento": "alcista",
+    "score_neto": 7,
+    "n_positivas": 5,
+    "n_negativas": 1,
+    "n_neutrales": 24,
+    "narrativa": "El feed muestra 5 senales positivas y 1 negativas (neto +7). Factores dominantes: Selloff: presion vendedora; Rally accionario.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "NEUTRAL - sin sesgo dominante"
+    "veredicto": "ALCISTA a corto plazo"
   }
 }
