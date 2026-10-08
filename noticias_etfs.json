@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-10-08T17:26:58.103402+00:00",
+  "updated_at_utc": "2026-10-08T19:26:55.944248+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "fed_tasas": {
@@ -262,6 +262,20 @@
     ],
     "earnings": [
       {
+        "title": "COIN Stock Slides After Earnings Miss — Coinbase CEO Says The Crypto Exchange Is Becoming More Than A Bitcoin Bet",
+        "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQSGZQNDFMNm1FNHUtM1FTOUZCRWZFLVlQdzRGeThKd2hUaHo1ZGtpRm9TX1NycHNtQ3VadnBFU2tpcDlrTTZJR2tMX0VSUklUU2hHeElMVFFQSzVQOEFEZXV3Q2w2TndhVkkyaFlLeTJuTVBSdmhuZk1US1RrdGVVRlh0SGFKZWs1dWdsZUNCeFJrcGRPbE9VSENnMXNhcWRvT0prU1RnY3BKeG1FX0pfdUtrb3owSnhxY0o3RUtQQng3dUlNMXBPZHcxbjdrOXF3eE1oNHlyMXl5THRyc3pPbHkyWEU5TkVTZl9CWF9wYzlidEQ4VmxTcmcySG84S2lfOGNv?oc=5",
+        "source": "Stocktwits",
+        "pubdate": "Thu, 08 Oct 2026 10:36:46 GMT",
+        "pubdate_iso": "2026-10-08T10:36:46+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Earnings bajo lo esperado"
+        }
+      },
+      {
         "title": "PENG Stock Rallies To Over 2-Month High After Wall Street Hikes Price Targets On Q4 Beat, Guidance Raise",
         "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNMXhjaERRZ1E1Wl8yVVMwT3ZQSFVrd0x4bUJ3UUtHeEFwZkRNUlBKRDdSX3plcXl5Y1ZQcW1FS2ZfQXkyd01udGJXRWZ1UXJBYUdOTFFjVVdVbHBiUURHT1E5bkw5R1ZMNmJGZVhneGNmNVNMcllzbDdURnFCcE9HZUNOLWJ6YnpMLU1XdHRseXdoX2VTTkFiU0p1bnRGU01DWFNaamplc1FYNHlnYmFkYmVBZW5aM21mX2U5dldVdVhsc21KQVVoWERyQVQ0QXJ1NUZpcWwxcVduUnRacmZzTk4zeTNpYV9YRDhHdDl4MHY5NWdfOHc?oc=5",
         "source": "TradingView",
@@ -309,20 +323,6 @@
         "source": "TradingView",
         "pubdate": "Tue, 06 Oct 2026 19:55:45 GMT",
         "pubdate_iso": "2026-10-06T19:55:45+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Hudson Technologies (HDSN) Stock Trades Up, Here Is Why",
-        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTHIyVTFMVThkR0s0bEFrNnUzMVlsM1IyMTVjd0x2a3NkVDRLVTRsZ2V3WWRJM29ySGNTVHNaaVFvZkU2STF2dWFjaXp4b2NpY0Z0eFhHYXNKNTNmUmF4X0JnZm1UMHFIYjB3SGtTWHBBTmt1am9TZV9iTEpDeFZrZFBDS1k1UEFPS1dYc25YLWlfM0VsbGtYSzIwSGdBbFIxeVYxTmx2a1dwcHo0VS0yQVRB?oc=5",
-        "source": "TradingView",
-        "pubdate": "Tue, 06 Oct 2026 19:50:37 GMT",
-        "pubdate_iso": "2026-10-06T19:50:37+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -417,13 +417,13 @@
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "alcista",
-    "score_neto": 4,
+    "sentimiento": "levemente alcista",
+    "score_neto": 2,
     "n_positivas": 4,
-    "n_negativas": 2,
-    "n_neutrales": 20,
-    "narrativa": "El feed muestra 4 senales positivas y 2 negativas (neto +4). Factores dominantes: Fed hawkish: rate hike presiona equities; Fed dovish: rate cut impulsa acciones.",
+    "n_negativas": 3,
+    "n_neutrales": 19,
+    "narrativa": "El feed muestra 4 senales positivas y 3 negativas (neto +2). Factores dominantes: Fed hawkish: rate hike presiona equities; Fed dovish: rate cut impulsa acciones.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "ALCISTA a corto plazo"
+    "veredicto": "Levemente ALCISTA"
   }
 }
