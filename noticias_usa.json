@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-10-13T15:35:16.522536+00:00",
+  "updated_at_utc": "2026-10-13T16:03:48.053024+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -22,55 +22,26 @@
   "noticias_por_categoria": {
     "tesla": [],
     "nvidia": [],
-    "ia_semis": [
-      {
-        "title": "Microsoft to launch Maia 300 AI chip in 2027",
-        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNbDJBVHItd091V25UVVR0OGp5MWE1OXgzTUlTZVVjNzdjdjZmQlc1clZRMlFZb1JIVEs5c213aURjNTluNXhBai1KbzhjbnZBeW9LQXRnRVRMRllkeDRIT2dPY2t2OFZjWThqejFfNUJVV0lRVFJyVl81Vk9TenV2T0V3ampIeUozSHhmMHlVclJOQTMydVk2Mk8ySlp4ZXdzWU9vcFpzZFltdw?oc=5",
-        "source": "TradingView",
-        "pubdate": "Mon, 12 Oct 2026 13:29:31 GMT",
-        "pubdate_iso": "2026-10-12T13:29:31+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Nvidia Nears $6 Trillion Market Cap as Relentless AI Chip Demand Powers Record Growth",
-        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTGtZU2dlRUI1Rzd1SkxsXzJqNmtrQ3NvRkVRdXFJTG9rcTVUTzFrdGJJLTdCTHFZb001UE1DNkppSi1DTlBOQ3VCOEdIemdVd25aZU5pWjA3Zm5qWHIyVXBnX05rcnZObEtNVTBJWUZHVFZ6YmF1WHJRU25EcW1xMTZkMTM?oc=5",
-        "source": "TIKR.com",
-        "pubdate": "Mon, 12 Oct 2026 13:07:11 GMT",
-        "pubdate_iso": "2026-10-12T13:07:11+00:00",
-        "impacto": {
-          "direccion": "positivo",
-          "intensidad": 2,
-          "intensidad_label": "moderado",
-          "emoji": "🟢",
-          "razonamiento": "Demanda de chips: soporte tech"
-        }
-      }
-    ],
+    "ia_semis": [],
     "macro_tech": []
   },
   "stats": {
-    "total_noticias": 2,
+    "total_noticias": 0,
     "por_categoria": {
       "tesla": 0,
       "nvidia": 0,
-      "ia_semis": 2,
+      "ia_semis": 0,
       "macro_tech": 0
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "levemente alcista",
-    "score_neto": 2,
-    "n_positivas": 1,
+    "sentimiento": "neutral",
+    "score_neto": 0,
+    "n_positivas": 0,
     "n_negativas": 0,
-    "n_neutrales": 1,
-    "narrativa": "El feed muestra 1 senales positivas y 0 negativas (neto +2). Factores dominantes: Demanda de chips: soporte tech.",
+    "n_neutrales": 0,
+    "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "Levemente ALCISTA"
+    "veredicto": "NEUTRAL - sin sesgo dominante"
   }
 }
