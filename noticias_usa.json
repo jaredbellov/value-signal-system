@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-10-13T15:03:29.562909+00:00",
+  "updated_at_utc": "2026-10-13T15:35:16.522536+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -23,20 +23,6 @@
     "tesla": [],
     "nvidia": [],
     "ia_semis": [
-      {
-        "title": "U.S. Export Restrictions Drive Nvidia China AI Chip Market Share Down to 34%",
-        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNeHJBRjlVWFpsWG43c2xZWVNOdlhfbElMRDJNMWhtNFNKV0pzZkpXanVwUW9iajdzUWRVUGZqeGxFNVJMU0NWWmZLeThnN0lDZy12dzI2SHl5X0IzRW9nQy1ISGlDZVcwcGM2WUVPQy0xNTNlanJVem5jc3BKMWZSeVhLOGxQZ2Z1azhxTlpWUDAzYVlPaHVjWFBCbDc?oc=5",
-        "source": "TIKR.com",
-        "pubdate": "Tue, 13 Oct 2026 12:58:26 GMT",
-        "pubdate_iso": "2026-10-13T12:58:26+00:00",
-        "impacto": {
-          "direccion": "negativo",
-          "intensidad": 2,
-          "intensidad_label": "moderado",
-          "emoji": "🔴",
-          "razonamiento": "Restricciones de exportacion: riesgo China"
-        }
-      },
       {
         "title": "Microsoft to launch Maia 300 AI chip in 2027",
         "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNbDJBVHItd091V25UVVR0OGp5MWE1OXgzTUlTZVVjNzdjdjZmQlc1clZRMlFZb1JIVEs5c213aURjNTluNXhBai1KbzhjbnZBeW9LQXRnRVRMRllkeDRIT2dPY2t2OFZjWThqejFfNUJVV0lRVFJyVl81Vk9TenV2T0V3ampIeUozSHhmMHlVclJOQTMydVk2Mk8ySlp4ZXdzWU9vcFpzZFltdw?oc=5",
@@ -66,40 +52,25 @@
         }
       }
     ],
-    "macro_tech": [
-      {
-        "title": "Peter Schiff 'Suprised' by Bitcoin’s Resilience but Expects New Lows",
-        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQbDVWRWN3Tm16eWlYanlla29TbFlyVGE3WU81Z19ZVDRzNnNJdnFTVkFDUDcwanZCb3FqQnlvSDhuTlJOYXROSGdiaWNaY0RxMGVvMnZNQUVkQTBaYkhydEIwbG1IcTNLcWQ3X3JkaGhCdU05YlplcHAzdl94aGtWOHdIa0dKOElNQzZBd1pNU1BJeENmNkpJRDB2VDg5ZEFEb0tmUWk1bVBKVXJCTlJCbnFiWHdmdGJBb2V1dm1jTnRLZw?oc=5",
-        "source": "TradingView",
-        "pubdate": "Mon, 12 Oct 2026 12:15:27 GMT",
-        "pubdate_iso": "2026-10-12T12:15:27+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      }
-    ]
+    "macro_tech": []
   },
   "stats": {
-    "total_noticias": 4,
+    "total_noticias": 2,
     "por_categoria": {
       "tesla": 0,
       "nvidia": 0,
-      "ia_semis": 3,
-      "macro_tech": 1
+      "ia_semis": 2,
+      "macro_tech": 0
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "neutral",
-    "score_neto": 0,
+    "sentimiento": "levemente alcista",
+    "score_neto": 2,
     "n_positivas": 1,
-    "n_negativas": 1,
-    "n_neutrales": 2,
-    "narrativa": "El feed muestra 1 senales positivas y 1 negativas (neto +0). Factores dominantes: Restricciones de exportacion: riesgo China; Demanda de chips: soporte tech.",
+    "n_negativas": 0,
+    "n_neutrales": 1,
+    "narrativa": "El feed muestra 1 senales positivas y 0 negativas (neto +2). Factores dominantes: Demanda de chips: soporte tech.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "NEUTRAL - sin sesgo dominante"
+    "veredicto": "Levemente ALCISTA"
   }
 }
