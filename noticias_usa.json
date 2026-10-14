@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-10-14T19:33:30.144148+00:00",
+  "updated_at_utc": "2026-10-14T20:03:31.940861+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -92,14 +92,13 @@
         }
       }
     ],
-    "nvidia": [],
-    "ia_semis": [
+    "nvidia": [
       {
-        "title": "Deutsche Bank Sees Major Reckoning Ahead for AI Investors",
-        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOTnBhSnBkVUhCSGtJbms5dkhObjRyMWJmdU00bFMxWlZZcUlPemlfdHowNHl4aV84V1dXU1huSTAyVUh6X3dJeDBOTllFcGVNWXEwQ3B1ZWlibzJPSDZsU0NlTU1aRmRULWJ6aFctQWt5Y3F2ekNaeXlZRmtEcy1URkk4OExZaE8teGFtdHg2N25Wblp6akJieml3QnZxQ1FKYWI1djdQQmFMczg1ZEhGRVNlN3piMUk?oc=5",
+        "title": "NVTS Stock Rises Overnight: Navitas Unveils 24 kW Nvidia AI Power Board Targeting 97% Efficiency",
+        "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQYzVVdFZwWV96TjlOQmpsWTBfQldlRXJRV0ljdTE1TmEtWERuOS1pSXgxN002M2p6N2NvY2RCcUlFNXlqYUFJM1NBX0tJdEhRT0pweG5ZSVhmVFpQeGFjcHJ6THJXMm1oOFRNM1JzdjNIQWhEc0xrOWxETjl1TUFLWWFtanJrWlJXQWpWdjQyX3ZJNS04ZE85TnVtWFRrTXNmWndnc2FKSmYybWNjQlhfYnVpb3l2cUgzVDBMWjg2cW1Fc2FZSTkwaHJrOXZVWll2STY5RzZ6eXVadE1uV1Q0c0V2OVZJRGMxaFE?oc=5",
         "source": "TradingView",
-        "pubdate": "Tue, 13 Oct 2026 18:33:32 GMT",
-        "pubdate_iso": "2026-10-13T18:33:32+00:00",
+        "pubdate": "Tue, 13 Oct 2026 06:38:00 GMT",
+        "pubdate_iso": "2026-10-13T06:38:00+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -107,7 +106,9 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
-      },
+      }
+    ],
+    "ia_semis": [
       {
         "title": "U.S. Export Restrictions Drive Nvidia China AI Chip Market Share Down to 34%",
         "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNeHJBRjlVWFpsWG43c2xZWVNOdlhfbElMRDJNMWhtNFNKV0pzZkpXanVwUW9iajdzUWRVUGZqeGxFNVJMU0NWWmZLeThnN0lDZy12dzI2SHl5X0IzRW9nQy1ISGlDZVcwcGM2WUVPQy0xNTNlanJVem5jc3BKMWZSeVhLOGxQZ2Z1azhxTlpWUDAzYVlPaHVjWFBCbDc?oc=5",
@@ -167,20 +168,6 @@
     ],
     "macro_tech": [
       {
-        "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
-        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQbjI2dkZBZ05wVTVzUng2OEpNc2NWaHZQVElraVFhNk1Ra2xTbmFTOXp4eFlid0FTRXZ1c2RNaV9wOUNiYUNWSW54aW52Vm5IMGxQeFg5bUNUeTJvZE5iS2RFVDVDd2cwSWthLWxXaEl1ZGFNczk5OVhZMEV0bnZleVNCWFBFNFJDdGc1ajQwT2RncEVBTzZJNVRSQVRLSGVJWW1mUUZlVmM?oc=5",
-        "source": "TradingView",
-        "pubdate": "Tue, 13 Oct 2026 05:48:41 GMT",
-        "pubdate_iso": "2026-10-13T05:48:41+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
         "title": "Stock Market Midday, Oct. 12: Dow Edges Higher as Investors Rotate Into Value Stocks",
         "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQbVpxakxybzRJemJyWVdfQmlsYnVJdXYzT2JlM21KNkt0Q2JxQnM3am5FUlgtQ2VzdlFFODhNdDJJdzBWdVVIMGJZRkQxZWdMQmQ5QlF5Y2RpUXJ1RTJzS2xGYmEySHJWLVRtNjdKUkJkQmdCZWZDM3k2YkE2NGdGalJLMGVXWGR1Tkx5WUlrbWdYNks1bGc?oc=5",
         "source": "Yahoo Finance",
@@ -211,12 +198,12 @@
     ]
   },
   "stats": {
-    "total_noticias": 13,
+    "total_noticias": 12,
     "por_categoria": {
       "tesla": 5,
-      "nvidia": 0,
-      "ia_semis": 5,
-      "macro_tech": 3
+      "nvidia": 1,
+      "ia_semis": 4,
+      "macro_tech": 2
     }
   },
   "resumen_ejecutivo": {
@@ -224,7 +211,7 @@
     "score_neto": 0,
     "n_positivas": 1,
     "n_negativas": 1,
-    "n_neutrales": 11,
+    "n_neutrales": 10,
     "narrativa": "El feed muestra 1 senales positivas y 1 negativas (neto +0). Factores dominantes: Restricciones de exportacion: riesgo China; Demanda de chips: soporte tech.",
     "narrativa_fuente": "plantilla",
     "veredicto": "NEUTRAL - sin sesgo dominante"
