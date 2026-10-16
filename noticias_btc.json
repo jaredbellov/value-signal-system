@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-10-16T12:19:33.532976+00:00",
+  "updated_at_utc": "2026-10-16T12:39:40.058350+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "precio": {
@@ -28,32 +28,402 @@
     }
   },
   "noticias_por_categoria": {
-    "precio": [],
-    "etf_flows": [],
-    "regulacion": [],
-    "adopcion": [],
-    "fed_macro": [],
-    "sentimiento_onchain": []
+    "precio": [
+      {
+        "title": "Predicción Bitcoin: la dificultad sube casi un 6 %",
+        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQLUJ4eWRnbkZibEVkQVVKWExpSXFRbUNhRVV6TVk3VWRndzJvT1F0SFd2RS1FSHp0MmVUOVNjbUQ3ZFpKbU5RT0dNN1o1bG9Xa0JEWEN2TGZvc2JGdm9aNTBGblFObWRmdU9BRjduT3luRWlRdHBhNVlJWWM5UWJpUlhyRXRzQQ?oc=5",
+        "source": "CryptoTicker",
+        "pubdate": "Fri, 16 Oct 2026 09:38:07 GMT",
+        "pubdate_iso": "2026-10-16T09:38:07+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Bitcoin en 81.963 dólares y las entradas en los ETF caen a 5 millones",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMlRmcmxFdW5jdmRYLXZ5ZkVTRENkQkUxWERNR0lFTEdiMGllTHNPa3l5YVN2VVc0NWs4UXFfOHhiX1BMcGxneDRRbHREYnMxTWt4WkxQb2JaRHNkeXZPaXVQVWFFTndJbklmakszUXBnWTBiQ3RMWUlpcl9ZLVFvbEln?oc=5",
+        "source": "CryptoTicker",
+        "pubdate": "Fri, 16 Oct 2026 06:30:21 GMT",
+        "pubdate_iso": "2026-10-16T06:30:21+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Bitcoin Rainbow Chart: qué muestran las nueve bandas",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1TWVdfSS13ZDFCcHI1Rm80YzAzOEw4MmVXQWc5UE4xbjl6M3BjS1Y5WlFfNDZCVFNYQXJad3RVT2xYYVlZdzQ0YVlVc1NwMnV4Q1lBVWdzN2Q1by1CWFctT3ZZbWpKNWUweTdv?oc=5",
+        "source": "CryptoTicker",
+        "pubdate": "Fri, 16 Oct 2026 00:45:31 GMT",
+        "pubdate_iso": "2026-10-16T00:45:31+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Bitcoin hoy: BTC frena la caída y recupera terreno",
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQWXFrMVpRSzR1a3ZQSVZCV05XMVk0Qmw3ZDFZY2FGQmhnQUpPSHpoZHF4WTRoT3B1UWxYMUxFSU84YnJDbTEzUGQxdmJzMFQxM3VWS3Byd1lCQXVzUFhoUmx4b3BaSTFoMlRYV2luMzhCUG92czM2X2RJWXNSNUZOZ3NTYWw5OTY4VGlBbDFaU010YzZhcVE?oc=5",
+        "source": "CriptoTendencia",
+        "pubdate": "Thu, 15 Oct 2026 20:53:27 GMT",
+        "pubdate_iso": "2026-10-15T20:53:27+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Aave: Babylon quiere bitcoin nativo como garantía",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE55eTRjRlc2eHQwUHNkRlRQaHZlM2U0c05Qd3IycDlIaDAzU29ia2lxSGtTYVJuczZSYWFQTFhfTjlaWWF4cGJFajEtLXZPdUdnOEpWT1lRN1dzSGV5WklwYzlhUGl1bE56?oc=5",
+        "source": "CryptoTicker",
+        "pubdate": "Thu, 15 Oct 2026 18:53:22 GMT",
+        "pubdate_iso": "2026-10-15T18:53:22+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "etf_flows": [
+      {
+        "title": "Key facts: CRYPTO:BTCUSD ETF outflows; -2.5% to $81328; whales 3.03M BTC",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQWXo4eEdzZ0h0SDdrZkhuZUJIcktma3doT0UwZlZ1b243Vm5tTWROZ2FkR2FtWXdldFFHMDhoZzNUcXhHUmFJZlgtWGpYbXluN0tvdjVJN0pmMUg5X0R1WHAxUDY0dzlWWlpjWENXZWlxc21QbDJjYTIzRHhEVk13UkVucU5Cd1pORW5XTm5PZkZQb2MzeExXRzVuczRvYWZoajlKSmdqWllJOEp1MFBRVzBFZGgzXzdLNnlsV1I2aXVpRG14NWc?oc=5",
+        "source": "TradingView",
+        "pubdate": "Thu, 15 Oct 2026 12:00:00 GMT",
+        "pubdate_iso": "2026-10-15T12:00:00+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 3,
+          "intensidad_label": "fuerte",
+          "emoji": "🔴🔴",
+          "razonamiento": "Salidas de ETF: muy negativo institucional"
+        }
+      },
+      {
+        "title": "BTC/USD: Bitcoin Falls Toward $80,000 as Inflation Print Scares Risk Traders",
+        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNN0tMNVlWRmsyNm5WMk9laUUzOXFmOU1Jc053YVF6Uk14NUVGSGhEcEdUTjkzYW8zc2tqSkVSbU5nSWF3bk5XTWtZNHpNbm9DNFI3YU9tREw2TGFacFZrNGVKWS1zQ0RaNlJ5bFlScjdoai1wUnVWQmdWS3NqZDNoVUdNSDgtcTBnRjZ3ckxyc00zSTJDMThFU1lkaDQwTkc2dVR0YXBaS1d2dUZKN0kyWDJ6N2NjY0k0ZGZ2U2p1a3E4ek4zajV3bXRUTG8zcU5p?oc=5",
+        "source": "TradingView",
+        "pubdate": "Thu, 15 Oct 2026 07:40:57 GMT",
+        "pubdate_iso": "2026-10-15T07:40:57+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "BTC a la baja"
+        }
+      },
+      {
+        "title": "Key facts: BTCUSD: 250 BTC Buy; Q3 42.3% Rally; 4,500 BTC Moved",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUmJhNXpCM1J4Q2NBYkZVemhFMzAtZWgtakJIc2tjMnozZVE2b0ZoWjhpN085TmxRUU5WUURCc2hoaHdwUFZrVGtkeTFQcGFuaFNhckk4bnBzSnh5Sm5sRlRfTWdLbHRyUnRnQzJqT1F3eUdHVTB6Z2RBYlBzaWRNS0RMdWJndXpJMEIyNm1CV2lwU290TUM2Y1BuMjViSF9zZTJXOVJ1bDE2SHZXX1FGUTBMbVNSTDl5N1Rr?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 14 Oct 2026 12:00:00 GMT",
+        "pubdate_iso": "2026-10-14T12:00:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Resultados Q3 de BlackRock: IBIT, ETHA y 110.000 millones en cripto",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPN2ZKNVRlWXZ6YlYtN2xzSXZJSXgzQ3lXUDRNRUd0TUtiamFrOURNQWxtSHhWV21yS2dhZUpIQXlWWjBfSlNDOXc3ZFBBOTdGdk5JTk9ZbExzdzNYYm05dmZjdTdNbzBtV21kZHNrZW4tTy13S0Rnb0x5ME9faVN3UU13?oc=5",
+        "source": "FinanceFeeds",
+        "pubdate": "Wed, 14 Oct 2026 08:50:25 GMT",
+        "pubdate_iso": "2026-10-14T08:50:25+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Fidelity ETF clients buy $103M worth of Bitcoin in a single day",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPaC03QURzX081c21nZm15cWhrMHRYTWhfc1ptMTBUYldUcHRLRWZSX0NyUldZdEtHVFFQdkFvejlGaExaNkV2bDNKUGMzek9scHpSUFg1dW1mLTJudEE1NzdCMUk4NkwwN0VoQXBsc29HM0FBeHg3dHE2VHFNdm4wdTV1R0F5X2JGalZIZWJGWnF3MmlQR1NYY2tYbDdfUGw5d0VHSmJfSFhfVlp1MmE4eWdwcUFNa3BLT1VSVjFkeFdGT201?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 14 Oct 2026 03:30:00 GMT",
+        "pubdate_iso": "2026-10-14T03:30:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "regulacion": [
+      {
+        "title": "Rusia endurece las reglas cripto: qué cambiará para quienes operan con Bitcoin y USDT",
+        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOVi1uR1hSbEMxMlEzQmRDbzhLUDdqZ0k0RHZ0djc2eUlxdkdfZmg0NTUzMmp6V29BbU5VNTlaWXdqQ1ZVck1oc1Rjb1BaMVZqLXpCcmE0WXYwT0hsWjdpT2FNWTBieUFFRXlCNWU4ZnpfQWVfOEFIMTJvYW82WHJwOFlZVDNUQXYtNy0yVzF3ajROV1JzV25rcnRLaGRsSnJnc25qTjM2d2hoUlhFZkhxOFh3RXpVX1RZZzA1NnNrTXBneTRKZE13OWVVU1N2Y3NXM2c?oc=5",
+        "source": "Cripto247",
+        "pubdate": "Fri, 16 Oct 2026 08:30:00 GMT",
+        "pubdate_iso": "2026-10-16T08:30:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "La SEC de EE. UU. aprueba las opciones binarias de la CBOE vinculadas a Coinbase, Robinhood y MARA",
+        "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNR2sxdnVvR2x2cTJURm9HVmxaSnEwbXFqbkJNUDRYQUJvaU9Pc3pKUHJ3bzRyTnVnLXRvNmdUQWpUSEhxN2xiNGlObHJhd0pHeXZUVktwWXM5RlZwSEFBa0pMLWZ0eGN0ZkJjU2k5OEp4TEl2VHVqX2x1dGxNS0ZvY3VfemhobGhrelA4dHpkWXNLN1laVkZyd1dQaDMzRWtvS19CTTBkVlZnbjBWSTNUWWZpTWFKYU54UDlSNVRkdFZSeXNzYlctcjhaY0RBc2c0THJ2N3F6Tkg1NlVpckRR0gHfAUFVX3lxTE1HazF2dW9HbHZxMlRGb0dWbFpKcTBtcWpuQk1QNFhBQm9pT09zekpQcndvNHJOdWctdG82Z1RBalRISHE3bGI0aU5scmF3Skd5dlRWS3BZczlGVnBIQUFrSkwtZnR4Y3RmQmNTaTk4SnhMSXZUdWpfbHV0bE1LRm9jdV96aGhsaGt6UDh0emRZc0s3WVpWRnJ3V1BoMzNFa29LX0JNMGRWVmduMFZJM1RZZmlNYUphTnhQOVI1VGR0VlJ5c3NiVy1yOFpjREFzZzRMcnY3cXpOSDU2VWlyRFE?oc=5",
+        "source": "The Coin Republic",
+        "pubdate": "Fri, 16 Oct 2026 04:30:00 GMT",
+        "pubdate_iso": "2026-10-16T04:30:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Criptomonedas en Rusia: el Banco Central confirma que el comercio P2P quedará prohibido desde julio de 2027",
+        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5ONFBlekxKZTZrYWNqVHRwMEUzNkxQWHoxbVJ1bnV2RlVMbFcyc0hCR0c3cGFnUkl4ZU5EODlhRnZrTnFqTV82bWtNa0dFTlExR2UwbFpVak0tWDBnU3BIam5wT0NjMmhrRU5Va0pHdzdZdFFPRmozTFh4SQ?oc=5",
+        "source": "Criptotendencias",
+        "pubdate": "Thu, 15 Oct 2026 22:01:39 GMT",
+        "pubdate_iso": "2026-10-15T22:01:39+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Criptomonedas en Argentina: las plataformas operarán con reglas reordenadas desde noviembre",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVWhUSm9zVXVKV0Y2X3dOWmZWVS1HSjB6cDV6Ukk2WGdad0h2b1ZXM0JkM3ZvdmYzS0ZuQ2hZMDBFby1oWE5OWlk0S0o3MHBjZlZsUUdYSXk4dzQwR2dqQW5iSjk1bEFrNk51SG1QUUpmNTZJblZSRFFUbkhEMVAxUUpBRjI?oc=5",
+        "source": "Criptotendencias",
+        "pubdate": "Thu, 15 Oct 2026 21:01:46 GMT",
+        "pubdate_iso": "2026-10-15T21:01:46+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Reclamaciones cripto: la CNMV abre a audiencia pública la norma para resolver disputas con proveedores",
+        "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBvc2RIQUxTZXNZZEExYUlndVhSdVFUajJtV0RPb2ljX2dveVVzcXJ1bzBrQjVRWngwNGVDNElaMG1TZTVVcVVneEpycWtlcGV4OGU1ckh3S2oyZWJISnpuUGdyaHpoQkZQSnVJWEoyN3gxdk1sNFp6aVNB?oc=5",
+        "source": "Criptotendencias",
+        "pubdate": "Thu, 15 Oct 2026 20:01:36 GMT",
+        "pubdate_iso": "2026-10-15T20:01:36+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "adopcion": [
+      {
+        "title": "Strategy podría ser eliminada de los principales índices bursátiles globales",
+        "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9TcEdyM28wYS1XQWxaUVY2YUtubEpLdlFOZExzS1ZhN1RwUkQ5SlNZRHZRZ1pXZWY1ODNJMXpPc29WRjk2UElKS041dk5hT1hrYUFpNjhhcTVnYmJod1V1b2FoaEtId0xic1NCN3prSTlRbi0xMUw4ajB3?oc=5",
+        "source": "BeInCrypto",
+        "pubdate": "Fri, 16 Oct 2026 07:51:00 GMT",
+        "pubdate_iso": "2026-10-16T07:51:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "MicroStrategy (Strategy) gasta $16 mil millones para respaldar el precio de STRC ante la tensión de liquidez",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbEcwdzJHa3hfd3J2Z196VTNoVjZfcXRodWRaQVJia1hHRnF3N2VZNzdlejZWNHNYSEhGcUtBYVJPcDgxbjREN1dmUEJkR0M2QmRVaXlBZERwNjFOOHpUQjMzWUpvVGcyajhpZ0RDV2xnYldjaXJiTVVCbUdSbWctUkwwcFU3Y18xcl9BUDRrckxRekRIWEZYbFZ1UFBha0ZDVFpDYXpkeUNKbTNneHpjSzlKMnpFT2FfeC1WNTl3?oc=5",
+        "source": "KuCoin",
+        "pubdate": "Fri, 16 Oct 2026 05:45:32 GMT",
+        "pubdate_iso": "2026-10-16T05:45:32+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Strategy's Michael Saylor shrugs off potential MSCI index removal",
+        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNeDdWcmdXX29mUW12eVV1SHNMSkMxLVVHc2VBQ0prR0NLQk1zTXVuVURabHFTYkZvU1pBdGRjLWhZa3ZGUGtXV1hwc19heU9EUVZsSjZ0VFIwdXI2Sko0WEhrTUpfYklCZ2VDNlMyUTI0R1lDbklRNlN3dHJVVGdUVFR0ZlpFS0ZZSVJzMHhCNWd4UkVubndlUVZQbzNwd05SVGF1WEEyUkZvSElQXzdPTjYtajB3TmZESGlmNXFoR2xHM1FQX2gwUQ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 14 Oct 2026 16:40:51 GMT",
+        "pubdate_iso": "2026-10-14T16:40:51+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Michael Saylor Expects Strategy to Crank Up Bitcoin Purchases as ‘Bull Market’ Takes Shape — Sees BTC Topping $100,000 This Cycle",
+        "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOZHJQQnNfLXVZWTk4dERXaXpMTktBNEUyendkek9ndDlFZUE3dlZQNVJxdWJhUGt5bktjR3hiaTlNUS1hcWhsbTRLZXZSSE1pUkJKLUxBTUhibFctV0hWakgwU2xTUnFEcmpZc0tEaXE4TGdSNjhpM2ZWWEVXZ005cGhJdy1leWJYVEZJYllwNGFCTzZPUzFwa2ZfdUdpN0w4MHRCSllhS3JLY2w2eEVhdXQyLXVyOVBTQ1drNUJadVlOcEtPMW14eUY0MXk5UDdpOWhONDg0Nk5BT0poTnhTNjA2c0ZRUU1TQWhZeGp3V0JVV1lFRXFjbHNya3phaEFDdjBMOExUbWJaampSaGFJ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 14 Oct 2026 10:53:54 GMT",
+        "pubdate_iso": "2026-10-14T10:53:54+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "El modelo de Strategy (MSTR) para comprar Bitcoin, cuestionado por el alza de los costes de STRC",
+        "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNT0FkSmtINXBQYk95SThaZGtJZGJET1k5MGFUR2d3cU5mZnlnTWE3OHc1eDJqUnF0LUxxa29JTDBOWkFYZnByNU5EVllpWUIxakNUY3JyTUlZU0c4T0FiX1laWHVGcmJFSXdDalF6cmRveGE3Q0RzR2E5d1c2Si1UbXVEenF0THk5VWFvd1ZJekZGUVZEOVowMzhwaTVQcHVJakYyR1RlY2VXbUNEWWRiYXZFbWV1dTlnMHVsbU9zajQ4cE01UjdVdmtpdWhPMzdGVkF3Y3lQTW00dmxLSXJyRFJBQ0NMQml3TmxtaFAzZGdVVjlSY1FhZ2RmTkdaSlhNc1Zz?oc=5",
+        "source": "FXStreet",
+        "pubdate": "Wed, 14 Oct 2026 00:30:37 GMT",
+        "pubdate_iso": "2026-10-14T00:30:37+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "fed_macro": [
+      {
+        "title": "Noticias de CNBC TV18 en TradingView, de fecha 2026-10-16 — cnbctv:9541517b9094b:0",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE14NFh6dEYxZWJaT19Ic2dqM3BkaVo1ZkQ3QzVSOUtZc3FjQ2tpdzk5RTc5MktUVXc5YS11U1BvQ1ZWWFkwU25HSDBkVUlmTGVETkh1YUx5RGlfV1pKbU9yRUhsTTRDQQ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Fri, 16 Oct 2026 06:43:00 GMT",
+        "pubdate_iso": "2026-10-16T06:43:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Bitcoin Price Forecast: BTC slips below $81,000 amid inflation fears, ETF outflows",
+        "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOMjBWTFZhQUhNS2E4ZF9ySmhhNFlpTmZSSE5tb0hPTVg5UHVLWUVXZ3RHSXdDVW1wbVRLTDhxSWdVdUJoX1ctLW1ScG1mdE1jdk1aOVFGRW0wMW4tVXUycWRZWlNpcWJXT3VBc2duUG5MdXprVFdBWU9QNURqaEhUeGhCcnNXRmdrT2stbjJkaUd0b2hLV3FFUTk5MV9PWHJaVG1xdTI5YmNqZnR3MTgxN2V2bUpxNF93T2xpUW55VDNFaE5Ec0NiWFB3MkFEYWlRenlrNjI3NzdGSkd6cXc?oc=5",
+        "source": "tmgm.com",
+        "pubdate": "Thu, 15 Oct 2026 18:59:41 GMT",
+        "pubdate_iso": "2026-10-15T18:59:41+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 3,
+          "intensidad_label": "fuerte",
+          "emoji": "🔴🔴",
+          "razonamiento": "Salidas de ETF: muy negativo institucional"
+        }
+      },
+      {
+        "title": "Bitcoin ETFs Bleed $262M as BTC Sinks Below $81K: What’s Next?",
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxONlVLM1EzMTZPc0NSbjBRZlZJdEZmMnlYSFVmXzJVV0dmWFNtWWRzWFdiU0ppR0lUVGVfd0I4RlNSMTh3MG5uZFRqdkk4bFNxY2FGMHZGWENkaVRzVUdLeHB6MHp3bEhTRlJILUx3ZEhoaFhYQmVBS0hiZWtOa3pKdFRNYUFMLUhvUTFjTmFOTVA3dFNFcmhzM19VX2R0MnM?oc=5",
+        "source": "CryptoRank",
+        "pubdate": "Thu, 15 Oct 2026 16:28:30 GMT",
+        "pubdate_iso": "2026-10-15T16:28:30+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "XRP plunges below $1.30 as $889 million crypto wipeout puts $1.25 in play",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNTFdfcTRaMnRpNThRREJZY3RCaEhZRnRKNGxVMWp5dnRDaGtMWXdpTXN3Z3FuZnFfc0dzd1RNMEV6dDVmU1E1ZTFzQ0JEQ1REQXh4OS0tWFNBRHpOb1pCTi15aV91SVAtQ3RhOHFCdE1PaV9Ldkh3MUJqVnZWb1hSZmJNcUZMYmhjR3VRTlNseGJUNUE3UHZYeVdUVnJCaTVvLU9CZ3REOGVEQjJmOFZhekxjZm02LUlfSVg1UTNaYThoMGw2?oc=5",
+        "source": "TradingView",
+        "pubdate": "Thu, 15 Oct 2026 11:11:47 GMT",
+        "pubdate_iso": "2026-10-15T11:11:47+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Will Bitcoin Price Rebound to $85K or Drop Below $80K Next?",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQUzNybWtZRG1UNUNjOHZJUGZpWkMwbmJ6NVlBUlJYQXctUlVVelNfcHRmeDVhdk54RWVubmZIbFNsR3cyV1huNWpvSEE1Vk5sNkdOdTF6WHM3TXk4dGgyWm5lVVdjazZsY0l6NHRuVjFqRmQwSURrYlJZQ1hwQTVnT2tWZTYyUHR1SkNZaEdKRnhkUHE0QVp5Y1ZMSkhFUFo0R3ZwTWhDeHE5enhNRHFPc0w4TzJCQQ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Thu, 15 Oct 2026 10:04:39 GMT",
+        "pubdate_iso": "2026-10-15T10:04:39+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "sentimiento_onchain": [
+      {
+        "title": "Fear and Greed Index at 55 or higher on October 16?",
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQVFdRc1VrNWJfcXdZcGEyNzJkRVBQYTZiUWVVU2tURkptR2lacHR1eWF5elJBeGctYnRrNWsyUVVnTG9Mb1hqYVJqRG9UN3lGaFZfQUNLWGlaVVl1UVU5OFIxamw0TC1Kb0ZyNDdlZy1PRm9jdnllSFZLNE1hNnVZYXFQYXJWVDI5ZUlseXFoYlVLUQ?oc=5",
+        "source": "Decrypt",
+        "pubdate": "Thu, 15 Oct 2026 19:17:32 GMT",
+        "pubdate_iso": "2026-10-15T19:17:32+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ]
   },
   "stats": {
-    "total_noticias": 0,
+    "total_noticias": 26,
     "por_categoria": {
-      "precio": 0,
-      "etf_flows": 0,
-      "regulacion": 0,
-      "adopcion": 0,
-      "fed_macro": 0,
-      "sentimiento_onchain": 0
+      "precio": 5,
+      "etf_flows": 5,
+      "regulacion": 5,
+      "adopcion": 5,
+      "fed_macro": 5,
+      "sentimiento_onchain": 1
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "neutral",
-    "score_neto": 0,
+    "sentimiento": "bajista",
+    "score_neto": -8,
     "n_positivas": 0,
-    "n_negativas": 0,
-    "n_neutrales": 0,
-    "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
+    "n_negativas": 3,
+    "n_neutrales": 23,
+    "narrativa": "El feed muestra 0 senales positivas y 3 negativas (neto -8). Factores dominantes: Salidas de ETF: muy negativo institucional; Salidas de ETF: muy negativo institucional.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "NEUTRAL - sin sesgo dominante"
+    "veredicto": "BAJISTA a corto plazo"
   }
 }
