@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-10-16T12:19:34.611566+00:00",
+  "updated_at_utc": "2026-10-16T13:34:03.587666+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "bcch_tpm": {
@@ -36,38 +36,381 @@
     }
   },
   "noticias_por_categoria": {
-    "bcch_tpm": [],
-    "ipsa": [],
-    "dolar_cobre": [],
-    "economia_chile": [],
-    "politica_regulacion": [],
-    "pensiones_afp": [],
+    "bcch_tpm": [
+      {
+        "title": "Scotiabank espera que el Banco Central suba la TPM 25 puntos base en diciembre ante riesgos inflacionarios",
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOUlpxTnhWanpyVEY2TkpyX1l3NnlXdGRNLS0wOXF4Rm9VMXZpZUF3TFBTaHJVUFROVlNSNHBoRTROc2c4dHB5T05Pa3BUbVJkMTFRWlJ2RjZhU1J0RTNtTXBnb1BiazRDTlFxWC1KTE5GQ1NNOHZQU0gtcGM2NjlKTDBMMkFqa1M4VGV2amgxeWdpNGdTM0pKLVBqTDFFZ1I3b3AzZ0xSSHlEUEhoQkY3T2s2ZXVBVnM?oc=5",
+        "source": "CNN Chile",
+        "pubdate": "Wed, 14 Oct 2026 17:42:40 GMT",
+        "pubdate_iso": "2026-10-14T17:42:40+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "ipsa": [
+      {
+        "title": "MSCI IPSA: La Bolsa de Santiago este jueves cierra con alza marginal de 0,05%",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOaktxY1RhRVpDZ21OeXl5SV9xR1pONGxHcXZ3REw4S0hmbXBlWFloaEJNOFNOVl9Oa3d6aXlQdHk0ZTIxc2FmZ2JFRlBBWE41S1F0ZmppTXUtbEIxNGR5NEo0bm43Q010ekxKLTJ2YklraXdiQXE5N3FEZW1SNExjazdXeEdXQ0tDNzZYd0ItYmpsSzNlckNoMnZCbmVrZFp2ay1HaWpONG1GRlE2SDBEWTIwd29WSDNm?oc=5",
+        "source": "Diario Estrategia",
+        "pubdate": "Fri, 16 Oct 2026 00:15:01 GMT",
+        "pubdate_iso": "2026-10-16T00:15:01+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "dolar_cobre": [
+      {
+        "title": "Precio del dólar hoy en Chile: cotización de apertura del 16 de octubre",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRE93am56RXg4VWpjLXhmOWlqbEIyT093Sks3Tmk1d0M3cHpxQ2xGeW16QTdPMzRhZVViY2RVYVhZbkpYTG93UHFabnpwZkdTN2ZDUkNpZENWUV96aHI5TXZTWnRQRGpqOTQwcGY4OEI2anB0VEx2NTI1UzBWbl9RdmZTWk0zeUJESnhoS0JjYnF3WDR5NWdGV3dpQ1NlUlBURFNPMGhwb2RacmVUOEgyRk5LMWwwQdIB0AFBVV95cUxOejRqbkFwa3RGaVVvQlVtVHpUbDJPOUYxR1R6bFlnLUdzWXZuN3M2WWlaNjI5VXhta0pTT2txR3hRTnFIZUNZSWIwYXhFMWRnT0NabnlHcm1ZS3pVLTdtNGYzRGU3VVRLSmhNSFlnZy1UbjdneW1CZjZLSEpiV3pyVm5MS3g0azd3cTY4S0hLR3hYNUcwcHJUREMxZVBfaE9tSlNPX1gwVV9TYW1ZNDJaODFyTFFZekR4ZHRrLXRrTzBDbkVFTU5ZeW9RLThadjVT?oc=5",
+        "source": "Infobae",
+        "pubdate": "Fri, 16 Oct 2026 11:38:02 GMT",
+        "pubdate_iso": "2026-10-16T11:38:02+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Cotización del Cobre, hoy u$s 6,6330",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBvVGoyN1oxZUhzcmxPZm82dzdycHRBUHdvckxIS1FIb1hTRXlXRVEtYWlibHNTNVdYS0hwYU8ydnoxdVZFLWhRUTVDcG1vcFRzUU5od3dLT3YzWjZGaENmcEd6ZzEtTlJxbTVkbWhR?oc=5",
+        "source": "Editorial RN",
+        "pubdate": "Fri, 16 Oct 2026 11:03:50 GMT",
+        "pubdate_iso": "2026-10-16T11:03:50+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Mineral de hierro cae a mínimos de dos años por debilidad de la demanda china",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOaWEtMkFsYXNwZ0lyN01peTNkT2dKX3RPSU9vNHlVcW5xbzUteWZUajh4eENyNldxck91cmVZUFNWY2pFV1N1T0EzN1RhWHNmaTYyRzBGRTJwM0xqZGw5WFVTVmRFd2owdTB5OVlvWGVOUkl3ZXNtOW5IZlowUVVvNUotb2R0WF94V2hTTmZsRU0xZDd6VzJ2NDg1Y204eFNoT0E?oc=5",
+        "source": "Revista Digital Minera REDIMIN",
+        "pubdate": "Thu, 15 Oct 2026 19:42:36 GMT",
+        "pubdate_iso": "2026-10-15T19:42:36+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Precio del Dólar en Chile hoy: El Peso chileno se estabiliza en medio de datos económicos mixtos de EE.UU.",
+        "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNa1ptSXd0ZmxUS2dRTlZkNjhuYlZ3aHBwb3ZFRXA1Mm1kNHhmSzlhODFZcDI5TllTUTNucHBuZXpFZXlzOFlmN0owcGtWY0hPZk5uVEJGalhfc2lwNFNsb1NBdjd1Umd0dnVvOXhOamcwS0NYRXVqeldEYXV1M2ZGZUVYbVdVZWJGWUk4VS1oekJHMVdlNzJpRFlSZFExWUpIY0NVcVJJX1JoejNXMER0dElIU3dQTmIzT1FWb0pVWGJ5VDhsbnduRmhXOXlGVUlpUHNxdHhNYkhRdHdrTVE?oc=5",
+        "source": "FXStreet",
+        "pubdate": "Thu, 15 Oct 2026 14:17:22 GMT",
+        "pubdate_iso": "2026-10-15T14:17:22+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Tasas de referencia de USDT a CLP en Chile hoy",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE12VU1aOUtWMnE4d3BxWjZYVmtkTURTa25xVHBSMktTMTByOUZjRWtjV3hSYjdfNVBwZEFHY0F4YTV3YzRMWG1BWENTT2dyckZQLVV5WWFVYlhVZw?oc=5",
+        "source": "Binance",
+        "pubdate": "Thu, 15 Oct 2026 13:49:23 GMT",
+        "pubdate_iso": "2026-10-15T13:49:23+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "economia_chile": [
+      {
+        "title": "El plan «Chile Despega» arranca en Magallanes en un contexto de débil crecimiento de la economía chilena",
+        "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOemM1NVZPd1NrZ0xmS3NyVWlUTHpadkFnQ0lONHlfektDVkNWV3dwQjdxT0tYbmJIRE15VURxRi1tdU1WQmVWVE9jS1dWT1JSNzR4dXp6T0owU2lYeElCaExNWVFWYTk3LTQ3OVlwWDhJUUVsNzFTekx2OVZMREhDVmRPTDBLNjR3UkFoMVBsRUpyNzE5QTNaOTVGR3lfOW5mNjhHUXphX2FsYTVaOVdlQzR4QWJFZThsOW9iWTZNQnNjajRwVTNLa0xKUFl6RGlma3BzalhBRkd3c1RBR3R2enJGMA?oc=5",
+        "source": "DUPLOS.CL",
+        "pubdate": "Thu, 15 Oct 2026 15:41:11 GMT",
+        "pubdate_iso": "2026-10-15T15:41:11+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Economía chilena pierde impulso: proyección de crecimiento cae fuertemente",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVTRuSHV0cGF1QzktNXF6d0h0QUV4TzFSbW0yeU1iVGx5OGVUVkxJU28zNi1oamZfWnlXRXdZT1hyVC03OGRWMlR0MmNMM3FKUW5PZW1NUmFMZEpSMkVSZThqSUtYWFNneUFnSXEwZ3R1eDIzQWNDM3ZRdkMzbTIxMl9lcXJaWkItVWlvSnEwZTVLem5Wc1BCYTRoNkFVR3djNUtwMS1sSm42emtUQXBUeHRGS2xFSFYtU0ZpRFIwVHhRZjlGcVE?oc=5",
+        "source": "El Día",
+        "pubdate": "Wed, 14 Oct 2026 22:06:49 GMT",
+        "pubdate_iso": "2026-10-14T22:06:49+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Economistas reducen al 0,2% la proyección de crecimiento económico 2026",
+        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNNjJnZ25hNTVMOWZwcTVmY2tkOTg4S3l4aW1RQkZPOVBkT3Vqb1p4YUFxX1RIUW9wUFI2S3V0SVdTUmM3UWdiT2tBcVVqT25XT01IMGlkSTU0Wi1ZbTdONkJOZUdnYUhxcmxyeGdBbzB1SUNLaWlnQ1NoMXJNeXJmZHUyVi1lUDVIR25jRVpkTW1YWHc1Rlk1MHBxSEpZbjRua3hoWHpEbEZMWTNJZU5LSXVyQS15MzdCNHRTbTUzV01vUWxrZVZ2Q3VlN3hqM3M?oc=5",
+        "source": "El Clarin de Chile",
+        "pubdate": "Wed, 14 Oct 2026 20:07:23 GMT",
+        "pubdate_iso": "2026-10-14T20:07:23+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 1,
+          "intensidad_label": "leve",
+          "emoji": "🟢",
+          "razonamiento": "Crecimiento: soporte macro"
+        }
+      },
+      {
+        "title": "FMI rebaja proyección de crecimiento de Chile a 0,6% para 2026",
+        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPODRORUJuUUIyOEQ2THJyM04wQk1YYTJ0eDdOSFJ2aG5BZk5kZl9vUHV2REktUHJObEZ3VkVJSEtxTDk2b0FNaXc1am1PSDNGbmozbTJ4cVBKS2JRcE14cnlZSWloZEdmTUEtOWx0U0dXVklvcm9yZ3dtQkdJMGEwcXM0M1g3Q0lsWkpZ?oc=5",
+        "source": "laconexion.cl",
+        "pubdate": "Wed, 14 Oct 2026 17:07:45 GMT",
+        "pubdate_iso": "2026-10-14T17:07:45+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Chile estará entre los 20 países de menor crecimiento en el mundo en 2026, pero crecerá sobre el promedio de la región en 2027",
+        "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOdVp6aFhvYWZ1bDVNODBHZFJ6Q3BGdDA2TWg0RTBOQTlzM0d3anlHbnA0WHduWDlqTndjYzVEQ0VUT1VmaUJ2WmJZTWVueEZ6T055Qnh4LXhmUGd0SEF2NFJ4YlNFWHBDVDhQeWEyWG1jRjhtTzhKS05PTnNHX0VqTzZGeDN0R2ZFN09OaTZpZFludy1EbnN1RU9KeVhsd1lBcDdHdVN3TlpqLUVJSHZkck4xSEdUcW1VUk5wWFRnNHZ2V3lCejFBRllqUzhocFpGMjVWMXdZYkFrZW9xOTN0YzJJcjNGV2ZlVmZMZVlpYUYza1lhMW5JM2xn0gGbAkFVX3lxTE01eXBRdWoyQlNfU3lfOW1LWVlKMFFhb05pRk1sMVhhQ09GZzUtaUtHcUk5NFdnaTgtTVBWMGZCUlZ0ekdJb1Y0eEhqMnltenJPQm5zVzFSSUFGRVc2cEdoWVRmRVd3Z0FLSnpVa2tMMDJFUDdHNUczVmIzYmV6U1BIdVlYXzlQQ3hUMnJKTkk2b3V1X0pBU1pJdEw0T2tkUTRaaTdpZFdZTDJvdGFzU3A0UXoteEVobkZjOEZGOXZPZzJ6dmMtaWFDcXBLUHFENS0zdG0zYXYyaDN0Qll6Z0VLaU5fNXdEa3kxTXFNU21JUlN3TzItTnkteTJFQkxxc0J5WlJZcm02TXgybllENk5kcm5pVTg4ckgybEk?oc=5",
+        "source": "La Tercera",
+        "pubdate": "Wed, 14 Oct 2026 14:50:00 GMT",
+        "pubdate_iso": "2026-10-14T14:50:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "politica_regulacion": [
+      {
+        "title": "El Congreso de Chile presiona para blindar la ruta entre Punta Arenas y Malvinas y escala la discusión con Argentina",
+        "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQVFkydkttMm9XSlNmSmlNUUdMVU5VZTlvUC1rR3l3Tm1pVkEydWJfSG14LUt3clBtVHFoQjZla01KSXVHRDg4WGRrOVNQTW1HLUltMkVtYm9TN2RJRUhkVFJldl9jQm5CLVppWEhGTS1rMENSYjV5S2V4cjVLNU9EcUVVcWMzOGN3WHdnRk5pSVpPMi1qXzhrWG05SHRpSUNwc25LYVFTQWV2WWRIRVVneFNJdDFvMi1FWXVRXzJQdXNkYnd0ZFhWdTl3RVZUbkR6MFlmRDB3UmF6VUVzRUJwLQ?oc=5",
+        "source": "Diario Neuquino",
+        "pubdate": "Wed, 14 Oct 2026 08:34:54 GMT",
+        "pubdate_iso": "2026-10-14T08:34:54+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "KPMG y SOFOFA",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1USDU4MXhhWjJzQUMtc240c3Q1OE5zZGd3OFktQjVCSE93LXBhS1NBX0dWbWpGQmJmVUVTRVpSa2FUT0psMFI3dnNQMlJnQTFjVE96MlQ4RVRjSUk0UWpjX1J4N2ROeDg?oc=5",
+        "source": "KPMG International",
+        "pubdate": "Wed, 14 Oct 2026 00:21:56 GMT",
+        "pubdate_iso": "2026-10-14T00:21:56+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "pensiones_afp": [
+      {
+        "title": "Pablo Barberis y retiro de fondos de pensiones: \"Es un grave daño para la economía\"",
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQajdqUWQyMThqRW9NUG9uLTczcFZFRUw1YTgxRXdtU0pLTUg4cEp4V3NxX3ByUHplQ3M1VlIxNzEyR0NyeVFUOVNnMlJzZ1VIR2JVQTh1aUJSSTBZRUxZUERzbl9zZWgtY0x6NlZwRjRHdVRWN05IYjYxZFkxU004V21rOVBNbEdNc3ZWQ1NEdkpodGNtYW5WdVVsU0FaVThyTnJzWnV2NTJ3XzdfX1pqR1lORlJacFE?oc=5",
+        "source": "Universidad de Chile",
+        "pubdate": "Thu, 15 Oct 2026 16:54:32 GMT",
+        "pubdate_iso": "2026-10-15T16:54:32+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Retiros AFP: muy negativo para HABITAT/PLANVITAL"
+        }
+      },
+      {
+        "title": "Jiles agita nuevo retiro del 10% y desata rechazo transversal: PDG sale a aclarar propuesta",
+        "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPWFFSY0RVMzczQjZMZktFdzJLcERFRm1tcUs3bzR6V0hubjFyVzZ5YjJXVFFQY05FYmdrc2VDUUk3RVJCTnViUkJ2eDlTc3BjWGpsajVnaUFob1FMVkpJLUpmbkl5TFVzTmJOYnBuM0JCdnVnRktHM0JvQ0g5eWZqby1lR1ZjZ256NTNhVzNJMVIzNTA2cl94Ui1Mb1NwcDZhYVdWblVoMUdQMWxDZDZiVWlXenJWRUQ0em1kb19iNlNydktRbXBiV0RzWUs4aXBhZFZTdFF2SmxlWEtGVHpsY0NoZTRTR0NUSF9JXzBn?oc=5",
+        "source": "BioBioChile",
+        "pubdate": "Thu, 15 Oct 2026 01:14:42 GMT",
+        "pubdate_iso": "2026-10-15T01:14:42+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Nuevo retiro en discusion: riesgo de AUM para AFPs"
+        }
+      },
+      {
+        "title": "Retiros de AFP: Qué propone el PDG tras la debacle por los US$ 45.809 millones que ya salieron del sistema",
+        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNVY2a0F3WFFvNXdjNHZnaTJCcFJYdW5yclhRTHVqcFUwdklneC15TjRBMmtuV1BxdXM5dnJyc0l3M0JlbkpIT0dobTVPZXdZdkM0WVRrWXhvM2wwNzJRUXNKUExNXzZ4THM4MDk4Q0VVdUphNVJZTFRoX1paOTg4VjZ6cU1HYlFpTEg1S0Z4bUg1NDhXV3RBY3ctV1dIWWo2RlBTTEJTY2R6TV8yTV90aTdBaW1qQ3BrSG5YcnhMQlkxZXc?oc=5",
+        "source": "Teletrece",
+        "pubdate": "Wed, 14 Oct 2026 21:15:00 GMT",
+        "pubdate_iso": "2026-10-14T21:15:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "PDG evalúa nuevo retiro de fondos de AFP para cesantes y expertos advierten riesgos para las pensiones",
+        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQM3NfVmNvdTI1MU1zLUZaWUl4cUZmZ0JvdGRsMWxFWmlnRUFOLThNYkNGc1RESU1KRTZUUEhMVGNIeF9aRmxhaTdjRjA2SkNOa25JQUgtZGYySEtfUW9kMk5YbjdsRFhJU3dJeGE0cEUtRTRPZ0YzRE5NWXE1VFRSVEsxSnVjRGl6UDZ3dEo2V1ZLdTBPcGRfNzhLbEVDaGpZWXlvVkVvejdBTmxjY0ZvelVac2taS1c1ckJ0MF9HQnNwOW8?oc=5",
+        "source": "Revista Digital Minera REDIMIN",
+        "pubdate": "Wed, 14 Oct 2026 14:21:43 GMT",
+        "pubdate_iso": "2026-10-14T14:21:43+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 3,
+          "intensidad_label": "fuerte",
+          "emoji": "🔴🔴",
+          "razonamiento": "Retiros AFP: muy negativo para HABITAT/PLANVITAL"
+        }
+      },
+      {
+        "title": "Ministro Rau cuestiona propuesta de retiro de fondos previsionales para cesantes",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNTzBsUXVlMUU5U05VaUlURHFEdDhFbnR2aEZaQS1WakhIcDR1WHl3WFRKT0t5dW5QUmV4M0s1WXN1a1lWbWRjbmgxR2FpQk1oc1l0cDlUSGhDd0wyVGhEQjFGV3J2X294bXV1OUI0M29pa0w5bFNwVE1OOUIxcXM4WE10NDF4SklRQnRhZkgwWmNlQkFEOE00X2dEcEdmTmFTbWd1WGZZaG5sUldPRkVUTkhIY0pHdXNaV3RERG1B?oc=5",
+        "source": "El Dínamo",
+        "pubdate": "Tue, 13 Oct 2026 21:02:07 GMT",
+        "pubdate_iso": "2026-10-13T21:02:07+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Retiros AFP: muy negativo para HABITAT/PLANVITAL"
+        }
+      }
+    ],
     "energia_tarifas": [],
-    "sectores_watchlist": []
+    "sectores_watchlist": [
+      {
+        "title": "Interceptan droga oculta en toallas y cafetera en Zona Franca de Iquique y Quillagua",
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZm15UG9pbWh6S2xENjlQSHNCOE83QjV6b1F4TkV6OUNsWmg1SjNSLVU5ZnY2SnJDQUJfN01IMEVncGNuWWVudmc5LXREcTdydGtCRWoxLU9abFpMSDFXN1lTTlRCM0h0U2RQQ21SbUZUMWFjamx0RDdJTHo1eGp0WHpUWjM3alFhWi1JRENSZDJjZVdZMmhKMThFWmZ4WlE?oc=5",
+        "source": "SoyChile.cl",
+        "pubdate": "Fri, 16 Oct 2026 12:33:45 GMT",
+        "pubdate_iso": "2026-10-16T12:33:45+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Senadora Astudillo Pone En Duda Los Avances Del Gobierno En Seguridad, Socavones Y El Futuro De Zofri",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPU3BRQUlBbFJ4NkNRQUxjak5YaE1STUlBVkJVcUdpd3ZXdXNpTVpzOGdYaGpETzQ2MGlwT01IT05LVVNtNXBlcTgzbjVHcEFDN3hWa25QV3BxMXFpclB5WjZ6bDNRem1QS24ybW0wQ0lnTVBmX1RWQ25JUS1NMWVZaTlXVFhPUFB1NHN6TnVUZjZ1anpWeUxvNWJKemhSTE1JNDRPdjFHbkRVMUNOaERIRVBHeWhGZG1UUElTeERsVmFTMDFxR3c?oc=5",
+        "source": "El Sol de Iquique",
+        "pubdate": "Fri, 16 Oct 2026 11:01:00 GMT",
+        "pubdate_iso": "2026-10-16T11:01:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "ZOFRI participa en lanzamiento de Choose Chile, inicitiva nacional para atraer inversiones y fortalecer el comercio exterior",
+        "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQeTlSZGRETWVYVTJ0VERrbXU5QW1PcTNfd0gtNGdRRldJc2h6WUpTTVNsVGo5bVozTHBWMmhyZTltTURvTE44TU41WjlEbGFBQlpmcW1UazVmVmhDMUJsNHRIeGE4ZWtQc2l2OGpxVHc4VWlaRVZFR2N1Nktha2tWUVlNVWVGVFhiUmE3Wkk3SG9BVFB6RzBrTXFvVUdaazFBbGRpelBpU1B6eUxWX2pkSTBqWWtCUG9yTXZZV1lwNTJlQUZLYmVYdXpaMGU2NkQ4ZGxDMFgxZktPZGFrNXo2ZUhCVFBNaXc5VmkxTGN3?oc=5",
+        "source": "El Reportero de Iquique",
+        "pubdate": "Thu, 15 Oct 2026 20:38:00 GMT",
+        "pubdate_iso": "2026-10-15T20:38:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Municipio de Iquique y gremios locales llevarán propuestas ante el Gobierno para abordar crisis en Zona Franca",
+        "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQMF9TVHNER0g2OU13RkM4UTZpclp3WVVQbERrYldVb09PeFltTmdRRXpsYXE3WmFZNXBiclpJRkRYaU02bndJTVVFYm9LRk5YN2pZREZObmNQVkJ1ci1jWnFaLXdSd0pLYVVZblFsTmI1YThmMjgwLVF4bWdlTW5CaWh2ejZ5S25KX0xyZnp2eUpmUHNBMnBuZlNDMzdkN05vVXQ4bEZiS1p0ZWdtNy1NQlg0Z3p0Tnd1eFhVbC0yY3ZaTzJZMTlxZXVfZzM2dHhja3h4em9FWVhKUEFJaV9z0gHfAUFVX3lxTFAwX1NUc0RHSDY5TXdGQzhRNmlyWndZVVBsRGtiV1VvT094WW1OZ1FFemxhcTdaYVk1cGJyWklGRFhpTTZud0lNVUVib0tGTlg3allERk5uY1BWQnVyLWNacVotd1J3SkthVVluUWxOYjVhOGYyODAtUXhtZ2VNbkJpaHZ6NnlLbkpfTHJmenZ5SmZQc0EycG5mU0MzN2Q3Tm9VdDhsRmJLWnRlZ203LU1CWDRnenROd3V4WFVsLTJjdlpPMlkxOXFldV9nMzZ0eGNreHh6b0VZWEpQQUlpX3M?oc=5",
+        "source": "Radio Paulina",
+        "pubdate": "Wed, 14 Oct 2026 17:05:27 GMT",
+        "pubdate_iso": "2026-10-14T17:05:27+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "IQUIQUE EN ALERTA POR CRISIS EN ZOFRI: MUNICIPIO Y GREMIOS UNEN FUERZAS PARA EXIGIR RESPUESTAS AL GOBIERNO CENTRAL",
+        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNeElaY0w5dWg1eUhKdU5wQ0VNZVpWaEJGSWVRczE3NEVNUkE3c1JwVzhUVjR4M0pvdUhjY3Zpc3hlS2RsNVQzV3BaWFpDekdJR2JrU2pIVk9aZlI2S0JaQzBLcXJzM0hXeDlfNlpzTnpoQUFMaHd5d0F6ZWpTV1pfU2Z2TGtlN3RoaFBvcFQzT1JieFBWM0E0UWQ5ZXZyNXFEMnFnV3UxaHVGYWZVSkE0d2d0cHpRMG9oYlVqeURJN0FnMUVXSFdQVFZsdjlOc2hiWmc?oc=5",
+        "source": "Vilas Radio",
+        "pubdate": "Wed, 14 Oct 2026 13:30:00 GMT",
+        "pubdate_iso": "2026-10-14T13:30:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ]
   },
   "hechos_esenciales_por_ticker": {},
   "stats": {
-    "total_noticias": 0,
+    "total_noticias": 24,
     "por_categoria": {
-      "bcch_tpm": 0,
-      "ipsa": 0,
-      "dolar_cobre": 0,
-      "economia_chile": 0,
-      "politica_regulacion": 0,
-      "pensiones_afp": 0,
+      "bcch_tpm": 1,
+      "ipsa": 1,
+      "dolar_cobre": 5,
+      "economia_chile": 5,
+      "politica_regulacion": 2,
+      "pensiones_afp": 5,
       "energia_tarifas": 0,
-      "sectores_watchlist": 0
+      "sectores_watchlist": 5
     },
     "hechos_esenciales": 0
   },
   "resumen_ejecutivo": {
-    "sentimiento": "neutral",
-    "score_neto": 0,
-    "n_positivas": 0,
-    "n_negativas": 0,
-    "n_neutrales": 0,
-    "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
+    "sentimiento": "bajista",
+    "score_neto": -8,
+    "n_positivas": 1,
+    "n_negativas": 4,
+    "n_neutrales": 19,
+    "narrativa": "El feed muestra 1 senales positivas y 4 negativas (neto -8). Factores dominantes: Retiros AFP: muy negativo para HABITAT/PLANVITAL; Retiros AFP: muy negativo para HABITAT/PLANVITAL.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "NEUTRAL - sin sesgo dominante"
+    "veredicto": "BAJISTA a corto plazo"
   }
 }
