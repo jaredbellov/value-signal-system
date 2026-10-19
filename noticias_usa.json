@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-10-19T14:03:27.343163+00:00",
+  "updated_at_utc": "2026-10-19T14:33:27.484555+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -36,36 +36,7 @@
         }
       }
     ],
-    "nvidia": [
-      {
-        "title": "Precio de acciones, noticias, cotización e historial de NVIDIA Corporation (NVDA)",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9kanItV1ZzUkxTX251dWR5N2pVU0o1OGIxcTFLcnlUeUlDMU9JS3IySlZWelU2T2djT2wweENJTFRkLUtZR3hQMnhoa0hodUI4VFE?oc=5",
-        "source": "Yahoo",
-        "pubdate": "Mon, 19 Oct 2026 09:14:21 GMT",
-        "pubdate_iso": "2026-10-19T09:14:21+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Stocktwits Tech Watch: Netflix And Meta Report Earnings As Nvidia, Oracle Product Events Loom",
-        "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQcEtrZlVuQU1RaHAxT3RVMXItMnpVOFhHWk5ETWRFSy1RRVgySk9ZWk5mWEduOS1hZl9xOWJTWWV6ZlBabkxCN0tIb3ZhOW43XzY2SklkSzZKcHI1X3dLQ3NkN3JSQkVUU2JBcjRoYmgxOElid0JQZ2Nka2RkWWU1RERCT0NHR1I1ZWhobng1cG04ZlJNOTBhaE1nZFBoVVBjU19tNmtsNTM3Ung3VGVhLVR6MUdSMW9vLWxGTnIteWVUeHkzb19OR21KTHZ6dDlmN0w4M0RaTDNJVnJOU1dGRVVpaElHZw?oc=5",
-        "source": "TradingView",
-        "pubdate": "Mon, 19 Oct 2026 06:29:00 GMT",
-        "pubdate_iso": "2026-10-19T06:29:00+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      }
-    ],
+    "nvidia": [],
     "ia_semis": [
       {
         "title": "America’s $10 trillion AI infrastructure boom is starting to show strain",
@@ -112,6 +83,20 @@
     ],
     "macro_tech": [
       {
+        "title": "Tech stocks drag Nasdaq 2% lower; sheds over 4% for the week",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxORWM3MEFacW9fWXNZVUstWTlUejctRGdnaHZJa29xWlBZeFltZjRmNjRVOVNIZlN5TVpBRlloeXh6cG5UdVoydk5URENxdE9OM1QtWXZod0s0emNPdExMSkdvYkxfNlFidC1OZEhJcjBUcElndnRzSXJDSTd5RG1aNGdfQ0Z6Mmp1UWJCa0szQ3l5TUdBM2NvSThRRmhaRjZobTBBQnF5SXR2eTBzazhFT1MwcUtwZ05oUG1R?oc=5",
+        "source": "TradingView",
+        "pubdate": "Fri, 16 Oct 2026 20:35:36 GMT",
+        "pubdate_iso": "2026-10-16T20:35:36+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
         "title": "The stock market is pricing in ‘too many rate hikes’ – Allianz’s El-Erian",
         "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNNUlWaWtpY2Zsb29GYXNRLVdlSDdGcnUwMXZaQjZSeVNpajhMekJIM1RfYWVsZnJQWUxDRzhvLU9NNlBzNDdudDNIazY4cGxEcW5ZRWZoN0NmdjkyZjZqZTBjUzJRRUNidHpLZ1N3ajRsWUNsUGlYdkFnYVBnOUN4eUZsTWtiMXFuQ2liSmFEb0VNYWhZYTVJcm83R2JyWTA2czMxT2dPbFpOVnJJWE5VbnJhdEJESDNqbEZlUEFmc3MtWm95Zk5LOEZaOA?oc=5",
         "source": "TradingView",
@@ -156,12 +141,12 @@
     ]
   },
   "stats": {
-    "total_noticias": 9,
+    "total_noticias": 8,
     "por_categoria": {
       "tesla": 1,
-      "nvidia": 2,
+      "nvidia": 0,
       "ia_semis": 3,
-      "macro_tech": 3
+      "macro_tech": 4
     }
   },
   "resumen_ejecutivo": {
@@ -169,7 +154,7 @@
     "score_neto": -3,
     "n_positivas": 0,
     "n_negativas": 1,
-    "n_neutrales": 8,
+    "n_neutrales": 7,
     "narrativa": "El feed muestra 0 senales positivas y 1 negativas (neto -3). Factores dominantes: Fed hawkish: rate hike presiona equities.",
     "narrativa_fuente": "plantilla",
     "veredicto": "Levemente BAJISTA"
