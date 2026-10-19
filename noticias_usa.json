@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-10-19T11:31:47.472548+00:00",
+  "updated_at_utc": "2026-10-19T11:33:57.412058+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -36,22 +36,7 @@
         }
       }
     ],
-    "nvidia": [
-      {
-        "title": "Stocktwits Tech Watch: Netflix And Meta Report Earnings As Nvidia, Oracle Product Events Loom",
-        "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQcEtrZlVuQU1RaHAxT3RVMXItMnpVOFhHWk5ETWRFSy1RRVgySk9ZWk5mWEduOS1hZl9xOWJTWWV6ZlBabkxCN0tIb3ZhOW43XzY2SklkSzZKcHI1X3dLQ3NkN3JSQkVUU2JBcjRoYmgxOElid0JQZ2Nka2RkWWU1RERCT0NHR1I1ZWhobng1cG04ZlJNOTBhaE1nZFBoVVBjU19tNmtsNTM3Ung3VGVhLVR6MUdSMW9vLWxGTnIteWVUeHkzb19OR21KTHZ6dDlmN0w4M0RaTDNJVnJOU1dGRVVpaElHZw?oc=5",
-        "source": "TradingView",
-        "pubdate": "Mon, 19 Oct 2026 06:29:00 GMT",
-        "pubdate_iso": "2026-10-19T06:29:00+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      }
-    ],
+    "nvidia": [],
     "ia_semis": [
       {
         "title": "America’s $10 trillion AI infrastructure boom is starting to show strain",
@@ -184,10 +169,10 @@
     ]
   },
   "stats": {
-    "total_noticias": 11,
+    "total_noticias": 10,
     "por_categoria": {
       "tesla": 1,
-      "nvidia": 1,
+      "nvidia": 0,
       "ia_semis": 4,
       "macro_tech": 5
     }
@@ -197,7 +182,7 @@
     "score_neto": -5,
     "n_positivas": 0,
     "n_negativas": 2,
-    "n_neutrales": 9,
+    "n_neutrales": 8,
     "narrativa": "El feed muestra 0 senales positivas y 2 negativas (neto -5). Factores dominantes: Fed hawkish: rate hike presiona equities; Tasas mas altas: presion para equities.",
     "narrativa_fuente": "plantilla",
     "veredicto": "BAJISTA a corto plazo"
