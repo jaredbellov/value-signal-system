@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-10-19T18:03:25.281870+00:00",
+  "updated_at_utc": "2026-10-19T18:33:25.531020+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -21,6 +21,20 @@
   },
   "noticias_por_categoria": {
     "tesla": [
+      {
+        "title": "TSLA Stock Rises Overnight: Musk Bets Tesla’s Value On Optimus, Cybercab — Analyst Sees Flying ‘Halo Car’ Luring Buyers",
+        "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPWENnRWxLdmdnMGVjSHE1LWg3M3Q0QUhXLUR5UkU1ZHhva0JMbS00cGFLR2ExdHh6VWxLdnNsQ2RtRnk2ZmhLYlpOZGU1d3VuMTBtZmkxS0V0cGhDTUV5TmFiUlozWExaVjBEYUJzQkhXa2ZMT1RsaGRSOGJJYUJjNTBiZjZxY0JDUllfelhDeU43OWF5eDZpUHlJenN3YkVDXzFSb0NXOVpaN1owQlc3SDdJZVIxNUVicEVxazBTT0ktc0pkWEYxZnJDbGdZVzdCZGgyaEc5bWVZVE9NUmtDNGlOWEZTSTdINkNPR052a2s3U2RtSzhyNVhPdDRYV3NpdWJr?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 19 Oct 2026 02:19:00 GMT",
+        "pubdate_iso": "2026-10-19T02:19:00+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 1,
+          "intensidad_label": "leve",
+          "emoji": "🟢",
+          "razonamiento": "Avances en Optimus: opcionalidad Tesla"
+        }
+      },
       {
         "title": "Tesla-SpaceX Merger Bets Surge -- Prediction Markets See 77% Odds by 2028",
         "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPWXRXTlpQUGIybllaX1ZiQkkyVGxNbnJ0NzNTRG9lVDJUQW91Mlp6V0NLckJWR19UMXNfdWEtN2FPaDJWT3FZUm16WnBuUVViaFRDdWM2bDdnckVOQVNQblkzdXRWWXpmNFRHLVpUTEsyMDE1WWVDaE1ZamtZQ0lCSmFES0RiY3djZ0JqaGg2Ti1hVEFyd0hFN1Y0OFJoYXhjTXI3d2FIYm1aZEg2dFVTUW1VWTFFSXRDcUxvV05WUUVaR2hJSk5J?oc=5",
@@ -114,9 +128,9 @@
     ]
   },
   "stats": {
-    "total_noticias": 6,
+    "total_noticias": 7,
     "por_categoria": {
-      "tesla": 1,
+      "tesla": 2,
       "nvidia": 1,
       "ia_semis": 3,
       "macro_tech": 1
@@ -124,11 +138,11 @@
   },
   "resumen_ejecutivo": {
     "sentimiento": "levemente bajista",
-    "score_neto": -3,
-    "n_positivas": 0,
+    "score_neto": -2,
+    "n_positivas": 1,
     "n_negativas": 1,
     "n_neutrales": 5,
-    "narrativa": "El feed muestra 0 senales positivas y 1 negativas (neto -3). Factores dominantes: Fed hawkish: rate hike presiona equities.",
+    "narrativa": "El feed muestra 1 senales positivas y 1 negativas (neto -2). Factores dominantes: Fed hawkish: rate hike presiona equities; Avances en Optimus: opcionalidad Tesla.",
     "narrativa_fuente": "plantilla",
     "veredicto": "Levemente BAJISTA"
   }
