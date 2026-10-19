@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-10-19T17:03:25.241920+00:00",
+  "updated_at_utc": "2026-10-19T17:33:28.195163+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -98,6 +98,20 @@
     ],
     "macro_tech": [
       {
+        "title": "Noticias de CNBC TV18 en TradingView, de fecha 2026-10-19 — cnbctv:11435e0ae094b:0",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE04VHdtMUlhU3BwaFhXV2YyR1djQUpJUmhLMXBKNlhPRUUweG5NcnZjRzZJcS1lcTlkcVRXZ1czRDItcnZpUXJVT0NsMm5zeDVyNzFZaWlpMXpsZFNKenVncVQ0Y21FQQ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 19 Oct 2026 01:04:00 GMT",
+        "pubdate_iso": "2026-10-19T01:04:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
         "title": "The stock market is pricing in ‘too many rate hikes’ – Allianz’s El-Erian",
         "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNNUlWaWtpY2Zsb29GYXNRLVdlSDdGcnUwMXZaQjZSeVNpajhMekJIM1RfYWVsZnJQWUxDRzhvLU9NNlBzNDdudDNIazY4cGxEcW5ZRWZoN0NmdjkyZjZqZTBjUzJRRUNidHpLZ1N3ajRsWUNsUGlYdkFnYVBnOUN4eUZsTWtiMXFuQ2liSmFEb0VNYWhZYTVJcm83R2JyWTA2czMxT2dPbFpOVnJJWE5VbnJhdEJESDNqbEZlUEFmc3MtWm95Zk5LOEZaOA?oc=5",
         "source": "TradingView",
@@ -114,12 +128,12 @@
     ]
   },
   "stats": {
-    "total_noticias": 6,
+    "total_noticias": 7,
     "por_categoria": {
       "tesla": 1,
       "nvidia": 1,
       "ia_semis": 3,
-      "macro_tech": 1
+      "macro_tech": 2
     }
   },
   "resumen_ejecutivo": {
@@ -127,7 +141,7 @@
     "score_neto": -3,
     "n_positivas": 0,
     "n_negativas": 1,
-    "n_neutrales": 5,
+    "n_neutrales": 6,
     "narrativa": "El feed muestra 0 senales positivas y 1 negativas (neto -3). Factores dominantes: Fed hawkish: rate hike presiona equities.",
     "narrativa_fuente": "plantilla",
     "veredicto": "Levemente BAJISTA"
