@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-10-19T11:33:57.412058+00:00",
+  "updated_at_utc": "2026-10-19T12:33:28.643155+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -36,7 +36,22 @@
         }
       }
     ],
-    "nvidia": [],
+    "nvidia": [
+      {
+        "title": "Stocktwits Tech Watch: Netflix And Meta Report Earnings As Nvidia, Oracle Product Events Loom",
+        "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQcEtrZlVuQU1RaHAxT3RVMXItMnpVOFhHWk5ETWRFSy1RRVgySk9ZWk5mWEduOS1hZl9xOWJTWWV6ZlBabkxCN0tIb3ZhOW43XzY2SklkSzZKcHI1X3dLQ3NkN3JSQkVUU2JBcjRoYmgxOElid0JQZ2Nka2RkWWU1RERCT0NHR1I1ZWhobng1cG04ZlJNOTBhaE1nZFBoVVBjU19tNmtsNTM3Ung3VGVhLVR6MUdSMW9vLWxGTnIteWVUeHkzb19OR21KTHZ6dDlmN0w4M0RaTDNJVnJOU1dGRVVpaElHZw?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 19 Oct 2026 06:29:00 GMT",
+        "pubdate_iso": "2026-10-19T06:29:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
     "ia_semis": [
       {
         "title": "America’s $10 trillion AI infrastructure boom is starting to show strain",
@@ -137,54 +152,26 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
-      },
-      {
-        "title": "S&P 500 Bull Market Has Reasons For Optimism, Says Baird — But Higher Rates Could Favor Quality Stocks",
-        "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPNnhpWi1lM3RVZWdWbF95aTBhVy1lZ1ctbmZZMkh1WUgzY3BQZ0dJeWJWcXRqQWZvVjZEdUpvRVdBTG42aGtRNXFGdnRlbXFZS0tscE5SVmIybVdHSExVaTY1UUpVU2l5QTZjeVlFSks0aVQ2Nk9TV285Qklfb3VHMTZMZ2dNU00taUhhMVlkbHZKdzREeTJSRVRsMmV1dF9xMmZvSWNyZTRLanF0NWRERnBJOG84UUlzdmlwcXl3OUF2Uk52Z29ULTRFdnhmSy04SVZjc3JGSlhzdEpmb3N2RkZYQXQzUEVmOFNfS0tNVGc?oc=5",
-        "source": "TradingView",
-        "pubdate": "Fri, 16 Oct 2026 12:28:18 GMT",
-        "pubdate_iso": "2026-10-16T12:28:18+00:00",
-        "impacto": {
-          "direccion": "negativo",
-          "intensidad": 2,
-          "intensidad_label": "moderado",
-          "emoji": "🔴",
-          "razonamiento": "Tasas mas altas: presion para equities"
-        }
-      },
-      {
-        "title": "Noticias de CNBC TV18 en TradingView, de fecha 2026-10-16 — cnbctv:aa551a8f5094b:0",
-        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB6Z0hWMlFJQTVMWHJMel85S2pFclVqNEpKeGhhWDNEelV1RjRDanE2bU93UjhKa3hhUEsxQmNaSGxHOG1meEdhYURSd1JOWDBLVU5hSWtKN0ZmRTlmUWVNQTh3cWZ0UQ?oc=5",
-        "source": "TradingView",
-        "pubdate": "Fri, 16 Oct 2026 12:24:33 GMT",
-        "pubdate_iso": "2026-10-16T12:24:33+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
       }
     ]
   },
   "stats": {
-    "total_noticias": 10,
+    "total_noticias": 9,
     "por_categoria": {
       "tesla": 1,
-      "nvidia": 0,
+      "nvidia": 1,
       "ia_semis": 4,
-      "macro_tech": 5
+      "macro_tech": 3
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "bajista",
-    "score_neto": -5,
+    "sentimiento": "levemente bajista",
+    "score_neto": -3,
     "n_positivas": 0,
-    "n_negativas": 2,
+    "n_negativas": 1,
     "n_neutrales": 8,
-    "narrativa": "El feed muestra 0 senales positivas y 2 negativas (neto -5). Factores dominantes: Fed hawkish: rate hike presiona equities; Tasas mas altas: presion para equities.",
+    "narrativa": "El feed muestra 0 senales positivas y 1 negativas (neto -3). Factores dominantes: Fed hawkish: rate hike presiona equities.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "BAJISTA a corto plazo"
+    "veredicto": "Levemente BAJISTA"
   }
 }
