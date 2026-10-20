@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-10-20T18:33:27.617932+00:00",
+  "updated_at_utc": "2026-10-20T19:03:28.098919+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -27,6 +27,20 @@
         "source": "TradingKey",
         "pubdate": "Tue, 20 Oct 2026 07:58:54 GMT",
         "pubdate_iso": "2026-10-20T07:58:54+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Datos clave: Tesla, Inc.: adjudicación a Musk de $158 mil millones en 2025; se amplían las pruebas de robotaxis",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ZU3ZGSmptMWxzM1QzN01NanNkZ0FxM3FyanlaTHpLYnlzYjVmS0c1MERaVGpPc1BRZThDalBxUUt2d0ZFb19SQXpYZDZhUllnSDM1TDVabjg2aTVOdWVlblB4OWJtU1Z4QnE3Yg?oc=5",
+        "source": "TradingView",
+        "pubdate": "Tue, 20 Oct 2026 07:00:00 GMT",
+        "pubdate_iso": "2026-10-20T07:00:00+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -210,11 +224,11 @@
     ],
     "macro_tech": [
       {
-        "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
-        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNQzhRdTBPak1LZU5hcXJXSzVQRkFYNkhXV1FFbDZEYmFyTmJSdzBudzdyaDNOLXFKNjJoQWU3cVN0bjItUEowT096SktUYjRpZE1LZGtDMWtCdTQzdHoySTlmNVB4TXBTd0xGUlZCaXJfODFlTnM0a1YxTkZKaVVsSEdqY0hBYi1iTnhXZ3E3cUdIR1MyQXRSZ25JdEZmMS1IeGFKVk5SSVc?oc=5",
+        "title": "Dow, S&P 500, Nasdaq Edge Higher Amid Tech Rebound As Q3 Earnings Season Forges Ahead: DJT, AMZN, CBRS, CRWV Stocks In Focus",
+        "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPelkxNUdQSzluNm0wXzdsZlUxWFdrNGVJMjlObFhrYWNYZm1DR1RTM29NSnBjdkl1VWt3Nk5URE93NEt1cnlXYTVxZDhDb2tydnc5YUlGZk5SdXgwV1BrWEU5dlhvTFI2VWJjUnlFeDhTdVpWUTdLbWxGUUVZd0Q2RWdJdFNMTE9FU0F0UWk3aDljd1ZVR1lTaG5tU2JXajFSRDdnS05PY3huRHB2cmFTVVBsWEFuZlRTQ1laS1psWndrcGwxZFQyV0NxVGJUVDNFeXN6bVBrYkdyWjlBaHdlTXl2TVFXTG9kMkRXRDZKTGlVY2pxN2p2NW9KY09zb1Bnak5zOXhNcExzdw?oc=5",
         "source": "TradingView",
-        "pubdate": "Tue, 20 Oct 2026 06:36:00 GMT",
-        "pubdate_iso": "2026-10-20T06:36:00+00:00",
+        "pubdate": "Tue, 20 Oct 2026 03:31:00 GMT",
+        "pubdate_iso": "2026-10-20T03:31:00+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -282,9 +296,9 @@
     ]
   },
   "stats": {
-    "total_noticias": 18,
+    "total_noticias": 19,
     "por_categoria": {
-      "tesla": 4,
+      "tesla": 5,
       "nvidia": 4,
       "ia_semis": 5,
       "macro_tech": 5
@@ -295,7 +309,7 @@
     "score_neto": -2,
     "n_positivas": 0,
     "n_negativas": 1,
-    "n_neutrales": 17,
+    "n_neutrales": 18,
     "narrativa": "El feed muestra 0 senales positivas y 1 negativas (neto -2). Factores dominantes: Restricciones de exportacion: riesgo China.",
     "narrativa_fuente": "plantilla",
     "veredicto": "Levemente BAJISTA"
