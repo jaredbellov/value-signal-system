@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-10-23T11:55:33.014878+00:00",
+  "updated_at_utc": "2026-10-23T13:33:03.745508+00:00",
   "ventana_dias": 7,
   "medios": [
     "Diario Financiero",
@@ -73,12 +73,27 @@
       }
     ],
     "LIPIGAS": [],
-    "NTGCLGAS": [],
+    "NTGCLGAS": [
+      {
+        "title": "Mercados: la semana en datos",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOQVcwZlVqZ3NqNy1IOE9vcDJKRmI2eFV2WDN1QXpSWTF4NW9RNk9NU2lhQ1pGV0R0Q1lqbEdkVlltZm9DR21PVy0xLVhrejBPN3FTVGZrM0pqRENmYjZOZU5fcXhSeUpLUEduMm93eVFUcWV0QUFFOENmVE1JV3NJRjRn?oc=5",
+        "pubdate": "Fri, 16 Oct 2026 23:40:00 GMT",
+        "source": "Diario Financiero",
+        "matched_keyword": "Gasco"
+      }
+    ],
     "SOQUICOM": [
       {
-        "title": "Bolsas mundiales se tiñen de rojo: el IPSA chileno anota su mayor caída desde mayo y cierra en mínimos de casi cuatro meses",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBiRGdfSnpkN21rTnZJVThhNVdST3VhUHRUaDdkYnlWVnIzaTZKRGhfdWdUUDVqdWxvUXBXSXB1SkpRY3dxMmttU0NBallKa1YzdUZZcVdURVplc1FVR1BHXzhvU3N0SkRn?oc=5",
-        "pubdate": "Thu, 22 Oct 2026 20:16:00 GMT",
+        "title": "Las acciones del IPSA favoritas para el cierre de 2026",
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPTzZZdXIzcTNSY1NHVlJZM0FpVGdHeXJTeThaSjZacFVFaGtscmNwTUxmNmZwdG5DS205bXFGcmYwYUFxTlFDcnFITWZFRkVqM1ZqT1lrbTdzandDWjlva2hnZFRnVUloVWJBRTFGMzY2N2Vwb3NJUnFtcUVEcmFMZHhadDlWdVB2TFFvWjZRYzBCSnl1cDNUNTltX2NRbGc?oc=5",
+        "pubdate": "Fri, 23 Oct 2026 12:02:00 GMT",
+        "source": "Diario Financiero",
+        "matched_keyword": "SQM"
+      },
+      {
+        "title": "Las acciones favoritas para el cierre de 2026",
+        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPcVBfWjJkdF9RdnZ5SGFmTDRSYjNHWnBuUDlGbUtISVhpS1N6TE9ZRy04SzBMWHp3RjdXRE92SVZjVklGOFgwUXpxMk9VMmlra2IzOGNHMVd6X04wNVo0OERrOENSRGNObVhYS1NaSWdEYnRHZW5ncV9udXItMVpKRXRrZWlZQUtQaFMzeXpIMzlFaDBGWDRr?oc=5",
+        "pubdate": "Fri, 23 Oct 2026 12:02:00 GMT",
         "source": "Diario Financiero",
         "matched_keyword": "SQM"
       },
@@ -130,13 +145,6 @@
         "pubdate": "Fri, 16 Oct 2026 22:45:00 GMT",
         "source": "Diario Financiero",
         "matched_keyword": "SQM"
-      },
-      {
-        "title": "Las acciones chilenas que podrían sentir el impacto de las \"midterm\"",
-        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRnFGWUlSeTlHa0Z0c0tkWVltV1B2MU91aElhZWNEWG9GaXF3dkEwZ2p0djRFTkJOUnQ0R3J6cTRrVThEOXpIR1pFNVdnNWR4TXZRcWZTZG9zOF83N2dETG0xSlhDdEdBSk9yVWpyVDBZSjlXWElOcGkzR3VpUHlxdVZCOVVqbnp3UU5zN2VuN21QN2pXOHpHNWlBQWpQR18xdXlDMFJmSWNoOEswZzJUS2NnVQ?oc=5",
-        "pubdate": "Fri, 16 Oct 2026 12:35:00 GMT",
-        "source": "Diario Financiero",
-        "matched_keyword": "SQM"
       }
     ],
     "QUINENCO": [],
@@ -146,8 +154,8 @@
     "total_queries": 51,
     "queries_exitosas": 51,
     "queries_falladas": 0,
-    "total_noticias_brutas": 2016,
-    "total_noticias_filtradas": 17,
-    "total_hechos_esenciales_brutos": 0
+    "total_noticias_brutas": 2004,
+    "total_noticias_filtradas": 18,
+    "total_hechos_esenciales_brutos": 95
   }
 }
