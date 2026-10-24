@@ -474,6 +474,26 @@
         "reparos": [],
         "faltantes": [],
         "avisos": [],
+        "criterios": {
+          "bpa": {
+            "titulo": "BPA creciente",
+            "estado": "ok",
+            "detalle": "CAGR +6,8% anual en 5 años · 3 de 4 años al alza",
+            "nota": null
+          },
+          "deuda": {
+            "titulo": "Deuda sana",
+            "estado": "ok",
+            "detalle": "endeudamiento 0,45x (máximo 3,00x, financiera)",
+            "nota": null
+          },
+          "fcf": {
+            "titulo": "El flujo de caja acompaña la utilidad",
+            "estado": "ok",
+            "detalle": "FCF acumulado 0,86x la utilidad acumulada de 5 años (mínimo 0,70x)",
+            "nota": null
+          }
+        },
         "bpa_veredicto": "creciente",
         "bpa_cagr_pct": 6.8,
         "bpa_anos": 5,
@@ -965,6 +985,26 @@
         "reparos": [],
         "faltantes": [],
         "avisos": [],
+        "criterios": {
+          "bpa": {
+            "titulo": "BPA creciente",
+            "estado": "ok",
+            "detalle": "CAGR +5,6% anual en 5 años · 4 de 4 años al alza",
+            "nota": null
+          },
+          "deuda": {
+            "titulo": "Deuda sana",
+            "estado": "ok",
+            "detalle": "endeudamiento 0,50x (máximo 1,50x) · razón corriente 1,97",
+            "nota": null
+          },
+          "fcf": {
+            "titulo": "El flujo de caja acompaña la utilidad",
+            "estado": "ok",
+            "detalle": "FCF acumulado 1,02x la utilidad acumulada de 5 años (mínimo 0,70x)",
+            "nota": null
+          }
+        },
         "bpa_veredicto": "creciente",
         "bpa_cagr_pct": 5.6,
         "bpa_anos": 5,
@@ -1456,6 +1496,26 @@
         "reparos": [],
         "faltantes": [],
         "avisos": [],
+        "criterios": {
+          "bpa": {
+            "titulo": "BPA creciente",
+            "estado": "ok",
+            "detalle": "CAGR +4,7% anual en 5 años · 2 de 4 años al alza",
+            "nota": null
+          },
+          "deuda": {
+            "titulo": "Deuda sana",
+            "estado": "ok",
+            "detalle": "endeudamiento 0,25x (máximo 1,50x) · razón corriente 2,41",
+            "nota": null
+          },
+          "fcf": {
+            "titulo": "El flujo de caja acompaña la utilidad",
+            "estado": "ok",
+            "detalle": "FCF acumulado 1,35x la utilidad acumulada de 5 años (mínimo 0,70x)",
+            "nota": null
+          }
+        },
         "bpa_veredicto": "creciente",
         "bpa_cagr_pct": 4.7,
         "bpa_anos": 5,
@@ -1944,6 +2004,26 @@
         ],
         "faltantes": [],
         "avisos": [],
+        "criterios": {
+          "bpa": {
+            "titulo": "BPA creciente",
+            "estado": "ok",
+            "detalle": "CAGR +4,1% anual en 5 años · 2 de 4 años al alza",
+            "nota": null
+          },
+          "deuda": {
+            "titulo": "Deuda sana",
+            "estado": "ok",
+            "detalle": "endeudamiento 0,19x (máximo 1,50x) · razón corriente 2,07",
+            "nota": null
+          },
+          "fcf": {
+            "titulo": "El flujo de caja acompaña la utilidad",
+            "estado": "falla",
+            "detalle": "FCF acumulado -0,05x la utilidad acumulada de 5 años (mínimo 0,70x)",
+            "nota": null
+          }
+        },
         "bpa_veredicto": "creciente",
         "bpa_cagr_pct": 4.1,
         "bpa_anos": 5,
@@ -2437,6 +2517,26 @@
         ],
         "faltantes": [],
         "avisos": [],
+        "criterios": {
+          "bpa": {
+            "titulo": "BPA creciente",
+            "estado": "falla",
+            "detalle": "CAGR -22,4% anual en 5 años · 1 de 4 años al alza",
+            "nota": null
+          },
+          "deuda": {
+            "titulo": "Deuda sana",
+            "estado": "ok",
+            "detalle": "endeudamiento 0,54x (máximo 1,50x) · razón corriente 3,15",
+            "nota": null
+          },
+          "fcf": {
+            "titulo": "El flujo de caja acompaña la utilidad",
+            "estado": "ok",
+            "detalle": "FCF acumulado 1,25x la utilidad acumulada de 5 años (mínimo 0,70x)",
+            "nota": null
+          }
+        },
         "bpa_veredicto": "decreciente",
         "bpa_cagr_pct": -22.4,
         "bpa_anos": 5,
@@ -2930,6 +3030,26 @@
         ],
         "faltantes": [],
         "avisos": [],
+        "criterios": {
+          "bpa": {
+            "titulo": "BPA creciente",
+            "estado": "falla",
+            "detalle": "CAGR +43,2% anual en 5 años · 1 de 4 años al alza — irregular, el alza no es sostenida",
+            "nota": null
+          },
+          "deuda": {
+            "titulo": "Deuda sana",
+            "estado": "ok",
+            "detalle": "endeudamiento 0,34x (máximo 1,50x) · razón corriente 1,23",
+            "nota": null
+          },
+          "fcf": {
+            "titulo": "El flujo de caja acompaña la utilidad",
+            "estado": "ok",
+            "detalle": "FCF acumulado 1,24x la utilidad acumulada de 5 años (mínimo 0,70x)",
+            "nota": null
+          }
+        },
         "bpa_veredicto": "irregular",
         "bpa_cagr_pct": 43.2,
         "bpa_anos": 5,
@@ -3420,6 +3540,26 @@
         "reparos": [],
         "faltantes": [],
         "avisos": [],
+        "criterios": {
+          "bpa": {
+            "titulo": "BPA creciente",
+            "estado": "ok",
+            "detalle": "CAGR +14,5% anual en 5 años · 2 de 4 años al alza",
+            "nota": null
+          },
+          "deuda": {
+            "titulo": "Deuda sana",
+            "estado": "ok",
+            "detalle": "endeudamiento 0,68x (máximo 1,50x) · razón corriente 1,64",
+            "nota": null
+          },
+          "fcf": {
+            "titulo": "El flujo de caja acompaña la utilidad",
+            "estado": "ok",
+            "detalle": "FCF acumulado 1,69x la utilidad acumulada de 5 años (mínimo 0,70x)",
+            "nota": null
+          }
+        },
         "bpa_veredicto": "creciente",
         "bpa_cagr_pct": 14.5,
         "bpa_anos": 5,
@@ -3911,6 +4051,26 @@
         "reparos": [],
         "faltantes": [],
         "avisos": [],
+        "criterios": {
+          "bpa": {
+            "titulo": "BPA creciente",
+            "estado": "ok",
+            "detalle": "CAGR +32,4% anual en 5 años · 2 de 4 años al alza",
+            "nota": null
+          },
+          "deuda": {
+            "titulo": "Deuda sana",
+            "estado": "ok",
+            "detalle": "endeudamiento 0,43x (máximo 1,50x) · razón corriente 1,70",
+            "nota": null
+          },
+          "fcf": {
+            "titulo": "El flujo de caja acompaña la utilidad",
+            "estado": "ok",
+            "detalle": "FCF acumulado 2,38x la utilidad acumulada de 5 años (mínimo 0,70x)",
+            "nota": null
+          }
+        },
         "bpa_veredicto": "creciente",
         "bpa_cagr_pct": 32.4,
         "bpa_anos": 5,
@@ -4404,6 +4564,26 @@
         ],
         "faltantes": [],
         "avisos": [],
+        "criterios": {
+          "bpa": {
+            "titulo": "BPA creciente",
+            "estado": "falla",
+            "detalle": "CAGR -14,3% anual en 5 años · 1 de 4 años al alza",
+            "nota": null
+          },
+          "deuda": {
+            "titulo": "Deuda sana",
+            "estado": "ok",
+            "detalle": "endeudamiento 0,45x (máximo 1,50x) · razón corriente 2,29",
+            "nota": null
+          },
+          "fcf": {
+            "titulo": "El flujo de caja acompaña la utilidad",
+            "estado": "ok",
+            "detalle": "FCF acumulado 0,87x la utilidad acumulada de 5 años (mínimo 0,70x)",
+            "nota": null
+          }
+        },
         "bpa_veredicto": "decreciente",
         "bpa_cagr_pct": -14.3,
         "bpa_anos": 5,
@@ -4898,6 +5078,26 @@
         ],
         "faltantes": [],
         "avisos": [],
+        "criterios": {
+          "bpa": {
+            "titulo": "BPA creciente",
+            "estado": "falla",
+            "detalle": "CAGR -22,6% anual en 5 años · 2 de 4 años al alza",
+            "nota": null
+          },
+          "deuda": {
+            "titulo": "Deuda sana",
+            "estado": "ok",
+            "detalle": "endeudamiento 0,77x (máximo 1,50x) · razón corriente 3,82",
+            "nota": null
+          },
+          "fcf": {
+            "titulo": "El flujo de caja acompaña la utilidad",
+            "estado": "falla",
+            "detalle": "FCF acumulado 0,47x la utilidad acumulada de 5 años (mínimo 0,70x)",
+            "nota": null
+          }
+        },
         "bpa_veredicto": "decreciente",
         "bpa_cagr_pct": -22.6,
         "bpa_anos": 5,
@@ -5389,8 +5589,28 @@
         "reparos": [],
         "faltantes": [],
         "avisos": [
-          "Razón corriente 0,99, bajo 1,0: maneja el capital de trabajo ajustado. No bloquea porque debe poco (0,35x) y genera más caja que utilidad (1,11x)."
+          "Razón corriente 0,99, bajo 1,0: La razón corriente bajo 1,0 no bloquea: maneja el capital de trabajo ajustado, pero debe poco (0,35x) y genera más caja que utilidad (1,11x)."
         ],
+        "criterios": {
+          "bpa": {
+            "titulo": "BPA creciente",
+            "estado": "ok",
+            "detalle": "CAGR +39,2% anual en 5 años · 4 de 4 años al alza",
+            "nota": null
+          },
+          "deuda": {
+            "titulo": "Deuda sana",
+            "estado": "ok",
+            "detalle": "endeudamiento 0,35x (máximo 1,50x) · razón corriente 0,99",
+            "nota": "La razón corriente bajo 1,0 no bloquea: maneja el capital de trabajo ajustado, pero debe poco (0,35x) y genera más caja que utilidad (1,11x)."
+          },
+          "fcf": {
+            "titulo": "El flujo de caja acompaña la utilidad",
+            "estado": "ok",
+            "detalle": "FCF acumulado 1,11x la utilidad acumulada de 5 años (mínimo 0,70x)",
+            "nota": null
+          }
+        },
         "bpa_veredicto": "creciente",
         "bpa_cagr_pct": 39.2,
         "bpa_anos": 5,
@@ -5874,8 +6094,28 @@
         "reparos": [],
         "faltantes": [],
         "avisos": [
-          "Razón corriente 0,84, bajo 1,0: maneja el capital de trabajo ajustado. No bloquea porque debe poco (0,47x) y genera más caja que utilidad (2,46x)."
+          "Razón corriente 0,84, bajo 1,0: La razón corriente bajo 1,0 no bloquea: maneja el capital de trabajo ajustado, pero debe poco (0,47x) y genera más caja que utilidad (2,46x)."
         ],
+        "criterios": {
+          "bpa": {
+            "titulo": "BPA creciente",
+            "estado": "ok",
+            "detalle": "CAGR +8,2% anual en 5 años · 2 de 4 años al alza",
+            "nota": null
+          },
+          "deuda": {
+            "titulo": "Deuda sana",
+            "estado": "ok",
+            "detalle": "endeudamiento 0,47x (máximo 1,50x) · razón corriente 0,84",
+            "nota": "La razón corriente bajo 1,0 no bloquea: maneja el capital de trabajo ajustado, pero debe poco (0,47x) y genera más caja que utilidad (2,46x)."
+          },
+          "fcf": {
+            "titulo": "El flujo de caja acompaña la utilidad",
+            "estado": "ok",
+            "detalle": "FCF acumulado 2,46x la utilidad acumulada de 5 años (mínimo 0,70x)",
+            "nota": null
+          }
+        },
         "bpa_veredicto": "creciente",
         "bpa_cagr_pct": 8.2,
         "bpa_anos": 5,
@@ -6367,6 +6607,26 @@
         "reparos": [],
         "faltantes": [],
         "avisos": [],
+        "criterios": {
+          "bpa": {
+            "titulo": "BPA creciente",
+            "estado": "ok",
+            "detalle": "CAGR +8,6% anual en 5 años · 2 de 4 años al alza",
+            "nota": null
+          },
+          "deuda": {
+            "titulo": "Deuda sana",
+            "estado": "ok",
+            "detalle": "endeudamiento 0,58x (máximo 1,50x) · razón corriente 1,35",
+            "nota": null
+          },
+          "fcf": {
+            "titulo": "El flujo de caja acompaña la utilidad",
+            "estado": "ok",
+            "detalle": "FCF acumulado 1,39x la utilidad acumulada de 5 años (mínimo 0,70x)",
+            "nota": null
+          }
+        },
         "bpa_veredicto": "creciente",
         "bpa_cagr_pct": 8.6,
         "bpa_anos": 5,
@@ -6852,6 +7112,26 @@
         ],
         "faltantes": [],
         "avisos": [],
+        "criterios": {
+          "bpa": {
+            "titulo": "BPA creciente",
+            "estado": "ok",
+            "detalle": "CAGR +59,0% anual en 5 años · 4 de 4 años al alza",
+            "nota": null
+          },
+          "deuda": {
+            "titulo": "Deuda sana",
+            "estado": "ok",
+            "detalle": "endeudamiento 0,51x (máximo 1,50x) · razón corriente 1,17",
+            "nota": null
+          },
+          "fcf": {
+            "titulo": "El flujo de caja acompaña la utilidad",
+            "estado": "falla",
+            "detalle": "FCF acumulado 0,66x la utilidad acumulada de 5 años (mínimo 0,70x)",
+            "nota": null
+          }
+        },
         "bpa_veredicto": "creciente",
         "bpa_cagr_pct": 59.0,
         "bpa_anos": 5,
@@ -7337,6 +7617,26 @@
         ],
         "faltantes": [],
         "avisos": [],
+        "criterios": {
+          "bpa": {
+            "titulo": "BPA creciente",
+            "estado": "ok",
+            "detalle": "CAGR +135,5% anual en 5 años · 3 de 4 años al alza",
+            "nota": null
+          },
+          "deuda": {
+            "titulo": "Deuda sana",
+            "estado": "ok",
+            "detalle": "endeudamiento 0,39x (máximo 1,50x) · razón corriente 2,50",
+            "nota": null
+          },
+          "fcf": {
+            "titulo": "El flujo de caja acompaña la utilidad",
+            "estado": "falla",
+            "detalle": "FCF acumulado 0,39x la utilidad acumulada de 5 años (mínimo 0,70x)",
+            "nota": null
+          }
+        },
         "bpa_veredicto": "creciente",
         "bpa_cagr_pct": 135.5,
         "bpa_anos": 5,
@@ -7830,6 +8130,26 @@
         ],
         "faltantes": [],
         "avisos": [],
+        "criterios": {
+          "bpa": {
+            "titulo": "BPA creciente",
+            "estado": "falla",
+            "detalle": "CAGR -12,4% anual en 5 años · 1 de 4 años al alza",
+            "nota": null
+          },
+          "deuda": {
+            "titulo": "Deuda sana",
+            "estado": "ok",
+            "detalle": "endeudamiento 0,55x (máximo 1,50x) · razón corriente 1,84",
+            "nota": null
+          },
+          "fcf": {
+            "titulo": "El flujo de caja acompaña la utilidad",
+            "estado": "ok",
+            "detalle": "FCF acumulado 0,97x la utilidad acumulada de 5 años (mínimo 0,70x)",
+            "nota": null
+          }
+        },
         "bpa_veredicto": "decreciente",
         "bpa_cagr_pct": -12.4,
         "bpa_anos": 5,
@@ -8317,6 +8637,26 @@
         "reparos": [],
         "faltantes": [],
         "avisos": [],
+        "criterios": {
+          "bpa": {
+            "titulo": "BPA creciente",
+            "estado": "ok",
+            "detalle": "CAGR +6,0% anual en 5 años · 2 de 4 años al alza",
+            "nota": null
+          },
+          "deuda": {
+            "titulo": "Deuda sana",
+            "estado": "ok",
+            "detalle": "endeudamiento 0,50x (máximo 1,50x) · razón corriente 1,93",
+            "nota": null
+          },
+          "fcf": {
+            "titulo": "El flujo de caja acompaña la utilidad",
+            "estado": "ok",
+            "detalle": "FCF acumulado 0,95x la utilidad acumulada de 5 años (mínimo 0,70x)",
+            "nota": null
+          }
+        },
         "bpa_veredicto": "creciente",
         "bpa_cagr_pct": 6.0,
         "bpa_anos": 5,
@@ -8338,5 +8678,5 @@
       }
     }
   ],
-  "calidad_recalculada": "2026-10-23T22:27:14.993043"
+  "calidad_recalculada": "2026-10-23T22:50:05.879828"
 }

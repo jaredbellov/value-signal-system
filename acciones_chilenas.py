@@ -379,7 +379,15 @@ def _cal_fcf_cobertura(flujos_5y):
 
 
 def evaluar_calidad(resultado):
-    """Devuelve el veredicto de calidad de la empresa (independiente del precio)."""
+    """Veredicto de calidad de la empresa, independiente del precio.
+
+    Cada criterio produce un veredicto unico y completo (estado, detalle y
+    nota opcional) en resultado["calidad"]["criterios"]. La pagina muestra
+    esos tres veredictos y nada mas: no hay listas repetidas.
+
+    Las listas reparos / faltantes / avisos se conservan porque son las que
+    deciden "aprobado" y las que imprime el informe de consola.
+    """
     fin = _cal_es_financiera(resultado.get("sector"), resultado.get("nombre"))
     bpa = _cal_bpa_tendencia(resultado.get("bpa_5y"))
     fcf = _cal_fcf_cobertura(resultado.get("flujos_5y"))
@@ -390,71 +398,140 @@ def evaluar_calidad(resultado):
     corr = cmf.get("razon_corriente")
     end_max = CAL_ENDEUD_MAX_FIN_X if fin else CAL_ENDEUD_MAX_X
 
-    reparos = []    # falla comprobada
-    faltantes = []  # no se puede verificar por falta de dato
+    reparos = []    # falla comprobada: bloquea
+    faltantes = []  # no se puede verificar por falta de dato: bloquea
     avisos = []     # a la vista, pero no bloquea
 
-    # --- 1) BPA creciente -------------------------------------------------
+    # =====================================================================
+    # 1) BPA CRECIENTE
+    # =====================================================================
     v = bpa["veredicto"]
     if v == "creciente":
-        pass
+        bpa_estado = "ok"
     elif v == "sin datos":
+        bpa_estado = "sin_datos"
         faltantes.append(u"BPA: menos de %d cierres anuales disponibles" % CAL_MIN_ANOS)
-    elif v == "decreciente":
-        reparos.append(u"BPA decreciente: %s%% anual en %d años"
-                       % (_cal_num(bpa["cagr_pct"], 1), bpa["anos"]))
-    elif v == "plano":
-        reparos.append(u"BPA plano: %s%% anual, no alcanza a ser creciente"
-                       % _cal_num(bpa["cagr_pct"], 1))
-    elif v == "perdidas":
-        reparos.append(u"BPA negativo en el último cierre anual")
     else:
-        reparos.append(u"BPA irregular: solo %s de %s años al alza"
-                       % (bpa["subidas"], bpa["variaciones"]))
+        bpa_estado = "falla"
+        if v == "decreciente":
+            reparos.append(u"BPA decreciente: %s%% anual en %d a\u00f1os"
+                           % (_cal_num(bpa["cagr_pct"], 1), bpa["anos"]))
+        elif v == "plano":
+            reparos.append(u"BPA plano: %s%% anual, no alcanza a ser creciente"
+                           % _cal_num(bpa["cagr_pct"], 1))
+        elif v == "perdidas":
+            reparos.append(u"BPA negativo en el \u00faltimo cierre anual")
+        else:
+            reparos.append(u"BPA irregular: solo %s de %s a\u00f1os al alza"
+                           % (bpa["subidas"], bpa["variaciones"]))
 
-    # --- 2) Deuda sana ----------------------------------------------------
+    if bpa_estado == "sin_datos":
+        bpa_det = u"sin datos suficientes: menos de %d cierres anuales" % CAL_MIN_ANOS
+    elif v == "perdidas":
+        bpa_det = u"BPA negativo en el \u00faltimo cierre anual"
+    elif bpa["cagr_pct"] is None:
+        bpa_det = u"%s de %s a\u00f1os al alza (parti\u00f3 de p\u00e9rdidas, sin CAGR comparable)" % (
+            bpa["subidas"], bpa["variaciones"])
+    else:
+        _sg = u"+" if bpa["cagr_pct"] > 0 else u""
+        bpa_det = u"CAGR %s%s%% anual en %d a\u00f1os \u00b7 %s de %s a\u00f1os al alza" % (
+            _sg, _cal_num(bpa["cagr_pct"], 1), bpa["anos"],
+            bpa["subidas"], bpa["variaciones"])
+        if v == "plano":
+            bpa_det += u" \u2014 plano, no alcanza a ser creciente"
+        elif v == "irregular":
+            bpa_det += u" \u2014 irregular, el alza no es sostenida"
+
+    # =====================================================================
+    # 2) DEUDA SANA  (endeudamiento + razon corriente, en un solo veredicto)
+    # =====================================================================
+    deuda_falla = False
+    deuda_sin_dato = False
+    deuda_nota = None
+
     if end_x is None:
+        deuda_sin_dato = True
         faltantes.append(u"Endeudamiento: sin dato en la CMF")
     elif end_x > end_max:
-        reparos.append(u"Endeudamiento %sx sobre el máximo de %sx%s"
-                       % (_cal_num(end_x), _cal_num(end_max, 1),
+        deuda_falla = True
+        reparos.append(u"Endeudamiento %sx sobre el m\u00e1ximo de %sx%s"
+                       % (_cal_num(end_x), _cal_num(end_max),
                           u" para financieras" if fin else u""))
+
     if not fin:
         if corr is None:
-            faltantes.append(u"Razón corriente: sin dato en la CMF")
+            deuda_sin_dato = True
+            faltantes.append(u"Raz\u00f3n corriente: sin dato en la CMF")
         elif float(corr) < CAL_CORRIENTE_MIN:
-            # Solvencia ya demostrada por los otros dos lados: debe poco
-            # y genera mas caja que utilidad. Capital de trabajo ajustado
-            # a proposito (malls, electricas) no es aprieto de caja.
+            # Solvencia ya demostrada por los otros dos lados: debe poco y
+            # genera mas caja que utilidad. Capital de trabajo ajustado a
+            # proposito (malls, electricas) no es aprieto de caja.
             _solvente = (end_x is not None and end_x < CAL_SOLVENTE_ENDEUD_MAX
                          and fcf["cobertura"] is not None
                          and fcf["cobertura"] > CAL_SOLVENTE_FCF_MIN)
             if _solvente:
-                avisos.append(
-                    u"Razón corriente %s, bajo 1,0: maneja el capital de trabajo ajustado. "
-                    u"No bloquea porque debe poco (%sx) y genera más caja que utilidad (%sx)."
-                    % (_cal_num(corr), _cal_num(end_x), _cal_num(fcf["cobertura"])))
+                deuda_nota = (
+                    u"La raz\u00f3n corriente bajo 1,0 no bloquea: maneja el capital de "
+                    u"trabajo ajustado, pero debe poco (%sx) y genera m\u00e1s caja que "
+                    u"utilidad (%sx)." % (_cal_num(end_x), _cal_num(fcf["cobertura"])))
+                avisos.append(u"Raz\u00f3n corriente %s, bajo 1,0: %s"
+                              % (_cal_num(corr), deuda_nota))
             else:
+                deuda_falla = True
                 reparos.append(
-                    u"Razón corriente %s bajo 1,0: el pasivo corriente supera al activo corriente"
+                    u"Raz\u00f3n corriente %s bajo 1,0: el pasivo corriente supera al activo corriente"
                     % _cal_num(corr))
 
-    # --- 3) FCF acompana la utilidad --------------------------------------
+    _tope = u"m\u00e1ximo %sx%s" % (_cal_num(end_max), u", financiera" if fin else u"")
+    if end_x is None:
+        _p_end = u"endeudamiento sin dato en la CMF (%s)" % _tope
+    else:
+        _p_end = u"endeudamiento %sx (%s)" % (_cal_num(end_x), _tope)
+    if fin:
+        _p_corr = u""
+    elif corr is None:
+        _p_corr = u" \u00b7 raz\u00f3n corriente sin dato"
+    else:
+        _p_corr = u" \u00b7 raz\u00f3n corriente %s" % _cal_num(corr)
+    deuda_det = _p_end + _p_corr
+    deuda_estado = "falla" if deuda_falla else ("sin_datos" if deuda_sin_dato else "ok")
+
+    # =====================================================================
+    # 3) EL FLUJO DE CAJA ACOMPANA LA UTILIDAD
+    # =====================================================================
     if fcf["cobertura"] is None:
         if fcf["anos"] >= CAL_MIN_ANOS and (fcf["utilidad_acum"] or 0) <= 0:
-            reparos.append(u"Utilidad acumulada negativa en %d años" % fcf["anos"])
+            fcf_estado = "falla"
+            fcf_det = u"utilidad acumulada negativa en %d a\u00f1os" % fcf["anos"]
+            reparos.append(u"Utilidad acumulada negativa en %d a\u00f1os" % fcf["anos"])
         else:
-            faltantes.append(u"FCF: menos de %d años de flujos disponibles" % CAL_MIN_ANOS)
-    elif fcf["cobertura"] < CAL_FCF_COBERTURA_MIN:
-        reparos.append(u"El FCF cubre %sx la utilidad de %d años, bajo el mínimo de %sx"
-                       % (_cal_num(fcf["cobertura"]), fcf["anos"],
-                          _cal_num(CAL_FCF_COBERTURA_MIN)))
+            fcf_estado = "sin_datos"
+            fcf_det = u"sin a\u00f1os suficientes para medirlo (m\u00ednimo %d)" % CAL_MIN_ANOS
+            faltantes.append(u"FCF: menos de %d a\u00f1os de flujos disponibles" % CAL_MIN_ANOS)
+    else:
+        fcf_det = u"FCF acumulado %sx la utilidad acumulada de %d a\u00f1os (m\u00ednimo %sx)" % (
+            _cal_num(fcf["cobertura"]), fcf["anos"], _cal_num(CAL_FCF_COBERTURA_MIN))
+        if fcf["cobertura"] < CAL_FCF_COBERTURA_MIN:
+            fcf_estado = "falla"
+            reparos.append(u"El FCF cubre %sx la utilidad de %d a\u00f1os, bajo el m\u00ednimo de %sx"
+                           % (_cal_num(fcf["cobertura"]), fcf["anos"],
+                              _cal_num(CAL_FCF_COBERTURA_MIN)))
+        else:
+            fcf_estado = "ok"
 
     return {
         "aprobado": (not reparos) and (not faltantes),
         "reparos": reparos,
         "faltantes": faltantes,
         "avisos": avisos,
+        "criterios": {
+            "bpa":   {"titulo": u"BPA creciente",
+                      "estado": bpa_estado, "detalle": bpa_det, "nota": None},
+            "deuda": {"titulo": u"Deuda sana",
+                      "estado": deuda_estado, "detalle": deuda_det, "nota": deuda_nota},
+            "fcf":   {"titulo": u"El flujo de caja acompa\u00f1a la utilidad",
+                      "estado": fcf_estado, "detalle": fcf_det, "nota": None},
+        },
         "bpa_veredicto": bpa["veredicto"],
         "bpa_cagr_pct": bpa["cagr_pct"],
         "bpa_anos": bpa["anos"],
@@ -474,6 +551,7 @@ def evaluar_calidad(resultado):
             "fcf_cobertura_min": CAL_FCF_COBERTURA_MIN,
         },
     }
+
 
 
 def evaluar_vs_benchmark(dy_pct, benchmark_min, benchmark_max):

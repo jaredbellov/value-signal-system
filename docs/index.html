@@ -737,27 +737,52 @@ const ZONE_BOUNDS = [0,35,50,70,100]; // caro|neutral|atractivo|oportunidad
 const isBuyZone = z => z==="ATRACTIVO" || z==="OPORTUNIDAD";
 
 /* ---- fetch ---- */
+/* raw.githubusercontent limita por IP. Antes se pedian los 11 archivos de
+   golpe, cada uno con un ?t= unico que anulaba el CDN; cuando GitHub
+   respondia 429 a alguno, ese quedaba en error sin reintento. Ahora:
+   cache-buster por minuto (el CDN puede cachear), 3 intentos con espera
+   creciente, y los pedidos salen de a 4. */
+const VS_CB_MS       = 60000;  // granularidad del cache-buster
+const VS_REINTENTOS  = 3;
+const VS_ESPERA_MS   = 900;    // espera base, crece en cada intento
+const VS_LOTE        = 4;      // archivos pedidos en paralelo
+
+const _vsDormir = ms => new Promise(r => setTimeout(r, ms));
+
 async function fetchSource(key){
   VS.status[key] = "loading";
   if (typeof onStatusChange==="function") onStatusChange(key);
-  try{
-    const r = await fetch(VS.BASE + VS.FILES[key] + "?t=" + Date.now(), {cache:"no-store"});
-    if(!r.ok) throw new Error("HTTP "+r.status);
-    const j = await r.json();
-    VS.data[key] = j;
-    VS.updated[key] = j.updated_at_utc || j.fecha_actualizacion || null;
-    VS.status[key] = "ok";
-  }catch(e){
+  let fallo = null;
+  for (let intento = 1; intento <= VS_REINTENTOS; intento++){
+    try{
+      const cb = Math.floor(Date.now() / VS_CB_MS);
+      const r = await fetch(VS.BASE + VS.FILES[key] + "?t=" + cb, {cache:"no-store"});
+      if(!r.ok) throw new Error("HTTP "+r.status);
+      const j = await r.json();
+      VS.data[key] = j;
+      VS.updated[key] = j.updated_at_utc || j.fecha_actualizacion || null;
+      VS.status[key] = "ok";
+      fallo = null;
+      break;
+    }catch(e){
+      fallo = e;
+      if (intento < VS_REINTENTOS) await _vsDormir(VS_ESPERA_MS * intento);
+    }
+  }
+  if (fallo){
     VS.status[key] = "error";
     VS.data[key] = VS.data[key] || null;
-    console.warn("fetch fail", key, e.message);
+    console.warn("fetch fail", key, fallo.message, "tras " + VS_REINTENTOS + " intentos");
   }
   if (typeof onStatusChange==="function") onStatusChange(key);
 }
 
 async function fetchAll(){
   VS.loadedAt = new Date();
-  await Promise.all(Object.keys(VS.FILES).map(fetchSource));
+  const claves = Object.keys(VS.FILES);
+  for (let i = 0; i < claves.length; i += VS_LOTE){
+    await Promise.all(claves.slice(i, i + VS_LOTE).map(fetchSource));
+  }
 }
 
 /* ---- formatting ---- */
@@ -2094,43 +2119,31 @@ function clPP(a){
 /* ---------- Deteccion de utilidades infladas por partidas no operacionales ---------- */
 function calidadBlock(a){
   const q=a.calidad; if(!q) return "";
+  const C=q.criterios; if(!C) return "";
   const esc=s=>String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
   const ok=!!q.aprobado;
-  const num=(v,d)=>v==null?"s/d":(Number(v).toFixed(d===undefined?2:d)).replace(".",",");
-  const fx=v=>v==null?"s/d":num(v,2)+"x";
-  const fp=v=>v==null?"s/d":(v>0?"+":"")+num(v,1)+"%";
-  const row=(pasa,tit,det)=>`<div style="display:flex;gap:8px;align-items:flex-start;margin:5px 0;line-height:1.45">`
-    +`<span style="flex:0 0 1.2em">${pasa===null?"\u00b7":(pasa?"\u2705":"\ud83d\udea9")}</span>`
-    +`<span><b>${tit}</b><br><span class="muted">${det}</span></span></div>`;
-  const bpaPasa=q.bpa_veredicto==="creciente"?true:(q.bpa_veredicto==="sin datos"?null:false);
-  const endPasa=q.endeudamiento_x==null?null:(q.endeudamiento_x<=q.endeudamiento_max_x);
-  const fcfPasa=q.fcf_cobertura==null?null:(q.fcf_cobertura>=0.7);
-  const bpaDet=q.bpa_cagr_pct==null
-    ? `veredicto: ${esc(q.bpa_veredicto||"s/d")}`
-    : `CAGR ${fp(q.bpa_cagr_pct)} anual en ${q.bpa_anos} a\u00f1os \u00b7 ${q.bpa_subidas} de ${q.bpa_variaciones} a\u00f1os al alza`;
-  const endDet=`endeudamiento ${fx(q.endeudamiento_x)} (m\u00e1ximo ${fx(q.endeudamiento_max_x)}${q.es_financiera?", financiera":""})`
-    +(q.razon_corriente!=null?` \u00b7 raz\u00f3n corriente ${num(q.razon_corriente,2)}`:"");
-  const fcfDet=q.fcf_cobertura==null
-    ? "sin a\u00f1os suficientes para medirlo"
-    : `FCF acumulado = ${fx(q.fcf_cobertura)} la utilidad acumulada de ${q.fcf_anos} a\u00f1os (m\u00ednimo 0,70x)`;
-  let det="";
-  if(q.reparos&&q.reparos.length)
-    det+=`<div style="margin-top:8px">${q.reparos.map(r=>`<div>\u26a0\ufe0f ${esc(r)}</div>`).join("")}</div>`;
-  if(q.faltantes&&q.faltantes.length)
-    det+=`<div class="muted" style="margin-top:6px">${q.faltantes.map(r=>`<div>\u00b7 ${esc(r)}</div>`).join("")}</div>`;
-  if(q.avisos&&q.avisos.length)
-    det+=`<div style="margin-top:8px;padding:8px 10px;border-radius:6px;background:rgba(127,127,127,.10);line-height:1.45">${q.avisos.map(r=>`<div>\u2139\ufe0f ${esc(r)}</div>`).join("")}</div>`;
+  const ic={ok:"\u2705", falla:"\ud83d\udea9", sin_datos:"\u00b7"};
+  let filas="", conNota=false;
+  for(const k of ["bpa","deuda","fcf"]){
+    const c=C[k]; if(!c) continue;
+    if(c.nota) conNota=true;
+    filas+=`<div style="display:flex;gap:9px;align-items:flex-start;margin:7px 0;line-height:1.45">`
+      +`<span style="flex:0 0 1.2em">${ic[c.estado]||"\u00b7"}</span>`
+      +`<span style="flex:1 1 auto;min-width:0"><b>${esc(c.titulo||k)}</b><br>`
+      +`<span class="muted">${esc(c.detalle||"")}</span>`
+      +(c.nota?`<br><span class="muted">\u2139\ufe0f ${esc(c.nota)}</span>`:"")
+      +`</span></div>`;
+  }
+  const titulo = ok ? (conNota ? "aprobada con nota" : "aprobada") : "con reparos";
   return `<div class="card" style="margin:10px 0;border-left:3px solid ${ok?"var(--z-opp)":"var(--z-neu)"}">`
-    +`<div class="sec-t">${ok?"\u2705":"\u26a0\ufe0f"} Puerta de calidad \u2014 ${ok?((q.avisos&&q.avisos.length)?"aprobada con nota":"aprobada"):"con reparos"}</div>`
-    +row(bpaPasa,"BPA creciente",bpaDet)
-    +row(endPasa,"Deuda sana",endDet)
-    +row(fcfPasa,"El flujo de caja acompa\u00f1a la utilidad",fcfDet)
-    +det
+    +`<div class="sec-t">${ok?"\u2705":"\u26a0\ufe0f"} Puerta de calidad \u2014 ${titulo}</div>`
+    +filas
     +`<div class="hint" style="margin-top:10px;text-transform:none;letter-spacing:0;font-weight:400;line-height:1.5">`
     +`Primero la empresa, despu\u00e9s el precio: una acci\u00f3n solo puede marcar <b>Sobre benchmark</b> si pasa los tres criterios. `
     +`Si falla alguno queda <b>Con reparos</b> \u2014 sigue visible y con el precio a la vista, pero fuera de las oportunidades de compra. `
     +`Ventana de ${q.ventana_anos||0} a\u00f1os. Fuente: estados financieros CMF.</div></div>`;
 }
+
 
 function gananciaPapel(a){
   try{
