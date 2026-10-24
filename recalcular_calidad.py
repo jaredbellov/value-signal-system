@@ -121,11 +121,15 @@ def main():
             "OK" if q["aprobado"] else ""))
         for r in q["reparos"]:
             print("%-11s   \u26a0 %s" % ("", r))
+        for r in q.get("avisos") or []:
+            print("%-11s   i %s" % ("", r))
         for r in q["faltantes"]:
             print("%-11s   \u00b7 %s" % ("", r))
 
+    con_nota = sum(1 for _tk, _a, _h, q in filas if q["aprobado"] and (q.get("avisos") or []))
     print("=" * 94)
-    print("Aprobadas por la puerta de calidad: %d de %d" % (aprobadas, len(filas)))
+    print("Aprobadas por la puerta de calidad: %d de %d (%d con nota)"
+          % (aprobadas, len(filas), con_nota))
     print("Bajadas de 'Sobre benchmark' a 'Con reparos': %d" % degradadas)
     print("")
     print("Backups: *.%s.bak" % STAMP)

@@ -473,6 +473,7 @@
         "aprobado": true,
         "reparos": [],
         "faltantes": [],
+        "avisos": [],
         "bpa_veredicto": "creciente",
         "bpa_cagr_pct": 6.8,
         "bpa_anos": 5,
@@ -963,6 +964,7 @@
         "aprobado": true,
         "reparos": [],
         "faltantes": [],
+        "avisos": [],
         "bpa_veredicto": "creciente",
         "bpa_cagr_pct": 5.6,
         "bpa_anos": 5,
@@ -1453,6 +1455,7 @@
         "aprobado": true,
         "reparos": [],
         "faltantes": [],
+        "avisos": [],
         "bpa_veredicto": "creciente",
         "bpa_cagr_pct": 4.7,
         "bpa_anos": 5,
@@ -1940,6 +1943,7 @@
           "El FCF cubre -0,05x la utilidad de 5 años, bajo el mínimo de 0,70x"
         ],
         "faltantes": [],
+        "avisos": [],
         "bpa_veredicto": "creciente",
         "bpa_cagr_pct": 4.1,
         "bpa_anos": 5,
@@ -2432,6 +2436,7 @@
           "BPA decreciente: -22,4% anual en 5 años"
         ],
         "faltantes": [],
+        "avisos": [],
         "bpa_veredicto": "decreciente",
         "bpa_cagr_pct": -22.4,
         "bpa_anos": 5,
@@ -2924,6 +2929,7 @@
           "BPA irregular: solo 1 de 4 años al alza"
         ],
         "faltantes": [],
+        "avisos": [],
         "bpa_veredicto": "irregular",
         "bpa_cagr_pct": 43.2,
         "bpa_anos": 5,
@@ -3413,6 +3419,7 @@
         "aprobado": true,
         "reparos": [],
         "faltantes": [],
+        "avisos": [],
         "bpa_veredicto": "creciente",
         "bpa_cagr_pct": 14.5,
         "bpa_anos": 5,
@@ -3903,6 +3910,7 @@
         "aprobado": true,
         "reparos": [],
         "faltantes": [],
+        "avisos": [],
         "bpa_veredicto": "creciente",
         "bpa_cagr_pct": 32.4,
         "bpa_anos": 5,
@@ -4395,6 +4403,7 @@
           "BPA decreciente: -14,3% anual en 5 años"
         ],
         "faltantes": [],
+        "avisos": [],
         "bpa_veredicto": "decreciente",
         "bpa_cagr_pct": -14.3,
         "bpa_anos": 5,
@@ -4888,6 +4897,7 @@
           "El FCF cubre 0,47x la utilidad de 5 años, bajo el mínimo de 0,70x"
         ],
         "faltantes": [],
+        "avisos": [],
         "bpa_veredicto": "decreciente",
         "bpa_cagr_pct": -22.6,
         "bpa_anos": 5,
@@ -5375,11 +5385,12 @@
       "per_bpa_ano": 2025,
       "_fecha_dato": "2026-10-21T17:35:45.649283",
       "calidad": {
-        "aprobado": false,
-        "reparos": [
-          "Razón corriente 0,99 bajo 1,0: el pasivo corriente supera al activo corriente"
-        ],
+        "aprobado": true,
+        "reparos": [],
         "faltantes": [],
+        "avisos": [
+          "Razón corriente 0,99, bajo 1,0: maneja el capital de trabajo ajustado. No bloquea porque debe poco (0,35x) y genera más caja que utilidad (1,11x)."
+        ],
         "bpa_veredicto": "creciente",
         "bpa_cagr_pct": 39.2,
         "bpa_anos": 5,
@@ -5859,11 +5870,12 @@
       "per_bpa_ano": 2025,
       "_fecha_dato": "2026-10-21T17:35:45.649283",
       "calidad": {
-        "aprobado": false,
-        "reparos": [
-          "Razón corriente 0,84 bajo 1,0: el pasivo corriente supera al activo corriente"
-        ],
+        "aprobado": true,
+        "reparos": [],
         "faltantes": [],
+        "avisos": [
+          "Razón corriente 0,84, bajo 1,0: maneja el capital de trabajo ajustado. No bloquea porque debe poco (0,47x) y genera más caja que utilidad (2,46x)."
+        ],
         "bpa_veredicto": "creciente",
         "bpa_cagr_pct": 8.2,
         "bpa_anos": 5,
@@ -6354,6 +6366,7 @@
         "aprobado": true,
         "reparos": [],
         "faltantes": [],
+        "avisos": [],
         "bpa_veredicto": "creciente",
         "bpa_cagr_pct": 8.6,
         "bpa_anos": 5,
@@ -6838,6 +6851,7 @@
           "El FCF cubre 0,66x la utilidad de 5 años, bajo el mínimo de 0,70x"
         ],
         "faltantes": [],
+        "avisos": [],
         "bpa_veredicto": "creciente",
         "bpa_cagr_pct": 59.0,
         "bpa_anos": 5,
@@ -7322,6 +7336,7 @@
           "El FCF cubre 0,39x la utilidad de 5 años, bajo el mínimo de 0,70x"
         ],
         "faltantes": [],
+        "avisos": [],
         "bpa_veredicto": "creciente",
         "bpa_cagr_pct": 135.5,
         "bpa_anos": 5,
@@ -7814,6 +7829,7 @@
           "BPA decreciente: -12,4% anual en 5 años"
         ],
         "faltantes": [],
+        "avisos": [],
         "bpa_veredicto": "decreciente",
         "bpa_cagr_pct": -12.4,
         "bpa_anos": 5,
@@ -8300,6 +8316,7 @@
         "aprobado": true,
         "reparos": [],
         "faltantes": [],
+        "avisos": [],
         "bpa_veredicto": "creciente",
         "bpa_cagr_pct": 6.0,
         "bpa_anos": 5,
@@ -8321,5 +8338,5 @@
       }
     }
   ],
-  "calidad_recalculada": "2026-10-23T22:10:56.825847"
+  "calidad_recalculada": "2026-10-23T22:27:14.993043"
 }

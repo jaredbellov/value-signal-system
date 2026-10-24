@@ -26,8 +26,29 @@ LOG_DIR.mkdir(exist_ok=True)
 LOG_FILE = LOG_DIR / "news.log"
 
 
+_PLAN_B_ESCRITURA = frozenset({
+    "add", "commit", "push", "pull", "fetch", "rebase", "merge",
+    "reset", "checkout", "switch", "stash", "cherry-pick", "revert",
+    "rm", "mv", "tag", "am", "apply", "restore", "clean",
+})
+
+
+def _plan_b_es_escritura(args):
+    """True si el comando git modificaria el repo o el remoto."""
+    for a in (args or []):
+        if isinstance(a, str) and not a.startswith("-"):
+            return a in _PLAN_B_ESCRITURA
+    return False
+
+
 def ejecutar_git(args, cwd=None):
     """Ejecuta un comando git y devuelve (exit_code, stdout, stderr)."""
+    # [PLAN-B] Solo publicar.py toca git. Los comandos de escritura se
+    # ignoran aqui para que no quede el repo adelantado respecto al remoto.
+    if _plan_b_es_escritura(args):
+        log.info("[PLAN-B] git %s ignorado: publicar.py se encarga de publicar"
+                 % " ".join(str(a) for a in args))
+        return 0, "", ""
     cwd = cwd or SCRIPT_DIR
     try:
         result = subprocess.run(
@@ -467,27 +488,12 @@ def main():
     log.info(f"Cambios: {len(nuevos)} nuevos, {len(quitados)} quitados")
 
     if hubo_cambios:
-        log.info("--- Hay cambios: committing ---")
-        code, out, err = ejecutar_git(["add", "noticias_watchlist.json"])
-        if code != 0:
-            log.error(f"git add fallo: {err}")
-            return
-
-        ts = datetime.now().strftime("%Y-%m-%d %H:%M")
-        msg = f"chore: update noticias watchlist {ts} (+{len(nuevos)}/-{len(quitados)}) [skip ci]"
-        code, out, err = ejecutar_git(["commit", "-m", msg])
-        if code != 0:
-            log.warning(f"git commit dijo: {out or err}")
-        else:
-            log.info("git commit OK")
-
-        code, out, err = ejecutar_git(["push"])
-        if code != 0:
-            log.error(f"git push fallo: {err}")
-            return
-        log.info("git push OK")
+        # [PLAN-B] El JSON ya quedo escrito en disco. No se commitea nada
+        # aqui: publicar.py hace add/commit/pull/push cada 15 minutos.
+        log.info(f"Hay cambios ({len(nuevos)} nuevos, {len(quitados)} quitados): "
+                 f"publicar.py los subira en su proxima pasada")
     else:
-        log.info("Sin cambios en links, no commiteo")
+        log.info("Sin cambios en links")
 
     log.info(f"=== FIN ({datetime.now().strftime('%H:%M:%S')}) ===")
 

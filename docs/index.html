@@ -2118,8 +2118,10 @@ function calidadBlock(a){
     det+=`<div style="margin-top:8px">${q.reparos.map(r=>`<div>\u26a0\ufe0f ${esc(r)}</div>`).join("")}</div>`;
   if(q.faltantes&&q.faltantes.length)
     det+=`<div class="muted" style="margin-top:6px">${q.faltantes.map(r=>`<div>\u00b7 ${esc(r)}</div>`).join("")}</div>`;
+  if(q.avisos&&q.avisos.length)
+    det+=`<div style="margin-top:8px;padding:8px 10px;border-radius:6px;background:rgba(127,127,127,.10);line-height:1.45">${q.avisos.map(r=>`<div>\u2139\ufe0f ${esc(r)}</div>`).join("")}</div>`;
   return `<div class="card" style="margin:10px 0;border-left:3px solid ${ok?"var(--z-opp)":"var(--z-neu)"}">`
-    +`<div class="sec-t">${ok?"\u2705":"\u26a0\ufe0f"} Puerta de calidad \u2014 ${ok?"aprobada":"con reparos"}</div>`
+    +`<div class="sec-t">${ok?"\u2705":"\u26a0\ufe0f"} Puerta de calidad \u2014 ${ok?((q.avisos&&q.avisos.length)?"aprobada con nota":"aprobada"):"con reparos"}</div>`
     +row(bpaPasa,"BPA creciente",bpaDet)
     +row(endPasa,"Deuda sana",endDet)
     +row(fcfPasa,"El flujo de caja acompa\u00f1a la utilidad",fcfDet)

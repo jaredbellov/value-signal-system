@@ -304,6 +304,8 @@ CAL_ENDEUD_MAX_X      = 1.5    # pasivo / patrimonio
 CAL_ENDEUD_MAX_FIN_X  = 3.0    # AFP / banco / seguro (apalancamiento estructural)
 CAL_CORRIENTE_MIN     = 1.0
 CAL_FCF_COBERTURA_MIN = 0.7
+CAL_SOLVENTE_ENDEUD_MAX = 1.0   # debe poco en total
+CAL_SOLVENTE_FCF_MIN    = 1.0   # genera mas caja que utilidad
 CAL_MIN_ANOS          = 3
 
 
@@ -390,6 +392,7 @@ def evaluar_calidad(resultado):
 
     reparos = []    # falla comprobada
     faltantes = []  # no se puede verificar por falta de dato
+    avisos = []     # a la vista, pero no bloquea
 
     # --- 1) BPA creciente -------------------------------------------------
     v = bpa["veredicto"]
@@ -420,8 +423,21 @@ def evaluar_calidad(resultado):
         if corr is None:
             faltantes.append(u"Razón corriente: sin dato en la CMF")
         elif float(corr) < CAL_CORRIENTE_MIN:
-            reparos.append(u"Razón corriente %s bajo 1,0: el pasivo corriente supera al activo corriente"
-                           % _cal_num(corr))
+            # Solvencia ya demostrada por los otros dos lados: debe poco
+            # y genera mas caja que utilidad. Capital de trabajo ajustado
+            # a proposito (malls, electricas) no es aprieto de caja.
+            _solvente = (end_x is not None and end_x < CAL_SOLVENTE_ENDEUD_MAX
+                         and fcf["cobertura"] is not None
+                         and fcf["cobertura"] > CAL_SOLVENTE_FCF_MIN)
+            if _solvente:
+                avisos.append(
+                    u"Razón corriente %s, bajo 1,0: maneja el capital de trabajo ajustado. "
+                    u"No bloquea porque debe poco (%sx) y genera más caja que utilidad (%sx)."
+                    % (_cal_num(corr), _cal_num(end_x), _cal_num(fcf["cobertura"])))
+            else:
+                reparos.append(
+                    u"Razón corriente %s bajo 1,0: el pasivo corriente supera al activo corriente"
+                    % _cal_num(corr))
 
     # --- 3) FCF acompana la utilidad --------------------------------------
     if fcf["cobertura"] is None:
@@ -438,6 +454,7 @@ def evaluar_calidad(resultado):
         "aprobado": (not reparos) and (not faltantes),
         "reparos": reparos,
         "faltantes": faltantes,
+        "avisos": avisos,
         "bpa_veredicto": bpa["veredicto"],
         "bpa_cagr_pct": bpa["cagr_pct"],
         "bpa_anos": bpa["anos"],
