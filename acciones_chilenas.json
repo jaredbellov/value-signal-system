@@ -468,7 +468,30 @@
       ],
       "per": 7.9,
       "per_bpa_ano": 2025,
-      "_fecha_dato": "2026-10-21T17:35:45.649283"
+      "_fecha_dato": "2026-10-21T17:35:45.649283",
+      "calidad": {
+        "aprobado": true,
+        "reparos": [],
+        "faltantes": [],
+        "bpa_veredicto": "creciente",
+        "bpa_cagr_pct": 6.8,
+        "bpa_anos": 5,
+        "bpa_subidas": 3,
+        "bpa_variaciones": 4,
+        "endeudamiento_x": 0.45,
+        "endeudamiento_max_x": 3.0,
+        "razon_corriente": 0.88,
+        "es_financiera": true,
+        "fcf_cobertura": 0.86,
+        "fcf_anos": 5,
+        "ventana_anos": 5,
+        "umbrales": {
+          "bpa_cagr_min_pct": 2.0,
+          "endeudamiento_max_x": 3.0,
+          "corriente_min": 1.0,
+          "fcf_cobertura_min": 0.7
+        }
+      }
     },
     {
       "ticker": "ZOFRI",
@@ -935,7 +958,30 @@
       ],
       "per": 11.1,
       "per_bpa_ano": 2025,
-      "_fecha_dato": "2026-10-21T17:35:45.649283"
+      "_fecha_dato": "2026-10-21T17:35:45.649283",
+      "calidad": {
+        "aprobado": true,
+        "reparos": [],
+        "faltantes": [],
+        "bpa_veredicto": "creciente",
+        "bpa_cagr_pct": 5.6,
+        "bpa_anos": 5,
+        "bpa_subidas": 4,
+        "bpa_variaciones": 4,
+        "endeudamiento_x": 0.5,
+        "endeudamiento_max_x": 1.5,
+        "razon_corriente": 1.97,
+        "es_financiera": false,
+        "fcf_cobertura": 1.02,
+        "fcf_anos": 5,
+        "ventana_anos": 5,
+        "umbrales": {
+          "bpa_cagr_min_pct": 2.0,
+          "endeudamiento_max_x": 1.5,
+          "corriente_min": 1.0,
+          "fcf_cobertura_min": 0.7
+        }
+      }
     },
     {
       "ticker": "PEHUENCHE",
@@ -1402,7 +1448,30 @@
       ],
       "per": 13.3,
       "per_bpa_ano": 2025,
-      "_fecha_dato": "2026-10-21T17:35:45.649283"
+      "_fecha_dato": "2026-10-21T17:35:45.649283",
+      "calidad": {
+        "aprobado": true,
+        "reparos": [],
+        "faltantes": [],
+        "bpa_veredicto": "creciente",
+        "bpa_cagr_pct": 4.7,
+        "bpa_anos": 5,
+        "bpa_subidas": 2,
+        "bpa_variaciones": 4,
+        "endeudamiento_x": 0.25,
+        "endeudamiento_max_x": 1.5,
+        "razon_corriente": 2.41,
+        "es_financiera": false,
+        "fcf_cobertura": 1.35,
+        "fcf_anos": 5,
+        "ventana_anos": 5,
+        "umbrales": {
+          "bpa_cagr_min_pct": 2.0,
+          "endeudamiento_max_x": 1.5,
+          "corriente_min": 1.0,
+          "fcf_cobertura_min": 0.7
+        }
+      }
     },
     {
       "ticker": "TRICAHUE",
@@ -1864,7 +1933,32 @@
       ],
       "per": 16.1,
       "per_bpa_ano": 2025,
-      "_fecha_dato": "2026-10-21T17:35:45.649283"
+      "_fecha_dato": "2026-10-21T17:35:45.649283",
+      "calidad": {
+        "aprobado": false,
+        "reparos": [
+          "El FCF cubre -0,05x la utilidad de 5 años, bajo el mínimo de 0,70x"
+        ],
+        "faltantes": [],
+        "bpa_veredicto": "creciente",
+        "bpa_cagr_pct": 4.1,
+        "bpa_anos": 5,
+        "bpa_subidas": 2,
+        "bpa_variaciones": 4,
+        "endeudamiento_x": 0.19,
+        "endeudamiento_max_x": 1.5,
+        "razon_corriente": 2.07,
+        "es_financiera": false,
+        "fcf_cobertura": -0.05,
+        "fcf_anos": 5,
+        "ventana_anos": 5,
+        "umbrales": {
+          "bpa_cagr_min_pct": 2.0,
+          "endeudamiento_max_x": 1.5,
+          "corriente_min": 1.0,
+          "fcf_cobertura_min": 0.7
+        }
+      }
     },
     {
       "ticker": "COLBUN",
@@ -2331,7 +2425,32 @@
       ],
       "per": 15.9,
       "per_bpa_ano": 2025,
-      "_fecha_dato": "2026-10-21T17:35:45.649283"
+      "_fecha_dato": "2026-10-21T17:35:45.649283",
+      "calidad": {
+        "aprobado": false,
+        "reparos": [
+          "BPA decreciente: -22,4% anual en 5 años"
+        ],
+        "faltantes": [],
+        "bpa_veredicto": "decreciente",
+        "bpa_cagr_pct": -22.4,
+        "bpa_anos": 5,
+        "bpa_subidas": 1,
+        "bpa_variaciones": 4,
+        "endeudamiento_x": 0.54,
+        "endeudamiento_max_x": 1.5,
+        "razon_corriente": 3.15,
+        "es_financiera": false,
+        "fcf_cobertura": 1.25,
+        "fcf_anos": 5,
+        "ventana_anos": 5,
+        "umbrales": {
+          "bpa_cagr_min_pct": 2.0,
+          "endeudamiento_max_x": 1.5,
+          "corriente_min": 1.0,
+          "fcf_cobertura_min": 0.7
+        }
+      }
     },
     {
       "ticker": "ENELGXCH",
@@ -2798,7 +2917,32 @@
       ],
       "per": 10.0,
       "per_bpa_ano": 2025,
-      "_fecha_dato": "2026-10-21T17:35:45.649283"
+      "_fecha_dato": "2026-10-21T17:35:45.649283",
+      "calidad": {
+        "aprobado": false,
+        "reparos": [
+          "BPA irregular: solo 1 de 4 años al alza"
+        ],
+        "faltantes": [],
+        "bpa_veredicto": "irregular",
+        "bpa_cagr_pct": 43.2,
+        "bpa_anos": 5,
+        "bpa_subidas": 1,
+        "bpa_variaciones": 4,
+        "endeudamiento_x": 0.34,
+        "endeudamiento_max_x": 1.5,
+        "razon_corriente": 1.23,
+        "es_financiera": false,
+        "fcf_cobertura": 1.24,
+        "fcf_anos": 5,
+        "ventana_anos": 5,
+        "umbrales": {
+          "bpa_cagr_min_pct": 2.0,
+          "endeudamiento_max_x": 1.5,
+          "corriente_min": 1.0,
+          "fcf_cobertura_min": 0.7
+        }
+      }
     },
     {
       "ticker": "LIPIGAS",
@@ -3264,7 +3408,30 @@
       ],
       "per": 14.5,
       "per_bpa_ano": 2025,
-      "_fecha_dato": "2026-10-21T17:35:45.649283"
+      "_fecha_dato": "2026-10-21T17:35:45.649283",
+      "calidad": {
+        "aprobado": true,
+        "reparos": [],
+        "faltantes": [],
+        "bpa_veredicto": "creciente",
+        "bpa_cagr_pct": 14.5,
+        "bpa_anos": 5,
+        "bpa_subidas": 2,
+        "bpa_variaciones": 4,
+        "endeudamiento_x": 0.68,
+        "endeudamiento_max_x": 1.5,
+        "razon_corriente": 1.64,
+        "es_financiera": false,
+        "fcf_cobertura": 1.69,
+        "fcf_anos": 5,
+        "ventana_anos": 5,
+        "umbrales": {
+          "bpa_cagr_min_pct": 2.0,
+          "endeudamiento_max_x": 1.5,
+          "corriente_min": 1.0,
+          "fcf_cobertura_min": 0.7
+        }
+      }
     },
     {
       "ticker": "NTGCLGAS",
@@ -3731,7 +3898,30 @@
       ],
       "per": 9.8,
       "per_bpa_ano": 2025,
-      "_fecha_dato": "2026-10-21T17:35:45.649283"
+      "_fecha_dato": "2026-10-21T17:35:45.649283",
+      "calidad": {
+        "aprobado": true,
+        "reparos": [],
+        "faltantes": [],
+        "bpa_veredicto": "creciente",
+        "bpa_cagr_pct": 32.4,
+        "bpa_anos": 5,
+        "bpa_subidas": 2,
+        "bpa_variaciones": 4,
+        "endeudamiento_x": 0.43,
+        "endeudamiento_max_x": 1.5,
+        "razon_corriente": 1.7,
+        "es_financiera": false,
+        "fcf_cobertura": 2.38,
+        "fcf_anos": 5,
+        "ventana_anos": 5,
+        "umbrales": {
+          "bpa_cagr_min_pct": 2.0,
+          "endeudamiento_max_x": 1.5,
+          "corriente_min": 1.0,
+          "fcf_cobertura_min": 0.7
+        }
+      }
     },
     {
       "ticker": "SOQUICOM",
@@ -4198,7 +4388,32 @@
       ],
       "per": 14.6,
       "per_bpa_ano": 2025,
-      "_fecha_dato": "2026-10-21T17:35:45.649283"
+      "_fecha_dato": "2026-10-21T17:35:45.649283",
+      "calidad": {
+        "aprobado": false,
+        "reparos": [
+          "BPA decreciente: -14,3% anual en 5 años"
+        ],
+        "faltantes": [],
+        "bpa_veredicto": "decreciente",
+        "bpa_cagr_pct": -14.3,
+        "bpa_anos": 5,
+        "bpa_subidas": 1,
+        "bpa_variaciones": 4,
+        "endeudamiento_x": 0.45,
+        "endeudamiento_max_x": 1.5,
+        "razon_corriente": 2.29,
+        "es_financiera": false,
+        "fcf_cobertura": 0.87,
+        "fcf_anos": 5,
+        "ventana_anos": 5,
+        "umbrales": {
+          "bpa_cagr_min_pct": 2.0,
+          "endeudamiento_max_x": 1.5,
+          "corriente_min": 1.0,
+          "fcf_cobertura_min": 0.7
+        }
+      }
     },
     {
       "ticker": "QUINENCO",
@@ -4665,7 +4880,33 @@
       ],
       "per": 11.4,
       "per_bpa_ano": 2025,
-      "_fecha_dato": "2026-10-21T17:35:45.649283"
+      "_fecha_dato": "2026-10-21T17:35:45.649283",
+      "calidad": {
+        "aprobado": false,
+        "reparos": [
+          "BPA decreciente: -22,6% anual en 5 años",
+          "El FCF cubre 0,47x la utilidad de 5 años, bajo el mínimo de 0,70x"
+        ],
+        "faltantes": [],
+        "bpa_veredicto": "decreciente",
+        "bpa_cagr_pct": -22.6,
+        "bpa_anos": 5,
+        "bpa_subidas": 2,
+        "bpa_variaciones": 4,
+        "endeudamiento_x": 0.77,
+        "endeudamiento_max_x": 1.5,
+        "razon_corriente": 3.82,
+        "es_financiera": false,
+        "fcf_cobertura": 0.47,
+        "fcf_anos": 5,
+        "ventana_anos": 5,
+        "umbrales": {
+          "bpa_cagr_min_pct": 2.0,
+          "endeudamiento_max_x": 1.5,
+          "corriente_min": 1.0,
+          "fcf_cobertura_min": 0.7
+        }
+      }
     },
     {
       "ticker": "CENCOMALLS",
@@ -5132,7 +5373,32 @@
       ],
       "per": 12.7,
       "per_bpa_ano": 2025,
-      "_fecha_dato": "2026-10-21T17:35:45.649283"
+      "_fecha_dato": "2026-10-21T17:35:45.649283",
+      "calidad": {
+        "aprobado": false,
+        "reparos": [
+          "Razón corriente 0,99 bajo 1,0: el pasivo corriente supera al activo corriente"
+        ],
+        "faltantes": [],
+        "bpa_veredicto": "creciente",
+        "bpa_cagr_pct": 39.2,
+        "bpa_anos": 5,
+        "bpa_subidas": 4,
+        "bpa_variaciones": 4,
+        "endeudamiento_x": 0.35,
+        "endeudamiento_max_x": 1.5,
+        "razon_corriente": 0.99,
+        "es_financiera": false,
+        "fcf_cobertura": 1.11,
+        "fcf_anos": 5,
+        "ventana_anos": 5,
+        "umbrales": {
+          "bpa_cagr_min_pct": 2.0,
+          "endeudamiento_max_x": 1.5,
+          "corriente_min": 1.0,
+          "fcf_cobertura_min": 0.7
+        }
+      }
     },
     {
       "ticker": "ENELAM",
@@ -5591,7 +5857,32 @@
       ],
       "per": 10.8,
       "per_bpa_ano": 2025,
-      "_fecha_dato": "2026-10-21T17:35:45.649283"
+      "_fecha_dato": "2026-10-21T17:35:45.649283",
+      "calidad": {
+        "aprobado": false,
+        "reparos": [
+          "Razón corriente 0,84 bajo 1,0: el pasivo corriente supera al activo corriente"
+        ],
+        "faltantes": [],
+        "bpa_veredicto": "creciente",
+        "bpa_cagr_pct": 8.2,
+        "bpa_anos": 5,
+        "bpa_subidas": 2,
+        "bpa_variaciones": 4,
+        "endeudamiento_x": 0.47,
+        "endeudamiento_max_x": 1.5,
+        "razon_corriente": 0.84,
+        "es_financiera": false,
+        "fcf_cobertura": 2.46,
+        "fcf_anos": 5,
+        "ventana_anos": 5,
+        "umbrales": {
+          "bpa_cagr_min_pct": 2.0,
+          "endeudamiento_max_x": 1.5,
+          "corriente_min": 1.0,
+          "fcf_cobertura_min": 0.7
+        }
+      }
     },
     {
       "ticker": "AGUAS-A",
@@ -6058,7 +6349,30 @@
       ],
       "per": 13.7,
       "per_bpa_ano": 2025,
-      "_fecha_dato": "2026-10-21T17:35:45.649283"
+      "_fecha_dato": "2026-10-21T17:35:45.649283",
+      "calidad": {
+        "aprobado": true,
+        "reparos": [],
+        "faltantes": [],
+        "bpa_veredicto": "creciente",
+        "bpa_cagr_pct": 8.6,
+        "bpa_anos": 5,
+        "bpa_subidas": 2,
+        "bpa_variaciones": 4,
+        "endeudamiento_x": 0.58,
+        "endeudamiento_max_x": 1.5,
+        "razon_corriente": 1.35,
+        "es_financiera": false,
+        "fcf_cobertura": 1.39,
+        "fcf_anos": 5,
+        "ventana_anos": 5,
+        "umbrales": {
+          "bpa_cagr_min_pct": 2.0,
+          "endeudamiento_max_x": 1.5,
+          "corriente_min": 1.0,
+          "fcf_cobertura_min": 0.7
+        }
+      }
     },
     {
       "ticker": "PARAUCO",
@@ -6517,7 +6831,32 @@
       ],
       "per": 23.1,
       "per_bpa_ano": 2025,
-      "_fecha_dato": "2026-10-21T17:35:45.649283"
+      "_fecha_dato": "2026-10-21T17:35:45.649283",
+      "calidad": {
+        "aprobado": false,
+        "reparos": [
+          "El FCF cubre 0,66x la utilidad de 5 años, bajo el mínimo de 0,70x"
+        ],
+        "faltantes": [],
+        "bpa_veredicto": "creciente",
+        "bpa_cagr_pct": 59.0,
+        "bpa_anos": 5,
+        "bpa_subidas": 4,
+        "bpa_variaciones": 4,
+        "endeudamiento_x": 0.51,
+        "endeudamiento_max_x": 1.5,
+        "razon_corriente": 1.17,
+        "es_financiera": false,
+        "fcf_cobertura": 0.66,
+        "fcf_anos": 5,
+        "ventana_anos": 5,
+        "umbrales": {
+          "bpa_cagr_min_pct": 2.0,
+          "endeudamiento_max_x": 1.5,
+          "corriente_min": 1.0,
+          "fcf_cobertura_min": 0.7
+        }
+      }
     },
     {
       "ticker": "MALLPLAZA",
@@ -6976,7 +7315,32 @@
       ],
       "per": 5.5,
       "per_bpa_ano": 2025,
-      "_fecha_dato": "2026-10-21T17:35:45.649283"
+      "_fecha_dato": "2026-10-21T17:35:45.649283",
+      "calidad": {
+        "aprobado": false,
+        "reparos": [
+          "El FCF cubre 0,39x la utilidad de 5 años, bajo el mínimo de 0,70x"
+        ],
+        "faltantes": [],
+        "bpa_veredicto": "creciente",
+        "bpa_cagr_pct": 135.5,
+        "bpa_anos": 5,
+        "bpa_subidas": 3,
+        "bpa_variaciones": 4,
+        "endeudamiento_x": 0.39,
+        "endeudamiento_max_x": 1.5,
+        "razon_corriente": 2.5,
+        "es_financiera": false,
+        "fcf_cobertura": 0.39,
+        "fcf_anos": 5,
+        "ventana_anos": 5,
+        "umbrales": {
+          "bpa_cagr_min_pct": 2.0,
+          "endeudamiento_max_x": 1.5,
+          "corriente_min": 1.0,
+          "fcf_cobertura_min": 0.7
+        }
+      }
     },
     {
       "ticker": "CCU",
@@ -7443,7 +7807,32 @@
       ],
       "per": 16.7,
       "per_bpa_ano": 2025,
-      "_fecha_dato": "2026-10-21T17:35:45.649283"
+      "_fecha_dato": "2026-10-21T17:35:45.649283",
+      "calidad": {
+        "aprobado": false,
+        "reparos": [
+          "BPA decreciente: -12,4% anual en 5 años"
+        ],
+        "faltantes": [],
+        "bpa_veredicto": "decreciente",
+        "bpa_cagr_pct": -12.4,
+        "bpa_anos": 5,
+        "bpa_subidas": 1,
+        "bpa_variaciones": 4,
+        "endeudamiento_x": 0.55,
+        "endeudamiento_max_x": 1.5,
+        "razon_corriente": 1.84,
+        "es_financiera": false,
+        "fcf_cobertura": 0.97,
+        "fcf_anos": 5,
+        "ventana_anos": 5,
+        "umbrales": {
+          "bpa_cagr_min_pct": 2.0,
+          "endeudamiento_max_x": 1.5,
+          "corriente_min": 1.0,
+          "fcf_cobertura_min": 0.7
+        }
+      }
     },
     {
       "ticker": "OXIQUIM",
@@ -7906,7 +8295,31 @@
       ],
       "per": 15.5,
       "per_bpa_ano": 2025,
-      "_fecha_dato": "2026-10-21T17:35:45.649283"
+      "_fecha_dato": "2026-10-21T17:35:45.649283",
+      "calidad": {
+        "aprobado": true,
+        "reparos": [],
+        "faltantes": [],
+        "bpa_veredicto": "creciente",
+        "bpa_cagr_pct": 6.0,
+        "bpa_anos": 5,
+        "bpa_subidas": 2,
+        "bpa_variaciones": 4,
+        "endeudamiento_x": 0.5,
+        "endeudamiento_max_x": 1.5,
+        "razon_corriente": 1.93,
+        "es_financiera": false,
+        "fcf_cobertura": 0.95,
+        "fcf_anos": 5,
+        "ventana_anos": 5,
+        "umbrales": {
+          "bpa_cagr_min_pct": 2.0,
+          "endeudamiento_max_x": 1.5,
+          "corriente_min": 1.0,
+          "fcf_cobertura_min": 0.7
+        }
+      }
     }
-  ]
+  ],
+  "calidad_recalculada": "2026-10-23T22:10:56.825847"
 }

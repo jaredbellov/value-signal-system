@@ -294,6 +294,171 @@ def calcular_dy_jared(divs, precio_actual):
     }
 
 
+# ---------------------------------------------------------------------------
+# PUERTA DE CALIDAD (BPA creciente + deuda sana + FCF que acompana)
+# Criterios de empresa dividendera. Una accion solo puede marcar
+# "Sobre benchmark" si pasa los tres. Si falla alguno -> "Con reparos".
+# ---------------------------------------------------------------------------
+CAL_BPA_CAGR_MIN      = 0.02   # +2% anual minimo para llamarlo creciente
+CAL_ENDEUD_MAX_X      = 1.5    # pasivo / patrimonio
+CAL_ENDEUD_MAX_FIN_X  = 3.0    # AFP / banco / seguro (apalancamiento estructural)
+CAL_CORRIENTE_MIN     = 1.0
+CAL_FCF_COBERTURA_MIN = 0.7
+CAL_MIN_ANOS          = 3
+
+
+def _cal_num(v, d=2):
+    """Numero con coma decimal, como se muestra en la pagina."""
+    if v is None:
+        return "s/d"
+    return ("%.*f" % (d, float(v))).replace(".", ",")
+
+
+def _cal_es_financiera(sector, nombre):
+    txt = ((sector or "") + " " + (nombre or "")).lower()
+    return any(k in txt for k in ("afp", "banco", "seguro", "financ"))
+
+
+def _cal_bpa_tendencia(bpa_5y):
+    """Tendencia del BPA sobre los cierres anuales disponibles."""
+    pts = sorted(
+        [(r.get("ano"), r.get("bpa")) for r in (bpa_5y or [])
+         if r.get("ano") and r.get("bpa") is not None],
+        key=lambda t: t[0],
+    )
+    base = {"veredicto": "sin datos", "cagr_pct": None, "anos": len(pts),
+            "subidas": None, "variaciones": None}
+    if len(pts) < CAL_MIN_ANOS:
+        return base
+    primero, ultimo = float(pts[0][1]), float(pts[-1][1])
+    n = len(pts) - 1
+    subidas = sum(1 for i in range(n) if pts[i + 1][1] > pts[i][1])
+    base.update({"anos": len(pts), "subidas": subidas, "variaciones": n})
+    if ultimo <= 0:
+        base["veredicto"] = "perdidas"
+        return base
+    if primero <= 0:
+        # salio de perdidas: lo juzgamos por la mayoria de anos al alza
+        base["veredicto"] = "creciente" if subidas > n / 2.0 else "irregular"
+        return base
+    cagr = (ultimo / primero) ** (1.0 / n) - 1.0
+    base["cagr_pct"] = round(cagr * 100, 1)
+    if cagr > CAL_BPA_CAGR_MIN and subidas >= n / 2.0:
+        base["veredicto"] = "creciente"
+    elif cagr > CAL_BPA_CAGR_MIN:
+        base["veredicto"] = "irregular"
+    elif cagr < -CAL_BPA_CAGR_MIN:
+        base["veredicto"] = "decreciente"
+    else:
+        base["veredicto"] = "plano"
+    return base
+
+
+def _cal_fcf_cobertura(flujos_5y):
+    """FCF acumulado / Utilidad acumulada. Acumulado y no ano a ano porque el
+    CAPEX es irregular: un ano de inversion fuerte no es una senal contable mala."""
+    u = f = 0.0
+    n = 0
+    for r in (flujos_5y or []):
+        ut, fc = r.get("utilidad"), r.get("fcf")
+        if ut is None or fc is None:
+            continue
+        u += float(ut)
+        f += float(fc)
+        n += 1
+    out = {"cobertura": None, "anos": n, "utilidad_acum": None, "fcf_acum": None}
+    if n < CAL_MIN_ANOS:
+        return out
+    out["utilidad_acum"] = u
+    out["fcf_acum"] = f
+    if u > 0:
+        out["cobertura"] = round(f / u, 2)
+    return out
+
+
+def evaluar_calidad(resultado):
+    """Devuelve el veredicto de calidad de la empresa (independiente del precio)."""
+    fin = _cal_es_financiera(resultado.get("sector"), resultado.get("nombre"))
+    bpa = _cal_bpa_tendencia(resultado.get("bpa_5y"))
+    fcf = _cal_fcf_cobertura(resultado.get("flujos_5y"))
+    cmf = resultado.get("cmf") or {}
+
+    end_pct = cmf.get("razon_endeudamiento_pct")
+    end_x = round(float(end_pct) / 100.0, 2) if isinstance(end_pct, (int, float)) else None
+    corr = cmf.get("razon_corriente")
+    end_max = CAL_ENDEUD_MAX_FIN_X if fin else CAL_ENDEUD_MAX_X
+
+    reparos = []    # falla comprobada
+    faltantes = []  # no se puede verificar por falta de dato
+
+    # --- 1) BPA creciente -------------------------------------------------
+    v = bpa["veredicto"]
+    if v == "creciente":
+        pass
+    elif v == "sin datos":
+        faltantes.append(u"BPA: menos de %d cierres anuales disponibles" % CAL_MIN_ANOS)
+    elif v == "decreciente":
+        reparos.append(u"BPA decreciente: %s%% anual en %d años"
+                       % (_cal_num(bpa["cagr_pct"], 1), bpa["anos"]))
+    elif v == "plano":
+        reparos.append(u"BPA plano: %s%% anual, no alcanza a ser creciente"
+                       % _cal_num(bpa["cagr_pct"], 1))
+    elif v == "perdidas":
+        reparos.append(u"BPA negativo en el último cierre anual")
+    else:
+        reparos.append(u"BPA irregular: solo %s de %s años al alza"
+                       % (bpa["subidas"], bpa["variaciones"]))
+
+    # --- 2) Deuda sana ----------------------------------------------------
+    if end_x is None:
+        faltantes.append(u"Endeudamiento: sin dato en la CMF")
+    elif end_x > end_max:
+        reparos.append(u"Endeudamiento %sx sobre el máximo de %sx%s"
+                       % (_cal_num(end_x), _cal_num(end_max, 1),
+                          u" para financieras" if fin else u""))
+    if not fin:
+        if corr is None:
+            faltantes.append(u"Razón corriente: sin dato en la CMF")
+        elif float(corr) < CAL_CORRIENTE_MIN:
+            reparos.append(u"Razón corriente %s bajo 1,0: el pasivo corriente supera al activo corriente"
+                           % _cal_num(corr))
+
+    # --- 3) FCF acompana la utilidad --------------------------------------
+    if fcf["cobertura"] is None:
+        if fcf["anos"] >= CAL_MIN_ANOS and (fcf["utilidad_acum"] or 0) <= 0:
+            reparos.append(u"Utilidad acumulada negativa en %d años" % fcf["anos"])
+        else:
+            faltantes.append(u"FCF: menos de %d años de flujos disponibles" % CAL_MIN_ANOS)
+    elif fcf["cobertura"] < CAL_FCF_COBERTURA_MIN:
+        reparos.append(u"El FCF cubre %sx la utilidad de %d años, bajo el mínimo de %sx"
+                       % (_cal_num(fcf["cobertura"]), fcf["anos"],
+                          _cal_num(CAL_FCF_COBERTURA_MIN)))
+
+    return {
+        "aprobado": (not reparos) and (not faltantes),
+        "reparos": reparos,
+        "faltantes": faltantes,
+        "bpa_veredicto": bpa["veredicto"],
+        "bpa_cagr_pct": bpa["cagr_pct"],
+        "bpa_anos": bpa["anos"],
+        "bpa_subidas": bpa["subidas"],
+        "bpa_variaciones": bpa["variaciones"],
+        "endeudamiento_x": end_x,
+        "endeudamiento_max_x": end_max,
+        "razon_corriente": corr,
+        "es_financiera": fin,
+        "fcf_cobertura": fcf["cobertura"],
+        "fcf_anos": fcf["anos"],
+        "ventana_anos": max(bpa["anos"] or 0, fcf["anos"] or 0),
+        "umbrales": {
+            "bpa_cagr_min_pct": CAL_BPA_CAGR_MIN * 100,
+            "endeudamiento_max_x": end_max,
+            "corriente_min": CAL_CORRIENTE_MIN,
+            "fcf_cobertura_min": CAL_FCF_COBERTURA_MIN,
+        },
+    }
+
+
 def evaluar_vs_benchmark(dy_pct, benchmark_min, benchmark_max):
     """
     Compara DY actual vs benchmark del ticker.
@@ -529,6 +694,13 @@ async def analizar_ticker(ticker_config, bcs_client):
         if not resultado["error"]:
             resultado["error"] = f"CMF: {e}"
 
+    # --- puerta de calidad: primero empresa, despues precio -----------------
+    resultado["calidad"] = evaluar_calidad(resultado)
+    _ev_cal = resultado.get("evaluacion") or {}
+    if _ev_cal.get("status") == "Sobre benchmark" and not resultado["calidad"]["aprobado"]:
+        _ev_cal["status_original"] = "Sobre benchmark"
+        _ev_cal["status"] = "Con reparos"
+        _ev_cal["emoji"] = "⚠️"
     return resultado
 
 

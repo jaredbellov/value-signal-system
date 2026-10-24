@@ -1598,7 +1598,7 @@ function renderHome(){
     </div>
     <div class="acc-body">
       ${rest.length?`<div class="sub-lbl">Activos con score · NEUTRAL / CARO</div><div class="opp-grid" style="margin-bottom:16px">${rest.map(a=>assetCard(a)).join("")}</div>`:""}
-      ${clRest.length?`<div class="sub-lbl">${flag('cl')} Chilenas dentro / bajo benchmark</div><div class="mini-grid" style="margin-bottom:16px">${clRest.map(a=>oppCardCL(a)).join("")}</div>`:""}
+      ${clRest.length?`<div class="sub-lbl">${flag('cl')} Chilenas dentro / bajo benchmark o con reparos</div><div class="mini-grid" style="margin-bottom:16px">${clRest.map(a=>oppCardCL(a)).join("")}</div>`:""}
       ${usRest.length?`<div class="sub-lbl">${flag('us')} USA a precio razonable o caro</div><div class="mini-grid">${usRest.map(a=>oppCardUS(a)).join("")}</div>`:""}
     </div>
   </div>`;
@@ -2092,6 +2092,44 @@ function clPP(a){
 
 /* ---------- salud financiera: acción chilena (datos CMF) ---------- */
 /* ---------- Deteccion de utilidades infladas por partidas no operacionales ---------- */
+function calidadBlock(a){
+  const q=a.calidad; if(!q) return "";
+  const esc=s=>String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+  const ok=!!q.aprobado;
+  const num=(v,d)=>v==null?"s/d":(Number(v).toFixed(d===undefined?2:d)).replace(".",",");
+  const fx=v=>v==null?"s/d":num(v,2)+"x";
+  const fp=v=>v==null?"s/d":(v>0?"+":"")+num(v,1)+"%";
+  const row=(pasa,tit,det)=>`<div style="display:flex;gap:8px;align-items:flex-start;margin:5px 0;line-height:1.45">`
+    +`<span style="flex:0 0 1.2em">${pasa===null?"\u00b7":(pasa?"\u2705":"\ud83d\udea9")}</span>`
+    +`<span><b>${tit}</b><br><span class="muted">${det}</span></span></div>`;
+  const bpaPasa=q.bpa_veredicto==="creciente"?true:(q.bpa_veredicto==="sin datos"?null:false);
+  const endPasa=q.endeudamiento_x==null?null:(q.endeudamiento_x<=q.endeudamiento_max_x);
+  const fcfPasa=q.fcf_cobertura==null?null:(q.fcf_cobertura>=0.7);
+  const bpaDet=q.bpa_cagr_pct==null
+    ? `veredicto: ${esc(q.bpa_veredicto||"s/d")}`
+    : `CAGR ${fp(q.bpa_cagr_pct)} anual en ${q.bpa_anos} a\u00f1os \u00b7 ${q.bpa_subidas} de ${q.bpa_variaciones} a\u00f1os al alza`;
+  const endDet=`endeudamiento ${fx(q.endeudamiento_x)} (m\u00e1ximo ${fx(q.endeudamiento_max_x)}${q.es_financiera?", financiera":""})`
+    +(q.razon_corriente!=null?` \u00b7 raz\u00f3n corriente ${num(q.razon_corriente,2)}`:"");
+  const fcfDet=q.fcf_cobertura==null
+    ? "sin a\u00f1os suficientes para medirlo"
+    : `FCF acumulado = ${fx(q.fcf_cobertura)} la utilidad acumulada de ${q.fcf_anos} a\u00f1os (m\u00ednimo 0,70x)`;
+  let det="";
+  if(q.reparos&&q.reparos.length)
+    det+=`<div style="margin-top:8px">${q.reparos.map(r=>`<div>\u26a0\ufe0f ${esc(r)}</div>`).join("")}</div>`;
+  if(q.faltantes&&q.faltantes.length)
+    det+=`<div class="muted" style="margin-top:6px">${q.faltantes.map(r=>`<div>\u00b7 ${esc(r)}</div>`).join("")}</div>`;
+  return `<div class="card" style="margin:10px 0;border-left:3px solid ${ok?"var(--z-opp)":"var(--z-neu)"}">`
+    +`<div class="sec-t">${ok?"\u2705":"\u26a0\ufe0f"} Puerta de calidad \u2014 ${ok?"aprobada":"con reparos"}</div>`
+    +row(bpaPasa,"BPA creciente",bpaDet)
+    +row(endPasa,"Deuda sana",endDet)
+    +row(fcfPasa,"El flujo de caja acompa\u00f1a la utilidad",fcfDet)
+    +det
+    +`<div class="hint" style="margin-top:10px;text-transform:none;letter-spacing:0;font-weight:400;line-height:1.5">`
+    +`Primero la empresa, despu\u00e9s el precio: una acci\u00f3n solo puede marcar <b>Sobre benchmark</b> si pasa los tres criterios. `
+    +`Si falla alguno queda <b>Con reparos</b> \u2014 sigue visible y con el precio a la vista, pero fuera de las oportunidades de compra. `
+    +`Ventana de ${q.ventana_anos||0} a\u00f1os. Fuente: estados financieros CMF.</div></div>`;
+}
+
 function gananciaPapel(a){
   try{
     const c=a.cmf||{};
@@ -2368,7 +2406,7 @@ function evalChilePanel(a){
   try{
     const sal=evalSaludChile(a), val=evalValorChile(a);
     if(!sal.rows.length && !val.rows.length) return "";
-    return `<div class="panel" style="margin-bottom:16px">
+    return `${calidadBlock(a)}<div class="panel" style="margin-bottom:16px">
       <h3>🔬 Evaluación fundamental</h3>
       <div class="ev-grid">
         <div class="ev-col"><h4>Salud financiera</h4>${sal.rows.map(r=>evRow(...r)).join("")}${evConcl(sal.concl[0],sal.concl[1])}</div>
@@ -2822,7 +2860,7 @@ function renderChile(param){
   if(!ch||!ch.acciones) return viewHead(flag("cl"),"Acciones Chilenas","")+skeletonCards(3);
 
   const acc = ch.acciones.slice();
-  const order = {"Sobre benchmark":0,"En rango":1,"Dentro benchmark":1,"Bajo benchmark":2};
+  const order = {"Sobre benchmark":0,"En rango":1,"Dentro benchmark":1,"Con reparos":1,"Bajo benchmark":2};
   acc.sort((a,b)=>{
     const oa=order[a.evaluacion?.status]??3, ob=order[b.evaluacion?.status]??3;
     if(oa!==ob) return oa-ob;
