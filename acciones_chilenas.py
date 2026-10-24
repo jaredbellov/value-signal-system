@@ -471,11 +471,13 @@ def evaluar_calidad(resultado):
                          and fcf["cobertura"] > CAL_SOLVENTE_FCF_MIN)
             if _solvente:
                 deuda_nota = (
-                    u"La raz\u00f3n corriente bajo 1,0 no bloquea: maneja el capital de "
-                    u"trabajo ajustado, pero debe poco (%sx) y genera m\u00e1s caja que "
-                    u"utilidad (%sx)." % (_cal_num(end_x), _cal_num(fcf["cobertura"])))
-                avisos.append(u"Raz\u00f3n corriente %s, bajo 1,0: %s"
-                              % (_cal_num(corr), deuda_nota))
+                    u"Bajo 1,0 no bloquea: debe poco (%sx) y genera m\u00e1s caja "
+                    u"que utilidad (%sx)."
+                    % (_cal_num(end_x), _cal_num(fcf["cobertura"])))
+                avisos.append(
+                    u"Raz\u00f3n corriente %s bajo 1,0: no bloquea, debe poco (%sx) "
+                    u"y genera m\u00e1s caja que utilidad (%sx)."
+                    % (_cal_num(corr), _cal_num(end_x), _cal_num(fcf["cobertura"])))
             else:
                 deuda_falla = True
                 reparos.append(

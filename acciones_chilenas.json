@@ -5589,7 +5589,7 @@
         "reparos": [],
         "faltantes": [],
         "avisos": [
-          "Razón corriente 0,99, bajo 1,0: La razón corriente bajo 1,0 no bloquea: maneja el capital de trabajo ajustado, pero debe poco (0,35x) y genera más caja que utilidad (1,11x)."
+          "Razón corriente 0,99 bajo 1,0: no bloquea, debe poco (0,35x) y genera más caja que utilidad (1,11x)."
         ],
         "criterios": {
           "bpa": {
@@ -5602,7 +5602,7 @@
             "titulo": "Deuda sana",
             "estado": "ok",
             "detalle": "endeudamiento 0,35x (máximo 1,50x) · razón corriente 0,99",
-            "nota": "La razón corriente bajo 1,0 no bloquea: maneja el capital de trabajo ajustado, pero debe poco (0,35x) y genera más caja que utilidad (1,11x)."
+            "nota": "Bajo 1,0 no bloquea: debe poco (0,35x) y genera más caja que utilidad (1,11x)."
           },
           "fcf": {
             "titulo": "El flujo de caja acompaña la utilidad",
@@ -6094,7 +6094,7 @@
         "reparos": [],
         "faltantes": [],
         "avisos": [
-          "Razón corriente 0,84, bajo 1,0: La razón corriente bajo 1,0 no bloquea: maneja el capital de trabajo ajustado, pero debe poco (0,47x) y genera más caja que utilidad (2,46x)."
+          "Razón corriente 0,84 bajo 1,0: no bloquea, debe poco (0,47x) y genera más caja que utilidad (2,46x)."
         ],
         "criterios": {
           "bpa": {
@@ -6107,7 +6107,7 @@
             "titulo": "Deuda sana",
             "estado": "ok",
             "detalle": "endeudamiento 0,47x (máximo 1,50x) · razón corriente 0,84",
-            "nota": "La razón corriente bajo 1,0 no bloquea: maneja el capital de trabajo ajustado, pero debe poco (0,47x) y genera más caja que utilidad (2,46x)."
+            "nota": "Bajo 1,0 no bloquea: debe poco (0,47x) y genera más caja que utilidad (2,46x)."
           },
           "fcf": {
             "titulo": "El flujo de caja acompaña la utilidad",
@@ -8678,5 +8678,5 @@
       }
     }
   ],
-  "calidad_recalculada": "2026-10-23T22:50:05.879828"
+  "calidad_recalculada": "2026-10-23T22:56:29.601087"
 }
