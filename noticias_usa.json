@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-10-25T19:33:26.643290+00:00",
+  "updated_at_utc": "2026-10-25T20:03:28.111689+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -92,22 +92,7 @@
         }
       }
     ],
-    "nvidia": [
-      {
-        "title": "Nvidia invierte en startup de video con IA Higgsfield",
-        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObVhNNzFUcVQyUWNIZHlXSW8tS3FwT2ZZYV9mNGhQeUpseXBQcDdSZWZGaXRiVHlWQW9wUFBfVU14aHZVcjdzc24yTXFheXpDbzhiUUsxX2dOcWZEc0RwTy1DX1dMcHpkQ3FiQ1NsVWlpc3ZMU2t2aGcyOWxXNmF4Z0lxNHpjLUhwZVlRSW15dnZ1czA?oc=5",
-        "source": "Yahoo Finanzas",
-        "pubdate": "Fri, 23 Oct 2026 06:14:00 GMT",
-        "pubdate_iso": "2026-10-23T06:14:00+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      }
-    ],
+    "nvidia": [],
     "ia_semis": [
       {
         "title": "Blackstone Sees Massive AI Demand Despite Bubble Concerns",
@@ -212,10 +197,10 @@
     ]
   },
   "stats": {
-    "total_noticias": 13,
+    "total_noticias": 12,
     "por_categoria": {
       "tesla": 5,
-      "nvidia": 1,
+      "nvidia": 0,
       "ia_semis": 2,
       "macro_tech": 5
     }
@@ -225,7 +210,7 @@
     "score_neto": -1,
     "n_positivas": 1,
     "n_negativas": 1,
-    "n_neutrales": 11,
+    "n_neutrales": 10,
     "narrativa": "El feed muestra 1 senales positivas y 1 negativas (neto -1). Factores dominantes: Alerta de burbuja; Avances en Optimus: opcionalidad Tesla.",
     "narrativa_fuente": "plantilla",
     "veredicto": "NEUTRAL - sin sesgo dominante"
