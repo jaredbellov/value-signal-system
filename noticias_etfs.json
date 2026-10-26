@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-10-26T15:32:56.365869+00:00",
+  "updated_at_utc": "2026-10-26T17:26:56.678883+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "fed_tasas": {
@@ -30,6 +30,20 @@
   "noticias_por_categoria": {
     "fed_tasas": [
       {
+        "title": "Dow Jones and Nasdaq 100 outlook: top stock market news for this week",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOX1NNVUtHTy1BcnlTb0tndVFPRG9EUHRRTlBlQ1JJVGY0UjJ1djY3ak5iOWdYSFNHOGl6YnIwdlJfSFhGSHNzXzF5UzJfM040OE9OWUwycVVsWnlvbm9lVHhrUEhRdVRpbUQ5V3d6alFiVXQ3M3U3NTR0c01IU1FzVGhlU0tLbzF4clY4eEgzekpDaVFSVGg4UkYxeTZkeXUtLUJkM1EzbTZoTUJzSF82NFBpSTFNdWtuNzFOV0U3ZDVBQQ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Sun, 25 Oct 2026 18:31:00 GMT",
+        "pubdate_iso": "2026-10-25T18:31:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
         "title": "Bitcoin’s Fed Week Starts With A Fresh Rise In US Inflation Expectations",
         "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZnp4WGxENVlqU0w5Z2E1RDdvRmNDdmZCWHIzZGltSDVxMjBSU3RRcUNienM4OEg4WC1xTFYzTGRPUTZRWklONXJIU3I0QzF1d1ViUEZlOWFObnhfTU92azU5TFJvYzhHS21ESUFkOGM0cHg1c3VCWnk4aE0yQmc3OEZKWEcxbVd3a3czMk5jQlhsRktUSnZuUThJUG1kbHBiS0MtTERyTm9nR0FQRjdFX0FDb1FoMFB3NnJGWlB3UGlvOHQwb3NhUg?oc=5",
         "source": "TradingView",
@@ -44,8 +58,37 @@
         }
       }
     ],
-    "mercado": [],
+    "mercado": [
+      {
+        "title": "Dow Jones and Nasdaq 100 outlook: top stock market news for this week",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOX1NNVUtHTy1BcnlTb0tndVFPRG9EUHRRTlBlQ1JJVGY0UjJ1djY3ak5iOWdYSFNHOGl6YnIwdlJfSFhGSHNzXzF5UzJfM040OE9OWUwycVVsWnlvbm9lVHhrUEhRdVRpbUQ5V3d6alFiVXQ3M3U3NTR0c01IU1FzVGhlU0tLbzF4clY4eEgzekpDaVFSVGg4UkYxeTZkeXUtLUJkM1EzbTZoTUJzSF82NFBpSTFNdWtuNzFOV0U3ZDVBQQ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Sun, 25 Oct 2026 18:31:00 GMT",
+        "pubdate_iso": "2026-10-25T18:31:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
     "tech_nasdaq": [
+      {
+        "title": "Netweb Tech shares fall up to 5% despite strong Q2 results as global AI sell-off weighs",
+        "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPYXZXbW1BLXl4clJvXzFIanY4OVA3SnRRMmZjQk1GTWthWmdEbU5VRTY3M1owNk5mbTNhZ3JPblRZTUVVTVFpam45SVpnSHAxbmYxTnFJRThuRFJRaFBnWjl2VVJvZTFGNThrZVFSeDRPeXQ2aEdmTkpUNGNjdVR1Z29iV1pGdFR6TUlpU3UyZURoZmhVU0NndGE1VEllNkVSa19iNHRfZ0RVeWpPXzFlMkhwY25PaXVmV0hZYnFsRUNKUzd3Y2p2WDlYNkxvS3E2eVFrdlNlWlhrLUxWSDliWVd3?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 26 Oct 2026 07:41:52 GMT",
+        "pubdate_iso": "2026-10-26T07:41:52+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 3,
+          "intensidad_label": "fuerte",
+          "emoji": "🔴🔴",
+          "razonamiento": "Selloff: presion vendedora"
+        }
+      },
       {
         "title": "US Tech Stocks Under Pressure: 3 Stocks to Watch Before Next Week’s Earnings",
         "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOZUpmdGZUQWJvVl84ZEtCaTNUM3QzWXNrQmdqeFd1RXdPZkZvdDB6MnZ1dXFDbmM4eS1FMFNETjZWaENyaGhuZ044TXp1Ym0xU3pUTnlJaHdlLTBDS3NOLWJfR2dYc0UzMHpMM2JnMDM3TTlhbGpZbU1sblhYTGhOY1RtcVRMM0pSREttOEo0WlFMcW9TRzZXaEpmLUoyMWtWUkpUNnNlTWhPdllQUUM5TGxBT2Z3NG5BUkl6dk0zdDN2LWdxT285SWFYOEFqRDQ?oc=5",
@@ -66,6 +109,20 @@
         "source": "TradingView",
         "pubdate": "Fri, 23 Oct 2026 20:15:06 GMT",
         "pubdate_iso": "2026-10-23T20:15:06+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "What Comfort Systems USA (FIX) Said on Its Q3 Earnings Call",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSlcwdm1WcHJSY25kOWk5LXByNjI4S19lbkRmcjdXa19sWWVfM3BkR0EyUVhHZHNGclNVN1VnTFAxMDROSTV6alR1YXluQmY1VHpTSGdLVWdRLVdLVGdUZkx0eEVsN0pSVG9jLVdNNXpnckxfLWZjdEotNWFKS1I2T3ZWX25GYWF2MU5EbmtSYjJ1OXFZSFNHYlRpWWlQNW5lczE1RGhKV2ViQTRyem1JcGFiYjBTd2E3?oc=5",
+        "source": "TradingView",
+        "pubdate": "Fri, 23 Oct 2026 18:04:54 GMT",
+        "pubdate_iso": "2026-10-23T18:04:54+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -107,20 +164,6 @@
         }
       },
       {
-        "title": "Electrifying company car fleets could generate 344,000 EU jobs by 2030",
-        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRC1Qb2xiTkhrSjV1RlpiOEtrLXFRMmZBX0NaeHFlM1ZmNFZqekQyOFVXNXpzU0x5cy0tY3FZR0lBWW1ESFNEY0tSclJEOWRjWHdmT1hkbXJaOGdYTUVXOTVvRGNldWNNM2lpZDk5NmdRc01aNU9TdTdhM1g3MmJxQ3paa1RCSkd3ejlENTQyUXpEZ1psRG5hX3JzWF9GRW5OdTBURUd6Y3U0NFpFeGpr?oc=5",
-        "source": "Review Energy",
-        "pubdate": "Sun, 25 Oct 2026 01:19:34 GMT",
-        "pubdate_iso": "2026-10-25T01:19:34+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
         "title": "Earnings Scoreboard: 82% firms beat EPS estimates, 79% post Y/Y earnings growth",
         "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOeTdoMFlnZ1RKNjNzRzFBOU84blhWbmcyU3NGeHpHd2lSRThUajMzRVpTUEc0cHZtOHV6NV92SHU5QW5kS1FrYjlxWUtNZEhLa2k1Vld4eDJhQlhNVXl4MTJBTDcyamlYMlZHb3dXTWkzYnllc3k5R0xzNEdmeGdLSFIxOExnMk91SHNFclFlQ2lJNVV0dlZmX3kteGJiTzFGZUZFbnpVWWFhZEUyeVZINUx6NmdkQlZfVEZXWTFKZTBVZU1hZ3pkeWNBdm5SSUNEVHln?oc=5",
         "source": "TradingView",
@@ -135,11 +178,25 @@
         }
       },
       {
-        "title": "What's in the Offing for Ventas Stock This Earnings Season?",
-        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdnc0UFJpWkRkamdfblhfemdvUE9uNnNZVDBfcnAyZ2NzZ0cxbkpHc2NxcHFVaHNkT3V5cVNuR0JvTnBlNjR5SkczWEVfSzFfSE5GWFZidXFuOGRoTnJwVHNsVi1UZlpPSnRST2dnSFBTR3h5YlBsZkpFQ0trYU1KRXhsNmNtMUtTY29PcHFQalFfMW9pdHZrQlRoOGh4WVoyU1Q4SGUzV254SnF0OWs2WlhRYw?oc=5",
+        "title": "Infosys Growth Outlook Sours Despite Strong Deal Wins",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVzVoMkdwNTcwbVN3XzRhaWpwb3Z0eEVyOWlwMVp6OFpJQ2lBMExBOHRaUW55ejNVenhaclhvRTBDeDcxYzZydVJjTzZyZ1RBQU1nUi1DRXNzR2tlX0dMbS1yQlVwWGFLQ1lQY3BCcW9jc19HNTBGYlQzdExOQkdxWFRDLVhoeHNSY2I4akRHN1NQSHJKcU1yVFFCVVVwZjdfS3hyaUZBWEhEdTRPalE?oc=5",
         "source": "TradingView",
-        "pubdate": "Fri, 23 Oct 2026 15:59:00 GMT",
-        "pubdate_iso": "2026-10-23T15:59:00+00:00",
+        "pubdate": "Sat, 24 Oct 2026 03:46:00 GMT",
+        "pubdate_iso": "2026-10-24T03:46:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "American Express Beats Earnings and Lifts 2026 Forecast(EDIT1)",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOZ0FnWlRpRG1rNWRzMWVzdC1JbG5KWGNmZXVYX285ZlF3cmphVkl6X1d0YnRpSlJudGdLY0hyNm41dHdqdTZpRWV3SU9GSmR1c3NkR2FsV0dLOE53UG12OWd4QnBydUxCMUdJUjRJX1E5MFBkS1pGeDdTbWNkQV9KM0tYNlRqU3h4RXBBNXkxU1Vqc1RzYmFuWTZKajZvRVY3enYwUFkxOUpFQTFkVnFCemE0WVNZN2Q0Yzdldg?oc=5",
+        "source": "TradingView",
+        "pubdate": "Fri, 23 Oct 2026 17:45:37 GMT",
+        "pubdate_iso": "2026-10-23T17:45:37+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -163,42 +220,28 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
-      },
-      {
-        "title": "What's Going On With Micron Technology Stock Friday?",
-        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPazNGeVZlY0wzN2hhSmxfRFFRcG14YUJYVHI3cklfYlVXaENqc1kzOVZVd3ZWejFNRl9HV0NtY1JJbjg0dVdqWnFjekRWUm1wdjQ3SnRQNnd1QzZQQ0RXM0hiQWdCV2ZGSmxmV3RUNzNYSTdnaDZXa1JBWVQzdDFPdzhpVnBTYkk5cnFUU1VSOThaMWRuOWF4bkNpZHU2YlFNYlAyZ2hBcTNvR05IaUE?oc=5",
-        "source": "TradingView",
-        "pubdate": "Fri, 23 Oct 2026 16:20:56 GMT",
-        "pubdate_iso": "2026-10-23T16:20:56+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
       }
     ]
   },
   "stats": {
-    "total_noticias": 10,
+    "total_noticias": 13,
     "por_categoria": {
-      "fed_tasas": 1,
-      "mercado": 0,
-      "tech_nasdaq": 2,
+      "fed_tasas": 2,
+      "mercado": 1,
+      "tech_nasdaq": 4,
       "economia": 1,
       "earnings": 4,
-      "sentimiento": 2
+      "sentimiento": 1
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "neutral",
-    "score_neto": 0,
+    "sentimiento": "levemente bajista",
+    "score_neto": -3,
     "n_positivas": 0,
-    "n_negativas": 0,
-    "n_neutrales": 10,
-    "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
+    "n_negativas": 1,
+    "n_neutrales": 12,
+    "narrativa": "El feed muestra 0 senales positivas y 1 negativas (neto -3). Factores dominantes: Selloff: presion vendedora.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "NEUTRAL - sin sesgo dominante"
+    "veredicto": "Levemente BAJISTA"
   }
 }

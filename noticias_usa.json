@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-10-26T17:03:26.970074+00:00",
+  "updated_at_utc": "2026-10-26T17:33:28.706327+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -21,6 +21,20 @@
   },
   "noticias_por_categoria": {
     "tesla": [
+      {
+        "title": "Tesla arranca la producción del robot humanoide Optimus en su fábrica de Fremont y Elon Musk aspira a fabricar 20.000 unidades por semana a finales de 2027",
+        "link": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxQSDljMHQyNU9UNGg1d0lpY0p4WmRtQ3N6OFhvdVRNSGhQNDMzemdZR0NDUE84ZzRRTUNQcjVqdklqZDdQYUZpTlFMVzBxaS11bDE0M0pzSzVvSDRyMjM3Rk5NUlNURmt2S08tUFlWX1pyWmJLTjhxNFFra3djX2JzYkd2eEQtOEFYLVZsMTRBWkpNdFl3MG9QNGxnU2Zlb0dKOVRzSjJDR1NoMFZ6M04tcC1vSnVWSWJ4SnJPRGxjNWNmcGVNcXdDTHJ3eUVCcmFoS0ZfdXF4X3RGcjNJMURUNjFDREZCUUdNOTROZEoxV0NBeXUyX2ZPWm9LRFQ2SVFzTE5YYUd1MXVMU190ZFlFdEdxRURIMFlFNWszSUNJVVR1S0dsU1VNaVpkWFRQSVVCWHRFRC1sMkF5dW8?oc=5",
+        "source": "La Razón",
+        "pubdate": "Sat, 24 Oct 2026 21:00:00 GMT",
+        "pubdate_iso": "2026-10-24T21:00:00+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 1,
+          "intensidad_label": "leve",
+          "emoji": "🟢",
+          "razonamiento": "Avances en Optimus: opcionalidad Tesla"
+        }
+      },
       {
         "title": "Convertir DOGGIE a TSLA — Conversor de Doggie Mode a Tesla Tokenized Stock - Robinhood",
         "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSVhZWkUtNjB1SjVOei04LWZfbEJNX0czOVd5YkNPYUQtNnpuU3dQUnY1bzJHQXUtSVFBOWNmQnJLakJncWN3UkxUdzJoMDEwekhQMGs2WXU4cng5dHRwR3I0RGlMVnBvMlgxbVNZOHdvbnphRlJuOWhNdDBLM3FoNVdodw?oc=5",
@@ -65,20 +79,6 @@
       }
     ],
     "nvidia": [
-      {
-        "title": "Precio de acciones, noticias, cotización e historial de NVIDIA Corporation (NVDA)",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9kanItV1ZzUkxTX251dWR5N2pVU0o1OGIxcTFLcnlUeUlDMU9JS3IySlZWelU2T2djT2wweENJTFRkLUtZR3hQMnhoa0hodUI4VFE?oc=5",
-        "source": "Yahoo",
-        "pubdate": "Mon, 26 Oct 2026 11:59:53 GMT",
-        "pubdate_iso": "2026-10-26T11:59:53+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
       {
         "title": "NVDA Stock Ticks Higher Overnight: a16z Data Shows GPU Rental Prices Rising Sharply, Even For Older Chips",
         "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOYjJ0WnIxX3hHdmFBNEpkdW5kQTBaZ25STG5ZZGRsYmFpZ1pFOXVxX2xRUHc4cjd6N24tN0h4RkxNZkNJZDZuSjlDclg2TXZFTGhLVU5qWG5pdk5FYzdOVkFla1lzWHJVejd0anVNdkVteXJIOV8yWjBkNVRJTFhzVC1DY0FiYkxRZXJTSUZzTHBBREVIM2pNb0hsSVA5S3N2T1RUWHYzTTBBYkVDTlFoNVlTV0lUeXVmWm04SWdGYTUxTUhLbUgydHdBNnJPWVprUFJVRmFveW42c1JQbTlaY3JrdjNOUzZaLTJfX25DNk4xUWxyVUE?oc=5",
@@ -200,19 +200,19 @@
   "stats": {
     "total_noticias": 12,
     "por_categoria": {
-      "tesla": 3,
-      "nvidia": 3,
+      "tesla": 4,
+      "nvidia": 2,
       "ia_semis": 3,
       "macro_tech": 3
     }
   },
   "resumen_ejecutivo": {
     "sentimiento": "bajista",
-    "score_neto": -5,
-    "n_positivas": 0,
+    "score_neto": -4,
+    "n_positivas": 1,
     "n_negativas": 2,
-    "n_neutrales": 10,
-    "narrativa": "El feed muestra 0 senales positivas y 2 negativas (neto -5). Factores dominantes: Selloff: presion vendedora; Alerta de burbuja.",
+    "n_neutrales": 9,
+    "narrativa": "El feed muestra 1 senales positivas y 2 negativas (neto -4). Factores dominantes: Selloff: presion vendedora; Alerta de burbuja.",
     "narrativa_fuente": "plantilla",
     "veredicto": "BAJISTA a corto plazo"
   }
