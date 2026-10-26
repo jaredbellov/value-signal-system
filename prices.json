@@ -1,12 +1,12 @@
 {
-  "updated_at_utc": "2026-10-25T20:45:47.076470+00:00",
-  "updated_at_local": "2026-10-25T17:45:47.076485",
+  "updated_at_utc": "2026-10-26T15:28:47.343012+00:00",
+  "updated_at_local": "2026-10-26T12:28:47.343027",
   "tickers_solicitados": [
     "CFISPETF",
     "CFINASDAQ"
   ],
   "errores": [
-    "CFISPETF: sin precio",
+    "CFISPETF: BrowserType.launch: Timeout 180000ms exceeded.\nCall log:\n  - <launching> C:\\Users\\max\\AppData\\Local\\ms-playwright\\chromium_headless_shell-1217\\chrome-headless-shell-win64\\chrome-headless-shell.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --disable-blink-features=AutomationControlled --disable-dev-shm-usage --no-sandbox --disable-features=IsolateOrigins,site-per-process --user-data-dir=C:\\Users\\max\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-0KJx4j --remote-debugging-pipe --no-startup-window\n  - <launched> pid=8592\n  - [pid=8592][err] [1026/051716.883:WARNING:net\\dns\\dns_config_service_win.cc:609] Failed to read DnsConfig.\n  - [pid=8592][err] [1026/122641.512:WARNING:net\\dns\\dns_config_service_win.cc:609] Failed to read DnsConfig.\n",
     "CFINASDAQ: sin precio"
   ],
   "prices": {
