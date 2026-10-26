@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-10-26T19:03:26.592668+00:00",
+  "updated_at_utc": "2026-10-26T19:33:28.341421+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -126,31 +126,17 @@
     ],
     "macro_tech": [
       {
-        "title": "U.S. stocks advance ahead of key tech earnings, Fed decision",
-        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQT1hsczBYMHdCSVhlOXlfaktjTVlaMXFYa3FUMExkb2ZSZGpaNmtiUm51ZlhKaUIzbnBSVDg5bEYxVmUzcFN6bXp3TUdfNktnZk1wWWVpZVlaRUVCSkRsd2J0LVNFUUJrejVzbEZyN1pVRHQ4VnQ4QnBOTWhBMVFMRDJDcFJheERkSmViM25rQkI0OEF1dy1IdUEzZWhnVnFDRVFqMDBkV0NhR3hQQlpmSmlTMEJwLTFHdDM0WA?oc=5",
+        "title": "S&P 500, Dow Drop As Elevated Oil Prices Stoke Inflation Fears Ahead Of Fed Meeting Next Week — AAPL, AXP, CART, UBER In Focus",
+        "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNYlg0SkpBNHhBNmRXZ1BMcmFVakc4QVNXQ0ltWjZTX2NBa0toa3kyY29xY21rVElRS3BuTlFyOVRsQzd6N1FQR0pOYlloVjVTUFJJNFVlYzhYb24xenAyemttaGhBcUVEdXU4N0F1cURibFJNWEllSmtmcG9mZGpBSkpHNnpoNmRsaGhSTGhHOFgzSlRveWFlTG9pa0lranE2S3NXSzJ5YnVZMEQxSUkwUk8xdXlCSXY4S3V4SElZYWtwQ1A1OFZodVZNb181MGEyUmdnQk4wanNiQ0I0RUlkc2QzajUyM0ltdXFiRWMwUFRCVWVRMkNMZDY3Sjh4WFRqSVBhQi1HdFFUMWZa?oc=5",
         "source": "TradingView",
-        "pubdate": "Mon, 26 Oct 2026 14:14:11 GMT",
-        "pubdate_iso": "2026-10-26T14:14:11+00:00",
+        "pubdate": "Fri, 23 Oct 2026 22:35:57 GMT",
+        "pubdate_iso": "2026-10-23T22:35:57+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
           "intensidad_label": "neutral",
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Tom Lee Says AI Selloff Is Nearing Its End, Points To Setup Similar To Cisco's 1997 Rout — Sees Opportunity In NVDA, Software And Beyond",
-        "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNRHllRG5fdzhDSXJ1YWFHeWFDZEV5aWNveGNjLWx0SnVXSGUyTHBVcFl1VVd2YU1rUkJVVE5wTGpaX0pYZ25QRUNQclEtbWJkQm1wNUI3ZGNxNmlDUWtpSGZhRER1dVVpclpjSk1Fc3djb1RDUFZ0Z2t1ZllLa0tWeVlNZjBQR01IVkpfOWFoOGdPSEU3ODJkX3F2XzluUnJjUGlJdlJaRlRidmNHZld5TjV4U1hDdnJGX2FPdVd3RWl3VVh5VE5PM0FnMnZ6NWc1bkZDTm5OTUNFa3l6V2x1VTJTUWtzQVNKcFY3c3VvcDhCQ3FnUWRpZTNJQXpIMVRUTlJLeURZZFM3aGlCQUJmUDlvd2xXWlU2MlJfMA?oc=5",
-        "source": "TradingView",
-        "pubdate": "Sat, 24 Oct 2026 10:17:04 GMT",
-        "pubdate_iso": "2026-10-24T10:17:04+00:00",
-        "impacto": {
-          "direccion": "negativo",
-          "intensidad": 3,
-          "intensidad_label": "fuerte",
-          "emoji": "🔴🔴",
-          "razonamiento": "Selloff: presion vendedora"
         }
       },
       {
@@ -170,22 +156,22 @@
     ]
   },
   "stats": {
-    "total_noticias": 10,
+    "total_noticias": 9,
     "por_categoria": {
       "tesla": 3,
       "nvidia": 2,
       "ia_semis": 2,
-      "macro_tech": 3
+      "macro_tech": 2
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "levemente bajista",
-    "score_neto": -2,
+    "sentimiento": "neutral",
+    "score_neto": 1,
     "n_positivas": 1,
-    "n_negativas": 1,
+    "n_negativas": 0,
     "n_neutrales": 8,
-    "narrativa": "El feed muestra 1 senales positivas y 1 negativas (neto -2). Factores dominantes: Selloff: presion vendedora; Avances en Optimus: opcionalidad Tesla.",
+    "narrativa": "El feed muestra 1 senales positivas y 0 negativas (neto +1). Factores dominantes: Avances en Optimus: opcionalidad Tesla.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "Levemente BAJISTA"
+    "veredicto": "NEUTRAL - sin sesgo dominante"
   }
 }
