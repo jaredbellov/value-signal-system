@@ -1,6 +1,6 @@
 {
-  "updated_at_utc": "2026-10-27T19:57:06.177213+00:00",
-  "precio_gld": 372.2,
+  "updated_at_utc": "2026-10-27T20:27:06.204574+00:00",
+  "precio_gld": 372.26,
   "score_final": 64.2,
   "zona": "ATRACTIVO",
   "multiplicador": 1.5,
@@ -9,16 +9,16 @@
     "drawdown": 100,
     "momentum": 60.8,
     "ratio_sp500": 78.4,
-    "ratio_silver": 54.9,
+    "ratio_silver": 54.7,
     "dxy": 77.1,
     "real_yield": 33.5,
     "vix": 12.7
   },
   "sub_detalles": {
     "drawdown": {
-      "drawdown_pct": -24.94,
+      "drawdown_pct": -24.93,
       "max_52w": 495.9,
-      "precio_actual": 372.2
+      "precio_actual": 372.26
     },
     "momentum": {
       "ret_12_1_pct": 4.33
@@ -28,11 +28,11 @@
       "percentil_2y": 21.6
     },
     "ratio_silver": {
-      "ratio_actual": 6.82,
-      "percentil_2y": 45.1
+      "ratio_actual": 6.83,
+      "percentil_2y": 45.3
     },
     "dxy": {
-      "dxy_actual": 102.29,
+      "dxy_actual": 102.34,
       "percentil_2y": 77.1
     },
     "real_yield": {
@@ -52,10 +52,6 @@
     "vix": 10
   },
   "historico_gld": [
-    {
-      "fecha": "2021-10-27",
-      "precio": 168.12
-    },
     {
       "fecha": "2021-10-28",
       "precio": 168.08
@@ -5070,7 +5066,7 @@
     },
     {
       "fecha": "2026-10-27",
-      "precio": 372.2
+      "precio": 372.26
     }
   ]
 }
