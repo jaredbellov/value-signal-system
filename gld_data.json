@@ -1,45 +1,45 @@
 {
-  "updated_at_utc": "2026-10-28T13:57:05.649392+00:00",
-  "precio_gld": 371.23,
-  "score_final": 64.5,
+  "updated_at_utc": "2026-10-28T14:27:06.785642+00:00",
+  "precio_gld": 370.59,
+  "score_final": 64.4,
   "zona": "ATRACTIVO",
   "multiplicador": 1.5,
   "peso_aplicado_pct": 100,
   "sub_scores": {
     "drawdown": 100,
     "momentum": 61.3,
-    "ratio_sp500": 79.9,
+    "ratio_sp500": 80.1,
     "ratio_silver": 54.4,
     "dxy": 77.2,
     "real_yield": 33.5,
-    "vix": 12.6
+    "vix": 11.9
   },
   "sub_detalles": {
     "drawdown": {
-      "drawdown_pct": -25.14,
+      "drawdown_pct": -25.27,
       "max_52w": 495.9,
-      "precio_actual": 371.23
+      "precio_actual": 370.59
     },
     "momentum": {
       "ret_12_1_pct": 4.52
     },
     "ratio_sp500": {
-      "ratio_actual": 0.048,
-      "percentil_2y": 20.1
+      "ratio_actual": 0.0479,
+      "percentil_2y": 19.9
     },
     "ratio_silver": {
-      "ratio_actual": 6.89,
+      "ratio_actual": 6.88,
       "percentil_2y": 45.6
     },
     "dxy": {
-      "dxy_actual": 102.33,
+      "dxy_actual": 102.4,
       "percentil_2y": 77.2
     },
     "real_yield": {
       "real_yield_pct": 2.66
     },
     "vix": {
-      "vix_actual": 17.52
+      "vix_actual": 17.39
     }
   },
   "pesos": {
@@ -5070,7 +5070,7 @@
     },
     {
       "fecha": "2026-10-28",
-      "precio": 371.23
+      "precio": 370.59
     }
   ]
 }
