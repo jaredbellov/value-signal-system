@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-10-29T18:03:26.120113+00:00",
+  "updated_at_utc": "2026-10-29T18:33:27.195469+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -20,7 +20,22 @@
     }
   },
   "noticias_por_categoria": {
-    "tesla": [],
+    "tesla": [
+      {
+        "title": "If You Invested $1,000 in Tesla Stock When Elon Musk Acquired Twitter, Here’s How Much You’d Have Today",
+        "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPeUt4Y2N2a3lZLVlTN0Z6RkY4aFBnUHhNLVprbldiM0s3X0U0MHN5NVpIczRzcXhPU01Zb1ZIZksxTGNUVHZhcmNPY1dZNEg5OGxuUlhQTDB2UTJxQ3cyN2M4c3hfVl9IcFlZLWQ0c2RnNk1rMGREanVPOXhiQV9hakxTajFXeW5jaVpBRkI1UVRDeFU3N3p6d0RUY3Y1X21BYkUtS1BLR2R2RU1Iam9tUkkxLWlEWDJOTjNrcFFteFNBT2hSNzltUTFDV3dhVm1TWXozanhCZl9ZNXVSbmo4b2g5ZWM2VzRFY3RxX2VUZGc?oc=5",
+        "source": "TradingView",
+        "pubdate": "Tue, 27 Oct 2026 16:47:57 GMT",
+        "pubdate_iso": "2026-10-27T16:47:57+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
     "nvidia": [
       {
         "title": "Nvidia: The AI King Still A 'Buy' Near Its Highs",
@@ -93,7 +108,22 @@
         }
       }
     ],
-    "ia_semis": [],
+    "ia_semis": [
+      {
+        "title": "Micron, AMD and Nvidia Stocks Rise as Memory Chip Boom Lifts AI Trade",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNdEFkcUE4LUVFVG5ycEc2Zk0yNXo2Q1diVksyZ0hDeUZXYk1LbXFHMGtzU3NQWmJXbjZFcm15WkhRNEFNZUt5bU9FVEhBLTVpOHpDZzhKem5HX3VfTngzaWdGSDBWM2JyTmF6Y3Nwb1JCazV6TTlLRGJWMGM4alNWUWsxNEZKdWNWeDVybHBYaHZxR2steXBmYVczdVNaNDVwMFNZMEtBN20tY0tCT3hJbGJXZVA4OWpkMEZoaHNucWtnSkJZeEE?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 28 Oct 2026 18:38:14 GMT",
+        "pubdate_iso": "2026-10-28T18:38:14+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🟢",
+          "razonamiento": "Acciones al alza"
+        }
+      }
+    ],
     "macro_tech": [
       {
         "title": "Nasdaq cae 1.83% mientras desplome de Alphabet reaviva temores por gastos en IA",
@@ -107,34 +137,6 @@
           "intensidad_label": "neutral",
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "China stocks slip as tech gauges hit over one-year lows, overshadowing Fed rate decision",
-        "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNZVc3cXpxU2xQcHk3NDM1WDdiU0V4Z3dQazZkc3lRa05xX3RWd2RWaVZ4Nzh4MGc1VHIwRm5yaUxwR2dLa0FfUUVRRHNQVEExeF94TjBEc2V2UjdDdmdVWTRaaW16Z0tHUWFqckdZTldtRVp6QVVGbm5UbmRvMV9ib0c0a253VXRlRW83czI2Rzk5S1pEVDlqcWpla3ZCeDFZSnpVbWx1QTZDUGdhZDNEbGVKdElwVUI3S0M4RU9FWjFMWWUwSkJyWm1sLTBOS1VYLTgzdWV6N0IxdklNYjMxQnhONS1POEV6d3h5TQ?oc=5",
-        "source": "TradingView",
-        "pubdate": "Thu, 29 Oct 2026 08:31:33 GMT",
-        "pubdate_iso": "2026-10-29T08:31:33+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Asian stocks fall on AI tech selloff; HKMA mirrors Fed hold",
-        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOd0RJY2JXaG1zUzFHUnYxcDBLeDBUUlRUZUQxTGtIU2JwbUVaVFZZZUw4Tm9GcFBvVHU5M2RlUThNOFNTX3JsVHBBR0JiMGd4ODhSNFBmam5TX0lJQ1ItVy1nUWdoYm5UTUtYMzBhMnZOQWdCd2NWMTB1a1hPMDNxT0ktQVFFSHQ0a2RaXzQwRnhVT1hZeWtmQklqT3R2eV9qWW5YdlFJQ3FrQmdJQ0lVQ1ZqNmpuZWV3bEFRbA?oc=5",
-        "source": "TradingView",
-        "pubdate": "Thu, 29 Oct 2026 05:07:00 GMT",
-        "pubdate_iso": "2026-10-29T05:07:00+00:00",
-        "impacto": {
-          "direccion": "negativo",
-          "intensidad": 3,
-          "intensidad_label": "fuerte",
-          "emoji": "🔴🔴",
-          "razonamiento": "Acciones a la baja"
         }
       },
       {
@@ -152,11 +154,39 @@
         }
       },
       {
-        "title": "T1 Energy Stock Extends Rally: What's Happening?",
-        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxORFlERnZVQm1GRkVvUXpLTHppTzhIRUpIMDR6blJvZHV4OVR6a1ZtMTFsZnpCWWZyRVMzTmc1UE9CZzZGUDFFUmVMMGNKNUpXeXFZUE9KS3BxWkRLZnp3aC1SQVFDTEJ0M1UxSE5xU2F3SFlnSm9DU2p0dVluXy1vR2ZsSFJyNGthX2o4eS12RVlZNm1PUzh0YVlER0lVZDl5amVtYnpwOA?oc=5",
+        "title": "Microsoft Earnings Top Item to Watch for AI Stocks: Dan Ives Says 'Most Important Print of the Week'",
+        "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOV0I4TVZiRUZWa2VJdUZ2UDZyNE9MNWhtNjR1Szg5MDdWMGxQaUQxbzAyWk9kN2NxczUyYlliOXFjNjNZUmZNYW9xLWptd083VkdxMGx3aGNaT2YyaFBPT1Q3QnBHUzExMmZZWnRVTTMtTl9TTE1FRE9TYkFUdVdoOVFZRmx6aHp6RjFicjM3cFRFYzlIdmxDQnpEWVJwWDBSQzBfT2VUY0ljTUhOUlNORzdkWnlUeEhQMmpqWHVPaGtXdzFNVTh0ajJtN2dsZ0RLTlE0YU5hS2FOZ3VYMDlEQ3JBZ0EtOVZNb3lj?oc=5",
         "source": "TradingView",
-        "pubdate": "Wed, 28 Oct 2026 18:49:11 GMT",
-        "pubdate_iso": "2026-10-28T18:49:11+00:00",
+        "pubdate": "Wed, 28 Oct 2026 15:05:04 GMT",
+        "pubdate_iso": "2026-10-28T15:05:04+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "U.S. stocks on the fence ahead of Fed decision, big tech earnings",
+        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQakNHdzE0YnJtS3hIZFROWjFHZkIzR3FVRzJaY21uTUlTdllLREVDVjhMWmtvOUdRdE9EN09TdEpoQ2VUV3BSUDMyaWtqQVRuRzJDRWRjNXF4VEV1elZNQ0FiSlIxUFpGWWU3bW0tX01DS0prRmtvVldMSVFDb1ZFWXBkZFpKRmJlQWF2d29ibjZaYUp1bHROVm5meG5EWlQ4REI4YkhoYTJtc1p4bUVmMTFiR1RiWWk0R2JmS1BuNURKX1U?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 28 Oct 2026 13:55:53 GMT",
+        "pubdate_iso": "2026-10-28T13:55:53+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Noticias de CNBC TV18 en TradingView, de fecha 2026-10-28 — cnbctv:c0822d908094b:0",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE80Uzc3M3JONHp0dzRIMWZzWkZQTnpRbk4zenR6TWNydUpxMHVtbmdwNGctcnBYemViLS14dUxvS3pBSzFuaC1weTl0UGhhbmpJM2t3REY2SDhtS0RjSnNnYUt5aFF2dw?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 28 Oct 2026 12:37:34 GMT",
+        "pubdate_iso": "2026-10-28T12:37:34+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -168,22 +198,22 @@
     ]
   },
   "stats": {
-    "total_noticias": 10,
+    "total_noticias": 12,
     "por_categoria": {
-      "tesla": 0,
+      "tesla": 1,
       "nvidia": 5,
-      "ia_semis": 0,
+      "ia_semis": 1,
       "macro_tech": 5
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "levemente bajista",
-    "score_neto": -3,
-    "n_positivas": 0,
-    "n_negativas": 1,
-    "n_neutrales": 9,
-    "narrativa": "El feed muestra 0 senales positivas y 1 negativas (neto -3). Factores dominantes: Acciones a la baja.",
+    "sentimiento": "levemente alcista",
+    "score_neto": 2,
+    "n_positivas": 1,
+    "n_negativas": 0,
+    "n_neutrales": 11,
+    "narrativa": "El feed muestra 1 senales positivas y 0 negativas (neto +2). Factores dominantes: Acciones al alza.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "Levemente BAJISTA"
+    "veredicto": "Levemente ALCISTA"
   }
 }
