@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-10-30T21:33:28.005107+00:00",
+  "updated_at_utc": "2026-10-30T22:03:27.379767+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -20,8 +20,51 @@
     }
   },
   "noticias_por_categoria": {
-    "tesla": [],
+    "tesla": [
+      {
+        "title": "SA analyst upgrades/downgrades: TSLA, AMZN, HE, SPCX",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPY196Ri1xeDRPSjFyUnRyWjBxN2NNN3duQm1EMC1qMnE5NVpkMTQtdmJ0Q3RFZXJFenkweEtjbGpyWUtSeGxuaDZwRWY4Q2FRby0zWmhxWk5Gb1RCNlIxbWpMRDMwSW54cGhsSnpRQXhud2M1eGxUaWJGRTBkOTl0cnZNblVhSURpWEszbjJDd1pub29idHdhQjgyWW5rM1NRLXB0bkxNdjN6eEM2Z3Vr?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 28 Oct 2026 18:14:22 GMT",
+        "pubdate_iso": "2026-10-28T18:14:22+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Key facts: Tesla (TSLA) Robotaxi 2M Miles; SpaceX Merger; Q3 486K",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxONmMza1hYeUtjU1BzdXR0WHBSZmVQY3c3bkpQbHB2MG9VY1NXazlhU3p1emczc1dXckFiOUZGY3NjUldESFQ5dDdQSFFnNExObkRLYjFrcnN3ODhUX1c4WFBJX0kxY1VJc3lLUEZFU3lpNGpZdHFYcm04Znp4WU9iRkFtZnJISUxGczc3TzBUX05lZWRDREpwdEo0TzFDNm80YW5JbTJiQjNxQ3JtTVI2RWJabEpxUGM4bnZUSHVB?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 28 Oct 2026 07:00:00 GMT",
+        "pubdate_iso": "2026-10-28T07:00:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
     "nvidia": [
+      {
+        "title": "NVDA Stock Drops: Nvidia May Back Data Center Loan For Its Own Customer, Analyst Sees Little Impact From Intel’s Weak Report",
+        "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQcjVwV2R2cnJBU0gtSzFPcGRvVThXd3RXdUx1RUJrdFhJM2lXY3BFQUFWWHVCSW5IakxrWjFucDJoeVhDS29kOXZrVW5FeHJKOW1DQUF3NVhiaGhGOEVsOWVSZTZHaW1iRUtKVDBGX2JYb0JmcXh3ZTI4NWlLM2JFbFExZVhFemZqUWk1U0VralZuak5WRlU0WWNmcFNoS0V6bXY2T2VBUTBwcVlIeEo2TG5aZEVGV3laUW95OUNMSGZQemN6OGZCVERfYVFfREVubTRzcDN4STJUdmxSY0tRaXhnUXh3TzNUQ25SY0VEbXU0ZmVBejJoQmlQdlo1NlNtZXBGaEk3TGo5VTRJNnJN?oc=5",
+        "source": "TradingView",
+        "pubdate": "Fri, 30 Oct 2026 07:22:38 GMT",
+        "pubdate_iso": "2026-10-30T07:22:38+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
       {
         "title": "NVIDIA Corporation (NVDA) Gráfico de rendimientos estacionales",
         "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1UTU1fSEQtZkp1YzhPeFZDVlBEdG5LNy1qdGU2ajJqa2d6N2k0Mm5scVd4dzBnWDIyM0dNaW1TVy14dVhBRGtwN1pjVkl5UnlGTUhmMlFIczRtREE0MmNYOUduelJUNmM?oc=5",
@@ -77,13 +120,15 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
-      },
+      }
+    ],
+    "ia_semis": [
       {
-        "title": "Nvidia: The AI King Still A 'Buy' Near Its Highs",
-        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQd2lWVm4zdC1CRGhMMnFqYWxTQkFtNWNQOHhuU0tydDFOd3ZzOXdPUjFvbm1Ib1NNZ1lQeWliWXlvLXZjVndXamlZTGZKeW5WY2xSQnFNTnNLTjVtNXJfV0tIeE00dzdOQ0UxbjRLbGk5SnZ2a24ydFI5dGRVNzU4M3pOTUk3RWJtaUJTNXRLMkcwNmg5YjRkZ0hlQVdxUjRkdnRyYlU5aw?oc=5",
+        "title": "Nvidia chief Jensen Huang was a target of Chinese espionage operation: report",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPOFRfTG1iTXE3d2pVQkllNjQ0NGxxeGYtLWFFOGZwQkg5X044SXNkSnZBcVNndkxNVVpBcXdVTDYtNld3M2I0WXN6bkhnV1ZRQjEyWWhPSEp3Zmt3M0hmQUpPREJhY1ctLUxkMWRFNUZ6ZVc3enZvaEZKWmVMcXo2SjdrRXlPY1pHVnEzQ2F3WnA2clZUNFk0YlZWcnBhSDkyRldVY1J6dmlfYlRuZkl1MjJxVThzUGxEcHBncWxYRDRoYW84cjNwVlBFU2k?oc=5",
         "source": "TradingView",
-        "pubdate": "Thu, 29 Oct 2026 11:56:11 GMT",
-        "pubdate_iso": "2026-10-29T11:56:11+00:00",
+        "pubdate": "Thu, 29 Oct 2026 16:25:55 GMT",
+        "pubdate_iso": "2026-10-29T16:25:55+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -91,15 +136,13 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
-      }
-    ],
-    "ia_semis": [
+      },
       {
-        "title": "Alphabet’s Cloud Is Paying Off—But the Bill for Building It Keeps Growing",
-        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOWV8waGhDdWI3LXkyN09YSFJFZlRFYS10MWtKMUZZNTBsRzJtYi1QaFR1S2tZOGNWT3dNT0tRSFNEaVVKaThvalNNOUI1SUZBRlgxVjN0akpJbDJqT09PQXdxd0I0b01NUFoza1dBVTNzcUJXQmNuWGZmZDJudDlTZU9LZ0dncGZ0SHdUcmFwSUFBbGdmLWxhSC1rZWpjNmNYdkVFUHhaWVI5a2FKQ1ZvbmRZaTlyTmhHeXg2dzU5RV9wcWxJdVhiTjVJS0VUUQ?oc=5",
+        "title": "Nvidia CEO Jensen Huang Was Target of Suspected Chinese Intelligence Asset, Raising Questions Over Potential AI Chip Diversion: Report",
+        "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNYmJZRHliUFpsYWxXWi0yUU03c2ZCOU9LU1RMTTFEaFVEUEE0N1FUWU1jYkpPbWJBOTRIRWVSb040cy1VWW1mdWN5NjE5eHNjS2VTTlBwSGZueERXNGNKWHpPX1dsOENmdzB0SnBGTWhCTjhWQ2pEbzdMLVlZQnN5ZTA5UDBkeWVaVy1Xb3QzbE9EeUNVVXdQSHgtOFYxZWlBVGIxa2xGamtTSkRpNmNhVl9RRER5M01uVks0VlNPTXRnbERYUHRIV0wzZ1E5cVF0aWx5enJpSmtreG12N085cTZXQTNqOVAzSVdFdy1DbEg5bmk2ZXNhYUZ4MXRiMXQ2RmtCRS00YlVHd0RsRDQ3VUppOGRHSlhqRHc?oc=5",
         "source": "TradingView",
-        "pubdate": "Thu, 29 Oct 2026 14:20:00 GMT",
-        "pubdate_iso": "2026-10-29T14:20:00+00:00",
+        "pubdate": "Thu, 29 Oct 2026 12:52:04 GMT",
+        "pubdate_iso": "2026-10-29T12:52:04+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -149,71 +192,57 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
-      },
-      {
-        "title": "CoreWeave, neocloud stocks drop after Microsoft capex misses estimates",
-        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNVEFQTHcyNmxnZnRDU2RrY0pObUNDNGctV2toaFJtTkloVUJrMTBmLWhMU0t4ejdZSHFuQTROMjFUXzFVLVJvcXQtdFpQc2g1S3V5Sl9tQ09udGhjdDlVRWJhTXZNb2h3Q0lSNEt6Sjc4VlBkbGl1aUlxM1ZtLVZoRHNscVpnbG9idVBfUUI5QWNIYjFDZmsyUWdHeHdnMUVUcm9kd1JldUJzTzBKeW1RSEl5WnNPXzJHM0w0RHhjMzE3a0pqRkFtYnJ5VQ?oc=5",
-        "source": "TradingView",
-        "pubdate": "Thu, 29 Oct 2026 06:21:00 GMT",
-        "pubdate_iso": "2026-10-29T06:21:00+00:00",
-        "impacto": {
-          "direccion": "negativo",
-          "intensidad": 2,
-          "intensidad_label": "moderado",
-          "emoji": "🔴",
-          "razonamiento": "Acciones caen"
-        }
       }
     ],
     "macro_tech": [
       {
-        "title": "El Nasdaq cae un 2,86% en su mayor caída desde junio mientras los inversores venden acciones de IA; el Philly Semi cae más de un 7% e Intel se desploma un 28%",
-        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZnVDLU9CRHlwYUFRNkpCMGx3dDBJVV81T2hsclFLY3UtNUVlU25YT2xuX01uWGtRc1U1cnZLOEtueVlpLVlNaXdOLUNvQzZyeEJpNUJlZkEzTnQ4LTdxZ2J0SmVZSjJ2N19IWU5INTBXZ2pBdkRCazRUT3VHTkNGaUFNOWhNZW01ZWp3ZWplNlNHeXNzNU5hNXgwbnRaMEprNGd5V1BzREhFTklDLUg4MWZ5NTNNeVM0X0I5WXRwRV9SVDV6RDdn?oc=5",
-        "source": "TradingKey",
-        "pubdate": "Fri, 30 Oct 2026 20:44:37 GMT",
-        "pubdate_iso": "2026-10-30T20:44:37+00:00",
+        "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
+        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdWxDTTJEMDZpTThfQmdNTGJHOHBmZmFnM2NjVFVHUmRZRnBEUzIzY1RkaUdPdl9TRXp4Tm8wbERrbE5WNzZrQk9mM012ZmUycEdRX2V2UkdwYjRCbzhyUFd2ZTdZRi1aVldnRm9TbDdSOElreF9IY3l4TDFUNGFCV2FKVVZCNm0tX0pYVE02NXY5UWR5bDJVd2wzWXVRWW54LUFiMXk0MzQ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Thu, 29 Oct 2026 06:04:00 GMT",
+        "pubdate_iso": "2026-10-29T06:04:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Indian shares set for positive start after Fed holds rates steady; elevated oil weighs",
+        "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPM1F3R2dKWGFYTzloV2hZTkJ3dkN2Zkk1VUhBUUFhcTJSTmhjaDd0TVRQUV9pdGRVMEljaVNCeDV1cVlvYXlfNV9iSEVWdW9UZ3ZFQkRja0lFWmQ4VHFzaFNVX09Md09kb2U0YnNDQU9vTWlYZS11NjF1aEtYUFBXN09tN3g3RVplSFNfamRlNEZ5eGpFb1pRaFFnY2tReXVYc05yeENjU0pPUUlvdlRCRE1sT1lUejh6ZEg4b2pGc2JhUkJadUwwUHhzRDU0WGJmcVR4VDBwckg?oc=5",
+        "source": "TradingView",
+        "pubdate": "Thu, 29 Oct 2026 05:32:00 GMT",
+        "pubdate_iso": "2026-10-29T05:32:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Asian stocks fall on AI tech selloff; HKMA mirrors Fed hold",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOd0RJY2JXaG1zUzFHUnYxcDBLeDBUUlRUZUQxTGtIU2JwbUVaVFZZZUw4Tm9GcFBvVHU5M2RlUThNOFNTX3JsVHBBR0JiMGd4ODhSNFBmam5TX0lJQ1ItVy1nUWdoYm5UTUtYMzBhMnZOQWdCd2NWMTB1a1hPMDNxT0ktQVFFSHQ0a2RaXzQwRnhVT1hZeWtmQklqT3R2eV9qWW5YdlFJQ3FrQmdJQ0lVQ1ZqNmpuZWV3bEFRbA?oc=5",
+        "source": "TradingView",
+        "pubdate": "Thu, 29 Oct 2026 05:07:00 GMT",
+        "pubdate_iso": "2026-10-29T05:07:00+00:00",
         "impacto": {
           "direccion": "negativo",
-          "intensidad": 2,
-          "intensidad_label": "moderado",
-          "emoji": "🔴",
-          "razonamiento": "Desplome: muy negativo"
+          "intensidad": 3,
+          "intensidad_label": "fuerte",
+          "emoji": "🔴🔴",
+          "razonamiento": "Acciones a la baja"
         }
       },
       {
-        "title": "How major US stock indexes fared Friday 10/30/2026",
-        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPV3VEalVWcThsNTNRWkhweFVURTA1TkdfcUNyaWNiTE9Dc0dZSUNPdkptNnJOWXJ3dTZJUjEwSkQtVUxXRTl1SHRReUQ4c3RmSW1oT2tXWlhVV3J1OTRCS0R0MDd0d1lwcng4bEFaREpHUG53eDBkTkJWSXFVc3NYVW9sWVpFQWhsazBQcUg2LUt2aG5BMGcxTA?oc=5",
-        "source": "La Nación",
-        "pubdate": "Fri, 30 Oct 2026 20:32:00 GMT",
-        "pubdate_iso": "2026-10-30T20:32:00+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Intel cae 30% y arrastra al Nasdaq por el costo de la IA",
-        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSHE0T1RwTFN0V053VVdxOVZ3SVVYLVZHa01lcjhfMHVWRGhuSTU5VXFqNXl3MlZFazdlSVVFNlRVcnN4ZWhFRVFzajBRX2xzNDNoRFZZaHpmOWtYSHdYWjVGdUg0aC1sYjB2UllxV1JPV1NsZXd0V0praWpOQnRncFF6cTNqT3ROSTZyb1hoVQ?oc=5",
-        "source": "El Ecosistema Startup",
-        "pubdate": "Fri, 30 Oct 2026 17:03:28 GMT",
-        "pubdate_iso": "2026-10-30T17:03:28+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Bitcoin, Ethereum, XRP, Dogecoin Trade Sideways After Fed Rate Hold",
-        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTEtwYzhTcTJzN1ZuTlp6Q1Y0VUhtOXVINlVCOE14V0J3b3JrLXhQUUdZWnpKZ2hlQ2NfN3o1bVZVNVBJbGtPLWJHdjh2ZGJVVnFMSmJtaEVvVFlKdElDWjI2VWF5YTZ3UjhCSk91UjZLSkFldExSMUtxZ0hCejlLMk45YUFvZzlaVjdFWUo5OEpZUlNNVlhQeFBiVWJpUThxSFo4MW5zb29yelRGUnZzajJac0xOdXhvc0pFXzhNOA?oc=5",
+        "title": "Gift Nifty indicates negative opening for Indian stocks",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMzBOdGJVRVlidkVTclhhc20xZ25fdjJPcmhmV2NOX2VBektEb1A0Um9kcmM5d0Y3TWZqaEE4Q01yOHdadDdlQjZtUmJkVWprLXBfSW8wSFcxTDBYU2xZWDZtQ3pOaEU0SEM5NlhnSmRMZy1jcTd6YXBoYXFmd2RiOU5JV2JSM25GSjRmRlNiU0hIa0JrWnBxTlFiWXNUeklLLV9xT2Q4clpfQjFGaDg4MQ?oc=5",
         "source": "TradingView",
-        "pubdate": "Thu, 29 Oct 2026 19:24:12 GMT",
-        "pubdate_iso": "2026-10-29T19:24:12+00:00",
+        "pubdate": "Thu, 29 Oct 2026 04:51:11 GMT",
+        "pubdate_iso": "2026-10-29T04:51:11+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -223,11 +252,11 @@
         }
       },
       {
-        "title": "Nasdaq cae 1.83% mientras desplome de Alphabet reaviva temores por gastos en IA",
-        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOT1RTWVd3SUNYX0VVdTd5X3Y3SjNaOE9zRExoLU9jRlRPTnVfY1B1Y2I5LUl2X2xkdF9UYlVfdWdibExJT00wX0VjU19iTFZiTGczQkw5V2hGV0ZxQU5WWlF1UmIzZ3pUdnlaOVZTamhfOEVYVC1zSVNxQnRlQ1BOYmlCcm51bjVPV3l6a01lSVV6emZCN1NoWjBlWTBHckFMT2g4S2ZKS1BxSXJoSFFHY3dmaUlLVE1JVHN3VWFydTA5dWd6b1E?oc=5",
-        "source": "Invezz",
-        "pubdate": "Thu, 29 Oct 2026 13:50:44 GMT",
-        "pubdate_iso": "2026-10-29T13:50:44+00:00",
+        "title": "China stocks slip as tech weakness overshadows Fed rate decision",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxORHhVWDNMOUZSTXJzSXZDM3I3TzNzaDN5S2RyMjgyUVR5UGg4SVAyVXlXclo4SGhuclF6dzlWS1hFNjZ5Z3QxSDdMckVFY1VXenQ2RXFEaFVWak5ZaFpRTlRfUnpqVUdObkpNcEx2ZmpVbDVUY1RKbml6dXlYU1ZyTVMxYUxPM3h2YnppODk5cFNoVHYyVkFSZk13MGFUWmNUYW9HaDdzemhUVWxFN3NzVzRNejBXS1lMdUYzSmlneERsSDM3a1hxTGJaOGM0UQ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Thu, 29 Oct 2026 04:24:00 GMT",
+        "pubdate_iso": "2026-10-29T04:24:00+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -239,22 +268,22 @@
     ]
   },
   "stats": {
-    "total_noticias": 15,
+    "total_noticias": 17,
     "por_categoria": {
-      "tesla": 0,
+      "tesla": 2,
       "nvidia": 5,
       "ia_semis": 5,
       "macro_tech": 5
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "levemente bajista",
-    "score_neto": -2,
+    "sentimiento": "neutral",
+    "score_neto": -1,
     "n_positivas": 1,
-    "n_negativas": 2,
-    "n_neutrales": 12,
-    "narrativa": "El feed muestra 1 senales positivas y 2 negativas (neto -2). Factores dominantes: Capex en IA: demanda estructural de GPUs; Acciones caen.",
+    "n_negativas": 1,
+    "n_neutrales": 15,
+    "narrativa": "El feed muestra 1 senales positivas y 1 negativas (neto -1). Factores dominantes: Acciones a la baja; Capex en IA: demanda estructural de GPUs.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "Levemente BAJISTA"
+    "veredicto": "NEUTRAL - sin sesgo dominante"
   }
 }
