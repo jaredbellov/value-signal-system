@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-10-30T17:33:51.812937+00:00",
+  "updated_at_utc": "2026-10-30T19:34:20.690551+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "bcch_tpm": {
@@ -37,6 +37,20 @@
   },
   "noticias_por_categoria": {
     "bcch_tpm": [
+      {
+        "title": "Banco central colombiano no sorprendió al mercado: mantuvo tasas en 12,25%",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPb2Y5UFlXNUdDaDFxWWViOU5PNDhHc3ctU3p0UWdwNEhCMFE0WlQ4U3RYX3NGelNMbU52SnRDcWxlQmJWSHNadW5jcUczTVRNWW5sSUhiaFJTcHdlUzdIZnRLLWVGV1djbnJHS0w5MGk0dXd2cHQ2am54WDBBMjFkNTBwNkJLcGNFT013V2huUWVOSmt4Y1RUTFhtMmRqUG4tbWl0Vkx3TUR6REk1SWZ4TFRRQXZDSGlkNmZvUV9FY25wN1dh0gHYAUFVX3lxTE5hd09lQnUwVUxmTS1UdWNaV3FQRFRiWEd3bU01aEFvZk1ONkNGZzJMUW9TQ0dUb2t3U3B4ZWgtbG91WlI0ZWJxWGI5WjU5S1ZZbWs2NFRudi1YOUMyX1UwYW5pd1o2aWN4MUxJMUgtMEtXZTY1dERlR2E1bnh3bURZRGpPd2p4WWpfNldMcWEzQy1rOVc0NUxzcnRKenlkUTdLelFaQVN6T01sdmM1bFBCZkQ4Sk5SX05ic1dRMk50RlFFZFBQRGZlYTZSOFFRYW9SLVZyRVp6Qw?oc=5",
+        "source": "Bloomberg Línea",
+        "pubdate": "Fri, 30 Oct 2026 18:24:27 GMT",
+        "pubdate_iso": "2026-10-30T18:24:27+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
       {
         "title": "Precio del Dólar en Colombia hoy 30 de octubre: El Peso colombiano se estabiliza ante la mejora del empleo, el foco gira a la decisión de tasas del Banco de la República",
         "link": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNd2ZjV091S0YxWmNsVkp3N3RPOXV0bUc3eFhmVkNjaWZ1c0s0SGJQbnJjMHk3WkNpb1FCTTBKNndSOWJSTTY5aVBDRkZ5MXZhQzhVV2ZjZi1ORTN1WHcyNTd1Wk8xSGdiaEdNUDlvWklNZUVKM1luOENEVlVTSUhnN0Rpa1ZDaTl0MDhxMUQ0NWNHME9wUlBKdHkzMGlYUktvRS1tY0lKRWVnRFB1c2tmMEV0SXBIc2o3UHBaQzZFQTl4eFh0UWJrUDR2a1lnMzZqeHFrQ3dPSVhYM3V2SllRSGt6anhsODNvOFhNbjZlMm5hVWNkbDRObm84SXhOM1F4SGMxWC1FQ3VyUGV6S2d2Nm1TQnV5aEJsdEdwY090R2t2WnZRcUlxZVV0WHZFb0ZnLWJF?oc=5",
@@ -85,20 +99,6 @@
         "source": "Valora Analitik",
         "pubdate": "Thu, 29 Oct 2026 11:30:39 GMT",
         "pubdate_iso": "2026-10-29T11:30:39+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Banco Central de Chile mantiene la tasa en 4,5%",
-        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPa2paenJ1dlE2UGU1ZDlYRmdMYkNzM1JMT3BaYVJMalY5anRyY0I5UWhfTHkxb29kMldSbzFYRXFPQlVKVU1rcEIxQUlHUVBfc2VxYkNmOExXMXJmaWtodFRnSTFVSXJIVE1jRE9Lc1FIclhjR0QxOFFoTFllQ3FmMmtn?oc=5",
-        "source": "El Ecosistema Startup",
-        "pubdate": "Wed, 28 Oct 2026 22:48:32 GMT",
-        "pubdate_iso": "2026-10-28T22:48:32+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -168,11 +168,11 @@
     ],
     "dolar_cobre": [
       {
-        "title": "Precio del Dólar en Chile hoy: El Peso chileno cae ligeramente en medio de datos económicos decepcionantes",
-        "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNblI2TnBHaGt6QTQxbHNCbDdRWlRnTVdCN3Z6RUpYcXJ5VUxuWHhKQmpHSV83VF9LSEJQLUF1LXRVSk14M3lMN29CVExmQXVDWGlodkV3R2hWdGREYmJHLXpOb0JaV0U3em1rZVJpYm5CTUtPcUNuTlFfVUtiaXZrT2N6UTVvMElsWTRsRE5aMkota1BXaHlueTVnS1ZpQXVZTU1zTHQ3M3R5VEYzbUZXQ2Vud0ZaUkNxSGZ4TkFCajVxeGc3ZjBIVk9CT3ZjSHJXY29uTEF6aHJVT0Q5QzFiZw?oc=5",
-        "source": "FXStreet",
-        "pubdate": "Fri, 30 Oct 2026 15:42:17 GMT",
-        "pubdate_iso": "2026-10-30T15:42:17+00:00",
+        "title": "Cochilco eleva proyección del precio del cobre a US$5,95 para 2027 y estima que producción chilena crecerá 3",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPTXdVVmdTcldISGNab0lhUUpPWTZCSTlOQk5ETmhDbHlueS12UDJJX0ZTWXJhZC1tTk8wWW5SOTFCcm02MGlrSGxhVE4ydDdsVVhJSl8xdG9Kd0thSXBHQ1JXMkt1V0tOcVlWbXFOSHR5OW50RjB0SEtpX2w3RGxnZTVseE5JYm9PVEJya1pPY1pIX2F0cXRZSm0zbGNZdkUydGlHU1N0YnppcVFBSUxWZA?oc=5",
+        "source": "Puranoticia.cl",
+        "pubdate": "Fri, 30 Oct 2026 19:02:00 GMT",
+        "pubdate_iso": "2026-10-30T19:02:00+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -182,11 +182,11 @@
         }
       },
       {
-        "title": "Precio del dólar hoy en Chile: cotización de apertura del 30 de octubre",
-        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNenVmVnZ1dEdwbFE2SG00MG1LdjQ1UDhVMkJXSlVSRTdKVkF6ZTBveXZnOFZyeVNHTzNpR0hyemM2R1ZFM1B1dEQ5VnNxcGR2cE4tZDFlelN6SGhMcTFzclhYeVV5N29odXZXQjJEUDNMUGg1MEdkZElyNzhSV1l6eFNyM2NGY0lWQzRCeEEyTk9HYnR2UHJ0OVhUUk4tdG9IVU1VbEJsNFNMWjI1cnpMcWcwUW4xd9IB0AFBVV95cUxNT29VVkVKT2RnQjNjMThMSzJ0eFROWS1fR2w5SnRvWlVQT1Vvbi10RGxjcERSM0paNUhnTTRCU0o4cXlXaG1yTmZTTkdNUUtXaHZ4MEkwVjhWZXVJb1BfeUtpNjkweVFnaDk0VGxVOFZzMVl2UldLd3hsSE1LZ2hLRzlRN2dnMGQtWE9Uc2ZYMUxLSlE2WGh3Zkl1NTBXaHRQcUZ5UzA1ZG11aFNSTmpnV0x6S2tRQUZLS181TlRPdGl6MWhnc2x0S1k2ckJnRE1Q?oc=5",
+        "title": "Precio del dólar hoy en Chile: cotización de cierre del 30 de octubre",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQzZ5V3pqMVU2YnFpM2hrQ2xyaUQ3SExyQ3FZRWxuT2hMVlRDdkFQck1TMVBKTmVuNGx1c21EMEZZUDkyN01TUEtXMWZQUkxYWHJBMkZyV2s1YllpOE95TlNrUW50MXllU0pOUjRZazVISVhfVkpKUDQzSEwxTVo5dzZrd2JIRXhuWWhWdHJGQkZ2S0hkeE1GUXh0ODF3eTEwRkFuRXNndzViX0FSMDdKMGkwY9IBzgFBVV95cUxOc1NSaGV1RGczZEJnblVqWjAxbzAwNGRfZjdpd21HR1B4Ykd6U3N2eE5zMXVlY2xLNjZSbjdJT092ejgtSGxSdW9IVl92d01mN1RxZHVyZ1k0TjhNYl9zUm1rSGo0Um1feFQ5UjR1MnlBNXJIODhzRU5LalZYVldrOTItMUpQOW9feXpZcjcwRktZR2lpV0JnX1FFa3JaZUNJT3dFN2Z5X0pzcjNRQVhUUzhNQkZJSk5TT3BCTG5Qd1BSbWNmQkJZM2p3dm93Zw?oc=5",
         "source": "Infobae",
-        "pubdate": "Fri, 30 Oct 2026 11:31:35 GMT",
-        "pubdate_iso": "2026-10-30T11:31:35+00:00",
+        "pubdate": "Fri, 30 Oct 2026 18:35:07 GMT",
+        "pubdate_iso": "2026-10-30T18:35:07+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -196,11 +196,11 @@
         }
       },
       {
-        "title": "Banco Mundial eleva proyección de precio del cobre 18% para 2026: reconocimiento de escasez estructural",
-        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPN1JMNThJRjUwNHV5a01ONEdCdGhYeThlMDU3S0RWOVZDdnRSaERuR1FDOFdtRklQVW9qdTc3OHdxOEd2Si1rOVVrTmJIUTlmNVRJeWFYODFMVTkzMG1GMUxIZGJ4eUpxdjRlZWt6d2RhZ0l1UXdVVGRkUUZuU1pJb2JKQXdnUkFsTjBWSlJFcUNaS1RYckZXVm85MGhFeVVYRzBHUEJSQ0NVSnBxcjNUUkZEMUd3OVB5Z05TcmlZVi1RaExsQTZzSXVxTVZvZjJjMnh3?oc=5",
-        "source": "Minería en Línea",
-        "pubdate": "Thu, 29 Oct 2026 22:23:31 GMT",
-        "pubdate_iso": "2026-10-29T22:23:31+00:00",
+        "title": "La paradoja del cobre en Chile: cae la producción mientras crece la demanda mundial",
+        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNeGVLazBiaGlJVms4WnB3M0JkVDhqMnQ4dTNIQ0QybDh4TlB3STloNHVSd2t4eDViVGxmeVlqdlhRT09NTFVmVzAzaUFPLW5acnRjWEhkVUZhZVVMMWhtRlRuRTlHM0gxWFdGZHQzb2N6Q2J2QXNHbk01cFRfUElnNFpHa21NaGtQbGpxRFZraGtRdGs?oc=5",
+        "source": "LexLatin",
+        "pubdate": "Fri, 30 Oct 2026 18:32:05 GMT",
+        "pubdate_iso": "2026-10-30T18:32:05+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -210,11 +210,11 @@
         }
       },
       {
-        "title": "Precio del Dólar en Chile hoy: El Peso chileno alcanza mínimos de 6 meses tras datos clave de EE.UU.",
-        "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQaTlDX29pSDhSNy1vcFY1S2JwelpxSkVUY2RsRnIxSGUxT0MxbHFNQjVNcDRxNmJKb2lOdFVDRHNRUVkzWGJodkk1U1U2bzlfbEhnTlg0WWx1c1FwbkFVQ2t1eHBsODFWelY4eDU2TnZFUmk3SjZ4Umg1TzRZSjZscjY5Z0FLeTZsLTc4ZXluX3ozTUVCWVdkSFJ6d1lrUzRkZ0JtVGpmUUhmQlVEVmRhLThwcUp2NzR0UWMyNVFyc2lKSldESndJdXRhb0gwbmhRMXh4QWln?oc=5",
-        "source": "FXStreet",
-        "pubdate": "Thu, 29 Oct 2026 15:49:14 GMT",
-        "pubdate_iso": "2026-10-29T15:49:14+00:00",
+        "title": "Cochilco actualiza proyecciones del precio del cobre",
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPNHVIcm02WTN1bjBBdk1Gd0s0eklvZWxsblRpbzUxSEpfN1R3dW1PQlFmc2NwNWRvYlBqWFRpTFN3aHhBTGpfR1RZRFFYYzNVMjZYQ1NRXzRPVE5kU093ekM4Mkx3NFNjYTBHcUpRRVRDYlJLYUE1YU4zWjJsVFVQNXhhanhGQUE?oc=5",
+        "source": "Portal Minerí­a Chilena",
+        "pubdate": "Fri, 30 Oct 2026 17:58:15 GMT",
+        "pubdate_iso": "2026-10-30T17:58:15+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -224,11 +224,11 @@
         }
       },
       {
-        "title": "Banco Mundial eleva proyección de precio del cobre 18% para 2027",
-        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOV0hEU0ZQbUpnUmtGc0VFRnRELWhoQ0xGX2FJOW9MYjl6SWc3dHJ1dC1pc0huZDBIZE1lV0h4eTRxNVVPazVJUXAyc2JOMDdQaE9ySmp0S2VDX0l4UkRCSEZVbFpPRk1kOEZINTdIdW03UDJJb01yUG5fMU0wLUJfanlncGhHR3d2ZUEteTNzcW9PNkFDTXlTT2tpUHd3ZXM?oc=5",
-        "source": "Reporte Minero",
-        "pubdate": "Thu, 29 Oct 2026 14:40:00 GMT",
-        "pubdate_iso": "2026-10-29T14:40:00+00:00",
+        "title": "El peso cierra octubre en máximos: el dólar acumula su quinto mes consecutivo al alza ante la caída del cobre y la escalada del petróleo",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPSVN3WUI5ZG9iWVhydVBtWUxSTFl1VGZOc2FmVEFTbU1pd1pfbnZLYV93N010WnhVdHpZck9GZDVxRGFzRzRxbjZRaERqSnBvQ2x1WlJZbnFGRGxYUzlzbUZEblNlcHF1Q2ZkVmxwd0hXRTZXdzgtYXJEV3RQbXg4UGNB?oc=5",
+        "source": "Portal Innova",
+        "pubdate": "Fri, 30 Oct 2026 17:36:16 GMT",
+        "pubdate_iso": "2026-10-30T17:36:16+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -296,11 +296,11 @@
         }
       },
       {
-        "title": "Quiroz fijó meta de crecimiento de 4%: \"No tengo miedo a equivocarme por ambicioso\"",
-        "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPeldKYTFrWFVhZTR3Z0hnWGk4S0tseDNIdUdGcWJ0dERpOFUwbEpTMWt0bWxIQWY0T2NTMjctY1RKYUJROW0xY1Rad3hkOUU3eVdMU0dOY05Na3d3aXM0U2JPNlFmWk5UckR1Z0ZyckR1MDVfdjRrMmNKT2hhVVNZN0ZJbUVNTjBRNk1hTURzZWM0SHdUa2VTaXZYN3c1VVg0cWFmaWxua0dsYnBxY0lSa3lYd1phRzlJSUd4S0pFcjQyUkM4X09OeUZrVUxISGJzcmdENlF3R09GUUtiaXBZT1RrONIBjAFBVV95cUxNLUFtQjRwTVV1djRpU2pSRklqMGlMdGNRbEUxR29Od1R0VWpNbzAycVdhT3VlTXdMUHhYT3VHY3MyRkdxaEYyX3hkNTFRRk5aemFET2M2SURKaU1YX1djMjBSUlBtRGE0cnZtZWNfVFV5X21fVVBUZnc4MXJURWZLZnllSzNJZlFVa0I2Zg?oc=5",
-        "source": "Cooperativa",
-        "pubdate": "Wed, 28 Oct 2026 14:03:00 GMT",
-        "pubdate_iso": "2026-10-28T14:03:00+00:00",
+        "title": "Hacienda proyecta crecimiento de 3,3% para Chile en 2027 y mantiene meta de 4%",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdG0wMzhFR2hhZHdNakNoX0lpZFFrRzlaaVdockViNGp0ejI3TWZhQlVlLXpwaVlhVmhETV85Y3I4eTZRanlGRVcyN0lNaFRpNUcyTmctNVRnenk4MVhkVmhSMmdhQzJnWGgxZUNHTVpqSFdoNXMxWFBpNy1OSVRJbkZrVGVnZHIyLXhXc3JGRVo4VlU2czBZUHVrb1BVZw?oc=5",
+        "source": "Prensa Digital",
+        "pubdate": "Wed, 28 Oct 2026 19:49:50 GMT",
+        "pubdate_iso": "2026-10-28T19:49:50+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -310,78 +310,7 @@
         }
       }
     ],
-    "politica_regulacion": [
-      {
-        "title": "Más recaudo que recorte, más IVA con devolución y menos renta para las empresas: las claves de la ley de rescate económico",
-        "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPTGp1QzZIb09nYkNobXRwUVh5emR3STNzbHJiWU1xcG5HSkhNS0FtQVVvcFlHcmpsa0V0bVV0dXFBS21hbkp5dWxRblFsTURsSXd5djZMcU5qQlRsOHpmel9uYS1WVWZvSklpQy1jX3Y2TW5WUGphX0I0bE8zdEo1WWo3Rm1YdEx5Z1NsbmpGYS15Rkl0eXBMMHhWZDhCUy02cFRZdk9CMkZSVHFSOGljcUFTOTktYW5FMnJPM1liTjZ2T1lQbE9qVW9rYm9PSG5IdXp3REdhR1VPQkdVYTVyYXIxSVh2ekJiRElqZzg3WTh0OVJaOXRCcEdjOFpTZXRNcUHSAZYCQVVfeXFMTkJhUzNtRzJPNldFUHUzWU5qcHBYSXVlQVI3YU55bTB0Z0l2bGdyX2xHZzlBTjNkSU5yYWJyMDRnYUZ2SXVITnpjWU91R2lHQTd5Ui1HY1N4eXlwcUdUVU5sS2g1bFZpb3ZVS3BsSnZEWWl4aDA5ZGd0ZTduMVRrTmk0ZDRPaUV2NlVYc1VYUkEwQkI5RlpSOXZpb29weHlYWUtHbDNoNEVYLTY2aVZWYWJENVlOd0VzZVQzQ0RNaU9QQmdYVlJYd1lYMjlKSG9TM1IzSnRCNlY4M1lidEQ4d2VpVENBRFNjanhTdlR3VkRkRVBpOWg4UWNjQlA1RjRmQ19qenBPQW5fSDJXMXgxRjNlVFh6T1E?oc=5",
-        "source": "EL PAÍS",
-        "pubdate": "Fri, 30 Oct 2026 09:30:00 GMT",
-        "pubdate_iso": "2026-10-30T09:30:00+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "El proyecto radicado ante el Congreso combina cambios tributarios, incentivos para las empresas y medidas de austeridad. El Ejecutivo sostiene que el 70% del ajuste fiscal saldría de los recortes en el funcionamiento de las entidades públicas",
-        "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNbVc1MHdqUDdaNmZ0QzNVZTQ2V3J3bUFzWXRmYlJqYk16TW5ILUgzV1J5aUxyWnFYMk4tbnQ2V0FMNHhzWklDSDE5bmx3MXBhRHVNWkV5WDJabkN1SF85SFJ2Y0Z6dllzY0ZfekhJRkdmemltdTd1MGJ5bF9KR3JYUF9rVHJtVmJtLTVYVUhpSG5uekFfd05sYmFKY3Z4WGIyMTBpRllzOWZaNkdtN3FLTlpubFFIbk1XZWNqVkNTRUlIU3JXdjA2MjNsTDRfOGlsOGRkazFxME1vMG9yRmc?oc=5",
-        "source": "Facebook",
-        "pubdate": "Fri, 30 Oct 2026 07:12:52 GMT",
-        "pubdate_iso": "2026-10-30T07:12:52+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "El Gobierno apuesta fuerte con una reforma tributaria ambiciosa y ortodoxa",
-        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQRmlQWkQ4UEY0X2lrVzhvdUtjSjVBeTlNbFh1bk9VSHBiOEJEY3NiWUhUc1JnSmIzeUtMamlaMk92Wkk4VDBTckpiY3UwV2Y1c2Zkc0JhbUNwb1dQWWluVmlkU0dLRnhfa0Z1Ml94b3Nub1RpT2hMRkplM3pSVGFOTmV2QUU5eXJCYXBZYXF3M0pZSXBuVXZnWHc4UTBhbW50SFl6dkd2WERQbHlVbVdyVFVXdnU1bUh5YVpDaVRpNkNPMDJa0gHYAUFVX3lxTE9XUHo1NlJYVDZPZmdTU053Y3Mxb2xBSkxvdi0ycVdSeTRjLWVadmQ3NW5WbGNSWEpWdC1CM1B0aTA1RGY1cnJmWU9wdndMZ0RuWXkzd0tNV1MxTnNyOU9BLXQxWUlmQTNRMWRERFBMVHAwRTg5S3NHdXVGVVdadDdCUmx5SGdRcHFlM2hNbUlrN1pZOTVWYk1iZ3pxako2dy1JaWpNVWd3WXpTcGRlSjlESDY3em8tVzhwUTgtam1QNmZMdmh1clpHZ0V2b1hTTGR4UWgzN1JkUQ?oc=5",
-        "source": "EL PAÍS",
-        "pubdate": "Fri, 30 Oct 2026 00:24:18 GMT",
-        "pubdate_iso": "2026-10-30T00:24:18+00:00",
-        "impacto": {
-          "direccion": "negativo",
-          "intensidad": 2,
-          "intensidad_label": "moderado",
-          "emoji": "🔴",
-          "razonamiento": "Reforma tributaria: incertidumbre impositiva"
-        }
-      },
-      {
-        "title": "Ley de rescate propone ampliar el IVA, recortar contratos estatales y reducir impuestos a empresas",
-        "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNdHV0d3h6SkkyaFNZNVdnZWdiaU9MRkNFLWFqVjJLbGZNdUtVSktNU2tQWFVzNUVZNnVmaF9mS1NLbG5kbkdzR0l6MUhDcjh3SnVtN01xcVJTa2Q2T3BFbHJzN2l2UFpGMTZockFwQWJkSVZJRXNhMVFJYW82T2dBZU1Jakx5cWhLT1RqdUtoekVMbUIyZGZUSDBqOHpJWTh3SG0zTEstSEtkaThZVjc1ZVpZQkk2ZkMwWEU0MnNYUkpjQWhWbWpZbXVqWFZUZjJlbkhXT1Y3Xzk0U2oxQUlKZw?oc=5",
-        "source": "Forbes Colombia",
-        "pubdate": "Thu, 29 Oct 2026 23:32:41 GMT",
-        "pubdate_iso": "2026-10-29T23:32:41+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Cómo es el impuesto cero a micro pymes que impulsa Quiroz - Ex-ante",
-        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1FTWlVOENlT0VTTjlqOVVJeWtlMW9XemFWTGxGNlFOVnhoUUZ1Q2dsbEkzOXZfSzFJQklHZlRzX0pYdkpwek9RTDFGVXZPLUVpQXY1T2NKLXBiZGd3elNvbTljbVgwRzZ1RGp5d0FaVTJEdHVkREE?oc=5",
-        "source": "Ex-ante",
-        "pubdate": "Thu, 29 Oct 2026 16:25:40 GMT",
-        "pubdate_iso": "2026-10-29T16:25:40+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      }
-    ],
+    "politica_regulacion": [],
     "pensiones_afp": [],
     "energia_tarifas": [
       {
@@ -448,7 +377,7 @@
     "ENELGXCH": [
       {
         "title": "ENEL GENERACION CHILE S.A.: Reparto de utilidades (pago de dividendos)",
-        "link": "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=b6cc3ff4f41bbf89cb5c3a38321a5d31VFdwQmVVNXFSWGROUkZrMFQxUk5NazVuUFQwPQ==&secuencia=-1&t=1793381281",
+        "link": "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=b6cc3ff4f41bbf89cb5c3a38321a5d31VFdwQmVVNXFSWGROUkZrMFQxUk5NazVuUFQwPQ==&secuencia=-1&t=1793388781",
         "pubdate": "28 oct 2026 17:49",
         "source": "CMF (Hecho Esencial)",
         "es_hecho_esencial": true,
@@ -458,7 +387,7 @@
       },
       {
         "title": "ENEL GENERACION CHILE S.A.: Reparto de utilidades (pago de dividendos)",
-        "link": "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=938aed73dd6b588fdee3e6eb5c98d3b4VFdwQmVVNXFSWGROUkZrMFQxUk5NRTEzUFQwPQ==&secuencia=-1&t=1793381281",
+        "link": "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=938aed73dd6b588fdee3e6eb5c98d3b4VFdwQmVVNXFSWGROUkZrMFQxUk5NRTEzUFQwPQ==&secuencia=-1&t=1793388781",
         "pubdate": "28 oct 2026 17:47",
         "source": "CMF (Hecho Esencial)",
         "es_hecho_esencial": true,
@@ -468,7 +397,7 @@
       },
       {
         "title": "ENEL CHILE S.A.: Reparto de utilidades (pago de dividendos)",
-        "link": "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=0b47e59e99949bbe07a22e59d1adb410VFdwQmVVNXFSWGROUkZrMFQxUkZlRTlCUFQwPQ==&secuencia=-1&t=1793381281",
+        "link": "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=0b47e59e99949bbe07a22e59d1adb410VFdwQmVVNXFSWGROUkZrMFQxUkZlRTlCUFQwPQ==&secuencia=-1&t=1793388781",
         "pubdate": "28 oct 2026 17:03",
         "source": "CMF (Hecho Esencial)",
         "es_hecho_esencial": true,
@@ -480,7 +409,7 @@
     "CENCOMALLS": [
       {
         "title": "CENCOSUD SHOPPING S.A.: Reparto de utilidades (pago de dividendos)",
-        "link": "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=3895b434097367eaeb048ff64c5f246bVFdwQmVVNXFSWGROUkZrMFRYcHJkMDFCUFQwPQ==&secuencia=-1&t=1793381281",
+        "link": "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=3895b434097367eaeb048ff64c5f246bVFdwQmVVNXFSWGROUkZrMFRYcHJkMDFCUFQwPQ==&secuencia=-1&t=1793388781",
         "pubdate": "26 oct 2026 21:07",
         "source": "CMF (Hecho Esencial)",
         "es_hecho_esencial": true,
@@ -491,13 +420,13 @@
     ]
   },
   "stats": {
-    "total_noticias": 28,
+    "total_noticias": 23,
     "por_categoria": {
       "bcch_tpm": 5,
       "ipsa": 4,
       "dolar_cobre": 5,
       "economia_chile": 5,
-      "politica_regulacion": 5,
+      "politica_regulacion": 0,
       "pensiones_afp": 0,
       "energia_tarifas": 1,
       "sectores_watchlist": 3
@@ -506,11 +435,11 @@
   },
   "resumen_ejecutivo": {
     "sentimiento": "bajista",
-    "score_neto": -6,
+    "score_neto": -4,
     "n_positivas": 0,
-    "n_negativas": 3,
-    "n_neutrales": 25,
-    "narrativa": "El feed muestra 0 senales positivas y 3 negativas (neto -6). Factores dominantes: Perdidas reportadas; Cobre desplomado: muy negativo.",
+    "n_negativas": 2,
+    "n_neutrales": 21,
+    "narrativa": "El feed muestra 0 senales positivas y 2 negativas (neto -4). Factores dominantes: Perdidas reportadas; Cobre desplomado: muy negativo.",
     "narrativa_fuente": "plantilla",
     "veredicto": "BAJISTA a corto plazo"
   }
