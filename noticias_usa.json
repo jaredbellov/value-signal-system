@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-02T12:06:32.075159+00:00",
+  "updated_at_utc": "2026-11-02T12:33:26.355636+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -20,9 +20,53 @@
     }
   },
   "noticias_por_categoria": {
-    "tesla": [],
+    "tesla": [
+      {
+        "title": "Rivian’s R2 Could Fill A ‘Relatively Unique Position And Product Void’ Between Tesla And Ford, Says Jefferies – Sees 45% Upside Potential",
+        "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxQTktSVnNsc202aXNlSHl3SUJWMko3Y2FCdEQxVzNmSzVzUW45UzNqWFhHRWJ0Uzg3VlBKZmxUeTVsa3lOeFBwd19ZMVV4VjA2bUh5OU5wcGNQcEVON2V0anV2ZDFPQnNyRl82Mkd0TVZ1dWpobjBaQTNVOVBaWFZNaS1tS21GcHdZYnNQdXVVNThubFl1b2wwVlFZWU9BVkZBNlZYVE0tdUFXSlFsSkN2WEVHRnduMk05WU5WQWlTendta3g3dVp0UzduM3JRVS1KZUFDaU9hbUVBQUxELXRZVlZFR0NNTElGYUlfbmdMOFduWWFISjVVYzlTX2Q4Mnp4blNrUjlrSzdHZ19ZQ0p0NklHVTM4LUtEdnlN?oc=5",
+        "source": "TradingView",
+        "pubdate": "Fri, 30 Oct 2026 15:34:54 GMT",
+        "pubdate_iso": "2026-10-30T15:34:54+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Rivian Post-Q3 Analysis: 3 Reasons Why the Stock is a Buy Now",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYmhTVFZCcHc2eEZQWDdNajJ3eU5TekFwaXg2c3dEN1A1RDNvNGxNT1VoMEUyTU1qZy11eFJnTWJRUVI5WDF5NVl0azZvLTZpSWF3c1hvUk8wOHNHeXBSR1llbXVxZFNrNDBLN0tTZHVHWlhDbmlVRzBhR0o4S0J6d2dUSGZNZ1BLNHlKZHdtUUlvMUZ4TXlBVDljVml3MGQ3SWQ1RVlnX0lMakhFaEp3YWN4VTU2QQ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Fri, 30 Oct 2026 13:22:00 GMT",
+        "pubdate_iso": "2026-10-30T13:22:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
     "nvidia": [],
-    "ia_semis": [],
+    "ia_semis": [
+      {
+        "title": "Hong Kong's Ingdan Q3 revenue more than doubles on AI chip demand",
+        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQSzVtTi1oTTl1NkI5SGxId0RoX1ZIMURTdmpEOExqSm1wbTd1b1dLTmtxNzZWMW9BUG1HeWYtN3o5V0cyTjZmOUdmU2EzaDR1MzFINkZucUV6RDliVjBqSFJpZ0tYajZDUUVxWFBxblozMXBnVlc5VGgwMlc3RVNNaURDbWhSRGlJVlV0R1NaUWQ0VU0zLUFLZU5ENzlObC1VUkRRZ1VDWFBiV2JmN3o1NzQxOUxuRDhjbG9iRk1RT3NOVXR4Z2J4bDdwQ3BLRFk?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 02 Nov 2026 08:54:21 GMT",
+        "pubdate_iso": "2026-11-02T08:54:21+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🟢",
+          "razonamiento": "Demanda de chips: soporte tech"
+        }
+      }
+    ],
     "macro_tech": [
       {
         "title": "The Zacks Analyst Blog Highlights SPDR Dow Jones Industrial Average ETF, First Trust Dow 30 Equal Weight ETF, Invesco Dow Jones Industrial Average Dividend ETF, ProShares Ultra Dow30 ETF and ProShares UltraPro Dow30",
@@ -97,21 +141,21 @@
     ]
   },
   "stats": {
-    "total_noticias": 5,
+    "total_noticias": 8,
     "por_categoria": {
-      "tesla": 0,
+      "tesla": 2,
       "nvidia": 0,
-      "ia_semis": 0,
+      "ia_semis": 1,
       "macro_tech": 5
     }
   },
   "resumen_ejecutivo": {
     "sentimiento": "bajista",
-    "score_neto": -6,
-    "n_positivas": 0,
+    "score_neto": -4,
+    "n_positivas": 1,
     "n_negativas": 2,
-    "n_neutrales": 3,
-    "narrativa": "El feed muestra 0 senales positivas y 2 negativas (neto -6). Factores dominantes: Selloff: presion vendedora; Fed hawkish: rate hike presiona equities.",
+    "n_neutrales": 5,
+    "narrativa": "El feed muestra 1 senales positivas y 2 negativas (neto -4). Factores dominantes: Selloff: presion vendedora; Fed hawkish: rate hike presiona equities.",
     "narrativa_fuente": "plantilla",
     "veredicto": "BAJISTA a corto plazo"
   }
