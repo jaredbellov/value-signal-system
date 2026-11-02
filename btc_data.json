@@ -1,46 +1,46 @@
 {
-  "updated_at_utc": "2026-10-31T12:15:08.103619+00:00",
-  "precio_btc": 77458.73,
+  "updated_at_utc": "2026-11-02T12:06:41.641302+00:00",
+  "precio_btc": 77773.83,
   "precio_ibit": 43.36,
-  "score_final": 75.1,
-  "zona": "OPORTUNIDAD",
-  "multiplicador": 2.5,
+  "score_final": 73.6,
+  "zona": "ATRACTIVO",
+  "multiplicador": 1.5,
   "peso_aplicado_pct": 100,
   "sub_scores": {
-    "drawdown": 63.2,
-    "fear_greed": 70,
+    "drawdown": 62.8,
+    "fear_greed": 63,
     "pi_cycle": 100,
     "halving_cycle": 85,
-    "momentum": 55.9,
-    "mvrv": 78.6
+    "momentum": 57.4,
+    "mvrv": 77.2
   },
   "sub_detalles": {
     "drawdown": {
-      "drawdown_pct": -37.91,
+      "drawdown_pct": -37.66,
       "ath": 124752.53,
-      "precio_actual": 77458.73
+      "precio_actual": 77773.83
     },
     "fear_greed": {
-      "fg_value": 30,
+      "fg_value": 37,
       "classification": "Fear"
     },
     "pi_cycle": {
-      "ma_111": 75126.86,
-      "ma_350_x2": 151994.8,
-      "ratio": 0.494
+      "ma_111": 75386.35,
+      "ma_350_x2": 151821.81,
+      "ratio": 0.497
     },
     "halving_cycle": {
-      "meses_desde_halving": 30.4,
+      "meses_desde_halving": 30.5,
       "last_halving": "2024-04-19",
       "next_halving_aprox": "2028-04-01",
       "fase": "Acumulacion pre-halving"
     },
     "momentum": {
-      "ret_12_1_pct": 23.68
+      "ret_12_1_pct": 29.67
     },
     "mvrv": {
-      "z_score": 0.758,
-      "fecha": "2026-10-30"
+      "z_score": 0.856,
+      "fecha": "2026-10-26"
     }
   },
   "pesos": {
@@ -52,14 +52,6 @@
     "mvrv": 15
   },
   "historico_btc": [
-    {
-      "fecha": "2021-10-31",
-      "precio": 61318.96
-    },
-    {
-      "fecha": "2021-11-01",
-      "precio": 61004.41
-    },
     {
       "fecha": "2021-11-02",
       "precio": 63226.4
@@ -7358,7 +7350,15 @@
     },
     {
       "fecha": "2026-10-31",
-      "precio": 77458.73
+      "precio": 77434.75
+    },
+    {
+      "fecha": "2026-11-01",
+      "precio": 78248.45
+    },
+    {
+      "fecha": "2026-11-02",
+      "precio": 77773.83
     }
   ]
 }
