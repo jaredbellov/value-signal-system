@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-02T12:06:50.505527+00:00",
+  "updated_at_utc": "2026-11-02T12:39:31.431830+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "precio": {
@@ -232,11 +232,39 @@
     ],
     "adopcion": [
       {
+        "title": "Next Technology Holding may sell $450M in Bitcoin after Binance hack",
+        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOTWVNdXRCX283Ykdlejc5bWhYUTR3TGR0U21QMmt1QWtYYklVNVhILW5rcGtPakRMUk5jN1Q4UGRweTRLdFBBMkpJS1BoMl9HbmRhLUxYRGNNV1pGdF9wTlBPejdSSm8tNHREc0pBMDZackp3YzVVZHE2akt6cE9KcUpUaFpGMlJjS196UlNRandIdnh1OFdFeHBiRGVUMzJ5M0V3dzRaenlZRE5Uc0ZmRVlsdkpTcVRmbDNwcHBGam9NVUhnNVZ2MHpuRQ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Sat, 31 Oct 2026 12:55:13 GMT",
+        "pubdate_iso": "2026-10-31T12:55:13+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Hack: golpe a confianza del ecosistema"
+        }
+      },
+      {
         "title": "Résultats Strategy T3 : 19,5 milliards de dollars de bénéfice grâce au bitcoin",
         "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE83S3JBS25WYXJJcGdHcElMbW9EbkhTT1QwSUhNZGkyRGZEMXRDeEdSaUtRbEVrUUhTaUgwbDBHVFkzdUdGanZWSm5ZbFVhM2c0b2pxLVVnR2lXOWVnSGVnLVdyYk01b0N1U3ZNcQ?oc=5",
         "source": "TradingView",
         "pubdate": "Fri, 30 Oct 2026 16:27:20 GMT",
         "pubdate_iso": "2026-10-30T16:27:20+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Mirae Asset boosts its Strategy stake by 24% to 168,634 shares",
+        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVVFuOGo5V1IwWFV5TWZYVlZSbGlXaUI2eS1ITUdjMkVzWGtiaTBLSXJsdDVFclJhVWxZYTlWTEtFWnh6amtnV2c3eFF6RTdfNjk2SUhtOEcxTm5zWERDX3dxZGloSDdVVGtRS0I1bGF3LTRoN3Z0Nzlla2xIZXRVSVpNanMwWXhYaEpyRWxEY1RDLTFLUVFSbGxwNVVCc3V6U211eHp6eWIzTDFBU3pTTUI1QUwtbmVVLUQzUWdQY0VzcU0?oc=5",
+        "source": "TradingView",
+        "pubdate": "Fri, 30 Oct 2026 14:26:37 GMT",
+        "pubdate_iso": "2026-10-30T14:26:37+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -279,24 +307,24 @@
     ]
   },
   "stats": {
-    "total_noticias": 17,
+    "total_noticias": 19,
     "por_categoria": {
       "precio": 5,
       "etf_flows": 4,
       "regulacion": 5,
-      "adopcion": 1,
+      "adopcion": 3,
       "fed_macro": 0,
       "sentimiento_onchain": 2
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "neutral",
-    "score_neto": -1,
+    "sentimiento": "levemente bajista",
+    "score_neto": -3,
     "n_positivas": 1,
-    "n_negativas": 1,
-    "n_neutrales": 15,
-    "narrativa": "El feed muestra 1 senales positivas y 1 negativas (neto -1). Factores dominantes: BTC a la baja; Adopcion mencionada.",
+    "n_negativas": 2,
+    "n_neutrales": 16,
+    "narrativa": "El feed muestra 1 senales positivas y 2 negativas (neto -3). Factores dominantes: Hack: golpe a confianza del ecosistema; BTC a la baja.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "NEUTRAL - sin sesgo dominante"
+    "veredicto": "Levemente BAJISTA"
   }
 }
