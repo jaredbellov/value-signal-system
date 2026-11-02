@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-02T17:03:25.477470+00:00",
+  "updated_at_utc": "2026-11-02T17:33:25.276732+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -20,24 +20,81 @@
     }
   },
   "noticias_por_categoria": {
-    "tesla": [],
-    "nvidia": [],
-    "ia_semis": [
+    "tesla": [
       {
-        "title": "Hong Kong's Ingdan Q3 revenue more than doubles on AI chip demand",
-        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQSzVtTi1oTTl1NkI5SGxId0RoX1ZIMURTdmpEOExqSm1wbTd1b1dLTmtxNzZWMW9BUG1HeWYtN3o5V0cyTjZmOUdmU2EzaDR1MzFINkZucUV6RDliVjBqSFJpZ0tYajZDUUVxWFBxblozMXBnVlc5VGgwMlc3RVNNaURDbWhSRGlJVlV0R1NaUWQ0VU0zLUFLZU5ENzlObC1VUkRRZ1VDWFBiV2JmN3o1NzQxOUxuRDhjbG9iRk1RT3NOVXR4Z2J4bDdwQ3BLRFk?oc=5",
-        "source": "TradingView",
-        "pubdate": "Mon, 02 Nov 2026 08:54:21 GMT",
-        "pubdate_iso": "2026-11-02T08:54:21+00:00",
+        "title": "Precio de las acciones, noticias, cotización e historial de Tesla, Inc. (TSLA)",
+        "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE51alhIX0NqbGFvSWlqQ1FJYVlyd0xabHJzTGxOM05QOGJhZmxlSzJ4ZDhZLWhDMXRBN0JVNzFXQ3NndlN0cU05aVF4Z1paM2Z1ZGswdVJmbw?oc=5",
+        "source": "Yahoo Finanzas",
+        "pubdate": "Mon, 02 Nov 2026 12:05:47 GMT",
+        "pubdate_iso": "2026-11-02T12:05:47+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "nvidia": [
+      {
+        "title": "El soporte de las acciones de Nvidia cobra protagonismo tras una prolongada caída: análisis semanal",
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWDd2WlpHMHBkTDE0ZGtNcG1MeXBMNVVzX0tQaHMza05kSXhEajVUTzl0ZDFkRWNYWWhuR2syU2NuYkxELS1TV2hYOXNJVW54cjByUTNBU3lpMlc2Y2hJanBLay1DckVkLWY0cUNIZnphQS1ib0tqNDNnYTJheEt0d0lJbzFUa01lVnp4ampZcklFQQ?oc=5",
+        "source": "Traders Union",
+        "pubdate": "Sun, 01 Nov 2026 14:07:38 GMT",
+        "pubdate_iso": "2026-11-01T14:07:38+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Pronóstico del precio de las acciones de Micron: El recorte planificado de capas HBM para el Rubin Ultra de Nvidia y la disminución del uso de memoria por unidad podrían lastrar el crecimiento de los ingresos",
+        "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNYkxRcHdiVXhnRmlHLWZ0X3lxUFpxRFhpQzRDX18ybzloNktWamJxWU1VbzZfQXlGUHFaMFNZQU1GS3YwSXpGMlRsQnRpZVg4RVBRMEFrZ0NIaXRUVHhVbG0zNWxVdVFaazJFdEFMMXp3WHV0MDNWNFhYQXFaN3RoYk1XZ3JxMTVjREloRlByT0kxOFc2em4tQkRQYjhZNkxaMWFTd3VyYnUyNkJLdkVndU11WS1YN2ZhNXBnWWZ2MG1zT3RGYjdFNGw1OVpTMUdOZTJhbkNTN3E?oc=5",
+        "source": "TradingKey",
+        "pubdate": "Fri, 30 Oct 2026 22:06:59 GMT",
+        "pubdate_iso": "2026-10-30T22:06:59+00:00",
         "impacto": {
           "direccion": "positivo",
           "intensidad": 2,
           "intensidad_label": "moderado",
           "emoji": "🟢",
-          "razonamiento": "Demanda de chips: soporte tech"
+          "razonamiento": "Proxima arquitectura Rubin: roadmap fuerte"
+        }
+      },
+      {
+        "title": "Las mayores empresas del mundo por capitalización bursátil (octubre de 2026): Apple supera a Nvidia mientras las dudas sobre el retorno de la IA golpean a las acciones tecnológicas",
+        "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQdmlGSWdtbmNRdm1TSjFveGZEaXhpeFVnX21IdWtrdUJuUFpaUzBsRS12NW94elRUQ1U1YXRESkJONnJOdUdBMmJGYXJQX082YUJKM1lRMXFHb0FSd0JSMmQ3M2Y2d2FaajFpSm1kOXZHUHN2RDduRzZiblJaUUJmR1pJNk9YRWtDaktGeVV0MGxsLWhRWHNCNGl6Z1RmZTVPN2puTFh1TThxMlNFa2xXb1VMUVpKTGFFQS0tbVN6MzZFUWJ2aTlUTktKdXpIQmk5NU4yYlREYXFRNU1ucVJ6ZUJCb0s1UQ?oc=5",
+        "source": "TradingKey",
+        "pubdate": "Fri, 30 Oct 2026 20:58:32 GMT",
+        "pubdate_iso": "2026-10-30T20:58:32+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Tecnológicas caen: ¿Comprar Nvidia? 5 acciones para aprovechar la baja, 5 a evitar",
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZVZIdnN2RFpGUzA1SnBNREV2My1KcXBEdHJGVzZwMVEwQzlsbHVQQmE2eUV5LUJOYmRiOVJNUENUbkpmZXdyTHE3UGtnMGswWGhTRzlVMnMwNnlWWEc2cm1Qa3NPalg1N2lBWUJCU2lvbjBidy1JMTR6MDh6NUhqX1M2MEYyaXo3dmJlSTZ5V181SXp3dUNYTjE1Q18?oc=5",
+        "source": "Yahoo Finanzas",
+        "pubdate": "Fri, 30 Oct 2026 18:41:18 GMT",
+        "pubdate_iso": "2026-10-30T18:41:18+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
         }
       }
     ],
+    "ia_semis": [],
     "macro_tech": [
       {
         "title": "Bitcoin recupera terreno hacia los $79,000 mientras los mercados superan el mayor hackeo en el mundo cripto",
@@ -112,11 +169,11 @@
     ]
   },
   "stats": {
-    "total_noticias": 6,
+    "total_noticias": 10,
     "por_categoria": {
-      "tesla": 0,
-      "nvidia": 0,
-      "ia_semis": 1,
+      "tesla": 1,
+      "nvidia": 4,
+      "ia_semis": 0,
       "macro_tech": 5
     }
   },
@@ -125,8 +182,8 @@
     "score_neto": 0,
     "n_positivas": 1,
     "n_negativas": 1,
-    "n_neutrales": 4,
-    "narrativa": "El feed muestra 1 senales positivas y 1 negativas (neto +0). Factores dominantes: Demanda de chips: soporte tech; Alerta de burbuja.",
+    "n_neutrales": 8,
+    "narrativa": "El feed muestra 1 senales positivas y 1 negativas (neto +0). Factores dominantes: Proxima arquitectura Rubin: roadmap fuerte; Alerta de burbuja.",
     "narrativa_fuente": "plantilla",
     "veredicto": "NEUTRAL - sin sesgo dominante"
   }
