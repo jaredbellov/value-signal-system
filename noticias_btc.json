@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-02T12:01:13.264777+00:00",
+  "updated_at_utc": "2026-11-02T12:06:50.505527+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "precio": {
@@ -107,6 +107,34 @@
         "source": "Cryptonews.net",
         "pubdate": "Mon, 02 Nov 2026 08:21:34 GMT",
         "pubdate_iso": "2026-11-02T08:21:34+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Crypto Market Loses $360 Billion in October as Solana, Ethereum Lead Losses",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNQ1VpcV9BS09zclowNTNaN196M3l1WVI3N0ppSENHNU4wUkh0YUFJc1hFMHVpUDdpdWh6QU53OFZNeDMwRnIxbHR5YUtjSXUtOHBFVXN1XzZBWE4zaVJkTFFFazdxS3FUUEk1eThESFBCdlRsYk9wbFpmUGh0a0RCb3JXT3Ftc3hlb2xpQTJmS2JTWW13RFNsQVQ0NHZrMjY1WHFrYm9qS0hScnJ0QkVGaVVfUFhFdl80ZF82RXpoclhTTWlzNHp1dVprV2k?oc=5",
+        "source": "TradingView",
+        "pubdate": "Sat, 31 Oct 2026 10:30:29 GMT",
+        "pubdate_iso": "2026-10-31T10:30:29+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "CEO de OneKey advierte que el ETF IBIT de BlackRock podría ser el próximo objetivo de los hackers",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQclhFVDd5Z1NxMWRSRGpSME9kMVk5amM0TFVfaXdTV0h2eW5sQ2owb1poZXNFeU82bUt5dmdmR1pDbnF2YURsVWJQaE1wVk1OU1BxMGFEOHd1OVVHV25CYkRoSjZlTmhBWFJhR1MzWnFuTXpZYmN3NjM0RjZjMEtJelEySkt6amhrakNkNEtKbHRaQ1V0djRFQkxMck41OEVGd0MzbkZJdUhHMEw4Y0JFajBnS1M3Q3Z3VVk4UXNYaXQzSEdSWlI0?oc=5",
+        "source": "Crypto Economy",
+        "pubdate": "Fri, 30 Oct 2026 18:52:10 GMT",
+        "pubdate_iso": "2026-10-30T18:52:10+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -251,10 +279,10 @@
     ]
   },
   "stats": {
-    "total_noticias": 15,
+    "total_noticias": 17,
     "por_categoria": {
       "precio": 5,
-      "etf_flows": 2,
+      "etf_flows": 4,
       "regulacion": 5,
       "adopcion": 1,
       "fed_macro": 0,
@@ -266,7 +294,7 @@
     "score_neto": -1,
     "n_positivas": 1,
     "n_negativas": 1,
-    "n_neutrales": 13,
+    "n_neutrales": 15,
     "narrativa": "El feed muestra 1 senales positivas y 1 negativas (neto -1). Factores dominantes: BTC a la baja; Adopcion mencionada.",
     "narrativa_fuente": "plantilla",
     "veredicto": "NEUTRAL - sin sesgo dominante"
