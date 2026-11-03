@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-03T08:38:55.771645+00:00",
+  "updated_at_utc": "2026-11-03T14:06:02.371319+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "fed_tasas": {
@@ -28,32 +28,374 @@
     }
   },
   "noticias_por_categoria": {
-    "fed_tasas": [],
-    "mercado": [],
-    "tech_nasdaq": [],
-    "economia": [],
-    "earnings": [],
-    "sentimiento": []
+    "fed_tasas": [
+      {
+        "title": "Noticias de Brave New Coin en TradingView, de fecha 2026-11-02 — bravenewcoin:f3247f2f6094b:0",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9LTldpNng3TnlkMjhzX0RFbHV4ekZvV0RONEdydXl1TjhQdEN1Mnc1OVNWajJEVU11R3J4MmdlN0dhcHJZNmtxMnJMRTZxcG4xMlo0WV9wUXJqYUZ5OURicUg2NnRKYUVMczUyUXpR?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 02 Nov 2026 12:14:29 GMT",
+        "pubdate_iso": "2026-11-02T12:14:29+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "mercado": [
+      {
+        "title": "La bolsa teme nuevos ataques en Ormuz en medio de las elecciones 'midterm' en Estados Unidos",
+        "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOV0h1RnBqbU9ienZYNkRlUkVfT2NxYzJVM3ByYm1zWFdoTnZWUVdPOFc0OUw5V201SzY5bHotdmgxS2Z5cDRsR3JjT1JkYmRnTzVsb0RTTzlDbUtjX0tibnRWdjNFTUZzWUlIbm0wN01UNk02dmZZQUdRSkNBblVxSVRtUUhNU0FtV0U3c2VwazZSRUlGNU5iRnAzZjRVMV9VdWpsaDlXc0htSnFiYzNSaEVtajQzdE9rQTY0TDNGX1QwVWt6NHN2RWJqaXpoZTNWdmJIRUZoMl81ODRNcmprbEU4NHpJWHNKVGp6QWRvam5WdTBGVG91VG9HRTlBd9IB6AFBVV95cUxPSElYWmJ5UVpMX0huQ3ZBR1ctLXowOXNCQWJXQ21XdkZoTWt0RVotSWx2emEtcXdDVjc5b0N6UzBWczRKdW9rSXNzdWdBRWZONGc2LURWNW00bl9yUlBVWnc1LUViV0N2Q2JKWEo2QS0ybXhJRXZsd0RucmlMdkRzNkZxbkM0Vmd4T1k4MzBodlpMaVl0TFBUU3lMRHE5TktvWFc0a0piV2ZGY2Q0TWlPVGE2c3RaN28yc25MTnozbV9HbURmd2NXUEZsZ2tIWWRTd1JlV2d4bHd5N1E5M1lpdGJ5QWxRNW9H?oc=5",
+        "source": "El Economista",
+        "pubdate": "Tue, 03 Nov 2026 06:57:31 GMT",
+        "pubdate_iso": "2026-11-03T06:57:31+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Brazilian (BOVESPA) Market Analysis & Valuation",
+        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBfTkJkaWFtMTA5UWFrMWJTWVV6dHVULTN2c1JXNkhEYk42QU1POXNjS3RDbURNMGtzYkZ4VWFhNW80MTVFT2wxdXNNMA?oc=5",
+        "source": "Simply Wall St",
+        "pubdate": "Tue, 03 Nov 2026 01:29:23 GMT",
+        "pubdate_iso": "2026-11-03T01:29:23+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Malawian (MSE) Market Analysis & Valuation",
+        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5XYk16cHdBcUNjTlIwY1JrWW8wRWdxU25zaUJfVTM2bHNDRHpITVRmcG1tZ2Q0MHhfYWpvUlVxSWRKbmd5TEMxU290QQ?oc=5",
+        "source": "Simply Wall St",
+        "pubdate": "Mon, 02 Nov 2026 20:46:08 GMT",
+        "pubdate_iso": "2026-11-02T20:46:08+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Venezuelan (IBC) Market Analysis & Valuation",
+        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1pU21Cb2YyVHkzQ0JmdTlUTGZfaThKbUh1MGxhc29sMzkteGdEeFU5cnVjRjY0NlpzSFFmYUdkUGVPS2VwRlhManUyTQ?oc=5",
+        "source": "Simply Wall St",
+        "pubdate": "Mon, 02 Nov 2026 19:11:39 GMT",
+        "pubdate_iso": "2026-11-02T19:11:39+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Dow Rises 1%, Oil Sinks 7% on Iran Peace Hopes: Stock Market Today",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPUDUwRC05UUNhYlk5VjMxb1RzQXoxbV9kMnI4bU51cXNlbU41ZTNpZU9vUjBiSnA4Q0tKU242TExiRFRQSEN1d2lOT3l2ZVZOTjkxUVBPX19uSGRQSTlXdEpuOHJ5UENJZDUtSWtNemtrYlAzVTFIazBlWXpBZnNvamptWHdqYTNfUnNUZVMwTUczdk1TVENSM3l1LXJnbWNQN2pNRlNPcVhMTTVXMldIT25Ub3lqdEptTGM5RQ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 02 Nov 2026 17:32:47 GMT",
+        "pubdate_iso": "2026-11-02T17:32:47+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "tech_nasdaq": [
+      {
+        "title": "Nasdaq cae 1,07%: Oracle y Marvell arrastran al sector tech",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZUhraDRSYmtLRWluZUJjRURMNldfQldSQXN4TGlhS3gzZDRfS292X2NfNHZFclhxenBPblFPTkpiSTBWU3UyLXJVTGVDU2lPaF83YVlxSEJkQk5SdHFidmVUT0pTODN4bzFmWTVEU3VEbnNNbld5M3Jod3FZVDNXM0oyQkt1cWEtSFRsLXlBcVk?oc=5",
+        "source": "El Ecosistema Startup",
+        "pubdate": "Mon, 02 Nov 2026 23:24:40 GMT",
+        "pubdate_iso": "2026-11-02T23:24:40+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Stocks Rally as Crude Oil Sinks on US-Iran Hopes",
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQLW05eThJRXF2aWRGQzdMc2hrQjRHS0dfaFJYTXVINXA4VkFHOWVwOUk2OWRSUWtUd1lqV3pCeGxYSHJLZ2xxVExQaTlUSGtENEt2a21XeUZneHdtenFDaUV6TGNMN2x4cVlvSDNINWlXLVI1WkhKUFlsTnpQRTdrbUhzbUZsSm00WC1zemp0YVNiWVpkc0tLSkRhdjZ6TzA4MU1fTlR0OFJYQQ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 02 Nov 2026 16:14:32 GMT",
+        "pubdate_iso": "2026-11-02T16:14:32+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🟢",
+          "razonamiento": "Rally accionario"
+        }
+      },
+      {
+        "title": "U.S. indexes turn the page from a red October, with elections and big tech earnings ahead",
+        "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOSk1HWWV0SWdXcERFT3l4alg0VEVKcl96MWRJVFh2RDlhTjZ4ZTl6cTJ2d3ZzOEsyTDdxd1hKMGNkTktjcXo3SXc1d3oxQ2paYmE3dEo5elpCNXJDT0RoaTRwRUFWQlRZOHg1aG9WUHhyTG00elJOdmllaUZoNGRUZkNhTjQ5S2NnS1NPTzlua0JXMmRZOFJNcUhCcXlkeUVIbFMzVzNLcEI2aDdPSnAzSGNqUUprcmFkNVc4SXc3M3pyYWdzTy1oTWVuUEFZa3QtaU83MWl5bmxWQ1c2N0pKd0x2WQ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 02 Nov 2026 15:02:20 GMT",
+        "pubdate_iso": "2026-11-02T15:02:20+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Rise Ahead of Apple, Palantir Earnings; RYAAY, USLM, INO in Focus (UPDATED)",
+        "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOZ0d6Qm9nLUJGbmF0RjM4R0EzWWlMM0g5c3JuU19Ld2QtWTNzQ20yTS1XQUZPVFFKYUFpbHc3cUNxb2p0TXN4M0pQNmtzcUZYNVZKLXJKLTFNSzA4MDJhN0VYVThFUlVXeDgxdTE1OEg2QmRwTEt2ZHNTcm9JTTZXTGdiLVNJZFN0UnlTUDh6djc4SmN5YU0zR3BlclpiY2JJcnNBcC03b1BXUG5rVmxScmRuZlBNZEhEcGRWSGJGMENSSkJGUkpmRmIwQ01ROTZCbjJqOS1FODM2cDQ1Um0tTUFpQ3ViQkUwUlJsdE9hVkhCZEdieUV2U1JrYlU2MndsY25HeUFOWEkxRV81NGMtbw?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 02 Nov 2026 13:15:14 GMT",
+        "pubdate_iso": "2026-11-02T13:15:14+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Ed Yardeni Sees AI Chip Rebound, Year-End Stock Rally — Warns Of Midterm Election, Iran War Risks",
+        "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNZVdfLVB4ZXZ5c0dpY0ZyVkpTY3QyUEg3NjY3NTk3RjZKbUEta1h1bml3QXlRckc1Mm9MbERfRUZSVlgxWEFITW9LQ2pXSXVUaEFSMWMyOUo0MjRtbW8zTUtjUkZpZGdWWVdyVUN6OGNlY2ZSVTlOeDlvbWZ2NWI2ZGZaVnBNWnM3dUpvV2lqeHFLX2Z4aDI5M3hkb3c1TW9qdk41WlJmVldBOWhna0w1OUlOU19ZSU4yLWVCY2lsSXM4Z0pDV1g3ZW4xUUlOTlk4MlpERVFNNURkcF9waGtwZ3JKb0ZzNVJP?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 02 Nov 2026 11:08:29 GMT",
+        "pubdate_iso": "2026-11-02T11:08:29+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "economia": [
+      {
+        "title": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Rise Ahead of Apple, Palantir Earnings; RYAAY, USLM, INO in Focus (UPDATED)",
+        "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOZ0d6Qm9nLUJGbmF0RjM4R0EzWWlMM0g5c3JuU19Ld2QtWTNzQ20yTS1XQUZPVFFKYUFpbHc3cUNxb2p0TXN4M0pQNmtzcUZYNVZKLXJKLTFNSzA4MDJhN0VYVThFUlVXeDgxdTE1OEg2QmRwTEt2ZHNTcm9JTTZXTGdiLVNJZFN0UnlTUDh6djc4SmN5YU0zR3BlclpiY2JJcnNBcC03b1BXUG5rVmxScmRuZlBNZEhEcGRWSGJGMENSSkJGUkpmRmIwQ01ROTZCbjJqOS1FODM2cDQ1Um0tTUFpQ3ViQkUwUlJsdE9hVkhCZEdieUV2U1JrYlU2MndsY25HeUFOWEkxRV81NGMtbw?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 02 Nov 2026 13:15:14 GMT",
+        "pubdate_iso": "2026-11-02T13:15:14+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Kevin O'Leary Says AI Is Keeping US Economy Resilient Despite Rising Costs: ‘Earnings Don't Put Food on the Table’",
+        "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPU21SRGhWSlZEdmVEb19ybUMxTnJhRXNjU1BwYXlnak5VSnNGN0NSMUNjc21qQzNvc3Y3QjZvY29fbUdZSm1TSnIyRTVkSi1hX25kbEpZZmFqVFRGT0I5Q01HUmxRYzYzYklLWEwyTDhoUEZrMUhCMFRtTE1lVTJRa0tQUWZnTUtiQmNBbzhJcHBqc1hQQVlXbGFRZ3NWYXd5bGtDcjJ6QzRSUTdFRlVETW1ucVd4RlQ5RHBhbklULS1uVmFwcFRlcEZUdjZGR0VRRFljT0taVTFoWjJGN3Vua05QNjFYZ2VQVWN2ZFk1cmROODdpbklwZVNlWk5rdw?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 02 Nov 2026 07:07:00 GMT",
+        "pubdate_iso": "2026-11-02T07:07:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Are financial risks really increasing? Yes, says the IMF",
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWnY4WEIwVEN4N1dYZDdEa1ZweGxyeEZGQkxEUUk0NnYzNHIwSkQ5YjlYaEVfRXYydDU4T01LWlZqNmNMSzVnTFJvZEpFZ0ktVF9PZXJHWXh6X1hiMDRzNmpkUUF6Yzk3VHNfV1ZUTGdpdGdXZ21jNG5aemdySmNnSFA1RHY0dGRRQTdQTHRQZmx5ZS1yR1p5amRUN1Q3b3c3dHdrVjBKTDI1aUlyYzE4SXU1bkFsbzQ?oc=5",
+        "source": "World Economic Forum",
+        "pubdate": "Mon, 02 Nov 2026 06:44:06 GMT",
+        "pubdate_iso": "2026-11-02T06:44:06+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "U.S. midterms, jobs, earnings put credit markets to the test: SocGen",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTmVrbER1c2hRQ3REOUgwZW85WWQyR0ZpYVRMZmhZcW8xN054MUlXMzdOV3pUOEpYSVFnTndKaGhOQWNDWUg4VkQxUmEtdTNWd2YzdHJJdGNrNHpzSUZRNmQ5SzlWTU4wM2hGVGI1VGZNYWJQRVJIdjVhVDI3c1czeFk2NFN4bFNJTUJQdUlWS0Z3LWtYM3BLMGZTSHljUGRiS0tYTDNwRkdRYmwtN292dXdCZUp4c0NjRjJLV3FCQThxUm11?oc=5",
+        "source": "TradingView",
+        "pubdate": "Sun, 01 Nov 2026 19:10:17 GMT",
+        "pubdate_iso": "2026-11-01T19:10:17+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "earnings": [
+      {
+        "title": "ZOO Digital Group (AIM:ZOO) previsión de las acciones y estimaciones de analistas",
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNU0tSQjB4M3Y1SjFyNk5hTE9SU2FIX19qUkFUbktTUC1idVBSMFZXR3RlT1JIRjlFcW1WcXRBV1NFNkhrNVN2Zzd5bTJlbmE4TWdQOF9CU1hWX2xUQlZka0pIMTlrVzl6R2dBbHBhNmdiUXNKNGVSYVdZcENKQXc1WDFULUIxZmc?oc=5",
+        "source": "Simply Wall St",
+        "pubdate": "Mon, 02 Nov 2026 21:33:49 GMT",
+        "pubdate_iso": "2026-11-02T21:33:49+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "What's in the Cards for Simon Property This Earnings Season?",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQVHByQU42QkNRNnEyLWxLRE8zT0dXaDVmMHZuNHFPR0xoX0pPdFd4VWxrSmlDbVNPU1FNdm5oSkVzeVNwT1NPMExjUnRmcTZmN040bWV0TXRNWDdyM1pMNFhOQ3k5eWk3dVBabTFBYTlnUE15eEhSUHJBSGlpX1Nnb1dNUlN5QXFlUGtsTERSOXFJTmZhOFgxVXhHVzhEYllPVTc2TUVJa0h3djQtenBSMk9HNks?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 02 Nov 2026 17:19:00 GMT",
+        "pubdate_iso": "2026-11-02T17:19:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Cheniere Energy Q3 Earnings Miss on Rising Costs, Revenues Beat",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOakVjakIyVVdZcVY4UW1LYmthRmtqbHQxeUJwRWhmbEhlNWkzR3hMZzVPWVNYTnhuUW1pR2IzeFFnb05LODZab3VwVnhQM0RydEctUlhfeVd3NVhMOEV3dkR3OHo1b1V4cjg1STRja3htZ3dENnVxczAtUUtxWVd0NVlrQWRNTG1NZU16cHYybmlvOU9MMGgtd1RpUG91MnpCU29paTNMa01Mbmp5cXZUbVdtNml0cXhs?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 02 Nov 2026 16:50:00 GMT",
+        "pubdate_iso": "2026-11-02T16:50:00+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Earnings bajo lo esperado"
+        }
+      },
+      {
+        "title": "CART Q3 Earnings Miss, Revenues Beat, DoorDash Deal Takes Focus",
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxORFAzZjdwaE91OElGU21TQVczdVdtUnY0dnZ4X2RITTR5dXcyekVyN2lVNDZQODJxbFEtMFI2ajB2RTd6Nk5meDBoV0t1Rkl3Qk9MUjFPZW1uVHlxaFdjTjE2cXY5a1h0WVBhUkU1ektMU2ZkWmg1UXlPZkNzdDVvU2dLa0RvVy1VT3ZDaFVrYWttUVZSOF9wRkdMakhwQXVxc2pncGRVZmszZWZzSS04Y2UxTnFJdEE?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 02 Nov 2026 15:56:00 GMT",
+        "pubdate_iso": "2026-11-02T15:56:00+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Earnings bajo lo esperado"
+        }
+      },
+      {
+        "title": "What's in the Offing for Regency Centers Stock This Earnings Season?",
+        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTjk0LUNnVWdiS3c1Qi1mUWJXYi1yTlkwLUk3WDB5eEhuaEYzMVRGMGtyZ1lQM2Yxa29tVlpnREJiU3ByVzJlaGVZelhFN25USUVVbndPWUlrLU1QcG1ybVNpOVhrdkRYYjdrbk9LVWUtTnh5ZE1NekJUSTd0blV3LWFRSThLcDIyTmRqYjBsZ0lLRUlhTkF2ZHI2SUZBZGx6WEhvbjJQZlRjeFIyTEhsYVN5TFdNN0pZdTM3anVkVQ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 02 Nov 2026 15:08:00 GMT",
+        "pubdate_iso": "2026-11-02T15:08:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "sentimiento": [
+      {
+        "title": "Previsión del precio del WTI: la corrección se prolonga por debajo de los 100 dólares",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTGMxbnhhVC1jUkNyVkZ6ZDFPVFZfMlVwY0lTcUU2MWpOTzZqcGs4RW4tTEhhVUN5NUc2UzZVS3BfdEJFald4Q3ltY2d1cW1udzJNUWQ5NHhGeF9wQ2pWcE9YNE16cTBXX2VleHZIc2tweHFWd1psdVphY2NHRTlyYVFabDYzX3cxTm1peVBjUUl1dmNxd1BHZzRoT1hvNkVEVUlLc3VuSmVoUUVyZEowVjBWNA?oc=5",
+        "source": "www.tmgm.com",
+        "pubdate": "Mon, 02 Nov 2026 07:41:35 GMT",
+        "pubdate_iso": "2026-11-02T07:41:35+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Correccion en curso o anticipada"
+        }
+      },
+      {
+        "title": "How Will U.S. Midterm Election Results Impact Bitcoin",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMDFfNnpRTm94elJ3SkhCZHB2eG02R0NGYVYtbHhnQmVuVXNaN01XREZGQlRnVmc1VFkxVWJ3UkZubld5cnJqMFFlZkx4dkhhdnJVUnNlLTc2WFRGQ2F4eFE3QndoMERBM2RmbWN6WFgyV19sbl9Vcmp1eDFnc1NrUGR4SVZsSkZ3UnFvNU5zelNHcS0wQXNHMGc3UDMzaHpKakxhVHU2NXRrVFZnZW9pWQ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 02 Nov 2026 07:30:00 GMT",
+        "pubdate_iso": "2026-11-02T07:30:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Stock market outlook today, 2 Nov: Sensex, Nifty prediction - DJIA, S&P, NASDAQ, GIFT Nifty, Kospi, Nikkei, Taiwan cues",
+        "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNTTZMd0VycWU1YXVLWFBFam5xS21XOE9GRjRyRXpPeUlOSWQxbkY4QXdyamtnQUl4NUhIWVVkRjhtOUgzSU0xa2FJSkR4em9hckpsa2FHN3hzcVdBUUVHV05VWEFkT3Y2aFI2dWlNU2RMOF9fUzZpVkgtQ3IxTWJsQzF0ZFlZdnBTUmRGaW8ybzlWVjNyRVgyREM0MzhkZkpEUExzbDhyRmdndTZrQ3U5SW5hSlVMc1lhSEd4eTdEUTZvMkdqYzN0OUlCTjZNYzVMLXEtNGJFbDVDTjhaejBDQUdONzhDSm52eExsTE5SX2hOWWVfeXNF?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 02 Nov 2026 04:41:00 GMT",
+        "pubdate_iso": "2026-11-02T04:41:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Stock market prediction Nov 2-6 week: Nifty, Sensex rebound from losses - Will bulls deliver a Diwali bonanza? Outlook",
+        "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQTkw3QWpBYWY3T09XVXQwTEF6MVlfQWpNeXV5VndCZGczZHFyVG5sVEtVYkFEWllURDZ1WlVqc3A4bmdDaXk2RVlQU2dyTkFDcG1IcWplNElhVkw3OFZRVm1kMHZPcHFjUUt5cHRsVnRGNUJXbENhNWJYYXlvb1ZpY3F2a3REeWV6Y0k3S2Y4SnExbG1xVk91cHlpakg0ekFHeWxzYlBPUWVxVTR0bHV5dWNMbGNmeXhsdkJYM2JVRkJMSkVfSmxkczVtZDNLSVZWX1JIVXZxX0NUR0kyQ2pnaks2LVl0cGF2Ni1fbVhOTzZSRkJ6Yi0xamh3MDZKQQ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Sat, 31 Oct 2026 18:18:47 GMT",
+        "pubdate_iso": "2026-10-31T18:18:47+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ]
   },
   "stats": {
-    "total_noticias": 0,
+    "total_noticias": 24,
     "por_categoria": {
-      "fed_tasas": 0,
-      "mercado": 0,
-      "tech_nasdaq": 0,
-      "economia": 0,
-      "earnings": 0,
-      "sentimiento": 0
+      "fed_tasas": 1,
+      "mercado": 5,
+      "tech_nasdaq": 5,
+      "economia": 4,
+      "earnings": 5,
+      "sentimiento": 4
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "neutral",
-    "score_neto": 0,
-    "n_positivas": 0,
-    "n_negativas": 0,
-    "n_neutrales": 0,
-    "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
+    "sentimiento": "bajista",
+    "score_neto": -4,
+    "n_positivas": 1,
+    "n_negativas": 3,
+    "n_neutrales": 20,
+    "narrativa": "El feed muestra 1 senales positivas y 3 negativas (neto -4). Factores dominantes: Rally accionario; Earnings bajo lo esperado.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "NEUTRAL - sin sesgo dominante"
+    "veredicto": "BAJISTA a corto plazo"
   }
 }
