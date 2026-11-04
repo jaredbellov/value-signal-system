@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-04T11:02:22.984722+00:00",
+  "updated_at_utc": "2026-11-04T13:43:34.126121+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "precio": {
@@ -28,31 +28,359 @@
     }
   },
   "noticias_por_categoria": {
-    "precio": [],
-    "etf_flows": [],
-    "regulacion": [],
-    "adopcion": [],
-    "fed_macro": [],
-    "sentimiento_onchain": []
+    "precio": [
+      {
+        "title": "Predicción del precio de Bitcoin 2023-2031",
+        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE81dG5aU3dxNlA3Rlp0THphYW9hZzNMRGZHZGFIMHdENXhpeG1Vdi1FdGdHb1phR0pvdkFkSUpQQzVjUk5veTZGUGxvYUE0STlraVFzUWxLYl9GU1c0bGc?oc=5",
+        "source": "Changelly",
+        "pubdate": "Wed, 04 Nov 2026 09:54:42 GMT",
+        "pubdate_iso": "2026-11-04T09:54:42+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "ETF de Bitcoin: salidas de más de 1.000 millones",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVjFRcWZGRTB1dVdLT1FUWFNLaW9ialFkSWYxamd4S1g0dktJVHU1X2NOVDlua1dac0VfR3NGOGJaZWRqQ3pyZzZVWnJrRnB1NVNhUC1iUWtZaG1FYnBVX0lRQkEwUVFzZkNHek5xQjR6eXRiSkJqenRidkZIdDBvUzVyR0M?oc=5",
+        "source": "CryptoTicker.io",
+        "pubdate": "Wed, 04 Nov 2026 07:42:00 GMT",
+        "pubdate_iso": "2026-11-04T07:42:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Precio de Bitcoin tras la noche electoral: el mínimo clave",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBDcnRPbG8tQmlMLW4wZXJTX1dkcFpiU2dKYm5zN0ZfYTBFSDdUdVYyYURWczEybDdmcGxKUWZkSVp5bkRMMDJfTi0xUEZXZGQ4NlhUVkZrQ3E4cHJleWhabDEwbWNsLVBtdmVOdGtSTkxNaFZQWVFkcTVaMXZXUHM?oc=5",
+        "source": "CryptoTicker.io",
+        "pubdate": "Wed, 04 Nov 2026 05:23:40 GMT",
+        "pubdate_iso": "2026-11-04T05:23:40+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Bitcoin hoy: BTC se recupera ligeramente y pone a prueba los $78.000",
+        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMTBsTW5lZVlON3ZtVjF3SnFWb1RPaHJONFY1SUwxTnNCbHBCaTFPTFZ5UlU4VFlDY3NQR0JxTE5wdzFBTGdwZzhEZXRMMGlZWjR1eVVQVjNDYllVa3MwRk5pX21WZ3llcURVRkhnVzJjbVlHeWdSQTZtMkc2b0tiM1BfZEQzSEpnOUd1WkJ6cXZ0bVlWbWN0SExvZEw2aVp5SkNPc3dJYk5JeVds?oc=5",
+        "source": "CriptoTendencia",
+        "pubdate": "Tue, 03 Nov 2026 23:03:06 GMT",
+        "pubdate_iso": "2026-11-03T23:03:06+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Precio de bitcoin hoy: soporte en USD 76.455",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOV2Z3eGd6OTJPVy00U2NzNXFZRzBIZm0wZzlDaVFrOVd0T2h3VE5laEV3cURsTHNVU1pZSDhXdm5wZDZUNzJHcm1uSzFsVGVIYlllTzF4a0tWQk1sQUVrVkdfMzRtSjhYNWllOUVCZFZPRHVFNjNvWkcxYUlGUjVsOHVuOA?oc=5",
+        "source": "ABC Economía",
+        "pubdate": "Tue, 03 Nov 2026 22:38:33 GMT",
+        "pubdate_iso": "2026-11-03T22:38:33+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "etf_flows": [
+      {
+        "title": "IBIT de BlackRock pierde 405 millones en un día: quién está detrás de las salidas de ETF bitcoin",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOZGFuMlBaVHpDbDdPTHJFVWd1ZV9FaUVqRFFWeGpBb3c2VWxlWjlHZm1weG5DLXdQTHhJNzZZenBORVJHaFZqMmtyN2VBWXhzdlZBeWxZMnJKYnVkc3hOeXhIOGQ4OXhuS1lDRUZNSVdqYTdUSmtzTUpOVnZDa3c4RHh3?oc=5",
+        "source": "Merca2.es",
+        "pubdate": "Tue, 03 Nov 2026 19:19:08 GMT",
+        "pubdate_iso": "2026-11-03T19:19:08+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "¿BlackRock está vendiendo Bitcoin? Qué hay realmente detrás de la salida de $405 millones de IBIT",
+        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1Lb2I3YklsR3ppSGcxcWEzS0FoRGtmc2FEa1o3QmhZU2c4di1BNlNLTHQxYzd3aFd3VlNIMkU0R2FFbVEzY1Y2OFFNUG1tRFVsSXdBVmViNUNNQTc1cE45ZlVMVDQteERMbFgyb3FJakhxTUpSVm1qeV9ndw?oc=5",
+        "source": "BeInCrypto",
+        "pubdate": "Tue, 03 Nov 2026 13:08:00 GMT",
+        "pubdate_iso": "2026-11-03T13:08:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "El ETF de Bitcoin de BlackRock registra salidas de 405 millones de dólares, las mayores desde junio",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPcHF0MDZKSWlhX1hlZzdVazBuQk5GZnJKYXgtMmJSR0trT2JWZzdraDFFYzk4Y1pIOVoxWnBLOXZ6VnV1ZkdkR1lTdWdYUF81dVNkUzNiTjQzaTQtZUNpbFlzQXVWTE9zeVN1MjdYR2tlZTZkaEVTMnd4R3lOOUJTalI3Mk9CWkhH?oc=5",
+        "source": "cointelegraph.es",
+        "pubdate": "Tue, 03 Nov 2026 08:15:03 GMT",
+        "pubdate_iso": "2026-11-03T08:15:03+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "L’IBIT de BlackRock enregistre ses plus importantes sorties de fonds depuis juin",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxON1JxSV9FN05RclNsb3huUThra0hyejdhRV9EbFVHWXVNNnVHdHlKaXdQRXVvUU9MYnZsRW8yNk05MnRMa1Q1amFpR0pTNF9oNnhqTlh4bnIyTV90UFR2dVNWU0trLVcwSV9FVmpabTZtZWUyOU52ZUc0a3RrRFJ3eWtJazYtTFVV?oc=5",
+        "source": "TradingView",
+        "pubdate": "Tue, 03 Nov 2026 07:49:00 GMT",
+        "pubdate_iso": "2026-11-03T07:49:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "BlackRock sells $405M worth of Bitcoin as IBIT redemptions pile up",
+        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNOUlKR1Y1aDREeGhoWmZiUGUzRWd4cnRJQnhVbzhGQ1kyUThJSEhFQS1ZeWk0VExtTkZPNzFrdm42YW5tb29ZN0diTW1OR2Fsd0d1TVlsR1JRSkNEQXdmbTdrdEpNT0JPNVFfU2ZoSS1DbmxmbVlWakdNbXVuS3hsWkxFdGVjcXAxM3VSTWNoTlhNaURUVlZFVUdkcHdqS3o3TjhOcm5yOVRRODBvUS1TdTEtNUItR041a0VBZE1SMEs1VDJnNDVBTw?oc=5",
+        "source": "TradingView",
+        "pubdate": "Tue, 03 Nov 2026 05:23:00 GMT",
+        "pubdate_iso": "2026-11-03T05:23:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "regulacion": [
+      {
+        "title": "La SEC tratará a canton coin igual que a bitcoin",
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOMkdlc05BTHFSWkt0bVN1eFZrUlF3UmdfSkp6YUNPSzd5YXFYN0VfV0p6c0wzNzB2c014SnNWNnE4aEJWaGI5VHJPNTVWNXJxSnZBaGJTT0kzOERlRUhQT2szWHFKODFxLTVTeWJILUpwcWM5TktKNjlWdWxfQ01MdmZvZ1BFZ2M?oc=5",
+        "source": "CriptoNoticias",
+        "pubdate": "Wed, 04 Nov 2026 13:05:00 GMT",
+        "pubdate_iso": "2026-11-04T13:05:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Democrats claim control of the US Senate",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPMHpONVJvS0F1MjhmX3RDRXlzem5RSXVjZGtENWpMaXBkNWhIYm4xX0VLYWdPcHJSbFJTZEV4TnQ0Y2dDazRnQ0ZYTmMwSFUtd1RQOUxSS2tsaGNGOVc5Um5CTGVQQ3N0TkF3ZE55NzZHbVU2RXB2aTBDelplVy1lUlRUVjJyMF9rT0JpYXRWaTd1dkVlVlBnOWlEdGVlbHUxTGJNT3ZB?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 04 Nov 2026 04:40:00 GMT",
+        "pubdate_iso": "2026-11-04T04:40:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Los demócratas ganan el Senado: qué significa para las reglas cripto y el CLARITY Act",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9kaDFJQTJBZ0ZkWkNveG1PRVNsSHNRQ3NoWTh4dEN3dENzYmRycUdhOHVqZHFLX01WT2NNRmNvTS0tWWU1WkNRbmdQNkMydVk1S3ZVWEpDXzhKZ28xZmNCRDdnRGlBRS1rVFNTcV9ob1JFUQ?oc=5",
+        "source": "CryptoTicker.io",
+        "pubdate": "Wed, 04 Nov 2026 04:25:33 GMT",
+        "pubdate_iso": "2026-11-04T04:25:33+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Regulador surcoreano exige más controles sobre carteras frías cripto",
+        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQ0NYbU5OVExhRTdOcmF2ZDQteHVmcG0tRDlkZWhMTXhLYTh5ODU2cngxd3o1MlRGcFNjaXg0RUtYZkZIYkxIdTNFazRLaHRJQk1FNDZueFdKU1ljdjVLWXNrLURNZ19kTi1aTDJxbHNITDJTc1V5YW5NN3QzVzFUaWJvOXVLOU80M1NqcWkweG4weWxwQjk3MkhNYkRnSWNoaER2c3BjNzdSc0diR0JuRHRJUUZPd2lWN3c?oc=5",
+        "source": "Bitcoin News",
+        "pubdate": "Wed, 04 Nov 2026 03:30:00 GMT",
+        "pubdate_iso": "2026-11-04T03:30:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Los demócratas ganan la Cámara de Representantes: qué significa para Bitcoin y el CLARITY Act",
+        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOYzJEQVNHbkhDOTYxSjRfZnlVd0pKT0YtS011NzRpNV9EeTExUnF1YzhXZmp0Z0ZYWGFxX2VqYW82Ti10ZnMydmVIT1hoMTJ4WXZ0Z3lKbHBoRWJFRFhFN2FQLVQyNV85ZzFJdGR4SXdTanJpaDh4cGlZbDN0VG9NaUJnU1M2dw?oc=5",
+        "source": "CryptoTicker.io",
+        "pubdate": "Wed, 04 Nov 2026 03:17:41 GMT",
+        "pubdate_iso": "2026-11-04T03:17:41+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "adopcion": [
+      {
+        "title": "Super League adds 8 BTC ahead of Metaplanet deal, bringing total to 15",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPY0NEU1hQbGpZNF84ZUM2OWlaQktTTlR5Z0pZZkZHaXp0OGt0NWN4N3FyMG83RTBlVER6M2dYUWk3dnZ5bExYSlAyT2YtdVFNM3F3cWZwYjFsenV3RER3NjZ6d2M2cjlvLXV1ek9za2RPdVpEclJ3QUtKT016ZDBCVUZvZ3h2SXFSX2p2OFUwcXU2NlJ5SlRwOTZPM0Z4MTVabGlwNTlxMUNZOXYwRy13MEthYVBWblBzVUt0SjdiQTVTTkF1emdpYXdOemRWdw?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 02 Nov 2026 18:40:47 GMT",
+        "pubdate_iso": "2026-11-02T18:40:47+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Strategy Makes Its Largest Bitcoin Purchase Since September, Keeps Buying Back More STRC",
+        "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPZTZTazItV21peFBmUEpSVEU4YlU3b0lUV2FOUmFvbUdUUkdiRW05Tng2cXlUSUQwdGx0dnduSzJORXJIa20tTjNhMGZRVFdXZTZFblowZG9JNVRza3VXUzVLaTN1QUhEeDFVM1IxNnRYV3hTanAxVzhBVzlGUXF2ZDNMbG1iTmJHOVJKTGU0aVJmNEZKX1Vqc1ZUc080Y2RIdE5OMHZqWGVvQXJhMHRMQ3RqQWNlLU5rYjZXdkFqMS10SUVOZnJVcnpWOEkwZmEzLUJmTjltVV96eC1tZzdYbg?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 02 Nov 2026 16:40:36 GMT",
+        "pubdate_iso": "2026-11-02T16:40:36+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Strategy Buys $65.5 Million in Bitcoin as Michael Saylor Adds 811 BTC",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOVk02U0dFV0VCdHJ0UXFFYzJYaXVaZXhDM1FYaGZkVjFQRm56Y0Myb0xzVWtRTHJHTm9OTGhHVEFWeU5WbUZjcWV5TzFxdk1TMkR6eVBhSXV0eFowdm5CQVhRMll3d3lFYzdPMTRDcFFRd01QV2FsenpiS0FRYkYwN0dTNUl4WnZqMUFDTE53eWw1SU1DaVdvSnZwa3A0Ym8tdVdMb1ltZDNjcjV6U0lCeGxnSk92Y0x0NVhzVUNGdEhCVWh6?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 02 Nov 2026 13:48:32 GMT",
+        "pubdate_iso": "2026-11-02T13:48:32+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🟢",
+          "razonamiento": "Strategy compra BTC: validacion institucional"
+        }
+      },
+      {
+        "title": "MicroStrategy y Strive compran más Bitcoin, pero los accionistas podrían sentir el impacto",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPbjdXUEhlOVFKSXdHVWhuQ2lUR0RjR0VrSGdOZ1QzanljUGljX2gxT2xTblZEd2hfN0E4dHdNaUd0RjZCc044YVYteHd0NnV3LVhuekZYb2laMlZuTE82bFNIblYzZ3FfR1dLaGVzcndDS091Sm1zWHFzUXZtQ3ZKZ3kwa0tFS2pDTHgzTGREYWFSVGd3WTEtVGRkVi1CSzY3bjZr?oc=5",
+        "source": "Yahoo",
+        "pubdate": "Mon, 02 Nov 2026 13:46:09 GMT",
+        "pubdate_iso": "2026-11-02T13:46:09+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Strive buys 124 Bitcoin, closes in on Metaplanet in treasury race",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNN1g2WFNKZWZ0WTlTNUR0Y2QwdHVvTUZuc0U1VEFLbHdQanNoRXdrY004cmExaW5melBYOEZreVNIbUZUQnp2WWxjclo4OEppbWlUUnM5NGQ4TjdldXZiNHdFMVFFdHhicVRCUV9Ld01GOW9jTmgteGJjUmxJd1hjRnRPVVRxN2hrdjl4SnBGazdNM1pBcWlKLTlxdHJhdU9ka04zMm5RVE9NZW45akdzNGlHdVhCZWRXc2V0TE9YWE12Y09JS0dF?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 02 Nov 2026 13:05:47 GMT",
+        "pubdate_iso": "2026-11-02T13:05:47+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "fed_macro": [
+      {
+        "title": "Wall Street killed Bitcoin’s wild rallies: 10x’s Markus Thielen",
+        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSzJIRU5oSVZEMUZvT2piUjl3UTNGSm1IV3FqZ09JOGF2WmF3Y2tUNUNjbUp1RlAtMkRTbUpjbGlRTlo1c2NJZ2FFelI1d01leVl1UXZ1bzgzalZFZXBoRndvVlE3MERVQmhpN1NYTlFieW0xam5zUmVwY1I2VGFMY3dQMTZyaWdyNGZNeU4xTzdnZHBtTVZpZVZ2VkpydjNobVZkU3p1UWN6cUExSFU2dFBNSjRvZXJLTWZOS2N2RVUyMWc?oc=5",
+        "source": "TradingView",
+        "pubdate": "Tue, 03 Nov 2026 16:47:01 GMT",
+        "pubdate_iso": "2026-11-03T16:47:01+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "sentimiento_onchain": [
+      {
+        "title": "Crypto Fear & Greed Index sinks to 30 after Binance hack",
+        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPYU5WdUNTOE9JNzRUM25IdEV1VkJuQUdUdmsxaXYxNE8wQnB6TFl0WndxaXN5cHJQSnRSb3V6azJPeFh6d1FzN1BYYzlDSzhGUGMzRHJhM3loMmRVcVd6MWs3elIwQ3JWVVVwNVJBakRZVmdaMDc2TDdlWjctbGJIM2kyeDNxS3lLQVJ6T2FqeE1XVmpmeV85R0FUU1gta2hUV25ybkJTbE13Wm9IeVZ6aEI5aVhYM2JjMnc?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 02 Nov 2026 09:53:08 GMT",
+        "pubdate_iso": "2026-11-02T09:53:08+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Hack: golpe a confianza del ecosistema"
+        }
+      },
+      {
+        "title": "Fear and Greed Index at 36 or higher on November 3?",
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxON0htV0dqb0VJaURnOURxdk9JQkNya0pRX1I2UVpOSGdfcUR6RmhlempDVDUtaXN4c3g3ZnZaanBwZ3dmNEhaV0R5eng1Q3FBVVRfWm1ZQ0laMS1BSmplcThtNG14dXhYbGFCWWo1VXBUZmxSVmp4MEtmckFKbDAzYmpSRWtrNXBkLVhtOHlZWHFLZw?oc=5",
+        "source": "Decrypt",
+        "pubdate": "Mon, 02 Nov 2026 00:11:00 GMT",
+        "pubdate_iso": "2026-11-02T00:11:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ]
   },
   "stats": {
-    "total_noticias": 0,
+    "total_noticias": 23,
     "por_categoria": {
-      "precio": 0,
-      "etf_flows": 0,
-      "regulacion": 0,
-      "adopcion": 0,
-      "fed_macro": 0,
-      "sentimiento_onchain": 0
+      "precio": 5,
+      "etf_flows": 5,
+      "regulacion": 5,
+      "adopcion": 5,
+      "fed_macro": 1,
+      "sentimiento_onchain": 2
     }
   },
   "resumen_ejecutivo": {
     "sentimiento": "neutral",
     "score_neto": 0,
-    "n_positivas": 0,
-    "n_negativas": 0,
-    "n_neutrales": 0,
-    "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
+    "n_positivas": 1,
+    "n_negativas": 1,
+    "n_neutrales": 21,
+    "narrativa": "El feed muestra 1 senales positivas y 1 negativas (neto +0). Factores dominantes: Strategy compra BTC: validacion institucional; Hack: golpe a confianza del ecosistema.",
     "narrativa_fuente": "plantilla",
     "veredicto": "NEUTRAL - sin sesgo dominante"
   }
