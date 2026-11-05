@@ -1,33 +1,33 @@
 {
-  "updated_at_utc": "2026-11-04T19:15:08.010940+00:00",
-  "precio_btc": 80200.85,
-  "precio_ibit": 45.4,
-  "score_final": 73.3,
+  "updated_at_utc": "2026-11-05T14:31:29.168495+00:00",
+  "precio_btc": 79412.35,
+  "precio_ibit": 44.96,
+  "score_final": 70.6,
   "zona": "ATRACTIVO",
   "multiplicador": 1.5,
   "peso_aplicado_pct": 100,
   "sub_scores": {
-    "drawdown": 59.5,
-    "fear_greed": 66,
+    "drawdown": 60.6,
+    "fear_greed": 50,
     "pi_cycle": 100,
     "halving_cycle": 85,
-    "momentum": 55.4,
-    "mvrv": 76.8
+    "momentum": 55.9,
+    "mvrv": 78.3
   },
   "sub_detalles": {
     "drawdown": {
-      "drawdown_pct": -35.71,
+      "drawdown_pct": -36.34,
       "ath": 124752.53,
-      "precio_actual": 80200.85
+      "precio_actual": 79412.35
     },
     "fear_greed": {
-      "fg_value": 34,
-      "classification": "Fear"
+      "fg_value": 50,
+      "classification": "Neutral"
     },
     "pi_cycle": {
-      "ma_111": 75638.13,
-      "ma_350_x2": 151662.01,
-      "ratio": 0.499
+      "ma_111": 75779.73,
+      "ma_350_x2": 151621.92,
+      "ratio": 0.5
     },
     "halving_cycle": {
       "meses_desde_halving": 30.6,
@@ -36,11 +36,11 @@
       "fase": "Acumulacion pre-halving"
     },
     "momentum": {
-      "ret_12_1_pct": 21.77
+      "ret_12_1_pct": 23.71
     },
     "mvrv": {
-      "z_score": 0.883,
-      "fecha": "2026-10-28"
+      "z_score": 0.782,
+      "fecha": "2026-10-29"
     }
   },
   "pesos": {
@@ -52,10 +52,6 @@
     "mvrv": 15
   },
   "historico_btc": [
-    {
-      "fecha": "2021-11-04",
-      "precio": 61452.23
-    },
     {
       "fecha": "2021-11-05",
       "precio": 61125.68
@@ -7358,7 +7354,11 @@
     },
     {
       "fecha": "2026-11-04",
-      "precio": 80200.85
+      "precio": 80405.29
+    },
+    {
+      "fecha": "2026-11-05",
+      "precio": 79412.35
     }
   ]
 }
