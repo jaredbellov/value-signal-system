@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-06T18:39:33.343803+00:00",
+  "updated_at_utc": "2026-11-06T20:54:17.749435+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "precio": {
@@ -28,289 +28,32 @@
     }
   },
   "noticias_por_categoria": {
-    "precio": [
-      {
-        "title": "Bitcoin hoy: la cotización al 6 de noviembre",
-        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOaW5QV0Y0eWcwOWZqbTB6emkwUDRjRTJOV1pxR3NuRmtHRXFaLVdydGR4UXQ1eUNlVXZmUkR6SEVKOVZpODNCdHJIakNkLUtDanVpRF9CNFlRdjg0Wk14WVFqaXRZekNmMWZMbkhGZEVxOFlaOE1GaGVva2FfVG55b2ZBVVhNWWFxeWNQVTlFdzA4alhwWHpodUtoUmM?oc=5",
-        "source": "La Nación",
-        "pubdate": "Fri, 06 Nov 2026 17:00:00 GMT",
-        "pubdate_iso": "2026-11-06T17:00:00+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Precio del dólar en México hoy viernes 6 de noviembre: Así cotiza a la compra y venta en ventanillas",
-        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPU0NpZEw3UGJfTm9EcU1XTkh5eGJBeHB3aHlpblY4NWppaTdMbXphMVNyOXNSZS00UEVpSnBRd09pZGlUWjRsUTRZLUxvR2QzLV9YSWw0cEllM3NTS2l4WVp4SUZDUktGcHJ6SVV6OTkxUGl6aWRIQkFyeGRWSlFYSmpwbUVzT3loNmRfbEFxcXFWUGRIY24zd0lDVUtiZkozWnFma0x4amdsS1BJZ25DUW9nRkZROXpkY1lpdFFpaHU1N1N2a2ZGWU9QeXVwb0JBVXIwRi1Tbw?oc=5",
-        "source": "TV Azteca",
-        "pubdate": "Fri, 06 Nov 2026 15:57:01 GMT",
-        "pubdate_iso": "2026-11-06T15:57:01+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Capitalización de mercado cripto: Bitcoin frente al oro",
-        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQcnByVzZNdlZQdU9qemZtdjRXQXlyYzhRU3dodDJtUk1VTzFMdHNIU1RqWUlhZmxXQ2ExT3JPdGpjY0pUdGItQXZ6QmFuOGhNVHdfVGF0dS1EZVIxRU9iUVVZLUlXNk5uLXp0S19MV3pOdjJLZ3R6bjYzejNuT1NOWGpsR0g?oc=5",
-        "source": "CryptoTicker.io",
-        "pubdate": "Fri, 06 Nov 2026 13:23:56 GMT",
-        "pubdate_iso": "2026-11-06T13:23:56+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "BitFuFu reporta producción de bitcoin y tenencias en octubre - Investing.com México",
-        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOUDVOdzU0RFFWRVpQNzByLVV3MVlMMnRwUElnWnpaSGdORF9sTEFFOUM3cUtIaldlcTMtRGZTV0FvSVlZbXJRMnJWc3BmMWx2UzJxcEFGVy1UT3hZMFQ4UVFTVW5jbnpJd2pzNDUzODNQZHpTU0dZb3diN0xuU3FvOGdxVWtZcWRSZUtWSnZhQ3FDWk5CdDlNVjViaE91cmxNNjFocEZIbXBQUlFheGlqSVNSRnVzeTg?oc=5",
-        "source": "Investing.com México - Finanzas, Bolsa y Forex",
-        "pubdate": "Fri, 06 Nov 2026 13:11:42 GMT",
-        "pubdate_iso": "2026-11-06T13:11:42+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Criptomonedas hoy: Bitcoin, Ethereum y XRP amplían las pérdidas al revertirse el repunte posterior a las elecciones de mitad de mandato",
-        "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOd3ZlZUpuSzNxNmFOeE9rXzBySDIzLVJZRHRmSzlCd1AzR05uM0FzMzhrT0FXTHZBSDQwaXBIZWswYTJEeGw0TWVKTEllRVZ4WTZXQXJZcHlCVGRNYUJ6QjNnY0xJSDFuSUJLbzl3dFFHZVdVT1E0WlNsaWRWQ3A3emx6b2FJb1dfWlRaNEYxZGRteERHYVpYamktQmJDdEs2VDBhVGxiV3dJeWlfc1ltMkxVSW5WbmR6QjBNLXBnbWNROGdKek50MV80MGhLa184WjFVQ2pVT0RSWjd6TjRuNjBCVksxWWoyZmlYdFY4Yw?oc=5",
-        "source": "www.tmgm.com",
-        "pubdate": "Fri, 06 Nov 2026 12:55:30 GMT",
-        "pubdate_iso": "2026-11-06T12:55:30+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      }
-    ],
-    "etf_flows": [
-      {
-        "title": "Los 237 millones de Fidelity compensan la salida de IBIT de BlackRock mientras los ETF de bitcoin ponen fin a su racha negativa",
-        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNbGE3VzZxb0FNMzEyZWFaZkE3azNUVmlyZEs5anhOMWVvd1J6bXJGNUtPRFMzVEhSdEQxOXVVa2xhdkNLOVZYTUJmckltVklxbVpfdVZCaElzM3BIX01JMFRPdENXWk5obzBRNzRYODM4ZUMzcWc3QnREcS1LRlNwbnl3?oc=5",
-        "source": "Cryptopolitan",
-        "pubdate": "Thu, 05 Nov 2026 14:28:35 GMT",
-        "pubdate_iso": "2026-11-05T14:28:35+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Bitcoin, Ether ETFs draw $128M as crypto rebounds after midterms",
-        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOWlRScE1iWHRZNG94c2NqeXNieGtYTDVlUU5WTHRUWFZzNTdwb3llX25PSzZWSkYyWUJDT1FZeEh6TGtiSkN2dS1VeXVjTk1IVEZ5NDlWdmNhMGxFbVFNT2RLb1d4YXdqS1dUU0M4UTFjUzNiNEpZUUVub09Cc2NpX1JVTEJJZThJLUUwZWpCclRZOVVVWE1YUFhVdVNjN3psa2pacUpmcndxaW5kdHFuMFZnRzgwUnl0aFV5dTlyVTkyb28?oc=5",
-        "source": "TradingView",
-        "pubdate": "Thu, 05 Nov 2026 08:22:30 GMT",
-        "pubdate_iso": "2026-11-05T08:22:30+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Bitcoin y los ETF de Ether atraen 128 millones de dólares mientras el mercado cripto se recupera tras las elecciones de medio mandato",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE41MlVJVXhPR3A1N2wyaGFjaFk2SEZVRG52LVpsamYyU1lXZm9aaWItM05SNS1wa3o3NVNKQW5ES1liWFBFa2RhX1R0dkdEMVVRbjBWVWcwYUFuMGZQT3lXTktGU3gxUElYRDFvZ09Haw?oc=5",
-        "source": "TradingView",
-        "pubdate": "Thu, 05 Nov 2026 08:22:30 GMT",
-        "pubdate_iso": "2026-11-05T08:22:30+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Fidelity buys $237M worth of Bitcoin as FBTC inflows jump",
-        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZzVVMUR2THlITUdyWkF4NzVJODR0ZlV1ejZzYzBwenJzZjd4eGg2WVZWbTFfNjRHNWNkTG9ncUZuOUpoOXk0Q2xwa3RjZW9wenhlOVFBdTNlMTFwU2Zpc2F4bzVndjJySV94WUFrbVl2NXBPakMyV2pPdl9LNElIZHJGd25ibDRUU1gxREN5Y05FUHVoZkx1a0pFSnozMl9wVFpldlhXTXBvd1ZydEhOM3cwNExlSnMtSGZzdA?oc=5",
-        "source": "TradingView",
-        "pubdate": "Thu, 05 Nov 2026 04:16:00 GMT",
-        "pubdate_iso": "2026-11-05T04:16:00+00:00",
-        "impacto": {
-          "direccion": "positivo",
-          "intensidad": 2,
-          "intensidad_label": "moderado",
-          "emoji": "🟢",
-          "razonamiento": "Flujos institucionales hacia BTC"
-        }
-      },
-      {
-        "title": "Bitcoin ETFs lose $1.16B as Bitwise calls selling ‘short-term’",
-        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNT1M4S2w2eU5ldGxqY25nNjE0NkgyWEE2X1FSVEEwUnlfeDNoWjFkZ2ppVW5IdUdMR2VXaFB6YzlQZFBmV2dZZ0NITE5jQ3diSEJoUWZCZGUyU296czZOOUNOemlPVmtySUs0Y2pzRkxyU003R0JnbnVBa21sM1NaUnNiZ2pBb2ZWSEhzejJwdXZiVnJ3aEhEM09JOFpvTnBlS1ZhTVA3S00zdURwMzJQSGxGbEdSUkstX1k2ekw1SQ?oc=5",
-        "source": "TradingView",
-        "pubdate": "Wed, 04 Nov 2026 09:38:07 GMT",
-        "pubdate_iso": "2026-11-04T09:38:07+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      }
-    ],
-    "regulacion": [
-      {
-        "title": "Las iniciativas de memecoins de Trump descarrilaron la CLARITY Act, dice Scaramucci",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE11SUZ5aXZmNkVVdno0S05LVm9BaElsVlkyVF9YQzNXQjQwdURTWmxQWnJUU2pmZjhBNHU1elRuanI2M2M3emtEMFJJcXFPbWY3REt0czJvQ0F3cTdaWXR2cUJfT1kyVnFRS1NyZEtpSQ?oc=5",
-        "source": "TradingView",
-        "pubdate": "Fri, 06 Nov 2026 16:21:02 GMT",
-        "pubdate_iso": "2026-11-06T16:21:02+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Cripto en 401k: la regla final llega a la Casa Blanca",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBucHRpRVpkZVZUOTF4VG96TjhNYlBlRkdwbkdFTU9nSjRxdXEwajFoUVJyOC00cWNLcUxoUldxLUVDVlpOUGVwUXloWmhQbkNmVDNxaWd6S1c5Qjd2aXNQZi0wb1hpQXFzRHJF?oc=5",
-        "source": "Criptotendencias",
-        "pubdate": "Fri, 06 Nov 2026 16:01:32 GMT",
-        "pubdate_iso": "2026-11-06T16:01:32+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Nigeria establece nuevas normas de licencias para criptomonedas y prohíbe las stablecoins algorítmicas",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5YWFluVjRwR0ZQMXNjTmtmRUJ2emMzRXpXT2pLeEJiWEQ3N25SUTIxUFJCSEk0cEhkSlRkajVzSVNIVHlTT0JWNTlYeHVxa1htM1h5TWhBVHhoaXAxX2VNd2QwTHlQZHY4LURFWkotOA?oc=5",
-        "source": "TradingView",
-        "pubdate": "Fri, 06 Nov 2026 14:20:43 GMT",
-        "pubdate_iso": "2026-11-06T14:20:43+00:00",
-        "impacto": {
-          "direccion": "negativo",
-          "intensidad": 2,
-          "intensidad_label": "moderado",
-          "emoji": "🔴",
-          "razonamiento": "Prohibicion: muy negativo"
-        }
-      },
-      {
-        "title": "Nuevos impuestos a las criptomonedas en Europa: otro país fija alícuotas para ganancias de capital y finanzas descentralizadas",
-        "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPaVVmb2FnT3VDenlzNXQ4WDA0ZUI1cXVMWTZLSTlqcUo2RHIxSl9iV3RfemppeEJPcmhVLVhpT2duZWxlMzExeDNQcmVCemFSaG0zTkVQUkVwejRjTDEzUWZOTnh4WHl5c2Zqd1hPYTVBdmZBUGFJMXQtLXNBUHNsNTVyNWdrREF5YUdicjlxSTBBVVZmemh0ZFNtT0FuQUZmNThXU3lxSmN5RzlDRGl0Z3J2ME5hNExienozZkdkTHd2aDMtS09hVmVKeHp4YzdHVVR0ejNFTEstNEVpNVc5dXJmckF2OVhydVJPQlpNVFdkSVJDWmlLTVl1S2hKZnZ3LXo4b19jQUU?oc=5",
-        "source": "Cripto247",
-        "pubdate": "Fri, 06 Nov 2026 12:58:05 GMT",
-        "pubdate_iso": "2026-11-06T12:58:05+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "La SEC manda a la Casa Blanca su regla de brókeres cripto",
-        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQOXVHeXRuZVllS2tyTDBVVS1ZRW5jVkg0WmUzUDZhOTdOWkhxbGMyOVc0UlAtUl9HN3JyQW5xXzZBMWNhWUdpVHk3VTZaQnRhd1Z2al9UcV81VUxnS24yYUpnZjI1S3hBUkpuVlZ2S3ZIMkQ2ZlM0Z045a1E2VHU4NVA2TUEycjN4LTRIb1JUdndMaVpC?oc=5",
-        "source": "Observatorio Blockchain",
-        "pubdate": "Fri, 06 Nov 2026 11:00:45 GMT",
-        "pubdate_iso": "2026-11-06T11:00:45+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      }
-    ],
-    "adopcion": [
-      {
-        "title": "American Bitcoin swings to $126M profit in Q3 2026 on Bitcoin gains",
-        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNV2pSNW5wUVdZbGNKSUFIRHVKNy1naFhLeGpMS1ZydF9rd01lbmVRV2FNSkVqb2tJenpxS28tcDhRU0dTNTBtN1pNVWhLUGxSdTNCdWNXSVNDYjNhOS1Geng3bXBvQTAySjlRMEZUaTlpVGQyM2t5SHpnUVpVWHAxWXlPU2NIQnI3bVRUN3paNGU1TVpIT09ueU85YjJFRHBIdjVzQ0xnTW9aT25kcE1uMjdQLTc5MHFlNjNXMXZhbGhZS1pPdkFGRWNR?oc=5",
-        "source": "TradingView",
-        "pubdate": "Thu, 05 Nov 2026 11:13:48 GMT",
-        "pubdate_iso": "2026-11-05T11:13:48+00:00",
-        "impacto": {
-          "direccion": "positivo",
-          "intensidad": 2,
-          "intensidad_label": "moderado",
-          "emoji": "🟢",
-          "razonamiento": "BTC gana terreno"
-        }
-      },
-      {
-        "title": "Block adds 120 Bitcoin in Q3, lifting total holdings to 9,237 BTC",
-        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPMjVvQ1lnZzR5QXQ0SzYxTnprMHNfM1dHRVNDZDc5c2NST25JWTBqRWtVS290UUNtOWtMMDRtUXdfaXp4UVV4UENyNU1pVHBYWVBKN05weUFjenZmTUV2dmJSblIwdFEzc2NTMy1nNURCcFo3S2FUbldsWjVIVVVDWUZNS2pBeEZYQjdVbEhkbjlLYWtIM19FUXM1SjZEWmNBbDctYjFTeGpnTkJFdlh0b3VvcTZKYk1ORG5fRnlZdHVVQWF6U3kw?oc=5",
-        "source": "TradingView",
-        "pubdate": "Wed, 04 Nov 2026 08:49:03 GMT",
-        "pubdate_iso": "2026-11-04T08:49:03+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      }
-    ],
-    "fed_macro": [
-      {
-        "title": "La Fed y la OCC llamaron a los bancos tras el hackeo de Binance mientras entraba en vigor la norma cibernética",
-        "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5wSXE2ZUlYVXliYWpYd1lySUJ1b3Y1NFRoaHdGSHpCWG1fbE5DLWp6SFhHVi1yRzh2NnRtNDRHZmgtSWdabDFoclBET2EyQzduSkd6eVZwNzR3VmtPYzVERkY4a1FXamhxaEczbWxjMmwzYWsxYUdCanZPVGM?oc=5",
-        "source": "Cryptopolitan",
-        "pubdate": "Thu, 05 Nov 2026 13:46:38 GMT",
-        "pubdate_iso": "2026-11-05T13:46:38+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      }
-    ],
+    "precio": [],
+    "etf_flows": [],
+    "regulacion": [],
+    "adopcion": [],
+    "fed_macro": [],
     "sentimiento_onchain": []
   },
   "stats": {
-    "total_noticias": 18,
+    "total_noticias": 0,
     "por_categoria": {
-      "precio": 5,
-      "etf_flows": 5,
-      "regulacion": 5,
-      "adopcion": 2,
-      "fed_macro": 1,
+      "precio": 0,
+      "etf_flows": 0,
+      "regulacion": 0,
+      "adopcion": 0,
+      "fed_macro": 0,
       "sentimiento_onchain": 0
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "levemente alcista",
-    "score_neto": 2,
-    "n_positivas": 2,
-    "n_negativas": 1,
-    "n_neutrales": 15,
-    "narrativa": "El feed muestra 2 senales positivas y 1 negativas (neto +2). Factores dominantes: Flujos institucionales hacia BTC; Prohibicion: muy negativo.",
+    "sentimiento": "neutral",
+    "score_neto": 0,
+    "n_positivas": 0,
+    "n_negativas": 0,
+    "n_neutrales": 0,
+    "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "Levemente ALCISTA"
+    "veredicto": "NEUTRAL - sin sesgo dominante"
   }
 }
