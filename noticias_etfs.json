@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-05T21:26:56.426569+00:00",
+  "updated_at_utc": "2026-11-06T04:00:04.372584+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "fed_tasas": {
@@ -30,6 +30,34 @@
   "noticias_por_categoria": {
     "fed_tasas": [],
     "mercado": [
+      {
+        "title": "Japan's Nikkei falls more than 6% as Asian benchmarks tumble after Wall Street drop",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZmRpNlFtMXZDWGpPT0lxbGotWWJGRl9XX21wQTd2SGNGdUpiNlhPTGh2djZpdTRJM0FvdUVOdEdoQ2JzMmtsSS1hNC1pN09WSC1NTnV5QlFWSUtFYV9VVjR0NUJuTWVUeHFLOWdxNnBVVzdZdVpkSHREMWZkZHM5aHpLQ3dhYkY5amEwWHZIcjNweF9JdEk5YlFqMUJEREpRSTg2ZUJfbk5XX2hZRmhNX3MtdmpHd0RaMVNudnZ1WmhWUlBI?oc=5",
+        "source": "La Nación",
+        "pubdate": "Fri, 06 Nov 2026 01:41:00 GMT",
+        "pubdate_iso": "2026-11-06T01:41:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Nasdaq ends -5.5%, S&P 500 sees worst day since April 2025",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNWTZrYkhUZHJ3QUozRm8tSXc4akNTbzhxcXJlcWVmRzlhQjFzekhiN1EycTBxME1zZGplbGlERWN3WjJRcUhyM091UHBsOWtlcE83anNuMDRXdnBoY1Nxb194d1hDWHdIWS1pb2tubHdHWXZvT1BCam9qSmNQakJXanJiWlVtVDJsdVlOcGc3bmlrdXRVWTRfZ0FWMVBuOXNza2g1Q2JPSlB5RVhLNXVENnZPOTg3M3ZU?oc=5",
+        "source": "TradingView",
+        "pubdate": "Thu, 05 Nov 2026 23:10:28 GMT",
+        "pubdate_iso": "2026-11-05T23:10:28+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
       {
         "title": "¿Por qué está cayendo la bolsa de EEUU? 3 razones detrás de la caída de $2 billones",
         "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE11Q2F3Y2VJa0FpRG1oSlVqd1VDWTktY05DWlBuNmVISWNVRnBkaGtfUnNMV3hJQ0VPM3FtSWVmYkJreVNaVE5fYlBTN1VBRm0zb0RScGZJUnoxQ2lSLTNDdWYxQ0V5NExRdnMyd3BCd1FZQzFnZFE?oc=5",
@@ -71,43 +99,57 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
-      },
-      {
-        "title": "Stock Market Today: Dow Jones, S&P 500 Futures Trade Mixed After Post-Midterm Rally — TM, ARM, QCOM in Focus",
-        "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOVGxOaEZDWWpOeXJZQ1k0T2ZibnZfZGJpVWltU2Y1LU5fZDRTbnhFamM1Yktwc2Z2a2oyZFByS1BFS1hxWFNMaGQ5ZDdnbE5NdmxzLVZOT1haemdFY3RrR0R4a2lkelNmM1M0cGNHODJRM0FCYWtKWE5ReU1pbDlsQURaT3ZCbU1XSG9nWjdLZV9ZUGdxYjIxSkdQWnJxYXNERFpMVXR1WHdqNXFzRC1rbmtITGJCLUdTQUdfRWF3aXhLam1YY0EyNTlPT0FJa2Fvb29iSlZna19pb1NwbFhSTnpsMmlCUUdabXRicXVfSU1Gdw?oc=5",
-        "source": "TradingView",
-        "pubdate": "Thu, 05 Nov 2026 10:30:31 GMT",
-        "pubdate_iso": "2026-11-05T10:30:31+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Rise as Democrats Take Control of Congress—AMD, AMGN, NVO in Focus (UPDATED)",
-        "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNaW1aM014bUdSOWluOVRoSEIyYm5MSkhoOTF4c1pfTHNEcVhTaDFrMjJKY21wLS1UdWxxSUxHY0hDUTM0dy1Lb29wOGdqTHVWRlNUMVg4RGg1RWlha01oOU03TW8wMkQ3NndkWWUydV9hNWstNk5ER3l4bUI4NVl0TzZIV1NBQUhYampDMWNkQUhkV3hGQUozU21xWldYbThZaEhBVnQwWG9Lek1vNVROeXZZc1lUaWpONElKcE1JZDJiVGxSbWNuSkc4Rl9BMk9nUlA5RURuVmJjdWZ1ckQzbGhkRU92U1ExbW8zQ3pzS0hnR1I3amg5ZUZ6MA?oc=5",
-        "source": "TradingView",
-        "pubdate": "Wed, 04 Nov 2026 13:40:09 GMT",
-        "pubdate_iso": "2026-11-04T13:40:09+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
       }
     ],
     "tech_nasdaq": [
+      {
+        "title": "Japan's Nikkei falls more than 6% as Asian benchmarks tumble after Wall Street drop",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZmRpNlFtMXZDWGpPT0lxbGotWWJGRl9XX21wQTd2SGNGdUpiNlhPTGh2djZpdTRJM0FvdUVOdEdoQ2JzMmtsSS1hNC1pN09WSC1NTnV5QlFWSUtFYV9VVjR0NUJuTWVUeHFLOWdxNnBVVzdZdVpkSHREMWZkZHM5aHpLQ3dhYkY5amEwWHZIcjNweF9JdEk5YlFqMUJEREpRSTg2ZUJfbk5XX2hZRmhNX3MtdmpHd0RaMVNudnZ1WmhWUlBI?oc=5",
+        "source": "La Nación",
+        "pubdate": "Fri, 06 Nov 2026 01:41:00 GMT",
+        "pubdate_iso": "2026-11-06T01:41:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "¡DESPLOME TECH! ¿Comprar NVIDIA y evitar a Elon Musk? 5 grandes oportunidades hoy",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPWFRBVVFQSzhGaThZcGhmdlFEaWlVZ051M2pFbmQyNzMzby00aUQ2cEoxd1JxdEVxaG5nZjJCRTZwRjd6ZnRYeWstcVFaMllhMkNSd2szQ2lPSlBaamI3UEM1SXZNaF94M055amM2ZUN4dGJidEgtdElQc2wyWEFSbjhZQllUR3BRNTNwLXN3MHcxVDVfd0IxakppU1JIaFZIeVZsdEhjNHlNTzRsZTZTWFdnbV9qZEo2YWFHcHZYNEl6UmhZZHh4czM2U3Zldw?oc=5",
+        "source": "Investing.com España",
+        "pubdate": "Thu, 05 Nov 2026 16:54:00 GMT",
+        "pubdate_iso": "2026-11-05T16:54:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
       {
         "title": "DJI: Dow Jones Jumps 3% in Stunning Post-Election Turnaround, AI Stocks Miss Out",
         "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOdlhvcHdkZVRvWFdST1VxOFV5SVlvNm5IYnFkS2pFLUd5YnV1QU1vX2xob2lsRHV3ZC1iSzNhbS1BV04yZVRQN01ZRWdrM1BVQnhoa0ZZQWxoU1JJdEREdWtCRWxueDRzeEwycXZMcVNvSEN6Ql9qcFZfWjl3RkxiWXZPalcxYmVKTTlEUG1oemZZZUVWZXYzZVhQZzBIRktFZGJUV0F2Q05aUkJzbnZHbl9yQmc1T0IxV2hELS02eUJLcnJMVFZJV25FWmhJeUZ5anVySQ?oc=5",
         "source": "TradingView",
         "pubdate": "Thu, 05 Nov 2026 06:50:00 GMT",
         "pubdate_iso": "2026-11-05T06:50:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "HIVE Digital Technologies to Release Fiscal Q2 2027 Financial Results on November 9th and Hold Earnings Call on November 10th",
+        "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNX19ZTWhvOFVPWTAyZ242VHZIbXV2OUFsQmUyeFZDSHpFMTU0WGphcDktbmpnVDF5bDlDVjRGNS1aTTh3d01XRUhNZV9HZHZ4aVVVWmM5Rk5jbXkwVHE2bUlaQXNteXd0ZTJBRndsZmpWWXhkbktuV01RZHdPOWNHNEVDWU95cWlLV3FHSVVIVC03YUdqQW5pWENrbE12NE1zeTc4YVExZHJkX3Rfc2tJNTNZLXpfdVJrRS1uU1JXOS1TV2FfWUpPWmpPaEp2WlZlVWl3aUJ2clpGdmlKSVVyVDMzUkZ1RVdLbjh3WmFIS21qam9iRE1MaGVMS0ZBRTl1X3B3Z1lCUHJUVlRkN3hHVzlIdVh0QQ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Thu, 05 Nov 2026 06:00:00 GMT",
+        "pubdate_iso": "2026-11-05T06:00:00+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -128,48 +170,6 @@
           "intensidad_label": "neutral",
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "BLS International Q2 results: Record revenue on Digital Services growth, but can strong earnings revive shares?",
-        "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOR2lEemdOLXJBTDlVZ3lpbFBLQXppQk84Tjd0R3pfVjFEaFF0cGxaa05BTjExdzNuYng5MHcwSzhLRmtCYlZBeGVxbEIzNXFucUF5WkJBZGFJRkFsOWVaMHBBTnNpd01XanFtVmZ0RUtnY3NKN0RpMG5kSl9KWUkzNGZoOTFnaml0WkxYM0tNYTJ5OWtfbTUxTVhRTkJFRTdubE1udl9hejBfYUlhQmgyUkJ6d21rZ251UGNhdmFuWGF4RVJtRWFKZTJxdW1odmJsU0ExS2xac1hfQk90dGUwUl9BdEF5QjBmb0o1eFZLWUZjdm5kM1Vr?oc=5",
-        "source": "TradingView",
-        "pubdate": "Tue, 03 Nov 2026 19:49:19 GMT",
-        "pubdate_iso": "2026-11-03T19:49:19+00:00",
-        "impacto": {
-          "direccion": "positivo",
-          "intensidad": 2,
-          "intensidad_label": "moderado",
-          "emoji": "🟢",
-          "razonamiento": "Earnings fuertes: soporte fundamental"
-        }
-      },
-      {
-        "title": "S&P 500, Nasdaq rise as tech stocks gain ahead of midterm results",
-        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNb1lYaGVUZFE0QTZ6N0xwcmZJNVpkWi14UHlDNDlBZVVsbWdGWGZqSERfbjM0c2ozNnZTY3dubjF1OVVjMkZuaW5SRkttR0M5S0pTZ2d3M0UwTkpHUU1EQ0h4U0s4Tjc3UHhGUk5YeXF4NnVUX0VUZ2VDNFFiUmZNNG4yejZ5eHdtOG90M3JyYVprazF2dFFmdHBidUhobHl2d1g3bFBVU2hqU0h3V2RwYmhYS3RuVklUQnRZUVVyNGhyOUNvVmxzWGNralJKUQ?oc=5",
-        "source": "TradingView",
-        "pubdate": "Tue, 03 Nov 2026 17:17:51 GMT",
-        "pubdate_iso": "2026-11-03T17:17:51+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Nasdaq 100 and QQQ have sunk into a correction: will they rebound after midterms?",
-        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPX09yNnQ4MmZ6ckRCNHZOcEZRTVRRM3RmUE10ZGlsa3NZTmFZTk10NWZDM2N5QTFXSVRlWlB1RlVfVTlWTWdvNG54ZVBQX1BySUxWaE0xZnlHdUw4ZmFvMHY2MHdZZk9IcDVnbVkwVG1ZcE9ULUtmdHJxXzlncV9MZkRHYnVRaFpzcV9ZRllTSU1qSC1nUEZZYzJuUG5NQUFvRTNvU3hUX2lJS0hVb1ktWnFzNWhoaUpoc2tUY0dubXJFR0d6dllPeEo2TkVBYkds?oc=5",
-        "source": "TradingView",
-        "pubdate": "Tue, 03 Nov 2026 12:02:00 GMT",
-        "pubdate_iso": "2026-11-03T12:02:00+00:00",
-        "impacto": {
-          "direccion": "negativo",
-          "intensidad": 2,
-          "intensidad_label": "moderado",
-          "emoji": "🔴",
-          "razonamiento": "Correccion en curso o anticipada"
         }
       }
     ],
@@ -376,10 +376,10 @@
   "resumen_ejecutivo": {
     "sentimiento": "neutral",
     "score_neto": -1,
-    "n_positivas": 3,
-    "n_negativas": 3,
-    "n_neutrales": 17,
-    "narrativa": "El feed muestra 3 senales positivas y 3 negativas (neto -1). Factores dominantes: Selloff: presion vendedora; Earnings fuertes: soporte fundamental.",
+    "n_positivas": 2,
+    "n_negativas": 2,
+    "n_neutrales": 19,
+    "narrativa": "El feed muestra 2 senales positivas y 2 negativas (neto -1). Factores dominantes: Selloff: presion vendedora; Earnings sobre lo esperado.",
     "narrativa_fuente": "plantilla",
     "veredicto": "NEUTRAL - sin sesgo dominante"
   }
