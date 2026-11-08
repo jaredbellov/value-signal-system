@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-08T02:16:47.198962+00:00",
+  "updated_at_utc": "2026-11-08T03:33:49.670866+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "bcch_tpm": {
@@ -154,6 +154,20 @@
     ],
     "dolar_cobre": [
       {
+        "title": "Se necesitan 850.000 toneladas de cobre al año para construir la infraestructura eléctrica que exige la IA",
+        "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOYTFBVDlRVEkyZ2tHeExSN05vWEtzc0NaaUFmclpzREVxQ20xVmJzMUpIVDB2cDAwVWFzN3FvMEZvNHFkYzJGNXNhMXBJcXkzSENIQXFCV2lJNVFfUnc0UUozSlE4S2tqRlNOMUF5ZW9Dd1F3Vl9KY3J5S214MEdhTnVodGJCU25nUERtUEZpRkZrNGdaMjRkc256eTk5eGhGR05Pdk1ibUxCMVlab0J0Vk92N1dzQmRnVTExaHpSWVZPV3JldUkxdTdNaTZTR3BYTVpIbHY1a0tnb2l6NWV3d9IB-wFBVV95cUxNNlpKdkRCTWpHMGFNNTE2d3F1eENQSTJET09Bdm9pX3dGZTAyaERHTjdlT21RSF82dWl2cUZ6dndtSWNiYWlHbGhsVDZJVERoMkVVX0I0TTAtdDdnMVp1Y3dzeUt6dV90bVkwZWg4OTF1S203WlV3V2IzOTU4eW1WZnc1Ti1pS05CQ0lhSmdVd1lESmRDS18tQk5VeTZxejg5S3RPbjYxMUZ1WnpyZWtjaDBOWWx5ODg2ZWpWb0RLMGdaN0Zsc1FQR09kTGxIY0h1ekdLNnZjSG95eUxrcXlJYnJsemMzZ0lXMmZyUjBNSW1YV0tPQ2czc3hVSQ?oc=5",
+        "source": "Infobae",
+        "pubdate": "Sat, 07 Nov 2026 17:51:00 GMT",
+        "pubdate_iso": "2026-11-07T17:51:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
         "title": "Precio del cobre hoy: por tonelada, por kilo y récord",
         "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1vX3R2V2hZNnJQbDRwclNVa09Nd0M1RXJSSnhpdTRFUG5uaTZNU1ZzRmxyMDZWRF80ekl3UmZ2bm1qT0tIZ3U5NjMwQVVDMFQwQ01KVkd3WQ?oc=5",
         "source": "CryptoTicker.io",
@@ -207,20 +221,6 @@
           "intensidad_label": "neutral",
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Dólar se dispara a niveles de $ 980 al cierre de una sesión marcada por la fuerte aversión al riesgo de los mercados bursátiles",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1lOExtTzVhS3dFdEdzNjdTc2stOHdYemFrcmgweGVJWjZBcUxPX1FDYWVPS2NlYUdISmtsZVFJTzlpR3VNNUIwc2YtYS1CblJPM2syTzJHaDFhTVdUenlGQi03LTJ4RVU?oc=5",
-        "source": "Diario Financiero",
-        "pubdate": "Thu, 05 Nov 2026 19:08:00 GMT",
-        "pubdate_iso": "2026-11-05T19:08:00+00:00",
-        "impacto": {
-          "direccion": "negativo",
-          "intensidad": 2,
-          "intensidad_label": "moderado",
-          "emoji": "🔴",
-          "razonamiento": "Dolar disparado: estres cambiario"
         }
       }
     ],
@@ -460,13 +460,13 @@
     "hechos_esenciales": 0
   },
   "resumen_ejecutivo": {
-    "sentimiento": "levemente bajista",
-    "score_neto": -2,
+    "sentimiento": "neutral",
+    "score_neto": 0,
     "n_positivas": 0,
-    "n_negativas": 1,
-    "n_neutrales": 27,
-    "narrativa": "El feed muestra 0 senales positivas y 1 negativas (neto -2). Factores dominantes: Dolar disparado: estres cambiario.",
+    "n_negativas": 0,
+    "n_neutrales": 28,
+    "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "Levemente BAJISTA"
+    "veredicto": "NEUTRAL - sin sesgo dominante"
   }
 }
