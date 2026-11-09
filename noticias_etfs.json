@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-09T17:26:54.365819+00:00",
+  "updated_at_utc": "2026-11-09T19:26:54.984796+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "fed_tasas": {
@@ -130,20 +130,6 @@
           "emoji": "🔴",
           "razonamiento": "Selloff: presion vendedora"
         }
-      },
-      {
-        "title": "Tencent Stocks Slip 2.46% After Hunyuan AI Rally as Hong Kong Tech Cools",
-        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNdlFBTklydzB5Ul82VFlIMlBoWmFiRUppVlZ4dl83YWU0SVRyaTJZeUhTRjhOaUJ1OUNWbDgxSlBmclhvZWUyYjRNZjZWVXo0bUFNX3N0TVdGbHdXd3k4RWpKXzdzbWtNb3JXVVQzVU1sS2lOVFlSVzB5RXBBSjJHSzk3V0REOEprQXNkTHo1bVI2ZGZCMzBKWXZoV1JocXd6bkVNLUNIeTFZV1RJVEt6SDZkY2FIU2RjZk1ZUXlqVTJTUExkS2hwSXJB?oc=5",
-        "source": "TradingView",
-        "pubdate": "Fri, 06 Nov 2026 19:09:14 GMT",
-        "pubdate_iso": "2026-11-06T19:09:14+00:00",
-        "impacto": {
-          "direccion": "positivo",
-          "intensidad": 2,
-          "intensidad_label": "moderado",
-          "emoji": "🟢",
-          "razonamiento": "Rally de IA: impulso Nasdaq"
-        }
       }
     ],
     "economia": [
@@ -192,56 +178,27 @@
         }
       }
     ],
-    "sentimiento": [
-      {
-        "title": "PTA-AFR: BigRep SE: Correction of Pre-announcement of a financial report according to articles 114 - 117 WpHG",
-        "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNc056T1VFVTNCc3JfME9OdkV4ZnNNSWNPeTVONUVDYkxSc0NKamVCVEREaTFwZy0zQmRYM1lIR1VoTmJvVmRBaUR0MzN3bmJmR2ZpN25TMDU3MTFZZk1nbGlzeEhaWGpNOUIyNUw4cy1VRElhQjZESjRJdkZxT3ZDMGVsWE9XY2lBZlFqR1doaUJTQmJrbkw5ZFdjZ2hXZWZMNVh3S0VsY3pjTDVid2ZkQ3V3MHRsNHE5Um1YRTdoU2xuZTZxTXlYTmRHQzJYSEhXRV9iS2x2dzYzMFJQX0xsU2I3LWtjQ3ZCUFdkVHVmNG8tQnVWTVBZX1BCSnVsdk9LcDBkeFNwSDVWVS1J?oc=5",
-        "source": "TradingView",
-        "pubdate": "Fri, 06 Nov 2026 17:36:21 GMT",
-        "pubdate_iso": "2026-11-06T17:36:21+00:00",
-        "impacto": {
-          "direccion": "negativo",
-          "intensidad": 2,
-          "intensidad_label": "moderado",
-          "emoji": "🔴",
-          "razonamiento": "Correccion en curso o anticipada"
-        }
-      },
-      {
-        "title": "Correction of Pre-announcement of a financial report according to articles 114 - 117 WpHG",
-        "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPMmNiV1FNZVk1Sk5Wa1hSNFd3WEJnQ3VvX0JWWlhTeVBLUTU5TXAtLXJsMDB5Sm93cXBObnlrVVNBeGh4WElrd05TRWdZRVJmM1VGSHdlUFlsTXUwM1JLNnZucFlGMWptUVhRbTdmbUVpbVBXV1VmeTVNcE1Eb3Q5ai1oWEgyWTRQSnJmNzBxdWlCejhXYkctb3BsMkdWUUlrR3BVZzNNY3ZlalJ4anN3UFFhQU1hWTBtT01jOUhCblg1dUVaUDJSRXpQOXdsTEcwblVTbE1JLTNIbXFtRGllU3h6dW12VWsyeUlvWGczWkVxMFhV?oc=5",
-        "source": "TradingView",
-        "pubdate": "Fri, 06 Nov 2026 17:36:21 GMT",
-        "pubdate_iso": "2026-11-06T17:36:21+00:00",
-        "impacto": {
-          "direccion": "negativo",
-          "intensidad": 2,
-          "intensidad_label": "moderado",
-          "emoji": "🔴",
-          "razonamiento": "Correccion en curso o anticipada"
-        }
-      }
-    ]
+    "sentimiento": []
   },
   "stats": {
-    "total_noticias": 13,
+    "total_noticias": 10,
     "por_categoria": {
       "fed_tasas": 2,
       "mercado": 3,
-      "tech_nasdaq": 3,
+      "tech_nasdaq": 2,
       "economia": 1,
       "earnings": 2,
-      "sentimiento": 2
+      "sentimiento": 0
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "bajista",
-    "score_neto": -4,
-    "n_positivas": 2,
-    "n_negativas": 4,
+    "sentimiento": "levemente bajista",
+    "score_neto": -2,
+    "n_positivas": 1,
+    "n_negativas": 2,
     "n_neutrales": 7,
-    "narrativa": "El feed muestra 2 senales positivas y 4 negativas (neto -4). Factores dominantes: Fed hawkish: rate hike presiona equities; Rally de IA: impulso Nasdaq.",
+    "narrativa": "El feed muestra 1 senales positivas y 2 negativas (neto -2). Factores dominantes: Fed hawkish: rate hike presiona equities; Rally de IA: impulso Nasdaq.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "BAJISTA a corto plazo"
+    "veredicto": "Levemente BAJISTA"
   }
 }
