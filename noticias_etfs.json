@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-08T06:47:14.638975+00:00",
+  "updated_at_utc": "2026-11-09T14:47:02.123813+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "fed_tasas": {
@@ -28,32 +28,248 @@
     }
   },
   "noticias_por_categoria": {
-    "fed_tasas": [],
-    "mercado": [],
-    "tech_nasdaq": [],
-    "economia": [],
-    "earnings": [],
-    "sentimiento": []
+    "fed_tasas": [
+      {
+        "title": "Circle Faces Back-To-Back Catalysts As Senate Votes On CLARITY Act, And Fed Weighs Rate Hike",
+        "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOY2ZuSHpfWV9ERi1FN3lueXhROGZweGxuM0ljemdvdVVwX1NXU0VERGQ1UjBvcC02RVRjNnJrY19nR2ktdGozSWZvWEs5VHNoQ3JENlNOUWlpLXBuU05qZGktb0RZVjlhdENMRFpHMjFHMVFsTWJ5STRzVFpGT1AzMWpaZHo2QWVqTG1NSy1VZmtkOU80LTJSbUM2eE9jb2wtRWJRQjJpN2ZMb3otdllMdHVqc1hiLWRhN3RlaVBWNHQxZVBaR2hZdEFJRE9PV2ZnM0RyUVoxRHZsNmtfZ1JrWjRtbUl1QQ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Sun, 08 Nov 2026 23:36:20 GMT",
+        "pubdate_iso": "2026-11-08T23:36:20+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Fed hawkish: rate hike presiona equities"
+        }
+      },
+      {
+        "title": "Dollar Soars as Fed Hikes Rates and Signals More to Come",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOTEdfS095RjNpb2pZRzhhaEdFYzJWaGJlOHpFYXhwZFNxelR4WTZ1bVc5Yy1MaERDcS1RY0NjNzJtVGItMnM4T2wtNlFWbzRITmdfUDA2bDA0dEdHTDg2cGVoNS1XZVd2bXUtNlY0Tkxxc3dzSTRVQi1KdUxKWjZxZ25Bem1fTlEzQ0ZLSVpEMk00eC13LXlOZ3NmQ1dVNDZYVkExeGdLSzhqTGYwR1E3Ukg5cnY?oc=5",
+        "source": "TradingView",
+        "pubdate": "Sun, 08 Nov 2026 07:15:28 GMT",
+        "pubdate_iso": "2026-11-08T07:15:28+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "mercado": [
+      {
+        "title": "El tropiezo de la IA que comenzó en China se extiende a Estados Unidos",
+        "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQX1JOSTRBaEZKSHB4ZWh5eDhfbE15clRsaGhxc0ZDbURGclk1S0thOV9nWkZweEd4OWhsSVRzeTNCTVpJLUJtX1JYdlB2SzJSZVdNajdlS2dOdndvS0s4S3ZnbGZ3Z0NZaEUzWXlsTHVrbVhPdzhlVExuMDdfVWFJbEFWa2FBc3VhT0tpanNNYjJiX0JiWndhTDdRekZZaHRQRlRrV2RwY3NsSjFHTUUxajVSS3E5S0hwMmhDcE9lOVRFRWlYUkVrcjhEYzFvRFRleXI2WWZYeEhQc2tTd1hwUXNPY2RneHdHYjRGVmlUMGZZZk1R0gGIAkFVX3lxTFB0S1c0dE1JbFZFcHFCWmJKRDhXVVp3SEdGM0UwaV9YNDBlbDRlQkNhdUIyWDBHd3l4YWQtcmZHSGJDUzNTdU1qdl84RjJqczFOQkxuY24zWk84X0VOZ3Z6WFQtZlNLaHBSUUJJOFE5c1N1VTNsdlgzUlRzbFFtUGJ1U0JpZmFLQ0xPazcwQ2hyVnJmemRoSzlmcEl0M3RTQkgyOWRWUjdyY2pJNzZlNmxZYlBCT2VDUU00eHE3LWJqUkI3NFdneWhJRWRncFZ2dmRuZVNkWl9jNFcxZEhWdE9YU3htNkMwbjZaREVtSm16VVlDRTBtRGRZd3V3TWFqOHkxNHVzaUtENQ?oc=5",
+        "source": "Cinco Días",
+        "pubdate": "Mon, 09 Nov 2026 04:45:01 GMT",
+        "pubdate_iso": "2026-11-09T04:45:01+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Asian markets bounce back after a recovery for AI stocks on Wall Street",
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNTkRQLTFJalRldkRubE15d2h5LW84ZjEyWGhpS2NsUDBzX3BzQU1Fdk5jbjRkbDNWa28xeDQybV9JVVhXU0FqUWRzX3dmS1BoWHBBTFp4YVlvb0hJblZLNzZvcC1UNWVZS1EySUY4cHJLRjIwbjlvaGFOX3Y3U1ZaWFZVTmtneUswYlhUSUZONkJsa056ZnlrQm5mcktSNHRZMFhjbFFtNkdSWmJHVW92QkJmYXczUnM?oc=5",
+        "source": "La Nación",
+        "pubdate": "Mon, 09 Nov 2026 04:21:00 GMT",
+        "pubdate_iso": "2026-11-09T04:21:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Caída en Wall Street genera preocupación: ¿qué significa para tu dinero?",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbThQZ09xdWdXOEZxUERqRXJMdmZtaGFtZzlfRlFXLUg4VGZXUURkZmFrWHZ2bkxFdG5MLUItX2VjNnA2a1lvVURPRlRwSy1vZmI3NVJKUVdLX1BBaVBOcFlMOF92RHMtdzgtQ2RXb1ItZDVBNDZsVVZsTEpRUm9yTDRCWEsxZGhQYWV1Q0R3RUNON28tSHE1WWNIcHFnNldYWlRIMnE5SnplSHdXa2FDelNrUno1MUJxWlBvQkRR0gHGAUFVX3lxTFBIdHMxalJldG43TnVIVTFtajJuS2lXNWp6SnFjU2R2QkJSRXFSSC1XSDMwRVZCX3BDRXVVT2swV3ZmOGFBTTlVWlhsVloySlpNRmhSNFIzc3RGTmJZTU5uSUxhdWY2a0plMEswbzNfeW8wVWRNM2E3emE1cWJRT1ZVTXVaVWJSUmxnRzR0aURrVVhJMGkxQWs3VlZleUxsRzlWTHBCdjg0Sm81QUQwS25hdXZzNWgyN3d6QmFrMi00WkN4NWYtQQ?oc=5",
+        "source": "Telemundo 52",
+        "pubdate": "Sat, 07 Nov 2026 04:54:59 GMT",
+        "pubdate_iso": "2026-11-07T04:54:59+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "tech_nasdaq": [
+      {
+        "title": "Earnings Volatility Watch: CoreWeave Reports Into an AI Rally Test, and Options Expect a 21% Move",
+        "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOcTM5aVhfV1MyNkVNaUhsQ2dCaS10d0ZmMHRzUWJCRGU5cjVSUDBhc3RXUi1DVnhpRDI0eXJhR1VrNUlKcXI3UGpCemRVQmtzTjRvNmpZbjlsTC1sQlBiYmZoaTAxNllvT3RDcm5DTENSQTdNSDVuZFRELTFlY2tiWTg2VDFDZHJkd2lXbUFFaF9oajFfWUFYUnB6WFVIT3FqT2paSDVRdE1WaWhXUmpRNGZZWjNiMzNENHJBRE4xaDJHeUlGTTlCOXpCZHJaMG5sU2hpZVhlZnZFby1icXUtTWUwS21fb2pxYkRLOVhIY3VSX2VOWVJFX2pPRFhDSlZn?oc=5",
+        "source": "TradingView",
+        "pubdate": "Sun, 08 Nov 2026 13:30:09 GMT",
+        "pubdate_iso": "2026-11-08T13:30:09+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🟢",
+          "razonamiento": "Rally de IA: impulso Nasdaq"
+        }
+      },
+      {
+        "title": "Wall Street stocks rally after heavy AI-related selloff",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOR0lPSGU2STA0TmpPTl9KLVBHcGpSbWpwU3VQRWlOR1hUMWFtNFpvdE1NcFNaeWE3dkxGcF85RS1hVkxwQlRCYW1KX1JLT3EzRXZQODRkR1VPcWw3UEJTZFdVNExjTWhtQWNDcldyQ1M1bWF3U29XYVBEYWQtcGtydEJXVTJKa0VzMmdlbHBydHU2dnI1OWxzZUNlMEFtQWhiRUJ2T2RYV3hsbFhodVhwR05qa2JMS3R5d21rNFRCVjhlZw?oc=5",
+        "source": "TradingView",
+        "pubdate": "Fri, 06 Nov 2026 22:39:00 GMT",
+        "pubdate_iso": "2026-11-06T22:39:00+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Selloff: presion vendedora"
+        }
+      },
+      {
+        "title": "Tencent Stocks Slip 2.46% After Hunyuan AI Rally as Hong Kong Tech Cools",
+        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNdlFBTklydzB5Ul82VFlIMlBoWmFiRUppVlZ4dl83YWU0SVRyaTJZeUhTRjhOaUJ1OUNWbDgxSlBmclhvZWUyYjRNZjZWVXo0bUFNX3N0TVdGbHdXd3k4RWpKXzdzbWtNb3JXVVQzVU1sS2lOVFlSVzB5RXBBSjJHSzk3V0REOEprQXNkTHo1bVI2ZGZCMzBKWXZoV1JocXd6bkVNLUNIeTFZV1RJVEt6SDZkY2FIU2RjZk1ZUXlqVTJTUExkS2hwSXJB?oc=5",
+        "source": "TradingView",
+        "pubdate": "Fri, 06 Nov 2026 19:09:14 GMT",
+        "pubdate_iso": "2026-11-06T19:09:14+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🟢",
+          "razonamiento": "Rally de IA: impulso Nasdaq"
+        }
+      }
+    ],
+    "economia": [
+      {
+        "title": "US Adds 165,000 Jobs in October: Why Bitcoin Traders Are Watching the Fed",
+        "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPajhrWmYtNG5TTzhWYUIwbjJxcW45a2pDSUYyX19aZmxpaHhLYV9vOGhMblJKSXYxMHlCN3JCa0pmbkx5RnJraTBXZnNlR3lNWm5LLVNpTWM5WmVkazI3LTlpR3hCX29vdDhvZWNZcWZNTFRhR3JkeF95dWdNd3JWVzhuVWtmSUs3VTNvQUJreWhmcFZqVk9GMmVLaWh6ODYtd21NanJxVUlGaGxOMTFDOFg5VkFzOTE5N2ZVdUx0azNIbXZodXU2amdFRWxTN1B0SUttVm14d1Jsd01yb2NtOExB?oc=5",
+        "source": "TradingView",
+        "pubdate": "Sat, 07 Nov 2026 21:00:00 GMT",
+        "pubdate_iso": "2026-11-07T21:00:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "earnings": [
+      {
+        "title": "Agrion International (CNSX:AGRI) previsión de las acciones y estimaciones de analistas",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNb3h2aUdCekRscW5ibUl6TURUNDNaVVNsal81Z2x6VGZreE92aGF0SnphY2xIck8xZnByOVBmN2FRQ2J4LVNac3JmUDAwak95TnRvRl9hSDQ0ajhWa2xjcS0wMUZ1RVRFSlREUlZBQ25LQUxobEhEN1VhUXFTdWtaR3RsanFQb2xvbnZMS1N2WDNHZWswV18tUTVCSTVjekVfWlE?oc=5",
+        "source": "Simply Wall St",
+        "pubdate": "Sun, 08 Nov 2026 01:53:43 GMT",
+        "pubdate_iso": "2026-11-08T01:53:43+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Q3 Earnings Update: Broad-Based Growth, Key Sector Outliers, and What's Ahead for Q4",
+        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOMUhWeU9tX1FhUXdENXEzbmxqZTRfaUdCb1ZBcEZtR0dOUFMwT2d1blVKU1A2WHV4QjdId2hyTXAtNXUtNnJSTy1nTjJsRVVTN2N0WTJPT3RXbzNOdTZja1pPN2d3cnlRbU1ZWnRQbFUxQnI3TjdnMUtCdmJMMjJnXzUxbkZvUk9VbC1scjFPc3V6TGRMR3hnNTd1bHVUU3J1SXhJeUxkam8wVmRkQ1pReXNpVGs1SUgxdzg2X1NNbllDMlBDV09ZN0s1bW1seFExTEE?oc=5",
+        "source": "TradingView",
+        "pubdate": "Sat, 07 Nov 2026 00:22:00 GMT",
+        "pubdate_iso": "2026-11-07T00:22:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "3 Business Services Stocks Poised to Beat Estimates This Earnings Season",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOdnBsVmN1STRBWnBkMkFiZG9Ta0RSUHRxQW1xZmEtVjhvSm9TVi1ubUpUdWkwN0hSRGV2c0U4bHdvN0hSQ2xLMjlFdmFwdGp6Z1BMUkFFRktSWkU2MExSZXFlcFEtXzNQa2hrUHZXRVJzVUQ5eUlEcTd3cVg5STAzbzJKQjRqU2x6R0J6WFZ4WEoyUDdFeEhHVHlDN3VtekZ5ZU8wZllOMlhpMEZrd25LYUFWSDB1X1NoLVRuQVh2VTBYanpCa2c?oc=5",
+        "source": "TradingView",
+        "pubdate": "Fri, 06 Nov 2026 16:07:00 GMT",
+        "pubdate_iso": "2026-11-06T16:07:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "MAT Q3 Earnings Beat on Tariff Refunds, Revenues Miss Estimates",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSXZvR3oxVWdxQTdKUEJSbmJHVVdPRFRIMC16NEdPT3FILWFvM3A5TUw5MjVtMlVOdWZ2bS1lcUpvUU05aHRjR01DVmdsTGhiR3N5RlFhOUJkVVRNdy1QaHlNejZHZmZaSWZJTHF3QkVzSWthZ0x6aUo3WktoOVRydGgwRS1xUUR6cHJUU2ppUnNod0lwc0Y5dkJCSXA3NHdjd0pZWi1Ld2ZZV04yLW54NlBlbVY2bXQz?oc=5",
+        "source": "TradingView",
+        "pubdate": "Fri, 06 Nov 2026 15:11:00 GMT",
+        "pubdate_iso": "2026-11-06T15:11:00+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🟢",
+          "razonamiento": "Earnings sobre lo esperado"
+        }
+      }
+    ],
+    "sentimiento": [
+      {
+        "title": "PTA-AFR: BigRep SE: Correction of Pre-announcement of a financial report according to articles 114 - 117 WpHG",
+        "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNc056T1VFVTNCc3JfME9OdkV4ZnNNSWNPeTVONUVDYkxSc0NKamVCVEREaTFwZy0zQmRYM1lIR1VoTmJvVmRBaUR0MzN3bmJmR2ZpN25TMDU3MTFZZk1nbGlzeEhaWGpNOUIyNUw4cy1VRElhQjZESjRJdkZxT3ZDMGVsWE9XY2lBZlFqR1doaUJTQmJrbkw5ZFdjZ2hXZWZMNVh3S0VsY3pjTDVid2ZkQ3V3MHRsNHE5Um1YRTdoU2xuZTZxTXlYTmRHQzJYSEhXRV9iS2x2dzYzMFJQX0xsU2I3LWtjQ3ZCUFdkVHVmNG8tQnVWTVBZX1BCSnVsdk9LcDBkeFNwSDVWVS1J?oc=5",
+        "source": "TradingView",
+        "pubdate": "Fri, 06 Nov 2026 17:36:21 GMT",
+        "pubdate_iso": "2026-11-06T17:36:21+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Correccion en curso o anticipada"
+        }
+      },
+      {
+        "title": "Correction of Pre-announcement of a financial report according to articles 114 - 117 WpHG",
+        "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPMmNiV1FNZVk1Sk5Wa1hSNFd3WEJnQ3VvX0JWWlhTeVBLUTU5TXAtLXJsMDB5Sm93cXBObnlrVVNBeGh4WElrd05TRWdZRVJmM1VGSHdlUFlsTXUwM1JLNnZucFlGMWptUVhRbTdmbUVpbVBXV1VmeTVNcE1Eb3Q5ai1oWEgyWTRQSnJmNzBxdWlCejhXYkctb3BsMkdWUUlrR3BVZzNNY3ZlalJ4anN3UFFhQU1hWTBtT01jOUhCblg1dUVaUDJSRXpQOXdsTEcwblVTbE1JLTNIbXFtRGllU3h6dW12VWsyeUlvWGczWkVxMFhV?oc=5",
+        "source": "TradingView",
+        "pubdate": "Fri, 06 Nov 2026 17:36:21 GMT",
+        "pubdate_iso": "2026-11-06T17:36:21+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Correccion en curso o anticipada"
+        }
+      }
+    ]
   },
   "stats": {
-    "total_noticias": 0,
+    "total_noticias": 15,
     "por_categoria": {
-      "fed_tasas": 0,
-      "mercado": 0,
-      "tech_nasdaq": 0,
-      "economia": 0,
-      "earnings": 0,
-      "sentimiento": 0
+      "fed_tasas": 2,
+      "mercado": 3,
+      "tech_nasdaq": 3,
+      "economia": 1,
+      "earnings": 4,
+      "sentimiento": 2
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "neutral",
-    "score_neto": 0,
-    "n_positivas": 0,
-    "n_negativas": 0,
-    "n_neutrales": 0,
-    "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
+    "sentimiento": "levemente bajista",
+    "score_neto": -2,
+    "n_positivas": 3,
+    "n_negativas": 4,
+    "n_neutrales": 8,
+    "narrativa": "El feed muestra 3 senales positivas y 4 negativas (neto -2). Factores dominantes: Fed hawkish: rate hike presiona equities; Rally de IA: impulso Nasdaq.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "NEUTRAL - sin sesgo dominante"
+    "veredicto": "Levemente BAJISTA"
   }
 }
