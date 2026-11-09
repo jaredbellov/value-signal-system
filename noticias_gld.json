@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-09T14:47:02.673342+00:00",
+  "updated_at_utc": "2026-11-09T16:39:31.742450+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "precio": {
@@ -29,6 +29,20 @@
   },
   "noticias_por_categoria": {
     "precio": [
+      {
+        "title": "Es posible que el precio del oro hoy, 10 de noviembre de 2026, aún no haya tocado fondo; el mercado todavía cuenta con factores de soporte a largo plazo. ¿En qué rango de precios debería comprar?",
+        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQTmh0OVZnSl9uT25wMXhHV3ByQV9qVWdEM3NZWEx6ajlrUTkyMURwdEpHaHkxZlhoNl9nQ1RSTlZQX3h2bzJ0TmNSM1ZKVDNlZjRTbnA1MnQ5ZlY5cWxDWGRHRTZ2aTlXVU1pSWdLd3d0MmgySUxYTnBObmZGZ1BEWGlnQ0V4VHh2Z3VvQlEyNDE0WnZHcm5UVU1YMV9JbE1nRXhNUVZzdHBsSVpzLVZDclFyWkVGVEhtaDNKQTRSX1FIUG1LQS1vb1ViTVB5MkxPTGM5aXdKWQ?oc=5",
+        "source": "Vietnam.vn",
+        "pubdate": "Mon, 09 Nov 2026 16:29:13 GMT",
+        "pubdate_iso": "2026-11-09T16:29:13+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
       {
         "title": "Precios del oro hoy, tarde del 9 de noviembre de 2026: Precios de cierre del oro de SJC, BTMC, BTMH y DOJI.",
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAyWnZHaWM2MzdZY2hwMHo1SktXemJiVTZIODZvUm1XVUhZSlRFYkR5SklfelJCZHNabFByci1VZTNQd1JvNnVFY2NmTkQxY0FUUDlv?oc=5",
@@ -77,20 +91,6 @@
         "source": "Infobae",
         "pubdate": "Mon, 09 Nov 2026 08:46:00 GMT",
         "pubdate_iso": "2026-11-09T08:46:00+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Precios del oro en la tarde del 9 de noviembre de 2026: Precios del oro de 9999 y anillos de oro hoy de SJC, DOJI, BTMC, Mi Hong y PNJ.",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE14dERYdkF3RDY0WERDd3VCTU1XRmRfUmJJRXZkck0tcUduNzRLU0l6Q1Yta0xSWGxIcDZXbmZHWUNZZ0p0cjUxNGp2bmRkWmJ4MEJR?oc=5",
-        "source": "شبكة تواصل الإخبارية",
-        "pubdate": "Mon, 09 Nov 2026 08:37:48 GMT",
-        "pubdate_iso": "2026-11-09T08:37:48+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -302,7 +302,22 @@
         }
       }
     ],
-    "geopolitica": [],
+    "geopolitica": [
+      {
+        "title": "Geopolitics Ruled Last Week: Best Inverse/Leveraged ETF Areas",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTGg0SE9pYk5wX2k2Q05ocng0RDkzUFBVQ1Z5cXFvMkdIaEFpb3ktM3NFclpOLVJXa2Y5cmVOYnE2Mlh6YVctZDQxSDZKbFpQS1VLSUlWNDZ0M19hUVVGNm85bjYwVGRHYVFtWjQ3TnNxMUs0b3Exbk8zNi1RUGVPbWhncEJON2wyUUdCenZ0Q09ZaDl5MjdvY1ZkZ3c4UHJ2WlZEcXFReEliRHFSUmVxNmtfb1pOQQ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Sun, 08 Nov 2026 23:36:20 GMT",
+        "pubdate_iso": "2026-11-08T23:36:20+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
     "proyecciones": [
       {
         "title": "Goldman Sachs recorta sus previsiones del precio del oro ante una Reserva Federal más restrictiva",
@@ -377,13 +392,13 @@
     ]
   },
   "stats": {
-    "total_noticias": 24,
+    "total_noticias": 25,
     "por_categoria": {
       "precio": 5,
       "fed_macro": 5,
       "dolar": 4,
       "bancos_centrales": 5,
-      "geopolitica": 0,
+      "geopolitica": 1,
       "proyecciones": 5
     }
   },
@@ -392,7 +407,7 @@
     "score_neto": 5,
     "n_positivas": 4,
     "n_negativas": 1,
-    "n_neutrales": 19,
+    "n_neutrales": 20,
     "narrativa": "El feed muestra 4 senales positivas y 1 negativas (neto +5). Factores dominantes: Fed hawkish: rate hike presiona oro; Presion inflacionaria favorece oro.",
     "narrativa_fuente": "plantilla",
     "veredicto": "ALCISTA a corto plazo"
