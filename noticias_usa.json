@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-11T15:33:25.952847+00:00",
+  "updated_at_utc": "2026-11-11T16:03:27.982235+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -80,6 +80,20 @@
         }
       },
       {
+        "title": "Nvidia stock slides 6% as chip probe puts Jensen Huang under pressure",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOU1FoRE9fdTJhXzRwV3F0Qi0tcl9jc2FrZ0pxUnY2RFhZeWNLcEItU2ktWlBUSjBjV1FUYzQydkdmRTdvcWpyZHg4N0p0OGhSd3EyV2xwYTlmQVZnN0FIN0xQRkMwY0J2enlScWVmQzV3YnR3SFlLem1yUHlZcTEzS21TVnFLdEtwZ0RWUmt6bDVmTTBWTWdoTUFOSFc3QXdkbkwyeUZCcXFCYUFBQjJ0Y3BoM09lRjJ4YS1jU3pBMW5YZw?oc=5",
+        "source": "TradingView",
+        "pubdate": "Tue, 10 Nov 2026 17:37:32 GMT",
+        "pubdate_iso": "2026-11-10T17:37:32+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
         "title": "¿Comprar, vender o mantener acciones de Nvidia tras caída por escándalo de Huang? - Investing.com México",
         "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPaGo0bzZueFVLaXotb2NlR3RNOGtwNlR3Ykg4X1M2MnI4SzJPRWFQeTUwNkVGWHpvZ0tnT3dfc2J4VDZsRURROG1wdU50N1Z6QkhQZF9IOXAxNTRxMjVNS2U5YnNKRmx1ZU9qR0tCTHZXaU9YNVJuQ0JHb0lFWEx6eEpzenFrcUppLTl2bFdFTWRUZEp6OXNERTh2RTJSTTlncElhcUlsVDhMVV9Mc1BtTVBwSTAyNFhYS2NELWJicXJCRExtZmpvYk9BeDRwOTg?oc=5",
         "source": "Investing.com México - Finanzas, Bolsa y Forex",
@@ -113,20 +127,6 @@
         "source": "Investing.com España",
         "pubdate": "Tue, 10 Nov 2026 07:50:00 GMT",
         "pubdate_iso": "2026-11-10T07:50:00+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "Nvidia Is Now Nearly 3 Times Cheaper Than Intel on Forward Earnings",
-        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOM1VBbUgyNUV3UDVaaGxvNmVaZ19mZTRVbFluVjlQQmhFRWNxWjNmZWNqUmVpYk1MVnEtTXd1VHFWVnZOSmFjb0tNZFZHcG5pZWprZDd4WHdQV1ZCeExsNDNpTmV4QXpIelR3Mll2YzFUaDYxeHpqZ2M0b0pwZXZQd1hhTVFsRVc1cmJEajFaRTdMWFlIeWU4X0dUdjhBWVNZVXJiSHYweE5aVUROOVg4Mjk3R1k0X2NEaDBUMnlnSHAyRTA?oc=5",
-        "source": "TradingView",
-        "pubdate": "Mon, 09 Nov 2026 20:50:04 GMT",
-        "pubdate_iso": "2026-11-09T20:50:04+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -208,39 +208,24 @@
         }
       }
     ],
-    "macro_tech": [
-      {
-        "title": "Stocks Settle Lower on Fed Rate Hike Fears",
-        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRk5VODNPd3dpUjZMYVdlLWc5U2JyQ0xWR3Zlc2V1aV82bFhmNXV4UDgyVElISGFXcHRFT3RSdDlYWUFwU0U1eWRJNHFEeFBlVnF3MjFRa1hCd05PMFA3ckFkLWgxS2JTWUFLeTBZeWxlWmpZZGxtYU5MVC11ZFJQQ3FDd2pZUlZuTm9kZDAyRWRpVG1nckxjT1cySW5PZWttRXc?oc=5",
-        "source": "TradingView",
-        "pubdate": "Tue, 10 Nov 2026 21:39:15 GMT",
-        "pubdate_iso": "2026-11-10T21:39:15+00:00",
-        "impacto": {
-          "direccion": "negativo",
-          "intensidad": 2,
-          "intensidad_label": "moderado",
-          "emoji": "🔴",
-          "razonamiento": "Fed hawkish: rate hike presiona equities"
-        }
-      }
-    ]
+    "macro_tech": []
   },
   "stats": {
-    "total_noticias": 14,
+    "total_noticias": 13,
     "por_categoria": {
       "tesla": 3,
       "nvidia": 5,
       "ia_semis": 5,
-      "macro_tech": 1
+      "macro_tech": 0
     }
   },
   "resumen_ejecutivo": {
     "sentimiento": "alcista",
-    "score_neto": 4,
+    "score_neto": 6,
     "n_positivas": 3,
-    "n_negativas": 1,
+    "n_negativas": 0,
     "n_neutrales": 10,
-    "narrativa": "El feed muestra 3 senales positivas y 1 negativas (neto +4). Factores dominantes: Demanda de chips: soporte tech; Demanda de chips: soporte tech.",
+    "narrativa": "El feed muestra 3 senales positivas y 0 negativas (neto +6). Factores dominantes: Demanda de chips: soporte tech; Demanda de chips: soporte tech.",
     "narrativa_fuente": "plantilla",
     "veredicto": "ALCISTA a corto plazo"
   }
