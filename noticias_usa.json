@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-13T16:03:26.040675+00:00",
+  "updated_at_utc": "2026-11-13T16:33:27.384935+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -154,6 +154,20 @@
     ],
     "macro_tech": [
       {
+        "title": "Los mercados de EE. UU. retroceden y el Nasdaq 100 cae más de un 2%",
+        "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE82enF4RHM0X1F1NzFFMG56RlhXb0d2VnVUT3hwUVlxVXFSdUJ3OHNya19qY3B3RXRUeTJF?oc=5",
+        "source": "Howl.Link",
+        "pubdate": "Fri, 13 Nov 2026 15:27:41 GMT",
+        "pubdate_iso": "2026-11-13T15:27:41+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
         "title": "La crisis de Nvidia amenaza al sector tech: chips y Nasdaq bajo presión - Investing.com México",
         "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQcEdfelhmd2RKUzFYM2lGYXZzNFFLX1NtdEdHQ3hfcnU5cEFIZTlEZGhvZTV2U1dnbENDNnNYMlFDVWlPenk2ZFUyWXN3X2FzNHI5NHkyajhCMnFseXhfaTBVRUk1MU1wLXplbmFOQkJBZEJVb0xUWEFSS0ZldG1NVGZQQWRtQjRKUFNRTElFbFB0eU5NYy1kOTNoOVVBRmdRVUZ4Q0RfcUVoRVphQnJNdVZpc0lqN29WVFZ6ckxxbFI4bU5D?oc=5",
         "source": "Investing.com México - Finanzas, Bolsa y Forex",
@@ -198,12 +212,12 @@
     ]
   },
   "stats": {
-    "total_noticias": 12,
+    "total_noticias": 13,
     "por_categoria": {
       "tesla": 1,
       "nvidia": 5,
       "ia_semis": 3,
-      "macro_tech": 3
+      "macro_tech": 4
     }
   },
   "resumen_ejecutivo": {
@@ -211,7 +225,7 @@
     "score_neto": 2,
     "n_positivas": 2,
     "n_negativas": 1,
-    "n_neutrales": 9,
+    "n_neutrales": 10,
     "narrativa": "El feed muestra 2 senales positivas y 1 negativas (neto +2). Factores dominantes: Capex en IA: demanda estructural de GPUs; Demanda de chips: soporte tech.",
     "narrativa_fuente": "plantilla",
     "veredicto": "Levemente ALCISTA"
