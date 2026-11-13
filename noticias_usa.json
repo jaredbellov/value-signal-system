@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-13T08:42:28.132456+00:00",
+  "updated_at_utc": "2026-11-13T15:17:12.572453+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -20,27 +20,213 @@
     }
   },
   "noticias_por_categoria": {
-    "tesla": [],
-    "nvidia": [],
-    "ia_semis": [],
-    "macro_tech": []
+    "tesla": [
+      {
+        "title": "Why Tesla shares are up on Wednesday?",
+        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNy1hZFhmZFBhck11Z21RVWlDUVRUUUVMMVhZNE5nMWNTWG9BQWNNR19GRktfZmJvTjNhZzBXbm9VVUswZ203VEpubFpfRzhldHNWYk9RNW5YWkVNbVluMmdZU2ppdmF2bS1yZTRHRVVBOUpNblY1TjhUUHNQaC1mb25hcmQ1TnNKazRuTWdoX2E2N1BNWDlF?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 11 Nov 2026 14:13:16 GMT",
+        "pubdate_iso": "2026-11-11T14:13:16+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "nvidia": [
+      {
+        "title": "La renuncia de Jensen Huang abre oportunidad poco habitual para invertir en Nvidia",
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQb3pGNGJUUnBQQWdSLVM5OTh1eVhWcjF6S2lMVXpya0NtNF9XeHVqdDJCQ0hUSFp6WC15dWZ3YVpNSHRxSkhjcnhCZ2lyWTI2TC1MR01PQk5xN2VZRWVKZVRRZUppWTFjZ3paazdNWVIzcUlpUGRnemJLTjQwY05VSW4xSWdZQ1FTS1lqUDBiaW5HQWxwVVE?oc=5",
+        "source": "Yahoo",
+        "pubdate": "Thu, 12 Nov 2026 22:12:17 GMT",
+        "pubdate_iso": "2026-11-12T22:12:17+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Trump Reported Selling Up to $1 Million in Nvidia Stock; NVDA Falls 29% Since Filing",
+        "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNYTZPeG9CVnRRS3ZZNi1PZkc2WTlWM2xZOExuOGszdzRjaG9XVjFlQVl4OFBxcloyY2R6aDlGS2VvLU5xcXBXOXBvallDV3NheXN0RHJEQzRKX3pXcC1ldVpKLTRSRmRfTUQyUUZVeW9aSEl4bWtYVWJLZFFkckkyRy1KU1V4WHI0eVNPMkpLUFEwZlJRRm52SlJDYmJQMV94WXpwNnlnUHB1d1ZsNmx5YlI4LTlfX2pHa1FpeVlCelh1b2dxYVo5MWNGUHplckR3MW82eVktYzhqV00?oc=5",
+        "source": "TradingView",
+        "pubdate": "Thu, 12 Nov 2026 15:24:56 GMT",
+        "pubdate_iso": "2026-11-12T15:24:56+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "NVIDIA Stock cae: Jensen Huang y las rebajas de Wall Street",
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOME16cF9mc3pjTVowYndIb0Jid2NWUUU2bjBISVU1R256aENVZzFWSkRZcE5GMzZmN0x3aUtfcnRELUtBQ1N6Y3JnNzBIdXoxZ1FJU1R1UXJaOHlnUVNvOWdsakdSWXpRenBIcVF2SVJxeTZta2xEZ3RETUpoSTVyTDUxbEozX04yVTAwRWxvODdaZw?oc=5",
+        "source": "Prensa Libre.CR",
+        "pubdate": "Thu, 12 Nov 2026 14:29:00 GMT",
+        "pubdate_iso": "2026-11-12T14:29:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Nvidia (NVDA) Stock Is Trending in Pre-Market: Here’s What Is Happening",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOWHpOSjFHeDhIWF9DS1Y2YmxLQVJkbzNfNjcwZFowcXJhZEZkVmlQX1JIZndtYmtuYWVZWWVQSGZpN1pYaC15Rnhya0xSdC0tMTAzWUtRM2prSU9yeERRd3RxVWpsT3o1bnRzbmNKVkdMSlRiZ2h1Mm9FZTVHbHhrVVBEU3dhOHBQSlFkQlNQOVFpZmxFakE4Q0pWWkhqOHVTbTB3TE5oOUZndmtMLXJwMl84NGhhazlGQXVSeVNHZW9lc0xu?oc=5",
+        "source": "TradingView",
+        "pubdate": "Thu, 12 Nov 2026 09:19:01 GMT",
+        "pubdate_iso": "2026-11-12T09:19:01+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "NVDA: Nvidia Stock Sinks 9% on Huang’s Second Affair, Board Considers Ousting CEO",
+        "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOZFowZGZWTGJJODlQbU1MWlJXdXBmR2xSeDJGTzBobUxVVjR6MlF0NkVXX2FEVmtYc0h4NWdvN0lFMUZ0cEJJS3pubnhJM0FDSjVhckpBZmVFSUk2MzZoaVFKRmR5MHJUS1B5SG9qS1hqT19TemwzeWN2VkxrSkhvRnBuYUxfYUJRQUZQUG1yM1pLcHlVa05saXJ6bzVRWHo0NUZBTkdiMEVJbVVWdWVsMWZYZE91MW9wWUxlelZwcldZRU83N1NlaVBfVWxqS1ZQZjBnd0h3?oc=5",
+        "source": "TradingView",
+        "pubdate": "Thu, 12 Nov 2026 08:32:17 GMT",
+        "pubdate_iso": "2026-11-12T08:32:17+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "ia_semis": [
+      {
+        "title": "Will Rising AI Capex Weigh on Amazon's Free Cash Flow Prospects?",
+        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPazhEWElUYXI3aEU2YzFmX0FXeXQ4azVDQWJlMEE2OWx0ZDVWMFFNLXdnSVRqUDhkbEN0TGhCRElLSE9QdmRzNkIyNm1oMHhwY25Qc3hTYnFzRHVKaWdXX0xNY2pXTjlkNndkLWYtdHlmMF8teF9YRjFVNDEtNE9wYm5vNVBBTldvZ24zT3dMTzMxcDhHTTFqNkxOakZVcVgzc0dVY0dqamhETS12QXFBcVNZM3ItZk0tU0E?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 11 Nov 2026 16:00:00 GMT",
+        "pubdate_iso": "2026-11-11T16:00:00+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🟢",
+          "razonamiento": "Capex en IA: demanda estructural de GPUs"
+        }
+      },
+      {
+        "title": "Asian shares mostly rise on AI chip demand despite Wall Street's retreat on inflation data",
+        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNZElaQ0dWZGU0YXg4aGVCaTVNRHZHR2NSOGtwQUVXdEozanJmT1V0eUVRYnZBNWJkUTRRbGJvUFNFS2p3b3phRkh0aWhVSlhPUG1UbkxDUDVrN0k2RS11ZVRWcEdPc3BlWUJUQ01LLU9BQy1QdVlNem9nbHJCeXhBS1NxQVpveFdvTHA3SHhvVHBTdVBER08tcTZqVGNBMXVCaGFqRklMTzA4YTVkaVVlb0IxdGp1UkdrazlqSDJjdW8yMjlpVmpqQ2JTV2hrYk0?oc=5",
+        "source": "La Nación",
+        "pubdate": "Wed, 11 Nov 2026 11:05:00 GMT",
+        "pubdate_iso": "2026-11-11T11:05:00+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🟢",
+          "razonamiento": "Demanda de chips: soporte tech"
+        }
+      },
+      {
+        "title": "CoreWeave Says Demand Is Outstripping Capacity – CFO Defends AI Expansion: ‘Today’s Environment Very Profitable’ For Differentiated Technology",
+        "link": "https://news.google.com/rss/articles/CBMivAJBVV95cUxNLXFqUG41c0M0LWV3b2lQdHpSWnM3OHVySUZ5T1JmVlh3dnJUdXVmNjZNZmZabDN6TWhCM3ROSTZZeVpBNDJCb1VXdGcxaGRYUUw0LWlnbzRBeEdkQVpVT2dNeUw3d3FzSmJOWTFGajF0dEdvWGZSV0h5ZFlPVWdSdnNVU0Z4bjVUN0xGY1paQWVaMmtQUVNTTkY0OTN1anJGU19fSVA0UzZiaUVHWDRObXJaeFdTell1V19qQlV2SmU1WVpKZ2VpTnhiMjBYby1zNUU4RlBsTTg1RE9DWTVUYi1mUnIwekdsa3diX3ktbjNPdmVDUDhKQU1TOGJoMWhSaV9HWGRPcEp0Y2l2Rl9GQ2FDVUxGNWJoQ054QU5zUmpSVU1pMHp0V1BhSEhmdV9lU1B3dzFrVWZPdm8y?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 11 Nov 2026 02:27:40 GMT",
+        "pubdate_iso": "2026-11-11T02:27:40+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "macro_tech": [
+      {
+        "title": "La crisis de Nvidia amenaza al sector tech: chips y Nasdaq bajo presión - Investing.com México",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQcEdfelhmd2RKUzFYM2lGYXZzNFFLX1NtdEdHQ3hfcnU5cEFIZTlEZGhvZTV2U1dnbENDNnNYMlFDVWlPenk2ZFUyWXN3X2FzNHI5NHkyajhCMnFseXhfaTBVRUk1MU1wLXplbmFOQkJBZEJVb0xUWEFSS0ZldG1NVGZQQWRtQjRKUFNRTElFbFB0eU5NYy1kOTNoOVVBRmdRVUZ4Q0RfcUVoRVphQnJNdVZpc0lqN29WVFZ6ckxxbFI4bU5D?oc=5",
+        "source": "Investing.com México - Finanzas, Bolsa y Forex",
+        "pubdate": "Thu, 12 Nov 2026 08:38:10 GMT",
+        "pubdate_iso": "2026-11-12T08:38:10+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Rise as Bessent Urges US-China to ‘De-Risk’— Alcon, CoreWeave, Telefonica Brasil in Focus (UPDATED)",
+        "link": "https://news.google.com/rss/articles/CBMirwJBVV95cUxOeThpTWNad0FaNXN3UEtXWWEtd3FKZzFQM0RQZUFoZW5ocEFMRG9qM3NuSnc0UnNMTkFHMHI5eHBFX2YwSjNlUlFQSkp3c2tzWWZwOFVQNGpiYkVIRjdmR1RoMWNaZk1jOHBhT2tGeldWakFabG9PaDJzRG5xVkxHY2ItVk5jdkVSUW1aLTcyVTBYOHppcE5vYXhQeVJCSmpxTlZQeFR6amxvN2VuWnNIZ05rNHJDU2VPb1JrMlNJZHRHb2NkaGxlVjhyeUV4aGhlMVVFNDFGeEszMVRWWW95Q0tLRzQ2RVBoS0I5VGxnSHhXXzRJZ3AySGVXMHdYMlN6ODZtM1BwcFltMGlGY1FRUGJTdUl0b1VmWDBKRzlKU08tcWNPSjlVcXpXVW9jaXc?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 11 Nov 2026 13:36:01 GMT",
+        "pubdate_iso": "2026-11-11T13:36:01+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Stocks Settle Lower on Fed Rate Hike Fears",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRk5VODNPd3dpUjZMYVdlLWc5U2JyQ0xWR3Zlc2V1aV82bFhmNXV4UDgyVElISGFXcHRFT3RSdDlYWUFwU0U1eWRJNHFEeFBlVnF3MjFRa1hCd05PMFA3ckFkLWgxS2JTWUFLeTBZeWxlWmpZZGxtYU5MVC11ZFJQQ3FDd2pZUlZuTm9kZDAyRWRpVG1nckxjT1cySW5PZWttRXc?oc=5",
+        "source": "TradingView",
+        "pubdate": "Tue, 10 Nov 2026 21:39:15 GMT",
+        "pubdate_iso": "2026-11-10T21:39:15+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Fed hawkish: rate hike presiona equities"
+        }
+      },
+      {
+        "title": "Hot CPI and Hawkish Fed Weigh on Stocks",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZzdTcTd1bmZSRUFlbVhrZ005enJRV0VZanNSVHlleHRlS3JPV19laVNvZ3dVbU1TNDIxcVMwSS11b1N0TjV2eDdrbURQT25vNlc3LUtIaW53RUNQSExRWGNTdHJRRjZlZHY4VnNZZ3RTTmRMZTNpd0FfVDk4UkJYbzhuSWJRUDlQRlJMblZMaTlQVlNmOEE0emtXNUZqdw?oc=5",
+        "source": "TradingView",
+        "pubdate": "Tue, 10 Nov 2026 15:17:56 GMT",
+        "pubdate_iso": "2026-11-10T15:17:56+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Tono hawkish: presion"
+        }
+      }
+    ]
   },
   "stats": {
-    "total_noticias": 0,
+    "total_noticias": 13,
     "por_categoria": {
-      "tesla": 0,
-      "nvidia": 0,
-      "ia_semis": 0,
-      "macro_tech": 0
+      "tesla": 1,
+      "nvidia": 5,
+      "ia_semis": 3,
+      "macro_tech": 4
     }
   },
   "resumen_ejecutivo": {
     "sentimiento": "neutral",
     "score_neto": 0,
-    "n_positivas": 0,
-    "n_negativas": 0,
-    "n_neutrales": 0,
-    "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
+    "n_positivas": 2,
+    "n_negativas": 2,
+    "n_neutrales": 9,
+    "narrativa": "El feed muestra 2 senales positivas y 2 negativas (neto +0). Factores dominantes: Capex en IA: demanda estructural de GPUs; Demanda de chips: soporte tech.",
     "narrativa_fuente": "plantilla",
     "veredicto": "NEUTRAL - sin sesgo dominante"
   }
