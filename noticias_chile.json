@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-13T15:17:33.890549+00:00",
+  "updated_at_utc": "2026-11-13T15:33:49.253523+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "bcch_tpm": {
@@ -57,6 +57,20 @@
         "source": "Perú Retail",
         "pubdate": "Fri, 13 Nov 2026 13:41:49 GMT",
         "pubdate_iso": "2026-11-13T13:41:49+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "EUR/USD Pronóstico del Precio: Registrando leves ganancias por encima de 1.1050",
+        "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQMlJsNzQ0X2JKYzJ6QW1ZaHFNYmhlNTJ0RHh5dEJuU09aRHBybEJpa25kZ3hCeEpMMUk3ZG12UkFsYmtMa0I2d0tWckVWdmFVcXlVRzFrdmJUOTRqOVVXWlJYcVpPdXNvVUMxTnRESE10Q1VZQzc1dWtCNDAxMk91M0JUaUQyejEwc2N4Q1M1TGZMNFhuN0prbjhLbkRqS3dyZ2g3N1FFOFZaVXd5NTBPY2NDVC1jTXUxLWJnVHRfOG05bXRnWlVXWVNjSWNnY3VabGZfY1U3bW55Y2JkbXllbzh1cFJLZldFSnBHT2V0S0liWk1RNXJaQ3ZnLThoWDI2SGJZNl80dks2VVE?oc=5",
+        "source": "FXStreet",
+        "pubdate": "Fri, 13 Nov 2026 05:42:44 GMT",
+        "pubdate_iso": "2026-11-13T05:42:44+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -374,9 +388,9 @@
   },
   "hechos_esenciales_por_ticker": {},
   "stats": {
-    "total_noticias": 23,
+    "total_noticias": 24,
     "por_categoria": {
-      "bcch_tpm": 3,
+      "bcch_tpm": 4,
       "ipsa": 5,
       "dolar_cobre": 5,
       "economia_chile": 5,
@@ -392,7 +406,7 @@
     "score_neto": -6,
     "n_positivas": 0,
     "n_negativas": 3,
-    "n_neutrales": 20,
+    "n_neutrales": 21,
     "narrativa": "El feed muestra 0 senales positivas y 3 negativas (neto -6). Factores dominantes: Riesgo de recesion: muy negativo; Riesgo de recesion: muy negativo.",
     "narrativa_fuente": "plantilla",
     "veredicto": "BAJISTA a corto plazo"

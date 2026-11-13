@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-13T15:17:12.572453+00:00",
+  "updated_at_utc": "2026-11-13T15:33:28.302621+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -194,40 +194,26 @@
           "emoji": "🔴",
           "razonamiento": "Fed hawkish: rate hike presiona equities"
         }
-      },
-      {
-        "title": "Hot CPI and Hawkish Fed Weigh on Stocks",
-        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZzdTcTd1bmZSRUFlbVhrZ005enJRV0VZanNSVHlleHRlS3JPV19laVNvZ3dVbU1TNDIxcVMwSS11b1N0TjV2eDdrbURQT25vNlc3LUtIaW53RUNQSExRWGNTdHJRRjZlZHY4VnNZZ3RTTmRMZTNpd0FfVDk4UkJYbzhuSWJRUDlQRlJMblZMaTlQVlNmOEE0emtXNUZqdw?oc=5",
-        "source": "TradingView",
-        "pubdate": "Tue, 10 Nov 2026 15:17:56 GMT",
-        "pubdate_iso": "2026-11-10T15:17:56+00:00",
-        "impacto": {
-          "direccion": "negativo",
-          "intensidad": 2,
-          "intensidad_label": "moderado",
-          "emoji": "🔴",
-          "razonamiento": "Tono hawkish: presion"
-        }
       }
     ]
   },
   "stats": {
-    "total_noticias": 13,
+    "total_noticias": 12,
     "por_categoria": {
       "tesla": 1,
       "nvidia": 5,
       "ia_semis": 3,
-      "macro_tech": 4
+      "macro_tech": 3
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "neutral",
-    "score_neto": 0,
+    "sentimiento": "levemente alcista",
+    "score_neto": 2,
     "n_positivas": 2,
-    "n_negativas": 2,
+    "n_negativas": 1,
     "n_neutrales": 9,
-    "narrativa": "El feed muestra 2 senales positivas y 2 negativas (neto +0). Factores dominantes: Capex en IA: demanda estructural de GPUs; Demanda de chips: soporte tech.",
+    "narrativa": "El feed muestra 2 senales positivas y 1 negativas (neto +2). Factores dominantes: Capex en IA: demanda estructural de GPUs; Demanda de chips: soporte tech.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "NEUTRAL - sin sesgo dominante"
+    "veredicto": "Levemente ALCISTA"
   }
 }
