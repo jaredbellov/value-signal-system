@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-14T13:05:16.721452+00:00",
+  "updated_at_utc": "2026-11-14T13:10:46.259319+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "bcch_tpm": {
@@ -85,6 +85,20 @@
         "source": "FXStreet",
         "pubdate": "Fri, 13 Nov 2026 05:42:44 GMT",
         "pubdate_iso": "2026-11-13T05:42:44+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "BCR sube su tasa de interés a 4,50% por primera vez desde 2023, ¿qué efectos tendrá?",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOOEEyY196a2VGRzdzZ2NMa203TzJsNjFDenpyQUUxU0VWS3lWMTlNZVMzd0Z2TEpJSmg2UHlzWVNpWkdRWXhZR2tWN3V1MnNKSjcwUjV5NjJpa05KcHgxclhrYmJiR2F5S0dwbEhrLUlET3o3Y0h3N080UHJwR0pvcUh4YlRCNkZUaU1rQmdkRGtGaW9IM05DdlJDRnpkRmtxeHdPMnlLRjB4a2Y5bGpFd0NKNHd3QzBBZkJZ0gHPAUFVX3lxTFBrSU01Z2VqaElZeVRQM2ZtdlJZTndHeUk1SWVOeENYaUNqZ2ZRelo0bXBROEZVS2theDQzN2RVRGFiZTJyd3V5cmpZUjluX3JYdXY4bHhvQThTNlJxM1FSbkRQcnRwclFxRGlqMU82UUo0M0NFM1E2WlRmWGlyY3YtOFREVDdtcl9Mc0xwb1ZaVlFRdjdCWEZIcVN6Z0VNWmsyVk5DNFpxT2RhRkFWRlNlNDMtbVBzaDJic1cwNUF0Z05ibUt0LW12YWxBaFNOOA?oc=5",
+        "source": "El Comercio Perú",
+        "pubdate": "Fri, 13 Nov 2026 03:09:47 GMT",
+        "pubdate_iso": "2026-11-13T03:09:47+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -360,9 +374,9 @@
   },
   "hechos_esenciales_por_ticker": {},
   "stats": {
-    "total_noticias": 22,
+    "total_noticias": 23,
     "por_categoria": {
-      "bcch_tpm": 4,
+      "bcch_tpm": 5,
       "ipsa": 3,
       "dolar_cobre": 5,
       "economia_chile": 5,
@@ -378,7 +392,7 @@
     "score_neto": -3,
     "n_positivas": 1,
     "n_negativas": 2,
-    "n_neutrales": 19,
+    "n_neutrales": 20,
     "narrativa": "El feed muestra 1 senales positivas y 2 negativas (neto -3). Factores dominantes: Riesgo de recesion: muy negativo; Riesgo de recesion: muy negativo.",
     "narrativa_fuente": "plantilla",
     "veredicto": "Levemente BAJISTA"
