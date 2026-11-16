@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-16T12:33:26.520851+00:00",
+  "updated_at_utc": "2026-11-16T13:03:26.862764+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -36,30 +36,15 @@
         }
       }
     ],
-    "nvidia": [
-      {
-        "title": "Acciones NVIDIA Corporation - Cotizacion NVDA Nasdaq",
-        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPQmZpTXFtTEppVEh5VThMaXk4MEtUZkotNmtlbmRUeXJBb2ZPbDZjSmtuVjJPQmZ6eDdCVHI3M2phWnJCSUp5RTc3RW01UUs5ekJLd3FPVEtDQ0dUdWxwQlNaZGJTTVJxUGVBMFcxdVlMR3dOQ1VaYWNpZ3FXWkZCeGJ3?oc=5",
-        "source": "MarketScreener España",
-        "pubdate": "Fri, 13 Nov 2026 21:00:00 GMT",
-        "pubdate_iso": "2026-11-13T21:00:00+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      }
-    ],
+    "nvidia": [],
     "ia_semis": [],
     "macro_tech": []
   },
   "stats": {
-    "total_noticias": 2,
+    "total_noticias": 1,
     "por_categoria": {
       "tesla": 1,
-      "nvidia": 1,
+      "nvidia": 0,
       "ia_semis": 0,
       "macro_tech": 0
     }
@@ -69,7 +54,7 @@
     "score_neto": 0,
     "n_positivas": 0,
     "n_negativas": 0,
-    "n_neutrales": 2,
+    "n_neutrales": 1,
     "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
     "narrativa_fuente": "plantilla",
     "veredicto": "NEUTRAL - sin sesgo dominante"
