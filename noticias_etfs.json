@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-16T12:02:16.593265+00:00",
+  "updated_at_utc": "2026-11-16T12:07:36.595288+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "fed_tasas": {
@@ -116,22 +116,7 @@
         }
       }
     ],
-    "tech_nasdaq": [
-      {
-        "title": "SocGen's Albert Edwards warns liquidity squeeze, inflation threaten AI stock rally",
-        "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNaEd2MUpFQ1B5cTVDQkVNUHZyckZIZDY4TE1CVElVS1k0UlB0QnVXV3lfTlhHdlRrZEZ2SmtiU0xVbGl0R25rTm9laWFvbXRJc1Ryc1RucF9tNUVJS0dYb0NvTXo4UnVNREo3QUlIdlJoTklfdHQ1NENUek1GNGtRMXpvR0dndlpmOE0wZlpEOEFVUU92cTJjbkRocWFRTmNXdS1JOUlNQ1ZJOGxDSU9Xc2RqZWdYMW1lSWVaT2VScXN3UjJNa2tpMmxzZFhweTl5WTl1eVhHWmRYUkU?oc=5",
-        "source": "TradingView",
-        "pubdate": "Sun, 15 Nov 2026 15:56:17 GMT",
-        "pubdate_iso": "2026-11-15T15:56:17+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      }
-    ],
+    "tech_nasdaq": [],
     "economia": [],
     "earnings": [],
     "sentimiento": [
@@ -152,11 +137,11 @@
     ]
   },
   "stats": {
-    "total_noticias": 8,
+    "total_noticias": 7,
     "por_categoria": {
       "fed_tasas": 1,
       "mercado": 5,
-      "tech_nasdaq": 1,
+      "tech_nasdaq": 0,
       "economia": 0,
       "earnings": 0,
       "sentimiento": 1
@@ -167,7 +152,7 @@
     "score_neto": 0,
     "n_positivas": 0,
     "n_negativas": 0,
-    "n_neutrales": 8,
+    "n_neutrales": 7,
     "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
     "narrativa_fuente": "plantilla",
     "veredicto": "NEUTRAL - sin sesgo dominante"
