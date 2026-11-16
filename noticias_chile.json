@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-16T12:07:41.340015+00:00",
+  "updated_at_utc": "2026-11-16T13:33:51.500046+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "bcch_tpm": {
@@ -97,6 +97,20 @@
     "ipsa": [],
     "dolar_cobre": [
       {
+        "title": "Dólar abre al alza y se acerca a los $1.000: analista anticipa qué podría pasar durante la jornada",
+        "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNZDNlTUpNeVA4V1MtbVZLenBQcjh3NVhFSUJlcHZlQ0hRcnFnQ2hRd25FS2t6RHJ0XzM0YnN0X0I1dlp1MHNsTGo3MWZ5bHZvWFRFRGxRY01TTDM2TTJ3WE9kZ0lSWEl2Mm9LNkxYNnlFWnNSNU9HTGx0TUdkeWV0bGJ0WjVpQjM2SFJqRHNPX1RYUElxcGs4NnNzODlYQ20ya05pZzhvM29FQW9TLVM5dHVGRXk3bURBQmJtLTl0UUdOVkphalZjQ3NQZ2pDMEIyUFdYTG12YWhFNEt5RUhaVG44bVlYZl9BNWtraA?oc=5",
+        "source": "Radio Agricultura",
+        "pubdate": "Mon, 16 Nov 2026 13:03:36 GMT",
+        "pubdate_iso": "2026-11-16T13:03:36+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
         "title": "Salida de Huang de Nvidia pone a prueba la demanda de cobre",
         "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPLXZZQXhJSU5JTHY0bnB2V3dfcHQwcFhZTGtZcF9QeXVKaUFCOHg0MTJrM1VrZW4tV1JUMnU0bjBORnM5RkkzSHUwWHh1d1U1R3dqR3M3UWFXZHJKUlRpMWZzM25jdmc5VHJrbjdrNWpkejFaUHBKMDJQZTQ1d1JEVGJyMnNoMk9OWHM0a0JjSmhoUQ?oc=5",
         "source": "Chile País Minero",
@@ -150,20 +164,6 @@
           "intensidad_label": "moderado",
           "emoji": "🔴",
           "razonamiento": "Cobre a la baja: presion para Chile"
-        }
-      },
-      {
-        "title": "Metales no ferrosos, un cuello de botella de la transición tecnológica",
-        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQ2FrSGhWQTk1NkxvOVFpSmlfc3pNa1dhajVOMWxaZmM3Q3dKNGREeDJvWnhBbjlPX3h2TGtMbXo1WDFMUHR6UDRVaFdMLUxXNlpHYThPQklRMGF0Z1J4MUh3eHZUdmt0Mmc4cThvMzJkaHJWZU9vWkp0UnV3OEtTV3lQQ0s4N1owMVZra1Bqc0RYYTNOamdfRDlEVncyV2lsQlVBdU9JQ0RBaWtjVlJsQnk5dw?oc=5",
-        "source": "vanguardia.com.mx",
-        "pubdate": "Sat, 14 Nov 2026 17:26:04 GMT",
-        "pubdate_iso": "2026-11-14T17:26:04+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
         }
       }
     ],
@@ -311,20 +311,35 @@
         }
       }
     ],
-    "pensiones_afp": [],
+    "pensiones_afp": [
+      {
+        "title": "¿Tienes dinero acumulado en la AFC? Revisa cómo retirar el 100% de tus fondos",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOcnVsWjh0eF92Tzk4LXBvelh4Rzc4RWZaclZaUnY5OXhZRkdKRmdudWFMZnBxSTZLRUdZZ3J4a2kzMG9GSVFHUlRYVGRvQ3FUeGpWNnByQjgyOHJzRzYzVWxvWUs4eF81WWNDanVZN3p3cmtLVU9tbC03bXlTSm5rTWFfYTY4cU9oUTJxcmtFYTlpb2poQzgwVS0tVmRMV0hRcHBKZTFEWTNQQURMX1hfLWNqQVdrV0pzN3U3UA?oc=5",
+        "source": "El Observatodo",
+        "pubdate": "Mon, 16 Nov 2026 12:45:07 GMT",
+        "pubdate_iso": "2026-11-16T12:45:07+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
     "energia_tarifas": [],
     "sectores_watchlist": []
   },
   "hechos_esenciales_por_ticker": {},
   "stats": {
-    "total_noticias": 19,
+    "total_noticias": 20,
     "por_categoria": {
       "bcch_tpm": 4,
       "ipsa": 0,
       "dolar_cobre": 5,
       "economia_chile": 5,
       "politica_regulacion": 5,
-      "pensiones_afp": 0,
+      "pensiones_afp": 1,
       "energia_tarifas": 0,
       "sectores_watchlist": 0
     },
@@ -335,7 +350,7 @@
     "score_neto": -5,
     "n_positivas": 2,
     "n_negativas": 3,
-    "n_neutrales": 14,
+    "n_neutrales": 15,
     "narrativa": "El feed muestra 2 senales positivas y 3 negativas (neto -5). Factores dominantes: Reforma tributaria: incertidumbre impositiva; Reforma tributaria: incertidumbre impositiva.",
     "narrativa_fuente": "plantilla",
     "veredicto": "BAJISTA a corto plazo"
