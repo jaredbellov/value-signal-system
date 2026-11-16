@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-16T20:03:27.042513+00:00",
+  "updated_at_utc": "2026-11-16T20:33:25.154267+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -22,15 +22,30 @@
   "noticias_por_categoria": {
     "tesla": [],
     "nvidia": [],
-    "ia_semis": [],
+    "ia_semis": [
+      {
+        "title": "The Nvidia scandal is heightening America's AI rivalry with China ahead of Trump's visit",
+        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZTRJT1N2OWgxMUt5c0lkTmdhTHJLLV9UOFVEZTBkSHlZdjRKQXc3OEZxM0lCMXNFdlBoRTZTLUdwclZvb29DRHNyMGx2RXhaTGkxY0hxMzZXUVBZMU1mT2VqU0hXY0Z6b3JQVkFxZ0MwMUZUbTFpTjZycUJaVGh5cXJSRGc1WDdybGhyZDlFUWh6c2dRLWhKREFzcDFqYlNLVDVBTHJWYkdSbzhwbEM0NmNELTNoZ0tVZE15dThfRTBHTU5BTjlXT3h3aw?oc=5",
+        "source": "La Nación",
+        "pubdate": "Sat, 14 Nov 2026 06:04:13 GMT",
+        "pubdate_iso": "2026-11-14T06:04:13+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
     "macro_tech": []
   },
   "stats": {
-    "total_noticias": 0,
+    "total_noticias": 1,
     "por_categoria": {
       "tesla": 0,
       "nvidia": 0,
-      "ia_semis": 0,
+      "ia_semis": 1,
       "macro_tech": 0
     }
   },
@@ -39,7 +54,7 @@
     "score_neto": 0,
     "n_positivas": 0,
     "n_negativas": 0,
-    "n_neutrales": 0,
+    "n_neutrales": 1,
     "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
     "narrativa_fuente": "plantilla",
     "veredicto": "NEUTRAL - sin sesgo dominante"
