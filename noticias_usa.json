@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-17T12:33:25.124771+00:00",
+  "updated_at_utc": "2026-11-17T13:03:24.366129+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -20,7 +20,22 @@
     }
   },
   "noticias_por_categoria": {
-    "tesla": [],
+    "tesla": [
+      {
+        "title": "Weekly Recap: Tesla shares rise on SpaceX talks and Cybercab invitations",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQVGE2eDVBWUF1WUpDcVFGZ2NQMlZRWlduSkNackxBZEU4YjZvTEZLLWxsUTFUZjVseDEyZmhJQWQxNExmU2VYbHBENkJRWVhxbWNfN1MyNDBqUlh2dnc2bkRKdXd6X2pXeTdwV2tJY3hyMW50YURlUXZRLVE1eXVadElKOVZtR3AtZWdqWU11RVhseHZpUGZ0eE5NUDlKbC1XQzVXWVN0SEZxWFBiNEJUUzR4NjByaUkzYmpWcDI3SC04dFdJQ3FlZ2E2eFI?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 16 Nov 2026 11:00:00 GMT",
+        "pubdate_iso": "2026-11-16T11:00:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
     "nvidia": [
       {
         "title": "Why Micron and SanDisk Stocks Are Falling Before Nvidia Earnings",
@@ -38,6 +53,20 @@
       }
     ],
     "ia_semis": [
+      {
+        "title": "Nvidia China Trouble Could Spill Over to These AI Chip Stocks",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNQ0F2Y1BvTGpsQUJKeU9jOE03YUFYeTd0YV9wbDEwYU5SOWNYMFNiUUtBT2dKeFRyaGxJYnNCbzF2VFNoREwyVlVQR0N6VW9ncnk0aTk5UVFwbjh0RlhNOHVQMGMyQndMcWQ4X19NSG14RXVzMEhwdmR5cXk4NVFrX2x3bnJjekJIXzhHejNHeDhmZkNQc3JJU2FZdmJGUXVFRER2MUFERWZkSjJNbDlnN1hpRklFeXJxOVVF?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 16 Nov 2026 19:30:11 GMT",
+        "pubdate_iso": "2026-11-16T19:30:11+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
       {
         "title": "US Tightens Restrictions On Remote Access To Advanced AI Computing Power",
         "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOazJZTU5DQThlb0RhR3lLMjNvQXRwWENLczZuY1JfZjh1bEx6TGpaM1ljMXRNZXlBUDBMaXZldkd6a0NyOTBiNUYyTnhLb2MwcmFDU0xvZExnQmxycWViMFdDQmhaZXFGWG82bUZBOUYwaDgyaUo0YUduVDg5SGlnZVFVLWFFanFDang2azg0b05hd1pnWXJhWEU3S2xkYWFjMVIzb3dnb0R2NF9KalRGaDMyT1cyR05lY0h2amZSenlaRVBDTThGbVdWeEQ?oc=5",
@@ -113,11 +142,11 @@
     ]
   },
   "stats": {
-    "total_noticias": 6,
+    "total_noticias": 8,
     "por_categoria": {
-      "tesla": 0,
+      "tesla": 1,
       "nvidia": 1,
-      "ia_semis": 3,
+      "ia_semis": 4,
       "macro_tech": 2
     }
   },
@@ -126,7 +155,7 @@
     "score_neto": 0,
     "n_positivas": 0,
     "n_negativas": 0,
-    "n_neutrales": 6,
+    "n_neutrales": 8,
     "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
     "narrativa_fuente": "plantilla",
     "veredicto": "NEUTRAL - sin sesgo dominante"
