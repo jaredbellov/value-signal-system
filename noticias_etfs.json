@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-17T08:13:02.855422+00:00",
+  "updated_at_utc": "2026-11-17T12:07:39.648039+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "fed_tasas": {
@@ -29,31 +29,245 @@
   },
   "noticias_por_categoria": {
     "fed_tasas": [],
-    "mercado": [],
-    "tech_nasdaq": [],
+    "mercado": [
+      {
+        "title": "Asian shares decline following stocks tumbled on Wall Street",
+        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOLWhNcHo3TUVhVThMem5FcXBid1dTb3UzM1JmUXVwdUFjYnRkREhHellXUER1Q0o2c3JIYmJ5Wlo5WFRhZVd6Q01USlh0ZFlwekRyeWljTzFQMG9SbFpsZWdNaEVmS0NWRkRWMGc3YlRyQVplMl9Xank2dDJrSFB6RDJMaXZSN2pjUTd3c29iWGE5cWc4RUtLR2xvNm5XTVhMRDJwQVRDWWU?oc=5",
+        "source": "La Nación",
+        "pubdate": "Tue, 17 Nov 2026 04:31:22 GMT",
+        "pubdate_iso": "2026-11-17T04:31:22+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Acciones caen fuerte"
+        }
+      },
+      {
+        "title": "Futuros de Wall Street cautos antes de resultados de Nvidia - Investing.com México",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTUVZNVQ1UUpuT2pHcUZzSTdJTFBYamVlVks1X1c0ZjdTN1hiNGN6Yk5iaUpDLWEzNnhRVnFtc3J1Q0o5akZMa1YyVUh0T2pZaXpMQzJ1RktPa2pwLVl2clF4UTk0MGd3bzRDbWJhZTFPUVAyX0ptRWRvMEl3UklQLVJhWEtqTzZxWDFoZ1REczlCSTRzVlE0SkRZRkNWNWRSZG1faXE1U1FJZWtkcmRKZVBzWTR6UQ?oc=5",
+        "source": "Investing.com México - Finanzas, Bolsa y Forex",
+        "pubdate": "Tue, 17 Nov 2026 00:39:24 GMT",
+        "pubdate_iso": "2026-11-17T00:39:24+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Wall Street cierra en rojo y el Nasdaq pierde el 2,49%, pendiente de la crisis de Nvidia",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVlQ5Z3pIcGJVVVVqY3NVVEY3QmtNdFgzcUF4dDdtSmZTSmJtNE1ZQWtPY1BCdXFTcU1tOVF4SmpnRDNnT3I0TDQtQVI0WWxrQ1I0ZUdfb1BwRk1Sc2MxcWtrUjV3ckZpeXhrTGR3QTJOdVRDaEtyS21YbXFQdDNFYWU4X1dmWVdOZGJ5LXUxcFF1a2ZrU0FublRtS1Y4empzMHNJb0x4SktEaHJPQVdTZ3NaeGZuY19UQkFtTS1ycmQwR0s2?oc=5",
+        "source": "AlbertoNews",
+        "pubdate": "Mon, 16 Nov 2026 22:22:08 GMT",
+        "pubdate_iso": "2026-11-16T22:22:08+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Se desploman las acciones de grandes bancos en Wall Street tras fallas en sus plataformas digitales en Estados Unidos",
+        "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPM190R1FranBKTkNRcG5peUdaaGpnTmc3RWdYQ2tZMGRIUnY2TDFyQWhxYS1LeVV6V3haeGUzNFRvT2lTb0JrdVlkMktFTEVGQnppR05zTEJZcWNqUGpJX01KcFJQWGJSYjJicVp1NFZ6b25zRWI3UGRuQkNybVJUN29RNDBVbU91UTlUbExhbGxqZUxDaXktMjdCRng1QnE3RXJvM1ZQMF9EZkJQOThHTTA5TjZnbkJmcTZjaFBqOXN4dmN1OE1uVGU4aWFPZC00XzJtTjc0THl4V2JENUZiRGVReng5U1F0dWFscnpueFFzSlJYYlVYVFZsZGY3d2fSAYQCQVVfeXFMUDVKQkhCUkRqSGF3aHVOaHNqelBOanl5dExHSVpTTko4aFNhZHNZallSNDdwNDJqSTB5X3JVU3hTS1djbDRxdXM1TXl5LW9JM3BMRTNnV2RacWdOTjA0TzB6RDNKR0gxRTVBeF90LVdNXzBjMnhHd2pBSFFDSk05NXFOcWlVT3RvV2dNWDlXUjRiOHVjOEx2RF84cmxjMlFOSlpvVG5wMWNLVFhlNU5NTU5mRG1rb3lGYkp5Vm5wYjN2TEN2Vi03aTFHbE1pNHR0MVJQN25Zc3IwQ0FVU0xGZzhieER1RnRKV05DQk1XalVUNXFmWktKUWR1UmQxY29lMG9fRG0?oc=5",
+        "source": "El Tiempo",
+        "pubdate": "Mon, 16 Nov 2026 21:45:55 GMT",
+        "pubdate_iso": "2026-11-16T21:45:55+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Desplome: muy negativo"
+        }
+      },
+      {
+        "title": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Trade Fall as Scott Bessent Presses Nvidia Over China Chips — BIDU, RKLB, MSTR in Focus (UPDATED)",
+        "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxOOUZXYTlLTDlrX0VsNmNWSUl6TXhkUWVXNUl4QXV5T3NHWTZvZ3k0WUFWU2pzQ0Y5dzdWc0NQVTBRdHotUUV1eHBsbjZhZlg5b0dmVHJUNkVlY3dqZ2daYzNWNF8zM181a0h3dTExYTY4M2NIQzNDaXFJQjk1X2txSU9fcXFoSTRpUndaSDNtdW4wQVhkVEJTWXlCempfc2RxbnltRVlTRXNxQTItSDBwSjdPSmRnRlFETGV5cXBrcHhfZmdVeTdqVkNwQTlhS3J4RmRQMTRIdVQzUmJiN1Y4akM3ZUNCOWxJbVdnUDZNbVFqM1Jhb1BxR0JrdVY5TTk5V1dteHNsV0MzUWJkbU9BWWdLdFF3QQ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 16 Nov 2026 13:25:57 GMT",
+        "pubdate_iso": "2026-11-16T13:25:57+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "tech_nasdaq": [
+      {
+        "title": "Selecciones de software de Citi: IA y un nuevo contendiente - Investing.com México",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUk12UHhJSjd0NzR6cnBPc19nSC1FUGVEc0dZTmhOaWlEQXdCOEZKRTV3YmdCdFZ2a0xfM1NyZXJBNVpZcW44RWpLMjFyVzBpM2hzbnk3VHlYY1BRTjl5bHFneVZrYk9FTzlHR1J2dEhqVVFQV1FXemxpbmhPN0IyVHRGWGYtb05ZVTdSWTA2VmdYU2kyc0FSYnNZMjBJVGtBQjRhUGlnT3BnRDFQSEQ3NHhsMnU?oc=5",
+        "source": "Investing.com México - Finanzas, Bolsa y Forex",
+        "pubdate": "Tue, 17 Nov 2026 05:42:37 GMT",
+        "pubdate_iso": "2026-11-17T05:42:37+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "How major US stock indexes fared Monday 11/16/2026",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMkNiU19ZZXBkYWNkaW0teUUxcmRSSVYtcWVrR0FlTlZIc0JsLWl0N3VleUk0VzVEbHZYcjhzdmU3OXBWR1VmQ2ZjTjJ1R05LdTJ5ZWNlMjhSZ3pxcGd2Vm5OMHFWODI5blllNXRrc3hzYTM2UEpib0FDY2UwSC0yaWJKUkNoZC1WbHNjbE5PNFEtTFJZVHpyLQ?oc=5",
+        "source": "La Nación",
+        "pubdate": "Mon, 16 Nov 2026 21:52:00 GMT",
+        "pubdate_iso": "2026-11-16T21:52:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "SocGen's Albert Edwards warns liquidity squeeze, inflation threaten AI stock rally",
+        "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNaEd2MUpFQ1B5cTVDQkVNUHZyckZIZDY4TE1CVElVS1k0UlB0QnVXV3lfTlhHdlRrZEZ2SmtiU0xVbGl0R25rTm9laWFvbXRJc1Ryc1RucF9tNUVJS0dYb0NvTXo4UnVNREo3QUlIdlJoTklfdHQ1NENUek1GNGtRMXpvR0dndlpmOE0wZlpEOEFVUU92cTJjbkRocWFRTmNXdS1JOUlNQ1ZJOGxDSU9Xc2RqZWdYMW1lSWVaT2VScXN3UjJNa2tpMmxzZFhweTl5WTl1eVhHWmRYUkU?oc=5",
+        "source": "TradingView",
+        "pubdate": "Sun, 15 Nov 2026 15:56:17 GMT",
+        "pubdate_iso": "2026-11-15T15:56:17+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
     "economia": [],
-    "earnings": [],
-    "sentimiento": []
+    "earnings": [
+      {
+        "title": "Carla Stern (Iris Global) se incorpora al Consejo de Supervisión de International Assistance Group",
+        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPS20ycDlVT0Fwcm9vT1Z6a040ME45SVJxM2ZvRkRFZmxtWmxBOHJXNGtORHczM2NkUnFMZ1oySXk3R0J5RzVxUXFnTy1QMmNqY1VOdlFGRDM4UWU2S3RKcVdITGVHODFtZ2x0MzN5ZUx3Nnh4VHJOeHNMODBKREN6OGg3eFdQLTJWY2V1MWZaR1NtME9ybHJTRFhsZ3NrTEV2LW1XdTJkZEhSY3VZMmxVYkFUZzlET1lBTUd5aHpJa1F1SkJoS00weGFmVFN2QVpvbDBN?oc=5",
+        "source": "SegurosNews",
+        "pubdate": "Mon, 16 Nov 2026 17:10:59 GMT",
+        "pubdate_iso": "2026-11-16T17:10:59+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Reliance leads materials stocks with biggest Q3 earnings surprise",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZktCZ3Jxdl9uNVE1YWROQlhnc1hBYWk4RWpLZkk1UFRfcEZOWS0wX2VUS3IySG9ZSVpaOFItQjJ6R2hVLU9OQjdlVGQybFZnVDdhMkJlNUczUW9oSXoyLWhacU5fR1ZJcDBtQWYtbHdpU2YxVWxpRnE4a1NkaFEzXzdkWS1tRkRBWWE5ZVBFQUN6NEFsdWh2UE5yNDhEWGpfaHpndy1CX0RxbE00VmNnM1ZzX3B6MkV5Zk9yVG1pMEdaZWRMZ2c?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 16 Nov 2026 11:17:27 GMT",
+        "pubdate_iso": "2026-11-16T11:17:27+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Weekly Recap: Revenue outlook lifted and pre-tax margin near guidance top",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQdUVOWXVkOS1nY1pKNTAwbnlyamg4Q0pyazByVVZpVkdmZVJoS3VJTUxfVi1NSTRFeHNqMERRR0pwT3R0b05sODJkdWsyTjZ4WlAxd3pDVFRWbTQzSVFYbHcxcHQ1dENiV1ZOb3RiQ1FCbzI5S3RVSXBQZ3FYSzZqOTY2VGQwUUU0LU1aZndyRzJ6NEtkMGlpUmVVQ29DVHF4WGU1V0NTM1FjbnU2Rnk0cjcyaDVTbGVrcFlZaDAzSTJpWHBpZG40RFlXQmc3UQ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 16 Nov 2026 11:00:00 GMT",
+        "pubdate_iso": "2026-11-16T11:00:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Walmart, Target, Amazon, Nvidia, Micron and Alphabet are part of Zacks Earnings Preview",
+        "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQR09BS3VzellwNjhqdkp1MS1fdG41VFkxc2puYjJCZG9PUkxfRkZNME85aUF1eFlTeVJTZ2JSNjBGRVByY0JQbDhPNF9zWTJEX0l3Z01NX1o4UHJGS2Z3aEh4RkZEb05nT3hQck1PSVhwVTVlREdnVlBHR21iZGF4YkpzY1pCQjFpemU0Y2VpR09vZ3NucmhmY2xPNVY1clB1eWFvZ256cnVYMWY1VG91REFSWHcwZXF6b0VvVEpOX1JJbkh0dmtGVkV2djdnN2hZVlRGUA?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 16 Nov 2026 07:26:00 GMT",
+        "pubdate_iso": "2026-11-16T07:26:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Tata Motors PV shares plunge 7%, top Nifty loser as weak JLR margins, guidance cut weigh on outlook",
+        "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPNk10YUdQME1mUHRsWTJSOHE2M203ZHNpZVI0RHpPMlVmSmJjdW5qU0c4SFZWREk2cl81Snp6YS1sV0FfRTNRSWpfNFpHa0YxNnliN3BqeE5BVjFVOVdIUFdBREp2Y0oxMnI1bWZyM010VnBBTl81TDNjNTdLdmdsMVhfalBGVXpheDc5bHpZX3pEdzh6Q3pPaktQZHUwYnNyWGozTlpKNm1HaTQ5WnlIb2RKbUNsUGx0dko3bU5pMjJvUkJzWjNmcUM5R3R4TVd4Skx6azBCSGhvWVl2dmhiMjlXYnRyRm01X2JCeVN4NA?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 16 Nov 2026 04:19:00 GMT",
+        "pubdate_iso": "2026-11-16T04:19:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "sentimiento": [
+      {
+        "title": "Stock market outlook today,16 Nov: Sensex, Nifty prediction-DJIA, S&P, NASDAQ, GIFT Nifty, Kospi, Nikkei, Taiwan cues",
+        "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPNlpRaThUM0piVkMwOHBmU2NKSnJfT2ZWb3pYQ0h2S2wyWTZyUWtSQkZXWll4aFpwLVJKamQwTlNrOFk0OG9jOHdTcTkxeTdyRm5SdGpBb19qR1RJTDJIX0R0NGw4QjFJWmJ5QlpRT3JheEQzLXowR2VrQlBQMjVGTDdOOG5RSWRpeUFMRTU5d2lMUDQxOWZkRDQzb3VPTVdiLWphc1BQSVhhQWhlTlV4MmdpbWtQTFpSVWJGMDN1ZDNSRk9FMFZ5Yll6VlpOOEhxelZCTjZOWGxuM1VXelhDc21YMm1pX0ZVSmdNSHdkd196RU1JTndKVA?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 16 Nov 2026 04:19:00 GMT",
+        "pubdate_iso": "2026-11-16T04:19:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Stock market outlook, November 16-20: Nifty logs 3-week winning streak, first since June - Rally ahead or a pause?",
+        "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQcm1QTnRBbW5CenptSUtlUGRJNHhtenB6cUdXcFJRSUJpLXZJbTNzVVpGbHRBTG43MmVHTUlScW9jbUNROEFnNUlWS1Ruc1VqSjJLZzQ4OHhFWTNJZ3pMdW80TDJVelNBTnZWU2JabnU4bEJTYXlabzY1ZE5hM2pIWkctWDNDR1NVWk9xTkV5VkE1akQ1MjVpWk52S0hXTnc0S09PS2Zoc3dKM3FZMUczZXVUUDlhcGh3bTB2dWtLelctdDRKVUJGWG9Ha19PRjNpVDFidjEzTXB1MV9oa0VLU0ppTzdINDc1YmVxQlVZVW1uZktTUmhWdm04ZEljbmxTZ2Zrb18zMnk1T2FDUkkwWg?oc=5",
+        "source": "TradingView",
+        "pubdate": "Sun, 15 Nov 2026 15:03:02 GMT",
+        "pubdate_iso": "2026-11-15T15:03:02+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ]
   },
   "stats": {
-    "total_noticias": 0,
+    "total_noticias": 15,
     "por_categoria": {
       "fed_tasas": 0,
-      "mercado": 0,
-      "tech_nasdaq": 0,
+      "mercado": 5,
+      "tech_nasdaq": 3,
       "economia": 0,
-      "earnings": 0,
-      "sentimiento": 0
+      "earnings": 5,
+      "sentimiento": 2
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "neutral",
-    "score_neto": 0,
+    "sentimiento": "bajista",
+    "score_neto": -4,
     "n_positivas": 0,
-    "n_negativas": 0,
-    "n_neutrales": 0,
-    "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
+    "n_negativas": 2,
+    "n_neutrales": 13,
+    "narrativa": "El feed muestra 0 senales positivas y 2 negativas (neto -4). Factores dominantes: Acciones caen fuerte; Desplome: muy negativo.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "NEUTRAL - sin sesgo dominante"
+    "veredicto": "BAJISTA a corto plazo"
   }
 }
