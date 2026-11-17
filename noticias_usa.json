@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-17T18:33:28.252008+00:00",
+  "updated_at_utc": "2026-11-17T19:03:25.000135+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -82,17 +82,17 @@
     ],
     "ia_semis": [
       {
-        "title": "Nvidia China Trouble Could Spill Over to These AI Chip Stocks",
-        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNQ0F2Y1BvTGpsQUJKeU9jOE03YUFYeTd0YV9wbDEwYU5SOWNYMFNiUUtBT2dKeFRyaGxJYnNCbzF2VFNoREwyVlVQR0N6VW9ncnk0aTk5UVFwbjh0RlhNOHVQMGMyQndMcWQ4X19NSG14RXVzMEhwdmR5cXk4NVFrX2x3bnJjekJIXzhHejNHeDhmZkNQc3JJU2FZdmJGUXVFRER2MUFERWZkSjJNbDlnN1hpRklFeXJxOVVF?oc=5",
-        "source": "TradingView",
-        "pubdate": "Mon, 16 Nov 2026 19:30:11 GMT",
-        "pubdate_iso": "2026-11-16T19:30:11+00:00",
+        "title": "Carlos Gimenez warns lax AI chip export controls threaten US national security",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBsNGdoZ2VEekpIdkFEX1BUdGxJVjR3SkdpeEJidUF5QUR6bEhHZU40QWxlS2UzV0VCOXpiRG91blpqckNyd215TG5KdGdvSmExa3BnelpsTmhVNzQ?oc=5",
+        "source": "Fox Business",
+        "pubdate": "Tue, 17 Nov 2026 13:57:15 GMT",
+        "pubdate_iso": "2026-11-17T13:57:15+00:00",
         "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Controles de exportacion: riesgo China"
         }
       },
       {
@@ -179,13 +179,13 @@
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "neutral",
-    "score_neto": 0,
+    "sentimiento": "levemente bajista",
+    "score_neto": -2,
     "n_positivas": 0,
-    "n_negativas": 0,
-    "n_neutrales": 10,
-    "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
+    "n_negativas": 1,
+    "n_neutrales": 9,
+    "narrativa": "El feed muestra 0 senales positivas y 1 negativas (neto -2). Factores dominantes: Controles de exportacion: riesgo China.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "NEUTRAL - sin sesgo dominante"
+    "veredicto": "Levemente BAJISTA"
   }
 }
