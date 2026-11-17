@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-17T12:07:37.016362+00:00",
+  "updated_at_utc": "2026-11-17T12:33:25.124771+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -20,22 +20,7 @@
     }
   },
   "noticias_por_categoria": {
-    "tesla": [
-      {
-        "title": "Tesla stock falls 2.5% even as company plans $3.3B cybercab expansion",
-        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbGtZbURmV0oyQXpMY3FfTkRSbFRPRGpYMkZEYXlBczA4SUk4RFVYSHpiSmlkQlVfcVpDNVdRT2txOUg1azJVSDIzOGpIZTFGOHZ1RVdFRUVOa1JpTUY2LVltaXNWeGVWR1pMS3VsMzg1SldtRzhJYkl4QkUtdUs1WnJWd3NZaUFjVlo0Mk5IT3VreFF2T1hFYnQ3VU5sQzBGYXlpb2NuaWFiZWlUbmNhRnlJVHNmTUt3WVdMcl9rQkU?oc=5",
-        "source": "TradingView",
-        "pubdate": "Mon, 16 Nov 2026 20:58:10 GMT",
-        "pubdate_iso": "2026-11-16T20:58:10+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      }
-    ],
+    "tesla": [],
     "nvidia": [
       {
         "title": "Why Micron and SanDisk Stocks Are Falling Before Nvidia Earnings",
@@ -128,9 +113,9 @@
     ]
   },
   "stats": {
-    "total_noticias": 7,
+    "total_noticias": 6,
     "por_categoria": {
-      "tesla": 1,
+      "tesla": 0,
       "nvidia": 1,
       "ia_semis": 3,
       "macro_tech": 2
@@ -141,7 +126,7 @@
     "score_neto": 0,
     "n_positivas": 0,
     "n_negativas": 0,
-    "n_neutrales": 7,
+    "n_neutrales": 6,
     "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
     "narrativa_fuente": "plantilla",
     "veredicto": "NEUTRAL - sin sesgo dominante"
