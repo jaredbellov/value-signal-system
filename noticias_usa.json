@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-17T17:33:26.891196+00:00",
+  "updated_at_utc": "2026-11-17T18:03:26.534349+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -27,6 +27,20 @@
         "source": "TradingView",
         "pubdate": "Mon, 16 Nov 2026 20:58:10 GMT",
         "pubdate_iso": "2026-11-16T20:58:10+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Weekly Recap: Tesla shares rise on SpaceX talks and Cybercab invitations",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQVGE2eDVBWUF1WUpDcVFGZ2NQMlZRWlduSkNackxBZEU4YjZvTEZLLWxsUTFUZjVseDEyZmhJQWQxNExmU2VYbHBENkJRWVhxbWNfN1MyNDBqUlh2dnc2bkRKdXd6X2pXeTdwV2tJY3hyMW50YURlUXZRLVE1eXVadElKOVZtR3AtZWdqWU11RVhseHZpUGZ0eE5NUDlKbC1XQzVXWVN0SEZxWFBiNEJUUzR4NjByaUkzYmpWcDI3SC04dFdJQ3FlZ2E2eFI?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 16 Nov 2026 11:00:00 GMT",
+        "pubdate_iso": "2026-11-16T11:00:00+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -156,9 +170,9 @@
     ]
   },
   "stats": {
-    "total_noticias": 9,
+    "total_noticias": 10,
     "por_categoria": {
-      "tesla": 1,
+      "tesla": 2,
       "nvidia": 2,
       "ia_semis": 4,
       "macro_tech": 2
@@ -169,7 +183,7 @@
     "score_neto": 0,
     "n_positivas": 0,
     "n_negativas": 0,
-    "n_neutrales": 9,
+    "n_neutrales": 10,
     "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
     "narrativa_fuente": "plantilla",
     "veredicto": "NEUTRAL - sin sesgo dominante"
