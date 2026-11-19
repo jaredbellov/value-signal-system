@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-19T15:26:55.003643+00:00",
+  "updated_at_utc": "2026-11-19T17:40:44.482214+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "fed_tasas": {
@@ -30,17 +30,17 @@
   "noticias_por_categoria": {
     "fed_tasas": [
       {
-        "title": "Some Fed officials argued for a hike in October: FOMC minutes",
-        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQREVKRDQ0bEl0SmEyQ2ppczdmMzZjc0ZqMXQ4dEpkQkNlazdGTnhDcHZHTS1LQllzOTFBMVZncjNVM1M3dzRQUW9PdFRwVHc4SkpqWE5sem5NRHNpczNCcGMwV2p0QWRqam5jMFRGSkJraV9qWjV0YTZTRlp3WUQ1UGFraFBkUnhPdjQ5RXREZV9JX0RybzVEWncwUWZpUzI0c3FwS081TWRmeUFrV1VVZlZXLW1ES1pNZW5hcXhUZw?oc=5",
+        "title": "FOMC minutes reveal Fed officials expect more rate hikes despite October pause",
+        "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQdklrdE8tbG5HS2R1aDlNSVFCcVFiM2F1VEl2ZUJnRms1Uzd3Z05nbXNRcXBqWkl0QVRsRUtjS3hEZ3JNaVRJQ3pTUTJrSXctZkFmcWtHRElnWjEyYW9INWNORVE5WlVXVnNObmVhYVo0ZjZfbWhnVzZMRGFyWVphS3dFUVVjTnBNUnVaNlB1LVRZeWptTEVlbFlFSzhyZHJmWkhfem04cjJyOW5MODB2c3hvUUNsTGh1VVkyZE1KOXdMR1Byc3k1T1E4aWdrNjl1V2dmUnY3YzdLQQ?oc=5",
         "source": "TradingView",
-        "pubdate": "Wed, 18 Nov 2026 19:12:26 GMT",
-        "pubdate_iso": "2026-11-18T19:12:26+00:00",
+        "pubdate": "Thu, 19 Nov 2026 05:03:19 GMT",
+        "pubdate_iso": "2026-11-19T05:03:19+00:00",
         "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
+          "direccion": "negativo",
+          "intensidad": 3,
+          "intensidad_label": "fuerte",
+          "emoji": "🔴🔴",
+          "razonamiento": "Fed hawkish: rate hike presiona equities"
         }
       },
       {
@@ -88,11 +88,11 @@
     ],
     "mercado": [
       {
-        "title": "Anthropic protagoniza este jueves la mayor salida a Bolsa de la historia: Más de 85 670 millones de euros",
-        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQc05sSjktSkdzeFFyRWRFYjBQbk1KNnhwWTZFTVNOYVJ3MEhhQW9sblhWUU5FU21oeG4waXFCbG1WOGdRVlQwaUh0b2lQWXpGNjE4aHRYVFlhSlJxbDhjMG1SelpSYnJIbURGbWR1M0VhZ1g5TS1UYW9xaDl2ZTRvVFVud3lUd3ptSHVKb0ZjcmVaSjNZSnFhVjhJWjhBVjlHRHFLWERSRnNocVZESUdBc3FLbE9sN3FZNTZyYmhEWm1iUmhtNUwzc3plWUZsVnc?oc=5",
-        "source": "ORAIN",
-        "pubdate": "Thu, 19 Nov 2026 08:44:54 GMT",
-        "pubdate_iso": "2026-11-19T08:44:54+00:00",
+        "title": "Anthropic hace historia en Wall Street: su salida a bolsa supera los 107.000 millones de dólares",
+        "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPY2ktbHZ0UmV6dGFrbzRINDcySVU4ajVjYnEybTE1LXZHQzlfNHpjaG9BeTRVLWJVV3pNSTlUYkdZMTB2cDdWYXpndlVCNGdMQjluSUVZNmZlTGpYdlZfSHVmNVhLQThWNGU2NzVOa2xvY2lYNC1CSUtxZ3N3cTRNQWlIaFpDeWN5djNIZTBTd3RFS2RFVlpocy1UUlhCUWF4Nmlob3UzVlMwa2FVRkQwMEpZb0FlSHhFUmFfQkJDZUEwM3l0TTl6QUZxQXZ3TWpMaFpLUFlab3FoQ0hQbGY5RnBmUm55X3VwQU9nM3VUVjhhNE54?oc=5",
+        "source": "Vanguardia",
+        "pubdate": "Thu, 19 Nov 2026 15:37:00 GMT",
+        "pubdate_iso": "2026-11-19T15:37:00+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -389,11 +389,11 @@
   },
   "resumen_ejecutivo": {
     "sentimiento": "bajista",
-    "score_neto": -6,
+    "score_neto": -9,
     "n_positivas": 1,
-    "n_negativas": 4,
-    "n_neutrales": 19,
-    "narrativa": "El feed muestra 1 senales positivas y 4 negativas (neto -6). Factores dominantes: Fed hawkish: rate hike presiona equities; Fed hawkish: rate hike presiona equities.",
+    "n_negativas": 5,
+    "n_neutrales": 18,
+    "narrativa": "El feed muestra 1 senales positivas y 5 negativas (neto -9). Factores dominantes: Fed hawkish: rate hike presiona equities; Fed hawkish: rate hike presiona equities.",
     "narrativa_fuente": "plantilla",
     "veredicto": "BAJISTA a corto plazo"
   }
