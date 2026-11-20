@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-20T11:57:04.652850+00:00",
+  "updated_at_utc": "2026-11-20T13:33:48.267045+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "bcch_tpm": {
@@ -36,38 +36,394 @@
     }
   },
   "noticias_por_categoria": {
-    "bcch_tpm": [],
-    "ipsa": [],
-    "dolar_cobre": [],
-    "economia_chile": [],
-    "politica_regulacion": [],
+    "bcch_tpm": [
+      {
+        "title": "¿Banxico ajustará sus decisiones por diferencial de tasas con la Fed? Esto dijeron las minutas",
+        "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNOF9JU3BueGQxR1RncU1ORVNZRXZuSUxMbnFTNWZUZDhPcVZHN3lDNW5xb2JxVmEwS29Eb1pZNmpsdEwwemF2ekszX1hNc3czRTNpdDQ2X2R3bTlDaFI2SkFrdWI1SFYtbGR3aG9LUkhMQ01Rd2paOUdFeVE0WTNIQTdiOWJYTUlTaWF3R0JWVE1YWXVRb1hEWEVURHozOXZoeS1RTEFMdzhtVVdiZ0Q2UE8wdlhGcmtUQndsN253dDlhLWFWZE43VEtoMTcwVHlYa1FXclZ0SnE2UXZSN2c?oc=5",
+        "source": "El Financiero",
+        "pubdate": "Fri, 20 Nov 2026 01:45:00 GMT",
+        "pubdate_iso": "2026-11-20T01:45:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "La subgobernadora Galia Borja advierte que recorte a la tasa de interés retrasará la meta sobre la inflación",
+        "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOWmFXREhKNFBpclVKdWNLb0pyMkFWcWpFT1VEMUFQMGxEZXpUZ3NKYjRvVkZld1B4QThobVp3REMyNDAzN0R4QWNTY2xnZXpVVERncDVuWFM3T25sQjFWRDVnUFlHSjlpZ1JvS0p4SURaTXdiblgyWDljN1dZcHJsSDdnVVZrZXNBYjFxUDlRc1o4R251Qi03RVR2U0hSY3BfVVJYTFZZWE95VWlDNmE1RjFfMmRnZ1NuZEZ5bmxOWThjTHFlN3l4Y2NZMWdtMlVDZlJSdGdQWDQtWHljR3lQYlFFNEdtZ9IBgAJBVV95cUxOZFlrQXBvX2VKV1JRV3JqNDlqQllIeVJISEhYYjRma25BSmdGMng1aU5aOUJNbF92b2JxVW1xWjhKVzFUUHRZaF8xTjNwMTJucS1JSzZfb1RMZ1cyRGd0VWIyRVdrMi13SFZ6NlB1N2NhMU51Skh3RkFKdWNoYlZ1Nlhrc0JldklLZUo0YlhJQUV3WGFEbDlXS1M5TDFzLTl3V2lwT0VUZW05ZmNZQnJMRDZhNndFbm1VTVF2dEFCV2dHZWtFa2w5bnJ3UUQwQWxhQ2tRYVJGejA5Ylk2U1QzNU9VNVptcVJSdGJGSnBPVU5najV6dkVGYUx3RVV4bC1r?oc=5",
+        "source": "Infobae",
+        "pubdate": "Thu, 19 Nov 2026 21:19:00 GMT",
+        "pubdate_iso": "2026-11-19T21:19:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Un panorama más complejo para la política monetaria",
+        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZF9wSGhsOXprQW0ySm9hdkJQT19CX1hVVVlqM1Blem1ORE1WTG9oTDBQVGdoRnM3YnpBaFpmbkMxdzFVYm5URkoxaW41clBic0ZyUmRRZkQxY211Y3d0RU5GMzdrU3pMcENQUEVDYnYzclF6UTNMYzZYM21jYzM3S0oyVVJNTmx3NDlwMVJiaDU4YkhiWEN1bXdpR2MyY2lsQko4MNIBtAFBVV95cUxNNmZIcGVJSDhQUm0tb19RUGwwZGUxdTVONE4zdmpwdGNTbWE0YWxUTFRROUFFS19yVUVKb2RCZ0lyaEtfQV9HX2g2SUtKdkdTOGFkQWpWeGhMNDJhMnlYQ0w5QXdvdkVOLVNMNUNBYlhIaHZ3SXdtRVBmbHpjOFdLeDNEQnY2WXhEb25sOXJhM19DQ3VqQmJHVTZpVmhFNnlrUlVCaGJjcExxS0xBdk91d21CS3I?oc=5",
+        "source": "la diaria",
+        "pubdate": "Thu, 19 Nov 2026 03:09:47 GMT",
+        "pubdate_iso": "2026-11-19T03:09:47+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Banco Central advierte menor capacidad de pago en hogares y empresas",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUkRLWXR0RlpwWmhhWTlNTDdxTzd5SURVeElfQ3N2bDdBaW9UQ3ZqSzU4cFhvNnR4ODdTa2gxSWNOUFdIandNLS1sSFVrRzQzWFBFY3pXNk15NkhnV2pqYzZZOGxybmJQaFhfWGt2c3VIeUhqdzZyRnZiTmFWYVBjeHJFNHpsT1JQNDctTVJBZlFTOWsxMTg5MEJWRUEtd1dtRE1R?oc=5",
+        "source": "https://estapasando.cl/",
+        "pubdate": "Wed, 18 Nov 2026 01:04:11 GMT",
+        "pubdate_iso": "2026-11-18T01:04:11+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "El Banco Central del Uruguay sigue de cerca la actividad económica para su próxima decisión sobre las tasas",
+        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVFlQdGJPWGNUTDdNQTZaR2VmaGFpeWVzZHhzR3dFc0EzVGtTMjhEY1FaVm5nb1dEdUNZMFFwcWhZR1QxUXl4VVI5Q1F2ZVVDVW1reTBKb2w0RlVhaFlnRlB5Z1M5SV9lMzRoaW1xWXB0aVg2REtOMFZzOGR4eDhleGZBd21hMVhxdlI1OFk5THBwZjZZN3N6eWY0VlhnaE1UOERuUzlkZ1I2RHlqbFdDSnM1cDZSX1lMaGFtZVQ2ZnZ6RkHSAcgBQVVfeXFMTjBiR3RZWXFTMXpxZFlrdGlyTkhCWktjNC1mekUzd1VlMU5YYzNtM1hvUTVEckJUOWIwbWcyVGVzYTQ2OTNSTGwtZnJ4eTQ3SUlLWEFISEVQZi1jdXhOYTNXdHRqRUh4VnJtT0F5Z1JNOWhXUFdKcXRXanlnVGE4QjdaNzh5R29SVzBXMFBHRFI5MGh4N0MyM0pmeVZ6bGk1LVl3NXVxNFZWcjAtb3dGaEZTVVg2VWRXWE9BclFvdEFYLWs0bGhtX3I?oc=5",
+        "source": "Ambito",
+        "pubdate": "Tue, 17 Nov 2026 18:26:15 GMT",
+        "pubdate_iso": "2026-11-17T18:26:15+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "ipsa": [
+      {
+        "title": "MSCI IPSA: La Bolsa de Santiago este jueves cierra a la baja con variación de 0,28%",
+        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWlhjRUJwU2ttWU1HbnV2TkxzbldCV2xhblhoS0pWR2ZqZGM4UlVGQS1JZ195T0RTNTMyaXZxTTJrOGxGNU9qcmFwRVhQcW9WSDl5Y3J5YUtja3dXOGpWOC16ZVdTbDJfdzFBVGMyOGVYcVAtOVNRVU0xNVBpa214akdiNWRveUhkZG9iQU50YTVTSmFYTnBhQkgwNTBvTnVYZnFvN1Q3T0w0S25PblJ1aWRCLXVmcm9ON2c?oc=5",
+        "source": "Diario Estrategia",
+        "pubdate": "Thu, 19 Nov 2026 21:53:47 GMT",
+        "pubdate_iso": "2026-11-19T21:53:47+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Bolsa de Santiago cierra con fuerte caída por debajo de los 10.400 puntos, presionada por los resultados y previsiones de SQM",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0wcHhtbDVkM0lUSzc4VndCT1pCNTVaNG1tSnR0ZGt4SkQ1Wm5PSmdSZXVSd1JrQjBNdGdNSEEtT1BGNFN4OGZZMTQ0XzZwT25zLU45eWFBVmlrTk9MUE12SlN4RzltRnVf?oc=5",
+        "source": "Diario Financiero",
+        "pubdate": "Wed, 18 Nov 2026 21:12:00 GMT",
+        "pubdate_iso": "2026-11-18T21:12:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "dolar_cobre": [
+      {
+        "title": "Dólar alcanza los $1.020 en Chile y llega a su nivel más alto desde julio de 2022",
+        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNN2NUeldGVV9hRWRwT1M0Q0JFWDVvQkZJUGtUQlhRLTBqTjBPbTE0VmRaOHJzMjhnSTR4RHNhRWpsdnlpQnRCcG5RQVlRdEVXU2VEWmNKdjRydkVBUkZPZEZkWUlZc25KWHY4Y3l6V3NBamNmVVY3TXpOU0ZDc0pNYjkzVkdJc2dRQ3hLQm9tbXhmWFhpcnp6RjVRN2xPRHJ2U01YNDNDU2VYNVVwRzgxRDdfamQ3U2NzaHMzNWtrLWVuMXoxcFVXaGxWWDYyaHBvclBIbGNUdw?oc=5",
+        "source": "Radio Agricultura",
+        "pubdate": "Fri, 20 Nov 2026 12:37:29 GMT",
+        "pubdate_iso": "2026-11-20T12:37:29+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Malas noticias para el peso chileno: dólar toca máximos desde 2022 al empinarse hasta los $1.021",
+        "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNR3FVcmp1WWNLbXJac1huSkNpRjc3TWpvRV85Z3lXVUlWTjBPTHNvbTBiaWNEYmZ1RHF6MEZWX210Q3ZRbDVna3NET0NTTE5jOF9Gc1RZOEhMR0pHTzJ2dThnSlAya2gyNUN6dVZSTUY1TG1FZHBueWNxRnZLbm9JN0k1M0VkdDNDcXdNWjNFQlR6WTZfUWtTN25NNngzYUEyeTlGa042a3RRQXZwa3h2cUtXbzBPRlhrUUxEZmxyU1FkTmpaVVBVY3RIMGNSSjZLVzM5ZkFpZC1zTzZvR1NxbTRlMjJCWUFPRThwVnRpQ0JGV1lyUm5wZHdUUVhtQlVQSzJyb0VjdlQ?oc=5",
+        "source": "BioBioChile",
+        "pubdate": "Fri, 20 Nov 2026 12:20:35 GMT",
+        "pubdate_iso": "2026-11-20T12:20:35+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Precio del dólar hoy en Chile: cotización de apertura del 20 de noviembre",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQcy13MlRRMzRPeEp6UkJUN0s1N0VycFoyUlJHTDRZcjVqMFBXejN1RkV1Mk56WTRnVDRWY1JOS1MxRlZpRUZmZUxVa0RhdDdqOGI0MmdNZWVEUkc2MHprMnQtODR0eGwxdE42VmNVWW1XRml0bS1xMGwtZGNDV1dIZWI2TmhlMTROdE5CeDhNX211T3FkS2FfXzM5MnRXU2pvWlhmbUxYSWlFOHBTRE81N3k1cmZQdjZ30gHTAUFVX3lxTE84aHlUMU9MeVVFWlRuTERYdHFaMHpWLUljclVpT0NjN1NRc2RBa2M4UlEzckxoUWpVSktXN1hhOFpaTjBXWkhKUWhHaUhCWVo5OTBFdkRjVFdaS1paNms0eDExcXhqOVdmR1ItOHZsdVhxZGpDUFY1UVphNzhRUmk5NTJSajlKdm1SRUEzQWd4ZE1RR2ttcS0xMk1wRTBrUDdjbW94UXZOS2ZULVhYS1BycnZYampkZVpoNUZ6Y3RQZ05rb1dBYzhabWtrWHk2NlRCU28?oc=5",
+        "source": "Infobae",
+        "pubdate": "Fri, 20 Nov 2026 11:16:00 GMT",
+        "pubdate_iso": "2026-11-20T11:16:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Crecimiento de la IA podría elevar demanda de cobre y litio",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPTy13MURzRWFuaGJlZHVVdlR2Tm5xSjJ5RVU2Q1B4d29iRzI1cGppTHdsSGk3Z1c0T0NPTmQ2WlJ3Y3FmT2Vsak5PYlR5QXlQdl9PWWJVaUpOa2JWZHBidXhibXlULVJJYjVzTnpYUU82N3FraGsxczMtMFZndVY4UXgweEdjNTU2S3lXdGYyWTNJYThJT3BhelRNZFNoeVN2Yzg3Qy15dw?oc=5",
+        "source": "La Patria Bolivia",
+        "pubdate": "Fri, 20 Nov 2026 00:25:22 GMT",
+        "pubdate_iso": "2026-11-20T00:25:22+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🟢",
+          "razonamiento": "Demanda de cobre: viento a favor"
+        }
+      },
+      {
+        "title": "Dólar hoy en Chile: cotización de cierre del 19 de noviembre",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbEstQmNZOXFLd1YxcUViaHptUUhIbVE3OEJhTEpUTUZMSjNuS3FwWFdWVk82SzhnMFI2clMtSXIzdVJSTHR3ZXB5T2paVjNBZ04tRmZ4ZGQtUmtxTzRQak5mS2hzV1pVNVROTTJQS2xVVlg3TlJ4Z3hpMHZabk5waWdlNE5Ud3FuQTFaZ0xQekZqSlRCWDNtM0w0MGtaWUpORUUzTlFERdIBwgFBVV95cUxQcnRac3g2dUplNHBaaGJGMFRMX1QwY0J4ZGxxUWhsZ25qdjBkTkFldDB1ZG5DUHhaR2ptN3NIenhFNUwyWURmbUNfcnpnblFndTd3bVVWUEV2aElXNTBmcWlhTnQ3Q18wWnJvbElITkhNX2FkQ1QxNVUtb1JlWlRsYVozaktmcUQ1a2NRdjVVX29sYVNjRkJhdS1pcXBRM0ZHUVNaWG55eTVXYUg5M2lOdVRSSnBibFRJVU1jNGJNMVdpQQ?oc=5",
+        "source": "Infobae",
+        "pubdate": "Thu, 19 Nov 2026 18:16:00 GMT",
+        "pubdate_iso": "2026-11-19T18:16:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "economia_chile": [
+      {
+        "title": "Quiroz no agota su línea de crédito con el Presidente: “El 2027 va a ser un buen año” para Chile",
+        "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPTmZRZGp3Mk9reUZyWnc1Vm04UDBNbDUzRFlweWYwRk5yTTRNem9ERC1XMlRMNDNGSUxWWnlld01feTdkM3ZUbWNNQzZnLU1NcllSa3pwWm9QTlhxeXFJa0tRQzRSTTBiWEVmbWVfVTZvRjRISG5KQ25zSy1Da0NsVDVsR1FtejZnYUtjU3lvUGNfNUtSQi1ZU3FrUXJ0WWFzTUYwSmdOZkh6WkEwQVZ4b1UyWHdmdFRpcHZrZ2d3VHFXQnBrRUFzSThLVFpyZEZHTjcwSmF5QWplVS1CZHRZ?oc=5",
+        "source": "El Mostrador",
+        "pubdate": "Fri, 20 Nov 2026 12:56:09 GMT",
+        "pubdate_iso": "2026-11-20T12:56:09+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Expresidente del Banco Central de Chile: “RD se mantiene líder en crecimiento económico regional con un 4.6 % al cierre del 2026”",
+        "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQQWhxX25IN1Y4MUh5YXhTOFRUY0FsdFR4RjhaVE5YbVE3TkZWSkpWcVRGWHVJaUdFZ0tiR3MwdjdobldmZHpLRWhKQ3BkNlJ4SnBidHlDcUloUkRGYTQ2WjFQOUdnLVlyRlRxMEJNVlJadHkyU2RBR0Fnc2JzcVcwaW15dV83ZlFwRWRBQmJ3UVFXTzRhWk9hRG5HYmF0TjVPRl80VU5Xb1dzVGh3V0ZkQ2g2QWxjTUVZLXgzYndGcEQyejlBc1pVNG00c3RhWkNLX3pCTV82dGJ1d3RqblNiODJXVXZYUWhqVU93Q21oRTY?oc=5",
+        "source": "Proceso.com.do",
+        "pubdate": "Fri, 20 Nov 2026 02:49:24 GMT",
+        "pubdate_iso": "2026-11-20T02:49:24+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 1,
+          "intensidad_label": "leve",
+          "emoji": "🟢",
+          "razonamiento": "Crecimiento: soporte macro"
+        }
+      },
+      {
+        "title": "“Chile no crece más porque no lee mejor”: estudio revela que la baja comprensión lectora podría afectar el crecimiento económico",
+        "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPcXA0RnQ4SzBOOGJ6akQwMlg1MHFCOVJaSHhORWNFZVNpVVp3ZHp4MVg1M2lCaFE1MWZLcjROUG5XRXk0akxZZnpKajY5N3g0Sk5obzEzOGIzcXB2cFpjRGVXUlpmSFlpcmd6VklTWlBEMXVkU0RZOV9uUE9vdTgxeHVUWTVqbmREeXgtSTNENTltUlIycVFQUk9kT0pxMV9ZWF9qNDc1N0xhSXRQVm82T2U0Q1dPWUppWEVpTzdXc0hGb2hsWG1uUWFqWjJkUUdKXzRJbXJ3RWxCTlF1eDhhNGxvSGtDQmM4ZzFWUFRZWms1WlU?oc=5",
+        "source": "Radio Paulina",
+        "pubdate": "Thu, 19 Nov 2026 18:11:36 GMT",
+        "pubdate_iso": "2026-11-19T18:11:36+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 1,
+          "intensidad_label": "leve",
+          "emoji": "🟢",
+          "razonamiento": "Crecimiento: soporte macro"
+        }
+      },
+      {
+        "title": "¿Cuánto pesó la menor producción de cobre en la caída del PIB chileno?",
+        "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNMXZ4OUJkVXV4QXNLTWxyaHpPTHVrVUMxcGdqMXNxOG1lR1dPdS16TGJpVWkzSS1UTEdCZGg2U0RlLVJuRGMyX2NxYkFnbngycVdwMEhnVEFlZ2pRSjZ1bGVnZ2M0YmR6LXBVWkNwSUFuZGZzdWZScnlKcXFER2gtZkMzWV9JN3NIWTBOd25kVWRsS1IyUUhJcFFYcXE1Rl9uTWtOUEdTWTNxXzRTenFNRkJIQnN6Q3Bibzllb1JaWnI3MkVLemUybjlpRzU4b183WnhuVVNUTXR4Q3RJSDhYdS1feVRTQjFKMUHSAYwBQVVfeXFMT0tZQUpVcUhvZ1p4eG94WlllWVJQdW54ZWtkeEctek1JUndWYWxNazV4aUJ6SzlCYmZiX0JWWVkxS0ZfOV9jQ1NTVDZwRW1ZbTZZWFlSWXdXdDFpYnZPSFhPSU1Sb19fbHVIc1lGaFp1R0xlWG4tM3AySnA5dVFVdUVVWHV3M2ZWMFlmNU0?oc=5",
+        "source": "Cooperativa",
+        "pubdate": "Thu, 19 Nov 2026 14:57:00 GMT",
+        "pubdate_iso": "2026-11-19T14:57:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Felipe Jaque descarta crecimiento de 0,7% para Chile en 2026 y advierte riesgos para el empleo.",
+        "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNZUl0cVNJUk9hYnY1Y0U4Qlc4THVRc21qS3ZXcjV2eDZ4dnFTUlBDZEdsU05PZjNUcU93N3RIQThZSjkyaDVta3ZwZXFKMEVHUm83NXplclZBOEtPTjRsbVI2NFBXcmxhazQtdmNsdnU0QnZidHFfQXl0OVBiZjRtaFpwMkg0bG16TjFTekJXMHhVZzZkcTdMakxKZWwzT2Qzc0FpZU5YdmkxZk82VTdISVZScDNOR19kWnZGelNLUnljbFY1YVZXUUw5WG5WbkhSZERVQjBRd1ZKNnR5?oc=5",
+        "source": "Radio Pauta 100.5",
+        "pubdate": "Thu, 19 Nov 2026 13:46:57 GMT",
+        "pubdate_iso": "2026-11-19T13:46:57+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "politica_regulacion": [
+      {
+        "title": "Chile busca prohibir las redes sociales a menores de 14 años: ¿Qué plataformas afectará y cuándo sería ley?",
+        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNb0VpNm1WQl9vQWZqN2Q0S05rQU10VmZLdFAxSnFydDJKZVNXYm9tRnVITmRHZ2lqSEdDN3l0dU9jb29FMEFrZEt2ZDI1QWF3dUtKTDJSYzVWQlkzNWF5YnQxTUpaZEVSVUYxY01TS2FSVGpqTUR6WWFCTTM5UG5fMW42T2xtckNkMXh2UkV0ZlNYWE54ZW43ZXhYRTJOekhJTVBDanpzWFptYUdRcGh3cTNxY2k2YnZFSW5WVF9vYjhXMzJYMDB4VQ?oc=5",
+        "source": "El Observatodo",
+        "pubdate": "Fri, 20 Nov 2026 12:44:02 GMT",
+        "pubdate_iso": "2026-11-20T12:44:02+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Congreso aprueba postergación Ley de Protección de Datos hasta octubre de 2027",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOYVlrLURsanBSRm1Fcm5VM2R6OGFQRGg4U3h6UWtEcXBHbFJZdmMtZ2FYYUFUbEU2YXJQbTJGSDBDUEhpM1MzSG5HMklvYW9mZHVzS1ZoX1F6UXFaYU85TnNlbEdFRWRTMUJ3STJsUW5PMHFlaGZhSUp1ZVVZWmpLdDFjVG0yNDI0bTBwMGgwQVgycUE1ZEp3TVo1YjJCY1hCR29PVnlLSVBwQjNBQlZ2Z19tZDFaWFpPekl6di1n?oc=5",
+        "source": "Ministerio de Economía, Fomento y Turismo",
+        "pubdate": "Tue, 17 Nov 2026 19:07:08 GMT",
+        "pubdate_iso": "2026-11-17T19:07:08+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Congreso despacha proyecto que posterga la entrada en vigencia de la ley de protección de datos",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPazlfbjZvR3dzZFhwUjloc1lKeTlqdHdLYlVnNUVVMXRBOHJFNExmZTRZLTU5Qk9yZGFNeDkya3lydFd2ZzZ4THl3QlpCcUQwVjY1X2djUTBBNTBPMHA4UmI4MEF3SGpxQUk5S1VkcnNJXy1FUU9ScjBuekh1NktOdmFSajg4WjJBZWZxOE50elo0NlFsZHk0UXhOdDRFZkMyYkNIS0d0R0FqcVZROW44aExHbw?oc=5",
+        "source": "Diario Financiero",
+        "pubdate": "Tue, 17 Nov 2026 16:21:00 GMT",
+        "pubdate_iso": "2026-11-17T16:21:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
     "pensiones_afp": [],
     "energia_tarifas": [],
-    "sectores_watchlist": []
+    "sectores_watchlist": [
+      {
+        "title": "Usuarios de Zofri destacan acuerdo con EPI e ITI para agilizar retiro de contenedores tras movilización de transportistas",
+        "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQazc3NVQtaEVWWXQwd05SWTgwV3QwMnlTSE1WMjR6RndPc09BUnZuQXFIRWN4bUE0dDJkdUxxaHRDTXQtR1NjZFc0alRLN1NqVTRia2FGNW13S3hGRVMyRnM0c1ZSRHhWcjBIaUlUVTA2U1doNFhld2pBZWdkeXhUSnNVVnN3VktyS0RTV09LQVU4QV95RmZoMFc3dnQyZ05mT1Q1bmpOUW5JREtYdGV5eFBqak94VTVISHJJOWVYSEhCc2xsVTF6SVYtSm16S2lLQUN4RENsN0Z3a0YyWXJ3M2gta3pxbHk2aDlEMUdR?oc=5",
+        "source": "Radio Paulina",
+        "pubdate": "Thu, 19 Nov 2026 11:40:59 GMT",
+        "pubdate_iso": "2026-11-19T11:40:59+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "La Asociación de Usuarios Zofri valora compromiso de Empresa Portuaria Iquique para propiciar continuidad operativa de Zona Franca",
+        "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOTmNYU2c5Ym0wRUxWZlVBZHR0eVV5Y0hoTDFyOGotUVk3S1NXdEFRLUJCanpra2lSWnp6MTVZbzNqMkxxYjNiY1paMnRDNWZvU2gyc0pFYm1BLU5DSGdKWW9HV05DQWhKNXFuakF2aXFzMkxJeGdHcFBFV2tQSExtdXhlVkM4bGNmQXYzMUJJRDNXeVBXVGszMW5sTGpaSmpRLWItbVFaLXRleS1YZHhnd1NJYmN1RGVOOXJNRG4yNm81MlFCUmpJY3BaOVRJWFZ2c0RjWTFJcGdpcGNKNVlZbTZfa2c5SlNkbmUyMl9LVmJ4dmcy?oc=5",
+        "source": "Edición Cero",
+        "pubdate": "Wed, 18 Nov 2026 22:50:50 GMT",
+        "pubdate_iso": "2026-11-18T22:50:50+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Con inversión de US$35 millones: Cenco Malls levantará su primer outlet en Santiago en este emblemático lugar",
+        "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNZ1NybHRjbXV2dW1uWWtFUk9Nc09IQVhjTC1GWEdUblZqaWhsX0MtTm9QUy03TUNuYXZfY2JTRTRSaHBGS1hFd1BXM19UT3ZLZzdqNDZlVEJQUHA3VGZBTlIyQlBUZW1oX1NwWDB5LVRDblo5RGZDZDc3TWU2Sjh3cldDLVMwYXJRRDNTTXhCUUZfU1hFaWhEZTRPVFlTQXhkdHptOExDNnZNU0Ffd0hKZ2xta2N4ZWZWdnFRdXZ5bUxSYmlGbi1vZllkYTFKbmFPbVF0X3BuVGw3QTTSAe8BQVVfeXFMTTV0YVp5a0ZGTXhFRm1aeXZjVzU1RlJOQUtkbFVjZEhYdm9HTHkyNmxOMnZtdmVfSzZ6UFJLZWZ3VTdOUmM2RTFjX3ZVTE0yTzE3TXA2Nk9qa3pLMDdzd3VBYmMyM1FfcDhKbVlIVG9XcFg0WmY4aFFSelVZeVl5ckEwZ3VFLWw5Q3FzZkxrVkV4SjMyNEhTak1BVTFsLVVhZDZwZzFoUTI2X1VvTUFQVDgxWE9CZnEyWmVocS1fWGJ3dFRUZnJtQ2cxV3dJQlVreHFUV0xfakpYM2hQYUE4blFRZnFva1dBeGVSMnpkTmc?oc=5",
+        "source": "ADN Radio",
+        "pubdate": "Wed, 18 Nov 2026 20:06:05 GMT",
+        "pubdate_iso": "2026-11-18T20:06:05+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "EPI Y USUARIOS DE ZOFRI COORDINAN PLAN PARA NORMALIZAR FLUJO DE CARGA EN EL PUERTO DE IQUIQUE TRAS PARO DE TRANSPORTISTAS",
+        "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQOVZOcFZRajRTTVRLcFMxTmRDQWFHNVJHNXNLZmVYYmtBaW5sSUNMai0zcjBJUTIzY2EyRWJ1bVZjTjlOMUlFZklsNmlBVDZiY2gxWVF1MUNFa0pPdDlJeHd4Q0ZQV2Z5cmdsOEl2ay0tWk5MZks4bU1Sc3JwbjUxT1lQWVU0V3J1bjE2SklnbDUxMXBLcVlBWmlfNmprRVNvQzVXSFpMXzFRMHF6RUlGN0UycEFoalMyUGdJcWs3REFKRUtjSUhJZGZqV0pBajVRS0JRLWp2cVRibmtM?oc=5",
+        "source": "Vilas Radio",
+        "pubdate": "Wed, 18 Nov 2026 18:24:40 GMT",
+        "pubdate_iso": "2026-11-18T18:24:40+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Cenco Malls inicia construcción de su primer outlet en Maipú con una inversión de US$35 millones",
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPaFN0Y1VreTBJRDFpZmczWHAwNmZXZDRVeU0wX3h2eF9iRnY0REZYTmx5UlhPajRwSm9sY0hWVEhwYnRCbVhmZ3lSSHlNbWRVUHl3YVhzZmlqajhhTUtGb3ZOQnhtUXNKVVhTX0NrbHY2eXljNUdLdS1DeldJYm1JTS11dzIwZS1YVmlfMkNhQVNVdw?oc=5",
+        "source": "Chócale",
+        "pubdate": "Wed, 18 Nov 2026 16:45:31 GMT",
+        "pubdate_iso": "2026-11-18T16:45:31+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ]
   },
   "hechos_esenciales_por_ticker": {},
   "stats": {
-    "total_noticias": 0,
+    "total_noticias": 25,
     "por_categoria": {
-      "bcch_tpm": 0,
-      "ipsa": 0,
-      "dolar_cobre": 0,
-      "economia_chile": 0,
-      "politica_regulacion": 0,
+      "bcch_tpm": 5,
+      "ipsa": 2,
+      "dolar_cobre": 5,
+      "economia_chile": 5,
+      "politica_regulacion": 3,
       "pensiones_afp": 0,
       "energia_tarifas": 0,
-      "sectores_watchlist": 0
+      "sectores_watchlist": 5
     },
     "hechos_esenciales": 0
   },
   "resumen_ejecutivo": {
-    "sentimiento": "neutral",
-    "score_neto": 0,
-    "n_positivas": 0,
+    "sentimiento": "alcista",
+    "score_neto": 4,
+    "n_positivas": 3,
     "n_negativas": 0,
-    "n_neutrales": 0,
-    "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
+    "n_neutrales": 22,
+    "narrativa": "El feed muestra 3 senales positivas y 0 negativas (neto +4). Factores dominantes: Demanda de cobre: viento a favor; Crecimiento: soporte macro.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "NEUTRAL - sin sesgo dominante"
+    "veredicto": "ALCISTA a corto plazo"
   }
 }
