@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-22T02:39:32.012114+00:00",
+  "updated_at_utc": "2026-11-22T04:39:31.254997+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "precio": {
@@ -332,6 +332,20 @@
         }
       },
       {
+        "title": "Bitcoin, Ethereum, XRP, and Solana slide as $90 billion exits crypto market",
+        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOekFwV0pLUjFVMTM1bkFES3V0MW1CSGNPc21Mb3MzcFVCa29mcWVERlVhdVB5WWNLdjJFeE51THJnRGY0aEdPTTdJNTduT0EyeHRRTWFNWk1ZNXFCMlFmMWYyUy1vbHZCWDYyN0xGOUhBejY2TE5NcnFsbjFtZk9PaHFpUnhvcU5kdE1IYTQ4aGo0TWx6a0ItdnhiNmtIb3luNFcyYUhnck5BZjNwYVdueVNCQUVxbEV0UVdMSHFseURENlhSUEZ4M2hSazdaS0xu?oc=5",
+        "source": "TradingView",
+        "pubdate": "Fri, 20 Nov 2026 15:26:45 GMT",
+        "pubdate_iso": "2026-11-20T15:26:45+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
         "title": "Bitcoin cae por debajo de 60,000 dólares por primera vez desde julio",
         "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZlN3RGx1M25FYVNkQjJ2T3JtTWQ1SnFmX1JsemRFTjVBVHZEQjZ1bDkzTzR0UEZjTVVGNjE5OXAydURrWlZQd2lvTE5jNk5QcW04dlZDU2JUanRmYWJBRll1ZFNEV25hSzB4OGpjTksxb0hqa0JDYzV1QnFYYmo2eXMtNjAxNE5pN0V0NHRiWExOX2liQk5YSWlMWE0?oc=5",
         "source": "CryptoRank",
@@ -372,20 +386,6 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
-      },
-      {
-        "title": "FOMC minutes reveal Fed officials expect more rate hikes despite October pause",
-        "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQdklrdE8tbG5HS2R1aDlNSVFCcVFiM2F1VEl2ZUJnRms1Uzd3Z05nbXNRcXBqWkl0QVRsRUtjS3hEZ3JNaVRJQ3pTUTJrSXctZkFmcWtHRElnWjEyYW9INWNORVE5WlVXVnNObmVhYVo0ZjZfbWhnVzZMRGFyWVphS3dFUVVjTnBNUnVaNlB1LVRZeWptTEVlbFlFSzhyZHJmWkhfem04cjJyOW5MODB2c3hvUUNsTGh1VVkyZE1KOXdMR1Byc3k1T1E4aWdrNjl1V2dmUnY3YzdLQQ?oc=5",
-        "source": "TradingView",
-        "pubdate": "Thu, 19 Nov 2026 05:03:19 GMT",
-        "pubdate_iso": "2026-11-19T05:03:19+00:00",
-        "impacto": {
-          "direccion": "negativo",
-          "intensidad": 3,
-          "intensidad_label": "fuerte",
-          "emoji": "🔴🔴",
-          "razonamiento": "Fed hawkish: rate hike presiona BTC"
-        }
       }
     ],
     "sentimiento_onchain": []
@@ -402,13 +402,13 @@
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "bajista",
-    "score_neto": -4,
+    "sentimiento": "neutral",
+    "score_neto": -1,
     "n_positivas": 2,
-    "n_negativas": 3,
-    "n_neutrales": 20,
-    "narrativa": "El feed muestra 2 senales positivas y 3 negativas (neto -4). Factores dominantes: Salidas de ETF: muy negativo institucional; Fed hawkish: rate hike presiona BTC.",
+    "n_negativas": 2,
+    "n_neutrales": 21,
+    "narrativa": "El feed muestra 2 senales positivas y 2 negativas (neto -1). Factores dominantes: Salidas de ETF: muy negativo institucional; Fraude: presion regulatoria/confianza.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "BAJISTA a corto plazo"
+    "veredicto": "NEUTRAL - sin sesgo dominante"
   }
 }
