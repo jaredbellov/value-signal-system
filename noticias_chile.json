@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-22T01:27:58.981498+00:00",
+  "updated_at_utc": "2026-11-22T01:33:48.049063+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "bcch_tpm": {
@@ -87,20 +87,6 @@
         "source": "Diario Estrategia",
         "pubdate": "Fri, 20 Nov 2026 20:59:45 GMT",
         "pubdate_iso": "2026-11-20T20:59:45+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "MSCI IPSA: La Bolsa de Santiago este jueves cierra a la baja con variación de 0,28%",
-        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWlhjRUJwU2ttWU1HbnV2TkxzbldCV2xhblhoS0pWR2ZqZGM4UlVGQS1JZ195T0RTNTMyaXZxTTJrOGxGNU9qcmFwRVhQcW9WSDl5Y3J5YUtja3dXOGpWOC16ZVdTbDJfdzFBVGMyOGVYcVAtOVNRVU0xNVBpa214akdiNWRveUhkZG9iQU50YTVTSmFYTnBhQkgwNTBvTnVYZnFvN1Q3T0w0S25PblJ1aWRCLXVmcm9ON2c?oc=5",
-        "source": "Diario Estrategia",
-        "pubdate": "Thu, 19 Nov 2026 21:53:47 GMT",
-        "pubdate_iso": "2026-11-19T21:53:47+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -305,10 +291,10 @@
   },
   "hechos_esenciales_por_ticker": {},
   "stats": {
-    "total_noticias": 18,
+    "total_noticias": 17,
     "por_categoria": {
       "bcch_tpm": 3,
-      "ipsa": 2,
+      "ipsa": 1,
       "dolar_cobre": 5,
       "economia_chile": 5,
       "politica_regulacion": 2,
@@ -323,7 +309,7 @@
     "score_neto": -4,
     "n_positivas": 0,
     "n_negativas": 2,
-    "n_neutrales": 16,
+    "n_neutrales": 15,
     "narrativa": "El feed muestra 0 senales positivas y 2 negativas (neto -4). Factores dominantes: Dolar disparado: estres cambiario; Riesgo de recesion: muy negativo.",
     "narrativa_fuente": "plantilla",
     "veredicto": "BAJISTA a corto plazo"
