@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-22T22:03:26.427869+00:00",
+  "updated_at_utc": "2026-11-22T22:33:27.848075+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -64,7 +64,36 @@
         }
       }
     ],
-    "nvidia": [],
+    "nvidia": [
+      {
+        "title": "Nvidia stock falls for seventh day as Damodaran flags risks and $140 entry",
+        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNmJNMXA5RUZqZVlCWGNPNW9VcHpNaV9uRE96aW9jQlZIU0t1QWRVb3NiejBEYU1SbGFSYW1qeVNFT1RKVW9EVkpPTWJnMzdxZnRlbGVManB6X3dYQnc2dG96VTlxZW5MZ05zczBnb2NnWEUzSEgxczdXQThMSHZMWGRQM0t2N0Z4cDdnVS14UGN5NlZkdmJsZG1tSEtua2hmR2JHTlVjdVlvVlZ2LXI0VUhfeE9BN0FKME04UG1BTGpldzZVQVVoNQ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Fri, 20 Nov 2026 15:11:10 GMT",
+        "pubdate_iso": "2026-11-20T15:11:10+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Why Did NVDA, NIO, ONDS Stocks Tumble To 52-Week Lows Today?",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPX1JuYTdrMUt6bWRvaWpvbWVPOXpiNFppMWREM1RpZmVxcnNPeU1kOU82U0ZOYnN0a3czeFRuaExNSWVyVWJaWFl3Qmh5OUJhMk5landEUGlkR1c4Zko0UTdHY2FvNTZLcDRkcTBkcVFuRXBVTFVJNmpwa09uV2NfZzdoY2Rhc3ZYTlV4bWpjWjVxanRvcHd4SDdBVldCS2ZlUkRJeVh1YkZCcjhHSm8teXZZRDMtMFlZ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Fri, 20 Nov 2026 03:54:00 GMT",
+        "pubdate_iso": "2026-11-20T03:54:00+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Acciones caen fuerte"
+        }
+      }
+    ],
     "ia_semis": [
       {
         "title": "Dan Ives Calls AI Sell-Off One Of The Most ‘Disconnected’ In His Career, Says Wall Street Is Acting Like AI Is Dead — ‘This Is A Generational Opportunity’",
@@ -211,21 +240,21 @@
     ]
   },
   "stats": {
-    "total_noticias": 13,
+    "total_noticias": 15,
     "por_categoria": {
       "tesla": 3,
-      "nvidia": 0,
+      "nvidia": 2,
       "ia_semis": 5,
       "macro_tech": 5
     }
   },
   "resumen_ejecutivo": {
     "sentimiento": "bajista",
-    "score_neto": -18,
+    "score_neto": -20,
     "n_positivas": 0,
-    "n_negativas": 8,
-    "n_neutrales": 5,
-    "narrativa": "El feed muestra 0 senales positivas y 8 negativas (neto -18). Factores dominantes: Selloff: presion vendedora; Selloff: presion vendedora.",
+    "n_negativas": 9,
+    "n_neutrales": 6,
+    "narrativa": "El feed muestra 0 senales positivas y 9 negativas (neto -20). Factores dominantes: Selloff: presion vendedora; Selloff: presion vendedora.",
     "narrativa_fuente": "plantilla",
     "veredicto": "BAJISTA a corto plazo"
   }
