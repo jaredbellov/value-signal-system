@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-22T02:33:26.897431+00:00",
+  "updated_at_utc": "2026-11-22T03:03:25.950053+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -196,20 +196,6 @@
         }
       },
       {
-        "title": "Stocks Meltdown as AI Trade Unravels",
-        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUVdxd3JYblR0M0kxb2xCNGwxR1p6X3cwXzFBbTlUMWNtYVFuZ3BvTmxFdEZsa1V2dFBYeHF0RmZkSjdfeVdTTHlmU3FVSUR0RTVjNTF4YWR5RnJvQ2Zxbl9zMTcxOEdmMVVOd0dNcHR3LVl1WW9QYVRYaWc4US0wcDczOTBMSFA1alRnc2ZxQW1oY2RVSThFd3NR?oc=5",
-        "source": "TradingView",
-        "pubdate": "Fri, 20 Nov 2026 21:46:11 GMT",
-        "pubdate_iso": "2026-11-20T21:46:11+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
         "title": "Wall Street cae: S&P 500 baja 3.70% y Nasdaq pierde 5.28% el 20 de noviembre",
         "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUFdQLUpvTktCN2VuMWp4ZjZ0MTlxRTc3ZDdiQ3VmckVNaTNTQUpiZ0pxWjNQMWdvenBVcHRFUXo1UnFSSHl6RkRsU2xQT1BhbW1fM3YxVWRCVEtXWTNYSUxFaEdCcndZRG9KUVE4ZUtyWU8xajVXczFWSVR0QXNRSGxvZzNYeVI4TGxXdk41Zk1kdWZMeWR5dQ?oc=5",
         "source": "Columna Digital",
@@ -236,6 +222,20 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
+      },
+      {
+        "title": "Anthropic, la firma de Claude, debuta y Wall Street cae 2%",
+        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZVl2eWlXdDBUeEY4RTBsaWxOSWhOSV9vN2pPUHRIdUVFcE1kZXA2WVMtYm5EanFRT1lDdTk0QlhFRWo1UTRvMzJoM2ZLb01PcTZ3bjdhMkhNQUNQaUo5cjVUZmR5MXdYdmgyLUdSUGRiR2NwU1NVVFpPZWU5MEFadzRlenNWNElSVmo3OFBhRQ?oc=5",
+        "source": "El Ecosistema Startup",
+        "pubdate": "Fri, 20 Nov 2026 02:21:43 GMT",
+        "pubdate_iso": "2026-11-20T02:21:43+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Wall Street a la baja"
+        }
       }
     ]
   },
@@ -250,11 +250,11 @@
   },
   "resumen_ejecutivo": {
     "sentimiento": "bajista",
-    "score_neto": -9,
+    "score_neto": -11,
     "n_positivas": 0,
-    "n_negativas": 4,
-    "n_neutrales": 11,
-    "narrativa": "El feed muestra 0 senales positivas y 4 negativas (neto -9). Factores dominantes: Selloff: presion vendedora; Restricciones de exportacion: riesgo China.",
+    "n_negativas": 5,
+    "n_neutrales": 10,
+    "narrativa": "El feed muestra 0 senales positivas y 5 negativas (neto -11). Factores dominantes: Selloff: presion vendedora; Restricciones de exportacion: riesgo China.",
     "narrativa_fuente": "plantilla",
     "veredicto": "BAJISTA a corto plazo"
   }
