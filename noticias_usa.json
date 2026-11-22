@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-22T04:33:26.516408+00:00",
+  "updated_at_utc": "2026-11-22T05:03:45.067813+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -91,6 +91,20 @@
           "intensidad_label": "neutral",
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Nvidia se desploma en Wall Street: sus acciones cayeron 14% tras informe sobre investigación de la SEC",
+        "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNRmNvZFExSzJNRzdTVlpIZGJnTGt2WTRId2VGaTlVbEdnYkdnQjhKbkJ5bXdQYmFHOHFxZVhiY245TVB3NWVQZ2tZTU9uYmFKN1NHMEZ3d0x5N21OaEMzYk5jZEd4WWFxYm5JWXhDNk01TVVUanI0ZU5PdnBzQ2ppZklRX2VwZ1dmWERXTDFKMDZhSjRpTVc2cHBpYXpEenJFTUR2bVhDRVozWXlNWlVzRTlaMDZSSVNSOHFVTUQtSVhjd21qUkgzMGU0QWNMaTFVSmdvcDRVSUVVSHFI0gHwAUFVX3lxTFBqS05UMGNpLW1IVFk3YkNMb3FTSmUwbmtkcUZNcG5hVnRWbWJrUTFlX3I2SGxXd1MxNERTZ2VRMEpmR1JpZ0hIdF92OXQxRzByMjVPRk5ZRXBHdGVTYlExM21wazF6YnJBQWdVeHB3bEZnT1dJVXA3VUhOXy1WM1lIMnY5ZkNsTHM5LU5xWlczWXE4cC13eUwzRjg0SzMwaTRUQXQ5OW5uOTdleXhGWFItWEdPZ3hyMkYzWmhsbHNYWnlERWxZNnNabWpvZ3BlbU5rRVlYUGlHZHlsY3NFVkJSX1pSZDNsUzVvay01U2NfeA?oc=5",
+        "source": "Bloomberg Línea",
+        "pubdate": "Fri, 20 Nov 2026 21:23:47 GMT",
+        "pubdate_iso": "2026-11-20T21:23:47+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Desplome: muy negativo"
         }
       }
     ],
@@ -240,21 +254,21 @@
     ]
   },
   "stats": {
-    "total_noticias": 15,
+    "total_noticias": 16,
     "por_categoria": {
       "tesla": 4,
-      "nvidia": 1,
+      "nvidia": 2,
       "ia_semis": 5,
       "macro_tech": 5
     }
   },
   "resumen_ejecutivo": {
     "sentimiento": "bajista",
-    "score_neto": -16,
+    "score_neto": -18,
     "n_positivas": 0,
-    "n_negativas": 7,
+    "n_negativas": 8,
     "n_neutrales": 8,
-    "narrativa": "El feed muestra 0 senales positivas y 7 negativas (neto -16). Factores dominantes: Selloff: presion vendedora; Selloff: presion vendedora.",
+    "narrativa": "El feed muestra 0 senales positivas y 8 negativas (neto -18). Factores dominantes: Selloff: presion vendedora; Selloff: presion vendedora.",
     "narrativa_fuente": "plantilla",
     "veredicto": "BAJISTA a corto plazo"
   }
