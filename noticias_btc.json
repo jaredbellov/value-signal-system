@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-22T01:27:24.911574+00:00",
+  "updated_at_utc": "2026-11-22T02:39:32.012114+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "precio": {
@@ -29,6 +29,20 @@
   },
   "noticias_por_categoria": {
     "precio": [
+      {
+        "title": "Precio de AVC (AVC) hoy",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9VWVEzRUtWNTBnZDhPVkdRaHY1UW1wMVctYzIwMDJ5V2xZZGxxQkFZUE1zNS1saFhtc1BPNXpuREo4OHlhRmJtWjB1SFlOZw?oc=5",
+        "source": "WEEX",
+        "pubdate": "Sun, 22 Nov 2026 01:28:24 GMT",
+        "pubdate_iso": "2026-11-22T01:28:24+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
       {
         "title": "¿Es Render una buena compra al precio actual?",
         "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBNSkFfNFdmb3RhanhOWHZLMnhkcjBRRjdSbjFMWV83YWZsWk5vWDNiSk5NSnc3M1k5cHdIeFlkZ09UQWpzTGsxcEtGVFpiS2hRSk9DMXptN08xNzM4YkdWd2RlSW1WX3hUNmtUTDRGYUxMQ1FUcG1mUV9PUQ?oc=5",
@@ -77,20 +91,6 @@
         "source": "CryptoTicker.io",
         "pubdate": "Sat, 21 Nov 2026 12:02:56 GMT",
         "pubdate_iso": "2026-11-21T12:02:56+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      },
-      {
-        "title": "¿Cómo se han comportado las criptomonedas hoy? Análisis de su volatilidad y tendencias",
-        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQOXVNN2duQ2F1MEFTWFAwU3V5aEV6QWZnQzBid0RPNzVSVWNqSlhRTVFJck02bUUwSk4ydzdEbjZtV09JaEFOM09XNzZUMXVmOHNEMXV0czBseVY0eG9ZV01Sd2dsUVdxVTRVVVJYeGYtalZFZzRtTmtpTjdDRUJmeUJiNXNUalEyWWZFRlZnd0xqbzJieHFwWThWQlNNMWdrdHFkVDVHY080NElOazRhcGN4R1Qta05fRmRUdWk4bnNYVjJj0gHfAUFVX3lxTE9BZnJHbXQwVGxBUkdGNmFicFU1NVVQTS1PbkMwbmpTX3o3WnhZNkp0TXNVOXR6N1ZXWjUyXzN6RGNmeGJNLWsxMFVvY2E1NlhvSUpxeWtiVDZNdUZoQnQ3UlYzSzh4MmhHNndPMUpRdlBnX2ZSQjduelNpOUdfTDBNOXZHSFVDblI3LVBaUG1QZ3k4R2hQTDFuZ0ttZ0xNejJ6bUhIc2FvVkJMRjUwVE9UcmE1YlpFbzY0eDNONC1RTGV4d0lERHJGX2NoeURWZmJ2elhVRm52c1ppeXlzRVE?oc=5",
-        "source": "Infobae",
-        "pubdate": "Sat, 21 Nov 2026 11:31:00 GMT",
-        "pubdate_iso": "2026-11-21T11:31:00+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -388,41 +388,26 @@
         }
       }
     ],
-    "sentimiento_onchain": [
-      {
-        "title": "Crypto Hits Extreme Fear as December Rate Hike Looms",
-        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQMFcwU0tlVEhaYWRHTC0taVJmbmhKZFZydDdGRTlqem8tMllfc0JJVm5VYi1TSFROMnI1NG13T0NhaHp3Z1BMR1ZYNW5vRWJRMzhiNW1LNlkwNkxVN3VmSXJUdFZuV3dtX19rb3hBYURZNXBwSkZ6MjNleHZ1clJIUjRZaU1MUVNHdVNpMkJJdlMxdlBteGQ1NXhzWVR4YTU4YzVCZmhCVzZxekJYTE1XRg?oc=5",
-        "source": "TradingView",
-        "pubdate": "Wed, 18 Nov 2026 22:15:57 GMT",
-        "pubdate_iso": "2026-11-18T22:15:57+00:00",
-        "impacto": {
-          "direccion": "negativo",
-          "intensidad": 1,
-          "intensidad_label": "leve",
-          "emoji": "🔴",
-          "razonamiento": "Fed hawkish: rate hike presiona BTC"
-        }
-      }
-    ]
+    "sentimiento_onchain": []
   },
   "stats": {
-    "total_noticias": 26,
+    "total_noticias": 25,
     "por_categoria": {
       "precio": 5,
       "etf_flows": 5,
       "regulacion": 5,
       "adopcion": 5,
       "fed_macro": 5,
-      "sentimiento_onchain": 1
+      "sentimiento_onchain": 0
     }
   },
   "resumen_ejecutivo": {
     "sentimiento": "bajista",
-    "score_neto": -5,
+    "score_neto": -4,
     "n_positivas": 2,
-    "n_negativas": 4,
+    "n_negativas": 3,
     "n_neutrales": 20,
-    "narrativa": "El feed muestra 2 senales positivas y 4 negativas (neto -5). Factores dominantes: Salidas de ETF: muy negativo institucional; Fed hawkish: rate hike presiona BTC.",
+    "narrativa": "El feed muestra 2 senales positivas y 3 negativas (neto -4). Factores dominantes: Salidas de ETF: muy negativo institucional; Fed hawkish: rate hike presiona BTC.",
     "narrativa_fuente": "plantilla",
     "veredicto": "BAJISTA a corto plazo"
   }
