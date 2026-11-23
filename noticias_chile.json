@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-23T01:33:49.317153+00:00",
+  "updated_at_utc": "2026-11-23T03:33:48.351723+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "bcch_tpm": {
@@ -36,22 +36,7 @@
     }
   },
   "noticias_por_categoria": {
-    "bcch_tpm": [
-      {
-        "title": "¿Banxico ajustará sus decisiones por diferencial de tasas con la Fed? Esto dijeron las minutas",
-        "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNOF9JU3BueGQxR1RncU1ORVNZRXZuSUxMbnFTNWZUZDhPcVZHN3lDNW5xb2JxVmEwS29Eb1pZNmpsdEwwemF2ekszX1hNc3czRTNpdDQ2X2R3bTlDaFI2SkFrdWI1SFYtbGR3aG9LUkhMQ01Rd2paOUdFeVE0WTNIQTdiOWJYTUlTaWF3R0JWVE1YWXVRb1hEWEVURHozOXZoeS1RTEFMdzhtVVdiZ0Q2UE8wdlhGcmtUQndsN253dDlhLWFWZE43VEtoMTcwVHlYa1FXclZ0SnE2UXZSN2c?oc=5",
-        "source": "El Financiero",
-        "pubdate": "Fri, 20 Nov 2026 01:45:00 GMT",
-        "pubdate_iso": "2026-11-20T01:45:00+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
-      }
-    ],
+    "bcch_tpm": [],
     "ipsa": [
       {
         "title": "La Bolsa de Metales de Londres nació mirando a Chile, pero el cobre hoy se cotiza segundo a segundo",
@@ -83,6 +68,20 @@
       }
     ],
     "dolar_cobre": [
+      {
+        "title": "Estiman que no llegará a cubrirse la demanda de cobre y litio para 2035",
+        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNT2wyYUkxOGpQY1F4UWJ3dWdlcEYzWXBHZnFxUXJIR1BJVlFENTBnQW92LS03Y3lvU0Y1dGh4ZjNlX0NBRDRDMU9RT1FhMzJMRy1kZWlCc0ZLX2FaRGhkNFZKOWlYLXB5ZEliZ2xRTW14b2J3SDRRNllLOGQzM09wcHZHcHpORXhWNnJEWTF1eW1IV05EdGdOTnR5R1lFXzI4aDN3UEZidVZTX0RtUnUtclI4ZWtTeF9VdFHSAb8BQVVfeXFMTjNtV2lXNTIyQkdpVlRWX3NpTGJlN0Z3czBaSlpkOTdiZUppWHdLa3lZMUtFMGZ5S2U1MUhvN3JUNThxWnczSTNPN3BvMjdYdDJYa25kVVY3dzZjaG90RFRyUzFZSktoTHZ4RThFZ2ZrMG9aMEZTYV9MOTltU1V3dWVDeVFJM1RfTDRFdDFVdmZfUV9jdnp5NlI5amhuQ1l1ZlI5UlU2VEs2Ul9DWUJZaUNXRjZkaU5LeExKaFp0UFE?oc=5",
+        "source": "El Ancasti",
+        "pubdate": "Mon, 23 Nov 2026 01:17:00 GMT",
+        "pubdate_iso": "2026-11-23T01:17:00+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🟢",
+          "razonamiento": "Demanda de cobre: viento a favor"
+        }
+      },
       {
         "title": "La Bolsa de Metales de Londres nació mirando a Chile, pero el cobre hoy se cotiza segundo a segundo",
         "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSGpxcDVPNjZaS1RHRUgydmNCT2dDU0xhaS14SExveUhRUjNJcUxUZ1lEc2RETWFTbFgtOUV1d3BOaFNWV1p6VVlYcmo0OC1ISldnX0JDM0FvWjI3V1RVa0NLNm14eVVzS2FBRzl1QVhfb1RXNVpVX2ZwMmdrWnpYNE02VVZ2QWtxZ1h0QXlNczlIODU1U0JXOVV0OXA1dUM0WWRxMFU2Z1JDU1k5Q19fVU1uQjhKUjN5dFpvbXlR?oc=5",
@@ -138,20 +137,6 @@
           "emoji": "🔴",
           "razonamiento": "Dolar disparado: estres cambiario"
         }
-      },
-      {
-        "title": "Dólar supera los $1.023 y el peso chileno cierra una de sus semanas más difíciles ante desplome del cobre",
-        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTHBBRDYxaW0wRVRub1ZhZmlXNVRCZGV6bjlSdzJrTWxLUTZlSEV3UUVEUk4xMUE1WWFRYmk4dktrZDIzZE55cFRISENlOUlibF8wSW93Y2VyU3ppNHI0WWdma2FqTDJ4UnA2QmN1N0dJZ083MUFlaXA0cmNFNmc3NDdZQ25hYkU2eEpaenFLZTZ0R1VBNTJXNFpOQ3VNN1duQkktckVNN3NiQXgta29NNzJLU1BBMTRPdFBlT2M2TlBybHZ1Q3c?oc=5",
-        "source": "Revista Digital Minera REDIMIN",
-        "pubdate": "Fri, 20 Nov 2026 19:20:36 GMT",
-        "pubdate_iso": "2026-11-20T19:20:36+00:00",
-        "impacto": {
-          "direccion": "neutral",
-          "intensidad": 0,
-          "intensidad_label": "neutral",
-          "emoji": "⚪",
-          "razonamiento": "Sin senal direccional clara en el titular"
-        }
       }
     ],
     "economia_chile": [
@@ -195,20 +180,6 @@
           "intensidad_label": "moderado",
           "emoji": "🔴",
           "razonamiento": "Riesgo de recesion: muy negativo"
-        }
-      },
-      {
-        "title": "Expresidente del Banco Central de Chile afirma “RD se mantiene líder en crecimiento económico regional con un 4.6 % al cierre del 2026”",
-        "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQQWhxX25IN1Y4MUh5YXhTOFRUY0FsdFR4RjhaVE5YbVE3TkZWSkpWcVRGWHVJaUdFZ0tiR3MwdjdobldmZHpLRWhKQ3BkNlJ4SnBidHlDcUloUkRGYTQ2WjFQOUdnLVlyRlRxMEJNVlJadHkyU2RBR0Fnc2JzcVcwaW15dV83ZlFwRWRBQmJ3UVFXTzRhWk9hRG5HYmF0TjVPRl80VU5Xb1dzVGh3V0ZkQ2g2QWxjTUVZLXgzYndGcEQyejlBc1pVNG00c3RhWkNLX3pCTV82dGJ1d3RqblNiODJXVXZYUWhqVU93Q21oRTY?oc=5",
-        "source": "Proceso.com.do",
-        "pubdate": "Fri, 20 Nov 2026 02:49:24 GMT",
-        "pubdate_iso": "2026-11-20T02:49:24+00:00",
-        "impacto": {
-          "direccion": "positivo",
-          "intensidad": 1,
-          "intensidad_label": "leve",
-          "emoji": "🟢",
-          "razonamiento": "Crecimiento: soporte macro"
         }
       }
     ],
@@ -263,12 +234,12 @@
   },
   "hechos_esenciales_por_ticker": {},
   "stats": {
-    "total_noticias": 15,
+    "total_noticias": 13,
     "por_categoria": {
-      "bcch_tpm": 1,
+      "bcch_tpm": 0,
       "ipsa": 2,
       "dolar_cobre": 5,
-      "economia_chile": 4,
+      "economia_chile": 3,
       "politica_regulacion": 2,
       "pensiones_afp": 0,
       "energia_tarifas": 0,
@@ -278,11 +249,11 @@
   },
   "resumen_ejecutivo": {
     "sentimiento": "levemente bajista",
-    "score_neto": -3,
+    "score_neto": -2,
     "n_positivas": 1,
     "n_negativas": 2,
-    "n_neutrales": 12,
-    "narrativa": "El feed muestra 1 senales positivas y 2 negativas (neto -3). Factores dominantes: Dolar disparado: estres cambiario; Riesgo de recesion: muy negativo.",
+    "n_neutrales": 10,
+    "narrativa": "El feed muestra 1 senales positivas y 2 negativas (neto -2). Factores dominantes: Demanda de cobre: viento a favor; Dolar disparado: estres cambiario.",
     "narrativa_fuente": "plantilla",
     "veredicto": "Levemente BAJISTA"
   }
