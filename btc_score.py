@@ -20,6 +20,10 @@ from pathlib import Path
 
 import yfinance as yf
 
+# Conserva el ultimo valor bueno de cada senal cuando una fuente falla
+# de forma intermitente, en vez de recalcular el score sin ella.
+from persistencia_senales import fusionar as _fusionar_senales
+
 SCRIPT_DIR = Path(__file__).parent
 LOG_DIR = SCRIPT_DIR / "logs"
 LOG_DIR.mkdir(exist_ok=True)
@@ -421,6 +425,14 @@ def calcular_score_btc():
     sub_detalles["mvrv"] = d
     log.info(f"  MVRV Z-Score: score={s}, detalle={d}")
 
+    # 2.5 Antes de puntuar: rellenar con el ultimo dato bueno lo que fallo
+    # en ESTA corrida. Una fuente que se cayo hace un minuto no borra lo que
+    # ya sabiamos hace media hora.
+    sub_scores, sub_detalles, sub_fechas, senales_reusadas = _fusionar_senales(
+        str(OUTPUT_FILE), sub_scores, sub_detalles, PESOS, log=log)
+    if senales_reusadas:
+        log.info("  senales reutilizadas: %s" % ", ".join(senales_reusadas))
+
     # 3. Score ponderado total
     log.info("\n--- Score final ---")
     score_total = 0
@@ -466,6 +478,8 @@ def calcular_score_btc():
         "zona": zona,
         "multiplicador": multiplicador,
         "peso_aplicado_pct": peso_aplicado,
+        "sub_fechas": sub_fechas,
+        "senales_reusadas": senales_reusadas,
         "sub_scores": {k: (round(v, 1) if v is not None else None) for k, v in sub_scores.items()},
         "sub_detalles": sub_detalles,
         "pesos": PESOS,
