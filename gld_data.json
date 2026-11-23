@@ -1,16 +1,22 @@
 {
-  "updated_at_utc": "2026-11-23T06:27:16.743869+00:00",
+  "updated_at_utc": "2026-11-23T06:57:16.685845+00:00",
   "precio_gld": null,
-  "score_final": 66.5,
+  "score_final": 66.4,
   "zona": "ATRACTIVO",
   "multiplicador": 1.5,
   "peso_aplicado_pct": 40,
+  "sub_fechas": {
+    "dxy": "2026-11-23T06:57:16.684687+00:00",
+    "real_yield": "2026-11-23T06:57:16.684687+00:00",
+    "vix": "2026-11-23T06:57:16.684687+00:00"
+  },
+  "senales_reusadas": [],
   "sub_scores": {
     "drawdown": null,
     "momentum": null,
     "ratio_sp500": null,
     "ratio_silver": null,
-    "dxy": 82.7,
+    "dxy": 82.5,
     "real_yield": 28.0,
     "vix": 100
   },
@@ -20,8 +26,8 @@
     "ratio_sp500": null,
     "ratio_silver": null,
     "dxy": {
-      "dxy_actual": 103.64,
-      "percentil_2y": 82.7
+      "dxy_actual": 103.6,
+      "percentil_2y": 82.5
     },
     "real_yield": {
       "real_yield_pct": 2.88

@@ -615,6 +615,12 @@ footer .fbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;font-size:1
 footer .fbrand{font-weight:600;color:var(--tx-2);letter-spacing:.1em}
 footer .fbrand b{color:var(--teal)}
 footer .disc{max-width:560px;line-height:1.5}
+.donate-btn{display:inline-flex;align-items:center;gap:7px;font-size:12px;font-weight:600;
+  padding:7px 14px;border-radius:20px;cursor:pointer;text-decoration:none;
+  background:rgba(38,166,154,.10);border:1px solid var(--z-opp-bd);color:var(--teal-2);
+  transition:background .15s,border-color .15s,transform .12s;white-space:nowrap}
+.donate-btn:hover{background:rgba(38,166,154,.18);border-color:var(--teal);transform:translateY(-1px)}
+.donate-btn .heart{font-size:13px}
 footer a.src{color:var(--tx-3);border-bottom:1px dotted var(--line-2)}
 footer a.src:hover{color:var(--teal-2)}
 
@@ -646,149 +652,6 @@ footer a.src:hover{color:var(--teal-2)}
 .he-doc:hover{background:rgba(212,160,23,.12)}
 .he-alert{display:inline-block;font-size:9.5px;font-weight:700;letter-spacing:.03em;text-transform:uppercase;padding:2px 8px;margin-left:9px;border-radius:6px;background:rgba(212,160,23,.18);color:#e8c054;border:1px solid rgba(212,160,23,.5);white-space:nowrap;vertical-align:middle;animation:hePulse 2.4s ease-in-out infinite}
 @keyframes hePulse{0%,100%{box-shadow:0 0 0 0 rgba(212,160,23,.35)}50%{box-shadow:0 0 0 4px rgba(212,160,23,0)}}
-.pc-btn{background:#1c2634;border:1px solid #33415a;color:#9fb0c8;border-radius:6px;padding:2px 8px;font-size:11px;cursor:pointer}.pc-btn.pc-on{background:#0e7490;border-color:#0e7490;color:#fff}
-/* ===================================================================
-   CAPA DE MODERNIZACION  ·  2026-11
-   Solo presentacion: no toca una sola clase que use el JS, asi que
-   borrar este bloque devuelve la pagina al diseno anterior.
-   Pasa de estetica "terminal" a producto: mas aire, jerarquia
-   tipografica real, superficies con relieve y movimiento sutil.
-   =================================================================== */
-:root{
-  --r:16px;
-  --r-sm:10px;
-  --r-pill:999px;
-  --shadow:0 1px 0 rgba(255,255,255,.035) inset, 0 10px 30px -14px rgba(0,0,0,.75);
-  --shadow-hi:0 1px 0 rgba(255,255,255,.055) inset, 0 18px 44px -18px rgba(0,0,0,.85);
-  --surf:linear-gradient(177deg, rgba(255,255,255,.035) 0%, rgba(255,255,255,0) 38%);
-  --ease:cubic-bezier(.22,.61,.36,1);
-}
-
-body{font-size:15px;line-height:1.55;letter-spacing:-.003em}
-
-/* --- jerarquia tipografica: lo importante se ve importante --- */
-.view-head{margin-bottom:28px;align-items:flex-start}
-.view-head h1{font-size:30px;font-weight:650;letter-spacing:-.025em;gap:12px}
-.view-head h1 .em{font-size:26px}
-.view-head .sub{font-size:14px;margin-top:6px;color:var(--tx-3);max-width:62ch}
-.section-title{margin:38px 0 16px;font-size:11.5px;letter-spacing:.11em;color:var(--tx-3)}
-.section-title .count{padding:2px 10px;font-size:11px;background:rgba(255,255,255,.045);
-  border-color:transparent;color:var(--tx-2)}
-.panel h3{font-size:11.5px;letter-spacing:.11em;color:var(--tx-3);margin-bottom:16px}
-
-/* --- superficies con relieve, no planas --- */
-.panel,.card{
-  border-radius:var(--r);
-  background-image:var(--surf);
-  box-shadow:var(--shadow);
-  transition:transform .22s var(--ease), box-shadow .22s var(--ease), border-color .22s var(--ease);
-}
-.panel{padding:22px}
-.card:hover{transform:translateY(-2px);box-shadow:var(--shadow-hi);border-color:var(--line-2)}
-.grid{gap:18px}
-.hero{border-radius:var(--r);margin-bottom:28px;box-shadow:var(--shadow)}
-
-/* --- pestanas tipo pildora: el cambio mas visible --- */
-nav.tabs{gap:4px;align-items:center}
-nav.tabs a{
-  height:auto;align-self:center;padding:9px 15px;border-bottom:0;
-  border-radius:var(--r-pill);font-size:13.5px;font-weight:500;
-  transition:background .18s var(--ease), color .18s var(--ease), box-shadow .18s var(--ease);
-}
-nav.tabs a:hover{background:rgba(255,255,255,.055);color:var(--tx)}
-nav.tabs a.active{
-  background:rgba(38,166,154,.15);color:var(--teal-2);
-  box-shadow:inset 0 0 0 1px rgba(38,166,154,.38);
-}
-@media(max-width:1240px){
-  nav.tabs a{height:auto;padding:9px 14px}
-  nav.tabs{height:52px}
-}
-
-/* --- botones: uno primario de verdad --- */
-.rf-btn{
-  padding:8px 13px;border-radius:var(--r-pill);font-size:12.5px;font-weight:500;
-  background:rgba(255,255,255,.045);border-color:rgba(255,255,255,.10);
-  transition:background .18s var(--ease), color .18s var(--ease), border-color .18s var(--ease);
-}
-.rf-btn:hover{background:rgba(255,255,255,.09);border-color:rgba(255,255,255,.18);color:var(--tx)}
-#rfBtn{background:var(--teal);border-color:var(--teal);color:#06231e;font-weight:650}
-#rfBtn:hover{background:var(--teal-2);border-color:var(--teal-2);color:#06231e}
-#rfBtn .spin{border-color:rgba(6,35,30,.35);border-top-color:#06231e}
-
-/* --- header con mas aire --- */
-header.top{border-bottom-color:rgba(255,255,255,.07)}
-.top-row{height:68px;gap:26px}
-.brand .b1,.brand .b2{font-size:18px;letter-spacing:.16em}
-.data-stamp{font-size:11.5px;padding-bottom:10px}
-
-/* --- filas clave-valor mas legibles --- */
-.kv{padding:10px 0;font-size:13.5px;border-bottom-color:rgba(255,255,255,.055)}
-.kv .v{font-weight:550}
-.sub-lbl{font-size:11px;letter-spacing:.11em;color:var(--tx-3)}
-
-/* --- numeros grandes con tratamiento de display --- */
-.num,.mono{letter-spacing:-.015em}
-
-/* --- detalles --- */
-.hint{font-size:11.5px;line-height:1.55}
-a,button{-webkit-tap-highlight-color:transparent}
-::-webkit-scrollbar-thumb{background:rgba(255,255,255,.10);border-radius:999px}
-::-webkit-scrollbar-thumb:hover{background:rgba(255,255,255,.18)}
-:focus-visible{outline:2px solid var(--teal-2);outline-offset:2px;border-radius:6px}
-@media(prefers-reduced-motion:reduce){
-  *,*::before,*::after{transition-duration:.01ms!important;animation-duration:.01ms!important}
-}
-
-/* --- movil: mas aire y objetivos tactiles mas grandes --- */
-@media(max-width:700px){
-  body{font-size:15px}
-  .wrap{padding:0 16px}
-  .view-head h1{font-size:25px}
-  .panel{padding:18px}
-  .grid{gap:14px}
-  .section-title{margin:30px 0 12px}
-  .rf-btn{padding:9px 14px}
-}
-
-/* --- refinamiento tras ver XTB en pantalla ------------------------- */
-:root{ --r:20px; --r-lg:26px; }
-
-/* 1. titulares grandes con interlineado cerrado: el rasgo dominante */
-.view-head h1{font-size:38px;line-height:1.06;font-weight:700;letter-spacing:-.032em}
-.view-head h1 .em{font-size:30px}
-.view-head .sub{font-size:15px;margin-top:10px;line-height:1.5}
-
-/* 2. etiqueta de seccion como pildora contenida, no texto suelto */
-.section-title{margin:48px 0 18px;gap:12px}
-.section-title::first-letter{text-transform:uppercase}
-.section-title>span:first-child,.section-title{font-weight:600}
-.section-title .count{background:rgba(255,255,255,.07);border:0;padding:3px 11px;
-  border-radius:999px;font-weight:600}
-.section-title .rule{background:linear-gradient(90deg,rgba(255,255,255,.09),transparent)}
-
-/* 3. contenedores: menos borde, mas superficie y radio */
-.panel{padding:26px;border-color:rgba(255,255,255,.06)}
-.card{border-color:rgba(255,255,255,.06)}
-.panel:hover{border-color:rgba(255,255,255,.10)}
-.hero{border-radius:var(--r-lg);border-color:rgba(255,255,255,.07)}
-
-/* 4. enlaces de accion con flecha que se mueve, como "Aprende mas ->" */
-a[href]:not(nav.tabs a):not(.rf-btn):hover{color:var(--teal-2)}
-.card a:hover,.panel a:hover{transition:color .18s var(--ease)}
-
-/* 5. ritmo vertical mas generoso entre bloques */
-.grid{gap:20px}
-.view-head{margin-bottom:34px}
-
-@media(max-width:700px){
-  :root{ --r:16px; --r-lg:20px; }
-  .view-head h1{font-size:28px;letter-spacing:-.026em}
-  .view-head h1 .em{font-size:23px}
-  .panel{padding:18px}
-  .grid{gap:14px}
-  .section-title{margin:34px 0 14px}
-}
 </style>
 </head>
 <body>
@@ -807,7 +670,6 @@ a[href]:not(nav.tabs a):not(.rf-btn):hover{color:var(--teal-2)}
       </div>
       <div class="refresh">
         <span class="rf-time" id="rfTime"></span>
-        <a class="rf-btn" href="cartera.html" title="Mi cartera (privada, cifrada)" style="text-decoration:none;display:inline-flex;align-items:center">🔒 Mi cartera</a>
         <button class="rf-btn" id="guideBtn" title="Guía: qué se mide en cada categoría">📖 Guía</button>
         <button class="rf-btn" id="eduBtn" title="Mostrar todas las lecturas explicadas">💡 Explicar</button>
         <button class="rf-btn" id="rfBtn" title="Actualizar datos"><span class="spin"></span>Actualizar</button>
@@ -832,6 +694,7 @@ a[href]:not(nav.tabs a):not(.rf-btn):hover{color:var(--teal-2)}
         <a class="src" href="https://www.bolsadesantiago.com" target="_blank" rel="noopener">Bolsa de Santiago</a>,
         <a class="src" href="https://www.cmfchile.cl" target="_blank" rel="noopener">CMF</a>.
         No es recomendación de inversión.</span>
+      <a class="donate-btn" href="https://link.mercadopago.cl/jaredbello" target="_blank" rel="noopener" title="Donación voluntaria vía Mercado Pago — tú eliges el monto"><span class="heart">☕</span> Invítame un café</a>
       <span style="margin-left:auto;font-family:var(--f-mono)">“Compra miedo, no euforia”</span>
     </div>
   </div>
@@ -873,99 +736,28 @@ const ZONE_MULT = {CARO:0.5,NEUTRAL:1.0,ATRACTIVO:1.5,OPORTUNIDAD:2.5};
 const ZONE_BOUNDS = [0,35,50,70,100]; // caro|neutral|atractivo|oportunidad
 const isBuyZone = z => z==="ATRACTIVO" || z==="OPORTUNIDAD";
 
-/* La frescura real de una fuente con registros por instrumento es la del dato
-   MAS ATRASADO, no la del archivo: el scraper ahora guarda avances parciales,
-   y en un parcial fecha_actualizacion dice "ahora" aunque falten acciones. */
-function _fechaFuente(j){
-  try{
-    const arr = j && j.acciones;
-    if(Array.isArray(arr) && arr.length){
-      const ds = arr.map(a => a && a._fecha_dato).filter(Boolean)
-                    .map(t => new Date(t).getTime()).filter(n => !isNaN(n));
-      if(ds.length === arr.length) return new Date(Math.min(...ds)).toISOString();
-    }
-  }catch(e){}
-  return (j && (j.updated_at_utc || j.fecha_actualizacion)) || null;
-}
-
-/* Los scores de oro y BTC se NORMALIZAN al peso de las senales que si tienen
-   dato (score_total / peso_aplicado). Efecto secundario: un oro calculado con
-   el 40% de sus insumos se veia identico a uno completo — misma zona, mismo
-   multiplicador, misma confianza. Si la cobertura cae bajo el umbral, el
-   veredicto baja a NEUTRAL (aporte base) y la pagina dice por que.
-   No saber no es lo mismo que saber que esta barato. */
-const VS_COBERTURA_MIN = 70;
-
-function _vsCobertura(key, j){
-  try{
-    if(!j || (key !== "gld" && key !== "btc")) return;
-    const cob = j.peso_aplicado_pct;
-    if(typeof cob !== "number") return;
-    j.cobertura_pct = cob;
-    if(cob >= VS_COBERTURA_MIN) return;
-    const pesos = j.pesos || {}, subs = j.sub_scores || {};
-    const faltan = Object.keys(pesos).filter(k => subs[k] == null);
-    j.zona_original    = j.zona;
-    j.mult_original    = j.multiplicador;
-    j.cobertura_baja   = true;
-    j.cobertura_faltan = faltan;
-    j.aviso_cobertura  = "Score calculado con " + cob + "% de las senales. Sin dato: "
-                       + (faltan.join(", ") || "—") + ". Se mostraba como " + (j.zona_original || "?")
-                       + "; la pagina lo baja a NEUTRAL hasta que las senales vuelvan.";
-    j.zona = "NEUTRAL";
-    j.multiplicador = ZONE_MULT.NEUTRAL;
-    console.warn("cobertura baja en " + key + ": " + cob + "%", faltan);
-  }catch(e){ console.warn("cobertura", key, e); }
-}
-
 /* ---- fetch ---- */
-/* raw.githubusercontent limita por IP. Antes se pedian los 11 archivos de
-   golpe, cada uno con un ?t= unico que anulaba el CDN; cuando GitHub
-   respondia 429 a alguno, ese quedaba en error sin reintento. Ahora:
-   cache-buster por minuto (el CDN puede cachear), 3 intentos con espera
-   creciente, y los pedidos salen de a 4. */
-const VS_CB_MS       = 60000;  // granularidad del cache-buster
-const VS_REINTENTOS  = 3;
-const VS_ESPERA_MS   = 900;    // espera base, crece en cada intento
-const VS_LOTE        = 4;      // archivos pedidos en paralelo
-
-const _vsDormir = ms => new Promise(r => setTimeout(r, ms));
-
 async function fetchSource(key){
   VS.status[key] = "loading";
   if (typeof onStatusChange==="function") onStatusChange(key);
-  let fallo = null;
-  for (let intento = 1; intento <= VS_REINTENTOS; intento++){
-    try{
-      const cb = Math.floor(Date.now() / VS_CB_MS);
-      const r = await fetch(VS.BASE + VS.FILES[key] + "?t=" + cb, {cache:"no-store"});
-      if(!r.ok) throw new Error("HTTP "+r.status);
-      const j = await r.json();
-      _vsCobertura(key, j);
-      VS.data[key] = j;
-      VS.updated[key] = _fechaFuente(j);
-      VS.status[key] = "ok";
-      fallo = null;
-      break;
-    }catch(e){
-      fallo = e;
-      if (intento < VS_REINTENTOS) await _vsDormir(VS_ESPERA_MS * intento);
-    }
-  }
-  if (fallo){
+  try{
+    const r = await fetch(VS.BASE + VS.FILES[key] + "?t=" + Date.now(), {cache:"no-store"});
+    if(!r.ok) throw new Error("HTTP "+r.status);
+    const j = await r.json();
+    VS.data[key] = j;
+    VS.updated[key] = j.updated_at_utc || j.fecha_actualizacion || null;
+    VS.status[key] = "ok";
+  }catch(e){
     VS.status[key] = "error";
     VS.data[key] = VS.data[key] || null;
-    console.warn("fetch fail", key, fallo.message, "tras " + VS_REINTENTOS + " intentos");
+    console.warn("fetch fail", key, e.message);
   }
   if (typeof onStatusChange==="function") onStatusChange(key);
 }
 
 async function fetchAll(){
   VS.loadedAt = new Date();
-  const claves = Object.keys(VS.FILES);
-  for (let i = 0; i < claves.length; i += VS_LOTE){
-    await Promise.all(claves.slice(i, i + VS_LOTE).map(fetchSource));
-  }
+  await Promise.all(Object.keys(VS.FILES).map(fetchSource));
 }
 
 /* ---- formatting ---- */
@@ -1806,7 +1598,7 @@ function renderHome(){
     </div>
     <div class="acc-body">
       ${rest.length?`<div class="sub-lbl">Activos con score · NEUTRAL / CARO</div><div class="opp-grid" style="margin-bottom:16px">${rest.map(a=>assetCard(a)).join("")}</div>`:""}
-      ${clRest.length?`<div class="sub-lbl">${flag('cl')} Chilenas dentro / bajo benchmark o con reparos</div><div class="mini-grid" style="margin-bottom:16px">${clRest.map(a=>oppCardCL(a)).join("")}</div>`:""}
+      ${clRest.length?`<div class="sub-lbl">${flag('cl')} Chilenas dentro / bajo benchmark</div><div class="mini-grid" style="margin-bottom:16px">${clRest.map(a=>oppCardCL(a)).join("")}</div>`:""}
       ${usRest.length?`<div class="sub-lbl">${flag('us')} USA a precio razonable o caro</div><div class="mini-grid">${usRest.map(a=>oppCardUS(a)).join("")}</div>`:""}
     </div>
   </div>`;
@@ -2012,28 +1804,6 @@ function viewHead(em, title, stamp, sub){
 const ETF_PESOS = {dy_vs_historico:35, drawdown:25, balance_cagr:15, momentum:10, dgr:15};
 
 /* =================== ETFs USA =================== */
-/* ---------- Comparativo: top 5 participaciones por ETF ---------- */
-function compEtfsBlock(){
-  const D=[
-    {t:"CFISPETF",k:"Growth · S&P 500",top:"NVDA ~7% · MSFT ~7% · AAPL ~6% · AMZN ~4% · META ~3%"},
-    {t:"CFINASDAQ",k:"Growth · Nasdaq 100",top:"NVDA ~9% · MSFT ~8% · AAPL ~8% · AVGO ~6% · AMZN ~5%"},
-    {t:"MTUM",k:"Growth · rota 2x/año ⚠️",top:"MU 6,4% · AMD 5,5% · AVGO 4,5% · INTC 4,1% · CAT 3,9%"},
-    {t:"SCHD",k:"Dividend growth",top:"ABT 4,7% · AMGN 4,4% · MRK 4,4% · UNH 4,3% · KO 4,3%"},
-    {t:"JEPQ",k:"Dividend · opciones",top:"≈ Nasdaq 100 (NVDA · MSFT · AAPL · AVGO · AMZN) + venta de calls"},
-    {t:"DGRO",k:"Dividend growth",top:"JPM ~3% · MSFT ~3% · ABBV ~3% · XOM ~3% · JNJ ~2,5%"},
-    {t:"VNQ",k:"REIT USA",top:"WELL 7,7% · PLD 7,1% · EQIX 5,6% · AMT 4,7% · SPG ~4%"},
-    {t:"VNQI",k:"REIT ex-USA",top:"Goodman ~4% · Mitsui F. ~3% · Mitsubishi E. ~3% · Vonovia ~2% · Sun Hung Kai ~2%"},
-  ];
-  const cards=D.map(d=>`<div style="background:var(--bg-2,#141b26);border:1px solid #26334a;border-radius:10px;padding:10px 12px">
-      <div style="display:flex;gap:8px;align-items:baseline"><b>${d.t}</b><span class="hint">${d.k}</span></div>
-      <div class="hint" style="margin-top:4px;line-height:1.5;color:#aebbd0">${d.top}</div>
-    </div>`).join("");
-  return `<details class="panel" style="margin-top:18px"><summary style="cursor:pointer;font-weight:600">\ud83e\udde9 Comparativo: ¿qué hay dentro de cada ETF? · top 5 participaciones</summary>
-    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:10px;margin-top:12px">${cards}</div>
-    <div class="hint" style="margin-top:10px;line-height:1.5">Cartera de referencia a <b>jul-2026</b> (los pesos cambian con el tiempo; ⚠️ MTUM rota su cartera cada 6 meses, sus top 5 caducan rápido). Dato clave: <b>CFISPETF, CFINASDAQ y JEPQ comparten las mismas mega-caps</b> (NVDA/MSFT/AAPL) — son 3 vehículos distintos sobre motores parecidos; la diversificación real la aportan SCHD/DGRO (dividendos), VNQ/VNQI (ladrillo) y las chilenas.</div>
-  </details>`;
-}
-
 function renderETFs(param){
   if(param) return renderETFsDetail(param);
   const e = VS.data.etfs;
@@ -2047,7 +1817,7 @@ function renderETFs(param){
   const divEtfs = allDiv.filter(x=>(x.categoria||"dividend")!=="reit");
   const reitEtfs = allDiv.filter(x=>x.categoria==="reit");
   // Growth ETFs (CFISPETF/CFINASDAQ) vienen de sp_nq
-  const growthOrder = ["CFISPETF","CFINASDAQ","MTUM","SOXX","ICLN","QCLN"];
+  const growthOrder = ["CFISPETF","CFINASDAQ","SOXX","ICLN","QCLN"];
   const growthEtfs = (g && g.etfs) ? growthOrder.filter(t=>g.etfs[t]).map(t=>g.etfs[t]) : [];
 
   const sidebar = `<div><div class="sidebar-news">
@@ -2060,13 +1830,13 @@ function renderETFs(param){
   let main = "";
   if(growthEtfs.length){
     main += `<div class="section-title" style="margin-top:0">Growth ETFs · Racional
-      <span class="hint" style="text-transform:none;letter-spacing:0;font-weight:400">índices (CLP, Racional) + momentum (USD) · crecimiento, se evalúan por valuación</span>
+      <span class="hint" style="text-transform:none;letter-spacing:0;font-weight:400">índices (CLP, Racional) + temáticos IA y energía (USD) · crecimiento, se evalúan por valuación</span>
       <span class="rule"></span></div>
       <div class="grid rows2">${growthEtfs.map(x=>etfRow(x,"growth")).join("")}</div>`;
   }
   if(divEtfs.length){
     main += `<div class="section-title">Dividend ETFs
-      <span class="hint" style="text-transform:none;letter-spacing:0;font-weight:400">SCHD · JEPQ · DGRO — score de timing para DCA</span>
+      <span class="hint" style="text-transform:none;letter-spacing:0;font-weight:400">SCHD · JEPQ — score de timing para DCA</span>
       <span class="rule"></span></div>
       <div class="grid rows2">${divEtfs.map(x=>etfRow(x,"div")).join("")}</div>`;
   }
@@ -2077,7 +1847,6 @@ function renderETFs(param){
       <div class="grid rows2">${reitEtfs.map(x=>etfRow(x,"reit")).join("")}</div>`;
   }
 
-  main += compEtfsBlock();
   const allTk = [...growthEtfs,...divEtfs,...reitEtfs].map(x=>x.ticker).join(" · ");
   return viewHead("📊","ETFs USA", srcStamp("etfs"),
     "ETFs · score de timing para DCA · "+allTk) +
@@ -2299,61 +2068,6 @@ function clPP(a){
 }
 
 /* ---------- salud financiera: acción chilena (datos CMF) ---------- */
-/* ---------- Deteccion de utilidades infladas por partidas no operacionales ---------- */
-function calidadBlock(a){
-  const q=a.calidad; if(!q) return "";
-  const C=q.criterios; if(!C) return "";
-  const esc=s=>String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
-  const ok=!!q.aprobado;
-  const ic={ok:"\u2705", falla:"\ud83d\udea9", sin_datos:"\u00b7"};
-  let filas="", conNota=false;
-  for(const k of ["bpa","deuda","fcf"]){
-    const c=C[k]; if(!c) continue;
-    if(c.nota) conNota=true;
-    filas+=`<div style="display:flex;gap:9px;align-items:flex-start;margin:7px 0;line-height:1.45">`
-      +`<span style="flex:0 0 1.2em">${ic[c.estado]||"\u00b7"}</span>`
-      +`<span style="flex:1 1 auto;min-width:0"><b>${esc(c.titulo||k)}</b><br>`
-      +`<span class="muted">${esc(c.detalle||"")}</span>`
-      +(c.nota?`<br><span class="muted">\u2139\ufe0f ${esc(c.nota)}</span>`:"")
-      +`</span></div>`;
-  }
-  const titulo = ok ? (conNota ? "aprobada con nota" : "aprobada") : "con reparos";
-  return `<div class="card" style="margin:10px 0;border-left:3px solid ${ok?"var(--z-opp)":"var(--z-neu)"}">`
-    +`<div class="sec-t">${ok?"\u2705":"\u26a0\ufe0f"} Puerta de calidad \u2014 ${titulo}</div>`
-    +filas
-    +`<div class="hint" style="margin-top:10px;text-transform:none;letter-spacing:0;font-weight:400;line-height:1.5">`
-    +`Primero la empresa, despu\u00e9s el precio: una acci\u00f3n solo puede marcar <b>Sobre benchmark</b> si pasa los tres criterios. `
-    +`Si falla alguno queda <b>Con reparos</b> \u2014 sigue visible y con el precio a la vista, pero fuera de las oportunidades de compra. `
-    +`Ventana de ${q.ventana_anos||0} a\u00f1os. Fuente: estados financieros CMF.</div></div>`;
-}
-
-
-function gananciaPapel(a){
-  try{
-    const c=a.cmf||{};
-    const m=c.margen_neto_pct;
-    const inmob=/inmobiliar/i.test(a.sector||"");
-    /* AFP, bancos y aseguradoras tienen margen alto legitimo (negocio de
-       comisiones, sin costo de ventas): no se les aplica el criterio de margen. */
-    const finan=/afp|banco|seguro|financ/i.test((a.sector||"")+" "+(a.nombre||""));
-    if(m!=null && m>80 && !finan) return {si:true, motivo:`margen neto de ${fmt.pct(m)}`,
-      detalle:`Un margen sobre 100% es imposible operando: significa que la <b>utilidad contable incluye partidas que no son ventas</b> \u2014 t\u00edpicamente revalorizaci\u00f3n de propiedades (IFRS), utilidades de filiales o venta de activos.`};
-    if(inmob) return {si:true, motivo:"sector inmobiliario (IFRS)",
-      detalle:`Las inmobiliarias registran la <b>revalorizaci\u00f3n de sus propiedades como utilidad</b> bajo IFRS, aunque no entre un peso a la caja.`};
-    return {si:false};
-  }catch(e){ return {si:false}; }
-}
-function papelAviso(a, donde){
-  const g=gananciaPapel(a);
-  if(!g.si) return "";
-  const extra = donde==="per" ? ` El <b>PER se ve artificialmente bajo</b>: el denominador (utilidad) est\u00e1 inflado.`
-              : donde==="bpa" ? ` El <b>BPA queda inflado</b> los a\u00f1os con revalorizaci\u00f3n, as\u00ed que su "crecimiento" no es operacional.`
-              : ` El <b>ROE y el margen quedan inflados</b>.`;
-  return `<div class="hint" style="margin-top:8px;padding:8px 10px;border-left:3px solid #eab308;background:rgba(234,179,8,.07);line-height:1.5">
-    \u26a0\ufe0f <b>Ganancia de papel detectada</b> (${g.motivo}). ${g.detalle}${extra}
-    Para juzgar el negocio real, usa el <b>FCF</b> del gr\u00e1fico de coherencia contable y el flujo operacional, no la utilidad.</div>`;
-}
-
 function evalSaludChile(a){
   const c=a.cmf||a.fund||{}, rows=[];
   const sector=(a.sector||"").toUpperCase();
@@ -2363,34 +2077,18 @@ function evalSaludChile(a){
 
   if(c.roe_pct!=null){
     const v=c.roe_pct;
-    const roePer=c.roe_periodo||null;               // backend nuevo: ROE ya ANUAL
-    const yaAnual=!!roePer;
-    const vJ = (!yaAnual && facAnual) ? v*facAnual : v;  // solo anualiza JSON antiguo
+    const vJ = facAnual ? v*facAnual : v;           // se juzga el anualizado
     const cls=vJ>=15?"ok":vJ>=8?"mid":"bad";
-    const aprox = yaAnual && /aprox/i.test(roePer);
-    const label = yaAnual
-      ? `ROE ${fmt.pct(v)}${aprox?" (anualizado aprox.)":""}`
-      : (facAnual ? `ROE ${fmt.pct(v)} (parcial) ≈ ${fmt.pct(vJ)} anualizado` : `ROE ${fmt.pct(v)}`);
+    const label = facAnual
+      ? `ROE ${fmt.pct(v)} (parcial) ≈ ${fmt.pct(vJ)} anualizado`
+      : `ROE ${fmt.pct(v)}`;
     const txt = (vJ>=15?"alto valor al accionista (≥15%).":vJ>=8?"rentabilidad media sobre patrimonio.":"rentabilidad baja en el período reportado.")
-      + (yaAnual
-          ? ` Fuente: CMF ${esc(roePer)} — utilidad de 12 meses ÷ patrimonio. Confirma con el promedio de 5 años.`
-          : (facAnual?" Anualización lineal aproximada: confirma con el promedio de 5 años.":""));
+      + (facAnual?" Anualización lineal aproximada: confirma con el promedio de 5 años.":"");
     rows.push([cls,label,txt]);
-  }
-  if(c.patrimonio_total!=null){
-    rows.push(["patrimonio-row",`Patrimonio ${fmt.clp(c.patrimonio_total)}k`,
-      `capital contable de los due\u00f1os (activos menos pasivos). Es el denominador del ROE. Fuente: CMF ${esc(c.periodo||"")}, en miles de pesos.`]);
-  }
-  {
-    const _gp = gananciaPapel(a);
-    if(_gp.si) rows.push(["bad",`\u26a0\ufe0f Utilidad con ganancia de papel`,
-      `${_gp.detalle} La utilidad contable <b>no refleja caja</b>: valida con el FCF y el flujo operacional antes de usar ROE, margen, BPA o PER de esta empresa.`]);
   }
   if(c.margen_neto_pct!=null){
     const v=c.margen_neto_pct, cls=v>=20?"ok":v>=10?"mid":"bad";
-    const mPer=c.margen_periodo||null;
-    rows.push([cls,`Margen neto ${fmt.pct(v)}`, (v>=20?"muy bueno (≥20%): negocio de alta rentabilidad.":v>=10?"margen razonable.":"margen bajo: probablemente negocio de volumen.")
-      + (mPer?` Fuente: CMF ${esc(mPer)} — utilidad ÷ ingresos.`:"")]);
+    rows.push([cls,`Margen neto ${fmt.pct(v)}`, v>=20?"muy bueno (≥20%): negocio de alta rentabilidad.":v>=10?"margen razonable.":"margen bajo: probablemente negocio de volumen."]);
   }
   if(c.razon_endeudamiento_pct!=null){
     const v=c.razon_endeudamiento_pct;
@@ -2417,13 +2115,7 @@ function evalSaludChile(a){
   const periodo=c.periodo||"";
   const parcial=/^(03|06|09)\//.test(periodo);
   const fuente = a.cmf ? "CMF" : (c.fuente||"estados financieros");
-  const roeSrc = (a.cmf && c.roe_periodo) ? ` · ROE: cierre anual CMF ${esc(c.roe_periodo)}` : "";
-  const aviso = (parcial && a.cmf)
-    ? (c.roe_periodo
-        ? " (balance y liquidez del trimestre; ROE y margen del cierre anual)"
-        : " (período parcial: el ROE y márgenes no están anualizados — para el filtro de compra usa el promedio de 5 años)")
-    : "";
-  const note = `Datos ${esc(fuente)} ${esc(periodo)}${roeSrc}${aviso}. La foto de un período no reemplaza la tendencia de 5 años.`;
+  const note = `Datos ${esc(fuente)} ${esc(periodo)}${parcial&&a.cmf?" (período parcial: el ROE y márgenes no están anualizados — para el filtro de compra usa el promedio de 5 años)":""}. La foto de un período no reemplaza la tendencia de 5 años.`;
   return {rows,concl,note};
 }
 
@@ -2461,156 +2153,16 @@ function evalValorChile(a){
   return {rows,concl};
 }
 
-/* ---------- Detector La Polar: Utilidad vs FCF (CMF, cierres anuales) ---------- */
-function fcfChart(a){
-  try{
-    const regs=(a.flujos_5y||[]).filter(r=>r&&r.utilidad!=null&&r.fcf!=null);
-    if(regs.length<2) return "";
-    const anos=regs.map(r=>r.ano);
-    const U=regs.map(r=>r.utilidad/1e6), F=regs.map(r=>r.fcf/1e6); /* miles de MM CLP */
-    const all=U.concat(F).concat([0]);
-    const mn=Math.min(...all), mx=Math.max(...all);
-    const W=520,H=170,padL=14,padR=14,padT=16,padB=24;
-    const X=i=>padL+(W-padL-padR)*(regs.length===1?0.5:i/(regs.length-1));
-    const Y=v=>padT+(H-padT-padB)*(1-(v-mn)/((mx-mn)||1));
-    const line=vs=>vs.map((v,i)=>`${X(i).toFixed(1)},${Y(v).toFixed(1)}`).join(" ");
-    const dots=(vs,c)=>vs.map((v,i)=>`<circle cx="${X(i).toFixed(1)}" cy="${Y(v).toFixed(1)}" r="3" fill="${c}"/>`).join("");
-    const xl=anos.map((an,i)=>`<text x="${X(i).toFixed(1)}" y="${H-6}" font-size="10" fill="#7c8aa0" text-anchor="middle">${an}</text>`).join("");
-    const y0=Y(0);
-    const fN=v=>Math.abs(v)>=100?v.toFixed(0):v.toFixed(1);
-    const pares=regs.filter(r=>r.utilidad>0);
-    const ratios=pares.map(r=>r.fcf/r.utilidad);
-    const prom=ratios.length?ratios.reduce((s,x)=>s+x,0)/ratios.length:null;
-    const negs=regs.filter(r=>r.fcf<0&&r.utilidad>0).length;
-    let cls="ok",ver;
-    if(prom==null){cls="mid";ver="Sin utilidades positivas en la ventana: el ratio FCF/Utilidad no aplica.";}
-    else if(prom>=0.7&&negs===0){ver=`\u2705 <b>La caja libre respalda la utilidad</b> (FCF/Utilidad promedio ${prom.toFixed(2)}). La contabilidad es coherente con caja real.`;}
-    else if(prom>=0.3&&negs<=1){cls="mid";ver=`\u26a0\ufe0f <b>FCF por debajo de la utilidad</b> (promedio ${prom.toFixed(2)}): parte de la utilidad no se convierte en caja libre (CAPEX alto o capital de trabajo). Revisar el An\u00e1lisis Razonado.`;}
-    else{cls="bad";ver=`\ud83d\udea9 <b>Patr\u00f3n La Polar</b>: utilidades contables sin caja libre que las respalde (FCF/Utilidad promedio ${prom.toFixed(2)}${negs?`, ${negs} a\u00f1o(s) con FCF negativo`:""}). Revisar el An\u00e1lisis Razonado antes de aportar.`;}
-    return `<div style="margin-top:14px">
-      <h4 style="margin:0 0 6px">\ud83d\udd75\ufe0f Utilidad vs FCF \u00b7 coherencia contable (5 a\u00f1os)</h4>
-      <svg viewBox="0 0 ${W} ${H}" style="width:100%;max-width:100%;display:block">
-        <line x1="${padL}" y1="${y0.toFixed(1)}" x2="${W-padR}" y2="${y0.toFixed(1)}" stroke="#3a4556" stroke-dasharray="4 4"/>
-        <polyline points="${line(U)}" fill="none" stroke="#5eead4" stroke-width="2"/>
-        <polyline points="${line(F)}" fill="none" stroke="#eab308" stroke-width="2"/>
-        ${dots(U,"#5eead4")}${dots(F,"#eab308")}
-        ${xl}
-      </svg>
-      <div class="hint" style="margin-top:2px"><span style="color:#5eead4">\u25cf</span> Utilidad neta (\u00falt.: ${fN(U[U.length-1])}) \u00a0 <span style="color:#eab308">\u25cf</span> FCF aprox (\u00falt.: ${fN(F[F.length-1])}) \u00b7 miles de millones CLP</div>
-      ${evRow(cls,"FCF vs Utilidad (5 a\u00f1os)",ver)}
-      <details style="margin-top:6px"><summary class="hint" style="cursor:pointer">\u2139\ufe0f C\u00f3mo se calcula el FCF y por qu\u00e9 debe seguir a la utilidad</summary><div class="hint" style="margin-top:4px">El <b>Free Cash Flow</b> (caja libre) \u2248 Flujo de Operaci\u00f3n + Flujo de Inversi\u00f3n: la plata que el negocio genera de verdad despu\u00e9s de mantenerse funcionando. Si la contabilidad es sana, <b>cada peso de utilidad deber\u00eda convertirse en un peso de caja libre</b>, as\u00ed que las dos l\u00edneas van juntas. Cuando la utilidad sube pero el FCF se queda atr\u00e1s, las ganancias son "de papel" (revalorizaciones, ventas a cr\u00e9dito no cobradas, devengos) y no efectivo. Ese divorcio entre utilidad y caja fue lo que ocult\u00f3 <b>La Polar</b>.</div></details><div class="hint">Fuente: CMF, cierres anuales ${anos[0]}\u2013${anos[anos.length-1]}. FCF \u2248 flujo operaci\u00f3n + flujo inversi\u00f3n (aprox. conservadora: la CMF no desglosa la l\u00ednea de CAPEX). Referencia: La Polar mostraba utilidades "de papel" sin caja que las respaldara.</div>
-    </div>`;
-  }catch(e){ console.warn("fcfChart",e); return ""; }
-}
-
-/* ---------- Grafico de precio con selector 1y/3y/5y ---------- */
-function priceChart(a){
-  try{
-    const serie=(a.serie_precio||[]).filter(x=>x&&x.p!=null);
-    if(serie.length<3) return "";
-    const id="pc_"+a.ticker.replace(/[^a-z0-9]/gi,"");
-    const dataJson=JSON.stringify(serie).replace(/"/g,"&quot;");
-    // render inicial 5y (todo)
-    setTimeout(()=>{ if(window.__drawPC) window.__drawPC(id,5); },0);
-    return `<div style="margin-top:16px">
-      <div style="display:flex;align-items:center;gap:8px;margin-bottom:6px">
-        <h4 style="margin:0">\ud83d\udcc8 Precio ${esc(a.ticker)}${a.precio_actual_clp!=null?` \u00b7 <span class="pc-precio-hd" style="color:#5eead4">$${Math.round(a.precio_actual_clp).toLocaleString("es-CL")}</span>`:""}</h4>
-        <div style="margin-left:auto;display:flex;gap:4px" id="${id}_btns">
-          <button class="pc-btn" data-y="1" onclick="__drawPC('${id}',1)">1A</button>
-          <button class="pc-btn" data-y="3" onclick="__drawPC('${id}',3)">3A</button>
-          <button class="pc-btn pc-on" data-y="5" onclick="__drawPC('${id}',5)">5A</button>
-        </div>
-      </div>
-      <div id="${id}" data-serie="${dataJson}"></div>
-    </div>`;
-  }catch(e){ console.warn("priceChart",e); return ""; }
-}
-window.__drawPC=function(id,anios){
-  try{
-    const cont=document.getElementById(id); if(!cont) return;
-    const serie=JSON.parse(cont.getAttribute("data-serie"));
-    const n=Math.min(serie.length, anios*12);
-    const data=serie.slice(-n);
-    if(data.length<2){ cont.innerHTML='<div class="hint">Sin datos suficientes.</div>'; return; }
-    const ps=data.map(d=>d.p), mn=Math.min(...ps), mx=Math.max(...ps);
-    const W=520,H=150,pL=6,pR=6,pT=12,pB=22;
-    const X=i=>pL+(W-pL-pR)*(i/(data.length-1));
-    const Y=v=>pT+(H-pT-pB)*(1-(v-mn)/((mx-mn)||1));
-    const pts=data.map((d,i)=>`${X(i).toFixed(1)},${Y(d.p).toFixed(1)}`).join(" ");
-    const up=data[data.length-1].p>=data[0].p;
-    const col=up?"#5eead4":"#f87171";
-    const area=`${pL},${(H-pB).toFixed(1)} `+pts+` ${(W-pR)},${(H-pB).toFixed(1)}`;
-    const xl=[0,Math.floor((data.length-1)/2),data.length-1].map(i=>
-      `<text x="${X(i).toFixed(1)}" y="${H-6}" font-size="9" fill="#7c8aa0" text-anchor="${i===0?"start":i===data.length-1?"end":"middle"}">${data[i].f}</text>`).join("");
-    cont.innerHTML=`<svg viewBox="0 0 ${W} ${H}" style="width:100%;max-width:100%;display:block">
-      <polygon points="${area}" fill="${col}" opacity="0.08"/>
-      <polyline points="${pts}" fill="none" stroke="${col}" stroke-width="2"/>
-      ${xl}
-      <text x="${pL}" y="10" font-size="9" fill="#7c8aa0">${mx.toLocaleString("es-CL")} máx</text>
-      <text x="${pL}" y="${(H-pB).toFixed(1)}" font-size="9" fill="#7c8aa0">${mn.toLocaleString("es-CL")} mín</text>
-      <circle class="pc-last" cx="${X(data.length-1).toFixed(1)}" cy="${Y(data[data.length-1].p).toFixed(1)}" r="3.5" fill="${col}" stroke="#0f1622" stroke-width="1.5"/>
-      <text x="${(W-pR).toFixed(1)}" y="${(Y(data[data.length-1].p)+(Y(data[data.length-1].p)<28?14:-8)).toFixed(1)}" font-size="10" font-weight="bold" fill="${col}" text-anchor="end">${data[data.length-1].p.toLocaleString("es-CL")}</text>
-    </svg>`;
-    const bts=document.getElementById(id+"_btns");
-    if(bts){ bts.querySelectorAll(".pc-btn").forEach(b=>b.classList.toggle("pc-on", +b.dataset.y===anios)); }
-  }catch(e){ console.warn("__drawPC",e); }
-};
-
-/* ---------- BPA 5 anos: utilidad por accion (CMF) ---------- */
-function bpaChart(a){
-  try{
-    const regs=(a.bpa_5y||[]).filter(r=>r&&r.bpa!=null);
-    if(regs.length<2) return "";
-    const anos=regs.map(r=>r.ano), V=regs.map(r=>r.bpa);
-    const W=520,H=150,padL=14,padR=14,padT=18,padB=24;
-    const mn=Math.min(0,...V), mx=Math.max(0,...V);
-    const Y=v=>padT+(H-padT-padB)*(1-(v-mn)/((mx-mn)||1));
-    const bw=(W-padL-padR)/regs.length*0.55;
-    const XC=i=>padL+(W-padL-padR)*((i+0.5)/regs.length);
-    const y0=Y(0);
-    const barras=V.map((v,i)=>{
-      const y=Y(v), alto=Math.abs(y0-y)||1;
-      const col=v>=0?"#5eead4":"#f87171";
-      return `<rect x="${(XC(i)-bw/2).toFixed(1)}" y="${Math.min(y,y0).toFixed(1)}" width="${bw.toFixed(1)}" height="${alto.toFixed(1)}" fill="${col}" opacity="0.85" rx="2"/>
-        <text x="${XC(i).toFixed(1)}" y="${(Math.min(y,y0)-4).toFixed(1)}" font-size="9" fill="#c7d3e4" text-anchor="middle">$${v.toLocaleString("es-CL")}</text>`;
-    }).join("");
-    const xl=anos.map((an,i)=>`<text x="${XC(i).toFixed(1)}" y="${H-6}" font-size="10" fill="#7c8aa0" text-anchor="middle">${an}</text>`).join("");
-    /* veredicto: creciente si sube del primero al ultimo y la mayoria de pasos son al alza */
-    let subidas=0;
-    for(let i=1;i<V.length;i++){ if(V[i]>=V[i-1]*0.98) subidas++; }
-    const total=V.length-1;
-    let cls,ver;
-    if(V[V.length-1]>V[0]*1.05 && subidas>=Math.ceil(total*0.6)){
-      cls="ok"; ver=`\u2705 <b>BPA creciente</b>: la utilidad por acci\u00f3n sube en la ventana \u2014 sello de empresa excelente seg\u00fan tu metodolog\u00eda.`;
-    } else if(V[V.length-1]<V[0]*0.85){
-      cls="bad"; ver=`\ud83d\udea9 <b>BPA decreciente</b>: la utilidad por acci\u00f3n cae \u2014 revisar la causa (m\u00e1rgenes, ciclo, dilluci\u00f3n) antes de aportar.`;
-    } else {
-      cls="mid"; ver=`\u2796 <b>BPA estable</b>: sin tendencia clara en la ventana.`;
-    }
-    return `<div style="margin-top:14px">
-      <h4 style="margin:0 0 6px">\ud83d\udcca BPA \u00b7 utilidad por acci\u00f3n (5 a\u00f1os)</h4>
-      <svg viewBox="0 0 ${W} ${H}" style="width:100%;max-width:100%;display:block">
-        <line x1="${padL}" y1="${y0.toFixed(1)}" x2="${W-padR}" y2="${y0.toFixed(1)}" stroke="#3a4556" stroke-dasharray="4 4"/>
-        ${barras}${xl}
-      </svg>
-      ${evRow(cls,"Tendencia del BPA",ver)}
-      ${papelAviso(a,"bpa")}
-      <div class="hint">BPA = utilidad neta anual (CMF, normalizada a CLP) \u00f7 ${(a.n_acciones||0).toLocaleString("es-CL")} acciones. N\u00famero de acciones actual: asume sin variaciones de capital en la ventana \u2014 si hubo aumentos, los BPA antiguos var\u00edan.</div>
-    </div>`;
-  }catch(e){ console.warn("bpaChart",e); return ""; }
-}
-
 function evalChilePanel(a){
   try{
     const sal=evalSaludChile(a), val=evalValorChile(a);
     if(!sal.rows.length && !val.rows.length) return "";
-    return `${calidadBlock(a)}<div class="panel" style="margin-bottom:16px">
+    return `<div class="panel" style="margin-bottom:16px">
       <h3>🔬 Evaluación fundamental</h3>
       <div class="ev-grid">
         <div class="ev-col"><h4>Salud financiera</h4>${sal.rows.map(r=>evRow(...r)).join("")}${evConcl(sal.concl[0],sal.concl[1])}</div>
         <div class="ev-col"><h4>Valoración</h4>${val.rows.map(r=>evRow(...r)).join("")}${evConcl(val.concl[0],val.concl[1])}</div>
       </div>
-      <div class="grid c2" style="margin-top:4px">${fcfChart(a)}${bpaChart(a)}</div>
       <div class="ev-note">${sal.note} Valoración por múltiplos y dividendo — sin flujo de caja descontado (muy sensible a supuestos para el inversionista minoritario).</div>
     </div>`;
   }catch(e){ console.warn("evalChilePanel",e); return ""; }
@@ -3058,7 +2610,7 @@ function renderChile(param){
   if(!ch||!ch.acciones) return viewHead(flag("cl"),"Acciones Chilenas","")+skeletonCards(3);
 
   const acc = ch.acciones.slice();
-  const order = {"Sobre benchmark":0,"En rango":1,"Dentro benchmark":1,"Con reparos":1,"Bajo benchmark":2};
+  const order = {"Sobre benchmark":0,"En rango":1,"Dentro benchmark":1,"Bajo benchmark":2};
   acc.sort((a,b)=>{
     const oa=order[a.evaluacion?.status]??3, ob=order[b.evaluacion?.status]??3;
     if(oa!==ob) return oa-ob;
@@ -3140,7 +2692,7 @@ function renderChileDetail(ticker){
           <div class="ticker" style="font-size:24px">${esc(a.ticker)}</div>
           <div class="name" style="max-width:none">${esc(a.nombre)} · ${esc(a.sector)} · <span class="dim">${esc(a.clasificacion||"")}</span>${edCl.icon}</div>
           <div class="price" style="margin-top:8px">${fmt.clp(a.precio_actual_clp)}
-            <span class="chg ${a.variacion_pct>=0?'up':'down'}">${fmt.signpct(a.variacion_pct)}</span>${a.per?`<span class="per-badge dim" style="font-size:13px;font-weight:600;margin-left:10px" title="PER = precio \u00f7 BPA ${a.per_bpa_ano||""} (utilidad por acci\u00f3n, CMF). Referencia: 8\u201314 vaca lechera \u00b7 15\u201324,9 DGI \u00b7 25+ crecimiento.${gananciaPapel(a).si?" \u26a0 OJO: la utilidad de esta empresa incluye ganancia de papel, el PER se ve mas bajo de lo real.":""}">PER ${a.per.toLocaleString("es-CL")}${gananciaPapel(a).si?" \u26a0":""}</span>`:""}</div>
+            <span class="chg ${a.variacion_pct>=0?'up':'down'}">${fmt.signpct(a.variacion_pct)}</span></div>
         </div>
         <div class="score-wrap">
           <div class="score-num" style="font-size:40px;color:${sobre?'var(--z-opp)':'var(--tx)'}">${fmt.pct(dy.dy_pct)}</div>
@@ -3159,17 +2711,24 @@ function renderChileDetail(ticker){
 
     ${evalChilePanel(a)}
 
-    <div class="panel">
-      <h3>Dividendos por año <span class="dim" style="font-weight:400;text-transform:none">(CLP/acción)</span></h3>
-      ${divbars}
-      <div class="kv" style="margin-top:14px"><span class="k">Promedio anual</span><span class="v">${fmt.clp(dy.promedio_anual)}</span></div>
-      <div class="kv"><span class="k">CAGR precio 3y / 5y / 10y${edCagr.icon}</span><span class="v">${fmt.pct((a.cagr_3y||0)*100)} / ${fmt.pct((a.cagr_5y||0)*100)} / ${fmt.pct((a.cagr_10y||0)*100)}</span></div>
-      ${edCagr.inline}
+    <div class="grid c2">
+      <div class="panel">
+        <h3>Dividendos por año <span class="dim" style="font-weight:400;text-transform:none">(CLP/acción)</span></h3>
+        ${divbars}
+        <div class="kv" style="margin-top:14px"><span class="k">Promedio anual</span><span class="v">${fmt.clp(dy.promedio_anual)}</span></div>
+        <div class="kv"><span class="k">CAGR 3y / 5y / 10y${edCagr.icon}</span><span class="v">${fmt.pct((a.cagr_3y||0)*100)} / ${fmt.pct((a.cagr_5y||0)*100)} / ${fmt.pct((a.cagr_10y||0)*100)}</span></div>
+        ${edCagr.inline}
+      </div>
+      <div class="panel">
+        <h3>Fundamentales CMF <span class="dim" style="font-weight:400;text-transform:none">${esc(cmf.periodo||"")}</span></h3>
+        <div class="kv"><span class="k">ROE</span><span class="v">${fmt.pct(cmf.roe_pct)}</span></div>
+        <div class="kv"><span class="k">Margen neto</span><span class="v">${fmt.pct(cmf.margen_neto_pct)}</span></div>
+        <div class="kv"><span class="k">Endeudamiento</span><span class="v">${fmt.pct(cmf.razon_endeudamiento_pct)}</span></div>
+        <div class="kv"><span class="k">Razón corriente</span><span class="v">${fmt.num(cmf.razon_corriente,2)}</span></div>
+        <div class="kv"><span class="k">Patrimonio</span><span class="v">${cmf.patrimonio_total?fmt.clp(cmf.patrimonio_total)+"k":"—"}</span></div>
+      </div>
     </div>
 
-    <div class="panel" style="margin-top:16px">
-      ${priceChart(a)}
-    </div>
     <div class="panel" style="margin-top:16px">
       <h3>Dividendos recientes</h3>
       ${divTable||'<div class="hint">Sin registros recientes.</div>'}
@@ -3255,32 +2814,14 @@ function updateHeader(){
   const keys = Object.keys(VS.FILES);
   const anyLoading = keys.some(k=>VS.status[k]==="loading");
   const okTimes = keys.map(k=>VS.updated[k]).filter(Boolean).map(t=>new Date(t).getTime());
-  /* El sello muestra la fuente MAS VIEJA, no la mas nueva. Con Math.max, un
-     archivo que se refresca cada 15 min (BTC, oro) tapaba a otro congelado
-     hace semanas: la pagina decia "datos hace 13 min" con precios chilenos
-     de hace 32 dias. La frescura de la pagina es la de su dato mas atrasado. */
-  const oldest = okTimes.length?new Date(Math.min(...okTimes)):null;
+  const newest = okTimes.length?new Date(Math.max(...okTimes)):null;
   const nErr = keys.filter(k=>VS.status[k]==="error").length;
-  const HORAS_STALE = 24;
-  const viejas = keys.filter(k=>{
-    const t = VS.updated[k];
-    return t && (Date.now() - new Date(t).getTime()) > HORAS_STALE*3600e3;
-  });
 
   const btn = document.getElementById("rfBtn");
   if(btn) btn.classList.toggle("loading", anyLoading);
   let msg;
   if(anyLoading) msg = `<b>actualizando…</b>`;
-  else if(oldest){
-    msg = `datos <b>${fmt.ago(oldest.toISOString())}</b>`;
-    if(viejas.length) msg += ` · <span style="color:var(--red)">${viejas.length} fuente${viejas.length>1?"s":""} sin actualizar</span>`;
-    if(nErr) msg += ` · <span style="color:var(--red)">${nErr} con error</span>`;
-    const parciales = keys.filter(k => VS.data[k] && VS.data[k].cobertura_baja);
-    if(parciales.length){
-      const tip = parciales.map(k => (k.toUpperCase() + ": " + (VS.data[k].aviso_cobertura||""))).join(" | ");
-      msg += ` · <span style="color:var(--amber,#f59e0b)" title="${esc(tip)}">${parciales.length} score incompleto${parciales.length>1?"s":""}</span>`;
-    }
-  }
+  else if(newest) msg = `datos <b>${fmt.ago(newest.toISOString())}</b>${nErr?` · <span style="color:var(--red)">${nErr} con error</span>`:""}`;
   else msg = `<b>—</b>`;
   const t = document.getElementById("rfTime");   if(t)  t.innerHTML = msg;
   const t2 = document.getElementById("rfTime2"); if(t2) t2.innerHTML = msg;
