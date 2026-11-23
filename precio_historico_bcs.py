@@ -70,6 +70,21 @@ def _precio_en_fecha(historico, fecha_objetivo):
     return candidatos[0][1]
 
 
+def obtener_precio_cierre(ticker):
+    """Ultimo cierre publicado por la API JSON de la BCS.
+
+    Misma fuente oficial que el resto del sitio, pero por la API directa en vez
+    del navegador: es la via que NO cae en el captcha. Reutiliza la descarga que
+    ya alimenta el CAGR (_CACHE), asi que no cuesta un request extra.
+
+    Ojo: es el cierre de la ultima sesion publicada, no un precio intradia.
+    """
+    historico = _fetch_historico_bcs(ticker)
+    if not historico:
+        return None
+    return _precio_en_fecha(historico, datetime.now())
+
+
 def obtener_cagr(ticker, anios=3):
     historico = _fetch_historico_bcs(ticker)
     if not historico:

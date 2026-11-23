@@ -38,7 +38,8 @@ from cmf import (
     extraer_cuentas_clave,
     calcular_indicadores_balance,
 )
-from precio_historico_bcs import obtener_cagr_multi, obtener_serie_mensual
+from precio_historico_bcs import (obtener_cagr_multi, obtener_serie_mensual,
+                                   obtener_precio_cierre)
 
 # ============================================================================
 # CONFIGURACIÃ“N
@@ -61,6 +62,11 @@ logging.basicConfig(
         _RFH(_LOG_FILE, maxBytes=3_000_000, backupCount=2, encoding="utf-8"),
         logging.StreamHandler(),
     ],
+    # force=True es imprescindible: bcs_scraper y precio_historico_bcs llaman a
+    # basicConfig al importarse (lineas 36 y 41), y sin force el logger raiz ya
+    # tiene handlers y esta llamada se descarta en silencio. Eso dejaba el
+    # archivo creado pero vacio.
+    force=True,
 )
 log = logging.getLogger("acciones-chilenas")
 
@@ -702,19 +708,29 @@ async def analizar_ticker(ticker_config, bcs_client):
     except Exception as e:
         resultado["error"] = f"BCS: {e}"
 
-    # 1b. Fallback de PRECIO via Yahoo si la BCS no trajo nada (captcha).
-    #     El DY se recalcula con los dividendos que si bajaron, o con los
-    #     preservados del JSON previo: casi no cambian entre corridas.
+    # 1b. Si el navegador no trajo precio (captcha), lo buscamos por otra via.
+    #     Orden: API JSON de la BCS (misma fuente oficial, no se bloquea) y,
+    #     solo si esa falla, Yahoo (.SN). El DY se recalcula con los dividendos
+    #     que si bajaron, o con los preservados del JSON previo.
     if not (resultado.get("precio_actual_clp") or 0):
-        p_yf = precio_fallback_yf(ticker)
+        # Primero la fuente oficial por la via que NO se bloquea: la API JSON
+        # de la BCS. Yahoo queda solo como ultimo recurso.
+        p_api = obtener_precio_cierre(ticker)
+        if p_api and p_api > 0:
+            resultado["precio_actual_clp"] = p_api
+            resultado["precio_fuente"] = "bcs_api"
+            log.info(f"  Precio de {ticker} via API BCS: ${p_api:,.0f}")
+        p_yf = None if (resultado.get("precio_actual_clp") or 0) else precio_fallback_yf(ticker)
         if p_yf and p_yf > 0:
             resultado["precio_actual_clp"] = p_yf
             resultado["precio_fuente"] = "yahoo_sn"
             log.info(f"  Precio de {ticker} via Yahoo (.SN): ${p_yf:,.0f}")
+        _px = resultado.get("precio_actual_clp") or 0
+        if _px > 0:
             divs_para_dy = (resultado.get("_divs_bcs")
                             or resultado.get("dividendos_recientes") or [])
             if divs_para_dy:
-                resultado["dy"] = calcular_dy_jared(divs_para_dy, p_yf)
+                resultado["dy"] = calcular_dy_jared(divs_para_dy, _px)
                 if resultado["dy"].get("dy_pct") is not None:
                     resultado["evaluacion"] = evaluar_vs_benchmark(
                         resultado["dy"]["dy_pct"],

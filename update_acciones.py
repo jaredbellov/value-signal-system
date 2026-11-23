@@ -138,7 +138,7 @@ def main():
 
     # 15 min de holgura sobre una corrida sana (~3 min). El tope anterior de
     # 300s se quedaba corto apenas la BCS entraba en captcha.
-    SCRAPER_TIMEOUT_S = 900
+    SCRAPER_TIMEOUT_S = 1500
     try:
         result = subprocess.run(
             [sys.executable, str(script_path)],
