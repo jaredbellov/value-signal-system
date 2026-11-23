@@ -51,7 +51,11 @@ logging.basicConfig(
     handlers=[
         logging.FileHandler(LOG_FILE, encoding='utf-8'),
         logging.StreamHandler(sys.stdout),
-    ]
+    ],
+    # Sin force=True esta llamada NO hace nada: bcs_scraper y
+    # precio_historico_bcs ya configuraron el root logger al importarse,
+    # y update.log llevaba 6 meses vacio mientras el script si corria.
+    force=True
 )
 log = logging.getLogger(__name__)
 

@@ -1,6 +1,6 @@
 {
-  "fecha_actualizacion": "2026-11-23T04:06:35.515280",
-  "duracion_segundos": 211.048558,
+  "fecha_actualizacion": "2026-11-23T04:15:12.325132",
+  "duracion_segundos": 727.85841,
   "n_acciones": 17,
   "acciones": [
     {
@@ -1680,7 +1680,7 @@
       "benchmark_min_pct": 8.0,
       "benchmark_max_pct": 9.0,
       "descripcion": "Segunda mayor generadora electrica de Chile. Diversificada en hidro, gas, eolica, solar. ROE 4%, payout 79%, G=1%.",
-      "precio_actual_clp": 152.7,
+      "precio_actual_clp": 151.60000610351562,
       "razon_social": null,
       "variacion_pct": null,
       "dy": null,
@@ -1704,7 +1704,7 @@
       },
       "dividendos_recientes": [],
       "error": null,
-      "precio_fuente": "bcs_api",
+      "precio_fuente": "yahoo_sn",
       "serie_precio": [
         {
           "f": "2021-11",
@@ -2041,7 +2041,7 @@
           "bpa": 9.61
         }
       ],
-      "per": 15.9,
+      "per": 15.8,
       "per_bpa_ano": 2025,
       "calidad": {
         "aprobado": false,
@@ -2089,9 +2089,7 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-23T03:37:47.734260",
-      "stale": true,
-      "pendiente": true
+      "_fecha_dato": "2026-11-23T04:07:26.136142"
     },
     {
       "ticker": "ENELGXCH",
@@ -2513,9 +2511,7 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-23T03:38:39.288829",
-      "stale": true,
-      "pendiente": true
+      "_fecha_dato": "2026-11-23T04:08:17.221991"
     },
     {
       "ticker": "LIPIGAS",
@@ -2932,9 +2928,7 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-23T03:39:13.265123",
-      "stale": true,
-      "pendiente": true
+      "_fecha_dato": "2026-11-23T04:08:50.955891"
     },
     {
       "ticker": "NTGCLGAS",
@@ -2944,7 +2938,7 @@
       "benchmark_min_pct": 8.0,
       "benchmark_max_pct": 9.0,
       "descripcion": "Distribucion de gas natural por redes en Chile. Negocio regulado, payout alto. ROE 13%, payout 68%, G=4%.",
-      "precio_actual_clp": 756.1400146484375,
+      "precio_actual_clp": 745.8,
       "razon_social": null,
       "variacion_pct": null,
       "dy": null,
@@ -2968,7 +2962,7 @@
       },
       "dividendos_recientes": [],
       "error": null,
-      "precio_fuente": "yahoo_sn",
+      "precio_fuente": "bcs_api",
       "serie_precio": [
         {
           "f": "2021-11",
@@ -3305,7 +3299,7 @@
           "bpa": 69.95
         }
       ],
-      "per": 10.8,
+      "per": 10.7,
       "per_bpa_ano": 2025,
       "calidad": {
         "aprobado": false,
@@ -3354,9 +3348,7 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-23T03:40:19.721155",
-      "stale": true,
-      "pendiente": true
+      "_fecha_dato": "2026-11-23T04:09:41.656963"
     },
     {
       "ticker": "SOQUICOM",
@@ -3775,9 +3767,7 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-23T03:40:53.970662",
-      "stale": true,
-      "pendiente": true
+      "_fecha_dato": "2026-11-23T04:10:14.665511"
     },
     {
       "ticker": "QUINENCO",
@@ -4197,9 +4187,7 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-23T03:41:30.017156",
-      "stale": true,
-      "pendiente": true
+      "_fecha_dato": "2026-11-23T04:10:48.684747"
     },
     {
       "ticker": "CENCOMALLS",
@@ -4218,7 +4206,7 @@
       "cagr_10y": null,
       "evaluacion": null,
       "cmf": {
-        "periodo": "06/2026",
+        "periodo": "09/2026",
         "tipo_balance": "CONSOLIDADO",
         "moneda": "CLP",
         "unidad": "Miles",
@@ -4226,10 +4214,10 @@
         "roe_periodo": "12/2025",
         "margen_neto_pct": 80.43,
         "margen_periodo": "12/2025",
-        "razon_endeudamiento_pct": 34.81,
-        "razon_corriente": 0.99,
-        "capital_trabajo": -1681661.0,
-        "patrimonio_total": 3142920820.0
+        "razon_endeudamiento_pct": null,
+        "razon_corriente": null,
+        "capital_trabajo": null,
+        "patrimonio_total": null
       },
       "dividendos_recientes": [],
       "error": null,
@@ -4573,12 +4561,13 @@
       "per": 11.9,
       "per_bpa_ano": 2025,
       "calidad": {
-        "aprobado": true,
+        "aprobado": false,
         "reparos": [],
-        "faltantes": [],
-        "avisos": [
-          "Razón corriente 0,99 bajo 1,0: no bloquea, debe poco (0,35x) y genera más caja que utilidad (1,11x)."
+        "faltantes": [
+          "Endeudamiento: sin dato en la CMF",
+          "Razón corriente: sin dato en la CMF"
         ],
+        "avisos": [],
         "criterios": {
           "bpa": {
             "titulo": "BPA creciente",
@@ -4588,9 +4577,9 @@
           },
           "deuda": {
             "titulo": "Deuda sana",
-            "estado": "ok",
-            "detalle": "endeudamiento 0,35x (máximo 1,50x) · razón corriente 0,99",
-            "nota": "Bajo 1,0 no bloquea: debe poco (0,35x) y genera más caja que utilidad (1,11x)."
+            "estado": "sin_datos",
+            "detalle": "endeudamiento sin dato en la CMF (máximo 1,50x) · razón corriente sin dato",
+            "nota": null
           },
           "fcf": {
             "titulo": "El flujo de caja acompaña la utilidad",
@@ -4604,9 +4593,9 @@
         "bpa_anos": 5,
         "bpa_subidas": 4,
         "bpa_variaciones": 4,
-        "endeudamiento_x": 0.35,
+        "endeudamiento_x": null,
         "endeudamiento_max_x": 1.5,
-        "razon_corriente": 0.99,
+        "razon_corriente": null,
         "es_financiera": false,
         "fcf_cobertura": 1.11,
         "fcf_anos": 5,
@@ -4618,9 +4607,7 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-23T03:42:23.747107",
-      "stale": true,
-      "pendiente": true
+      "_fecha_dato": "2026-11-23T04:11:33.637915"
     },
     {
       "ticker": "ENELAM",
@@ -4630,7 +4617,7 @@
       "benchmark_min_pct": 8.0,
       "benchmark_max_pct": 9.0,
       "descripcion": "Mayor electrica privada de Latam. Par regional de Enel Generacion Chile.",
-      "precio_actual_clp": 79.80000305175781,
+      "precio_actual_clp": 79.55,
       "razon_social": null,
       "variacion_pct": null,
       "dy": null,
@@ -4654,7 +4641,7 @@
       },
       "dividendos_recientes": [],
       "error": null,
-      "precio_fuente": "yahoo_sn",
+      "precio_fuente": "bcs_api",
       "serie_precio": [
         {
           "f": "2021-11",
@@ -5040,9 +5027,7 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-23T03:43:29.338618",
-      "stale": true,
-      "pendiente": true
+      "_fecha_dato": "2026-11-23T04:12:24.247472"
     },
     {
       "ticker": "AGUAS-A",
@@ -5459,9 +5444,7 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-23T03:44:04.549530",
-      "stale": true,
-      "pendiente": true
+      "_fecha_dato": "2026-11-23T04:12:57.464297"
     },
     {
       "ticker": "PARAUCO",
@@ -5880,9 +5863,7 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-23T03:44:39.301761",
-      "stale": true,
-      "pendiente": true
+      "_fecha_dato": "2026-11-23T04:13:30.623257"
     },
     {
       "ticker": "MALLPLAZA",
@@ -6302,9 +6283,7 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-23T03:45:11.967581",
-      "stale": true,
-      "pendiente": true
+      "_fecha_dato": "2026-11-23T04:14:03.737279"
     },
     {
       "ticker": "CCU",
@@ -6723,9 +6702,7 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-23T03:45:45.410735",
-      "stale": true,
-      "pendiente": true
+      "_fecha_dato": "2026-11-23T04:14:37.076847"
     },
     {
       "ticker": "OXIQUIM",
@@ -7138,12 +7115,10 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-23T03:46:23.862780",
-      "stale": true,
-      "pendiente": true
+      "_fecha_dato": "2026-11-23T04:15:11.915730"
     }
   ],
-  "parcial": true,
-  "frescas": 4,
+  "parcial": false,
+  "frescas": 17,
   "total": 17
 }
