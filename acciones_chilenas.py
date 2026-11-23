@@ -619,6 +619,62 @@ def _valor_mas_reciente(item):
 # ============================================================================
 
 
+def _escribir_json_atomico(output):
+    """Escribe por archivo temporal y despues reemplaza. Si el proceso muere a
+    mitad de la escritura, el archivo anterior queda intacto: un JSON truncado
+    rompe la pagina entera, que es peor que un dato viejo."""
+    JSON_PATH.parent.mkdir(parents=True, exist_ok=True)
+    tmp = JSON_PATH.with_suffix(".json.tmp")
+    with open(tmp, "w", encoding="utf-8") as f:
+        json.dump(output, f, ensure_ascii=False, indent=2)
+    os.replace(tmp, JSON_PATH)
+
+
+def _guardar_avance(resultados, previo_por_ticker, inicio, final=False):
+    """Guarda lo resuelto hasta ahora, completando con el dato previo de las
+    acciones que todavia no se procesaron.
+
+    Antes el scraper escribia una sola vez al final: si lo mataban en la
+    accion 15 se perdian las 14 ya resueltas. Ahora cada accion queda a salvo
+    apenas se resuelve, y el JSON nunca sale corto porque las pendientes
+    conservan su registro anterior marcado como stale.
+    """
+    ahora = datetime.now()
+    ahora_iso = ahora.isoformat()
+
+    # setdefault: cada accion queda sellada con la hora en que se resolvio,
+    # no con la del ultimo guardado.
+    for r in resultados:
+        if (r.get("precio_actual_clp") or 0) and not r.get("stale"):
+            r.setdefault("_fecha_dato", ahora_iso)
+
+    vistos = {r.get("ticker") for r in resultados}
+    completo = list(resultados)
+    for cfg in WATCHLIST:
+        tk = cfg["ticker"]
+        if tk in vistos:
+            continue
+        prev = previo_por_ticker.get(tk)
+        if prev:
+            prev = dict(prev)
+            prev["stale"] = True
+            prev["pendiente"] = True
+            completo.append(prev)
+
+    frescas = sum(1 for r in resultados
+                  if (r.get("precio_actual_clp") or 0) and not r.get("stale"))
+    _escribir_json_atomico({
+        "fecha_actualizacion": ahora_iso,
+        "duracion_segundos": (ahora - inicio).total_seconds(),
+        "n_acciones": len(completo),
+        "acciones": completo,
+        "parcial": not final,
+        "frescas": frescas,
+        "total": len(WATCHLIST),
+    })
+    return completo
+
+
 def precio_fallback_yf(ticker):
     """Precio de cierre desde Yahoo Finance (<nemo>.SN) cuando la BCS cae en
     captcha. Devuelve float CLP o None. Yahoo SI publica estos nemos."""
@@ -1029,6 +1085,9 @@ async def main():
                 "sector": ticker_config["sector"],
                 "error": str(e),
             })
+        # Guardar el avance apenas se resuelve cada accion: si la corrida se
+        # corta, lo ya obtenido queda publicado igual.
+        _guardar_avance(resultados, previo_por_ticker, inicio)
 
     # Cerrar el browser de Playwright limpiamente
     try:
@@ -1036,29 +1095,14 @@ async def main():
     except Exception:
         pass
 
-    # Sellar la fecha del dato fresco en cada registro con precio valido
-    _ahora_iso = datetime.now().isoformat()
-    for r in resultados:
-        if (r.get("precio_actual_clp") or 0) and not r.get("stale"):
-            r["_fecha_dato"] = _ahora_iso
-
     if n_preservadas:
         log.warning(f"{n_preservadas} accion(es) conservaron su ultimo dato bueno por captcha BCS.")
 
-    # Construir output
-    output = {
-        "fecha_actualizacion": datetime.now().isoformat(),
-        "duracion_segundos": (datetime.now() - inicio).total_seconds(),
-        "n_acciones": len(resultados),
-        "acciones": resultados,
-    }
+    # Guardado final, por el mismo camino atomico que los parciales
+    _guardar_avance(resultados, previo_por_ticker, inicio, final=True)
+    _dur = (datetime.now() - inicio).total_seconds()
 
-    # Guardar JSON
-    JSON_PATH.parent.mkdir(parents=True, exist_ok=True)
-    with open(JSON_PATH, "w", encoding="utf-8") as f:
-        json.dump(output, f, ensure_ascii=False, indent=2)
-
-    log.info(f"OK: {len(resultados)} acciones procesadas en {output['duracion_segundos']:.1f}s")
+    log.info(f"OK: {len(resultados)} acciones procesadas en {_dur:.1f}s")
     log.info(f"JSON guardado en: {JSON_PATH}")
 
     # Resumen visual

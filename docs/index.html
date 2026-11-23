@@ -615,12 +615,6 @@ footer .fbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;font-size:1
 footer .fbrand{font-weight:600;color:var(--tx-2);letter-spacing:.1em}
 footer .fbrand b{color:var(--teal)}
 footer .disc{max-width:560px;line-height:1.5}
-.donate-btn{display:inline-flex;align-items:center;gap:7px;font-size:12px;font-weight:600;
-  padding:7px 14px;border-radius:20px;cursor:pointer;text-decoration:none;
-  background:rgba(38,166,154,.10);border:1px solid var(--z-opp-bd);color:var(--teal-2);
-  transition:background .15s,border-color .15s,transform .12s;white-space:nowrap}
-.donate-btn:hover{background:rgba(38,166,154,.18);border-color:var(--teal);transform:translateY(-1px)}
-.donate-btn .heart{font-size:13px}
 footer a.src{color:var(--tx-3);border-bottom:1px dotted var(--line-2)}
 footer a.src:hover{color:var(--teal-2)}
 
@@ -838,7 +832,6 @@ a[href]:not(nav.tabs a):not(.rf-btn):hover{color:var(--teal-2)}
         <a class="src" href="https://www.bolsadesantiago.com" target="_blank" rel="noopener">Bolsa de Santiago</a>,
         <a class="src" href="https://www.cmfchile.cl" target="_blank" rel="noopener">CMF</a>.
         No es recomendación de inversión.</span>
-      <a class="donate-btn" href="https://link.mercadopago.cl/jaredbello" target="_blank" rel="noopener" title="Donación voluntaria vía Mercado Pago — tú eliges el monto"><span class="heart">☕</span> Invítame un café</a>
       <span style="margin-left:auto;font-family:var(--f-mono)">“Compra miedo, no euforia”</span>
     </div>
   </div>
@@ -880,6 +873,21 @@ const ZONE_MULT = {CARO:0.5,NEUTRAL:1.0,ATRACTIVO:1.5,OPORTUNIDAD:2.5};
 const ZONE_BOUNDS = [0,35,50,70,100]; // caro|neutral|atractivo|oportunidad
 const isBuyZone = z => z==="ATRACTIVO" || z==="OPORTUNIDAD";
 
+/* La frescura real de una fuente con registros por instrumento es la del dato
+   MAS ATRASADO, no la del archivo: el scraper ahora guarda avances parciales,
+   y en un parcial fecha_actualizacion dice "ahora" aunque falten acciones. */
+function _fechaFuente(j){
+  try{
+    const arr = j && j.acciones;
+    if(Array.isArray(arr) && arr.length){
+      const ds = arr.map(a => a && a._fecha_dato).filter(Boolean)
+                    .map(t => new Date(t).getTime()).filter(n => !isNaN(n));
+      if(ds.length === arr.length) return new Date(Math.min(...ds)).toISOString();
+    }
+  }catch(e){}
+  return (j && (j.updated_at_utc || j.fecha_actualizacion)) || null;
+}
+
 /* ---- fetch ---- */
 /* raw.githubusercontent limita por IP. Antes se pedian los 11 archivos de
    golpe, cada uno con un ?t= unico que anulaba el CDN; cuando GitHub
@@ -904,7 +912,7 @@ async function fetchSource(key){
       if(!r.ok) throw new Error("HTTP "+r.status);
       const j = await r.json();
       VS.data[key] = j;
-      VS.updated[key] = j.updated_at_utc || j.fecha_actualizacion || null;
+      VS.updated[key] = _fechaFuente(j);
       VS.status[key] = "ok";
       fallo = null;
       break;
