@@ -44,9 +44,23 @@ from precio_historico_bcs import obtener_cagr_multi, obtener_serie_mensual
 # CONFIGURACIÃ“N
 # ============================================================================
 
+# Log propio a archivo, ademas de la consola. Sin esto, cuando el wrapper mata
+# al proceso por timeout toda la salida se pierde (en Windows TimeoutExpired no
+# devuelve lo que el hijo alcanzo a imprimir) y no queda rastro de hasta donde
+# llego la corrida. Rotativo para que no crezca sin control.
+from logging.handlers import RotatingFileHandler as _RFH
+
+_LOG_DIR = Path(__file__).resolve().parent / "logs"
+_LOG_DIR.mkdir(exist_ok=True)
+_LOG_FILE = _LOG_DIR / "acciones_chilenas.log"
+
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s | %(levelname)s | %(message)s',
+    handlers=[
+        _RFH(_LOG_FILE, maxBytes=3_000_000, backupCount=2, encoding="utf-8"),
+        logging.StreamHandler(),
+    ],
 )
 log = logging.getLogger("acciones-chilenas")
 
@@ -599,6 +613,29 @@ def _valor_mas_reciente(item):
 # ============================================================================
 
 
+def precio_fallback_yf(ticker):
+    """Precio de cierre desde Yahoo Finance (<nemo>.SN) cuando la BCS cae en
+    captcha. Devuelve float CLP o None. Yahoo SI publica estos nemos."""
+    sym = f"{ticker}.SN"
+    try:
+        import yfinance as yf
+        tk = yf.Ticker(sym)
+        try:
+            p = tk.fast_info.last_price
+            if p and p > 0:
+                return float(p)
+        except Exception:
+            pass
+        h = tk.history(period="5d")
+        if not h.empty:
+            cierre = h["Close"].dropna()
+            if len(cierre):
+                return float(cierre.iloc[-1])
+    except Exception as e:
+        log.warning(f"  Fallback yfinance fallo para {sym}: {e}")
+    return None
+
+
 async def analizar_ticker(ticker_config, bcs_client):
     """
     Obtiene todos los datos de un ticker:
@@ -646,6 +683,7 @@ async def analizar_ticker(ticker_config, bcs_client):
         # Parsear dividendos
         if variaciones:
             divs = parsear_dividendos_de_variaciones(variaciones)
+            resultado["_divs_bcs"] = divs  # para el fallback yfinance
             # Guardar los 10 mas recientes
             resultado["dividendos_recientes"] = sorted(
                 divs, key=lambda x: x["fecha_pago"], reverse=True
@@ -663,6 +701,26 @@ async def analizar_ticker(ticker_config, bcs_client):
                 )
     except Exception as e:
         resultado["error"] = f"BCS: {e}"
+
+    # 1b. Fallback de PRECIO via Yahoo si la BCS no trajo nada (captcha).
+    #     El DY se recalcula con los dividendos que si bajaron, o con los
+    #     preservados del JSON previo: casi no cambian entre corridas.
+    if not (resultado.get("precio_actual_clp") or 0):
+        p_yf = precio_fallback_yf(ticker)
+        if p_yf and p_yf > 0:
+            resultado["precio_actual_clp"] = p_yf
+            resultado["precio_fuente"] = "yahoo_sn"
+            log.info(f"  Precio de {ticker} via Yahoo (.SN): ${p_yf:,.0f}")
+            divs_para_dy = (resultado.get("_divs_bcs")
+                            or resultado.get("dividendos_recientes") or [])
+            if divs_para_dy:
+                resultado["dy"] = calcular_dy_jared(divs_para_dy, p_yf)
+                if resultado["dy"].get("dy_pct") is not None:
+                    resultado["evaluacion"] = evaluar_vs_benchmark(
+                        resultado["dy"]["dy_pct"],
+                        ticker_config["benchmark_min"],
+                        ticker_config["benchmark_max"],
+                    )
 
 # 1.5 CAGR historico desde BCS (precio oficial)
     try:

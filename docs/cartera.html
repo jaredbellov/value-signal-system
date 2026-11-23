@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Mi cartera · Value Signal</title>
+<style>
+  :root{
+    --bg:#0b131d; --card:#111c29; --card2:#0e1824; --line:#1e2d3f;
+    --tx:#e6edf5; --mut:#8b9bb0; --teal:#3ddbc0; --red:#ef5f5f; --green:#35c98a;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--tx);
+       font:15px/1.5 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+       padding:16px;max-width:900px;margin-inline:auto}
+  a{color:var(--teal);text-decoration:none}
+  h1{font-size:20px;letter-spacing:.14em;font-weight:600;margin:0}
+  .top{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:4px}
+  .sub{color:var(--mut);font-size:13px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;
+        padding:16px;margin:14px 0}
+  .lock{max-width:420px;margin:12vh auto}
+  input[type=password]{width:100%;padding:11px 12px;border-radius:8px;
+        border:1px solid var(--line);background:var(--card2);color:var(--tx);font-size:16px}
+  button{width:100%;margin-top:10px;padding:11px;border:0;border-radius:8px;
+         background:var(--teal);color:#06231e;font-weight:700;font-size:15px;cursor:pointer}
+  button.ghost{background:transparent;color:var(--mut);border:1px solid var(--line);font-weight:400}
+  .row{display:flex;gap:8px;align-items:center;margin-top:10px;color:var(--mut);font-size:13px}
+  .err{color:var(--red);font-size:13px;margin-top:10px;min-height:1.2em}
+  .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px}
+  .kpi{background:var(--card2);border:1px solid var(--line);border-radius:10px;padding:12px}
+  .kpi .l{color:var(--mut);font-size:11px;text-transform:uppercase;letter-spacing:.08em}
+  .kpi .v{font-size:19px;font-weight:700;margin-top:4px;font-variant-numeric:tabular-nums}
+  table{width:100%;border-collapse:collapse;font-size:14px}
+  th{text-align:right;color:var(--mut);font-size:11px;text-transform:uppercase;
+     letter-spacing:.07em;padding:6px 8px;border-bottom:1px solid var(--line);font-weight:500}
+  th:first-child,td:first-child{text-align:left}
+  td{padding:9px 8px;border-bottom:1px solid var(--line);text-align:right;
+     font-variant-numeric:tabular-nums}
+  tr:last-child td{border-bottom:0}
+  .pos{color:var(--green)} .neg{color:var(--red)}
+  .tag{display:inline-block;background:var(--card2);border:1px solid var(--line);
+       border-radius:20px;padding:1px 9px;font-size:11px;color:var(--mut);margin-left:6px}
+  .sec{font-size:12px;text-transform:uppercase;letter-spacing:.1em;color:var(--mut);
+       margin:0 0 10px}
+  .hint{color:var(--mut);font-size:12.5px;line-height:1.55}
+  @media(max-width:560px){ th,td{padding:7px 5px;font-size:13px} .kpi .v{font-size:17px} }
+</style>
+</head>
+<body>
+
+<div id="lock" class="card lock">
+  <div class="top"><h1>MI CARTERA</h1></div>
+  <p class="hint" style="margin:10px 0 16px">
+    Estos datos viajan cifrados. Se descifran acá, en tu navegador: la contraseña
+    nunca sale de este dispositivo.
+  </p>
+  <input type="password" id="pass" placeholder="Contraseña" autocomplete="current-password">
+  <label class="row"><input type="checkbox" id="recordar" style="width:auto"> Recordar en este dispositivo</label>
+  <button id="btn">Abrir</button>
+  <div class="err" id="err"></div>
+  <p class="hint" style="margin-top:14px"><a href="index.html">‹ Volver al panel</a></p>
+</div>
+
+<div id="app" style="display:none">
+  <div class="top">
+    <h1>MI CARTERA</h1>
+    <span class="sub" id="fecha"></span>
+  </div>
+  <p class="sub" style="margin:2px 0 0"><a href="index.html">‹ Volver al panel</a>
+     · <a href="#" id="olvidar">olvidar en este dispositivo</a></p>
+  <div id="cuerpo"></div>
+</div>
+
+<script>
+const $ = s => document.querySelector(s);
+const LS = "vs_cartera_pass";
+
+const clp = n => n==null||isNaN(n) ? "—" : "$" + Math.round(n).toLocaleString("es-CL");
+const pct = n => n==null||isNaN(n) ? "—" :
+  (n>0?"+":"") + n.toFixed(2).replace(".",",") + "%";
+const cls = n => n==null||isNaN(n) ? "" : (n>0?"pos":n<0?"neg":"");
+const esc = s => String(s==null?"":s)
+  .replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+
+const b64d = s => Uint8Array.from(atob(s), c => c.charCodeAt(0));
+
+async function descifrar(sobre, clave){
+  const enc  = new TextEncoder();
+  const base = await crypto.subtle.importKey("raw", enc.encode(clave), "PBKDF2",
+                                             false, ["deriveKey"]);
+  const key  = await crypto.subtle.deriveKey(
+    { name:"PBKDF2", salt:b64d(sobre.salt), iterations:sobre.iter, hash:"SHA-256" },
+    base, { name:"AES-GCM", length:256 }, false, ["decrypt"]);
+  const pt = await crypto.subtle.decrypt(
+    { name:"AES-GCM", iv:b64d(sobre.iv) }, key, b64d(sobre.ct));
+  return JSON.parse(new TextDecoder().decode(pt));
+}
+
+function render(d){
+  const pos = d.posiciones || [];
+  const divs = d.dividendos || [];
+
+  const costo = pos.reduce((s,p)=>s+(p.costo_total||0),0);
+  const valor = pos.reduce((s,p)=>s+(p.valor||0),0);
+  const pl    = valor - costo;
+  const plPct = costo ? (pl/costo)*100 : null;
+
+  // Yield on cost, separando definitivos de provisorios
+  const sumar = t => divs.filter(x => (x.tipo||"").toLowerCase().startsWith(t))
+                         .reduce((s,x)=>s+(x.monto||0),0);
+  const defi = sumar("defin"), prov = sumar("provis");
+  const otros = divs.reduce((s,x)=>s+(x.monto||0),0) - defi - prov;
+  const yoc = m => costo ? (m/costo)*100 : 0;
+
+  let h = `<div class="card">
+    <div class="sec">Resumen</div>
+    <div class="kpis">
+      <div class="kpi"><div class="l">Valor actual</div><div class="v">${clp(valor)}</div></div>
+      <div class="kpi"><div class="l">Costo</div><div class="v">${clp(costo)}</div></div>
+      <div class="kpi"><div class="l">Resultado</div>
+        <div class="v ${cls(pl)}">${clp(pl)}</div></div>
+      <div class="kpi"><div class="l">Variación</div>
+        <div class="v ${cls(plPct)}">${pct(plPct)}</div></div>
+    </div>
+  </div>`;
+
+  h += `<div class="card">
+    <div class="sec">Posiciones <span class="tag">${pos.length}</span></div>`;
+  if(!pos.length){
+    h += `<p class="hint">Sin posiciones en Zesty.</p>`;
+  } else {
+    h += `<table><thead><tr>
+      <th>Instrumento</th><th>Cant.</th><th>Costo</th><th>Actual</th>
+      <th>Valor</th><th>Resultado</th></tr></thead><tbody>`;
+    for(const p of pos.slice().sort((a,b)=>(b.valor||0)-(a.valor||0))){
+      h += `<tr>
+        <td><b>${esc(p.symbol)}</b>${p.bloque?`<span class="tag">${esc(p.bloque)}</span>`:""}
+            <div class="sub">${esc(p.nombre||"")}</div></td>
+        <td>${p.qty}</td>
+        <td>${clp(p.precio_costo)}</td>
+        <td>${clp(p.precio_actual)}</td>
+        <td>${clp(p.valor)}</td>
+        <td class="${cls(p.pl)}">${clp(p.pl)}<div class="sub ${cls(p.pl_pct)}">${pct(p.pl_pct)}</div></td>
+      </tr>`;
+    }
+    h += `</tbody></table>`;
+  }
+  h += `</div>`;
+
+  h += `<div class="card">
+    <div class="sec">Dividendos y yield on cost</div>`;
+  if(!divs.length){
+    h += `<p class="hint">Todavía no hay dividendos cobrados, así que el yield on cost
+      no se puede calcular aún. Cuando llegue el primero, acá vas a ver el rendimiento
+      sobre tu costo de entrada separado en <b>definitivos</b> y <b>provisorios</b>.</p>`;
+  } else {
+    h += `<div class="kpis">
+      <div class="kpi"><div class="l">YoC definitivos</div><div class="v">${pct(yoc(defi))}</div>
+        <div class="sub">${clp(defi)}</div></div>
+      <div class="kpi"><div class="l">YoC provisorios</div><div class="v">${pct(yoc(prov))}</div>
+        <div class="sub">${clp(prov)}</div></div>
+      <div class="kpi"><div class="l">YoC total</div>
+        <div class="v">${pct(yoc(defi+prov+otros))}</div>
+        <div class="sub">${clp(defi+prov+otros)}</div></div>
+    </div>
+    <table style="margin-top:12px"><thead><tr>
+      <th>Fecha</th><th>Instrumento</th><th>Tipo</th><th>Monto</th></tr></thead><tbody>`;
+    for(const x of divs.slice().sort((a,b)=>String(b.fecha).localeCompare(String(a.fecha)))){
+      h += `<tr><td>${esc(x.fecha)}</td><td>${esc(x.symbol)}</td>
+        <td>${esc(x.tipo||"—")}</td><td>${clp(x.monto)}</td></tr>`;
+    }
+    h += `</tbody></table>`;
+  }
+  h += `</div>`;
+
+  const s = d.saldos || {};
+  h += `<div class="card">
+    <div class="sec">Caja en Zesty</div>
+    <div class="kpis">
+      <div class="kpi"><div class="l">Disponible CLP</div>
+        <div class="v">${clp((s.cl||{}).disponible)}</div></div>
+      <div class="kpi"><div class="l">Disponible USD</div>
+        <div class="v">US$${(((s.us||{}).disponible)||0).toFixed(2)}</div></div>
+    </div>
+  </div>`;
+
+  h += `<p class="hint">Fuente: Zesty · Los montos son los que entrega tu cuenta al momento
+    del último cifrado. Este archivo está cifrado en el repositorio: sin tu contraseña
+    no es legible.</p>`;
+
+  $("#cuerpo").innerHTML = h;
+  $("#fecha").textContent = d.generado
+    ? "datos al " + String(d.generado).slice(0,16).replace("T"," ") : "";
+}
+
+async function abrir(clave, recordar){
+  $("#err").textContent = "";
+  if(!crypto || !crypto.subtle){
+    $("#err").textContent = "Este navegador no permite descifrar acá. Abrí la página por https.";
+    return;
+  }
+  let sobre;
+  try{
+    const r = await fetch("cartera.enc.json?t=" + Math.floor(Date.now()/60000),
+                          {cache:"no-store"});
+    if(!r.ok) throw new Error("HTTP " + r.status);
+    sobre = await r.json();
+  }catch(e){
+    $("#err").textContent = "No pude cargar el archivo cifrado (" + e.message + ").";
+    return;
+  }
+  let datos;
+  try{
+    datos = await descifrar(sobre, clave);
+  }catch(e){
+    $("#err").textContent = "Contraseña incorrecta.";
+    try{ localStorage.removeItem(LS); }catch(_){}
+    return;
+  }
+  if(recordar){ try{ localStorage.setItem(LS, clave); }catch(_){} }
+  $("#lock").style.display = "none";
+  $("#app").style.display  = "";
+  render(datos);
+}
+
+$("#btn").addEventListener("click", () => abrir($("#pass").value, $("#recordar").checked));
+$("#pass").addEventListener("keydown", e => { if(e.key==="Enter") $("#btn").click(); });
+$("#olvidar").addEventListener("click", e => {
+  e.preventDefault();
+  try{ localStorage.removeItem(LS); }catch(_){}
+  location.reload();
+});
+
+(function(){
+  let guardada = null;
+  try{ guardada = localStorage.getItem(LS); }catch(_){}
+  if(guardada){ abrir(guardada, true); }
+  else { $("#pass").focus(); }
+})();
+</script>
+</body>
+</html>
