@@ -52,7 +52,7 @@ FUENTES = {
     "btc_data.json":           ("updated_at_utc",       6, "Score Bitcoin"),
     "gld_data.json":           ("updated_at_utc",       6, "Score Oro"),
     "dividend_etfs_data.json": ("updated_at_utc",       8, "ETFs de dividendos"),
-    "acciones_usa_data.json":  ("updated_at_utc",       8, "Acciones USA"),
+    "acciones_usa_data.json":  ("fecha_actualizacion",  8, "Acciones USA"),
     "sp_nq_data.json":         ("updated_at_utc",      12, "ETFs de crecimiento"),
     "noticias_chile.json":     ("updated_at_utc",      24, "Noticias Chile"),
     "noticias_usa.json":       ("updated_at_utc",      24, "Noticias USA"),
@@ -98,6 +98,17 @@ def revisar():
             continue
 
         f = parse_fecha(d.get(clave))
+        if f is None:
+            # Respaldo: si la clave esperada cambia de nombre, el vigilante no
+            # puede quedarse callado. Busca cualquier sello reconocible antes
+            # de declarar que el archivo no tiene fecha.
+            for alt in ("updated_at_utc", "fecha_actualizacion", "generado",
+                        "updated_at", "timestamp"):
+                if alt != clave and d.get(alt):
+                    f = parse_fecha(d.get(alt))
+                    if f is not None:
+                        print("   aviso: %s uso la clave de respaldo '%s'" % (archivo, alt))
+                        break
         if f is None:
             problemas["sinsello:" + archivo] = "%s: %s no trae fecha utilizable en '%s'" % (nombre, archivo, clave)
             continue

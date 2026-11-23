@@ -1,0 +1,49 @@
+name: Vigilante de frescura
+
+# Avisa por correo cuando los datos de la pagina dejan de actualizarse o
+# llegan incompletos. Corre en la nube A PROPOSITO: si lo que murio es el
+# PC que genera los datos, un vigilante local se muere con el.
+#
+# Lee los JSON del checkout, o sea exactamente lo que la pagina sirve.
+
+on:
+  schedule:
+    # Cada 3 horas. Minuto 40 para no chocar con alerts.yml (:00) ni
+    # update_prices.yml (:15).
+    - cron: '40 */3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  vigilar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # Sin paso de dependencias: el vigilante usa solo la libreria estandar,
+      # para que no pueda caerse por culpa de un paquete que no instalo.
+
+      - name: Revisar frescura de los datos
+        env:
+          GMAIL_USER:         ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          EMAIL_TO:           ${{ secrets.EMAIL_TO }}
+        run: python vigilante_frescura.py
+
+      - name: Guardar estado de avisos
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if [ -f vigilante_state.json ]; then
+            git add vigilante_state.json
+            git diff --staged --quiet || git commit -m "chore: estado del vigilante [skip ci]"
+            git push || echo "Nada que pushear"
+          fi

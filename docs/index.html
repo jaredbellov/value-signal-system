@@ -955,6 +955,27 @@ function _vsCobertura(key, j){
   }catch(e){ console.warn("cobertura", key, e); }
 }
 
+/* ---- LATIDO DEL VIGILANTE ----
+   El vigilante corre en GitHub Actions cada 3 horas y escribe
+   vigilante_state.json. Si ese sello envejece, el vigilante dejo de vigilar
+   y su silencio deja de significar "todo bien": pasa a significar que nadie
+   esta mirando. Por eso el que vigila tambien se muestra aca.
+   No entra en VS.FILES a proposito: no es un dato del tablero y no debe
+   contar en la frescura ni en los errores de las fuentes. */
+const VS_VIGILANTE_ALERTA_H = 8;   // cadencia de 3 h + margen
+
+async function fetchVigilante(){
+  try{
+    const cb = Math.floor(Date.now() / VS_CB_MS);
+    const r = await fetch(VS.BASE + "vigilante_state.json?t=" + cb, {cache:"no-store"});
+    if(!r.ok) throw new Error("HTTP " + r.status);
+    VS.vigilante = await r.json();
+  }catch(e){
+    VS.vigilante = null;
+    console.warn("vigilante: sin senal", e.message);
+  }
+}
+
 /* ---- fetch ---- */
 /* raw.githubusercontent limita por IP. Antes se pedian los 11 archivos de
    golpe, cada uno con un ?t= unico que anulaba el CDN; cuando GitHub
@@ -999,6 +1020,7 @@ async function fetchSource(key){
 
 async function fetchAll(){
   VS.loadedAt = new Date();
+  fetchVigilante();            // sin await: no debe retrasar el tablero
   const claves = Object.keys(VS.FILES);
   for (let i = 0; i < claves.length; i += VS_LOTE){
     await Promise.all(claves.slice(i, i + VS_LOTE).map(fetchSource));
@@ -3312,6 +3334,17 @@ function updateHeader(){
     msg = `datos <b>${fmt.ago(oldest.toISOString())}</b>`;
     if(viejas.length) msg += ` · <span style="color:var(--red)">${viejas.length} fuente${viejas.length>1?"s":""} sin actualizar</span>`;
     if(nErr) msg += ` · <span style="color:var(--red)">${nErr} con error</span>`;
+    const vg = VS.vigilante;
+    if(vg && vg.ultima_revision){
+      const hs = (Date.now() - new Date(vg.ultima_revision).getTime()) / 3600e3;
+      if(hs > VS_VIGILANTE_ALERTA_H){
+        msg += ` · <span style="color:var(--red)" title="El vigilante de frescura no corre desde hace ${hs.toFixed(0)} h. Mientras no corra, que no lleguen avisos NO significa que todo este bien.">vigilante detenido</span>`;
+      }else{
+        msg += ` · <span style="color:var(--tx-3)" title="El vigilante reviso las 12 fuentes y te avisa por correo si alguna se atrasa. Corre en GitHub Actions cada 3 horas, aparte de este PC.">vigilante ${fmt.ago(vg.ultima_revision)}</span>`;
+      }
+    } else {
+      msg += ` · <span style="color:var(--amber,#f59e0b)" title="No se pudo leer vigilante_state.json. El vigilante puede no haber corrido nunca, o el workflow puede estar apagado.">vigilante sin señal</span>`;
+    }
     const parciales = keys.filter(k => VS.data[k] && VS.data[k].cobertura_baja);
     if(parciales.length){
       const tip = parciales.map(k => (k.toUpperCase() + ": " + (VS.data[k].aviso_cobertura||""))).join(" | ");
