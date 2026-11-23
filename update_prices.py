@@ -21,6 +21,13 @@ from pathlib import Path
 
 from bcs_scraper import fetch_bcs_resumen, extraer_datos_precio
 
+# Ruta alternativa de precio: API JSON de la BCS.
+# El captcha bloquea el navegador headless, pero no bloquea este endpoint.
+try:
+    from precio_historico_bcs import obtener_precio_cierre
+except Exception:
+    obtener_precio_cierre = None
+
 # Configuración logging: archivo + consola
 SCRIPT_DIR = Path(__file__).parent
 # Log va a una subcarpeta logs\ dentro del repo (gitignored)
@@ -49,7 +56,7 @@ logging.basicConfig(
 log = logging.getLogger(__name__)
 
 # Configuración
-TICKERS = ["CFISPETF", "CFINASDAQ"]
+TICKERS = ["CFISPETF", "CFINASDAQ", "CFIETFBTC"]
 OUTPUT_FILE = SCRIPT_DIR / "prices.json"
 UMBRAL_CAMBIO_PCT = 0.1  # Solo commitea si cambia >0.1%
 
@@ -62,6 +69,40 @@ def precio_cambió_significativamente(precio_anterior, precio_nuevo):
         return True
     cambio_pct = abs((precio_nuevo - precio_anterior) / precio_anterior * 100)
     return cambio_pct >= UMBRAL_CAMBIO_PCT
+
+
+def _precio_via_api(ticker):
+    """Ultimo cierre segun la API JSON de la BCS. Devuelve None si no hay dato."""
+    if obtener_precio_cierre is None:
+        log.warning("  precio_historico_bcs no disponible: sin respaldo de API")
+        return None
+    try:
+        p = obtener_precio_cierre(ticker)
+    except Exception as e:
+        log.warning(f"  API BCS fallo para {ticker}: {e}")
+        return None
+    if p and p > 0:
+        log.info(f"  Precio de {ticker} via API BCS: ${p:,.0f}")
+        return p
+    log.warning(f"  API BCS sin precio para {ticker}")
+    return None
+
+
+def _datos_desde_api(ticker, precio, ant):
+    """Arma el registro de precio con el mismo esquema que el scraper."""
+    return {
+        "ticker": ticker,
+        "precio_cierre": precio,
+        "precio_actual": precio,
+        "razon_social": (ant or {}).get("razon_social"),
+        "moneda": "CLP",
+        "variacion_pct": None,
+        "monto_transado": None,
+        "fecha_dato": datetime.now().isoformat(),
+        "fuente": "bcs_api",
+        "error": None,
+        "stale": False,
+    }
 
 
 from git_lock import git_lock  # serializa acceso a git entre tareas
@@ -113,15 +154,27 @@ async def main():
 
     for ticker in TICKERS:
         log.info(f"--- Scraping {ticker} ---")
+        ant = previous_data.get("prices", {}).get(ticker, {}) or {}
         try:
-            resumen = await fetch_bcs_resumen(ticker)
-            datos = extraer_datos_precio(resumen, ticker)
+            # Intento 1: navegador (BCS web). Puede caer por captcha.
+            try:
+                resumen = await fetch_bcs_resumen(ticker)
+                datos = extraer_datos_precio(resumen, ticker)
+            except Exception as e_nav:
+                log.warning(f"  Navegador fallo para {ticker}: {e_nav}")
+                datos = {}
 
             precio_actual = datos.get("precio_cierre") or datos.get("precio_actual")
 
+            # Intento 2: API JSON de la BCS, que el captcha no bloquea.
+            if precio_actual is None:
+                p_api = _precio_via_api(ticker)
+                if p_api is not None:
+                    precio_actual = p_api
+                    datos = _datos_desde_api(ticker, p_api, ant)
+
             if precio_actual is not None:
                 # Comparar con precio anterior
-                ant = previous_data.get("prices", {}).get(ticker, {})
                 precio_anterior = ant.get("precio_cierre") or ant.get("precio_actual")
 
                 if precio_cambió_significativamente(precio_anterior, precio_actual):

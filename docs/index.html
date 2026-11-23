@@ -888,6 +888,36 @@ function _fechaFuente(j){
   return (j && (j.updated_at_utc || j.fecha_actualizacion)) || null;
 }
 
+/* Los scores de oro y BTC se NORMALIZAN al peso de las senales que si tienen
+   dato (score_total / peso_aplicado). Efecto secundario: un oro calculado con
+   el 40% de sus insumos se veia identico a uno completo — misma zona, mismo
+   multiplicador, misma confianza. Si la cobertura cae bajo el umbral, el
+   veredicto baja a NEUTRAL (aporte base) y la pagina dice por que.
+   No saber no es lo mismo que saber que esta barato. */
+const VS_COBERTURA_MIN = 70;
+
+function _vsCobertura(key, j){
+  try{
+    if(!j || (key !== "gld" && key !== "btc")) return;
+    const cob = j.peso_aplicado_pct;
+    if(typeof cob !== "number") return;
+    j.cobertura_pct = cob;
+    if(cob >= VS_COBERTURA_MIN) return;
+    const pesos = j.pesos || {}, subs = j.sub_scores || {};
+    const faltan = Object.keys(pesos).filter(k => subs[k] == null);
+    j.zona_original    = j.zona;
+    j.mult_original    = j.multiplicador;
+    j.cobertura_baja   = true;
+    j.cobertura_faltan = faltan;
+    j.aviso_cobertura  = "Score calculado con " + cob + "% de las senales. Sin dato: "
+                       + (faltan.join(", ") || "—") + ". Se mostraba como " + (j.zona_original || "?")
+                       + "; la pagina lo baja a NEUTRAL hasta que las senales vuelvan.";
+    j.zona = "NEUTRAL";
+    j.multiplicador = ZONE_MULT.NEUTRAL;
+    console.warn("cobertura baja en " + key + ": " + cob + "%", faltan);
+  }catch(e){ console.warn("cobertura", key, e); }
+}
+
 /* ---- fetch ---- */
 /* raw.githubusercontent limita por IP. Antes se pedian los 11 archivos de
    golpe, cada uno con un ?t= unico que anulaba el CDN; cuando GitHub
@@ -911,6 +941,7 @@ async function fetchSource(key){
       const r = await fetch(VS.BASE + VS.FILES[key] + "?t=" + cb, {cache:"no-store"});
       if(!r.ok) throw new Error("HTTP "+r.status);
       const j = await r.json();
+      _vsCobertura(key, j);
       VS.data[key] = j;
       VS.updated[key] = _fechaFuente(j);
       VS.status[key] = "ok";
@@ -3244,6 +3275,11 @@ function updateHeader(){
     msg = `datos <b>${fmt.ago(oldest.toISOString())}</b>`;
     if(viejas.length) msg += ` · <span style="color:var(--red)">${viejas.length} fuente${viejas.length>1?"s":""} sin actualizar</span>`;
     if(nErr) msg += ` · <span style="color:var(--red)">${nErr} con error</span>`;
+    const parciales = keys.filter(k => VS.data[k] && VS.data[k].cobertura_baja);
+    if(parciales.length){
+      const tip = parciales.map(k => (k.toUpperCase() + ": " + (VS.data[k].aviso_cobertura||""))).join(" | ");
+      msg += ` · <span style="color:var(--amber,#f59e0b)" title="${esc(tip)}">${parciales.length} score incompleto${parciales.length>1?"s":""}</span>`;
+    }
   }
   else msg = `<b>—</b>`;
   const t = document.getElementById("rfTime");   if(t)  t.innerHTML = msg;

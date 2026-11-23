@@ -161,7 +161,7 @@ WATCHLIST = [
     },
     {
         "ticker": "NTGCLGAS",
-        "nombre": "GASCO",
+        "nombre": "Naturgy Chile (ex GASCO)",
         "sector": "Gas",
         "clasificacion": "Vaca Lechera",
         "benchmark_min": 0.08,
