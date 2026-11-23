@@ -3072,14 +3072,27 @@ function updateHeader(){
   const keys = Object.keys(VS.FILES);
   const anyLoading = keys.some(k=>VS.status[k]==="loading");
   const okTimes = keys.map(k=>VS.updated[k]).filter(Boolean).map(t=>new Date(t).getTime());
-  const newest = okTimes.length?new Date(Math.max(...okTimes)):null;
+  /* El sello muestra la fuente MAS VIEJA, no la mas nueva. Con Math.max, un
+     archivo que se refresca cada 15 min (BTC, oro) tapaba a otro congelado
+     hace semanas: la pagina decia "datos hace 13 min" con precios chilenos
+     de hace 32 dias. La frescura de la pagina es la de su dato mas atrasado. */
+  const oldest = okTimes.length?new Date(Math.min(...okTimes)):null;
   const nErr = keys.filter(k=>VS.status[k]==="error").length;
+  const HORAS_STALE = 24;
+  const viejas = keys.filter(k=>{
+    const t = VS.updated[k];
+    return t && (Date.now() - new Date(t).getTime()) > HORAS_STALE*3600e3;
+  });
 
   const btn = document.getElementById("rfBtn");
   if(btn) btn.classList.toggle("loading", anyLoading);
   let msg;
   if(anyLoading) msg = `<b>actualizando…</b>`;
-  else if(newest) msg = `datos <b>${fmt.ago(newest.toISOString())}</b>${nErr?` · <span style="color:var(--red)">${nErr} con error</span>`:""}`;
+  else if(oldest){
+    msg = `datos <b>${fmt.ago(oldest.toISOString())}</b>`;
+    if(viejas.length) msg += ` · <span style="color:var(--red)">${viejas.length} fuente${viejas.length>1?"s":""} sin actualizar</span>`;
+    if(nErr) msg += ` · <span style="color:var(--red)">${nErr} con error</span>`;
+  }
   else msg = `<b>—</b>`;
   const t = document.getElementById("rfTime");   if(t)  t.innerHTML = msg;
   const t2 = document.getElementById("rfTime2"); if(t2) t2.innerHTML = msg;

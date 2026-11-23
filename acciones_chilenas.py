@@ -828,7 +828,13 @@ def _limpiar_cache_nemo(bcs, ticker):
 # casi cualquier captcha, pero finito para no quedar en bucle si la BCS esta
 # caida de verdad. Las pausas entre intentos crecen para dar tiempo a que el
 # bloqueo temporal se libere.
-MAX_INTENTOS_CAPTCHA = 8
+MAX_INTENTOS_CAPTCHA = 3
+
+# Si varias acciones seguidas caen en captcha, la BCS no esta eligiendo al azar:
+# esta bloqueando a todos. Ahi reintentar es tiempo perdido, asi que el resto de
+# la corrida va con un solo intento por accion.
+CAPTCHA_GLOBAL_TRAS = 3
+_captcha_estado = {"fallos_seguidos": 0, "global": False}
 
 
 async def analizar_con_reintentos(ticker_config, bcs, max_intentos=MAX_INTENTOS_CAPTCHA):
@@ -837,6 +843,8 @@ async def analizar_con_reintentos(ticker_config, bcs, max_intentos=MAX_INTENTOS_
     casi siempre termina pasando. El precio es SIEMPRE de la Bolsa de Santiago
     (sin fuentes alternativas que puedan venir desfasadas)."""
     ticker = ticker_config["ticker"]
+    if _captcha_estado["global"]:
+        max_intentos = 1
     resultado = None
     for intento in range(1, max_intentos + 1):
         if intento > 1:
@@ -847,9 +855,17 @@ async def analizar_con_reintentos(ticker_config, bcs, max_intentos=MAX_INTENTOS_
             await asyncio.sleep(pausa)
         resultado = await analizar_ticker(ticker_config, bcs)
         if _precio_ok(resultado):
+            _captcha_estado["fallos_seguidos"] = 0
             if intento > 1:
                 log.info(f"  {ticker}: precio BCS fresco obtenido en intento {intento}.")
             return resultado
+    _captcha_estado["fallos_seguidos"] += 1
+    if (not _captcha_estado["global"]
+            and _captcha_estado["fallos_seguidos"] >= CAPTCHA_GLOBAL_TRAS):
+        _captcha_estado["global"] = True
+        log.warning(f"La BCS fallo en {CAPTCHA_GLOBAL_TRAS} acciones seguidas: "
+                    f"parece bloqueo global, no captcha aleatorio. "
+                    f"El resto de la corrida va con 1 solo intento por accion.")
     log.warning(f"  {ticker}: la BCS siguio en captcha tras {max_intentos} intentos. "
                 f"Se usara el ultimo precio BCS valido (preservado).")
     return resultado

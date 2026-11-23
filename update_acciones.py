@@ -136,15 +136,33 @@ def main():
         log.error(f"No existe {script_path}")
         return 1
 
-    result = subprocess.run(
-        [sys.executable, str(script_path)],
-        cwd=REPO_PATH,
-        capture_output=True,
-        text=True,
-        timeout=300,  # 5 minutos máximo
-        encoding='utf-8',
-        errors='replace',
-    )
+    # 15 min de holgura sobre una corrida sana (~3 min). El tope anterior de
+    # 300s se quedaba corto apenas la BCS entraba en captcha.
+    SCRAPER_TIMEOUT_S = 900
+    try:
+        result = subprocess.run(
+            [sys.executable, str(script_path)],
+            cwd=REPO_PATH,
+            capture_output=True,
+            text=True,
+            timeout=SCRAPER_TIMEOUT_S,
+            encoding='utf-8',
+            errors='replace',
+        )
+    except subprocess.TimeoutExpired as e:
+        # Antes esta excepcion subia sin capturar y mataba el wrapper ANTES de
+        # llegar a cualquier log: el pipeline quedo un mes caido sin dejar rastro.
+        log.error(f"TIMEOUT: el scraper no termino en {SCRAPER_TIMEOUT_S}s y fue abortado.")
+        parcial = e.stdout or ""
+        if isinstance(parcial, bytes):
+            parcial = parcial.decode("utf-8", "replace")
+        if parcial:
+            log.error(f"  ultimas lineas del scraper: {parcial[-1500:]}")
+        log.error("  El JSON NO se regenero: la pagina sigue con el dato anterior.")
+        return 1
+    except Exception as e:
+        log.error(f"Excepcion al lanzar el scraper: {e!r}")
+        return 1
 
     if result.returncode != 0:
         log.error(f"Scraper falló (código {result.returncode})")
