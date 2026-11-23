@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-23T17:33:49.041628+00:00",
+  "updated_at_utc": "2026-11-23T19:33:48.638308+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "bcch_tpm": {
@@ -69,11 +69,25 @@
     ],
     "dolar_cobre": [
       {
-        "title": "Precio del Cobre hoy en tiempo real | Cotización",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1tQ3BRZGVHeUl4LUtHM1lxM1IybW9fZUl2a2pkODM3TVZBVU9LLTdBVEFDRGZIM21oUkFYcHhRUlNBT2NvUFliUFprUmI3cUltZ1pMZ3JpbUR2SGs?oc=5",
-        "source": "Rankia",
-        "pubdate": "Mon, 23 Nov 2026 15:28:26 GMT",
-        "pubdate_iso": "2026-11-23T15:28:26+00:00",
+        "title": "Chile: cae el cobre, sube el dólar; ¿vuelven las compras?",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdExHaHdVdDhrbDhCSlp4Z0ZNR1ZNSUdFVC1jOHNyaWh0X3ZoNmk2cExHWWJkMXhINk05NllvMU9DVDlOTzNUX3dRb0pxT3kzdmpoenJfQmM2Z012VE9XM2c5U1JtU0FMX3FyRHkzeUhFVm9KV0NCTUY2ZjRZLVM5RzhFeUtzVEJBeWs5bV9OcTBOZFh6ZUtmZFU2dmQ2Wmc4SWVF0gGoAUFVX3lxTE1MNWhHdmVvdFN6bW90QktoRkFPelFzMUNoQThDTEpXV0wxXzRRUk5FUm5rdmNJNktYZTRGS0ltQXliNjl0cEtfUy1CSkE0bTctWEdXQzhhbDhnWVFRRmRjTmJyOTlTWVFtS1FuUk5TUjBmU01uaFlRYVl6N2xhRE5obV9KYnNNejB2Y2gwZUs5ZWJpWmpQRHAtY0tSSXJsSzdUNWtpTnpfdg?oc=5",
+        "source": "Sitio Andino",
+        "pubdate": "Mon, 23 Nov 2026 18:36:00 GMT",
+        "pubdate_iso": "2026-11-23T18:36:00+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🟢",
+          "razonamiento": "Cobre al alza: soporte para economia y CLP"
+        }
+      },
+      {
+        "title": "Precio del dólar hoy en Chile: cotización de cierre del 23 de noviembre",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQngtdVNSbXVIbVR3RENKaElwQ09lMmxvVWZfNnItdXpuUGVXc2F0bEtHVFpCeU9lUi1PLXE2bVBZbW5wZjR5elhyRXBWR3VITFRUN29fNXB0VU10ak9UQTNEdklJT0dkUERkNFM4RFZxQ3JyNGowcktPbEN5cmszOTBsMXRXWFRVbGQzZWNxb3FJekxNLWRiTXdlMGVCcTZXOHMxQkx6RHBOUmJOd0NGMHNJeUFpZ9IB0AFBVV95cUxOS1FreEMwdnAyNE56LS1DWF9saVgyeU1mYTNJam5wUWR2UVRVV2FQWGM5MGFXcV9pTTZrdy00QnM0OUNvQ29wOEEwakE0UHRjUjh0T29tQXZRQ01FVnZrLWNST0ZVWGdEU0dMN3NMYnFBX05UNnRoSmJUNGJ1dG9xTXhsdEJ0YlVKZmRtLU11M0xLd3pOb29IbUpYSUlJeng4b2dwSzNzOW44TjUzQXhKWTRiQV9ZV1JFX2gwRVVzMG5PZzJJblFkVEhsQUNGU3dn?oc=5",
+        "source": "Infobae",
+        "pubdate": "Mon, 23 Nov 2026 18:16:00 GMT",
+        "pubdate_iso": "2026-11-23T18:16:00+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -123,13 +137,15 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
-      },
+      }
+    ],
+    "economia_chile": [
       {
-        "title": "Dólar hoy en Chile: cotización de apertura del 23 de noviembre",
-        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbkI2cGl1VUtDZ3VEUVJNVXhJaW5CRTlvMkFIa3UyZTZtQnpUbnROSFdRSTg5R1h4X3hURHJFUHIxM25Xd19XekNSSWVUOE5VYXAxN3E5UWh4TnFhQ2Z5ajJ0S2tYYjhSdU9TM2pvREhDN3NhOGJRaUN5ZGlWaXBQZlRIQUNPRmFjaHJpLWRVOEtxME5NU3B1d21YOVNsTFBGZzF3aFNiVU5LQdIBxAFBVV95cUxPSFRidmF5dUF0NFJNYmlKeE1rLTEtcDRjSnJhSFVvQ1RnUGQ4YUpyZm5JZ09WUWwtZFZFXzJVQURWejRZUEk4QzRMbEQ2cUhTc0hLUFk3dTRtVnVFTmZ6VHB1RG91WGVSRXZsX2VtYWREaHlDbFdIZGwxT1cxWloxUl9lRUVVb29qcW94TzJobXhPNGNLX1FXbHVSV0FBVEJVWnNYMmlJQy04VnVaS3IyLVNpVFhkM082TmdPdW1sLWowbnY1?oc=5",
-        "source": "Infobae",
-        "pubdate": "Mon, 23 Nov 2026 11:15:00 GMT",
-        "pubdate_iso": "2026-11-23T11:15:00+00:00",
+        "title": "El gran desafío de la economía chilena no es emprender",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOOGlUNlEwOGRwUzVPbVZTMS1PQjNZdmRRRWk3RVR1TENfend5cHI2OVlXNlN5My1kOFVTZmR4VGZ0X2Y4TGRqaTI4YkMyLWtOb1kyU3JndXFpamFuMzBRY21aRXFkUHR0QksyazRibUtFR3JuNi1UcWVJZEJPaG82Qm96R2VKOFBC?oc=5",
+        "source": "NOSTÁLGICA cl",
+        "pubdate": "Mon, 23 Nov 2026 16:54:39 GMT",
+        "pubdate_iso": "2026-11-23T16:54:39+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -137,15 +153,27 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
-      }
-    ],
-    "economia_chile": [
+      },
       {
         "title": "Costo de vida sube como principal preocupación ciudadana mientras Gobierno apuesta por repunte en 2027",
         "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNZjltcXNvOXdZZnVwZUdFU1Z0NkFwRlZGdUw0ODh6OHRkaGg2VWttZ3JYQUhUbjFZWkdVY0FXOVFQb3hkaGFZVzJmTWwzemZPRDhqOUY5djZkMDZkN1AwSktJbTFNUkV3OU1CX2l3M3kyQ0FkRDZNWVI2OVNXemNjczJwZ3RPcC04U0JxdWpQN2ZDN3F2Z1k1SXp1akthVEhScDBTaXVjSGFha1dTbnBiOWRIU1UzT2tmRmZHX1I1N0dfZG5ySVA2T0F3aWZIU1ZIb3g0ZGJCdk1SYkpTOUE?oc=5",
         "source": "Atacama Noticias",
         "pubdate": "Mon, 23 Nov 2026 12:01:39 GMT",
         "pubdate_iso": "2026-11-23T12:01:39+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Chile: Jorge Claro y su fórmula para volver a crecer al 4% - Ex-ante",
+        "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1NTXBvc2p0UHdITkVsYlhhS2VTRmQyck9GMEpNcmVvakd3eEJ0Q3haSE5IY0RRR1UtcGZWcVcyU0U4X2xmSTRsNXdvZXhQcFdoODBoRkR0eHVhVlotZmNseDZlcHFJUUhtbVZzNGh5MFZadThkRHBRRF9n?oc=5",
+        "source": "Ex-ante",
+        "pubdate": "Sun, 22 Nov 2026 13:50:49 GMT",
+        "pubdate_iso": "2026-11-22T13:50:49+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -181,36 +209,37 @@
           "emoji": "⚪",
           "razonamiento": "Sin senal direccional clara en el titular"
         }
-      },
+      }
+    ],
+    "politica_regulacion": [
       {
-        "title": "Marcel: Chile quedó \"bien al límite\" de la recesión técnica y cifras económicas \"son decepcionantes\"",
-        "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQRHJKWVFuRTJaa0p1dG8wZVFPVGFjUklHeHFOb2hPemwxMDZ4Z1R4RnNnUG5ZYzdFV0dLR2FJUzRLRm9FMkQyOHdnN1pRWEhUa0tGYUJWTU0zQk1fTGcyRHZCWHlsYldsa2tMbWR1R29UZVE2ak52NTdfazN2QTBBaDJVeUdhYkgzN21RekprWmlQTm9pM0lPY0d5b3F3MjgwWWtKS196bFBMR0huTVFOekhWTUJIUGhudXNmZkVDWVVDNW9DTFNMalNoTWg1QmxZVDM2d2t5a2hydlR0bE5XaF9rOUhzT1dBZTJNdUIxT1VVXzN1WVdnU05jUS1UbWRueFN1a080Vk9rUQ?oc=5",
-        "source": "BioBioChile",
-        "pubdate": "Fri, 20 Nov 2026 18:07:09 GMT",
-        "pubdate_iso": "2026-11-20T18:07:09+00:00",
+        "title": "Los demócratas se unen a Trump para impulsar un proyecto de ley sobre «accesibilidad económica» respaldado por los grupos de presión de la industria del petróleo y el gas",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBSUWZncDBqYkNLVWRUdWlzVHd2M29IbDl4TjhURTduTHJ4NmkzLU43RGdVQzk3MC1lM3dGbGVwa0wyNzVkUzNYaTJWRmg5Rm9peUlvZEI0cnJMQnhYZVhKOWpyTzEwZ3RB?oc=5",
+        "source": "World Socialist Web Site",
+        "pubdate": "Sat, 21 Nov 2026 16:42:01 GMT",
+        "pubdate_iso": "2026-11-21T16:42:01+00:00",
         "impacto": {
-          "direccion": "negativo",
-          "intensidad": 2,
-          "intensidad_label": "moderado",
-          "emoji": "🔴",
-          "razonamiento": "Riesgo de recesion: muy negativo"
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
         }
       }
     ],
-    "politica_regulacion": [],
     "pensiones_afp": [],
     "energia_tarifas": [],
     "sectores_watchlist": []
   },
   "hechos_esenciales_por_ticker": {},
   "stats": {
-    "total_noticias": 11,
+    "total_noticias": 13,
     "por_categoria": {
       "bcch_tpm": 0,
       "ipsa": 2,
       "dolar_cobre": 5,
-      "economia_chile": 4,
-      "politica_regulacion": 0,
+      "economia_chile": 5,
+      "politica_regulacion": 1,
       "pensiones_afp": 0,
       "energia_tarifas": 0,
       "sectores_watchlist": 0
@@ -218,13 +247,13 @@
     "hechos_esenciales": 0
   },
   "resumen_ejecutivo": {
-    "sentimiento": "bajista",
-    "score_neto": -4,
-    "n_positivas": 0,
-    "n_negativas": 2,
-    "n_neutrales": 9,
-    "narrativa": "El feed muestra 0 senales positivas y 2 negativas (neto -4). Factores dominantes: Cobre a la baja: presion para Chile; Riesgo de recesion: muy negativo.",
+    "sentimiento": "neutral",
+    "score_neto": 0,
+    "n_positivas": 1,
+    "n_negativas": 1,
+    "n_neutrales": 11,
+    "narrativa": "El feed muestra 1 senales positivas y 1 negativas (neto +0). Factores dominantes: Cobre al alza: soporte para economia y CLP; Cobre a la baja: presion para Chile.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "BAJISTA a corto plazo"
+    "veredicto": "NEUTRAL - sin sesgo dominante"
   }
 }
