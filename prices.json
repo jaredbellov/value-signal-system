@@ -1,16 +1,12 @@
 {
-  "updated_at_utc": "2026-11-23T12:59:18.138964+00:00",
-  "updated_at_local": "2026-11-23T12:59:18.138999",
+  "updated_at_utc": "2026-11-23T13:07:53.762573+00:00",
+  "updated_at_local": "2026-11-23T10:07:53.762589",
   "tickers_solicitados": [
     "CFISPETF",
     "CFINASDAQ",
     "CFIETFBTC"
   ],
-  "errores": [
-    "CFISPETF: sin precio",
-    "CFINASDAQ: sin precio",
-    "CFIETFBTC: sin precio"
-  ],
+  "errores": [],
   "prices": {
     "CFISPETF": {
       "ticker": "CFISPETF",
@@ -20,23 +16,23 @@
       "moneda": "CLP",
       "variacion_pct": null,
       "monto_transado": null,
-      "fecha_dato": "2026-11-23T09:34:41.132469",
+      "fecha_dato": "2026-11-23T10:04:40.957591",
       "fuente": "bcs_api",
       "error": null,
-      "stale": true
+      "stale": false
     },
     "CFINASDAQ": {
       "ticker": "CFINASDAQ",
-      "precio_cierre": 2117,
-      "precio_actual": 2117,
+      "precio_cierre": 2099.3,
+      "precio_actual": 2099.3,
       "razon_social": "FI ETF SINGULAR NASDAQ 100",
       "moneda": "CLP",
       "variacion_pct": null,
       "monto_transado": null,
-      "fecha_dato": "2026-11-23T09:36:17.640458",
+      "fecha_dato": "2026-11-23T10:06:17.415654",
       "fuente": "bcs_api",
       "error": null,
-      "stale": true
+      "stale": false
     },
     "CFIETFBTC": {
       "ticker": "CFIETFBTC",
@@ -46,10 +42,10 @@
       "moneda": "CLP",
       "variacion_pct": null,
       "monto_transado": null,
-      "fecha_dato": "2026-11-23T09:37:53.779580",
+      "fecha_dato": "2026-11-23T10:07:53.762288",
       "fuente": "bcs_api",
       "error": null,
-      "stale": true
+      "stale": false
     }
   }
 }
