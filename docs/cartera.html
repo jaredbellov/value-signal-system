@@ -8,30 +8,35 @@
 <style>
   :root{
     --bg:#0b131d; --card:#111c29; --card2:#0e1824; --line:#1e2d3f;
+    --ease:cubic-bezier(.22,.61,.36,1);
+    --surf:linear-gradient(177deg,rgba(255,255,255,.035) 0%,rgba(255,255,255,0) 38%);
     --tx:#e6edf5; --mut:#8b9bb0; --teal:#3ddbc0; --red:#ef5f5f; --green:#35c98a;
   }
   *{box-sizing:border-box}
   body{margin:0;background:var(--bg);color:var(--tx);
-       font:15px/1.5 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+       font:15px/1.55 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
        padding:16px;max-width:900px;margin-inline:auto}
   a{color:var(--teal);text-decoration:none}
-  h1{font-size:20px;letter-spacing:.14em;font-weight:600;margin:0}
+  h1{font-size:24px;letter-spacing:.14em;font-weight:600;margin:0}
   .top{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:4px}
   .sub{color:var(--mut);font-size:13px}
-  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;
-        padding:16px;margin:14px 0}
+  .card{background:var(--card);background-image:var(--surf);border:1px solid var(--line);
+        border-radius:16px;padding:22px;margin:18px 0;
+        box-shadow:0 1px 0 rgba(255,255,255,.035) inset, 0 10px 30px -14px rgba(0,0,0,.75)}
   .lock{max-width:420px;margin:12vh auto}
-  input[type=password]{width:100%;padding:11px 12px;border-radius:8px;
+  input[type=password]{width:100%;padding:13px 14px;border-radius:12px;
         border:1px solid var(--line);background:var(--card2);color:var(--tx);font-size:16px}
-  button{width:100%;margin-top:10px;padding:11px;border:0;border-radius:8px;
-         background:var(--teal);color:#06231e;font-weight:700;font-size:15px;cursor:pointer}
+  button{width:100%;margin-top:12px;padding:13px;border:0;border-radius:999px;
+         background:var(--teal);color:#06231e;font-weight:650;font-size:15px;cursor:pointer;
+         transition:filter .18s var(--ease)}
+  button:hover{filter:brightness(1.08)}
   button.ghost{background:transparent;color:var(--mut);border:1px solid var(--line);font-weight:400}
   .row{display:flex;gap:8px;align-items:center;margin-top:10px;color:var(--mut);font-size:13px}
   .err{color:var(--red);font-size:13px;margin-top:10px;min-height:1.2em}
-  .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px}
-  .kpi{background:var(--card2);border:1px solid var(--line);border-radius:10px;padding:12px}
+  .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px}
+  .kpi{background:var(--card2);border:1px solid var(--line);border-radius:12px;padding:15px}
   .kpi .l{color:var(--mut);font-size:11px;text-transform:uppercase;letter-spacing:.08em}
-  .kpi .v{font-size:19px;font-weight:700;margin-top:4px;font-variant-numeric:tabular-nums}
+  .kpi .v{font-size:24px;font-weight:650;margin-top:6px;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
   table{width:100%;border-collapse:collapse;font-size:14px}
   th{text-align:right;color:var(--mut);font-size:11px;text-transform:uppercase;
      letter-spacing:.07em;padding:6px 8px;border-bottom:1px solid var(--line);font-weight:500}
@@ -42,8 +47,8 @@
   .pos{color:var(--green)} .neg{color:var(--red)}
   .tag{display:inline-block;background:var(--card2);border:1px solid var(--line);
        border-radius:20px;padding:1px 9px;font-size:11px;color:var(--mut);margin-left:6px}
-  .sec{font-size:12px;text-transform:uppercase;letter-spacing:.1em;color:var(--mut);
-       margin:0 0 10px}
+  .sec{font-size:11px;text-transform:uppercase;letter-spacing:.12em;color:var(--mut);
+       margin:0 0 14px;font-weight:600}
   .hint{color:var(--mut);font-size:12.5px;line-height:1.55}
   @media(max-width:560px){ th,td{padding:7px 5px;font-size:13px} .kpi .v{font-size:17px} }
 </style>
