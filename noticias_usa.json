@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-23T02:03:26.371662+00:00",
+  "updated_at_utc": "2026-11-23T02:33:27.448967+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -69,8 +69,8 @@
         "title": "Precio de acciones, noticias, cotización e historial de NVIDIA Corporation (NVDA)",
         "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9kanItV1ZzUkxTX251dWR5N2pVU0o1OGIxcTFLcnlUeUlDMU9JS3IySlZWelU2T2djT2wweENJTFRkLUtZR3hQMnhoa0hodUI4VFE?oc=5",
         "source": "Yahoo",
-        "pubdate": "Sun, 22 Nov 2026 16:56:59 GMT",
-        "pubdate_iso": "2026-11-22T16:56:59+00:00",
+        "pubdate": "Sun, 22 Nov 2026 16:17:35 GMT",
+        "pubdate_iso": "2026-11-22T16:17:35+00:00",
         "impacto": {
           "direccion": "neutral",
           "intensidad": 0,
@@ -224,20 +224,6 @@
         }
       },
       {
-        "title": "Wall Street cae: S&P 500 baja 3.70% y Nasdaq pierde 5.28% el 20 de noviembre",
-        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUFdQLUpvTktCN2VuMWp4ZjZ0MTlxRTc3ZDdiQ3VmckVNaTNTQUpiZ0pxWjNQMWdvenBVcHRFUXo1UnFSSHl6RkRsU2xQT1BhbW1fM3YxVWRCVEtXWTNYSUxFaEdCcndZRG9KUVE4ZUtyWU8xajVXczFWSVR0QXNRSGxvZzNYeVI4TGxXdk41Zk1kdWZMeWR5dQ?oc=5",
-        "source": "Columna Digital",
-        "pubdate": "Fri, 20 Nov 2026 21:35:15 GMT",
-        "pubdate_iso": "2026-11-20T21:35:15+00:00",
-        "impacto": {
-          "direccion": "negativo",
-          "intensidad": 2,
-          "intensidad_label": "moderado",
-          "emoji": "🔴",
-          "razonamiento": "Wall Street a la baja"
-        }
-      },
-      {
         "title": "Acciones tech en oferta: 55% de descuento en InvestingPro Por Investing.com - Investing.com México",
         "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPb0JlaXVvdmh5aW1pOWNFWlBsZnc2UUNtZkw3Q0tPamY3eVRMQnlUUV9rU2dLbmlTbGhFaXpSRUsybDB2RE9hNkpMTFd4TmZRVFpTMHZvNlFyN19JWEd2cjVsWXQtUTlraW9mV2Z4Qi1ncFZrYmhZM29XaEhPbF9NRHFLSUJuZ2RpYWJLN1VzcFVwY1R1akVKVXNkRGl0LTJnb3pSdEVfb0F6b3EtWWVDdjB0N3FxVjdtcTNZemdQSjBOV2FYXzN2NWN3?oc=5",
         "source": "Investing.com México - Finanzas, Bolsa y Forex",
@@ -254,21 +240,21 @@
     ]
   },
   "stats": {
-    "total_noticias": 16,
+    "total_noticias": 15,
     "por_categoria": {
       "tesla": 3,
       "nvidia": 3,
       "ia_semis": 5,
-      "macro_tech": 5
+      "macro_tech": 4
     }
   },
   "resumen_ejecutivo": {
     "sentimiento": "bajista",
-    "score_neto": -16,
+    "score_neto": -14,
     "n_positivas": 0,
-    "n_negativas": 7,
+    "n_negativas": 6,
     "n_neutrales": 9,
-    "narrativa": "El feed muestra 0 senales positivas y 7 negativas (neto -16). Factores dominantes: Selloff: presion vendedora; Selloff: presion vendedora.",
+    "narrativa": "El feed muestra 0 senales positivas y 6 negativas (neto -14). Factores dominantes: Selloff: presion vendedora; Selloff: presion vendedora.",
     "narrativa_fuente": "plantilla",
     "veredicto": "BAJISTA a corto plazo"
   }
