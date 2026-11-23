@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-23T00:33:27.580587+00:00",
+  "updated_at_utc": "2026-11-23T01:03:26.450439+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -64,7 +64,36 @@
         }
       }
     ],
-    "nvidia": [],
+    "nvidia": [
+      {
+        "title": "Nvidia sufre su peor semana desde 2008 por investigación de la SEC - Investing.com México",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQnVUT29PaHRBamtEemNWTk1Fb3Y4YmhzSWRUWUgxM3VfQTZZb0pCUWVGVXN5N1VIWi1JdDVxb0FDMUxTREtNSEVMa2dQd09HLTVzQWhJQUc5RFpEbXlNQ1VJMU1VRTBacEQ2cXh3eHBZWE1VYUVzVTFYQlNIQ2t0VUhzd2d2VG5kWE1vN0ozWDBNXzFwMGlaZmJIYUJaakg4b0xRaUI5eW1ZQXBDRGdsbWQxZGtSVzNHdXVZ?oc=5",
+        "source": "Investing.com México - Finanzas, Bolsa y Forex",
+        "pubdate": "Fri, 20 Nov 2026 23:35:12 GMT",
+        "pubdate_iso": "2026-11-20T23:35:12+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Nvidia se desploma en Wall Street: sus acciones cayeron 14% tras informe sobre investigación de la SEC",
+        "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNRmNvZFExSzJNRzdTVlpIZGJnTGt2WTRId2VGaTlVbEdnYkdnQjhKbkJ5bXdQYmFHOHFxZVhiY245TVB3NWVQZ2tZTU9uYmFKN1NHMEZ3d0x5N21OaEMzYk5jZEd4WWFxYm5JWXhDNk01TVVUanI0ZU5PdnBzQ2ppZklRX2VwZ1dmWERXTDFKMDZhSjRpTVc2cHBpYXpEenJFTUR2bVhDRVozWXlNWlVzRTlaMDZSSVNSOHFVTUQtSVhjd21qUkgzMGU0QWNMaTFVSmdvcDRVSUVVSHFI0gHwAUFVX3lxTFBqS05UMGNpLW1IVFk3YkNMb3FTSmUwbmtkcUZNcG5hVnRWbWJrUTFlX3I2SGxXd1MxNERTZ2VRMEpmR1JpZ0hIdF92OXQxRzByMjVPRk5ZRXBHdGVTYlExM21wazF6YnJBQWdVeHB3bEZnT1dJVXA3VUhOXy1WM1lIMnY5ZkNsTHM5LU5xWlczWXE4cC13eUwzRjg0SzMwaTRUQXQ5OW5uOTdleXhGWFItWEdPZ3hyMkYzWmhsbHNYWnlERWxZNnNabWpvZ3BlbU5rRVlYUGlHZHlsY3NFVkJSX1pSZDNsUzVvay01U2NfeA?oc=5",
+        "source": "Bloomberg Línea",
+        "pubdate": "Fri, 20 Nov 2026 21:23:47 GMT",
+        "pubdate_iso": "2026-11-20T21:23:47+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Desplome: muy negativo"
+        }
+      }
+    ],
     "ia_semis": [
       {
         "title": "Dan Ives Calls AI Sell-Off One Of The Most ‘Disconnected’ In His Career, Says Wall Street Is Acting Like AI Is Dead — ‘This Is A Generational Opportunity’",
@@ -211,21 +240,21 @@
     ]
   },
   "stats": {
-    "total_noticias": 13,
+    "total_noticias": 15,
     "por_categoria": {
       "tesla": 3,
-      "nvidia": 0,
+      "nvidia": 2,
       "ia_semis": 5,
       "macro_tech": 5
     }
   },
   "resumen_ejecutivo": {
     "sentimiento": "bajista",
-    "score_neto": -14,
+    "score_neto": -16,
     "n_positivas": 0,
-    "n_negativas": 6,
-    "n_neutrales": 7,
-    "narrativa": "El feed muestra 0 senales positivas y 6 negativas (neto -14). Factores dominantes: Selloff: presion vendedora; Selloff: presion vendedora.",
+    "n_negativas": 7,
+    "n_neutrales": 8,
+    "narrativa": "El feed muestra 0 senales positivas y 7 negativas (neto -16). Factores dominantes: Selloff: presion vendedora; Selloff: presion vendedora.",
     "narrativa_fuente": "plantilla",
     "veredicto": "BAJISTA a corto plazo"
   }
