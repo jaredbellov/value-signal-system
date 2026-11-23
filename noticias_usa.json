@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-23T15:03:24.613691+00:00",
+  "updated_at_utc": "2026-11-23T15:33:24.208223+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "tesla": {
@@ -21,6 +21,20 @@
   },
   "noticias_por_categoria": {
     "tesla": [
+      {
+        "title": "Cathie Wood Says TSLA Holders ‘Will Get’ A Premium If SpaceX Buys Tesla — HSBC Puts It At Over 30%",
+        "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPNGtvVFRPOTlaNWY3UGFvUXVwLXJzUkZpd3k4dlBwWnpOa2VWVGlqV29uZUpCMm51ZC0wOS15LVcxRTZhdkpFY2lrUWpFSFBobGh0NHotN19HWk03OGZ0SXdKVmpOZHdZT0dudEljd2JOV3U5YjVzWVhxNjFFeWMyd2w4a3VReURaZjJQM0R6VmVRMTBObXBWaE5LdTNnMVp2SHpQMzFhTEhUSm1VZk1kM1JnZkdnLXY0Wl9fNXJWUWV3OEd2LS1ITG9NVlYtUm42NVBianhYcmc0eWhxVU91QU9Wd1NLTUYw?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 23 Nov 2026 07:14:00 GMT",
+        "pubdate_iso": "2026-11-23T07:14:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
       {
         "title": "Tesla Stock Tumbles: What's Going On?",
         "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNRjRtdjV3V21hR3c4YldfX2dzVWJTcF9Ya2hhODZzWjhWS2tZVzdQYVV2ZkRrZlJGdl85RFlNd1BuYlZ4LTZEQ1RQczBlTTVSSGViZThyUGRlaFdneXR6N2lJd3R2TDFuQXZ2cjI3cXpVWUlXYjBLQ1FkSWVTTnRGZzJrbmo4S2FiMWJjTUFJWEdoYTAwazUtOA?oc=5",
@@ -198,9 +212,9 @@
     ]
   },
   "stats": {
-    "total_noticias": 12,
+    "total_noticias": 13,
     "por_categoria": {
-      "tesla": 2,
+      "tesla": 3,
       "nvidia": 3,
       "ia_semis": 3,
       "macro_tech": 4
@@ -211,7 +225,7 @@
     "score_neto": -10,
     "n_positivas": 0,
     "n_negativas": 4,
-    "n_neutrales": 8,
+    "n_neutrales": 9,
     "narrativa": "El feed muestra 0 senales positivas y 4 negativas (neto -10). Factores dominantes: Selloff: presion vendedora; Selloff: presion vendedora.",
     "narrativa_fuente": "plantilla",
     "veredicto": "BAJISTA a corto plazo"
