@@ -1,6 +1,6 @@
 {
-  "fecha_actualizacion": "2026-11-23T09:36:29.102769",
-  "duracion_segundos": 205.710276,
+  "fecha_actualizacion": "2026-11-23T09:44:27.803610",
+  "duracion_segundos": 684.411117,
   "n_acciones": 17,
   "acciones": [
     {
@@ -2089,9 +2089,7 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-23T09:07:02.323616",
-      "stale": true,
-      "pendiente": true
+      "_fecha_dato": "2026-11-23T09:37:01.290643"
     },
     {
       "ticker": "ENELGXCH",
@@ -2513,9 +2511,7 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-23T09:07:52.078032",
-      "stale": true,
-      "pendiente": true
+      "_fecha_dato": "2026-11-23T09:37:50.652988"
     },
     {
       "ticker": "LIPIGAS",
@@ -2932,9 +2928,7 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-23T09:08:24.577288",
-      "stale": true,
-      "pendiente": true
+      "_fecha_dato": "2026-11-23T09:38:22.776474"
     },
     {
       "ticker": "NTGCLGAS",
@@ -2944,12 +2938,12 @@
       "benchmark_min_pct": 8.0,
       "benchmark_max_pct": 9.0,
       "descripcion": "Distribucion de gas natural por redes en Chile. Negocio regulado, payout alto. ROE 13%, payout 68%, G=4%.",
-      "precio_actual_clp": 745.8,
+      "precio_actual_clp": 749.76,
       "razon_social": null,
       "variacion_pct": null,
       "dy": null,
-      "cagr_3y": 0.5507107389100809,
-      "cagr_5y": 0.25645536321121476,
+      "cagr_3y": 0.5534505162301016,
+      "cagr_5y": 0.2577868271995052,
       "cagr_10y": null,
       "evaluacion": null,
       "cmf": {
@@ -3212,7 +3206,7 @@
         },
         {
           "f": "2026-11",
-          "p": 745.8
+          "p": 749.76
         }
       ],
       "flujos_5y": [
@@ -3354,9 +3348,7 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-23T09:09:14.158766",
-      "stale": true,
-      "pendiente": true
+      "_fecha_dato": "2026-11-23T09:39:12.604370"
     },
     {
       "ticker": "SOQUICOM",
@@ -3366,13 +3358,13 @@
       "benchmark_min_pct": 8.0,
       "benchmark_max_pct": 9.0,
       "descripcion": "Distribuidora de fertilizantes especiales en Chile. Filial de SQM. Reclasificada de DGI a Vaca Lechera (2026): BPA decreciente 5 anos seguidos (-14%/ano), no corresponde la exigencia de una empresa en crecimiento.",
-      "precio_actual_clp": 365,
+      "precio_actual_clp": 360,
       "razon_social": null,
       "variacion_pct": null,
       "dy": null,
-      "cagr_3y": 0.1481744259053619,
-      "cagr_5y": 0.08100524193701775,
-      "cagr_10y": 0.07505815963355222,
+      "cagr_3y": 0.14290749668541336,
+      "cagr_5y": 0.0780272208003654,
+      "cagr_10y": 0.07357631949273102,
       "evaluacion": null,
       "cmf": {
         "periodo": "09/2026",
@@ -3634,7 +3626,7 @@
         },
         {
           "f": "2026-11",
-          "p": 365
+          "p": 360
         }
       ],
       "flujos_5y": [
@@ -3727,7 +3719,7 @@
           "bpa": 25.39
         }
       ],
-      "per": 14.4,
+      "per": 14.2,
       "per_bpa_ano": 2025,
       "calidad": {
         "aprobado": false,
@@ -3775,9 +3767,7 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-23T09:09:46.867497",
-      "stale": true,
-      "pendiente": true
+      "_fecha_dato": "2026-11-23T09:39:44.779388"
     },
     {
       "ticker": "QUINENCO",
@@ -3787,13 +3777,13 @@
       "benchmark_min_pct": 8.0,
       "benchmark_max_pct": 9.0,
       "descripcion": "Holding del grupo Luksic. Participaciones en CCU, Banco de Chile, Madeco, Enex, Vapores. ROE 10%, payout 73%, G=3%.",
-      "precio_actual_clp": 4480,
+      "precio_actual_clp": 4522.4,
       "razon_social": null,
       "variacion_pct": null,
       "dy": null,
-      "cagr_3y": 0.22618852283605362,
-      "cagr_5y": 0.21373801177868756,
-      "cagr_10y": 0.11168744251973761,
+      "cagr_3y": 0.23004471577092378,
+      "cagr_5y": 0.21602679608425457,
+      "cagr_10y": 0.11273512099570304,
       "evaluacion": null,
       "cmf": {
         "periodo": "06/2026",
@@ -4055,7 +4045,7 @@
         },
         {
           "f": "2026-11",
-          "p": 4480
+          "p": 4522.4
         }
       ],
       "flujos_5y": [
@@ -4148,7 +4138,7 @@
           "bpa": 409.18
         }
       ],
-      "per": 10.9,
+      "per": 11.1,
       "per_bpa_ano": 2025,
       "calidad": {
         "aprobado": false,
@@ -4197,9 +4187,7 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-23T09:10:19.748430",
-      "stale": true,
-      "pendiente": true
+      "_fecha_dato": "2026-11-23T09:40:17.011047"
     },
     {
       "ticker": "CENCOMALLS",
@@ -4209,12 +4197,12 @@
       "benchmark_min_pct": 8.0,
       "benchmark_max_pct": 9.0,
       "descripcion": "Filial inmobiliaria de Cencosud. Operadora de centros comerciales en Chile, Peru y Colombia. ROE 11%, payout 46%, G=6%.",
-      "precio_actual_clp": 2120,
+      "precio_actual_clp": 2122.2,
       "razon_social": null,
       "variacion_pct": null,
       "dy": null,
-      "cagr_3y": 0.14313473017728717,
-      "cagr_5y": 0.181706451936257,
+      "cagr_3y": 0.14353001743748495,
+      "cagr_5y": 0.18195161002327964,
       "cagr_10y": null,
       "evaluacion": null,
       "cmf": {
@@ -4477,7 +4465,7 @@
         },
         {
           "f": "2026-11",
-          "p": 2120
+          "p": 2122.2
         }
       ],
       "flujos_5y": [
@@ -4619,9 +4607,7 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-23T09:11:01.328895",
-      "stale": true,
-      "pendiente": true
+      "_fecha_dato": "2026-11-23T09:40:58.490871"
     },
     {
       "ticker": "ENELAM",
@@ -5041,9 +5027,7 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-23T09:11:49.178881",
-      "stale": true,
-      "pendiente": true
+      "_fecha_dato": "2026-11-23T09:41:46.011599"
     },
     {
       "ticker": "AGUAS-A",
@@ -5053,13 +5037,13 @@
       "benchmark_min_pct": 8.0,
       "benchmark_max_pct": 9.0,
       "descripcion": "Mayor sanitaria de Chile. Negocio regulado y muy estable, dividendos altos y predecibles. Precio via Yahoo (.SN) por bloqueo captcha BCS.",
-      "precio_actual_clp": 319.1,
+      "precio_actual_clp": 320.13,
       "razon_social": null,
       "variacion_pct": null,
       "dy": null,
-      "cagr_3y": 0.050827355877970604,
-      "cagr_5y": 0.12509891939505624,
-      "cagr_10y": -0.028639551319933676,
+      "cagr_3y": 0.051956771642517774,
+      "cagr_5y": 0.12582430864497063,
+      "cagr_10y": -0.028326467341475925,
       "evaluacion": null,
       "cmf": {
         "periodo": "06/2026",
@@ -5321,7 +5305,7 @@
         },
         {
           "f": "2026-11",
-          "p": 319.1
+          "p": 320.13
         }
       ],
       "flujos_5y": [
@@ -5460,9 +5444,7 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-23T09:12:22.569723",
-      "stale": true,
-      "pendiente": true
+      "_fecha_dato": "2026-11-23T09:42:18.841052"
     },
     {
       "ticker": "PARAUCO",
@@ -5472,13 +5454,13 @@
       "benchmark_min_pct": 8.0,
       "benchmark_max_pct": 9.0,
       "descripcion": "Operador de centros comerciales en Chile, Peru y Colombia. Dividendos estables. Precio via Yahoo (.SN) por bloqueo captcha BCS.",
-      "precio_actual_clp": 3500,
+      "precio_actual_clp": 3540.1,
       "razon_social": null,
       "variacion_pct": null,
       "dy": null,
-      "cagr_3y": 0.4057211088362487,
-      "cagr_5y": 0.31385096721169714,
-      "cagr_10y": 0.08709671884838155,
+      "cagr_3y": 0.41106925158461793,
+      "cagr_5y": 0.3168478598181248,
+      "cagr_10y": 0.0883358458471013,
       "evaluacion": null,
       "cmf": {
         "periodo": "09/2026",
@@ -5740,7 +5722,7 @@
         },
         {
           "f": "2026-11",
-          "p": 3500
+          "p": 3540.1
         }
       ],
       "flujos_5y": [
@@ -5833,7 +5815,7 @@
           "bpa": 163.33
         }
       ],
-      "per": 21.4,
+      "per": 21.7,
       "per_bpa_ano": 2025,
       "calidad": {
         "aprobado": false,
@@ -5881,9 +5863,7 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-23T09:12:54.902361",
-      "stale": true,
-      "pendiente": true
+      "_fecha_dato": "2026-11-23T09:42:51.039591"
     },
     {
       "ticker": "MALLPLAZA",
@@ -5893,12 +5873,12 @@
       "benchmark_min_pct": 8.0,
       "benchmark_max_pct": 9.0,
       "descripcion": "Operador de malls (grupo Falabella). Negocio inmobiliario de renta estable. Precio via Yahoo (.SN) por bloqueo captcha BCS.",
-      "precio_actual_clp": 3349.9,
+      "precio_actual_clp": 3321.9,
       "razon_social": null,
       "variacion_pct": null,
       "dy": null,
-      "cagr_3y": 0.4085940724432291,
-      "cagr_5y": 0.2818325545214817,
+      "cagr_3y": 0.404658528616449,
+      "cagr_5y": 0.2796825252498092,
       "cagr_10y": null,
       "evaluacion": null,
       "cmf": {
@@ -6161,7 +6141,7 @@
         },
         {
           "f": "2026-11",
-          "p": 3349.9
+          "p": 3321.9
         }
       ],
       "flujos_5y": [
@@ -6303,9 +6283,7 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-23T09:13:27.193088",
-      "stale": true,
-      "pendiente": true
+      "_fecha_dato": "2026-11-23T09:43:23.156363"
     },
     {
       "ticker": "CCU",
@@ -6724,9 +6702,7 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-23T09:13:59.692388",
-      "stale": true,
-      "pendiente": true
+      "_fecha_dato": "2026-11-23T09:43:55.444045"
     },
     {
       "ticker": "OXIQUIM",
@@ -7139,12 +7115,10 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-23T09:14:32.089112",
-      "stale": true,
-      "pendiente": true
+      "_fecha_dato": "2026-11-23T09:44:27.701764"
     }
   ],
-  "parcial": true,
-  "frescas": 4,
+  "parcial": false,
+  "frescas": 17,
   "total": 17
 }
