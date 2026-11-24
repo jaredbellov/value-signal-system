@@ -1,41 +1,41 @@
 {
-  "updated_at_utc": "2026-11-23T21:15:06.663956+00:00",
-  "precio_btc": 61298.48,
+  "updated_at_utc": "2026-11-24T13:00:25.319601+00:00",
+  "precio_btc": 60337.97,
   "precio_ibit": 34.62,
-  "score_final": 82.8,
+  "score_final": 83.3,
   "zona": "OPORTUNIDAD",
   "multiplicador": 2.5,
   "peso_aplicado_pct": 100,
   "sub_fechas": {
-    "drawdown": "2026-11-23T21:15:06.632405+00:00",
-    "fear_greed": "2026-11-23T21:15:06.632405+00:00",
-    "pi_cycle": "2026-11-23T21:15:06.632405+00:00",
-    "halving_cycle": "2026-11-23T21:15:06.632405+00:00",
-    "momentum": "2026-11-23T21:15:06.632405+00:00",
-    "mvrv": "2026-11-23T21:15:06.632405+00:00"
+    "drawdown": "2026-11-24T13:00:25.266927+00:00",
+    "fear_greed": "2026-11-24T13:00:25.266927+00:00",
+    "pi_cycle": "2026-11-24T13:00:25.266927+00:00",
+    "halving_cycle": "2026-11-24T13:00:25.266927+00:00",
+    "momentum": "2026-11-24T13:00:25.266927+00:00",
+    "mvrv": "2026-11-24T13:00:25.266927+00:00"
   },
   "senales_reusadas": [],
   "sub_scores": {
-    "drawdown": 84.8,
+    "drawdown": 86.1,
     "fear_greed": 89,
-    "pi_cycle": 97.9,
+    "pi_cycle": 97.8,
     "halving_cycle": 85,
-    "momentum": 51.2,
-    "mvrv": 84.5
+    "momentum": 53.2,
+    "mvrv": 84.4
   },
   "sub_detalles": {
     "drawdown": {
-      "drawdown_pct": -50.86,
+      "drawdown_pct": -51.63,
       "ath": 124752.53,
-      "precio_actual": 61298.48
+      "precio_actual": 60337.97
     },
     "fear_greed": {
       "fg_value": 11,
       "classification": "Extreme Fear"
     },
     "pi_cycle": {
-      "ma_111": 76244.68,
-      "ma_350_x2": 149343.99,
+      "ma_111": 76205.52,
+      "ma_350_x2": 149158.61,
       "ratio": 0.511
     },
     "halving_cycle": {
@@ -45,11 +45,11 @@
       "fase": "Acumulacion pre-halving"
     },
     "momentum": {
-      "ret_12_1_pct": 4.63
+      "ret_12_1_pct": 12.86
     },
     "mvrv": {
-      "z_score": 0.367,
-      "fecha": "2026-11-16"
+      "z_score": 0.372,
+      "fecha": "2026-11-17"
     }
   },
   "pesos": {
@@ -61,10 +61,6 @@
     "mvrv": 15
   },
   "historico_btc": [
-    {
-      "fecha": "2021-11-23",
-      "precio": 57569.07
-    },
     {
       "fecha": "2021-11-24",
       "precio": 56280.43
@@ -7367,7 +7363,11 @@
     },
     {
       "fecha": "2026-11-23",
-      "precio": 61298.48
+      "precio": 61210.98
+    },
+    {
+      "fecha": "2026-11-24",
+      "precio": 60337.97
     }
   ]
 }

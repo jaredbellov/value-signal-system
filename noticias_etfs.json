@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-23T21:37:07.488382+00:00",
+  "updated_at_utc": "2026-11-24T13:00:27.506548+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "fed_tasas": {
@@ -28,32 +28,331 @@
     }
   },
   "noticias_por_categoria": {
-    "fed_tasas": [],
-    "mercado": [],
-    "tech_nasdaq": [],
+    "fed_tasas": [
+      {
+        "title": "Nvidia's Slide, Bitcoin's Sell-Off, Oil's Fed Impact: 3 Charts To Watch This Week",
+        "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPclJLTHNKQmppd3NsSG16UWF3STRnNzdLUlZqQjVhbTU4dGFMWDZ6OVpaNXVYRTAzZ08wTGEySV9wNzZSYm5BSU85bWhHWUFjVHJvc1BmRG9uczctWW1KNGQ3Y2F4bWdvZExuZ0FFVFVBZmRRdlFTYl9MdUlycFQwTXRMN04zbk51Z0FLdnFGX2d5TmJ0dW5WTktDV1ZVMzBtd055UGo2VFJEQVBWelJid2NpWkRqMzR2TWlPRU5Va1paSFZhc2FGXzR6RTVDbmZPQUZUbg?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 23 Nov 2026 10:53:49 GMT",
+        "pubdate_iso": "2026-11-23T10:53:49+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 3,
+          "intensidad_label": "fuerte",
+          "emoji": "🔴🔴",
+          "razonamiento": "Selloff: presion vendedora"
+        }
+      }
+    ],
+    "mercado": [
+      {
+        "title": "Los 10 más ricos de Estados Unidos en 2026, según Forbes",
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZVRYZ1hlU2UwSkE4VTBqWlRob0tYR1RDNjZOVktabTlwcHFrb3RiQXZMU0Q0MG5wcGd6SktBcVlsMC1FMWNfdTZqVzRvRE9RRjY0aF80Y3ROVU9MTWl4VTJiV2JsdWNQTTNmZ1JyaDFaREtWdHZzLUR6REV1LWhWd2MwdmV3R2o5ODRYWjRGTnJ5RkRZRTBTWDREdGpUVXdDdTJqMGdTV3lCd9IBxAFBVV95cUxQcmk2SU5iUE41REhJYzRfZDBmemdMWTFWcXR6Ujl1QkU0dksybjhzTnVhRzJWRnlWV05qVkloTXUzUGc0cmxrREdxbGdySjB2bmRtZWc0T0N0VDZlWFR0MUFwQ0xjUmFFNUtsNnJ0SU9IbkdFZE1wc2ZlanRfVFB4bEVlUmlGcFJSdjYwVlRCbjVLOFlHRkNkVDBtQjcydXNVQVd3ZmNfZzRoaFB4clp0ZUlnUnVJQlNIaVZFZ2dyMHRwZ19f?oc=5",
+        "source": "Infobae",
+        "pubdate": "Tue, 24 Nov 2026 11:54:00 GMT",
+        "pubdate_iso": "2026-11-24T11:54:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Asian stocks rally after Wall Street rebound as Jensen Huang returns as Nvidia’s CEO",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQSkVUYmpWR01jSEdhSTgzcGZKRHhTa1B6ZkZKcVJyaks0eERmdmlVYVJPeEtUOWxZWW1WejJKczdjdUtqb1FQQ0psTXlYZ3k1RktjX0lqd1ZLUTE5dUNSTXNWQzdXaVBFUGtpek0yTHRYNVhsZjBfV2cwMmdaSDVRdzFRLWlITk5SZUdNYmFEVVJ0SDJrN3ZBRjBBUmFDaVlXZmxSRDlkYXRsc25iN25ULVhsaFg3aTduQzVfZVd4YzhvbmlWaS00?oc=5",
+        "source": "La Nación",
+        "pubdate": "Tue, 24 Nov 2026 03:55:33 GMT",
+        "pubdate_iso": "2026-11-24T03:55:33+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🟢",
+          "razonamiento": "Rally accionario"
+        }
+      },
+      {
+        "title": "Estados Unidos emprende acciones legales para recuperar más de 1.000 millones USD en criptomonedas robadas en el ciberataque a Binance",
+        "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPX212Zl9rZkhuYm5LbUpVY1F4M2xuQ3h5ZlYyWGZVU2JxcUlFQ0F4TlpodUY1aUlINlFfN09RSUd0UmVZTjBTcHBMZFBjYXQ4aUJ0OVZDYVJ4NS1BNVNudzNBZWRMWTdDOFVmQmNkQUw0V0tTdnViRlZNaS1UYTV5TF9CTmRneTVOemwxYjlVcml4RFRGeEIyc01qWXhFYWtjMTFOTjZjZ25yTnZZeDZBOTVtTndnYThjUVF3Y1Frb0lKakVFSGFXSGF6TFJ4bHhUSXpMOFhaRl9PVjlFR1I3dmpsVVJKQnd3M1lVcw?oc=5",
+        "source": "MarketScreener España",
+        "pubdate": "Mon, 23 Nov 2026 19:32:28 GMT",
+        "pubdate_iso": "2026-11-23T19:32:28+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Wall Street se desploma por temor a la burbuja de la IA y rebota tras el regreso de Jensen Huang",
+        "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNSXpXNXl5bVdJeU0xenotaE5VbGQzck5ocHNvUkk4b1NtWEEzU0JteTlIZi1JZ04zLVkwN0ZUSkVheEtKbGU3aGdhM0VyTHNjc1VtbVJsWHpIcURzMmRmWGNZeVRSUURyZUtna25HOWc1UGx0ajFNX0c1MWNFUFY1cVRncnhlZHBWajIxb3laUzhDckZ6OEEyWXRSTVcxX3l2QXh5OWpUYmlQS2hmZDZadHBaOV93Q0ttTlJrb2RuMXFLaF9nV3Z5WGtMVzY2dER1dDkxRg?oc=5",
+        "source": "Eje Central",
+        "pubdate": "Mon, 23 Nov 2026 15:48:48 GMT",
+        "pubdate_iso": "2026-11-23T15:48:48+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 3,
+          "intensidad_label": "fuerte",
+          "emoji": "🔴🔴",
+          "razonamiento": "Desplome: muy negativo"
+        }
+      },
+      {
+        "title": "Stocks Rebound Sharply as Nvidia Reinstates Huang",
+        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPM3hqdUlrdHQ3b3V4dVVrQzd1YmxfNERzenRZYVpZYUh5WjFCLXpaUUhkMkxiNFZIWGJvaFZadkNMdUNRUDViNnppQjhLVTZ6UWFfTDN0LU04MzRWNWhGY1pyVkw0WlNvMDE1V2RZYS1weENxMnF2M19IY3g5SkdKUnRiUE11N2g1aUVHQmFjUjFDVm00ZER1X1o2ZjZsNFptZ1ZJWFVYeG5lVEU?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 23 Nov 2026 15:46:32 GMT",
+        "pubdate_iso": "2026-11-23T15:46:32+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "tech_nasdaq": [
+      {
+        "title": "Forex Today: Global stocks rally led by tech shares, US Dollar stabilizes at 20-month highs",
+        "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNZDF3c0t2TWVvMUlpM1pFRHl4TEphWFFOaTYwSHgwY0ZhZzRxM0h3WEJaSGtFUzdUZlFrTjc3Qmk5b1hBMmJid05XS0Z3cmQxX2V0dWQwb1dhMWt1SDhTVkJYNjBobWxkbjdoZ2hnXy1QanhLcWNaRzRlRVpvRXQ5amZOWFJOSzI1a1pYTzhPQ0NUS1I4QlhiZ2V0N2dhVW80aEhWUWFEU3BoWnRKcW9vUnhWTER4SWhuZEZLcDQ5Vll5bXYyOFZ3X0xKSW5Jclc4dlZ5dkRVUzFxZkJqSDR0aDUyd0VuLTYxM2hV?oc=5",
+        "source": "tmgm.com",
+        "pubdate": "Tue, 24 Nov 2026 07:57:42 GMT",
+        "pubdate_iso": "2026-11-24T07:57:42+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🟢",
+          "razonamiento": "Rally accionario"
+        }
+      },
+      {
+        "title": "Asian stocks rally as Huang's return to Nvidia revives the AI trade",
+        "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNT0piUXJaLW9GSzNhazZCRlF2SXZRUGpWcEVVSG02bm8zNHNxWnRPZXg2MTBhTXRTZ1Bvb1BXeWhZVUtBRzNsRDlzQldjRld1WVBWblAyRXFralk5dUo3dnREVjZfLWRYRnpRYVVWTC1OTElfX1V1OWtxa1BVQ3JFWmdCbE5RNVRlYVFVcEFxcDIxQmNTTG1PVy1zUmhpT3RRSVFPQ2FFdnpvYlZxY25kVXdEMlNZUlNOUHpBRzNmSFU1RC1XLXRNSk9ScVNiLUl0YlVXVktJWWNWV0pqQ2xYWXBxVW55eFplY25B?oc=5",
+        "source": "TradingView",
+        "pubdate": "Tue, 24 Nov 2026 06:17:00 GMT",
+        "pubdate_iso": "2026-11-24T06:17:00+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🟢",
+          "razonamiento": "Rally accionario"
+        }
+      },
+      {
+        "title": "AI 'too big to fail' as Jensen's return triggers rally - Nomura",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZmhRbDZvWWNfOUNua0steDFQN2tLNXRYSjQxN0Jrb1lpYlhxeHRjUm5TQ2J6UHRtMVRyeFNLOTJKbF9FX0FrMVVTOGhGZzE1aFc1UDA1cm5xdXRsc1JiOFhvU3BodG1MNE1ueVJMdzNBck1uQnRNcnVZSzBJalZDWGREOGQtN3BuTHIzb1g0U1pqdy1rQi1mVlllc0M1NVBpUUo3UjBOcE02Yk92aWxXYTN5Wi1OV0t5bXZ0WGt3?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 23 Nov 2026 19:38:30 GMT",
+        "pubdate_iso": "2026-11-23T19:38:30+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "SOXX Heads For Biggest Single-Day Gain in Over 18 Months As Semiconductor, AI Stocks Rebound Sharply",
+        "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxON3djdlZQTFJOZm9CU3pGYk5UcHVMN2o4RnRfZHROM1U5TGlDZkZNQkRPeXRjaDJUd0VkVEp1Ul9Kai1OSkRCcWFlTVBFZ0QzY3pieTVjdjNXakZ6RkRTUDFNZ29UWHhfVktCMkN0ZHNqWFh2U2kwREJuN0xhR2packYzYm1jZGZwYWpYYjYxQjFjRTJzRzBDeGd3b1BvU3EtUDZ3TWhpWW9WN2dTUGxoX003ZW56Z2NQMDlfcG9ZZHhGSVNvV21BWng4UTNzNzJ2Y3cxMkVCXzkyU1lHVHl0UGN5Rm5wRXk1RnFxeFpVVDA?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 23 Nov 2026 16:26:54 GMT",
+        "pubdate_iso": "2026-11-23T16:26:54+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "IT Stocks Rally Up To 4% As Global AI Sell-off Prompts Investors To Reassess Tech Exposure",
+        "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPM1hSaDFrRVdxSnZZZEhEaWFrZ21MSnBHZXdMQkswNXpISDFrVE9leExNakhzX3BUNVF4VTcxT2U2QWZxQWt5bldoWXNFd2t2WFdGN2otazhIY0M1UkVxT2pjbi03ZUcwVUhRUDZLUUE4eXJpa0QtclhUUVBQb0N6QTlwbXc4LUk2WGVDY1VKcXUxajBhS1E5T3QxRVkyRlBVbFJXbUI2ZW44SU1fd0JVNG5kS3RKeVFDSG0zNVBWWUd3Mi1mN0JsQmh5LXMwMFpSQVdWVGx4TERYRjJsenc?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 23 Nov 2026 16:09:21 GMT",
+        "pubdate_iso": "2026-11-23T16:09:21+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Selloff: presion vendedora"
+        }
+      }
+    ],
     "economia": [],
-    "earnings": [],
-    "sentimiento": []
+    "earnings": [
+      {
+        "title": "What's in the Offing for CleanSpark Stock This Earnings Season?",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOM0R5cW56U0ZMSEJ0UzdvUDlqb0tRV1lQdUVFeXlJWFZibkxKR05TWEJvbnV1OVgyei1UZTN1TmlBSUVzOGptaXJVd09MM09Gd0NabHBMZmwzcE5ObTg2ZG5KWFA0WWZjNmtvQWNuUEVXRjhObHduVFhENmdFa05ubnlwSXVTSWlyQXcwU0VFX1U2UGtYR2J1WEtzZ2t1WTVUOW5Rb0g4RVFUUXkzeUFJVUlRZ0drMl9n?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 23 Nov 2026 13:06:00 GMT",
+        "pubdate_iso": "2026-11-23T13:06:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Inspection instruments stocks Q3 results: Benchmarking Badger Meter",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPeFBQb19YSFlneGJEZVI1R0RwNV9qUy1GWkRtTGJLUGs3c1dCX19LWlhjQWNNNFRkaGdydkNoSkFjSzJyWnlKUnNPY3BsVU14cDNaT0lQVHo1b2RDOHVyQjZUUENnU2hyT2dSNlVialJwNUlaWTA5UFJRLUl3YkMzUVFzRWkzSmtlVDNoT21YaHZFaF9CUW95bEhWaVZLMFM3dzdrVWxCbHIzTlFuNXV6VUotMnFOUllZeE5kN1pVSkQ0QzM4?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 23 Nov 2026 03:35:00 GMT",
+        "pubdate_iso": "2026-11-23T03:35:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Winners and losers of Q3: BrightView vs the rest of the environmental and facilities services stocks",
+        "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNQ01zWE0ydk1qeG5QcWh6WWhRbjQyaWxFcnEzUUE4bGo0bWdkVjlJTDU2R0VDS0plZ21YT3dmcjhaUEpPMDRjZ2NlRi1pRlZfeE4yN2pTUU1reHF3cUo2MXpJZUFpQnVzMU9jNENJTnNKMFlFTGxSSTE1d0FoZHhEb0V3WWV1ZUN3TktuemJGY0tZWXN1aFprTTUxb1E2TF9BcWFzVEI5Z1oyamV1VnlGQXZGT3F6aGxOcUVWUXRpRTNaTUQ5V2kxSHd0Y2d6eXVKNmpIQnNsQlFQTDNISGJ1ZkY5TnhFd0hCdTVua2hObzQ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 23 Nov 2026 03:35:00 GMT",
+        "pubdate_iso": "2026-11-23T03:35:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Q3 building materials earnings: Carlisle impresses",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZmZqWGpubFFTUGJKckhWd1JCdENtWjBMdk5qUkpPVnEyWmluQ21NT3VhRXRmb0hYeGoybFk4SDRRaWZHb1didTlsel9UNmlSbUlTQmRiNUtGTUlvWlRqWXFVNm42ZHN2QTNYbS1YSFdqZnI1VkxtZ2JPbHZSeXJzTTgtWWxiTlg3WHVld1AtTUtwQkVCS29HMVJjeVhlazRmcVFpdjRzUzh5bDZvMUE?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 23 Nov 2026 03:33:00 GMT",
+        "pubdate_iso": "2026-11-23T03:33:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Reflecting on dental equipment & technology stocks’ Q3 earnings: Align Technology",
+        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxONkVtMXhjX2YtS1AzNm94MHZVbklRRGlaWEpDa0pQaXpXVHg3RTVGU000VGp3S0k3VFRyM2MwMThoRFRlc2ZLQzdjRXhHNmxWSnBwNFdYN3RNTGNjUGlXcl9QdE5PTEw5dzhSY1lQR2lOSnJjcFhBWU90N1hsUEREbXN2eEwzR2FCMFhwZXlhX05WTjB4c1dVajlEODBTQWRwZHhKWFVoZEFiTHJmaW9NNHlDQU1PekVPWjN5dHo3M2h1cFJxRjUzdl9temV4TU9CUkMw?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 23 Nov 2026 03:31:00 GMT",
+        "pubdate_iso": "2026-11-23T03:31:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "sentimiento": [
+      {
+        "title": "OKX und ICE starten 24/7-Handel mit tokenisierten US-Aktien nach Emittenten-Widerstand",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1Ka1N4T0ZrUHNDalN0WGNCOHNRZEh3OUdlZXJyWURIWXhIZUo5U0ZhSE5wX1psY0k3SzdleWVBVHpkYVlMZTZvQ1gzdFN4UTdwSnpKamNzMF9hUVJ0Q3hDRWhvUF9lUQ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 23 Nov 2026 16:05:47 GMT",
+        "pubdate_iso": "2026-11-23T16:05:47+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "OKX and ICE launch 24/7 tokenised US stock trading after issuer pushback",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbWVnRFJDRVI4TjNwUTI5amVjZ3RVTTVjTVdvclU3WVZFTUJKQWZ4Z19xNm1PdUV6TGN1c0dSckNydjBqZ24yakdINnlQQjlDY1Q5U1NSdTBxcXAtOU1uQnJXN0tWM0YtTVNONWNtOV81YWhFZllKa0pGbm5RclZqTGcxcURCajBtNFBZX0RZTGZKMUNFOWc1U2pTTFJEcGNwV2ZoY1YteWczNE9Dd3drTFZCdGt3NlI4OFNSRXRaNkVsMXlQUTNv?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 23 Nov 2026 16:04:02 GMT",
+        "pubdate_iso": "2026-11-23T16:04:02+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Anthropic stock is rising in pre-market on Monday: is the tech selloff finally over?",
+        "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPaFZyb0pWdUpBX1h5ZjB2c2NUZ29NYjhsdEVXa0xXdUpMaExROUxfMXBpTElVVTB3MVhfQ25sS3N1clZQbF93VUh0SVVZcUktVlRCR1pWLWlhRk1reDR1X1Y5SlN4YXJVaE95Rl9qMi1obXRMQzlHZnpHa3M4bFU2Q3pFbHo5eUJfUmpZc0tZWjlza2xVd0FVMWFkSWFDVlVLN09XSmZoajVJUGVzMzV4VkRmNVlXdEdVZFYzMW05UURUS0djc1R1Z0p1UzVJM283UWJ0VQ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 23 Nov 2026 11:37:25 GMT",
+        "pubdate_iso": "2026-11-23T11:37:25+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 3,
+          "intensidad_label": "fuerte",
+          "emoji": "🔴🔴",
+          "razonamiento": "Selloff: presion vendedora"
+        }
+      },
+      {
+        "title": "Is Nvidia Stock a Buy in 2026 or 2027?",
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQeEQ3UThaT19JdzNpYW9iZ1FwWjZzaDlQck9DWEtlcTl2WGVKR0tPb2xqX04xTHBFTEs1WmRwaVVQT3RxbDlTRGVLUnloanhPSEFoQVBIcnJfaTItWmNiVHZpd3BxVWZoYTVhbW5GUFNRRkxoTldETmFGSTEtZVZYRlFfMmFlS3M5STlxNzduTWsyNDZJNTZpbFQ2OWk?oc=5",
+        "source": "TradingView",
+        "pubdate": "Mon, 23 Nov 2026 10:07:19 GMT",
+        "pubdate_iso": "2026-11-23T10:07:19+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Crypto Fear and Greed Index slumps to 7: Can Bitcoin, Ethereum and XRP rebound?",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNVFZ3THExVW1Zb3VReV84YUNHbUpBR3BRc3JmcWhUVUZhaGVTMlNsamZUY2hUWlZ3MlpUa2tITWV4c2xza19NUVlnZDd6blR5a2ZwSVQwdzBaZHp1b19zTF9DLWtDdS1NeENXdjV3Q3h2MENCNjE0NWQ4d01QYm9kRjc5MF9CcDY5Y0VxRVVpVjJHRmQybkRKa19DT2kzaTE3Z0djZmFGdVBFRVR4cXR2djhLYkhpcmFCRkYzbHFlVXhENlZTNkgtUDQwSWs?oc=5",
+        "source": "TradingView",
+        "pubdate": "Sun, 22 Nov 2026 07:57:00 GMT",
+        "pubdate_iso": "2026-11-22T07:57:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ]
   },
   "stats": {
-    "total_noticias": 0,
+    "total_noticias": 21,
     "por_categoria": {
-      "fed_tasas": 0,
-      "mercado": 0,
-      "tech_nasdaq": 0,
+      "fed_tasas": 1,
+      "mercado": 5,
+      "tech_nasdaq": 5,
       "economia": 0,
-      "earnings": 0,
-      "sentimiento": 0
+      "earnings": 5,
+      "sentimiento": 5
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "neutral",
-    "score_neto": 0,
-    "n_positivas": 0,
-    "n_negativas": 0,
-    "n_neutrales": 0,
-    "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
+    "sentimiento": "bajista",
+    "score_neto": -5,
+    "n_positivas": 3,
+    "n_negativas": 4,
+    "n_neutrales": 14,
+    "narrativa": "El feed muestra 3 senales positivas y 4 negativas (neto -5). Factores dominantes: Selloff: presion vendedora; Desplome: muy negativo.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "NEUTRAL - sin sesgo dominante"
+    "veredicto": "BAJISTA a corto plazo"
   }
 }

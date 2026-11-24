@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-23T21:37:07.606014+00:00",
+  "updated_at_utc": "2026-11-24T13:00:33.832443+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "bcch_tpm": {
@@ -37,36 +37,251 @@
   },
   "noticias_por_categoria": {
     "bcch_tpm": [],
-    "ipsa": [],
-    "dolar_cobre": [],
-    "economia_chile": [],
-    "politica_regulacion": [],
+    "ipsa": [
+      {
+        "title": "MSCI IPSA: La Bolsa de Santiago cierra al alza con variación de 0,96% este lunes",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNT05RMzI1cjQ4RmtfZmFlR3lCMFVCLWktMFc3cFNHOEVqUDhhMjVYUWpERU8yX2tfenk4UllFNXRVeDVoazVsUkdTTU84N1g2clp6Y01TbUlQeTdwV0xBc1NUUm54Vy1BUnpjT3F1REFGWUI3WVZ1eUs1RmxqeFZSWUtnT1dSTER3ektwZnB6VE1Yd1hKblpYR0Y4SXpma0Q2N1ZSS1pZTlV2aFQwZTN0a3d0cjhaNXNE?oc=5",
+        "source": "Diario Estrategia",
+        "pubdate": "Mon, 23 Nov 2026 21:57:38 GMT",
+        "pubdate_iso": "2026-11-23T21:57:38+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "dolar_cobre": [
+      {
+        "title": "Cotización del cobre, hoy",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1DdS1CTVRqSTBMbnZITHVMWUp6bXo4R3ZERU9vTzB5LUJvRWJ0QVJqT0g0TFVFa204OWg2NGNoYU9LcVNXOEJPUlBtaEdLUFA4emRKOWVqMGxEZFgyNnh3SmVB?oc=5",
+        "source": "Editorial RN",
+        "pubdate": "Tue, 24 Nov 2026 11:33:07 GMT",
+        "pubdate_iso": "2026-11-24T11:33:07+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Dólar en Chile: cerró en 1.016,48 pesos y subió 9,79% anual",
+        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOakxReHlnTEJGN085N1g0SS1YdndjQTZRREViMEZqaWMzWlZyMGxSU0tXbHNPbi1SaFRkMWhSaUNCSF9yMFozZDM0UVZ3dGhKc0IySjBsQ1ZtWjhQWjNUUUxmY05seXRETm43aEF6Vy1HX05SaXMxQVlhNnVPMFBfUXpwTDRBNEJ3VThFazYwNkJ4d0xiV05ValV0TURheXpxZUt0RVhkd1pia1Fr?oc=5",
+        "source": "Identidad Correntina",
+        "pubdate": "Tue, 24 Nov 2026 06:05:50 GMT",
+        "pubdate_iso": "2026-11-24T06:05:50+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Dólar cae $6,62 en Chile y llega a $1.016,63 impulsado por recuperación del cobre",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOVExIa3laM2E3d2FvODFRdjQ3T1dwRkN4VWNKVFVUdkFIZGQzUk41eHlMQjlSZkNTX0tlWWNST1Z5eDJGeUtjbW9XTHQwUmFrYy1iUWtmakt1RTlpYmk2bmhWS2EyLWJET0JaZkFtVDJDNjBvd25YTXc2TlhGS3V3NlM3QQ?oc=5",
+        "source": "Prensa Digital",
+        "pubdate": "Mon, 23 Nov 2026 19:36:13 GMT",
+        "pubdate_iso": "2026-11-23T19:36:13+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Chile: cae el cobre, sube el dólar; ¿vuelven las compras?",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdExHaHdVdDhrbDhCSlp4Z0ZNR1ZNSUdFVC1jOHNyaWh0X3ZoNmk2cExHWWJkMXhINk05NllvMU9DVDlOTzNUX3dRb0pxT3kzdmpoenJfQmM2Z012VE9XM2c5U1JtU0FMX3FyRHkzeUhFVm9KV0NCTUY2ZjRZLVM5RzhFeUtzVEJBeWs5bV9OcTBOZFh6ZUtmZFU2dmQ2Wmc4SWVF0gGoAUFVX3lxTE1MNWhHdmVvdFN6bW90QktoRkFPelFzMUNoQThDTEpXV0wxXzRRUk5FUm5rdmNJNktYZTRGS0ltQXliNjl0cEtfUy1CSkE0bTctWEdXQzhhbDhnWVFRRmRjTmJyOTlTWVFtS1FuUk5TUjBmU01uaFlRYVl6N2xhRE5obV9KYnNNejB2Y2gwZUs5ZWJpWmpQRHAtY0tSSXJsSzdUNWtpTnpfdg?oc=5",
+        "source": "Sitio Andino",
+        "pubdate": "Mon, 23 Nov 2026 18:36:00 GMT",
+        "pubdate_iso": "2026-11-23T18:36:00+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🟢",
+          "razonamiento": "Cobre al alza: soporte para economia y CLP"
+        }
+      },
+      {
+        "title": "Precio del dólar hoy en Chile: cotización de cierre del 23 de noviembre",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQngtdVNSbXVIbVR3RENKaElwQ09lMmxvVWZfNnItdXpuUGVXc2F0bEtHVFpCeU9lUi1PLXE2bVBZbW5wZjR5elhyRXBWR3VITFRUN29fNXB0VU10ak9UQTNEdklJT0dkUERkNFM4RFZxQ3JyNGowcktPbEN5cmszOTBsMXRXWFRVbGQzZWNxb3FJekxNLWRiTXdlMGVCcTZXOHMxQkx6RHBOUmJOd0NGMHNJeUFpZ9IB0AFBVV95cUxOS1FreEMwdnAyNE56LS1DWF9saVgyeU1mYTNJam5wUWR2UVRVV2FQWGM5MGFXcV9pTTZrdy00QnM0OUNvQ29wOEEwakE0UHRjUjh0T29tQXZRQ01FVnZrLWNST0ZVWGdEU0dMN3NMYnFBX05UNnRoSmJUNGJ1dG9xTXhsdEJ0YlVKZmRtLU11M0xLd3pOb29IbUpYSUlJeng4b2dwSzNzOW44TjUzQXhKWTRiQV9ZV1JFX2gwRVVzMG5PZzJJblFkVEhsQUNGU3dn?oc=5",
+        "source": "Infobae",
+        "pubdate": "Mon, 23 Nov 2026 18:16:00 GMT",
+        "pubdate_iso": "2026-11-23T18:16:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "economia_chile": [
+      {
+        "title": "El momento del turismo",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOX2pLb2tYUm1YNmdWMnhKV2UwY1RWcGQzUFRRb0hiRWZna0g3N2I2Q25fUGhNMV9Gc2hxYTJKNFNTUDFMVVgyaVVzcVp2REMyaG9vaTR2S3EtZ3B5d1g0TnZJZkg4MzZXMzJtV0ZLMU1lVnpxVVZHc25iVzkxREtkamk4MXI3TlIxbFZyQW9B?oc=5",
+        "source": "El Mostrador",
+        "pubdate": "Tue, 24 Nov 2026 10:34:37 GMT",
+        "pubdate_iso": "2026-11-24T10:34:37+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Economista Klaus Schmidt-Hebbel advierte que Chile necesita una “Megareforma 2.0” para superar el bajo crecimiento",
+        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxONk41WjVCd1NaSDlGMUU2aWd2MnlzZWpGc0NnOTBaQVZ6UFY3WnB3bDZvYm5yUEJzZUxKOE91OFpLc0FRcWFqeThGekJNOU1BMFUyZ0xDM1BjLW5IalhvVUNaLXB4bVlGSkJSYk9OVkExa2xlX01wTlRSelJhZk4xV21kT3dyNTBDb3U4YmRSWTYyRXlNT0xiSTJDazMzbkItWWlwZUJvMDNxdEtGaml6NFJjaUI1UlppcW5iRk5za1AxZGUyQXVTcXhCbHlseVZ3?oc=5",
+        "source": "Publimicro",
+        "pubdate": "Tue, 24 Nov 2026 10:32:27 GMT",
+        "pubdate_iso": "2026-11-24T10:32:27+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "El gran desafío de la economía chilena no es emprender",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTmFEZXh1aUtvRURlaC1xdDdtTUVHVzFvc2d5UUlBWW9CcUdGU0F3UzFBVjV5TzZXVHFoQlpFdEI3ZjJoWTU5ZDhtRG1VMTltcHIyUXc5bEhRY053RV81c0tjTjRUcFhLQ2hfdUVvemhjb2ZSUGgtYnZpVFpDckJFUFBkQ3NTMmFaWlAxU3hPYlplRElveEYtdUNYNTk5emlGVm9KUWpGUQ?oc=5",
+        "source": "Andes on line",
+        "pubdate": "Tue, 24 Nov 2026 09:29:07 GMT",
+        "pubdate_iso": "2026-11-24T09:29:07+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Cobre cae más de 10% en una semana y amenaza recuperación fiscal de Chile ante menor crecimiento económico",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMkpZekIzVlhJWDVoWHZ5dTBaZnBIM290Qk16WVU2bXAxbmdObHBWdS1yUmJUcG9ZSHRpRjFtS0w1WWNpMWg5QjhPemlESThWQzhXQm9KZTIxSzdsMUdLTjFzQnVtb1RSOTRxMm1LT2hkZkhPejRTQmEyZjdpeUpVTWVoaWRFbnNCR1RvVVROWFltWnEycHVJMUhpMERpc29pOE1RNm5lWEswTE5WSzJsR0NzQjlHMWtFM0R4X0JjMDFwLThOY0pn?oc=5",
+        "source": "Revista Digital Minera REDIMIN",
+        "pubdate": "Tue, 24 Nov 2026 00:45:38 GMT",
+        "pubdate_iso": "2026-11-24T00:45:38+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 1,
+          "intensidad_label": "leve",
+          "emoji": "🔴",
+          "razonamiento": "Cobre a la baja: presion para Chile"
+        }
+      },
+      {
+        "title": "Chile: PIB cae 1,1 % en el tercer trimestre",
+        "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBUSzdBTnBSbE9WcVFlRHpzQnJJY0otUkIyTERnaHI2bGdRS2V4WllUVzNNOUJyUnR1RlRsazBnSmw3d1VkUi1kOG5RUGZxMmpjbVB3bWdKYjBCa2V1NkFjS3N2eV9hLWI3alZEeEFLN1JURXo1dEg0eF9hUTM?oc=5",
+        "source": "El Diario Exterior",
+        "pubdate": "Mon, 23 Nov 2026 23:00:37 GMT",
+        "pubdate_iso": "2026-11-23T23:00:37+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "politica_regulacion": [
+      {
+        "title": "Ley de Rescate: la cuenta que el Gobierno y los analistas no calculan igual",
+        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaGQ4Nm1EYkNHeVlYN1J6RnE2X1pYel9sc0Q3RkpxdjVoeTJLSUNuQUp4SENua3hmSTMzTXRmVXNHdklwM2hFWE95MFgwUF9PMVNUM1NWb0VqbmNNZlVyRzE3VldLVDg5eldCUERJWXlDTGU1cnlTN1B6VXFJdFFWbDQ2a3B0Rm00ZVdPV0psUjgyUkRyb3NWQmZqV2pRWXZyWk5ETm05ZVg?oc=5",
+        "source": "Forbes Colombia",
+        "pubdate": "Mon, 23 Nov 2026 19:05:55 GMT",
+        "pubdate_iso": "2026-11-23T19:05:55+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "¿Qué es la Ley de Impulso a las Startups? La apuesta de Chile por escalar el capital de riesgo",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPWGwxQVR0UmYzbW1zOTF2djFDaHBsR1JRbUtmRmNSZi1lUnJfNC1PUFJNdUhRRHZ3ODJucjVlOEZtUENMSU5zXy11eU94RVFzOS1XS2hDNlpuMDhUT0dGNExtb1Y4bGY4dVJXWjJEYUJpOXFoT1dENU9yV2FkbGMtWFFabDRQbXh6RVcwMUV2cFE?oc=5",
+        "source": "Tour Innovación",
+        "pubdate": "Sun, 22 Nov 2026 11:00:57 GMT",
+        "pubdate_iso": "2026-11-22T11:00:57+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Los demócratas se unen a Trump para impulsar un proyecto de ley sobre «accesibilidad económica» respaldado por los grupos de presión de la industria del petróleo y el gas",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBSUWZncDBqYkNLVWRUdWlzVHd2M29IbDl4TjhURTduTHJ4NmkzLU43RGdVQzk3MC1lM3dGbGVwa0wyNzVkUzNYaTJWRmg5Rm9peUlvZEI0cnJMQnhYZVhKOWpyTzEwZ3RB?oc=5",
+        "source": "World Socialist Web Site",
+        "pubdate": "Sat, 21 Nov 2026 16:42:01 GMT",
+        "pubdate_iso": "2026-11-21T16:42:01+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
     "pensiones_afp": [],
     "energia_tarifas": [],
-    "sectores_watchlist": []
+    "sectores_watchlist": [
+      {
+        "title": "BOMBEROS DE IQUIQUE Y ZOFRI BUSCAN FRENAR REBROTES Y SUMAR TECNOLOGÍA TRAS INCENDIOS EN EL RECINTO AMURALLADO",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNY09HallFaURib1llanMteVhYSDZNR3lDV1dmNllaemtFNVR4U1hKdG4zRURjQzlLUnZIcnZ6RXlyZVloMkQybjZkUEl3ZkFGN2J5TENNcEFBWDVUSGxXNEV3ak9tczhwTG1YMk5jUG9sX1VISDNnOUVSRFpjMlNWT05hNlQ0Z21WLXNoTkJwVXl4WEgxV2RGVXlkZ3BEb3R1ZGNHajhra3J1anlwd3FGMmJtWVJ3TjRSamk5YXZ0ejNIclYyczdkU094VWE?oc=5",
+        "source": "Vilas Radio",
+        "pubdate": "Tue, 24 Nov 2026 01:30:00 GMT",
+        "pubdate_iso": "2026-11-24T01:30:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ]
   },
   "hechos_esenciales_por_ticker": {},
   "stats": {
-    "total_noticias": 0,
+    "total_noticias": 15,
     "por_categoria": {
       "bcch_tpm": 0,
-      "ipsa": 0,
-      "dolar_cobre": 0,
-      "economia_chile": 0,
-      "politica_regulacion": 0,
+      "ipsa": 1,
+      "dolar_cobre": 5,
+      "economia_chile": 5,
+      "politica_regulacion": 3,
       "pensiones_afp": 0,
       "energia_tarifas": 0,
-      "sectores_watchlist": 0
+      "sectores_watchlist": 1
     },
     "hechos_esenciales": 0
   },
   "resumen_ejecutivo": {
     "sentimiento": "neutral",
-    "score_neto": 0,
-    "n_positivas": 0,
-    "n_negativas": 0,
-    "n_neutrales": 0,
-    "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
+    "score_neto": 1,
+    "n_positivas": 1,
+    "n_negativas": 1,
+    "n_neutrales": 13,
+    "narrativa": "El feed muestra 1 senales positivas y 1 negativas (neto +1). Factores dominantes: Cobre al alza: soporte para economia y CLP; Cobre a la baja: presion para Chile.",
     "narrativa_fuente": "plantilla",
     "veredicto": "NEUTRAL - sin sesgo dominante"
   }
