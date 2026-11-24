@@ -1,22 +1,22 @@
 {
-  "updated_at_utc": "2026-11-24T15:45:07.593006+00:00",
-  "precio_btc": 59632.66,
-  "precio_ibit": 33.72,
+  "updated_at_utc": "2026-11-24T16:15:08.489146+00:00",
+  "precio_btc": 59471.11,
+  "precio_ibit": 33.63,
   "score_final": 83.5,
   "zona": "OPORTUNIDAD",
   "multiplicador": 2.5,
   "peso_aplicado_pct": 100,
   "sub_fechas": {
-    "drawdown": "2026-11-24T15:45:07.565834+00:00",
-    "fear_greed": "2026-11-24T15:45:07.565834+00:00",
-    "pi_cycle": "2026-11-24T15:45:07.565834+00:00",
-    "halving_cycle": "2026-11-24T15:45:07.565834+00:00",
-    "momentum": "2026-11-24T15:45:07.565834+00:00",
-    "mvrv": "2026-11-24T15:45:07.565834+00:00"
+    "drawdown": "2026-11-24T16:15:08.458866+00:00",
+    "fear_greed": "2026-11-24T16:15:08.458866+00:00",
+    "pi_cycle": "2026-11-24T16:15:08.458866+00:00",
+    "halving_cycle": "2026-11-24T16:15:08.458866+00:00",
+    "momentum": "2026-11-24T16:15:08.458866+00:00",
+    "mvrv": "2026-11-24T16:15:08.458866+00:00"
   },
   "senales_reusadas": [],
   "sub_scores": {
-    "drawdown": 87.0,
+    "drawdown": 87.2,
     "fear_greed": 89,
     "pi_cycle": 97.8,
     "halving_cycle": 85,
@@ -25,17 +25,17 @@
   },
   "sub_detalles": {
     "drawdown": {
-      "drawdown_pct": -52.2,
+      "drawdown_pct": -52.33,
       "ath": 124752.53,
-      "precio_actual": 59632.66
+      "precio_actual": 59471.11
     },
     "fear_greed": {
       "fg_value": 11,
       "classification": "Extreme Fear"
     },
     "pi_cycle": {
-      "ma_111": 76199.16,
-      "ma_350_x2": 149154.58,
+      "ma_111": 76197.71,
+      "ma_350_x2": 149153.66,
       "ratio": 0.511
     },
     "halving_cycle": {
@@ -7367,7 +7367,7 @@
     },
     {
       "fecha": "2026-11-24",
-      "precio": 59632.66
+      "precio": 59471.11
     }
   ]
 }
