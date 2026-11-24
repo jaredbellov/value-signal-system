@@ -1,34 +1,34 @@
 {
-  "updated_at_utc": "2026-11-24T18:27:05.602154+00:00",
-  "precio_gld": 326.29,
-  "score_final": 66.2,
+  "updated_at_utc": "2026-11-24T18:57:05.550756+00:00",
+  "precio_gld": 325.71,
+  "score_final": 65.9,
   "zona": "ATRACTIVO",
   "multiplicador": 1.5,
   "peso_aplicado_pct": 100,
   "sub_fechas": {
-    "drawdown": "2026-11-24T18:27:05.569132+00:00",
-    "momentum": "2026-11-24T18:27:05.569132+00:00",
-    "ratio_sp500": "2026-11-24T18:27:05.569132+00:00",
-    "ratio_silver": "2026-11-24T18:27:05.569132+00:00",
-    "dxy": "2026-11-24T18:27:05.569132+00:00",
-    "real_yield": "2026-11-24T18:27:05.569132+00:00",
-    "vix": "2026-11-24T18:27:05.569132+00:00"
+    "drawdown": "2026-11-24T18:57:05.520218+00:00",
+    "momentum": "2026-11-24T18:57:05.520218+00:00",
+    "ratio_sp500": "2026-11-24T18:57:05.520218+00:00",
+    "ratio_silver": "2026-11-24T18:57:05.520218+00:00",
+    "dxy": "2026-11-24T18:57:05.520218+00:00",
+    "real_yield": "2026-11-24T18:57:05.520218+00:00",
+    "vix": "2026-11-24T18:57:05.520218+00:00"
   },
   "senales_reusadas": [],
   "sub_scores": {
     "drawdown": 100,
     "momentum": 44.8,
     "ratio_sp500": 87.4,
-    "ratio_silver": 35.3,
+    "ratio_silver": 34.5,
     "dxy": 82.7,
     "real_yield": 30.8,
-    "vix": 57.9
+    "vix": 56.1
   },
   "sub_detalles": {
     "drawdown": {
-      "drawdown_pct": -34.2,
+      "drawdown_pct": -34.32,
       "max_52w": 495.9,
-      "precio_actual": 326.29
+      "precio_actual": 325.71
     },
     "momentum": {
       "ret_12_1_pct": -2.08
@@ -38,18 +38,18 @@
       "percentil_2y": 12.6
     },
     "ratio_silver": {
-      "ratio_actual": 7.99,
-      "percentil_2y": 64.7
+      "ratio_actual": 8.01,
+      "percentil_2y": 65.5
     },
     "dxy": {
-      "dxy_actual": 103.8,
+      "dxy_actual": 103.81,
       "percentil_2y": 82.7
     },
     "real_yield": {
       "real_yield_pct": 2.77
     },
     "vix": {
-      "vix_actual": 26.58
+      "vix_actual": 26.23
     }
   },
   "pesos": {
@@ -5080,7 +5080,7 @@
     },
     {
       "fecha": "2026-11-24",
-      "precio": 326.29
+      "precio": 325.71
     }
   ]
 }
