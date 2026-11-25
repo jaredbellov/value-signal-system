@@ -1,6 +1,6 @@
 {
-  "fecha_actualizacion": "2026-11-25T09:44:32.769039",
-  "duracion_segundos": 688.558526,
+  "fecha_actualizacion": "2026-11-25T10:06:29.377212",
+  "duracion_segundos": 205.160101,
   "n_acciones": 17,
   "acciones": [
     {
@@ -11,13 +11,13 @@
       "benchmark_min_pct": 6.0,
       "benchmark_max_pct": 7.0,
       "descripcion": "Administradora de Fondos de Pensiones. Top 1 por AUM en Chile. ROE consistentemente alto (~45%), G=20% (tecnicamente Crecimiento pero paga dividendos altos).",
-      "precio_actual_clp": 1250.2,
+      "precio_actual_clp": 1258,
       "razon_social": null,
       "variacion_pct": null,
       "dy": null,
-      "cagr_3y": 0.1944486136437149,
-      "cagr_5y": 0.3972276035174003,
-      "cagr_10y": 0.10947138060153327,
+      "cagr_3y": 0.1969275211337893,
+      "cagr_5y": 0.3989667298467545,
+      "cagr_10y": 0.11016164425064434,
       "evaluacion": null,
       "cmf": {
         "periodo": "09/2026",
@@ -279,7 +279,7 @@
         },
         {
           "f": "2026-11",
-          "p": 1250.2
+          "p": 1258
         }
       ],
       "flujos_5y": [
@@ -418,7 +418,7 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-25T09:34:43.977249"
+      "_fecha_dato": "2026-11-25T10:04:43.466073"
     },
     {
       "ticker": "ZOFRI",
@@ -835,7 +835,7 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-25T09:35:16.214711"
+      "_fecha_dato": "2026-11-25T10:05:15.549647"
     },
     {
       "ticker": "PEHUENCHE",
@@ -1255,7 +1255,7 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-25T09:35:58.379290"
+      "_fecha_dato": "2026-11-25T10:05:57.204419"
     },
     {
       "ticker": "TRICAHUE",
@@ -1670,7 +1670,7 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-25T09:36:30.494177"
+      "_fecha_dato": "2026-11-25T10:06:29.377212"
     },
     {
       "ticker": "COLBUN",
@@ -2089,7 +2089,9 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-25T09:37:02.508999"
+      "_fecha_dato": "2026-11-25T09:37:02.508999",
+      "stale": true,
+      "pendiente": true
     },
     {
       "ticker": "ENELGXCH",
@@ -2511,7 +2513,9 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-25T09:37:53.384142"
+      "_fecha_dato": "2026-11-25T09:37:53.384142",
+      "stale": true,
+      "pendiente": true
     },
     {
       "ticker": "LIPIGAS",
@@ -2928,7 +2932,9 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-25T09:38:25.604276"
+      "_fecha_dato": "2026-11-25T09:38:25.604276",
+      "stale": true,
+      "pendiente": true
     },
     {
       "ticker": "NTGCLGAS",
@@ -3348,7 +3354,9 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-25T09:39:15.847486"
+      "_fecha_dato": "2026-11-25T09:39:15.847486",
+      "stale": true,
+      "pendiente": true
     },
     {
       "ticker": "SOQUICOM",
@@ -3767,7 +3775,9 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-25T09:39:47.979041"
+      "_fecha_dato": "2026-11-25T09:39:47.979041",
+      "stale": true,
+      "pendiente": true
     },
     {
       "ticker": "QUINENCO",
@@ -4187,7 +4197,9 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-25T09:40:20.470103"
+      "_fecha_dato": "2026-11-25T09:40:20.470103",
+      "stale": true,
+      "pendiente": true
     },
     {
       "ticker": "CENCOMALLS",
@@ -4607,7 +4619,9 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-25T09:41:02.387428"
+      "_fecha_dato": "2026-11-25T09:41:02.387428",
+      "stale": true,
+      "pendiente": true
     },
     {
       "ticker": "ENELAM",
@@ -5027,7 +5041,9 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-25T09:41:50.602020"
+      "_fecha_dato": "2026-11-25T09:41:50.602020",
+      "stale": true,
+      "pendiente": true
     },
     {
       "ticker": "AGUAS-A",
@@ -5444,7 +5460,9 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-25T09:42:23.835974"
+      "_fecha_dato": "2026-11-25T09:42:23.835974",
+      "stale": true,
+      "pendiente": true
     },
     {
       "ticker": "PARAUCO",
@@ -5863,7 +5881,9 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-25T09:42:55.813861"
+      "_fecha_dato": "2026-11-25T09:42:55.813861",
+      "stale": true,
+      "pendiente": true
     },
     {
       "ticker": "MALLPLAZA",
@@ -6283,7 +6303,9 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-25T09:43:28.146508"
+      "_fecha_dato": "2026-11-25T09:43:28.146508",
+      "stale": true,
+      "pendiente": true
     },
     {
       "ticker": "CCU",
@@ -6702,7 +6724,9 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-25T09:44:00.460795"
+      "_fecha_dato": "2026-11-25T09:44:00.460795",
+      "stale": true,
+      "pendiente": true
     },
     {
       "ticker": "OXIQUIM",
@@ -7115,10 +7139,12 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-25T09:44:32.661104"
+      "_fecha_dato": "2026-11-25T09:44:32.661104",
+      "stale": true,
+      "pendiente": true
     }
   ],
-  "parcial": false,
-  "frescas": 17,
+  "parcial": true,
+  "frescas": 4,
   "total": 17
 }
