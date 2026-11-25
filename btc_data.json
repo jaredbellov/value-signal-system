@@ -1,41 +1,41 @@
 {
-  "updated_at_utc": "2026-11-25T01:45:06.754579+00:00",
-  "precio_btc": 59230.63,
-  "precio_ibit": 34.62,
+  "updated_at_utc": "2026-11-25T11:45:07.073852+00:00",
+  "precio_btc": 58519.65,
+  "precio_ibit": 33.76,
   "score_final": 83.3,
   "zona": "OPORTUNIDAD",
   "multiplicador": 2.5,
   "peso_aplicado_pct": 100,
   "sub_fechas": {
-    "drawdown": "2026-11-25T01:45:06.725237+00:00",
-    "fear_greed": "2026-11-25T01:45:06.725237+00:00",
-    "pi_cycle": "2026-11-25T01:45:06.725237+00:00",
-    "halving_cycle": "2026-11-25T01:45:06.725237+00:00",
-    "momentum": "2026-11-25T01:45:06.725237+00:00",
-    "mvrv": "2026-11-25T01:45:06.725237+00:00"
+    "drawdown": "2026-11-25T11:45:07.041901+00:00",
+    "fear_greed": "2026-11-25T11:45:07.041901+00:00",
+    "pi_cycle": "2026-11-25T11:45:07.041901+00:00",
+    "halving_cycle": "2026-11-25T11:45:07.041901+00:00",
+    "momentum": "2026-11-25T11:45:07.041901+00:00",
+    "mvrv": "2026-11-25T11:45:07.041901+00:00"
   },
   "senales_reusadas": [],
   "sub_scores": {
-    "drawdown": 87.5,
+    "drawdown": 88.5,
     "fear_greed": 87,
     "pi_cycle": 97.8,
     "halving_cycle": 85,
-    "momentum": 53.2,
+    "momentum": 52.2,
     "mvrv": 85.4
   },
   "sub_detalles": {
     "drawdown": {
-      "drawdown_pct": -52.52,
+      "drawdown_pct": -53.09,
       "ath": 124752.53,
-      "precio_actual": 59230.63
+      "precio_actual": 58519.65
     },
     "fear_greed": {
       "fg_value": 13,
       "classification": "Extreme Fear"
     },
     "pi_cycle": {
-      "ma_111": 76195.54,
-      "ma_350_x2": 149152.28,
+      "ma_111": 76148.47,
+      "ma_350_x2": 148963.8,
       "ratio": 0.511
     },
     "halving_cycle": {
@@ -45,7 +45,7 @@
       "fase": "Acumulacion pre-halving"
     },
     "momentum": {
-      "ret_12_1_pct": 12.86
+      "ret_12_1_pct": 8.62
     },
     "mvrv": {
       "z_score": 0.308,
@@ -7362,8 +7362,12 @@
       "precio": 61210.98
     },
     {
+      "fecha": "2026-11-24",
+      "precio": 59747.77
+    },
+    {
       "fecha": "2026-11-25",
-      "precio": 59230.63
+      "precio": 58519.65
     }
   ]
 }
