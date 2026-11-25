@@ -1,34 +1,34 @@
 {
-  "updated_at_utc": "2026-11-25T19:27:05.933971+00:00",
-  "precio_gld": 325.45,
-  "score_final": 67.0,
+  "updated_at_utc": "2026-11-25T19:57:04.931455+00:00",
+  "precio_gld": 325.1,
+  "score_final": 67.1,
   "zona": "ATRACTIVO",
   "multiplicador": 1.5,
   "peso_aplicado_pct": 100,
   "sub_fechas": {
-    "drawdown": "2026-11-25T19:27:05.903599+00:00",
-    "momentum": "2026-11-25T19:27:05.903599+00:00",
-    "ratio_sp500": "2026-11-25T19:27:05.903599+00:00",
-    "ratio_silver": "2026-11-25T19:27:05.903599+00:00",
-    "dxy": "2026-11-25T19:27:05.903599+00:00",
-    "real_yield": "2026-11-25T19:27:05.903599+00:00",
-    "vix": "2026-11-25T19:27:05.903599+00:00"
+    "drawdown": "2026-11-25T19:57:04.899583+00:00",
+    "momentum": "2026-11-25T19:57:04.899583+00:00",
+    "ratio_sp500": "2026-11-25T19:57:04.899583+00:00",
+    "ratio_silver": "2026-11-25T19:57:04.899583+00:00",
+    "dxy": "2026-11-25T19:57:04.899583+00:00",
+    "real_yield": "2026-11-25T19:57:04.899583+00:00",
+    "vix": "2026-11-25T19:57:04.899583+00:00"
   },
   "senales_reusadas": [],
   "sub_scores": {
     "drawdown": 100,
     "momentum": 45.7,
     "ratio_sp500": 87.3,
-    "ratio_silver": 38.8,
-    "dxy": 82.1,
+    "ratio_silver": 38.2,
+    "dxy": 82.3,
     "real_yield": 30.2,
-    "vix": 63.2
+    "vix": 64.2
   },
   "sub_detalles": {
     "drawdown": {
-      "drawdown_pct": -34.37,
+      "drawdown_pct": -34.44,
       "max_52w": 495.9,
-      "precio_actual": 325.45
+      "precio_actual": 325.1
     },
     "momentum": {
       "ret_12_1_pct": -1.73
@@ -38,18 +38,18 @@
       "percentil_2y": 12.7
     },
     "ratio_silver": {
-      "ratio_actual": 7.93,
-      "percentil_2y": 61.2
+      "ratio_actual": 7.95,
+      "percentil_2y": 61.8
     },
     "dxy": {
-      "dxy_actual": 103.61,
-      "percentil_2y": 82.1
+      "dxy_actual": 103.64,
+      "percentil_2y": 82.3
     },
     "real_yield": {
       "real_yield_pct": 2.79
     },
     "vix": {
-      "vix_actual": 27.65
+      "vix_actual": 27.84
     }
   },
   "pesos": {
@@ -5080,7 +5080,7 @@
     },
     {
       "fecha": "2026-11-25",
-      "precio": 325.45
+      "precio": 325.1
     }
   ]
 }
