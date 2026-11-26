@@ -1,6 +1,6 @@
 {
-  "fecha_actualizacion": "2026-11-26T20:06:30.492648",
-  "duracion_segundos": 206.52399,
+  "fecha_actualizacion": "2026-11-26T20:14:33.027439",
+  "duracion_segundos": 689.058781,
   "n_acciones": 17,
   "acciones": [
     {
@@ -2089,9 +2089,7 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-26T19:37:03.415197",
-      "stale": true,
-      "pendiente": true
+      "_fecha_dato": "2026-11-26T20:07:02.697739"
     },
     {
       "ticker": "ENELGXCH",
@@ -2513,9 +2511,7 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-26T19:37:53.091882",
-      "stale": true,
-      "pendiente": true
+      "_fecha_dato": "2026-11-26T20:07:52.678098"
     },
     {
       "ticker": "LIPIGAS",
@@ -2932,9 +2928,7 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-26T19:38:25.343471",
-      "stale": true,
-      "pendiente": true
+      "_fecha_dato": "2026-11-26T20:08:24.841223"
     },
     {
       "ticker": "NTGCLGAS",
@@ -3354,9 +3348,7 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-26T19:39:16.892175",
-      "stale": true,
-      "pendiente": true
+      "_fecha_dato": "2026-11-26T20:09:15.521120"
     },
     {
       "ticker": "SOQUICOM",
@@ -3775,9 +3767,7 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-26T19:39:49.143218",
-      "stale": true,
-      "pendiente": true
+      "_fecha_dato": "2026-11-26T20:09:47.929664"
     },
     {
       "ticker": "QUINENCO",
@@ -4197,9 +4187,7 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-26T19:40:21.393544",
-      "stale": true,
-      "pendiente": true
+      "_fecha_dato": "2026-11-26T20:10:20.235285"
     },
     {
       "ticker": "CENCOMALLS",
@@ -4619,9 +4607,7 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-26T19:41:02.719087",
-      "stale": true,
-      "pendiente": true
+      "_fecha_dato": "2026-11-26T20:11:01.721325"
     },
     {
       "ticker": "ENELAM",
@@ -5041,9 +5027,7 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-26T19:41:51.984632",
-      "stale": true,
-      "pendiente": true
+      "_fecha_dato": "2026-11-26T20:11:50.554495"
     },
     {
       "ticker": "AGUAS-A",
@@ -5460,9 +5444,7 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-26T19:42:24.107947",
-      "stale": true,
-      "pendiente": true
+      "_fecha_dato": "2026-11-26T20:12:22.650014"
     },
     {
       "ticker": "PARAUCO",
@@ -5881,9 +5863,7 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-26T19:42:56.230912",
-      "stale": true,
-      "pendiente": true
+      "_fecha_dato": "2026-11-26T20:12:54.855969"
     },
     {
       "ticker": "MALLPLAZA",
@@ -6303,9 +6283,7 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-26T19:43:28.539093",
-      "stale": true,
-      "pendiente": true
+      "_fecha_dato": "2026-11-26T20:13:27.068059"
     },
     {
       "ticker": "CCU",
@@ -6315,7 +6293,7 @@
       "benchmark_min_pct": 8.0,
       "benchmark_max_pct": 9.0,
       "descripcion": "Mayor cervecera y embotelladora de Chile. Marcas lider, expansion regional. Precio via Yahoo (.SN) por bloqueo captcha BCS.",
-      "precio_actual_clp": 5098.0,
+      "precio_actual_clp": 5098,
       "razon_social": null,
       "variacion_pct": null,
       "dy": null,
@@ -6339,7 +6317,7 @@
       },
       "dividendos_recientes": [],
       "error": null,
-      "precio_fuente": "yahoo_sn",
+      "precio_fuente": "bcs_api",
       "serie_precio": [
         {
           "f": "2021-11",
@@ -6724,9 +6702,7 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-26T19:44:28.769600",
-      "stale": true,
-      "pendiente": true
+      "_fecha_dato": "2026-11-26T20:13:59.368675"
     },
     {
       "ticker": "OXIQUIM",
@@ -7139,12 +7115,10 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-26T19:45:02.168061",
-      "stale": true,
-      "pendiente": true
+      "_fecha_dato": "2026-11-26T20:14:32.797581"
     }
   ],
-  "parcial": true,
-  "frescas": 4,
+  "parcial": false,
+  "frescas": 17,
   "total": 17
 }
