@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-26T16:58:49.166220+00:00",
+  "updated_at_utc": "2026-11-26T19:33:41.328921+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "precio": {
@@ -28,31 +28,387 @@
     }
   },
   "noticias_por_categoria": {
-    "precio": [],
-    "etf_flows": [],
-    "regulacion": [],
-    "adopcion": [],
-    "fed_macro": [],
-    "sentimiento_onchain": []
+    "precio": [
+      {
+        "title": "Noticias criptomonedas: monero cae un 12 % por KuCoin",
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNb2M5SkkzYVU5QzRfZmxNa1FNQ0hCdDlQUENIRDRtdDRBUUgzX0s0MUwxdUNCZHJaaGVnZHVKSGFOaVktei1Kems5SU5fT1RzOER5TkN3bnk0YTZ1cVFXNldyOWlxaXJ0d0J6S1dVcjBjRXM3ZE9uM0hEeTZvUzZ5QjhGWlJoTDVydWsyMjVoVWFIQQ?oc=5",
+        "source": "CryptoTicker.io",
+        "pubdate": "Thu, 26 Nov 2026 18:09:29 GMT",
+        "pubdate_iso": "2026-11-26T18:09:29+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Noticias criptomonedas: bitcoin a 60.000 $, NEAR +11,6 %",
+        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSFJtRVBERHR2Qmd6REdjQ3FlV3MyS3ZadjdQRTRkUGlYaUloeTUxeTJlZmQwWnBjWWN2d2hEMXM2UEI0LXJlTEdpLTFaaTFaQWY2LWVEQnNsYTRsRjFtOGVSYUhSOU5qSU9jbzRubnkxdjdhUkxQZFVNaHhOdWh4dk1xUWxYQQ?oc=5",
+        "source": "CryptoTicker.io",
+        "pubdate": "Thu, 26 Nov 2026 17:07:05 GMT",
+        "pubdate_iso": "2026-11-26T17:07:05+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Cuánto vale Bitcoin hoy, 26 de noviembre de 2026",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMEZGd2xiX1c4RkJ4UTF3UU9BbG96T0xoUmdYR21BODJrcFp4TzdsZnVBd25ubWhSLWtWYkhXVFROeTVLVkJrSDdFcmR1Y3FMZGEwd19tcjY0Si1HTUZDSDg5V01qV21KTWNyQlJmVm1OUkRoRWJad3ZrZEF6QVh4b096a0RCVS1HdmxsVFpsYlNlbmNvaFVST9IBngFBVV95cUxQdHJMV05DSVpFZTVoNW40SVJOZVA1ZHJoMTY2WHNLQlZ4LXc5Mk5vSWQ1RUx4NlktQ2tWLTFPZjZmVnBjRXJ0d29qVVlOVV85QndyRjhYQW13clYxOF9lZTlJcW02QzdXN1ViTVdoME95cjdPbi1SODlhbER0SGZjZ1YxODhIcktnbVNoc0xBQkFjbzdTdnNtUDJTRDRDUQ?oc=5",
+        "source": "iProUP",
+        "pubdate": "Thu, 26 Nov 2026 12:40:42 GMT",
+        "pubdate_iso": "2026-11-26T12:40:42+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Precio de criptomonedas en Argentina: cuánto valen hoy, 26 de noviembre de 2026",
+        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZWlZXzJmQmRCbVdHcXZsMUZXc25XRmN1ZktUa1diRHNaZlY2X0V4SWlwT0pqdzd2MnFMZmhqaS02LXNCVDI4M1NnakJ5ZWc0UlU1Uk90MWtCR2o0eFBDVXpRMm1SR1JwbkNhNlF2bjduQkdBUzlPTHBobG05cDcyRlhlUEtZa2REYTNKZnBHdEYxaEFzSWhsU2R0Mk9kMGFza1BOVGo3NGktaWtud1doVGZobmgzYkw5U2FkSnRPV07SAcYBQVVfeXFMUEs5cW9ZOWFLdVR0X3VSdXpBcFc3eWVLSzBWZGFiVkNCaGVCN0o1UUtSdVNkWXR4bEpyc3ZrdVh2aXhxZE1TTTRZcU5RcUVMeE9kajd2WmNEYnVMdHlpWGJMTVF5NHA2V0FaTDRSQXE5U0lWSnRCeTJnUlBNNkZmMXFnQkRKblpKanRMTEhCcGpsNEVHNWNkclV5N3BGNDRtTE43Q2FPZlVuSVZkQ0lnZHdLUWZ1MTFJMjNaRDJ2aGQ5WEs3WWRB?oc=5",
+        "source": "iProUP",
+        "pubdate": "Thu, 26 Nov 2026 12:40:42 GMT",
+        "pubdate_iso": "2026-11-26T12:40:42+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "El precio de Bitcoin hoy supera los USD 60.500 y marca un alza del 3,59% en las últimas 24 horas",
+        "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOWndOcHFaeFJOcmxreEVGWVgtMzlQaDR5R1ZVUlppNW9KRGJqaTV4eDVJVERaMnA3SENFZjk1UzVlZUxTc28zdFpHVzhoempreUI0V3FXMjF4VVBOMmxLdWJJQ0JhSXRBRDlLR2wyR2FlQUp2OVBHNXRyU0NvYzhZdmtyV2NFWVhZNXFMSmZLR1Z1ZnZDbTlYNHRtVi1rUkJMdmJlSTRMWEg0aUdXQ2hRNjFYZlplUUZTMWJ1NWhrM1Uwb25PZHRZWHl0SGRQRFNUOFprcUZFSVZZdw?oc=5",
+        "source": "Cripto247",
+        "pubdate": "Thu, 26 Nov 2026 12:19:03 GMT",
+        "pubdate_iso": "2026-11-26T12:19:03+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "etf_flows": [
+      {
+        "title": "Bitcoin gains $2,500 in 3 hours, reclaims $59,500",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNVU44aWxnc0ttT1g2Q183WnE1Y2FCdmRweGh2VnRKRnBUS0dibzBfaTA1QTctUl9oWnBkeXJYRjJyU0JsejRFSjJyeXkzVzI3eGVqQjZ0WW1uQkFhYXp2VU5GVjl5aFNlaENRcEFoZExCVm4yQUs5Y0VDTFlNdHhva044bjBmUzUwLWxMVlJTNnhrWEkxS0hzeHpHanNlWkduajlubXRfS2Nxa2NMMzN3?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 25 Nov 2026 18:22:45 GMT",
+        "pubdate_iso": "2026-11-25T18:22:45+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🟢",
+          "razonamiento": "BTC gana terreno"
+        }
+      },
+      {
+        "title": "Bitcoin whales shed about 150,000 BTC as price slides 24.5%",
+        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZlh1LWdVaUI5TldoWnBKR1hWTnBtUmRzV0VCaHE3NjA0MjE2ak1IM0JvN0NkdWFMM08xQTM2akpkcmduck80MjY4ZHdDYlM1MWlETWc1UWxjdDJHdDdfNWVtNmoweERlTXBVWkhXUmpvWklDLXJWWWYzUG1Od0hlRllqN0k4WHphVi12T3Q5MnZwT3JPVm44dXFMdXpmbzlMbTJwS1lrTEs0YS1sVzdjYlZPZTlzcEIxYzE2MkF6QQ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 25 Nov 2026 16:38:48 GMT",
+        "pubdate_iso": "2026-11-25T16:38:48+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Bitcoin trades at $58,500 as on-chain indicators signal a market reset",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPUTFCMFVfSDFWMXMtc0ZPWTRZTHl3ODVmai1zZlV6OEphYVBmbUlFVHlkandDN0wzZzNZd1d3OVpLb3d0ZWEwYjFwdFdpUmlmZ3ZWRnFJLUhyc1RyYVpLVTRoTWx4aGFvN2hHM3VicHFmeE9BRGVaMGtTdWJ3ZFh5QUV1dVhhdjVhTGhJdlBxMXBMMmZWT01PX3pVOFI1QjRiSjZjX2h4X0RZX2FrMlg0cDE0cDhKQU9sdkFhSmdySjVSOG83RXJOdWFibmh2Zw?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 25 Nov 2026 13:36:10 GMT",
+        "pubdate_iso": "2026-11-25T13:36:10+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Bitcoin ETFs near $5B in record monthly outflows amid AI stock rout",
+        "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQNlJhbXg1X3FZVnJmLW8wVm5malN4ZUh4R1ZiTUdjTVdIZ040eWlLRVh1MzJ5ZnE2Q0tsRUJIdEZaMVJhSVNHQThJM3lZeW5GWUlNZ0dTVmIxVzBqU0pZa2NQU2J6QmxzUUUwbkFRcHBBQXBXNVgtN0Jrb3BOS2E3N1lpYzNQMHpiOW1KTDVkQWJTcnUweVZYNEllYVprb09MSWtvaFJvYURWT1BXR21PZXdUZWcyZEd2ODliYVMyS0hyWnN1Zy12OTJHcGJlQkpnNGhyMElNWVR6V0UyUGY4RHZ3?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 25 Nov 2026 11:12:26 GMT",
+        "pubdate_iso": "2026-11-25T11:12:26+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Salidas institucionales"
+        }
+      },
+      {
+        "title": "LIVE – Crypto News Today: Bitcoin Hit by Trump Tariff Threat and US Treasury Cyberattack as IBIT Bleeds Billions",
+        "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNQXVtMThnbTc1RHpaeHU1WFpjOHp2TXBmUkU3Njlua0FPeXRGcUxvd3FnVGx4Z2V3bWU2WFJXcWgyZWV2LWViZ1ozVW51cmk3Y3Q5SS1NcUo3c1NfYXNKS1dKdWpIamlIcGNFY1lyX1c3TXFaRE5sV0FwWWJKOE9OMzhtTEhZSTk4MFFOUW1CRUdZdUtRTVV0b01YT2x4YTBXRlE0MUFVeUxRckhqZE52THlqTXM2UnJVdkp2WUxBM0VYVUZSZnZFZXRZR3lvMWwybDVTbWZOQXEwRDFoUnRLTzE2c2tQT1ZLZkpqd3pYQjF3cktLTEczSGRVRmlydw?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 25 Nov 2026 08:05:23 GMT",
+        "pubdate_iso": "2026-11-25T08:05:23+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "regulacion": [
+      {
+        "title": "Cuentas cripto: el Sepblac podrá congelarlas sin juez",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5xWUhzUnh1RjZvZTBhYVpra09YY1R5blI4U1lEZTBsd3dHTjlPYUJ4YThQRkpFZlpFaUNoS09BMjJjeldRbUNqNmNrcTc3MDRubnRHYWI2SXdZeWNrU3JnbEc5dVhXVGxmd3hVQUFWZHRkVy1la2c?oc=5",
+        "source": "Criptotendencias",
+        "pubdate": "Thu, 26 Nov 2026 17:01:37 GMT",
+        "pubdate_iso": "2026-11-26T17:01:37+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Fidelity pidió a la SEC lanzar un ETF de Chainlink y el precio de LINK reacciona con fuerza",
+        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxORDctNVFCeURVT2VIWG90d0E2RExpM3Z3MVdqTDhoLS1kcklPdzRSTUQyNVVIR1kxOVJtRkVRaGpJQVVXRFBfZ3JLQ3BENjFkWTNXdmZtSFpaUmJsakU5REsta01uN1gyaUlLY0NTRkpaYUNXVUVlb2FsRGU1ci11VEhGdDBRX0x5ZDVBMDVWNGo3Y1hsQjV0VDFmbUo4bmowYlBadU43ZmVVUnJDMnZQYnhYWHRJQnZUWmhfUU1mU0o5YW5YUTZrd1g1a29HcTFB?oc=5",
+        "source": "Dolarhoy.com",
+        "pubdate": "Thu, 26 Nov 2026 16:47:12 GMT",
+        "pubdate_iso": "2026-11-26T16:47:12+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "China, Japón, Corea del Sur y ASEAN coordinan pagos digitales y regulación cripto",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPdjE3UEtleDVSd0I5cnkxQXVhT1dhVjNnYTZzcFgxTFE3NkM3c1NwN2dMU1JLcFdBd1JkNjdLdEo2RjkxM3FCRkJCYjNGc3FlRE9TQUpsWHJ4a3lURlU5a1p2VUFjb25fSGctdkFPVm44VFUxZ2I0VmtyZXY2LW13MjNYSDN3TlV2cVMxZDhIOVhvTDIxM2NpeVNNcS1rMkFCTXFCeFNxczVITE81ZTJGLXhxMjYtY1BHTXg4aDJB?oc=5",
+        "source": "DiarioBitcoin",
+        "pubdate": "Thu, 26 Nov 2026 11:44:12 GMT",
+        "pubdate_iso": "2026-11-26T11:44:12+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Ucrania aprobó una ley para regular y gravar las criptomonedas: ¿qué cambia para los inversores?",
+        "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNTDFXcXNadE9iaEVxNUcxMUd3SHMyTEpxbEhfX0dTWk1rTnA5MWdyclFNN2UtaE55cXNWVHFXamhObHRMcTBYNTE5WVpyVmo5ZnFVLXRWN1F3ZkZaTUJUcDB2ZjViQzRvYklyVmROSWlRVFYwamlDUFozVl9XRHp1RXVERVBrTTFXSU1EZnQtYWg1Q0VHMVZfdkNGclZYdHBSUFdCNC1OSnlvbUNtVjRtZ1pnSVdqbUNzaDJJSmtRUXIxSmUzRUtldDJvb3lhSm1sMFNUczJZQjRZMlM3blE?oc=5",
+        "source": "Cripto247",
+        "pubdate": "Thu, 26 Nov 2026 08:15:00 GMT",
+        "pubdate_iso": "2026-11-26T08:15:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Warren y Van Hollen piden a la SEC frenar su Regulation Crypto",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5hWXJ2Q2twMV93VTIxZGxIRmVRbk1UcWRFR3o1dDJ5LUNFa2VTWXFncm9qdGxTUmlYM2dUbVZ3V0R3eXZ3VkpveHI1eEtibEpoR0F2VVNSRTc0NkY0V1k1RTkwU29VNVBmNHJzQ25ORXROZw?oc=5",
+        "source": "Bit2Me News",
+        "pubdate": "Thu, 26 Nov 2026 08:00:00 GMT",
+        "pubdate_iso": "2026-11-26T08:00:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "adopcion": [
+      {
+        "title": "Adam Back urges Strategy to spend $3 billion on roughly 50,000 Bitcoin",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQeF85R1dUcTNmQ21qZUFaV3UzUFNRM1dQb24zbzY5cWtRdWJURF84ck5XbGswTXQtSXZLRTk5UjVVSlQzZVdxcG5zU0tuR3BDWUx6UER4Ry1XM2tlSmgzMG9zT19pWHA2akEzenlVdEVCZWVsa3NFOXNDMXlXUmd2U1VTZnFLcVdTWlROVWxxWTBraF9hdmVNV01ZNTg0cDZtb01GSDgyUlRWaW00aXAwU3JLQlBSTGJ1R1luOHFDUVpFMGFmSS04all2bU1BQQ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 25 Nov 2026 15:21:43 GMT",
+        "pubdate_iso": "2026-11-25T15:21:43+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Ripple Custody Partners With Major Private Bank in Türkiye",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOejZpTG5CM2hUR3pPa0NURWNnTUxJN0pyYWRGSjhZSEcwM25oYmF2cFFxOWhTcXI5c3R3cEZPYjlTc1h2bzNzUUJ2TVIxSUx2WFVkOGctTWluS0psVWZrazhzVk16ZVRRb2c5YzNWRGNUdmtQb3MwSjd6VDJDSEpGWThhNEZTNVpBaHZabG4wdGhOY1ZuaDB2ZmVoUTUzSVZmNVFCbktFUWJVNlRvLURkV3ZKSFlCUQ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 25 Nov 2026 11:03:28 GMT",
+        "pubdate_iso": "2026-11-25T11:03:28+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Michael Saylor Bought $100M In Bitcoin Before Strategy Did, Says The Man Who Convinced Him To Buy It — Now That Bet Is Around $589M",
+        "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxQSDIxcHktei1LWTYwVi0tVjk2dy1YTGdnZkxwVmd0QWtwTkEtaGpfWTRiNkFhcFNMUzl1OWpONFZJZDhyTXVoQUlSQWJtRkVTeWhWb0gyWVlfMlFhUkgybWFaLVcyZXR2OE5zWlRGVC1mRFZMWVNjQlFPOEVvZ3ozMEJiZ3Y1cmhXRXVrVE1paU1hZFB0R25EX1F3U3JINWFVeXExTWUzOWYyS0RxSEZGQm5uWDhxN2NlaEFob0tKQkhOcWVsVUk4M0wxOUNQS2lhU3hQbzQzVW1JQ0lVYkZOZ2hWQ2NXMG5KYmF5QnFEWHE0MGQ3Q3lONWhKVEF0ck9hcDFyeUhqeFpWVnpLUDJCWkJBTS0?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 25 Nov 2026 10:22:23 GMT",
+        "pubdate_iso": "2026-11-25T10:22:23+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Why Hyperliquid CEO Rejected The Michael Saylor-Style Bitcoin Treasury Model — And Bet On HYPE Instead",
+        "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOYTJHUF9HM0k5NlhNX2FPMEZZYTNBSlNMSnY5dGRuUXFwMEI1bjI2cUMxUDlXMGtYeWF5T2RoWEJFRmtIR1ZOWlNnOTh6RHVGNzVQSlRiU09la3NneURXMVZJQkpBRlducVdSeHZWbVN1REdYNm4xU3JJZ1ZjTlh0VnVhZTRETS1FcXg5MVVMZ2JqdlJDWTNqaDhhelpFeG8zSGlFaHNiUEFVZWE4M1hTcUVnajdOOGxCLTNiOUd0MHpPeFE2T1puMksxNmdOSXN6TXYxM2lPMDZfSWJSeHc0S3RCU0N3V3JCTjFSeFhQV1dEUQ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Tue, 24 Nov 2026 08:49:27 GMT",
+        "pubdate_iso": "2026-11-24T08:49:27+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🟢",
+          "razonamiento": "Tesoreria corporativa en BTC: tendencia bullish"
+        }
+      }
+    ],
+    "fed_macro": [
+      {
+        "title": "US Strategic Bitcoin Reserve Bill Advances, but Can It Pass Before 2027?",
+        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPek1DMEx3Qy1sOTdpQURzUGxESElOWUQzM1BJY3R2ZTl4dEVQNVJsVWxsdnp4Y0VTQWFpU0FXak5hWE1kemo4MEcwdVVwNGdVMjZQUUVzNkMtQW55S0RHZGRxRU92TC0wWHBtZlNaLUNod1BjNFhTUjBvUDRNNGI1ZlRhV21ET0s0ZEZHVUYwWU1OR3JLYkxiQi14N3VxVFFQU1VVWF9DTVNEVW91RGZfekRsaVhPLWo2M2JqSkZSZDlHNHRlaG1wcw?oc=5",
+        "source": "TradingView",
+        "pubdate": "Thu, 26 Nov 2026 06:11:52 GMT",
+        "pubdate_iso": "2026-11-26T06:11:52+00:00",
+        "impacto": {
+          "direccion": "positivo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🟢",
+          "razonamiento": "Reserva estrategica BTC: validacion soberana"
+        }
+      },
+      {
+        "title": "'Esta vez parece realmente diferente': Los veteranos de las criptomonedas se preparan para más dolor mientras el bitcoin cae",
+        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA2UGRTbjZya0trTkpvTkFFNjNQb19BSlFVSWhvMC01Nk84NlI4YXl1eDh0aHd4WnRBeEYwWXR1M0N2N0tRSWtWNmM3ZTJYT3J1c3dXVmpkdjVmYzZV?oc=5",
+        "source": "Cryptonews.net",
+        "pubdate": "Wed, 25 Nov 2026 18:41:47 GMT",
+        "pubdate_iso": "2026-11-25T18:41:47+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Bitcoin briefly slips below $58K as hot PCE inflation fuels Fed rate hike bets",
+        "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOaFlvOThzVjAtYW9uXzF6Tmk5ZTduZGUyS0lPa1BPYVkwQldldlVaZWVzTlBiZTcxUE03WDRlczhDbWlyUVFpc0RTd0NQbGFXNkhWUHVjSHhJaFphQkhia2N5SnhSV00yNWNJUERvMkVBRkp0OG1tUUVuMFhLdklyMlZLd1RzckEwRTFTSFNnb1oweUt0UjIyTm5FVHJEdzJBWWNGb3BrM3RPY2NrWGpEbDVxUGZOTWdFcHUtQVptdjdFYmd3cHBta2c3c2pJZVBhWF9ZSUgwVXlvTFU?oc=5",
+        "source": "tmgm.com",
+        "pubdate": "Wed, 25 Nov 2026 18:13:05 GMT",
+        "pubdate_iso": "2026-11-25T18:13:05+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Fed hawkish: rate hike presiona BTC"
+        }
+      },
+      {
+        "title": "US inflation rises to 3.8% ahead of December Fed meeting, clouding crypto outlook",
+        "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPVG1ibE1FVDFJUUE5RV9jMzNheTNrNFl6akhGM3hpNG13LUw3Q3ZXaUxXcnhodHRBTDZhcXZ2b2VXRUNJMlJldVJTUDhEbTBZZW9mTkRWc2UzVXlwWmtBVjg4bmRwQ3UzMEtQY0JuZDlFN1FPXzlqa0ItajcwNUJYam1PUzdEWDFiSWpFMlN4Q3dzZW1wNEUxMHR4bFMzRVpmQzFVTTRmVXVzUjU5dGhDUUU2c2VNZXRnc1ZWRE1OYVNQZkFYWkNISW1zRGtRd2dJU21fMUttYXNfYkhsN0NKWW51aDZlUGxnYWlGekxCaXJRb2M?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 25 Nov 2026 17:53:10 GMT",
+        "pubdate_iso": "2026-11-25T17:53:10+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Bitcoin falls below $58,000 after hot US inflation data",
+        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOc3VwS1MyUmRpeThydWVVTUlGdFVWMkhBTktUbjRvaXVGbGJScHpCOVFFbVlteks3dWV1YnJlbjhyMkFxU2lmOFRoVWFjaWxSaFZERGptcEVpMlJ5U3Y4UmMtMkRVVXlzaV9yRHo5X1FidC1zM1ZKZE13Z1VOV001VG1OcVRVZE9LV3pJbzZ2R2pndUVnOXgzaW93NEtNV05yRHY5VUk3ZVFUYVVnQkVHYmc3eGxfemQ0TGc?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 25 Nov 2026 13:59:02 GMT",
+        "pubdate_iso": "2026-11-25T13:59:02+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "BTC a la baja"
+        }
+      }
+    ],
+    "sentimiento_onchain": [
+      {
+        "title": "Bitcoin is 53% off its peak, with the historic cycle clock nearly done",
+        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZ1lPRkNZZjlIZGU4d1Q2TXpJMTRna09LU2ZHYmJ2ZFhQWFVSTF9EUkpfRnpPbk9nNDdyNnJDVjA5amptMWU1OWVKZnNpWnRoSE1lSzlZTG1UQVpqRjBPdmQxM1ZqdXR1SWZjVW80YXJiUWszSGFNRmF4MDlmNTB2eXpwcFZEcUdySWVsSDd4NTlWWkNFT0VfYVJsRGltZUpaZ1VKVnloYXN0eEFRUXpiMzRNR3BKLWh0Mm1CVjYzdkhCNHVfZDdyZEZ3?oc=5",
+        "source": "TradingView",
+        "pubdate": "Tue, 24 Nov 2026 19:50:13 GMT",
+        "pubdate_iso": "2026-11-24T19:50:13+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ]
   },
   "stats": {
-    "total_noticias": 0,
+    "total_noticias": 25,
     "por_categoria": {
-      "precio": 0,
-      "etf_flows": 0,
-      "regulacion": 0,
-      "adopcion": 0,
-      "fed_macro": 0,
-      "sentimiento_onchain": 0
+      "precio": 5,
+      "etf_flows": 5,
+      "regulacion": 5,
+      "adopcion": 4,
+      "fed_macro": 5,
+      "sentimiento_onchain": 1
     }
   },
   "resumen_ejecutivo": {
     "sentimiento": "neutral",
     "score_neto": 0,
-    "n_positivas": 0,
-    "n_negativas": 0,
-    "n_neutrales": 0,
-    "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
+    "n_positivas": 3,
+    "n_negativas": 3,
+    "n_neutrales": 19,
+    "narrativa": "El feed muestra 3 senales positivas y 3 negativas (neto +0). Factores dominantes: BTC gana terreno; Salidas institucionales.",
     "narrativa_fuente": "plantilla",
     "veredicto": "NEUTRAL - sin sesgo dominante"
   }

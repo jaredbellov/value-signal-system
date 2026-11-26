@@ -1,6 +1,6 @@
 {
-  "fecha_actualizacion": "2026-11-26T13:38:34.384726",
-  "duracion_segundos": 330.045951,
+  "fecha_actualizacion": "2026-11-26T16:36:52.945662",
+  "duracion_segundos": 186.265943,
   "n_acciones": 17,
   "acciones": [
     {
@@ -11,13 +11,13 @@
       "benchmark_min_pct": 6.0,
       "benchmark_max_pct": 7.0,
       "descripcion": "Administradora de Fondos de Pensiones. Top 1 por AUM en Chile. ROE consistentemente alto (~45%), G=20% (tecnicamente Crecimiento pero paga dividendos altos).",
-      "precio_actual_clp": 1251,
+      "precio_actual_clp": 1252.9,
       "razon_social": null,
       "variacion_pct": null,
       "dy": null,
-      "cagr_3y": 0.19668032263718316,
-      "cagr_5y": 0.39740637428786507,
-      "cagr_10y": 0.10954235497576947,
+      "cagr_3y": 0.1972858495489569,
+      "cagr_5y": 0.3978305886101692,
+      "cagr_10y": 0.10971075553933796,
       "evaluacion": null,
       "cmf": {
         "periodo": "09/2026",
@@ -279,7 +279,7 @@
         },
         {
           "f": "2026-11",
-          "p": 1251
+          "p": 1252.9
         }
       ],
       "flujos_5y": [
@@ -418,7 +418,7 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-26T13:34:50.816449"
+      "_fecha_dato": "2026-11-26T16:35:32.001839"
     },
     {
       "ticker": "ZOFRI",
@@ -835,7 +835,7 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-26T13:35:23.799543"
+      "_fecha_dato": "2026-11-26T16:36:04.266777"
     },
     {
       "ticker": "PEHUENCHE",
@@ -1255,7 +1255,7 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-26T13:36:06.357438"
+      "_fecha_dato": "2026-11-26T16:36:52.945662"
     },
     {
       "ticker": "TRICAHUE",
@@ -1670,7 +1670,9 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-26T13:36:38.961618"
+      "_fecha_dato": "2026-11-26T13:36:38.961618",
+      "stale": true,
+      "pendiente": true
     },
     {
       "ticker": "COLBUN",
@@ -2089,7 +2091,9 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-26T13:37:11.232783"
+      "_fecha_dato": "2026-11-26T13:37:11.232783",
+      "stale": true,
+      "pendiente": true
     },
     {
       "ticker": "ENELGXCH",
@@ -2511,7 +2515,9 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-26T13:38:01.063595"
+      "_fecha_dato": "2026-11-26T13:38:01.063595",
+      "stale": true,
+      "pendiente": true
     },
     {
       "ticker": "LIPIGAS",
@@ -2928,7 +2934,9 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-26T13:38:34.384726"
+      "_fecha_dato": "2026-11-26T13:38:34.384726",
+      "stale": true,
+      "pendiente": true
     },
     {
       "ticker": "NTGCLGAS",
@@ -2938,12 +2946,12 @@
       "benchmark_min_pct": 8.0,
       "benchmark_max_pct": 9.0,
       "descripcion": "Distribucion de gas natural por redes en Chile. Negocio regulado, payout alto. ROE 13%, payout 68%, G=4%.",
-      "precio_actual_clp": 745.99,
+      "precio_actual_clp": 745.989990234375,
       "razon_social": null,
       "variacion_pct": null,
       "dy": null,
-      "cagr_3y": 0.5554707352242638,
-      "cagr_5y": 0.25651937559939975,
+      "cagr_3y": 0.5549353729139088,
+      "cagr_5y": 0.25625987624129465,
       "cagr_10y": null,
       "evaluacion": null,
       "cmf": {
@@ -2962,7 +2970,7 @@
       },
       "dividendos_recientes": [],
       "error": null,
-      "precio_fuente": "bcs_api",
+      "precio_fuente": "yahoo_sn",
       "serie_precio": [
         {
           "f": "2021-11",
@@ -3206,7 +3214,7 @@
         },
         {
           "f": "2026-11",
-          "p": 745.99
+          "p": 745.22
         }
       ],
       "flujos_5y": [
@@ -3348,7 +3356,7 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-26T13:09:15.438202",
+      "_fecha_dato": "2026-11-26T16:34:05.189064",
       "stale": true,
       "pendiente": true
     },
@@ -7139,6 +7147,6 @@
     }
   ],
   "parcial": true,
-  "frescas": 7,
+  "frescas": 3,
   "total": 17
 }
