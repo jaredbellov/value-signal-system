@@ -1,6 +1,6 @@
 {
-  "fecha_actualizacion": "2026-11-26T13:36:38.961618",
-  "duracion_segundos": 214.622843,
+  "fecha_actualizacion": "2026-11-26T13:38:34.384726",
+  "duracion_segundos": 330.045951,
   "n_acciones": 17,
   "acciones": [
     {
@@ -1680,13 +1680,13 @@
       "benchmark_min_pct": 8.0,
       "benchmark_max_pct": 9.0,
       "descripcion": "Segunda mayor generadora electrica de Chile. Diversificada en hidro, gas, eolica, solar. ROE 4%, payout 79%, G=1%.",
-      "precio_actual_clp": 154.27,
+      "precio_actual_clp": 154,
       "razon_social": null,
       "variacion_pct": null,
       "dy": null,
-      "cagr_3y": 0.03897945927763513,
-      "cagr_5y": 0.2265142191734879,
-      "cagr_10y": 0.01646958574402735,
+      "cagr_3y": 0.03837297223273439,
+      "cagr_5y": 0.22608459459615315,
+      "cagr_10y": 0.016291545180790346,
       "evaluacion": null,
       "cmf": {
         "periodo": "09/2026",
@@ -1948,7 +1948,7 @@
         },
         {
           "f": "2026-11",
-          "p": 154.27
+          "p": 154
         }
       ],
       "flujos_5y": [
@@ -2041,7 +2041,7 @@
           "bpa": 9.61
         }
       ],
-      "per": 16.1,
+      "per": 16.0,
       "per_bpa_ano": 2025,
       "calidad": {
         "aprobado": false,
@@ -2089,9 +2089,7 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-26T13:07:04.029775",
-      "stale": true,
-      "pendiente": true
+      "_fecha_dato": "2026-11-26T13:37:11.232783"
     },
     {
       "ticker": "ENELGXCH",
@@ -2101,13 +2099,13 @@
       "benchmark_min_pct": 8.0,
       "benchmark_max_pct": 9.0,
       "descripcion": "Filial chilena de Enel. Principal generadora hidroelectrica del pais. ROE 19%, payout 62%, G=7%.",
-      "precio_actual_clp": 564,
+      "precio_actual_clp": 564.99,
       "razon_social": null,
       "variacion_pct": null,
       "dy": null,
-      "cagr_3y": 0.23011436982957134,
-      "cagr_5y": 0.2867744404444552,
-      "cagr_10y": 0.029867307752579952,
+      "cagr_3y": 0.23083369688033395,
+      "cagr_5y": 0.28722586356210744,
+      "cagr_10y": 0.030047939699050064,
       "evaluacion": null,
       "cmf": {
         "periodo": "09/2026",
@@ -2369,7 +2367,7 @@
         },
         {
           "f": "2026-11",
-          "p": 564
+          "p": 564.99
         }
       ],
       "flujos_5y": [
@@ -2513,9 +2511,7 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-26T13:07:53.676671",
-      "stale": true,
-      "pendiente": true
+      "_fecha_dato": "2026-11-26T13:38:01.063595"
     },
     {
       "ticker": "LIPIGAS",
@@ -2525,13 +2521,13 @@
       "benchmark_min_pct": 6.0,
       "benchmark_max_pct": 7.0,
       "descripcion": "Distribuidora de GLP en Chile, Colombia y Peru. Crecimiento moderado por expansion regional. ROE 33%, payout 63%, G=12%.",
-      "precio_actual_clp": 9970,
+      "precio_actual_clp": 10000,
       "razon_social": null,
       "variacion_pct": null,
       "dy": null,
-      "cagr_3y": 0.5104646682317546,
-      "cagr_5y": 0.32523565046723824,
-      "cagr_10y": 0.07538707398227262,
+      "cagr_3y": 0.511978160895826,
+      "cagr_5y": 0.32603222626835726,
+      "cagr_10y": 0.07571022354153922,
       "evaluacion": null,
       "cmf": {
         "periodo": "06/2026",
@@ -2793,7 +2789,7 @@
         },
         {
           "f": "2026-11",
-          "p": 9970
+          "p": 10000
         }
       ],
       "flujos_5y": [
@@ -2886,7 +2882,7 @@
           "bpa": 694.96
         }
       ],
-      "per": 14.3,
+      "per": 14.4,
       "per_bpa_ano": 2025,
       "calidad": {
         "aprobado": true,
@@ -2932,9 +2928,7 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-26T13:08:25.769539",
-      "stale": true,
-      "pendiente": true
+      "_fecha_dato": "2026-11-26T13:38:34.384726"
     },
     {
       "ticker": "NTGCLGAS",
@@ -7145,6 +7139,6 @@
     }
   ],
   "parcial": true,
-  "frescas": 4,
+  "frescas": 7,
   "total": 17
 }
