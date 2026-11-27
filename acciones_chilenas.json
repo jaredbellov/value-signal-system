@@ -1,6 +1,6 @@
 {
-  "fecha_actualizacion": "2026-11-27T15:44:38.930224",
-  "duracion_segundos": 694.021637,
+  "fecha_actualizacion": "2026-11-27T16:06:48.157616",
+  "duracion_segundos": 224.435564,
   "n_acciones": 17,
   "acciones": [
     {
@@ -418,7 +418,7 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-27T15:34:51.355581"
+      "_fecha_dato": "2026-11-27T16:04:43.223467"
     },
     {
       "ticker": "ZOFRI",
@@ -835,7 +835,7 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-27T15:35:23.722989"
+      "_fecha_dato": "2026-11-27T16:05:15.387875"
     },
     {
       "ticker": "PEHUENCHE",
@@ -845,7 +845,7 @@
       "benchmark_min_pct": 8.0,
       "benchmark_max_pct": 9.0,
       "descripcion": "Generadora hidroelectrica del Maule. Filial de Enel Generacion. ROE 72%, payout >100% (paga mas que lo que gana, usa caja acumulada).",
-      "precio_actual_clp": 2559,
+      "precio_actual_clp": 2559.0,
       "razon_social": null,
       "variacion_pct": null,
       "dy": null,
@@ -869,7 +869,7 @@
       },
       "dividendos_recientes": [],
       "error": null,
-      "precio_fuente": "bcs_api",
+      "precio_fuente": "yahoo_sn",
       "serie_precio": [
         {
           "f": "2021-11",
@@ -1255,7 +1255,7 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-27T15:36:06.365765"
+      "_fecha_dato": "2026-11-27T16:06:16.196097"
     },
     {
       "ticker": "TRICAHUE",
@@ -1670,7 +1670,7 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-27T15:36:38.469778"
+      "_fecha_dato": "2026-11-27T16:06:48.157616"
     },
     {
       "ticker": "COLBUN",
@@ -2089,7 +2089,9 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-27T15:37:10.813864"
+      "_fecha_dato": "2026-11-27T15:37:10.813864",
+      "stale": true,
+      "pendiente": true
     },
     {
       "ticker": "ENELGXCH",
@@ -2511,7 +2513,9 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-27T15:38:00.467892"
+      "_fecha_dato": "2026-11-27T15:38:00.467892",
+      "stale": true,
+      "pendiente": true
     },
     {
       "ticker": "LIPIGAS",
@@ -2928,7 +2932,9 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-27T15:38:32.724900"
+      "_fecha_dato": "2026-11-27T15:38:32.724900",
+      "stale": true,
+      "pendiente": true
     },
     {
       "ticker": "NTGCLGAS",
@@ -3348,7 +3354,9 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-27T15:39:22.225443"
+      "_fecha_dato": "2026-11-27T15:39:22.225443",
+      "stale": true,
+      "pendiente": true
     },
     {
       "ticker": "SOQUICOM",
@@ -3767,7 +3775,9 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-27T15:39:54.380992"
+      "_fecha_dato": "2026-11-27T15:39:54.380992",
+      "stale": true,
+      "pendiente": true
     },
     {
       "ticker": "QUINENCO",
@@ -4187,7 +4197,9 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-27T15:40:26.679935"
+      "_fecha_dato": "2026-11-27T15:40:26.679935",
+      "stale": true,
+      "pendiente": true
     },
     {
       "ticker": "CENCOMALLS",
@@ -4607,7 +4619,9 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-27T15:41:08.575129"
+      "_fecha_dato": "2026-11-27T15:41:08.575129",
+      "stale": true,
+      "pendiente": true
     },
     {
       "ticker": "ENELAM",
@@ -5027,7 +5041,9 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-27T15:41:56.366407"
+      "_fecha_dato": "2026-11-27T15:41:56.366407",
+      "stale": true,
+      "pendiente": true
     },
     {
       "ticker": "AGUAS-A",
@@ -5444,7 +5460,9 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-27T15:42:29.648922"
+      "_fecha_dato": "2026-11-27T15:42:29.648922",
+      "stale": true,
+      "pendiente": true
     },
     {
       "ticker": "PARAUCO",
@@ -5863,7 +5881,9 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-27T15:43:01.911234"
+      "_fecha_dato": "2026-11-27T15:43:01.911234",
+      "stale": true,
+      "pendiente": true
     },
     {
       "ticker": "MALLPLAZA",
@@ -6283,7 +6303,9 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-27T15:43:34.057628"
+      "_fecha_dato": "2026-11-27T15:43:34.057628",
+      "stale": true,
+      "pendiente": true
     },
     {
       "ticker": "CCU",
@@ -6702,7 +6724,9 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-27T15:44:06.403453"
+      "_fecha_dato": "2026-11-27T15:44:06.403453",
+      "stale": true,
+      "pendiente": true
     },
     {
       "ticker": "OXIQUIM",
@@ -7115,10 +7139,12 @@
           "fcf_cobertura_min": 0.7
         }
       },
-      "_fecha_dato": "2026-11-27T15:44:38.819861"
+      "_fecha_dato": "2026-11-27T15:44:38.819861",
+      "stale": true,
+      "pendiente": true
     }
   ],
-  "parcial": false,
-  "frescas": 17,
+  "parcial": true,
+  "frescas": 4,
   "total": 17
 }
