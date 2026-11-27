@@ -1,12 +1,16 @@
 {
-  "updated_at_utc": "2026-11-27T01:37:54.263610+00:00",
-  "updated_at_local": "2026-11-26T22:37:54.263620",
+  "updated_at_utc": "2026-11-27T02:58:08.709733+00:00",
+  "updated_at_local": "2026-11-27T02:58:08.709750",
   "tickers_solicitados": [
     "CFISPETF",
     "CFINASDAQ",
     "CFIETFBTC"
   ],
-  "errores": [],
+  "errores": [
+    "CFISPETF: sin precio",
+    "CFINASDAQ: sin precio",
+    "CFIETFBTC: sin precio"
+  ],
   "prices": {
     "CFISPETF": {
       "ticker": "CFISPETF",
@@ -19,7 +23,7 @@
       "fecha_dato": "2026-11-26T22:34:41.599529",
       "fuente": "bcs_api",
       "error": null,
-      "stale": false
+      "stale": true
     },
     "CFINASDAQ": {
       "ticker": "CFINASDAQ",
@@ -32,7 +36,7 @@
       "fecha_dato": "2026-11-26T22:36:17.863797",
       "fuente": "bcs_api",
       "error": null,
-      "stale": false
+      "stale": true
     },
     "CFIETFBTC": {
       "ticker": "CFIETFBTC",
@@ -45,7 +49,7 @@
       "fecha_dato": "2026-11-26T22:37:54.263309",
       "fuente": "bcs_api",
       "error": null,
-      "stale": false
+      "stale": true
     }
   }
 }
