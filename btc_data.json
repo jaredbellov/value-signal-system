@@ -1,41 +1,41 @@
 {
-  "updated_at_utc": "2026-11-26T23:45:06.622714+00:00",
-  "precio_btc": 60416.07,
+  "updated_at_utc": "2026-11-27T00:15:07.118044+00:00",
+  "precio_btc": 60458.69,
   "precio_ibit": 34.07,
   "score_final": 83.3,
   "zona": "OPORTUNIDAD",
   "multiplicador": 2.5,
   "peso_aplicado_pct": 100,
   "sub_fechas": {
-    "drawdown": "2026-11-26T23:45:06.595335+00:00",
-    "fear_greed": "2026-11-26T23:45:06.595335+00:00",
-    "pi_cycle": "2026-11-26T23:45:06.595335+00:00",
-    "halving_cycle": "2026-11-26T23:45:06.595335+00:00",
-    "momentum": "2026-11-26T23:45:06.595335+00:00",
-    "mvrv": "2026-11-26T23:45:06.595335+00:00"
+    "drawdown": "2026-11-27T00:15:07.090654+00:00",
+    "fear_greed": "2026-11-27T00:15:07.090654+00:00",
+    "pi_cycle": "2026-11-27T00:15:07.090654+00:00",
+    "halving_cycle": "2026-11-27T00:15:07.090654+00:00",
+    "momentum": "2026-11-27T00:15:07.090654+00:00",
+    "mvrv": "2026-11-27T00:15:07.090654+00:00"
   },
   "senales_reusadas": [],
   "sub_scores": {
-    "drawdown": 86.0,
-    "fear_greed": 89,
+    "drawdown": 85.9,
+    "fear_greed": 88,
     "pi_cycle": 97.7,
     "halving_cycle": 85,
     "momentum": 51.9,
-    "mvrv": 85.8
+    "mvrv": 87.3
   },
   "sub_detalles": {
     "drawdown": {
-      "drawdown_pct": -51.57,
+      "drawdown_pct": -51.54,
       "ath": 124752.53,
-      "precio_actual": 60416.07
+      "precio_actual": 60458.69
     },
     "fear_greed": {
-      "fg_value": 11,
+      "fg_value": 12,
       "classification": "Extreme Fear"
     },
     "pi_cycle": {
-      "ma_111": 76124.99,
-      "ma_350_x2": 148791.02,
+      "ma_111": 76125.38,
+      "ma_350_x2": 148791.27,
       "ratio": 0.512
     },
     "halving_cycle": {
@@ -48,8 +48,8 @@
       "ret_12_1_pct": 7.41
     },
     "mvrv": {
-      "z_score": 0.278,
-      "fecha": "2026-11-19"
+      "z_score": 0.182,
+      "fecha": "2026-11-20"
     }
   },
   "pesos": {
@@ -61,10 +61,6 @@
     "mvrv": 15
   },
   "historico_btc": [
-    {
-      "fecha": "2021-11-26",
-      "precio": 53569.77
-    },
     {
       "fecha": "2021-11-27",
       "precio": 54815.08
@@ -7366,8 +7362,8 @@
       "precio": 60378.2
     },
     {
-      "fecha": "2026-11-26",
-      "precio": 60416.07
+      "fecha": "2026-11-27",
+      "precio": 60458.69
     }
   ]
 }
