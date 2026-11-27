@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-27T04:00:35.977265+00:00",
+  "updated_at_utc": "2026-11-27T13:33:59.157173+00:00",
   "ventana_dias": 3,
   "categorias_meta": {
     "fed_tasas": {
@@ -28,32 +28,416 @@
     }
   },
   "noticias_por_categoria": {
-    "fed_tasas": [],
-    "mercado": [],
-    "tech_nasdaq": [],
-    "economia": [],
-    "earnings": [],
-    "sentimiento": []
+    "fed_tasas": [
+      {
+        "title": "Crypto on notice as hawkish Fed risks December ‘meltdown’",
+        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVDlmbzVkemc5VXpJYVVqeGp5eGo0QUlVajhQbC16dkliVzlDeVdsQTllODNWVTQwSVlvRTBET0UtY01WM2VhQVh4Qlk1bEV0aFhhWm1IX0pNZmRTdTVxUmR5V0JtVTM4YjV3dEs4UHcyeWJOQndBd2JjeHV1RjZ1NWN4bGxtZGk3TG1CVkRqTkZiQzVRRm5jdE1FMlZfQzZ0Y05vcW5rdVNjQWd5dmxzZEtkRzJiVFpWRkE?oc=5",
+        "source": "TradingView",
+        "pubdate": "Thu, 26 Nov 2026 17:39:53 GMT",
+        "pubdate_iso": "2026-11-26T17:39:53+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Tono hawkish: presion"
+        }
+      },
+      {
+        "title": "US Inflation Hits 3.8%: Will the Fed Raise Interest Rates Again in December?",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPakJuWmtUZlEyRWVZVUhSQ1FtQWV5Zk1EZ0JadTdZZ3B6TXVLOU9LdklmNnFteElQMVF3Q1RDTmJUVUlWNi1uM0EwazNObTFuMXBxRS1fQ05UX0VGYmpvTkVIQVJ2RlpKLWFTWkhpTnRHNHNrb1BnQ1l0aTB3NVhhVmpvbi1XNF9lQTJ4OEN1ZnJvZlNXN0VCelFZTzl2VDJfRHF4Y016blBiLS1vSzNhSm9HdXZQS3FTaUtpY0hESV9rcVNQckxfTEJNVU8?oc=5",
+        "source": "TradingView",
+        "pubdate": "Thu, 26 Nov 2026 14:40:01 GMT",
+        "pubdate_iso": "2026-11-26T14:40:01+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Majority Of Fed Regional Boards Were In Favor To Raise Rates In October, Minutes Show",
+        "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQOXVNT0htTF9ZdmV6a3BNRjl6TzdzR3NiRGFFVWpzVnkxUGtBYngtVW82Y0hPbEJ1cEhCNkpDaHZSOVpHRWxsOUp6Q0dFZEhnQmR6ZF83OU1aUGQwOFJIOEJPc1k3VkRsdERieWRpRUNCT1VmdG1lS3BOSWlfZ1NuNzBsVC0yTUdNUThhSzJFU29UbzZFMnZGdWphSjhqSlhUR2R5dHJ4eUN5aUZyYnZSb1MxWE9SQ2FZUy04dWpRVm4tNTFQODM3dUM5cXloeVZnSWxfWF9USkJKcmwz?oc=5",
+        "source": "TradingView",
+        "pubdate": "Tue, 24 Nov 2026 21:18:34 GMT",
+        "pubdate_iso": "2026-11-24T21:18:34+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "mercado": [
+      {
+        "title": "Trump Says Wednesday’s Sharp Wall Street Selloff Briefly Worried Him",
+        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOU1dFQUktVUFCOWZmZk5YUkFBTW5FT3pRajlBMTloTjlscGNwcXZQajJQc1NmbzB1VmtYYXc3VGJhaEJPcEQ4RXRqNHozYllVSl8xYUFsR3l0aEpnUU1EcnlNMVFZaGhkOWlGQ0M3UGZUMDNjQXlrNWF0cDctdmJrMUU4OVdlMklaOEtiNXVSUzg0V2dxdmk1eXctX0dGdnJPdXRLQ29ETHpjeVNvdHNwUFNPZ293LUJ0bDJGbDV3XzFicHJfYXNxMm53?oc=5",
+        "source": "TradingView",
+        "pubdate": "Fri, 27 Nov 2026 01:15:00 GMT",
+        "pubdate_iso": "2026-11-27T01:15:00+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 3,
+          "intensidad_label": "fuerte",
+          "emoji": "🔴🔴",
+          "razonamiento": "Selloff: presion vendedora"
+        }
+      },
+      {
+        "title": "Noticias de CNBC TV18 en TradingView, de fecha 2026-11-26 — cnbctv:372043c8b094b:0",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE15U1ZOMlJDRXkxY2VlR2ZwSng4SUZKUTZOWHppaEcyUnh5RmczamRZVkVoRnlwdF9uZEZlXzM4eXUwX3dlRDRTX2ZMWDNrR0JVZmNxVkkzdHEtckoxRkg0Y2w2S2k4QQ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Thu, 26 Nov 2026 15:32:50 GMT",
+        "pubdate_iso": "2026-11-26T15:32:50+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "La bolsa de valores de EEUU modificará sus horarios por Acción de Gracias: qué días cerrará y cuándo retomará las operaciones",
+        "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPbVRlcVZfT2h5bTU5TVZ1czhfbzVyZm5veUVNOHRZdVZLYl9fZEVZaE1lRDVtazVXYVpzVktCWnBIcl84Skh0T0xHWlhjWWFoeGpDbEczWGdCVWJuLWVud2czd0R4RVF6QXJjcEJJU0JmbW9aWWFTMU1lamZPVlJjYmFQYmg4S0NIUnc3cTdFTm1HUkplWF9PRkZsQUFGekJMM3h2RHFUd0NsMHJ0U2NPMEhBNHlXSGNCUWowVFNOX3RORUwtWWk5c2tRODZfcFBDdkgyTDdhQW5tOUo4VjdrSl9lX2h4LXRqeTNzM2xrblphd2wyWUh6MTFubmpNOHJCeDVmcWJR0gGgAkFVX3lxTE5pWjV5RkpRbW5QZ0x6bWFRcHZjektRQnlHZFZwamhxekJVRF9JMTZTY1p3eGV4eFFPekpWSlYzWXZxZ0doSkN1OTNBWlJzeHpZRFJMYTUyOS1tVGVKenJzSGV4VmJNYmN2NE5VWklUSHYySldMMWVkOVNqSUM1VUJteU5NNTluWTAtNDU0Vm5aMEx5VW85NUZfSWpFTkdLZ05aWlpOcTY3VkdRYXJONEZ5cjUxbGpBT3BldEtSWmc5Rk9iWkpkWTlCRnFxUXk4b1M1S0loQVdwY25WR0dDaC1XMzJnc0x4UC1ocUJEVThza2ZXelZtMUwwbHpEd3pSSjZDeXpHQm5zQ2hleEVoLTRfeXNUU1FwMVpSN1pOMEk5dg?oc=5",
+        "source": "Infobae",
+        "pubdate": "Thu, 26 Nov 2026 13:09:00 GMT",
+        "pubdate_iso": "2026-11-26T13:09:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Musk dará dos acciones de SpaceX a cada niño de Estados Unidos en una operación de casi 17.000 millones",
+        "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPaHNoVUR5cHlRVktISWd2M094VTZ0bmdyMnFQSzliNjdCZVY5d0VDYWxCdlY3ZDdYT1liV09QVUw2dFQ2R2lqRy1YNmtTeEFjNEhFQnE1RTBUMzd2bWlXRjdOWktXRkxYV09saWRiMmpNOE15N1d6cVg0NGNLdlhJNTdJVFhKWVRETjZIalF4WmtEbUgtOE8zVGFhX1hCWkFjSjlfSG83ODBYb1BIdDdyRnBTeWNGM2hSckJtbmFvbHl3SFpXTXkzekJRbk5STzA3bmt6Zkl6WkJfNHJreV9r0gHzAUFVX3lxTFAwOW5MYVozRkRnMFFFcXlhSWo1WmlEMnhjQ3dKSWxqZjFTYWEwVG9MSVhyTGtMV0hYSmEwTkVzQmszb212MWRrVVZzZ2FfdXVqelA1Q01oenVUdGJlSWpIQmRHY05aSDhYTXlIQU1NRFdxMUhQTGNOY3FnUzlpMkdWMlVxOUFOdF84OTFla1BYR1FwSFNGT0ViX0NsOUJKR0s1anpuYWZrZTZOUFZlU09VNU43eGZWcW4yRTFyaUw5aVl4Zm5qYldJejFPcEZmZUg5enRUVnFGOHNVRVZFRng3azV5TUNsaUhvQldpX1BVV1hYVQ?oc=5",
+        "source": "EL PAÍS",
+        "pubdate": "Thu, 26 Nov 2026 09:44:11 GMT",
+        "pubdate_iso": "2026-11-26T09:44:11+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Nasdaq, S&P 500 ease, but off lows of the day as investors seek bargains",
+        "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOMEl3ZmFPSFptRlkzM19HV2gydUdtRUd3ZzZKTFhtcDdZemQxWHFZVks3a3pFbnBxckVvUXRGeUFmaThFZ0tMSHYyb2MzRmxKdlEtWTRuZF81TnA3UEVxblhaTHNJcERteVBscmJXOEo5ZG80WDdHVF9YT3hjR2xEdmhHdmRfb0JnSjl0WWRVMmJpWV9HU2xBR1NyOXJxcVlHRkFjN0F6aWVQcHpOR01fS1dScVJyN1hPT3MzY3lpVVYyM0NUN2Jla0VQdkZabUlmbUFBNVppQmlwOFp5NVB0Y3psZEp2WkpWZ1dhTXNXVQ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 25 Nov 2026 20:04:33 GMT",
+        "pubdate_iso": "2026-11-25T20:04:33+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "tech_nasdaq": [
+      {
+        "title": "Impauer Technologies Inc. Announces Third Quarter 2026 Financial Results and Equity Compensation Grants",
+        "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPVG5oUkFCVzVnNzMwaDdCbW56Q2FMdlI3Vm5OZnczSUZaZ20zQ09jRFVsSWk1VEZBM3VyTXptSmRWR3FqTlJqUEs5WU5XamVlR3JPLUVOVUhkNHE3WHUzV3pXMDEydlNBOXdhWmM1cmtiRFFUVVo3NzRVcXlGYnpubHRLLS1sZk15U0FqSnJNOExhN0RUTUItT0xuQmk2ajdWLVREMXJJNWVpYzJObDZyZEhIUS1BZ1lvLWluRmZuTWZDT1BDaGNmT1pSQWkzS0dpM3VFQ1hJTjFvQ3JXV0hRUUpQdzl4dnpNa2FIZzN6M2JkSDg?oc=5",
+        "source": "TradingView",
+        "pubdate": "Thu, 26 Nov 2026 12:29:00 GMT",
+        "pubdate_iso": "2026-11-26T12:29:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Nifty IT jumps over 2% as Wipro, Infosys, HCL Tech rally; Indian IT stocks defy global AI weakness",
+        "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPVjJhN1diWXVsYW02RF9OUjV2dHNTWjVKaVA1V1VIM1JuNERiQUpjN2hJWnNOYnNBTGpDNlZZOWIxQXF6NThWbkhTTUNxYnVFR2V4U1p0Vkt1Y2dCSDRURDU3T0hVSW9fR0dRV1hjbGtSbWFUYVQ5SDF1aHhuQll0V3k4eTdVWkdoWGotR3RZeExLUjNaS29qNFkzeWo5bE0yWnBpWnM2SUFHcjI3SWdCX1A4NTQ0X1JBWWFmVHNTTm1TbFhyWEZlMWM1ZFBrWjRXRl9nMi1INWE2cVYzRE1fX0xFMU5VeFNtTWZBZA?oc=5",
+        "source": "TradingView",
+        "pubdate": "Thu, 26 Nov 2026 06:16:00 GMT",
+        "pubdate_iso": "2026-11-26T06:16:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Dow, S&P 500, Nasdaq Futures Edge Higher As Tech Rebounds After Selloff: DIS, VRTX, DE, CHTR In Focus",
+        "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNbEFHdFNUOEd4dDY1Nng3Unp4OUFSUVlFQkR0UXlkUDBELTZPdkNZVTBDQ2M0dXVGUFZtS3cyQUltNi1XQ3dCdnJXNGE0Z2tyaG5iZWp1YU1lVV96NUxqMXNubHFVRmNIcDZQcWd1RjBVblVRTHd1RmVKN3VLQVFkOUp4WWZIMDYzNVI4TmN3U0xrN2M4bm1tTkpJWVRCQk9zdzBmZzJqX2h3QlZwVEhOcXVwR3VQcnVndzI5ajVMT0x4ZDg3NUl0eVkxQkJ3UF9MTkIybkVLVV9qWmNlNngzcUJjR2NzN191bVRZ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Thu, 26 Nov 2026 03:14:00 GMT",
+        "pubdate_iso": "2026-11-26T03:14:00+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 3,
+          "intensidad_label": "fuerte",
+          "emoji": "🔴🔴",
+          "razonamiento": "Selloff: presion vendedora"
+        }
+      },
+      {
+        "title": "Nvidia Shares Rebound After Huang Returns, but Risks Remain",
+        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVk1Tc2k3VjMtTnRiSllxOFJZODBjTEJOMVQ0S1ZZRk40NHQzTHBQTVNaOFVObksta1JTQXJaUndyWVdTcEptdGhkN21qQ2xQdUthSk1fUWc0RjNpOFZYNUxiTmhEVXF6QzJVNzlZclk0Wl9XUWQ3NlJhdU52LUF5ai1tY2RxV2FMMmtnQml1SkFxRVlUSDdrV1VQWWNJMjVSbVdyOVRvRFQ1dnh4bER1RnFKRVF6Z3lMYlNDREl0ZXA?oc=5",
+        "source": "TradingView",
+        "pubdate": "Thu, 26 Nov 2026 00:00:00 GMT",
+        "pubdate_iso": "2026-11-26T00:00:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Hydreight Technologies Announces Timing of Q3 2026 Financial Results and Earnings Call",
+        "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNeXRON1JwNV9OaUlGbzJsVEtxN3NydnBfSFBHVHU0eXpDbHpmUlBOMHRQWUs1R2pqSlpTRTJQZGR2TTVoT3pDSHRmUTJ3QWpjcVZ0SWVLdEZzbHl6VFIyNUZ1cFd3VEhPbTZVZzZISUNsVmxDV2Y1M1QxWXJ5THNkeVBmbDh2TG8wbE5PeENZaDM3M3h4N0EwY0lPdHF3UEQtc1FZbHUwZGFySnhicmJqQ1Q2ZW9xLV9aUUpuQXAyMUNXRGZuRW1qczRsczNidFhZMzRNRU5lQUJzRW42WDNV?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 25 Nov 2026 21:37:00 GMT",
+        "pubdate_iso": "2026-11-25T21:37:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "economia": [
+      {
+        "title": "Fed Beige Book Shows Hot US Economy With Modest Price Growth And Rising Wage Pressure",
+        "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOcVNzNlJYM1ptWDVIT0RSbHlvRkI0ZjJjdS1wTG85UVBkd1daMkQxRmtCUlVvTDh6ZWlua19KOGlKQm5uSHBZb01YLWZ3R1NPcmg4QU0yOWkwcnptMUp0NjVPZklZTVFMaHROVHFKUnNOYnFtLXFEOXRKaE5YSGZDelVkUExwTkNRTE1TbWNPWWRpN3cwRmhYNGxJVWh6X1ZMbl9NSDRpeGY2SVo0emFzakt1YlZEVEpnOHk0WFRSVWN6TDZFT2hKWlBmenRMcm95QmlBX0pOdXEtM0pkNXVXODViazhmYTBNR0dMbXFvQUFmU1NINEJj?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 25 Nov 2026 23:19:38 GMT",
+        "pubdate_iso": "2026-11-25T23:19:38+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Argentina's country risk surpasses 1,100 points amid fears of an imminent recession",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQWnl0b05CcW5IMzhwMUZhVmc3TG5TSTFualU0eTNUZ0VScnhiQjFONF9pZkJva0tsQmk5Wm5qS2UzX0tyeW1uaW9WOUhZMFZKMFFHYlpKRGVrYkNibUVINElZaGpOMU5VU2VzUW41aVFVV0l0U1BkVXRRWWlGcThra0hGYUktcWRHbVNabUg2clNlazdVZ204NFZvczNFT3ZSRE1sSm45QWQ0blVod0IyZUF2VnRIM0dfQ1U5Z9IBwgFBVV95cUxQUXk2SlZHSGc3cTFKdlZvRWhaWHNQakJtWkx2WFJmM2lFQ0lfZkV1Qi1RdmZJWV9FMkkzNGdrWU1iNk11UlRNSldxek9lMHZ0cnU1aHM0SzBwWENTdV9DbTVGX2JtX3djbmpoRG5kY284R0ZtX0NhRjY1cXdZUTRHdFJYOXl4RzFMWW9fTUxaeFN3WEVkZGVPZWJiS1RtUVNVT1lON3dnNWxmTWxXNVRka3NIWVF3OElwbkRtVDdYM1hPdw?oc=5",
+        "source": "Demócrata",
+        "pubdate": "Wed, 25 Nov 2026 20:08:34 GMT",
+        "pubdate_iso": "2026-11-25T20:08:34+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Riesgo de recesion: muy negativo"
+        }
+      },
+      {
+        "title": "Cathie Wood’s ARK Sees ‘Excellent Entry Points’ In AI — ‘Big Short’ Steve Eisman Warns Of Recession If Anthropic Or OpenAI Fails",
+        "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPbHRnNi1SLWxzOXpSMzRIZmZfN1g1WE5zZmwzVV9pRDcwVFNTeFc4T2lCZV9IVDBaUTUzYVVRdEZMU25nZVAwTHltMjBiY19tS3E2WXZZa1h3d0xLQm1WZFFURHN3NDJNRGdfUU9iNUE2Z3Fsbk42Q2FobkJsZWlGQlpKRElBU2FHZUZZNU5NTXoyU1U1X1BQSjVhalhaUUwza0pFRFZ5bDExS245b0ZOcEpqNDNDeUdOMW5Da281M1lMSW0xZDItUnptdkZEc3BwRGJqVU1UbG5zUjNwVjFiZmhjYVJETWhsTExHYXdGSVlVby1SUnlYemFhbV9VXzVUcWFtaG8yMlI4cGVYV21V?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 25 Nov 2026 04:41:00 GMT",
+        "pubdate_iso": "2026-11-25T04:41:00+00:00",
+        "impacto": {
+          "direccion": "negativo",
+          "intensidad": 2,
+          "intensidad_label": "moderado",
+          "emoji": "🔴",
+          "razonamiento": "Riesgo de recesion: muy negativo"
+        }
+      },
+      {
+        "title": "Bond Traders Hedge Against Risk Fed Hikes and Stock Slide Will Slow US Economy",
+        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPMmkzeVlXY3FRZnZoU3dyejJXUkRlVDd1YWwxNTZTZWhSeXNMTzJvWGtXVWw4MldPRmhQUGhDbkZUUFR2eTJuWHlqU1JZeTgxQ2M4RDIzVE9RTEtVTmlVVXFCUnpNYUJvbnY5WnBLMVdJM09jbHNSdUY4VUlpRXpMRVBKTjVnd3ZDNXp4d2lhREpTQVNiUGJKaEJRb2xUajVLcTFHWWlHOW1QZXEwcFExeDVtMFdCT1c4ZDJacnJKTlotWGZ1SUd2V0lremduUmdEb19KYzdQUQ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Tue, 24 Nov 2026 21:36:46 GMT",
+        "pubdate_iso": "2026-11-24T21:36:46+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "earnings": [
+      {
+        "title": "Copart Gears Up to Report Q1 Earnings: Here's What to Expect",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPaEpUMkNLMjVMQmFfMGUyX1Y5MXBHRmozLXJuWmVQTHZ6RzVzb3BVNVdfbUZQbVB0NmxacG5EUWd1am53cEYxcXNITVNNU2Znb2xqbFZVbDBtak9hMWlhS05zajBpVGZqMGZUSUVtM3pVWG83cEFpUUxiYVFlWnZBWmd4X09aUWhjZFFLV0VZU29CQ2RkYkZINVV2M2E3d2ZIclViaV9MdGM4amxDMG1QLVcwUEk?oc=5",
+        "source": "TradingView",
+        "pubdate": "Thu, 26 Nov 2026 13:43:00 GMT",
+        "pubdate_iso": "2026-11-26T13:43:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "ARAMI: FY 2026 guidance met; FY 2027 outlook reflects continued transition and market uncertainty",
+        "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxObk0xSU9vU1ZVbXdNcERLVWJiek5qZnMyWVBnSW9kWFYxNWF3QWJqdFRWWnZhMzJsY0Q1TGhEOVFadnB1dnpKbVMzY25wZkRNQ0FJVmh0OVNORFhRLUg1NXFGZUtDTDAwcll2SHBuQW5QUnZpREFSVUQtOE9zYXhKN3pMWG1HaDFkNFJoY1RqeEFta3FoQkI2b3cxTk1WWjFNU3REMkg0cWJab1hJRVZoRjFiV1pjb3hpVzVPLVBoMUdfWG4yMFBRWDRqZk9GZEVMMU40T2YwMGFFLXd1OXh1S1RFaTVlX0ZhaE1rd2RnM3lxYWJqbmZSbmVZbUt0ZWRjeEw5ZnhtZDc?oc=5",
+        "source": "TradingView",
+        "pubdate": "Thu, 26 Nov 2026 13:42:24 GMT",
+        "pubdate_iso": "2026-11-26T13:42:24+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Reflecting on video conferencing stocks’ Q3 earnings: Five9",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOaVBabVlmNXVJb3B6Qnhyc0dUOWV5OWM0aE9MaWt5TUQ1c3lSRy1IWmw1aVVxc0I0ejRNZXVuaGZOYkd2MTBzUVk5VmpqdzhVOVRPNUxBUjFvRXhnV0psWFZyUjdFX0lCemJyT01IYnJNUFQtRHA1TnNNeDdYdkpUaDl4cVBLZ1EtNE5QM2JJaWk5cUdpcVNnWmVvMnlfWS14MTV2NWdJcjYyQ2tqelA2UUlYMHpJdnUz?oc=5",
+        "source": "TradingView",
+        "pubdate": "Thu, 26 Nov 2026 03:31:00 GMT",
+        "pubdate_iso": "2026-11-26T03:31:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Q3 earnings roundup: Timken and the rest of the engineered components and systems segment",
+        "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQVzRXWUZPdjVsc01HZWphZmJYeG1ROWw2SzJKaWRoVFFyTlEtVWxfYjRWY2FweV9HLXAwbDljRFBTNmVBdXN0RTlKQmJTNHFpNUlxeUsyRTFjQ0cyR3pJUVltOThRcERTWnpBSDl5Ti1zYThEa3lDZVFiVkNpSW5NZ1RCNWVJU1kwXzFiTFRrenRmc0RTa0lrVUpER2Q1VUQ2bTJEaHJXd0pjRmJ6Q04wczhSU1J3bE5RaGQyWlFPcmVGZHJONDVaTjFPYnBhNXhlSU44Z1pNbDlSVkhxSGFmX1pB?oc=5",
+        "source": "TradingView",
+        "pubdate": "Thu, 26 Nov 2026 03:31:00 GMT",
+        "pubdate_iso": "2026-11-26T03:31:00+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Undervalued healthcare stocks as Q3 earnings season winds down",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNVlhmSUpxZDhKSTZLVVlHX3VhVzU5V0VRWWN3TUxQSWVhakJ3a3p2U2hka1VoVjc2ODloNFRCNEszWk5QRzFsdWJuQUIzX1VQVXpaZjVnUDFYNURpcUpzRUF5ejQ2RTdXTDB2bm4wX252ZnR6Nkl6RVdJc3A1SDF5X3pZR0ZxVk1fLW1SSFV4R1hnT000clJ3Y2RZTlQ4WDhmWjhVQW03OS1WRUxlZDJ6bi1JRmdfRVBQSDdyQ19SNXM2UQ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 25 Nov 2026 15:50:14 GMT",
+        "pubdate_iso": "2026-11-25T15:50:14+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ],
+    "sentimiento": [
+      {
+        "title": "Bitcoin Weekly Forecast: BTC slides more than 50% from its October 2025 record near $126,200",
+        "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQOW53cW8zbUtEV0tiQW1lblM5VkpDUk9uNGZ3UFlzaGNwam5yOVczaXE4TGpTbFoyNnE1T1UxUDFObjlEM2k5OERxcmZpVFQwLUlacURMczhZWnhNSThCalJLeUhUTzlrZmpBTFJxNlRLb2VRakpMM2hZQV92eUVwc0xjSVFTb19jZXVFWV9MXzRTazZnZ0ktUzNBTkdEbUFXLUU5WXhsbmpUWFFxbHE3Q0dxZTBxYk5pRHZ4RlZ2YWxxQ0xTNnVyZWh1V3daaVhOUjVEUnVrQk95ZWRkQ3hkamQyLU1vR2NwUnhV?oc=5",
+        "source": "tmgm.com",
+        "pubdate": "Fri, 27 Nov 2026 11:02:51 GMT",
+        "pubdate_iso": "2026-11-27T11:02:51+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "4 principales razones por las que el S&P 500 y ETFs como VOO, SPY, IVV rebotarán",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxONTZVMUVXb2ZjRTc3UjMyTDAySjRZRWk0MERXYTUwUF92ZFpxOTZVNHVtRUVPN1dQX2dfeDhoUGM1TVNLZHpaVFM4TGpJRmkwbVg4TnNkOFVLYl9pRThzN2h6bzlYUkRIdm1wc3Z6SUxFcU51aUVtOFdka2FJUkJJYg?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 25 Nov 2026 19:23:16 GMT",
+        "pubdate_iso": "2026-11-25T19:23:16+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Top 4 reasons the S&P 500 Index and ETFs like VOO, SPY, IVV are set to rebound",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNT2xhVV9UaWJ5MDBYU2tBZko4SElGamo3SFBvb0sxMndHSGZYLWxUcUdSR3VaQmJya2tUbUZFTEctQjNoMWM0WGtUNzFDdE1XZ200c2xfbWJwQS1saVUzMTNGWlgzbWlibXNKZkJ2QUNUdGZxNTB4cUtvU1RCaWF2UXVrN0ZBT1hSeTNkSVNKYWM1THhlTmMwQlVLMGIyQzhEQnAzaEE5Z3hlYUxEY0tmMHBrWmh2Sk1YdkFCeV8tSjQ4ZHJ6MEEydGd2NEo?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 25 Nov 2026 19:21:31 GMT",
+        "pubdate_iso": "2026-11-25T19:21:31+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Ukraine passes crypto law with exchange licensing and tax on gains",
+        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVTg5RkNSX0NfUk1UalRwN0tMbHBYNTh5T3VqWnk0N0Fqb3NIZkNSeURhakN2VG1fdHAzRXM3Z1hWdHVVc1lNTk9NMDhOTGp6M1RNdTFUUHRJbUJxSmM1OVdRZGxzb0REQlZWYVBFWTJIcUxMZEZ2eVZHa2lqM2V6RjFnLWJYdDhSM1RRU3ZlSVFadFczcmFpbW9qLWhCMjRDeDlMOW4tWEJqUU92QmxYRmFSZmdMWWhtSlpkUnJZdw?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 25 Nov 2026 14:09:15 GMT",
+        "pubdate_iso": "2026-11-25T14:09:15+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      },
+      {
+        "title": "Anthropic stock extends decline: is its $900B spending bet too expensive to finance?",
+        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOOFBFRFExMkZnaWE2bVB3NmRqUzh6WTUxaHY4cENJMFpXcXJ4dUN2Vjl4WUpRRUV3MkhTTW9XR0hETlJTUWNiM0MwRmd4OElsUHFsYmFYX0kwaW15TWk1TnRxdE5ZS2NQWEpOU2d6aEF6TjNDcGNNOGMyYTZ0cU9LblhlWFhzX1l2dFZtVVIzdno4a2dIWmk0UE5KNnVpbkE3YThxdWtUYmphb1JLcDNFcWdVWmdyWG5BamhlbzViaUtxZFRuWnRsWG95Wl9xRmYzejFZ?oc=5",
+        "source": "TradingView",
+        "pubdate": "Wed, 25 Nov 2026 12:36:06 GMT",
+        "pubdate_iso": "2026-11-25T12:36:06+00:00",
+        "impacto": {
+          "direccion": "neutral",
+          "intensidad": 0,
+          "intensidad_label": "neutral",
+          "emoji": "⚪",
+          "razonamiento": "Sin senal direccional clara en el titular"
+        }
+      }
+    ]
   },
   "stats": {
-    "total_noticias": 0,
+    "total_noticias": 27,
     "por_categoria": {
-      "fed_tasas": 0,
-      "mercado": 0,
-      "tech_nasdaq": 0,
-      "economia": 0,
-      "earnings": 0,
-      "sentimiento": 0
+      "fed_tasas": 3,
+      "mercado": 5,
+      "tech_nasdaq": 5,
+      "economia": 4,
+      "earnings": 5,
+      "sentimiento": 5
     }
   },
   "resumen_ejecutivo": {
-    "sentimiento": "neutral",
-    "score_neto": 0,
+    "sentimiento": "bajista",
+    "score_neto": -12,
     "n_positivas": 0,
-    "n_negativas": 0,
-    "n_neutrales": 0,
-    "narrativa": "Sin senales direccionales claras en las noticias de las ultimas 72 horas.",
+    "n_negativas": 5,
+    "n_neutrales": 22,
+    "narrativa": "El feed muestra 0 senales positivas y 5 negativas (neto -12). Factores dominantes: Selloff: presion vendedora; Selloff: presion vendedora.",
     "narrativa_fuente": "plantilla",
-    "veredicto": "NEUTRAL - sin sesgo dominante"
+    "veredicto": "BAJISTA a corto plazo"
   }
 }
