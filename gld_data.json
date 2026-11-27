@@ -1,55 +1,55 @@
 {
-  "updated_at_utc": "2026-11-27T17:57:05.218614+00:00",
-  "precio_gld": 333.86,
-  "score_final": 65.7,
+  "updated_at_utc": "2026-11-27T18:27:05.620697+00:00",
+  "precio_gld": 334.4,
+  "score_final": 65.6,
   "zona": "ATRACTIVO",
   "multiplicador": 1.5,
   "peso_aplicado_pct": 100,
   "sub_fechas": {
-    "drawdown": "2026-11-27T17:57:05.189868+00:00",
-    "momentum": "2026-11-27T17:57:05.189868+00:00",
-    "ratio_sp500": "2026-11-27T17:57:05.189868+00:00",
-    "ratio_silver": "2026-11-27T17:57:05.189868+00:00",
-    "dxy": "2026-11-27T17:57:05.189868+00:00",
-    "real_yield": "2026-11-27T17:57:05.189868+00:00",
-    "vix": "2026-11-27T17:57:05.189868+00:00"
+    "drawdown": "2026-11-27T18:27:05.585160+00:00",
+    "momentum": "2026-11-27T18:27:05.585160+00:00",
+    "ratio_sp500": "2026-11-27T18:27:05.585160+00:00",
+    "ratio_silver": "2026-11-27T18:27:05.585160+00:00",
+    "dxy": "2026-11-27T18:27:05.585160+00:00",
+    "real_yield": "2026-11-27T18:27:05.585160+00:00",
+    "vix": "2026-11-27T18:27:05.585160+00:00"
   },
   "senales_reusadas": [],
   "sub_scores": {
     "drawdown": 100,
     "momentum": 40.5,
-    "ratio_sp500": 87.0,
-    "ratio_silver": 44.3,
+    "ratio_sp500": 87.2,
+    "ratio_silver": 46.2,
     "dxy": 84.9,
     "real_yield": 30.2,
-    "vix": 48.4
+    "vix": 45.2
   },
   "sub_detalles": {
     "drawdown": {
-      "drawdown_pct": -32.68,
+      "drawdown_pct": -32.57,
       "max_52w": 495.9,
-      "precio_actual": 333.86
+      "precio_actual": 334.4
     },
     "momentum": {
       "ret_12_1_pct": -3.8
     },
     "ratio_sp500": {
       "ratio_actual": 0.0458,
-      "percentil_2y": 13.0
+      "percentil_2y": 12.8
     },
     "ratio_silver": {
-      "ratio_actual": 7.69,
-      "percentil_2y": 55.7
+      "ratio_actual": 7.61,
+      "percentil_2y": 53.8
     },
     "dxy": {
-      "dxy_actual": 104.04,
+      "dxy_actual": 104.02,
       "percentil_2y": 84.9
     },
     "real_yield": {
       "real_yield_pct": 2.79
     },
     "vix": {
-      "vix_actual": 24.67
+      "vix_actual": 24.03
     }
   },
   "pesos": {
@@ -5080,7 +5080,7 @@
     },
     {
       "fecha": "2026-11-27",
-      "precio": 333.86
+      "precio": 334.4
     }
   ]
 }
